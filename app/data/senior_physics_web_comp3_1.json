@@ -1,0 +1,746 @@
+{
+  "batch_id": "senior-20261015-physics-web-comp3-1",
+  "source_manifest": [
+    {
+      "path": "https://zy.21cnjy.com/25195674#battery-emf-internal-resistance",
+      "revision": "2026-10-15",
+      "sha256": "284a0f2de3cdc4ffd46439c15f780ccd62ff00f2ddf20b9e939391a89053602f",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/25195674"
+    },
+    {
+      "path": "https://zy.21cnjy.com/25195674#terminal-voltage-internal-resistance",
+      "revision": "2026-10-15",
+      "sha256": "f0f7ff32a937696471cbdc69ab0dca457fa2a9ee2825a167ead16e43acbfb184",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/25195674"
+    },
+    {
+      "path": "https://zy.21cnjy.com/25195674#emf-external-internal-energy",
+      "revision": "2026-10-15",
+      "sha256": "e81045e8a3db9e3264c61618f01e6ce612f0f1492bd283bb74aa6be7f5db3d6f",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/25195674"
+    },
+    {
+      "path": "https://zy.21cnjy.com/25195674#emf-lead-acid-battery",
+      "revision": "2026-10-15",
+      "sha256": "8c613ef3877b77063c3de0839315d904abe9713f4c18bff65bb6c1136ae1e65d",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/25195674"
+    }
+  ],
+  "items": [
+    {
+      "question_id": "bank:web-21jy-battery-emf-internal-resistance",
+      "source_sha256": "61c84439fcf7578799b05e5e91bf45e6e68e1b97438679fe55c9d937e1fda505",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-battery-emf-internal-resistance",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "一电池外电路断开时的路端电压为3 V，接上8 Ω的负载电阻后路端电压降为2.4 V，则可以判定电池的电动势E和内电阻r为",
+        "options": [
+          {
+            "key": "A",
+            "text": "E=2.4 V，r=1 Ω"
+          },
+          {
+            "key": "B",
+            "text": "E=3 V，r=2 Ω"
+          },
+          {
+            "key": "C",
+            "text": "E=2.4 V，r=2 Ω"
+          },
+          {
+            "key": "D",
+            "text": "E=3 V，r=1 Ω"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "battery-emf-internal-resistance",
+          "source_file": "https://zy.21cnjy.com/25195674",
+          "download_revision": "2026-10-15",
+          "file_sha256": "284a0f2de3cdc4ffd46439c15f780ccd62ff00f2ddf20b9e939391a89053602f",
+          "url": "https://zy.21cnjy.com/25195674",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "《学霸笔记 同步精讲》电源的电动势和内阻、闭合电路欧姆定律（教师版）",
+          "captured_excerpt_sha256": "284a0f2de3cdc4ffd46439c15f780ccd62ff00f2ddf20b9e939391a89053602f"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "闭合电路欧姆定律与电动势内阻"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "利用开路电压和负载端电压求电源电动势及内阻"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "用开路状态得到电动势，再以带载电流和内电压列式求内阻。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "公开页面为教科版必修三电源电动势与闭合电路内容；按人教版同科课程主题对应compulsory-3 u4:g2映射。年级、学期及版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "选择题按选项作答；计算题要求量纲及关系式成立。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "一电池外电路断开时的路端电压为3 V，接上8 Ω的负载电阻后路端电压降为2.4 V，则可以判定电池的电动势E和内电阻r为",
+            "reference_answer": "B",
+            "solution_steps": [
+              "开路时电流为零，端电压等于电动势，因此E=3V。",
+              "接8Ω负载时I=U/R=2.4/8=0.30A，内电压E−U=0.60V。",
+              "r=(E−U)/I=0.60/0.30=2Ω，选B。"
+            ],
+            "knowledge_tags": [
+              "闭合电路欧姆定律与电动势内阻"
+            ],
+            "type_tags": [
+              "利用开路电压和负载端电压求电源电动势及内阻"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "whole-r1",
+                "description": "开路时E=3V并求带载电流",
+                "points": null,
+                "evidence_required": "开路时E=3V并求带载电流"
+              },
+              {
+                "id": "whole-r2",
+                "description": "用内电压与电流之比求r=2Ω",
+                "points": null,
+                "evidence_required": "用内电压与电流之比求r=2Ω"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把开路端电压误认为有内阻压降。",
+                "knowledge_tags": [
+                  "闭合电路欧姆定律与电动势内阻"
+                ],
+                "type_tags": [
+                  "利用开路电压和负载端电压求电源电动势及内阻"
+                ]
+              },
+              {
+                "description": "使用E而非负载端电压计算负载电流。",
+                "knowledge_tags": [
+                  "闭合电路欧姆定律与电动势内阻"
+                ],
+                "type_tags": [
+                  "利用开路电压和负载端电压求电源电动势及内阻"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题读取公开教师版的题干、答案及解析并独立复算。Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-comp3-1"
+        }
+      },
+      "independent_solution": [
+        "开路时电流为零，端电压等于电动势，因此E=3V。",
+        "接8Ω负载时I=U/R=2.4/8=0.30A，内电压E−U=0.60V。",
+        "r=(E−U)/I=0.60/0.30=2Ω，选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "开路时电流为零，端电压等于电动势，因此E=3V。；接8Ω负载时I=U/R=2.4/8=0.30A，内电压E−U=0.60V。；r=(E−U)/I=0.60/0.30=2Ω，选B。"
+    },
+    {
+      "question_id": "bank:web-21jy-terminal-voltage-internal-resistance",
+      "source_sha256": "208e1be0fd611bca7110e1233da7981d00b4d7651822948c19fdb723fa082519",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-terminal-voltage-internal-resistance",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "电动势为2 V的电源跟一个阻值R=9 Ω的电阻接成闭合电路，理想电压表测得电源两端电压为1.8 V，则电源的内阻为多少？",
+        "options": [],
+        "answer": "1 Ω",
+        "kind": "short_answer",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "terminal-voltage-internal-resistance",
+          "source_file": "https://zy.21cnjy.com/25195674",
+          "download_revision": "2026-10-15",
+          "file_sha256": "f0f7ff32a937696471cbdc69ab0dca457fa2a9ee2825a167ead16e43acbfb184",
+          "url": "https://zy.21cnjy.com/25195674",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "《学霸笔记 同步精讲》电源的电动势和内阻、闭合电路欧姆定律（教师版）",
+          "captured_excerpt_sha256": "f0f7ff32a937696471cbdc69ab0dca457fa2a9ee2825a167ead16e43acbfb184"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "short_answer",
+        "knowledge": {
+          "primary": [
+            "闭合电路欧姆定律与内电压"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由负载电流和电源内电压求电源内阻"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "由负载电压求电流，再将电源内电压除以电流。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "公开页面为教科版必修三电源电动势与闭合电路内容；按人教版同科课程主题对应compulsory-3 u4:g2映射。年级、学期及版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "text",
+          "accepted_answers": [
+            "1 Ω"
+          ],
+          "equivalence": "semantic",
+          "constraints": [
+            "选择题按选项作答；计算题要求量纲及关系式成立。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "电动势为2 V的电源跟一个阻值R=9 Ω的电阻接成闭合电路，理想电压表测得电源两端电压为1.8 V，则电源的内阻为多少？",
+            "reference_answer": "1 Ω",
+            "solution_steps": [
+              "理想电压表读出路端电压U=1.8V，负载电流I=U/R=1.8/9=0.20A。",
+              "电源内电压U内=E−U=2.0−1.8=0.20V。",
+              "r=U内/I=0.20/0.20=1Ω。"
+            ],
+            "knowledge_tags": [
+              "闭合电路欧姆定律与内电压"
+            ],
+            "type_tags": [
+              "由负载电流和电源内电压求电源内阻"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "whole-r1",
+                "description": "得到负载电流0.20A",
+                "points": null,
+                "evidence_required": "得到负载电流0.20A"
+              },
+              {
+                "id": "whole-r2",
+                "description": "由内电压0.20V求得r=1Ω",
+                "points": null,
+                "evidence_required": "由内电压0.20V求得r=1Ω"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把端电压当成内电压。",
+                "knowledge_tags": [
+                  "闭合电路欧姆定律与内电压"
+                ],
+                "type_tags": [
+                  "由负载电流和电源内电压求电源内阻"
+                ]
+              },
+              {
+                "description": "误用总电动势除以负载电流。",
+                "knowledge_tags": [
+                  "闭合电路欧姆定律与内电压"
+                ],
+                "type_tags": [
+                  "由负载电流和电源内电压求电源内阻"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题读取公开教师版的题干、答案及解析并独立复算。Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-comp3-1"
+        }
+      },
+      "independent_solution": [
+        "理想电压表读出路端电压U=1.8V，负载电流I=U/R=1.8/9=0.20A。",
+        "电源内电压U内=E−U=2.0−1.8=0.20V。",
+        "r=U内/I=0.20/0.20=1Ω。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "理想电压表读出路端电压U=1.8V，负载电流I=U/R=1.8/9=0.20A。；电源内电压U内=E−U=2.0−1.8=0.20V。；r=U内/I=0.20/0.20=1Ω。"
+    },
+    {
+      "question_id": "bank:web-21jy-emf-external-internal-energy",
+      "source_sha256": "07448e5e45819cc6c520c9c37900bdc36eb442d4b934787d81703fbce9ff5955",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-emf-external-internal-energy",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "将电动势为3 V的电源接入电路中，测得电源两极间的电压为2.4 V，当电路中有6 C的电荷流过时，分别求：(1)有多少其他形式的能转化为电能；(2)外电路中有多少电能转化为其他形式的能；(3)内电路中有多少电能转化为其他形式的能。",
+        "options": [],
+        "answer": "(1)18 J；(2)14.4 J；(3)3.6 J",
+        "kind": "calculation",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "emf-external-internal-energy",
+          "source_file": "https://zy.21cnjy.com/25195674",
+          "download_revision": "2026-10-15",
+          "file_sha256": "e81045e8a3db9e3264c61618f01e6ce612f0f1492bd283bb74aa6be7f5db3d6f",
+          "url": "https://zy.21cnjy.com/25195674",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "《学霸笔记 同步精讲》电源的电动势和内阻、闭合电路欧姆定律（教师版）",
+          "captured_excerpt_sha256": "e81045e8a3db9e3264c61618f01e6ce612f0f1492bd283bb74aa6be7f5db3d6f"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "闭合电路能量转化与电动势"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "按电动势、端电压及电荷量计算电源、外电路、内电路能量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "分别用电动势与端电压乘通过电荷量，并用能量守恒核验内耗。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "公开页面为教科版必修三电源电动势与闭合电路内容；按人教版同科课程主题对应compulsory-3 u4:g2映射。年级、学期及版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "text",
+          "accepted_answers": [
+            "(1)18 J；(2)14.4 J；(3)3.6 J"
+          ],
+          "equivalence": "semantic",
+          "constraints": [
+            "选择题按选项作答；计算题要求量纲及关系式成立。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "part1",
+            "prompt": "将电动势为3 V的电源接入电路中，测得电源两极间的电压为2.4 V，当电路中有6 C的电荷流过时，分别求：(1)有多少其他形式的能转化为电能；(2)外电路中有多少电能转化为其他形式的能；(3)内电路中有多少电能转化为其他形式的能。",
+            "reference_answer": "18 J",
+            "solution_steps": [
+              "电源非静电力做功并转化的电能W源=Eq=3×6=18J。"
+            ],
+            "knowledge_tags": [
+              "闭合电路能量转化与电动势"
+            ],
+            "type_tags": [
+              "按电动势、端电压及电荷量计算电源、外电路、内电路能量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "part1-r1",
+                "description": "写出W源=Eq并得18J",
+                "points": null,
+                "evidence_required": "写出W源=Eq并得18J"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "误用端电压代替电动势。",
+                "knowledge_tags": [
+                  "闭合电路能量转化与电动势"
+                ],
+                "type_tags": [
+                  "按电动势、端电压及电荷量计算电源、外电路、内电路能量"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part2",
+            "prompt": "part2",
+            "reference_answer": "14.4 J",
+            "solution_steps": [
+              "外电路能量转化W外=Uq=2.4×6=14.4J。"
+            ],
+            "knowledge_tags": [
+              "闭合电路能量转化与电动势"
+            ],
+            "type_tags": [
+              "按电动势、端电压及电荷量计算电源、外电路、内电路能量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "part2-r1",
+                "description": "写出W外=Uq并得14.4J",
+                "points": null,
+                "evidence_required": "写出W外=Uq并得14.4J"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把电源内压降用于外电路。",
+                "knowledge_tags": [
+                  "闭合电路能量转化与电动势"
+                ],
+                "type_tags": [
+                  "按电动势、端电压及电荷量计算电源、外电路、内电路能量"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "part3",
+            "prompt": "part3",
+            "reference_answer": "3.6 J",
+            "solution_steps": [
+              "内电路电能转化W内=W源−W外=18−14.4=3.6J；也可由(E−U)q验证。"
+            ],
+            "knowledge_tags": [
+              "闭合电路能量转化与电动势"
+            ],
+            "type_tags": [
+              "按电动势、端电压及电荷量计算电源、外电路、内电路能量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "part3-r1",
+                "description": "由能量守恒得3.6J并核验内电压",
+                "points": null,
+                "evidence_required": "由能量守恒得3.6J并核验内电压"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把内电路损耗加到外电路能量上。",
+                "knowledge_tags": [
+                  "闭合电路能量转化与电动势"
+                ],
+                "type_tags": [
+                  "按电动势、端电压及电荷量计算电源、外电路、内电路能量"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题读取公开教师版的题干、答案及解析并独立复算。Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-comp3-1"
+        }
+      },
+      "independent_solution": [
+        "电源非静电力做功并转化的电能W源=Eq=3×6=18J。",
+        "外电路能量转化W外=Uq=2.4×6=14.4J。",
+        "内电路电能转化W内=W源−W外=18−14.4=3.6J；也可由(E−U)q验证。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "电源非静电力做功并转化的电能W源=Eq=3×6=18J。；外电路能量转化W外=Uq=2.4×6=14.4J。；内电路电能转化W内=W源−W外=18−14.4=3.6J；也可由(E−U)q验证。"
+    },
+    {
+      "question_id": "bank:web-21jy-emf-lead-acid-battery",
+      "source_sha256": "61fc5b8196d091dc21e3a94a85e54ed5465e501b88031534723c6a8fc36d096c",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-emf-lead-acid-battery",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "一组铅蓄电池的电动势为4.8 V、内阻不为零，以下说法正确的是（多选）",
+        "options": [
+          {
+            "key": "A",
+            "text": "电路中每通过1 C电荷量，铅蓄电池能把4.8 J的化学能转变为电能"
+          },
+          {
+            "key": "B",
+            "text": "体积大的铅蓄电池比体积小的铅蓄电池的电动势大"
+          },
+          {
+            "key": "C",
+            "text": "电路中每通过1 C电荷量，铅蓄电池内部非静电力做功为4.8 J"
+          },
+          {
+            "key": "D",
+            "text": "该铅蓄电池把其他形式能转化为电能的本领比一节电动势为1.5 V的干电池强"
+          }
+        ],
+        "answer": "ACD",
+        "kind": "multiple_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "emf-lead-acid-battery",
+          "source_file": "https://zy.21cnjy.com/25195674",
+          "download_revision": "2026-10-15",
+          "file_sha256": "8c613ef3877b77063c3de0839315d904abe9713f4c18bff65bb6c1136ae1e65d",
+          "url": "https://zy.21cnjy.com/25195674",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "《学霸笔记 同步精讲》电源的电动势和内阻、闭合电路欧姆定律（教师版）",
+          "captured_excerpt_sha256": "8c613ef3877b77063c3de0839315d904abe9713f4c18bff65bb6c1136ae1e65d"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "电动势定义与电源功能"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由电动势解释单位电荷的能量转化并区分电动势与电池体积"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "结合W=Eq判断每库仑电荷的功及电动势所表征的电源转化本领。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "公开页面为教科版必修三电源电动势与闭合电路内容；按人教版同科课程主题对应compulsory-3 u4:g2映射。年级、学期及版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "选择题按选项作答；计算题要求量纲及关系式成立。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "一组铅蓄电池的电动势为4.8 V、内阻不为零，以下说法正确的是（多选）",
+            "reference_answer": "ACD",
+            "solution_steps": [
+              "电动势E=W非/q，q=1C时W非=4.8J；电池将其他形式能转为电能，A、C成立。",
+              "电动势由电源自身性质决定，不由体积决定，B错误。",
+              "4.8V大于1.5V，表征该电池每单位电荷转化能量的本领更强，D成立。",
+              "答案为ACD。"
+            ],
+            "knowledge_tags": [
+              "电动势定义与电源功能"
+            ],
+            "type_tags": [
+              "由电动势解释单位电荷的能量转化并区分电动势与电池体积"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "whole-r1",
+                "description": "依据W=Eq判断A、C",
+                "points": null,
+                "evidence_required": "依据W=Eq判断A、C"
+              },
+              {
+                "id": "whole-r2",
+                "description": "说明E与体积无关并判断D，选ACD",
+                "points": null,
+                "evidence_required": "说明E与体积无关并判断D，选ACD"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把电动势当作电源容量或体积的度量。",
+                "knowledge_tags": [
+                  "电动势定义与电源功能"
+                ],
+                "type_tags": [
+                  "由电动势解释单位电荷的能量转化并区分电动势与电池体积"
+                ]
+              },
+              {
+                "description": "将非静电力做功与负载端获得能量混同。",
+                "knowledge_tags": [
+                  "电动势定义与电源功能"
+                ],
+                "type_tags": [
+                  "由电动势解释单位电荷的能量转化并区分电动势与电池体积"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题读取公开教师版的题干、答案及解析并独立复算。Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-comp3-1"
+        }
+      },
+      "independent_solution": [
+        "电动势E=W非/q，q=1C时W非=4.8J；电池将其他形式能转为电能，A、C成立。",
+        "电动势由电源自身性质决定，不由体积决定，B错误。",
+        "4.8V大于1.5V，表征该电池每单位电荷转化能量的本领更强，D成立。",
+        "答案为ACD。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "电动势E=W非/q，q=1C时W非=4.8J；电池将其他形式能转为电能，A、C成立。；电动势由电源自身性质决定，不由体积决定，B错误。；4.8V大于1.5V，表征该电池每单位电荷转化能量的本领更强，D成立。；答案为ACD。"
+    }
+  ]
+}

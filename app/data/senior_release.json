@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "ready_for_import": true,
+  "files": {
+    "senior_curriculum.json": "87d7d0e9235fb3772e930b52d4ae467d94586cafd3cc10e2195b1672f02c9700",
+    "senior_foundations_peer_review.json": "75af5446b31a22c1cd60faa15875187bf31f614bb23dddbadf6406f7479b8438",
+    "senior_math_foundation_skills.json": "fece455feb4d615b8f4f95aec4aa26ed6d26456d3856fd220fe7fef7fc6b0ea6",
+    "senior_math_foundations.json": "864ef35d262ed2a24a8f02e74ff65a1fe0b8e06a68cf6c340e1df0160ba865f1",
+    "senior_math_luna.json": "873e2adc56ff7471e0d323c257135636c2f7ba1f32cd284c9f7f4ed28f5dc7d8",
+    "senior_peer_review.json": "d798df1866c8f3fb46bebf7d21d2d57f9d35c21608d496f1e27bfbf43f7fc8c5",
+    "senior_physics_foundation_skills.json": "6fb593d9053b3b3ffa2178d203f3125ab195d4f08156e684ad4969fe935ac0a2",
+    "senior_physics_foundations.json": "92de51aba9a3845b3434c2eb07218d18c7d2f21967f22cf29956e2cde1bf3217",
+    "senior_physics_luna.json": "96f1f2953f610256fe014fd11d83508d785ee2758166e40ba5d713c5f11bf2f6",
+    "senior_source_manifests.json": "68347af7e99bb28fcff8aa8c84348e200a50351f37670220bf438d7b70025637"
+  },
+  "selected": 858,
+  "chapters": 50,
+  "review": "Two Luna item reviews; not teacher certification.",
+  "foundations": {
+    "questions": {
+      "math": 276,
+      "physics": 301
+    },
+    "skills": 288,
+    "goals": 100
+  }
+}

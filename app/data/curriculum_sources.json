@@ -1,0 +1,311 @@
+{
+  "version": "junior-2026.10.3",
+  "checked_date": "2026-10-08",
+  "authoring": "学习目标和检查表现由项目改写；未教师审定。附件与教材缓存不进入Git。",
+  "standards": [
+    {
+      "subject": "math",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220510531636118932.pdf",
+      "cache_sha256": "1183b95c58a65eaac4c456f2d2b329bbe42f65a6482993edb537e3eaf8baa144",
+      "checked_pdf_pages": [
+        60,
+        61,
+        62
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    },
+    {
+      "subject": "chinese",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf",
+      "cache_sha256": "3ef0ec8a30b5a950211202658df07d99f5427f750f8ba0c3cfda12736b7bd71a",
+      "checked_pdf_pages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    },
+    {
+      "subject": "english",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+      "cache_sha256": "59ec3971e0dbd6ca487c4e4972cbc80effaf2fd62418d07e5f62c6698fa222fb",
+      "checked_pdf_pages": [
+        17,
+        18
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    },
+    {
+      "subject": "physics",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582357585169.pdf",
+      "cache_sha256": "884069da6c924acb27b966ea20b9c7a4d8f0d6dfc828c80cd252aa72bf990340",
+      "checked_pdf_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    },
+    {
+      "subject": "chemistry",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020230605524875861384.pdf",
+      "cache_sha256": "8e04592efba9a6baf41ebf6970d868f2461fbd8e43328fb2ddb57165aa0c2b5c",
+      "checked_pdf_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    },
+    {
+      "subject": "biology",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+      "cache_sha256": "95993bea87c30104631fa10f2f20f11b98d0718d69c4aeeac46c53a387f43c00",
+      "checked_pdf_pages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    },
+    {
+      "subject": "history",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "cache_sha256": "c807b9162d7f7a652c9acedc187c39b28d29b73edfa9e6964045f9a8672a90ef",
+      "checked_pdf_pages": [
+        13,
+        14
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    },
+    {
+      "subject": "geography",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582354066450.pdf",
+      "cache_sha256": "5aade5cb5cfa103c48277c8ff663783df69cafb0fec2411f4aad1924d75c67b8",
+      "checked_pdf_pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    },
+    {
+      "subject": "politics",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582343475848.pdf",
+      "cache_sha256": "16c0a291b522ce5b0afe3b1a28e696d8cca0d4d63cc01ff552a1d6ce06506cf0",
+      "checked_pdf_pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    },
+    {
+      "subject": "science",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582355009892.pdf",
+      "cache_sha256": "630b2fb082aed2f0b6aaff1cd30cdea530c41459ee0ffd5847e3e07b7324546f",
+      "checked_pdf_pages": [
+        16
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    },
+    {
+      "subject": "information",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582361024968.pdf",
+      "cache_sha256": "065f9df22d35da8813508c23782c7853dab3c54e34f552a627f8dd1698fa1e01",
+      "checked_pdf_pages": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "method": "本地PDF渲染及OCR辅助阅读课程目标/部分初中内容；非全文逐条对齐"
+    }
+  ],
+  "verified_toc": [
+    {
+      "scope_id": "math-7-1",
+      "edition": "人教版六三制 · 2024修订 · 七上目录已核对",
+      "url": "https://book.pep.com.cn/1321001101241/",
+      "checked_pages": [
+        6,
+        7,
+        8
+      ],
+      "cache_fingerprints": [
+        {
+          "page": 6,
+          "sha256": "5ba32d31cff46f9f350d9e5548dc8d745a82b7dc100eebd3527db71dfc3fd984"
+        },
+        {
+          "page": 7,
+          "sha256": "cd5e851620253fc6218015db282f66a0ccea97797af2e4e017910ddb904920cf"
+        },
+        {
+          "page": 8,
+          "sha256": "e09399d49786830e0316eb65190d4615c7f139681e193f4de94775c879f0e5c7"
+        }
+      ],
+      "verified": "目录与章节组织；不是教材正文、题目或逐条课标覆盖审定"
+    },
+    {
+      "scope_id": "chinese-8-2",
+      "edition": "统编语文 · 2025修订八下目录已核对",
+      "url": "https://book.pep.com.cn/1311001202251/",
+      "checked_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "cache_fingerprints": [
+        {
+          "page": 4,
+          "sha256": "a4664a92c67241040eb3c4553adc5203a01d5bb4744b0cf7f6b1454e32f70884"
+        },
+        {
+          "page": 5,
+          "sha256": "87e78598eb899b77e1927b8d6b4106efd45688fee1cd0bc7ae63ee2241721260"
+        },
+        {
+          "page": 6,
+          "sha256": "b8b671098ad805b59136ebfb546013dba80a78a262b7a61b506870902b1df4a2"
+        },
+        {
+          "page": 7,
+          "sha256": "c53994c2a5cf3fce381538427aa8e17cef603641d2a5de5edbc1c5cd8d514af4"
+        }
+      ],
+      "verified": "目录与章节组织；不是教材正文、题目或逐条课标覆盖审定"
+    },
+    {
+      "scope_id": "english-9-1",
+      "edition": "人教版英语 · 2026九上目录与语法项目已核对",
+      "url": "https://book.pep.com.cn/1312001301261/",
+      "checked_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "cache_fingerprints": [
+        {
+          "page": 4,
+          "sha256": "6d858a4b443ff0bb24f020d4bcaefda6c1bfc5d4cc06b53a2ebc9730e1a00845"
+        },
+        {
+          "page": 5,
+          "sha256": "862986425b423c0d49dabd3072f09f6e224b07acf2d8e1750838ddb113b5f6f9"
+        },
+        {
+          "page": 6,
+          "sha256": "b95ddf9a145390deb9aed94d25ad41e3bb9f25ce274277866c2a61d472a8df76"
+        },
+        {
+          "page": 7,
+          "sha256": "6faddabf15e9b916ab3277c9b0f7af47b3969cee3c92e5576559aad6ee7cfbca"
+        },
+        {
+          "page": 8,
+          "sha256": "29352f94287d541b81073820aae7092cc22f8d58950efe4c95cefcec86d3990e"
+        },
+        {
+          "page": 9,
+          "sha256": "3392397c6ca6d0152e3331037d51f28c85fb87839e53390db43f965b81f0fae3"
+        },
+        {
+          "page": 10,
+          "sha256": "2a1325e6ef123eb4db05f7c1cc1ee4d8297cdef01ef79d7d5e325e6aa31e8d43"
+        }
+      ],
+      "verified": "目录与章节组织；不是教材正文、题目或逐条课标覆盖审定"
+    },
+    {
+      "scope_id": "math-7-1",
+      "source_type": "user_pdf",
+      "edition": "人教版 · 文件内版次年份未确认",
+      "sha256": "341776bff427fec53b3e18a40bae91897c304eefc1b5dbb1298ff0ab010aa28e",
+      "checked_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_file": "app/data/textbook_reviews.json",
+      "verified": "目录主题与章节顺序；不认证所有细目、教材正文、题目答案或逐条课标覆盖。"
+    },
+    {
+      "scope_id": "math-7-2",
+      "source_type": "user_pdf",
+      "edition": "人教版 · 文件内版次年份未确认",
+      "sha256": "45557aebfb458fa033dc2de2009308321f93e1539c532fede0cea926f9e2c65d",
+      "checked_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_file": "app/data/textbook_reviews.json",
+      "verified": "目录主题与章节顺序；不认证所有细目、教材正文、题目答案或逐条课标覆盖。"
+    },
+    {
+      "scope_id": "math-8-1",
+      "source_type": "user_pdf",
+      "edition": "人教版 · 文件内版次年份未确认",
+      "sha256": "169c0091064d3e28f245fa63c47787c78d879488b72378aa8a6eb068fe4a197c",
+      "checked_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_file": "app/data/textbook_reviews.json",
+      "verified": "目录主题与章节顺序；不认证所有细目、教材正文、题目答案或逐条课标覆盖。"
+    },
+    {
+      "scope_id": "math-8-2",
+      "source_type": "user_pdf",
+      "edition": "人教版 · 文件内版次年份未确认",
+      "sha256": "98e4121b003d6993de34ff6716f1ccbc334f25b68f1c0eeb070c73396762ba98",
+      "checked_pages": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "review_file": "app/data/textbook_reviews.json",
+      "verified": "目录主题与章节顺序；不认证所有细目、教材正文、题目答案或逐条课标覆盖。"
+    }
+  ],
+  "remaining_scopes": "其余阶段仍为课标进阶建议。用户提供的数学九下已核对目录，但章节安排与当前建议进度不同，单独保留版本参考，尚未切换学习范围。",
+  "local_textbook_reviews": "app/data/textbook_reviews.json"
+}

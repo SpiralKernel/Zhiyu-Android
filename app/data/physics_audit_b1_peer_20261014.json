@@ -1,0 +1,135 @@
+[
+  {
+    "question_id": "bank:cjeval:02f5b1c8e5f1a10d0446cc9d",
+    "source_sha256": "dfafb4e22b9423ce35fbf87d7082e42f7bdeb0935c0b2d79ad604929046b4bb6",
+    "current_snapshot_id": "bank:cjeval:02f5b1c8e5f1a10d0446cc9d:49671ccb68a2",
+    "decision": "needs_revision",
+    "rationale": "验算支持答案1.05×10^8 N、变大、等于；但三个明确空格被合成一个whole part，通用rubric不能分别判断数值、趋势和悬浮平衡证据。",
+    "independent_checks": [
+      "(9.0×10^6+1.5×10^6)kg×10N/kg=1.05×10^8N。",
+      "下潜深度增加，静水压增大。",
+      "150m处悬浮，静止平衡时重力等于浮力。",
+      "应按三个空分别提供答案及可观察rubric；第一空要求单位N。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:31ded231f3e578a602a18cfd",
+    "source_sha256": "6b6b340d96f96cc5a134a50bea7523169acd4805997448d2400d5e53ed010ded",
+    "current_snapshot_id": "bank:cjeval:31ded231f3e578a602a18cfd:a63be1de7b49",
+    "decision": "needs_revision",
+    "rationale": "B项缺少“闭合电路”条件；限定为“不正确或缺少必要条件”后B可为唯一答案。但泛化rubric不足以核对概念证据。",
+    "independent_checks": [
+      "感应电流需闭合电路，故B条件不全。",
+      "并联电阻关系1/R总=Σ(1/Ri)，C表达正确；A、D定义成立。",
+      "rubric应要求选择B并指出闭合电路条件。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:40aba870202cca5176a2a368",
+    "source_sha256": "d0e1f301ef8b29db7a52272821c7a352741e9fb225a32d96734e351be5fa85e9",
+    "current_snapshot_id": "bank:cjeval:40aba870202cca5176a2a368:341d52f33d01",
+    "decision": "needs_revision",
+    "rationale": "修订答案C成立，但草稿仍标multiple_choice而仅有一个正确选项；应明确改为single_choice，rubric需指出分类证据。",
+    "independent_checks": [
+      "①小孔成像为光直线传播实像；②潜望镜为反射虚像；③放大镜为折射虚像；④幻灯机、⑤相机为折射实像。",
+      "因此仅C正确，原BC答案错误。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:4ca94c187a461ffafb1e62fb",
+    "source_sha256": "96f4422417e3f0b83602243291d858a9648a0b1db499e20729f8bc9fecf97088",
+    "current_snapshot_id": "bank:cjeval:4ca94c187a461ffafb1e62fb:89490e9b472d",
+    "decision": "needs_revision",
+    "rationale": "数学修订成立，但stem仍列A=31℃，options却把A列为33℃，草稿内部冲突。",
+    "independent_checks": [
+      "T=(34−3)×100/(97−3)=32.978…℃，约33℃。",
+      "原选项无正确值；修改A为33℃时必须同步修改stem、options和parts.prompt，并说明取整。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:606023fa1a341901e1d555d6",
+    "source_sha256": "c69aeb52e5b7c2db9aae533dccd13bc2246710be8cbaeb9b2f5760e3f47753c7",
+    "current_snapshot_id": "bank:cjeval:606023fa1a341901e1d555d6:47c18ddc65f9",
+    "decision": "needs_revision",
+    "rationale": "数值解答正确，草稿明确把改变电压及保持温度不变作为修订条件，没有冒称原题明确如此；但两编号问仍合并whole part并用泛化rubric。",
+    "independent_checks": [
+      "(1) I=Q/t=8C/12s=2/3A≈0.67A。",
+      "(2)第(1)问R=4V/(2/3A)=6Ω；恒温同一导体I=1A时U=6V。",
+      "来源“保持4V”与电流变为1A不能同时按恒温同一导体解释；需把第(2)问电压变化明确标为草稿改写。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:72a375790d57c58d146dd3dd",
+    "source_sha256": "200f3f1136b0653754b40ea916a550262eea65f74a780f0513ab59c167e664dd",
+    "current_snapshot_id": "bank:cjeval:72a375790d57c58d146dd3dd:a4d64c967ead",
+    "decision": "needs_revision",
+    "rationale": "三项结果正确，但编号小问合为whole part且rubric笼统，无法核验各关系式、单位与效率证据。",
+    "independent_checks": [
+      "R=U²/P=22Ω。",
+      "Q=cmΔT=4.62×10⁶J。",
+      "W=Pt=5.94×10⁶J；η=Q/W≈77.8%。",
+      "需按三问分别标出可观察证据；效率按题给45min和额定功率计算。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:a7d2e8bd2a4b59b9b9114ce1",
+    "source_sha256": "e4b09d509afc53dfbffd565d8d1682eb77f7baa549ddb7dc03f5e6fc3d3a2f15",
+    "current_snapshot_id": "bank:cjeval:a7d2e8bd2a4b59b9b9114ce1:35863b0da8e1",
+    "decision": "keep_quarantined",
+    "rationale": "给定数据导出效率大于100%，且第(3)问来源答案与代入数据不符；无法在不猜改源参数时修复。",
+    "independent_checks": [
+      "m=1.5kg，Q吸=4.1×10³×1.5×80=4.92×10⁵J。",
+      "输入电能=1100×400=4.40×10⁵J，η=111.8%，违反能量守恒。",
+      "按来源解析R≈48.1Ω，P=440000/430≈1023W，U≈222V，不是210V。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:b45f6cb9ad58d2a5998d1bbf",
+    "source_sha256": "be1b3c686936575608843c844204dfc7d67676dd4702742ab5bd4aee55b07f99",
+    "current_snapshot_id": "bank:cjeval:b45f6cb9ad58d2a5998d1bbf:053132ea05d0",
+    "decision": "needs_revision",
+    "rationale": "B改为“仅由反射形成”后可判错误，但parts.prompt仍保留原“折射和反射”，草稿内部不一致；D提及音质，诗句只支持声音传到客船，不能据此判音质。",
+    "independent_checks": [
+      "原B“折射和反射”并非明显错误，故原答案ACD漏选B。",
+      "若改B必须在stem和parts.prompt同步呈现并标记这是题目改写。",
+      "D应仅表述声音传播；诗句不能推出音色/音质。",
+      "A平均速度、C温度与分子热运动可接受。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:c9d1aef82ca6c0ec0ad203bb",
+    "source_sha256": "4b0ce1ba92ec41167cfc8f176e5cd81db1f1cb5917a75056081753894e55b1c6",
+    "current_snapshot_id": "bank:cjeval:c9d1aef82ca6c0ec0ad203bb:c9c548335227",
+    "decision": "needs_revision",
+    "rationale": "数值修正正确且理想加热条件已明示，但三问合并为whole part并仅给泛化rubric，无法核对分步证据。",
+    "independent_checks": [
+      "50L水按水密度换算为50kg，Q=9.45×10⁶J。",
+      "题干明确忽略散热且水吸热等于电能时，t=3780s。",
+      "燃料质量=9.45×10⁶/(0.12×1.2×10⁷)=6.5625kg≈6.56kg。",
+      "保留新增理想条件为明确题干改写。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:e2fda4bb218d4aba805d5f9d",
+    "source_sha256": "b3993142309f665c362178cd37b5552f52e340317b345975be84b2e13c69d1f7",
+    "current_snapshot_id": "bank:cjeval:e2fda4bb218d4aba805d5f9d:94d02206cc61",
+    "decision": "keep_quarantined",
+    "rationale": "原题未说明电池连接方式，原解析把并联说成4.5V，来源答案也不符；草稿直接新增三节1.5V串联条件，属无依据改题。",
+    "independent_checks": [
+      "三节1.5V串联得U=4.5V、I=0.15A、Q(5s)=0.75C。",
+      "三节并联总电压1.5V，得I=0.05A、Q=0.25C。",
+      "答案取决于缺失的连接信息；需原图或源条件。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:fcdffd6321281acfe642a626",
+    "source_sha256": "2ee69599982b852ef02ed72c19f968634492c1aee02b407e4ddcf68d4ec032b8",
+    "current_snapshot_id": "bank:cjeval:fcdffd6321281acfe642a626:4471d5d6447e",
+    "decision": "keep_quarantined",
+    "rationale": "计算得物体密度等于水，不能自然下沉至底部；无法确定应改质量、排水重力、液体或题干状态。",
+    "independent_checks": [
+      "排开水重力0.6N对应质量0.06kg、体积6.0×10⁻⁵m³。",
+      "完全浸没且物体质量0.06kg，密度1000kg/m³，呈中性浮力而非自然沉底。"
+    ]
+  }
+]

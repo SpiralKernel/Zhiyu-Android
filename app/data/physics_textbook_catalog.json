@@ -1,0 +1,2531 @@
+{
+  "schema_version": 1,
+  "version": "physics-textbooks-2026.10.22-1",
+  "basis": "用户提供人教版三册PDF；目标、检查依据与题型由项目改写，非教材原文或教师认证",
+  "books": [
+    {
+      "id": "physics-8-1",
+      "filename": "最新【人教版】8年级物理课本•上册.pdf",
+      "sha256": "32fbab4b611ebb102d6118d505217f4317590609e403438555240160873109ce",
+      "pdf_pages": 170,
+      "toc_pdf_pages": [
+        4,
+        5
+      ],
+      "internal_book_ids": [
+        "physics-8-1"
+      ],
+      "term_split": "textbook_volume",
+      "chapters": [
+        {
+          "number": 1,
+          "name": "机械运动",
+          "book_id": "physics-8-1",
+          "goal_id": "physics-8-1:u1:g1",
+          "sections": [
+            {
+              "id": "phys:c1:s1",
+              "name": "长度和时间的测量",
+              "printed_page": 11,
+              "pdf_page": 18,
+              "aliases": [
+                "长度测量",
+                "刻度尺",
+                "停表",
+                "时间测量"
+              ],
+              "can_do": "选量程和分度值，正确读数、记录单位并用多次测量减小随机误差",
+              "checks": [
+                "刻度尺读数估读到分度值下一位，数字计时按显示记录；错误操作不等于测量误差。"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c1:s2",
+              "name": "运动的描述",
+              "printed_page": 17,
+              "pdf_page": 24,
+              "aliases": [
+                "参照物",
+                "相对运动",
+                "运动的描述"
+              ],
+              "can_do": "选定参照物判断运动和静止并解释相对性",
+              "checks": [
+                "同一判断必须说明参照物，不能把参照物理解为绝对静止"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c1:s3",
+              "name": "运动的快慢",
+              "printed_page": 20,
+              "pdf_page": 27,
+              "aliases": [
+                "速度",
+                "路程时间",
+                "速度图像"
+              ],
+              "can_do": "用路程时间及其图像比较运动快慢并完成单位换算",
+              "checks": [
+                "全程平均速度用总路程除总时间，不能直接平均各段速度"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c1:s4",
+              "name": "速度的测量",
+              "printed_page": 25,
+              "pdf_page": 32,
+              "aliases": [
+                "平均速度测量",
+                "测量平均速度",
+                "斜面小车"
+              ],
+              "can_do": "根据测量方案记录路程和时间并求平均速度",
+              "checks": [
+                "说明计时起终点、重复测量与误差来源"
+              ],
+              "modes": [
+                "experiment",
+                "calculation"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "声现象",
+          "book_id": "physics-8-1",
+          "goal_id": "physics-8-1:u2:g1",
+          "sections": [
+            {
+              "id": "phys:c2:s1",
+              "name": "声音的产生与传播",
+              "printed_page": 32,
+              "pdf_page": 39,
+              "aliases": [
+                "声音的产生",
+                "声音的传播",
+                "声速",
+                "回声"
+              ],
+              "can_do": "用振动与介质解释声音产生传播并处理回声测距",
+              "checks": [
+                "区分声源振动与传播介质，回声时间对应往返路程"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c2:s2",
+              "name": "声音的特性",
+              "printed_page": 37,
+              "pdf_page": 44,
+              "aliases": [
+                "音调",
+                "响度",
+                "音色",
+                "声音的特性"
+              ],
+              "can_do": "根据振动和波形区分音调响度音色",
+              "checks": [
+                "频率对应音调，振幅主要关联响度，不把传播速度当音调"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c2:s3",
+              "name": "声的利用",
+              "printed_page": 44,
+              "pdf_page": 51,
+              "aliases": [
+                "超声波",
+                "次声波",
+                "声的利用"
+              ],
+              "can_do": "区分声音传递信息与能量并解释应用",
+              "checks": [
+                "超声和次声按频率划分，不能以响度划分"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c2:s4",
+              "name": "噪声的危害和控制",
+              "printed_page": 49,
+              "pdf_page": 56,
+              "aliases": [
+                "噪声",
+                "噪音",
+                "隔音"
+              ],
+              "can_do": "按声源、传播途径、人耳三个环节提出降噪措施",
+              "checks": [
+                "结合具体环境判断噪声，不把减弱振动与隔断传播混淆"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c2:s5",
+              "name": "跨学科实践：制作隔音房间模型",
+              "printed_page": 53,
+              "pdf_page": 60,
+              "aliases": [
+                "隔音房间",
+                "隔音材料"
+              ],
+              "can_do": "设计隔音模型对照实验并依据测量结果改进结构",
+              "checks": [
+                "保持声源和测量位置一致，记录材料与降噪效果；实物表现另行观察"
+              ],
+              "modes": [
+                "practice"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "物态变化",
+          "book_id": "physics-8-1",
+          "goal_id": "physics-8-1:u3:g1",
+          "sections": [
+            {
+              "id": "phys:c3:s1",
+              "name": "温度",
+              "printed_page": 58,
+              "pdf_page": 65,
+              "aliases": [
+                "温度计",
+                "温度测量",
+                "摄氏温度"
+              ],
+              "can_do": "规范使用温度计并比较温度与温度变化量",
+              "checks": [
+                "读数前充分接触并稳定，区分零下读数和下降量"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c3:s2",
+              "name": "熔化和凝固",
+              "printed_page": 64,
+              "pdf_page": 71,
+              "aliases": [
+                "熔化",
+                "凝固",
+                "熔点",
+                "凝固点"
+              ],
+              "can_do": "读温度时间曲线并区分晶体与非晶体变化",
+              "checks": [
+                "晶体熔化吸热而温度可不变；条件和物态要完整"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c3:s3",
+              "name": "汽化和液化",
+              "printed_page": 70,
+              "pdf_page": 77,
+              "aliases": [
+                "汽化",
+                "液化",
+                "蒸发",
+                "沸腾"
+              ],
+              "can_do": "区分蒸发沸腾并分析汽化液化的吸放热及条件",
+              "checks": [
+                "沸腾需达到沸点且持续吸热，白气是小液滴而非水蒸气"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c3:s4",
+              "name": "升华和凝华",
+              "printed_page": 77,
+              "pdf_page": 84,
+              "aliases": [
+                "升华",
+                "凝华"
+              ],
+              "can_do": "依据初末物态识别升华凝华及吸放热",
+              "checks": [
+                "不能凭变冷或变热单独推断物态变化种类"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c3:s5",
+              "name": "跨学科实践：探索厨房中的物态变化问题",
+              "printed_page": 81,
+              "pdf_page": 88,
+              "aliases": [
+                "厨房中的物态变化"
+              ],
+              "can_do": "从厨房情境建立物态变化观察记录并用证据解释",
+              "checks": [
+                "区分观察和推断，记录初末物态与能量变化，不把方案文字当实际操作完成"
+              ],
+              "modes": [
+                "practice"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "光现象",
+          "book_id": "physics-8-1",
+          "goal_id": "physics-8-1:u4:g1",
+          "sections": [
+            {
+              "id": "phys:c4:s1",
+              "name": "光的直线传播",
+              "printed_page": 88,
+              "pdf_page": 95,
+              "aliases": [
+                "光的直线传播",
+                "影子",
+                "小孔成像"
+              ],
+              "can_do": "在同种均匀介质条件下解释影子和小孔成像",
+              "checks": [
+                "区分小孔成像与平面镜成像，明确传播条件"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c4:s2",
+              "name": "光的反射",
+              "printed_page": 93,
+              "pdf_page": 100,
+              "aliases": [
+                "光的反射",
+                "反射定律",
+                "入射角",
+                "反射角"
+              ],
+              "can_do": "以法线为基准画反射光路并检验角度关系",
+              "checks": [
+                "反射角等于入射角，不能用与镜面夹角替代"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c4:s3",
+              "name": "平面镜成像",
+              "printed_page": 98,
+              "pdf_page": 105,
+              "aliases": [
+                "平面镜成像",
+                "平面镜",
+                "镜像"
+              ],
+              "can_do": "利用物像对称描述虚像位置大小并作图",
+              "checks": [
+                "像和物到镜面距离相等，光屏不能承接虚像"
+              ],
+              "modes": [
+                "concept",
+                "drawing",
+                "experiment"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c4:s4",
+              "name": "光的折射",
+              "printed_page": 103,
+              "pdf_page": 110,
+              "aliases": [
+                "光的折射",
+                "折射角",
+                "折射光线"
+              ],
+              "can_do": "依据介质变化判断折射方向并解释视深现象",
+              "checks": [
+                "垂直入射方向可不改变；不要在未给条件时推定折射角数值"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c4:s5",
+              "name": "光的色散",
+              "printed_page": 107,
+              "pdf_page": 114,
+              "aliases": [
+                "色散",
+                "三原色",
+                "红外线",
+                "紫外线"
+              ],
+              "can_do": "解释白光色散并区分色光混合与物体颜色",
+              "checks": [
+                "区分色光三原色和颜料混合，光谱顺序有实验依据"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "透镜及其应用",
+          "book_id": "physics-8-1",
+          "goal_id": "physics-8-1:u5:g1",
+          "sections": [
+            {
+              "id": "phys:c5:s1",
+              "name": "透镜",
+              "printed_page": 114,
+              "pdf_page": 121,
+              "aliases": [
+                "凸透镜",
+                "凹透镜",
+                "焦点",
+                "焦距"
+              ],
+              "can_do": "识别凸凹透镜并用特殊光线说明会聚发散",
+              "checks": [
+                "会聚和发散描述相对原方向的偏折，不以是否真的相交判断"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [
+                "phys:c4:s4"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c5:s2",
+              "name": "生活中的透镜",
+              "printed_page": 118,
+              "pdf_page": 125,
+              "aliases": [
+                "照相机",
+                "投影仪",
+                "放大镜"
+              ],
+              "can_do": "结合成像性质解释照相机投影仪放大镜",
+              "checks": [
+                "核对实虚、正倒、大小和物距区间"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c4:s4"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c5:s3",
+              "name": "凸透镜成像的规律",
+              "printed_page": 122,
+              "pdf_page": 129,
+              "aliases": [
+                "凸透镜成像",
+                "物距",
+                "像距",
+                "成像规律"
+              ],
+              "can_do": "依据物距与焦距的关系判断成像并处理实验数据",
+              "checks": [
+                "分清一倍焦距与二倍焦距边界；透镜光屏烛焰中心需调整"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c4:s4"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c5:s4",
+              "name": "眼睛和眼镜",
+              "printed_page": 126,
+              "pdf_page": 133,
+              "aliases": [
+                "近视",
+                "远视",
+                "眼睛",
+                "眼镜"
+              ],
+              "can_do": "结合成像位置说明近视远视及矫正透镜",
+              "checks": [
+                "近视用凹透镜，远视用凸透镜；不能根据度数推断未经给出的诊断"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [
+                "phys:c4:s4"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c5:s5",
+              "name": "跨学科实践：制作望远镜",
+              "printed_page": 130,
+              "pdf_page": 137,
+              "aliases": [
+                "望远镜",
+                "望远镜制作"
+              ],
+              "can_do": "说明物镜目镜的作用并比较组合透镜成像",
+              "checks": [
+                "记录调节方法与观察证据，不把制作方案当操作已完成"
+              ],
+              "modes": [
+                "practice"
+              ],
+              "prerequisites": [
+                "phys:c4:s4"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "name": "质量与密度",
+          "book_id": "physics-8-1",
+          "goal_id": "physics-8-1:u6:g1",
+          "sections": [
+            {
+              "id": "phys:c6:s1",
+              "name": "质量",
+              "printed_page": 139,
+              "pdf_page": 146,
+              "aliases": [
+                "质量",
+                "天平",
+                "砝码",
+                "游码"
+              ],
+              "can_do": "说明质量概念并规范使用天平读数",
+              "checks": [
+                "区分质量与重力，调平与称量时的操作不能混用"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c6:s2",
+              "name": "密度",
+              "printed_page": 144,
+              "pdf_page": 151,
+              "aliases": [
+                "密度",
+                "质量体积",
+                "密度图像"
+              ],
+              "can_do": "依据质量体积关系求密度并解释图像斜率",
+              "checks": [
+                "密度需考虑物质和状态，不能仅因质量改变就断言密度改变"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c6:s3",
+              "name": "测量液体和固体的密度",
+              "printed_page": 149,
+              "pdf_page": 156,
+              "aliases": [
+                "测量密度",
+                "密度测量",
+                "量筒"
+              ],
+              "can_do": "设计固体液体密度测量并分析操作顺序和误差",
+              "checks": [
+                "明确质量差与排液体积的对应关系，分析残留液或吸水影响"
+              ],
+              "modes": [
+                "experiment",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c6:s4",
+              "name": "密度的应用",
+              "printed_page": 152,
+              "pdf_page": 159,
+              "aliases": [
+                "空心",
+                "混合密度",
+                "密度应用"
+              ],
+              "can_do": "用质量体积守恒处理鉴别物质、空心或混合问题",
+              "checks": [
+                "混合体积能否相加必须有条件，不强行假设体积守恒"
+              ],
+              "modes": [
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c1:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-8-2",
+      "filename": "最新【人教版】8年级物理课本•下册.pdf",
+      "sha256": "c6e25bed6ffcd6865d46417474b176fc29f1b5b8badf08d6c9c80eb50d5243b8",
+      "pdf_pages": 131,
+      "toc_pdf_pages": [
+        3,
+        4
+      ],
+      "internal_book_ids": [
+        "physics-8-2"
+      ],
+      "term_split": "textbook_volume",
+      "chapters": [
+        {
+          "number": 7,
+          "name": "力",
+          "book_id": "physics-8-2",
+          "goal_id": "physics-8-2:u1:g1",
+          "sections": [
+            {
+              "id": "phys:c7:s1",
+              "name": "力",
+              "printed_page": 2,
+              "pdf_page": 6,
+              "aliases": [
+                "力的作用效果",
+                "力的三要素",
+                "力的示意图",
+                "相互作用力"
+              ],
+              "can_do": "确定施受力物体并用示意图表示力的三要素",
+              "checks": [
+                "平衡力作用于同一物体，相互作用力作用于不同物体"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c7:s2",
+              "name": "弹力",
+              "printed_page": 7,
+              "pdf_page": 12,
+              "aliases": [
+                "弹力",
+                "弹簧测力计",
+                "弹性形变"
+              ],
+              "can_do": "根据弹性形变分析弹力并规范使用弹簧测力计",
+              "checks": [
+                "核对量程、调零和测量方向，不在弹性限度外套规律"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c7:s3",
+              "name": "重力",
+              "printed_page": 11,
+              "pdf_page": 16,
+              "aliases": [
+                "重力",
+                "重心",
+                "重力质量"
+              ],
+              "can_do": "用G=mg求重力并描述方向和作用点",
+              "checks": [
+                "重力方向竖直向下而非必与接触面垂直，质量单位用kg"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "name": "运动和力",
+          "book_id": "physics-8-2",
+          "goal_id": "physics-8-2:u2:g1",
+          "sections": [
+            {
+              "id": "phys:c8:s1",
+              "name": "牛顿第一定律",
+              "printed_page": 19,
+              "pdf_page": 24,
+              "aliases": [
+                "牛顿第一定律",
+                "惯性",
+                "阻力对运动"
+              ],
+              "can_do": "结合实验与推理说明力和运动的关系",
+              "checks": [
+                "惯性不是力，维持匀速直线运动不需要合力"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c7:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c8:s2",
+              "name": "二力平衡",
+              "printed_page": 23,
+              "pdf_page": 28,
+              "aliases": [
+                "二力平衡",
+                "平衡力",
+                "受力分析"
+              ],
+              "can_do": "依据研究对象和运动状态判断二力平衡",
+              "checks": [
+                "等大反向同直线且同一物体缺一不可"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c7:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c8:s3",
+              "name": "摩擦力",
+              "printed_page": 27,
+              "pdf_page": 32,
+              "aliases": [
+                "滑动摩擦",
+                "静摩擦",
+                "摩擦力"
+              ],
+              "can_do": "分析摩擦方向影响因素并评价控制变量实验",
+              "checks": [
+                "摩擦可与物体运动方向相同；静摩擦大小需依据平衡条件"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c7:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c8:s4",
+              "name": "同一直线上二力的合成",
+              "printed_page": 33,
+              "pdf_page": 38,
+              "aliases": [
+                "合力",
+                "二力的合成",
+                "同一直线二力"
+              ],
+              "can_do": "按方向约定合成同一直线上的两个力",
+              "checks": [
+                "先定正方向再代数相加，不能直接把大小相加"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c7:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "name": "压强",
+          "book_id": "physics-8-2",
+          "goal_id": "physics-8-2:u3:g1",
+          "sections": [
+            {
+              "id": "phys:c9:s1",
+              "name": "压强",
+              "printed_page": 40,
+              "pdf_page": 45,
+              "aliases": [
+                "固体压强",
+                "压力",
+                "受力面积"
+              ],
+              "can_do": "用p=F/S分析压力与受力面积的作用",
+              "checks": [
+                "压力不总等于重力，面积单位换算要平方"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c7:s1",
+                "phys:c6:s2"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c9:s2",
+              "name": "液体的压强",
+              "printed_page": 45,
+              "pdf_page": 50,
+              "aliases": [
+                "液体压强",
+                "液体深度",
+                "连通器"
+              ],
+              "can_do": "用液体密度与竖直深度解释液体压强和连通器",
+              "checks": [
+                "深度从自由液面量起，不是容器斜边长度"
+              ],
+              "modes": [
+                "concept",
+                "calculation",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c7:s1",
+                "phys:c6:s2"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c9:s3",
+              "name": "大气压强",
+              "printed_page": 52,
+              "pdf_page": 57,
+              "aliases": [
+                "大气压",
+                "托里拆利",
+                "气压",
+                "沸点气压"
+              ],
+              "can_do": "依据实验解释大气压强并分析生活应用",
+              "checks": [
+                "区分气压变化与液柱变化，不能把吸力当独立原因"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c7:s1",
+                "phys:c6:s2"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c9:s4",
+              "name": "跨学科实践：制作简易活塞式抽水机",
+              "printed_page": 56,
+              "pdf_page": 61,
+              "aliases": [
+                "活塞式抽水机",
+                "抽水机"
+              ],
+              "can_do": "结合气压与阀门设计解释抽水过程",
+              "checks": [
+                "用阀门状态和压强差说明进出水；文字解释不代替制作评价"
+              ],
+              "modes": [
+                "practice"
+              ],
+              "prerequisites": [
+                "phys:c7:s1",
+                "phys:c6:s2"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c9:s5",
+              "name": "流体压强与流速的关系",
+              "printed_page": 59,
+              "pdf_page": 64,
+              "aliases": [
+                "流速压强",
+                "流体压强",
+                "飞机升力"
+              ],
+              "can_do": "在适用条件下用流速与压强关系解释现象",
+              "checks": [
+                "不把压强变化直接当作任何流体状态下都适用的公式"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c7:s1",
+                "phys:c6:s2"
+              ],
+              "required": true,
+              "assessment_limits": []
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "name": "浮力",
+          "book_id": "physics-8-2",
+          "goal_id": "physics-8-2:u4:g1",
+          "sections": [
+            {
+              "id": "phys:c10:s1",
+              "name": "浮力",
+              "printed_page": 64,
+              "pdf_page": 69,
+              "aliases": [
+                "浮力",
+                "称重法",
+                "压力差浮力"
+              ],
+              "can_do": "分析浮力产生原因并用称重法测量",
+              "checks": [
+                "区分浮力和物体重力，不忽略是否触底等条件"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c9:s2",
+                "phys:c7:s3"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c10:s2",
+              "name": "阿基米德原理",
+              "printed_page": 68,
+              "pdf_page": 73,
+              "aliases": [
+                "阿基米德",
+                "排开液体",
+                "排液体积"
+              ],
+              "can_do": "用F浮=ρ液gV排计算并分析验证实验",
+              "checks": [
+                "排液体积不一定等于物体总体积"
+              ],
+              "modes": [
+                "calculation",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c9:s2",
+                "phys:c7:s3"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c10:s3",
+              "name": "物体的浮沉条件及应用",
+              "printed_page": 73,
+              "pdf_page": 78,
+              "aliases": [
+                "浮沉条件",
+                "漂浮",
+                "悬浮",
+                "潜水艇"
+              ],
+              "can_do": "结合浮力重力及密度判断浮沉和平衡",
+              "checks": [
+                "漂浮和悬浮均可受力平衡但排液体积不同"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c9:s2",
+                "phys:c7:s3"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c10:s4",
+              "name": "跨学科实践：制作微型密度计",
+              "printed_page": 77,
+              "pdf_page": 82,
+              "aliases": [
+                "密度计",
+                "微型密度计"
+              ],
+              "can_do": "依据漂浮条件设计刻度并比较液体密度",
+              "checks": [
+                "同一密度计浮力不变，液体密度越大排液体积越小"
+              ],
+              "modes": [
+                "practice",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c9:s2",
+                "phys:c7:s3"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "name": "功和机械能",
+          "book_id": "physics-8-2",
+          "goal_id": "physics-8-2:u5:g1",
+          "sections": [
+            {
+              "id": "phys:c11:s1",
+              "name": "功",
+              "printed_page": 84,
+              "pdf_page": 89,
+              "aliases": [
+                "机械功",
+                "做功条件",
+                "功的计算"
+              ],
+              "can_do": "判断做功条件并计算沿力方向的恒力功",
+              "checks": [
+                "力与沿力方向位移对应，有力无对应位移不能直接算功"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c7:s1",
+                "phys:c1:s3"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c11:s2",
+              "name": "功率",
+              "printed_page": 88,
+              "pdf_page": 93,
+              "aliases": [
+                "机械功率",
+                "功率",
+                "功时间"
+              ],
+              "can_do": "比较做功快慢并用P=W/t计算功率",
+              "checks": [
+                "功率大不等于做功多，平均功率需对应同一时间段"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c7:s1",
+                "phys:c1:s3"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c11:s3",
+              "name": "动能和势能",
+              "printed_page": 91,
+              "pdf_page": 96,
+              "aliases": [
+                "动能",
+                "重力势能",
+                "弹性势能"
+              ],
+              "can_do": "用控制变量实验比较动能和势能影响因素",
+              "checks": [
+                "不能仅凭速度或高度单个因素比较不同物体能量"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c7:s1",
+                "phys:c1:s3"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c11:s4",
+              "name": "机械能及其转化",
+              "printed_page": 96,
+              "pdf_page": 101,
+              "aliases": [
+                "机械能",
+                "机械能转化",
+                "机械能守恒"
+              ],
+              "can_do": "描述动能势能转化并说明机械能是否守恒",
+              "checks": [
+                "存在摩擦等耗散时机械能可减少，总能量守恒不等于机械能守恒"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c7:s1",
+                "phys:c1:s3"
+              ],
+              "required": true,
+              "assessment_limits": []
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "name": "简单机械",
+          "book_id": "physics-8-2",
+          "goal_id": "physics-8-2:u6:g1",
+          "sections": [
+            {
+              "id": "phys:c12:s1",
+              "name": "杠杆",
+              "printed_page": 104,
+              "pdf_page": 109,
+              "aliases": [
+                "杠杆",
+                "力臂",
+                "杠杆平衡"
+              ],
+              "can_do": "画力臂并用力矩平衡解释杠杆应用",
+              "checks": [
+                "力臂是支点到作用线的垂直距离，不能直接用杆长"
+              ],
+              "modes": [
+                "drawing",
+                "calculation",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c11:s1",
+                "phys:c7:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c12:s2",
+              "name": "跨学科实践：制作简易杆秤",
+              "printed_page": 111,
+              "pdf_page": 116,
+              "aliases": [
+                "杆秤",
+                "杆秤制作"
+              ],
+              "can_do": "根据杠杆平衡设计杆秤刻度并评价测量方案",
+              "checks": [
+                "明确秤钩、支点和秤砣位置，操作表现需实际证据"
+              ],
+              "modes": [
+                "practice"
+              ],
+              "prerequisites": [
+                "phys:c11:s1",
+                "phys:c7:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c12:s3",
+              "name": "滑轮",
+              "printed_page": 113,
+              "pdf_page": 118,
+              "aliases": [
+                "滑轮",
+                "滑轮组",
+                "定滑轮",
+                "动滑轮"
+              ],
+              "can_do": "分析承重绳段与运动距离并求拉力",
+              "checks": [
+                "区分定动滑轮，计入题目明确给出的绳重和摩擦条件"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c11:s1",
+                "phys:c7:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c12:s4",
+              "name": "机械效率",
+              "printed_page": 117,
+              "pdf_page": 122,
+              "aliases": [
+                "机械效率",
+                "有用功",
+                "额外功",
+                "总功"
+              ],
+              "can_do": "确定有用功与总功并求机械效率",
+              "checks": [
+                "效率与省力程度无必然对应，总功需包含额外消耗"
+              ],
+              "modes": [
+                "calculation",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c11:s1",
+                "phys:c7:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-9-all",
+      "filename": "最新【人教版】9年级物理课本•全一册.pdf",
+      "sha256": "7737a918600b2b70e3428d68097951646a6e20046864d7b207e49344e52307c8",
+      "pdf_pages": 218,
+      "toc_pdf_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "internal_book_ids": [
+        "physics-9-1",
+        "physics-9-2"
+      ],
+      "term_split": "project_suggestion",
+      "chapters": [
+        {
+          "number": 13,
+          "name": "内能",
+          "book_id": "physics-9-1",
+          "goal_id": "physics-9-1:u1:g1",
+          "sections": [
+            {
+              "id": "phys:c13:s1",
+              "name": "热量 比热容",
+              "printed_page": 2,
+              "pdf_page": 8,
+              "aliases": [
+                "比热容",
+                "热量",
+                "吸热放热"
+              ],
+              "can_do": "用Q=cmΔt分析无物态变化时吸放热",
+              "checks": [
+                "温度变化取对应差值，物态变化不能仅套升温公式"
+              ],
+              "modes": [
+                "concept",
+                "calculation",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c6:s1",
+                "phys:c3:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c13:s2",
+              "name": "分子动理论的初步知识",
+              "printed_page": 8,
+              "pdf_page": 15,
+              "aliases": [
+                "分子动理论",
+                "扩散",
+                "分子热运动",
+                "分子间作用力"
+              ],
+              "can_do": "用分子运动与相互作用解释扩散等现象",
+              "checks": [
+                "宏观颗粒运动不是分子运动本身；温度影响无规则运动"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c6:s1",
+                "phys:c3:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c13:s3",
+              "name": "内能",
+              "printed_page": 13,
+              "pdf_page": 20,
+              "aliases": [
+                "内能",
+                "热传递",
+                "做功改变内能"
+              ],
+              "can_do": "区分内能温度热量并说明改变内能的途径",
+              "checks": [
+                "热量是过程量，不说物体含有热量；做功也能改变内能"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c6:s1",
+                "phys:c3:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "name": "内能的利用",
+          "book_id": "physics-9-1",
+          "goal_id": "physics-9-1:u2:g1",
+          "sections": [
+            {
+              "id": "phys:c14:s1",
+              "name": "能量的转化与守恒",
+              "printed_page": 20,
+              "pdf_page": 27,
+              "aliases": [
+                "能量转化",
+                "能量守恒"
+              ],
+              "can_do": "追踪过程中的能量转化转移并运用守恒分析",
+              "checks": [
+                "系统边界和能量去向要完整，守恒不意味着无损可用"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c13:s1",
+                "phys:c11:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c14:s2",
+              "name": "热机",
+              "printed_page": 25,
+              "pdf_page": 32,
+              "aliases": [
+                "热机",
+                "内燃机",
+                "汽油机",
+                "柴油机",
+                "四冲程"
+              ],
+              "can_do": "依据结构与冲程解释内燃机的能量转化",
+              "checks": [
+                "区分压缩与做功冲程，核对活塞气门和曲轴转动关系"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c13:s1",
+                "phys:c11:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c14:s3",
+              "name": "热机的效率",
+              "printed_page": 30,
+              "pdf_page": 37,
+              "aliases": [
+                "热值",
+                "燃料",
+                "热机效率"
+              ],
+              "can_do": "计算燃料完全燃烧热量与热机效率",
+              "checks": [
+                "明确燃料质量和有用能，效率不能超过100%"
+              ],
+              "modes": [
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c13:s1",
+                "phys:c11:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c14:s4",
+              "name": "跨学科实践：制作简易热机模型",
+              "printed_page": 35,
+              "pdf_page": 42,
+              "aliases": [
+                "热机模型",
+                "简易热机"
+              ],
+              "can_do": "描述安全条件下热机模型的结构和能量链并提出改进",
+              "checks": [
+                "比较输入输出证据，不能把方案文字视为模型实际有效"
+              ],
+              "modes": [
+                "practice"
+              ],
+              "prerequisites": [
+                "phys:c13:s1",
+                "phys:c11:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "name": "电流和电路",
+          "book_id": "physics-9-1",
+          "goal_id": "physics-9-1:u3:g1",
+          "sections": [
+            {
+              "id": "phys:c15:s1",
+              "name": "两种电荷",
+              "printed_page": 40,
+              "pdf_page": 47,
+              "aliases": [
+                "电荷",
+                "带电",
+                "摩擦起电",
+                "验电器"
+              ],
+              "can_do": "判断电荷相互作用并解释摩擦起电",
+              "checks": [
+                "摩擦起电是电荷转移，不是创造电荷；吸引不能唯一判定异种电荷"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c15:s2",
+              "name": "电流和电路",
+              "printed_page": 44,
+              "pdf_page": 51,
+              "aliases": [
+                "电流方向",
+                "电路组成",
+                "通路",
+                "断路",
+                "短路"
+              ],
+              "can_do": "识别电路基本组成和通断状态并标电流方向",
+              "checks": [
+                "区分规定电流方向与电子定向移动，不把短路当断路"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c15:s3",
+              "name": "串联电路和并联电路",
+              "printed_page": 50,
+              "pdf_page": 57,
+              "aliases": [
+                "串联电路",
+                "并联电路",
+                "电路连接"
+              ],
+              "can_do": "根据节点和支路识别串并联并连接低压电路",
+              "checks": [
+                "依连接关系而非画面外观判断串并联"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c15:s4",
+              "name": "电流的测量",
+              "printed_page": 55,
+              "pdf_page": 62,
+              "aliases": [
+                "电流表",
+                "电流测量"
+              ],
+              "can_do": "正确选择量程并读取电流表与分析接法",
+              "checks": [
+                "电流表串联接入，不把量程刻度混用"
+              ],
+              "modes": [
+                "experiment",
+                "calculation"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c15:s5",
+              "name": "串、并联电路中电流的规律",
+              "printed_page": 60,
+              "pdf_page": 67,
+              "aliases": [
+                "串联电流",
+                "并联电流",
+                "干路电流"
+              ],
+              "can_do": "用串并联电流规律求电流并解释实验数据",
+              "checks": [
+                "串联处处相等，并联干路电流为各支路之和"
+              ],
+              "modes": [
+                "calculation",
+                "experiment"
+              ],
+              "prerequisites": [],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "name": "电压 电阻",
+          "book_id": "physics-9-1",
+          "goal_id": "physics-9-1:u4:g1",
+          "sections": [
+            {
+              "id": "phys:c16:s1",
+              "name": "电压",
+              "printed_page": 67,
+              "pdf_page": 74,
+              "aliases": [
+                "电压表",
+                "电压测量"
+              ],
+              "can_do": "理解电压作用并正确连接和读取电压表",
+              "checks": [
+                "电压表并联，量程和正负接线要匹配"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c15:s2",
+                "phys:c15:s3"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c16:s2",
+              "name": "串、并联电路中电压的规律",
+              "printed_page": 72,
+              "pdf_page": 79,
+              "aliases": [
+                "串联电压",
+                "并联电压"
+              ],
+              "can_do": "用串并联电压规律求电压并分析数据",
+              "checks": [
+                "串联总电压等于分电压和，并联各支路电压相等"
+              ],
+              "modes": [
+                "calculation",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c15:s2",
+                "phys:c15:s3"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c16:s3",
+              "name": "电阻",
+              "printed_page": 77,
+              "pdf_page": 84,
+              "aliases": [
+                "电阻",
+                "导体电阻",
+                "电阻决定因素"
+              ],
+              "can_do": "说明导体电阻与材料长度横截面积和温度的关系",
+              "checks": [
+                "不能把U/I变大无条件解释为同一定值电阻随电压改变"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c15:s2",
+                "phys:c15:s3"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c16:s4",
+              "name": "变阻器",
+              "printed_page": 82,
+              "pdf_page": 89,
+              "aliases": [
+                "滑动变阻器",
+                "变阻器"
+              ],
+              "can_do": "按接线和滑片位置判断接入阻值与调节效果",
+              "checks": [
+                "识别有效电阻丝长度，不按滑片左右位置机械判定增减"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [
+                "phys:c15:s2",
+                "phys:c15:s3"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c16:s5",
+              "name": "跨学科实践：制作简易调光台灯",
+              "printed_page": 87,
+              "pdf_page": 94,
+              "aliases": [
+                "调光台灯",
+                "简易调光"
+              ],
+              "can_do": "在安全低压条件下设计变阻调光电路并解释变化",
+              "checks": [
+                "家庭市电不作学生操作任务，说明亮度与实际功率关系"
+              ],
+              "modes": [
+                "practice"
+              ],
+              "prerequisites": [
+                "phys:c15:s2",
+                "phys:c15:s3"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "name": "欧姆定律",
+          "book_id": "physics-9-1",
+          "goal_id": "physics-9-1:u5:g1",
+          "sections": [
+            {
+              "id": "phys:c17:s1",
+              "name": "电流与电压、电阻的关系",
+              "printed_page": 93,
+              "pdf_page": 100,
+              "aliases": [
+                "电流电压关系",
+                "电流电阻关系",
+                "探究欧姆定律"
+              ],
+              "can_do": "通过控制变量实验分析电流与电压电阻关系",
+              "checks": [
+                "探究电流与电阻时需保持被测电阻两端电压不变"
+              ],
+              "modes": [
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c16:s1",
+                "phys:c16:s3",
+                "phys:c15:s5"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c17:s2",
+              "name": "欧姆定律",
+              "printed_page": 98,
+              "pdf_page": 105,
+              "aliases": [
+                "欧姆定律",
+                "电压电流电阻"
+              ],
+              "can_do": "对同一导体同一状态应用I=U/R求未知量",
+              "checks": [
+                "灯丝温度变化时不能默认电阻恒定"
+              ],
+              "modes": [
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c16:s1",
+                "phys:c16:s3",
+                "phys:c15:s5"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c17:s3",
+              "name": "电阻的测量",
+              "printed_page": 101,
+              "pdf_page": 108,
+              "aliases": [
+                "伏安法",
+                "测量电阻",
+                "电阻测量"
+              ],
+              "can_do": "根据伏安法电路和数据求电阻并分析误差",
+              "checks": [
+                "电流与电压必须属于同一被测元件，区分仪表误接"
+              ],
+              "modes": [
+                "experiment",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c16:s1",
+                "phys:c16:s3",
+                "phys:c15:s5"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c17:s4",
+              "name": "欧姆定律在串、并联电路中的应用",
+              "printed_page": 105,
+              "pdf_page": 112,
+              "aliases": [
+                "串联电阻",
+                "并联电阻",
+                "动态电路",
+                "电路故障"
+              ],
+              "can_do": "依据串并联关系和欧姆定律分析电路变化与故障",
+              "checks": [
+                "每次变化先确认连接关系和电源条件，不遗漏量程限制"
+              ],
+              "modes": [
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c16:s1",
+                "phys:c16:s3",
+                "phys:c15:s5"
+              ],
+              "required": true,
+              "assessment_limits": []
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "name": "电功率",
+          "book_id": "physics-9-1",
+          "goal_id": "physics-9-1:u6:g1",
+          "sections": [
+            {
+              "id": "phys:c18:s1",
+              "name": "电能 电功",
+              "printed_page": 111,
+              "pdf_page": 118,
+              "aliases": [
+                "电能",
+                "电功",
+                "电能表",
+                "千瓦时"
+              ],
+              "can_do": "读取电能表并用电压电流时间求电能",
+              "checks": [
+                "1kWh=3.6×10^6J，脉冲或转数需对应表常数"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c17:s2",
+                "phys:c11:s2"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c18:s2",
+              "name": "电功率",
+              "printed_page": 114,
+              "pdf_page": 121,
+              "aliases": [
+                "电功率",
+                "额定功率",
+                "实际功率",
+                "灯泡亮度"
+              ],
+              "can_do": "结合额定与实际电压电流求功率并比较亮度",
+              "checks": [
+                "亮度比较依据实际功率，非纯电阻不能随意套U²/R"
+              ],
+              "modes": [
+                "calculation",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c17:s2",
+                "phys:c11:s2"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c18:s3",
+              "name": "跨学科实践：为家庭节约用电提建议",
+              "printed_page": 118,
+              "pdf_page": 125,
+              "aliases": [
+                "家庭节约用电",
+                "节电建议"
+              ],
+              "can_do": "根据功率使用时间数据比较节电方案",
+              "checks": [
+                "说明统计时间范围与估算条件，不以口号代替定量证据"
+              ],
+              "modes": [
+                "practice",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c17:s2",
+                "phys:c11:s2"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c18:s4",
+              "name": "焦耳定律",
+              "printed_page": 120,
+              "pdf_page": 127,
+              "aliases": [
+                "焦耳定律",
+                "电热",
+                "电热器"
+              ],
+              "can_do": "用Q=I²Rt计算电热并区分电能与热能",
+              "checks": [
+                "纯电阻条件下可把电功等同电热，电动机不能直接等同"
+              ],
+              "modes": [
+                "calculation",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c17:s2",
+                "phys:c11:s2"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "name": "生活用电",
+          "book_id": "physics-9-2",
+          "goal_id": "physics-9-2:u1:g1",
+          "sections": [
+            {
+              "id": "phys:c19:s1",
+              "name": "安全用电",
+              "printed_page": 128,
+              "pdf_page": 135,
+              "aliases": [
+                "安全用电",
+                "触电",
+                "漏电",
+                "接地"
+              ],
+              "can_do": "识别触电风险并解释绝缘接地与保护措施",
+              "checks": [
+                "仅分析原理和图示，不布置市电操作或接触带电体实验"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c15:s3",
+                "phys:c18:s2"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c19:s2",
+              "name": "家庭电路的基本组成",
+              "printed_page": 134,
+              "pdf_page": 141,
+              "aliases": [
+                "家庭电路",
+                "火线",
+                "零线",
+                "空气开关",
+                "插座"
+              ],
+              "can_do": "识别家庭电路组成与元件连接原则",
+              "checks": [
+                "开关控制火线，核对保护装置和接地含义；不指导实际市电施工"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [
+                "phys:c15:s3",
+                "phys:c18:s2"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c19:s3",
+              "name": "跨学科实践：为家庭电路做设计",
+              "printed_page": 141,
+              "pdf_page": 148,
+              "aliases": [
+                "家庭电路设计"
+              ],
+              "can_do": "在纸面设计中考虑负载和保护并说明安全依据",
+              "checks": [
+                "设计图不能代替电工资质和实际接线验收，不要求学生施工"
+              ],
+              "modes": [
+                "practice"
+              ],
+              "prerequisites": [
+                "phys:c15:s3",
+                "phys:c18:s2"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "name": "电与磁",
+          "book_id": "physics-9-2",
+          "goal_id": "physics-9-2:u2:g1",
+          "sections": [
+            {
+              "id": "phys:c20:s1",
+              "name": "磁现象 磁场",
+              "printed_page": 147,
+              "pdf_page": 154,
+              "aliases": [
+                "磁场",
+                "磁极",
+                "磁感线",
+                "地磁场"
+              ],
+              "can_do": "描述磁极作用并用磁感线模型表示磁场",
+              "checks": [
+                "磁感线是模型，磁场方向以小磁针N极受力方向定义"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [
+                "phys:c15:s2"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c20:s2",
+              "name": "电生磁",
+              "printed_page": 152,
+              "pdf_page": 159,
+              "aliases": [
+                "电流磁效应",
+                "通电螺线管",
+                "安培定则"
+              ],
+              "can_do": "解释电流磁效应并判断通电螺线管磁极",
+              "checks": [
+                "依据电流方向使用安培定则，区分电子移动方向"
+              ],
+              "modes": [
+                "concept",
+                "drawing"
+              ],
+              "prerequisites": [
+                "phys:c15:s2"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c20:s3",
+              "name": "电磁铁 电磁继电器",
+              "printed_page": 157,
+              "pdf_page": 164,
+              "aliases": [
+                "电磁铁",
+                "电磁继电器"
+              ],
+              "can_do": "分析电磁铁磁性影响因素和继电器控制关系",
+              "checks": [
+                "控制电路与工作电路分别分析，控制变量时核对电流和匝数"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c15:s2"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c20:s4",
+              "name": "电动机",
+              "printed_page": 161,
+              "pdf_page": 168,
+              "aliases": [
+                "电动机",
+                "通电导体受力"
+              ],
+              "can_do": "说明磁场对通电导体作用和电动机能量转化",
+              "checks": [
+                "电动机主要由电能转为机械能，不与发电机原理混淆"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c15:s2"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c20:s5",
+              "name": "跨学科实践：制作简易直流电动机",
+              "printed_page": 165,
+              "pdf_page": 172,
+              "aliases": [
+                "直流电动机制作",
+                "简易电动机"
+              ],
+              "can_do": "解释简易电动机结构与换向并记录改进依据",
+              "checks": [
+                "方案、观察和实际运行证据分开，采用安全低压电源"
+              ],
+              "modes": [
+                "practice"
+              ],
+              "prerequisites": [
+                "phys:c15:s2"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            },
+            {
+              "id": "phys:c20:s6",
+              "name": "磁生电",
+              "printed_page": 167,
+              "pdf_page": 174,
+              "aliases": [
+                "电磁感应",
+                "感应电流",
+                "发电机"
+              ],
+              "can_do": "判断产生感应电流的条件并解释发电机原理",
+              "checks": [
+                "闭合电路部分导体切割磁感线等条件必须核对"
+              ],
+              "modes": [
+                "concept",
+                "experiment"
+              ],
+              "prerequisites": [
+                "phys:c15:s2"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "name": "电磁波及其应用",
+          "book_id": "physics-9-2",
+          "goal_id": "physics-9-2:u3:g1",
+          "sections": [
+            {
+              "id": "phys:c21:s1",
+              "name": "电磁波的海洋",
+              "printed_page": 175,
+              "pdf_page": 182,
+              "aliases": [
+                "电磁波",
+                "电磁波传播"
+              ],
+              "can_do": "说明电磁波传播条件并用波速计算传播时间",
+              "checks": [
+                "真空中电磁波可传播，声音不可以；速度按题给条件"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c1:s3"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c21:s2",
+              "name": "广播、电视和移动通信",
+              "printed_page": 179,
+              "pdf_page": 186,
+              "aliases": [
+                "广播",
+                "电视",
+                "移动通信"
+              ],
+              "can_do": "说明信息通过电磁信号传输的基本过程",
+              "checks": [
+                "区分声信号与载波，勿将无线传输理解为声波直接跨真空"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c1:s3"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c21:s3",
+              "name": "卫星通信和光纤通信",
+              "printed_page": 183,
+              "pdf_page": 190,
+              "aliases": [
+                "卫星通信",
+                "光纤通信"
+              ],
+              "can_do": "比较卫星和光纤传输并按给定路径求时延",
+              "checks": [
+                "明确往返或单程路径，不把光纤内传播速度默认等于真空光速"
+              ],
+              "modes": [
+                "concept",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c1:s3"
+              ],
+              "required": true,
+              "assessment_limits": []
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "name": "能源与可持续发展",
+          "book_id": "physics-9-2",
+          "goal_id": "physics-9-2:u4:g1",
+          "sections": [
+            {
+              "id": "phys:c22:s1",
+              "name": "能源利用的现状和面临的挑战",
+              "printed_page": 189,
+              "pdf_page": 196,
+              "aliases": [
+                "能源",
+                "可再生能源",
+                "不可再生能源"
+              ],
+              "can_do": "依据资源和环境信息比较能源类型及利用问题",
+              "checks": [
+                "区分可再生与不可再生、一次与二次能源，不因清洁就判定可再生"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c14:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c22:s2",
+              "name": "新能源的发展",
+              "printed_page": 194,
+              "pdf_page": 201,
+              "aliases": [
+                "太阳能",
+                "核能",
+                "新能源"
+              ],
+              "can_do": "说明新能源利用中的能量转化并比较约束",
+              "checks": [
+                "核裂变聚变条件不可混淆；环境影响与可利用性需具体证据"
+              ],
+              "modes": [
+                "concept"
+              ],
+              "prerequisites": [
+                "phys:c14:s1"
+              ],
+              "required": true,
+              "assessment_limits": []
+            },
+            {
+              "id": "phys:c22:s3",
+              "name": "跨学科实践：为节约能源设计方案",
+              "printed_page": 200,
+              "pdf_page": 207,
+              "aliases": [
+                "节约能源方案",
+                "能源设计"
+              ],
+              "can_do": "基于数据提出节能方案并比较效果与成本",
+              "checks": [
+                "守恒不等于能量能全部再利用，量化估算需声明边界和假设"
+              ],
+              "modes": [
+                "practice",
+                "calculation"
+              ],
+              "prerequisites": [
+                "phys:c14:s1"
+              ],
+              "required": true,
+              "assessment_limits": [
+                "书面或图片答题不能证明已完成实际实验、制作和安全操作。"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "introduction": {
+    "id": "phys:intro",
+    "book_id": "physics-8-1",
+    "printed_page": 1,
+    "pdf_page": 7,
+    "name": "开启科学探索之旅",
+    "can_do": "提出可检验问题，区分观察与推断，记录证据并交流解释。",
+    "checks": [
+      "不能把一次观察当普遍结论；实验方案与实际操作表现分别评价。"
+    ],
+    "required": true
+  }
+}

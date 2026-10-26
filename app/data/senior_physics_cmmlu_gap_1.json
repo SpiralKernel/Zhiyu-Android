@@ -1,0 +1,1038 @@
+{
+  "batch_id": "senior-20261016-physics-gap-1",
+  "source_manifest": [
+    {
+      "path": "data/dev/high_school_physics.csv",
+      "sha256": "b0b6cf2222e11c18ca40f95606d75617092671ccb55cd34851137c111922eef2",
+      "revision": "d6e7b716d8ac694f38969a6c0407437d1fded799"
+    },
+    {
+      "path": "data/test/high_school_physics.csv",
+      "sha256": "c21a1c6725d2933f0ebd52e1b300a9bb7d49e37097fbe58ad8c256da82bf5b91",
+      "revision": "d6e7b716d8ac694f38969a6c0407437d1fded799"
+    },
+    {
+      "path": "web-capture:1010jiajiao-horizontal-projectile",
+      "sha256": "9ca26e311fff1aa1f43893e7f118d58d966601d0675ef37459031adc024b1311",
+      "revision": "2026-10-16"
+    }
+  ],
+  "items": [
+    {
+      "question_id": "bank:cmmlu-senior-physics:dev:2",
+      "source_sha256": "5e2160fcf206fb61b9d186dd425abd6b6bac8670e39e592a17f6ff6bf87380ef",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:cmmlu-senior-physics:dev:2",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "根据打点计时器的纸带,我们可以从纸带直接得到的物理量是",
+        "options": [
+          {
+            "key": "A",
+            "text": "运动物体的位移"
+          },
+          {
+            "key": "B",
+            "text": "运动物体的平均速度"
+          },
+          {
+            "key": "C",
+            "text": "运动物体的瞬时速度"
+          },
+          {
+            "key": "D",
+            "text": "运动物体的加速度"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "CMMLU high_school_physics",
+          "source_id": "bank:cmmlu-senior-physics:dev:2",
+          "source_file": "data/dev/high_school_physics.csv",
+          "download_revision": "d6e7b716d8ac694f38969a6c0407437d1fded799",
+          "file_sha256": "b0b6cf2222e11c18ca40f95606d75617092671ccb55cd34851137c111922eef2",
+          "url": "https://raw.githubusercontent.com/haonan-li/CMMLU/d6e7b716d8ac694f38969a6c0407437d1fded799/data/dev/high_school_physics.csv",
+          "license": "CC-BY-NC-SA-4.0"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-1",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-1:u1:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "打点计时器纸带直接测得的位移"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "打点计时器纸带直接测得的位移"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "区分直接测量量与由纸带数据计算的运动学量。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-1",
+          "goal_ids": [
+            "physics-senior-compulsory-1:u1:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按题目直接考查的教材章节概念映射；不推断年级、学期或教师审核。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "判断正确选项。",
+            "reference_answer": "A",
+            "solution_steps": [
+              "纸带上的相邻计数点位置可由刻度尺直接测量，位置差即该段位移。",
+              "平均速度还需除以计时器给出的时间间隔；瞬时速度和加速度还需由多段数据估算，故选A。"
+            ],
+            "knowledge_tags": [
+              "打点计时器纸带直接测得的位移"
+            ],
+            "type_tags": [
+              "打点计时器纸带直接测得的位移"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "指出纸带点迹间距可直接给出位移。",
+                "points": null,
+                "evidence_required": "指出纸带点迹间距可直接给出位移。"
+              },
+              {
+                "id": "c2",
+                "description": "区分需计算得到的速度与加速度，选A。",
+                "points": null,
+                "evidence_required": "区分需计算得到的速度与加速度，选A。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把纸带上的点迹直接当作瞬时速度或加速度。",
+                "knowledge_tags": [
+                  "打点计时器纸带直接测得的位移"
+                ],
+                "type_tags": [
+                  "打点计时器纸带直接测得的位移"
+                ]
+              },
+              {
+                "description": "忽略位移测量需要标尺。",
+                "knowledge_tags": [
+                  "打点计时器纸带直接测得的位移"
+                ],
+                "type_tags": [
+                  "打点计时器纸带直接测得的位移"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干和选项，并独立复算或依据物理规律核对；候选标注不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261016-physics-gap-1"
+        }
+      },
+      "independent_solution": [
+        "纸带上的相邻计数点位置可由刻度尺直接测量，位置差即该段位移。",
+        "平均速度还需除以计时器给出的时间间隔；瞬时速度和加速度还需由多段数据估算，故选A。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "逐项核查题干条件及四个选项；独立推导为：纸带上的相邻计数点位置可由刻度尺直接测量，位置差即该段位移。 平均速度还需除以计时器给出的时间间隔；瞬时速度和加速度还需由多段数据估算，故选A。"
+    },
+    {
+      "question_id": "bank:cmmlu-senior-physics:test:46",
+      "source_sha256": "a2347c101e88d8b17a945a044a42cdfd0e1757cc61f4a8a5750d17f729be8bca",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:cmmlu-senior-physics:test:46",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "下列过程中,与汽油机做功冲程能量转化情况相同的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "两手相互摩擦能发热"
+          },
+          {
+            "key": "B",
+            "text": "水沸腾时蒸汽冲开壶盖"
+          },
+          {
+            "key": "C",
+            "text": "压缩空气点火"
+          },
+          {
+            "key": "D",
+            "text": "锯木头锯子发烫"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "CMMLU high_school_physics",
+          "source_id": "bank:cmmlu-senior-physics:test:46",
+          "source_file": "data/test/high_school_physics.csv",
+          "download_revision": "d6e7b716d8ac694f38969a6c0407437d1fded799",
+          "file_sha256": "c21a1c6725d2933f0ebd52e1b300a9bb7d49e37097fbe58ad8c256da82bf5b91",
+          "url": "https://raw.githubusercontent.com/haonan-li/CMMLU/d6e7b716d8ac694f38969a6c0407437d1fded799/data/test/high_school_physics.csv",
+          "license": "CC-BY-NC-SA-4.0"
+        },
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "热力学第一定律与热机做功冲程"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "热力学第一定律与热机做功冲程"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "将热机冲程的能量转化与具体气体膨胀做功情景对应。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按题目直接考查的教材章节概念映射；不推断年级、学期或教师审核。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "判断正确选项。",
+            "reference_answer": "B",
+            "solution_steps": [
+              "汽油机做功冲程中，高温高压燃气膨胀并对活塞做功，内能转化为机械能。",
+              "水沸腾时蒸汽膨胀冲开壶盖，同样由气体内能转化为机械功；故选B。",
+              "其余选项分别是摩擦生热、外界压缩气体和摩擦生热，能量转换方向不同。"
+            ],
+            "knowledge_tags": [
+              "热力学第一定律与热机做功冲程"
+            ],
+            "type_tags": [
+              "热力学第一定律与热机做功冲程"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "指出做功冲程是燃气膨胀对外做功。",
+                "points": null,
+                "evidence_required": "指出做功冲程是燃气膨胀对外做功。"
+              },
+              {
+                "id": "c2",
+                "description": "对应蒸汽膨胀做功，选B。",
+                "points": null,
+                "evidence_required": "对应蒸汽膨胀做功，选B。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把压缩气体点火误认为做功冲程。",
+                "knowledge_tags": [
+                  "热力学第一定律与热机做功冲程"
+                ],
+                "type_tags": [
+                  "热力学第一定律与热机做功冲程"
+                ]
+              },
+              {
+                "description": "只注意物体运动而不判断能量转化方向。",
+                "knowledge_tags": [
+                  "热力学第一定律与热机做功冲程"
+                ],
+                "type_tags": [
+                  "热力学第一定律与热机做功冲程"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干和选项，并独立复算或依据物理规律核对；候选标注不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261016-physics-gap-1"
+        }
+      },
+      "independent_solution": [
+        "汽油机做功冲程中，高温高压燃气膨胀并对活塞做功，内能转化为机械能。",
+        "水沸腾时蒸汽膨胀冲开壶盖，同样由气体内能转化为机械功；故选B。",
+        "其余选项分别是摩擦生热、外界压缩气体和摩擦生热，能量转换方向不同。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "逐项核查题干条件及四个选项；独立推导为：汽油机做功冲程中，高温高压燃气膨胀并对活塞做功，内能转化为机械能。 水沸腾时蒸汽膨胀冲开壶盖，同样由气体内能转化为机械功；故选B。 其余选项分别是摩擦生热、外界压缩气体和摩擦生热，能量转换方向不同。"
+    },
+    {
+      "question_id": "bank:cmmlu-senior-physics:test:65",
+      "source_sha256": "ea389fcfe7c5e915bf29e0a60f6054b72694e5911002e877b8489b2d891d0036",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:cmmlu-senior-physics:test:65",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "两个相同的单摆静止于平衡位置,使摆球分别以水平初速V1、V2 ( V1>V2)在竖直平面内做小⻆度摆动,它们的频率与振幅分别为f1,f2和A1,A2,则",
+        "options": [
+          {
+            "key": "A",
+            "text": "f1>f2, A1=A2"
+          },
+          {
+            "key": "B",
+            "text": "f1<f2, A1=A2"
+          },
+          {
+            "key": "C",
+            "text": "f1=f2, A1>A2"
+          },
+          {
+            "key": "D",
+            "text": "f1=f2, A1<A2"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "CMMLU high_school_physics",
+          "source_id": "bank:cmmlu-senior-physics:test:65",
+          "source_file": "data/test/high_school_physics.csv",
+          "download_revision": "d6e7b716d8ac694f38969a6c0407437d1fded799",
+          "file_sha256": "c21a1c6725d2933f0ebd52e1b300a9bb7d49e37097fbe58ad8c256da82bf5b91",
+          "url": "https://raw.githubusercontent.com/haonan-li/CMMLU/d6e7b716d8ac694f38969a6c0407437d1fded799/data/test/high_school_physics.csv",
+          "license": "CC-BY-NC-SA-4.0"
+        },
+        "curriculum_book_id": "physics-senior-selective-1",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-1:u2:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "单摆周期和振幅与初速度的关系"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "单摆周期和振幅与初速度的关系"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "同一模型下由周期公式和最大速度关系比较频率与振幅。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-1",
+          "goal_ids": [
+            "physics-senior-selective-1:u2:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按题目直接考查的教材章节概念映射；不推断年级、学期或教师审核。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "判断正确选项。",
+            "reference_answer": "C",
+            "solution_steps": [
+              "两单摆摆长相同且均作小角度振动，因此f=1/(2π)√(g/L)，f₁=f₂。",
+              "平衡位置初速度是最大速度，vmax=2πfA；频率相同且V₁>V₂，故A₁>A₂。",
+              "答案为C。"
+            ],
+            "knowledge_tags": [
+              "单摆周期和振幅与初速度的关系"
+            ],
+            "type_tags": [
+              "单摆周期和振幅与初速度的关系"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "依据摆长相同判断频率相同。",
+                "points": null,
+                "evidence_required": "依据摆长相同判断频率相同。"
+              },
+              {
+                "id": "c2",
+                "description": "应用vmax=2πfA比较振幅，选C。",
+                "points": null,
+                "evidence_required": "应用vmax=2πfA比较振幅，选C。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把初速度大小当作决定单摆频率的因素。",
+                "knowledge_tags": [
+                  "单摆周期和振幅与初速度的关系"
+                ],
+                "type_tags": [
+                  "单摆周期和振幅与初速度的关系"
+                ]
+              },
+              {
+                "description": "忘记频率相同后振幅与最大速度成正比。",
+                "knowledge_tags": [
+                  "单摆周期和振幅与初速度的关系"
+                ],
+                "type_tags": [
+                  "单摆周期和振幅与初速度的关系"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干和选项，并独立复算或依据物理规律核对；候选标注不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261016-physics-gap-1"
+        }
+      },
+      "independent_solution": [
+        "两单摆摆长相同且均作小角度振动，因此f=1/(2π)√(g/L)，f₁=f₂。",
+        "平衡位置初速度是最大速度，vmax=2πfA；频率相同且V₁>V₂，故A₁>A₂。",
+        "答案为C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "逐项核查题干条件及四个选项；独立推导为：两单摆摆长相同且均作小角度振动，因此f=1/(2π)√(g/L)，f₁=f₂。 平衡位置初速度是最大速度，vmax=2πfA；频率相同且V₁>V₂，故A₁>A₂。 答案为C。"
+    },
+    {
+      "question_id": "bank:cmmlu-senior-physics:test:77",
+      "source_sha256": "2bada7dbee1f53578a77349617248ab2a66af89c0354f1fd73571792bd2e6f09",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:cmmlu-senior-physics:test:77",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "声波能绕过某一建筑物传播而光波却不能绕过该建筑物,这是因为",
+        "options": [
+          {
+            "key": "A",
+            "text": "声波波⻓较⻓,光波波⻓很短"
+          },
+          {
+            "key": "B",
+            "text": "声波波速较小,光波波速很大"
+          },
+          {
+            "key": "C",
+            "text": "声波振幅大,光波振幅小"
+          },
+          {
+            "key": "D",
+            "text": "声波是纵波,光波是横波"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "CMMLU high_school_physics",
+          "source_id": "bank:cmmlu-senior-physics:test:77",
+          "source_file": "data/test/high_school_physics.csv",
+          "download_revision": "d6e7b716d8ac694f38969a6c0407437d1fded799",
+          "file_sha256": "c21a1c6725d2933f0ebd52e1b300a9bb7d49e37097fbe58ad8c256da82bf5b91",
+          "url": "https://raw.githubusercontent.com/haonan-li/CMMLU/d6e7b716d8ac694f38969a6c0407437d1fded799/data/test/high_school_physics.csv",
+          "license": "CC-BY-NC-SA-4.0"
+        },
+        "curriculum_book_id": "physics-senior-selective-1",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-1:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "波的衍射与波长尺度"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "波的衍射与波长尺度"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "应用衍射条件比较声波与光波在同一宏观障碍物附近的传播。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-1",
+          "goal_ids": [
+            "physics-senior-selective-1:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按题目直接考查的教材章节概念映射；不推断年级、学期或教师审核。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "判断正确选项。",
+            "reference_answer": "A",
+            "solution_steps": [
+              "声波绕过建筑物传播表明发生衍射；明显衍射通常要求障碍物或孔的尺度与波长相近，或波长更大。",
+              "声波波长远长于可见光波长，建筑物尺度相对声波波长较小，而相对光波波长极大，所以声波容易绕射、光波不明显，选A。"
+            ],
+            "knowledge_tags": [
+              "波的衍射与波长尺度"
+            ],
+            "type_tags": [
+              "波的衍射与波长尺度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "指出该现象是衍射并说明衍射尺度条件。",
+                "points": null,
+                "evidence_required": "指出该现象是衍射并说明衍射尺度条件。"
+              },
+              {
+                "id": "c2",
+                "description": "比较声波和光波波长后选A。",
+                "points": null,
+                "evidence_required": "比较声波和光波波长后选A。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把差异归因于声波是纵波、光波是横波。",
+                "knowledge_tags": [
+                  "波的衍射与波长尺度"
+                ],
+                "type_tags": [
+                  "波的衍射与波长尺度"
+                ]
+              },
+              {
+                "description": "误认为传播速度大小决定绕射强弱。",
+                "knowledge_tags": [
+                  "波的衍射与波长尺度"
+                ],
+                "type_tags": [
+                  "波的衍射与波长尺度"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干和选项，并独立复算或依据物理规律核对；候选标注不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261016-physics-gap-1"
+        }
+      },
+      "independent_solution": [
+        "声波绕过建筑物传播表明发生衍射；明显衍射通常要求障碍物或孔的尺度与波长相近，或波长更大。",
+        "声波波长远长于可见光波长，建筑物尺度相对声波波长较小，而相对光波波长极大，所以声波容易绕射、光波不明显，选A。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "逐项核查题干条件及四个选项；独立推导为：声波绕过建筑物传播表明发生衍射；明显衍射通常要求障碍物或孔的尺度与波长相近，或波长更大。 声波波长远长于可见光波长，建筑物尺度相对声波波长较小，而相对光波波长极大，所以声波容易绕射、光波不明显，选A。"
+    },
+    {
+      "question_id": "bank:web-1010jiajiao-horizontal-projectile-freefall",
+      "source_sha256": "252faef5d63825eb5f3021d5365ba0e622622c451d3a70ebfc3c147fa66cfa7a",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-1010jiajiao-horizontal-projectile-freefall",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "在同一高度有两个小球同时开始运动，一个水平抛出，另一个自由落下。在它们运动过程中的每一时刻，有（ ）",
+        "options": [
+          {
+            "key": "A",
+            "text": "加速度不同，速度相同"
+          },
+          {
+            "key": "B",
+            "text": "加速度相同，速度不同"
+          },
+          {
+            "key": "C",
+            "text": "下落高度相同，位移不同"
+          },
+          {
+            "key": "D",
+            "text": "下落高度不同，位移相同"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "1010jiajiao indexed question page",
+          "source_id": "bank:web-1010jiajiao-horizontal-projectile-freefall",
+          "source_file": "web-capture:search-result-full-text",
+          "download_revision": "2026-10-16",
+          "file_sha256": "9ca26e311fff1aa1f43893e7f118d58d966601d0675ef37459031adc024b1311",
+          "url": "https://www.1010jiajiao.com/gzwl/shiti_id_e273f0f49f9e10c8990998a877ac835c",
+          "license": "unknown; public page; redistribution terms not confirmed"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u1:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "平抛运动的分解与自由落体"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "比较水平抛出和自由落体的加速度、速度及位移"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "逐时刻比较分运动：竖直分运动相同，平抛球另有水平分速度。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u1:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按题目直接考查的教材章节概念映射；不推断年级、学期或教师审核。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "判断正确选项。",
+            "reference_answer": "B",
+            "solution_steps": [
+              "忽略空气阻力时，两球均只受重力，加速度都为竖直向下的g。",
+              "同一时刻两球竖直速度相同，但水平抛出的小球另有非零水平速度，故两球速度矢量不同。",
+              "二者竖直下落高度相同，但水平抛出球还有水平位移，故总位移不同；选B。"
+            ],
+            "knowledge_tags": [
+              "平抛运动的分解与自由落体"
+            ],
+            "type_tags": [
+              "比较水平抛出和自由落体的加速度、速度及位移"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "指出两者加速度均为g且方向相同。",
+                "points": null,
+                "evidence_required": "指出两者加速度均为g且方向相同。"
+              },
+              {
+                "id": "c2",
+                "description": "指出平抛球有非零水平速度，因此速度不同，选B。",
+                "points": null,
+                "evidence_required": "指出平抛球有非零水平速度，因此速度不同，选B。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把加速度相同误认为速度相同。",
+                "knowledge_tags": [
+                  "平抛运动的分解与自由落体"
+                ],
+                "type_tags": [
+                  "比较水平抛出和自由落体的加速度、速度及位移"
+                ]
+              },
+              {
+                "description": "把竖直下落高度等同于总位移大小。",
+                "knowledge_tags": [
+                  "平抛运动的分解与自由落体"
+                ],
+                "type_tags": [
+                  "比较水平抛出和自由落体的加速度、速度及位移"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干和选项，并独立复算或依据物理规律核对；候选标注不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261016-physics-gap-1"
+        }
+      },
+      "independent_solution": [
+        "忽略空气阻力时，两球均只受重力，加速度都为竖直向下的g。",
+        "同一时刻两球竖直速度相同，但水平抛出的小球另有非零水平速度，故两球速度矢量不同。",
+        "二者竖直下落高度相同，但水平抛出球还有水平位移，故总位移不同；选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "逐项核查题干条件及四个选项；独立推导为：忽略空气阻力时，两球均只受重力，加速度都为竖直向下的g。 同一时刻两球竖直速度相同，但水平抛出的小球另有非零水平速度，故两球速度矢量不同。 二者竖直下落高度相同，但水平抛出球还有水平位移，故总位移不同；选B。"
+    },
+    {
+      "question_id": "bank:web-ixuehai-circular-disk-friction-q9",
+      "source_sha256": "9098a49b7adb490cdc4d7c1893622de716795b0e9ccef20787a6efbb36fb8ee8",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-ixuehai-circular-disk-friction-q9",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "小物体P放在水平圆盘上随圆盘一起转动，下列关于小物体所受摩擦力f的叙述正确的是（ ）",
+        "options": [
+          {
+            "key": "A",
+            "text": "当圆盘匀速转动时，摩擦力f的大小跟物体P到轴O的距离成正比"
+          },
+          {
+            "key": "B",
+            "text": "圆盘转动时，摩擦力f方向总是指向轴O"
+          },
+          {
+            "key": "C",
+            "text": "圆盘匀速转动时，小物体受重力、支持力、摩擦力和向心力作用"
+          },
+          {
+            "key": "D",
+            "text": "当物体P到轴O距离一定时，摩擦力f的大小跟圆盘转动的角速度成正比"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "ixuehai.cn high-school physics question",
+          "source_id": "bank:web-ixuehai-circular-disk-friction-q9",
+          "source_file": "https://www.ixuehai.cn/html/3757.html#question-9",
+          "download_revision": "2026-10-16",
+          "file_sha256": "1f444400187e00677170b6fa179774ae3585dbe76f3287f1a3b53d80c324f309",
+          "url": "https://www.ixuehai.cn/html/3757.html",
+          "license": "unknown; public page; redistribution terms not confirmed"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u2:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "圆周运动向心力与静摩擦力"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "水平匀速转盘中静摩擦力的大小和方向"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "需区分合力效果、实际摩擦力方向及其对角速度的平方关系。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u2:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按题目直接考查的教材章节概念映射；不推断年级、学期或教师审核。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "判断正确选项。",
+            "reference_answer": "A",
+            "solution_steps": [
+              "圆盘匀速转动时角速度ω恒定，P随盘做半径r的匀速圆周运动。",
+              "水平面内静摩擦力提供向心力，f=mω²r，因此在m、ω相同条件下f与r成正比，A正确。",
+              "圆盘变速转动时摩擦力还需提供切向分力，方向不总指向轴；向心力是合力效果而非额外性质力；r固定时f与ω²成正比而非ω，B、C、D错误。"
+            ],
+            "knowledge_tags": [
+              "圆周运动向心力与静摩擦力"
+            ],
+            "type_tags": [
+              "水平匀速转盘中静摩擦力的大小和方向"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "从匀速圆周运动列出f=mω²r并得A。",
+                "points": null,
+                "evidence_required": "从匀速圆周运动列出f=mω²r并得A。"
+              },
+              {
+                "id": "c2",
+                "description": "指出变速转动时摩擦力可有切向分量，向心力不是独立性质力，且固定半径时f∝ω²。",
+                "points": null,
+                "evidence_required": "指出变速转动时摩擦力可有切向分量，向心力不是独立性质力，且固定半径时f∝ω²。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将向心力当作与摩擦力并列的另一种力。",
+                "knowledge_tags": [
+                  "圆周运动向心力与静摩擦力"
+                ],
+                "type_tags": [
+                  "水平匀速转盘中静摩擦力的大小和方向"
+                ]
+              },
+              {
+                "description": "把f正比于ω²误认为正比于ω。",
+                "knowledge_tags": [
+                  "圆周运动向心力与静摩擦力"
+                ],
+                "type_tags": [
+                  "水平匀速转盘中静摩擦力的大小和方向"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干和选项，并独立复算或依据物理规律核对；候选标注不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261016-physics-gap-1"
+        }
+      },
+      "independent_solution": [
+        "圆盘匀速转动时角速度ω恒定，P随盘做半径r的匀速圆周运动。",
+        "水平面内静摩擦力提供向心力，f=mω²r，因此在m、ω相同条件下f与r成正比，A正确。",
+        "圆盘变速转动时摩擦力还需提供切向分力，方向不总指向轴；向心力是合力效果而非额外性质力；r固定时f与ω²成正比而非ω，B、C、D错误。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "逐项核查题干条件及四个选项；独立推导为：圆盘匀速转动时角速度ω恒定，P随盘做半径r的匀速圆周运动。 水平面内静摩擦力提供向心力，f=mω²r，因此在m、ω相同条件下f与r成正比，A正确。 圆盘变速转动时摩擦力还需提供切向分力，方向不总指向轴；向心力是合力效果而非额外性质力；r固定时f与ω²成正比而非ω，B、C、D错误。"
+    }
+  ]
+}

@@ -1,0 +1,2495 @@
+{
+  "schema_version": 1,
+  "stage": "senior",
+  "coverage_note": "教材版次年份未从目录或封面可靠确认，不作推定；选择性必修以书内标题明确标示为准。",
+  "books": [
+    {
+      "id": "math-senior-compulsory-1",
+      "book_id": "math-senior-compulsory-1",
+      "subject": "math",
+      "grade": null,
+      "term": null,
+      "stage": "senior",
+      "edition": "北师大版",
+      "basis": "local_toc_verified",
+      "title": "普通高中教科书 数学 必修第一册",
+      "book_type": "compulsory",
+      "scope_note": "完整教材册级范围；章目已按本地目录核对。教材册次不强行映射到年级或学期；学习目标由项目按目录主题编写，需由 Luna 标注员复核。版次年份和印次未确认。",
+      "source_sha256": "7c5fdfef2b040204f59de56787e23e55debe3b44ffe4740b56caa2f8f9c29cd1",
+      "source_archive": "data/sources/textbooks/senior-private/math-compulsory1.pdf",
+      "pages": 249,
+      "sources": [
+        {
+          "title": "普通高中教科书 数学 必修第一册",
+          "path": "data/sources/textbooks/senior-private/math-compulsory1.pdf",
+          "sha256": "7c5fdfef2b040204f59de56787e23e55debe3b44ffe4740b56caa2f8f9c29cd1",
+          "pages": 249,
+          "role": "local_pdf_toc"
+        }
+      ],
+      "units": [
+        {
+          "id": "math-senior-compulsory-1:u1",
+          "name": "预备知识",
+          "order": 1,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-1:u1:g1",
+              "name": "集合表示、基本关系与运算",
+              "aliases": [
+                "预备知识"
+              ],
+              "can_do": "能识别并解释集合表示、基本关系与运算中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“集合表示、基本关系与运算”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u1",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-1:u1:g2",
+              "name": "充分条件、必要条件与不等式",
+              "aliases": [
+                "预备知识"
+              ],
+              "can_do": "能运用充分条件、必要条件与不等式所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“充分条件、必要条件与不等式”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u1:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u1",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-1:u2",
+          "name": "函数",
+          "order": 2,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-1:u2:g1",
+              "name": "函数概念、定义域与表示",
+              "aliases": [
+                "函数"
+              ],
+              "can_do": "能识别并解释函数概念、定义域与表示中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“函数概念、定义域与表示”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u2",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-1:u2:g2",
+              "name": "函数单调性、奇偶性与幂函数",
+              "aliases": [
+                "函数"
+              ],
+              "can_do": "能运用函数单调性、奇偶性与幂函数所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“函数单调性、奇偶性与幂函数”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u2:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u2",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-1:u3",
+          "name": "指数运算与指数函数",
+          "order": 3,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-1:u3:g1",
+              "name": "指数幂、根式与运算性质",
+              "aliases": [
+                "指数运算与指数函数"
+              ],
+              "can_do": "能识别并解释指数幂、根式与运算性质中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“指数幂、根式与运算性质”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u2"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u3",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-1:u3:g2",
+              "name": "指数函数图象及增长模型",
+              "aliases": [
+                "指数运算与指数函数"
+              ],
+              "can_do": "能运用指数函数图象及增长模型所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“指数函数图象及增长模型”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u3:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u3",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-1:u4",
+          "name": "对数运算与对数函数",
+          "order": 4,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-1:u4:g1",
+              "name": "对数定义、运算与换底公式",
+              "aliases": [
+                "对数运算与对数函数"
+              ],
+              "can_do": "能识别并解释对数定义、运算与换底公式中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“对数定义、运算与换底公式”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u3"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u4",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-1:u4:g2",
+              "name": "对数函数图象及指数对数互化",
+              "aliases": [
+                "对数运算与对数函数"
+              ],
+              "can_do": "能运用对数函数图象及指数对数互化所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“对数函数图象及指数对数互化”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u4:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u4",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-1:u5",
+          "name": "函数应用",
+          "order": 5,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-1:u5:g1",
+              "name": "方程近似解与二分法",
+              "aliases": [
+                "函数应用"
+              ],
+              "can_do": "能识别并解释方程近似解与二分法中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“方程近似解与二分法”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u4"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u5",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-1:u5:g2",
+              "name": "函数模型的建立和实际解释",
+              "aliases": [
+                "函数应用"
+              ],
+              "can_do": "能运用函数模型的建立和实际解释所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“函数模型的建立和实际解释”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u5:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u5",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-1:u6",
+          "name": "统计",
+          "order": 6,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-1:u6:g1",
+              "name": "抽样方法与样本表示",
+              "aliases": [
+                "统计"
+              ],
+              "can_do": "能识别并解释抽样方法与样本表示中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“抽样方法与样本表示”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u5"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u6",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-1:u6:g2",
+              "name": "统计图表、频率分布与数字特征",
+              "aliases": [
+                "统计"
+              ],
+              "can_do": "能运用统计图表、频率分布与数字特征所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“统计图表、频率分布与数字特征”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u6:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u6",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-1:u7",
+          "name": "概率",
+          "order": 7,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-1:u7:g1",
+              "name": "随机事件与频率概率",
+              "aliases": [
+                "概率"
+              ],
+              "can_do": "能识别并解释随机事件与频率概率中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“随机事件与频率概率”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u6"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u7",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-1:u7:g2",
+              "name": "古典概型和互斥事件概率",
+              "aliases": [
+                "概率"
+              ],
+              "can_do": "能运用古典概型和互斥事件概率所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“古典概型和互斥事件概率”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-1:u7:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u7",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-1:u8",
+          "name": "数学建模活动（一）",
+          "order": 8,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-1:u8:g1",
+              "name": "建模问题、假设变量与主要步骤",
+              "aliases": ["数学建模活动（一）", "数学建模的主要步骤"],
+              "can_do": "能从简单现实情境中提出可研究的问题，明确变量、单位和假设，建立基本关系并说明建模步骤。",
+              "checks": ["根据给定情境选定变量、说明简化假设和取值范围，列出关系式。", "识别问题提出、模型建立、求解、检验和改进的过程。"],
+              "prerequisites": ["math-senior-compulsory-1:u5:g2"],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u8",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-1:u8:g2",
+              "name": "模型验证、结果解释和交流",
+              "aliases": ["数学建模活动（一）", "数学建模活动的主要过程"],
+              "can_do": "能用数据或合理性检验模型结果，解释单位、误差及适用范围，并清楚交流结论。",
+              "checks": ["比较模型预测和实际数据，计算误差并指出是否需要改进。", "给出包含变量意义、结果单位、适用条件和局限的简短结论。"],
+              "prerequisites": ["math-senior-compulsory-1:u8:g1"],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-1:u8",
+              "book_id": "math-senior-compulsory-1",
+              "subject": "math"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-senior-compulsory-2",
+      "book_id": "math-senior-compulsory-2",
+      "subject": "math",
+      "grade": null,
+      "term": null,
+      "stage": "senior",
+      "edition": "北师大版",
+      "basis": "local_toc_verified",
+      "title": "普通高中教科书 数学 必修第二册",
+      "book_type": "compulsory",
+      "scope_note": "完整教材册级范围；章目已按本地目录核对。教材册次不强行映射到年级或学期；学习目标由项目按目录主题编写，需由 Luna 标注员复核。版次年份和印次未确认。",
+      "source_sha256": "7c948d1dc0e8926bab53235f3e0e87505dbe2c4c92110cf86ec77071ae91ba4c",
+      "source_archive": "data/sources/textbooks/senior-private/math-compulsory2.pdf",
+      "pages": 281,
+      "sources": [
+        {
+          "title": "普通高中教科书 数学 必修第二册",
+          "path": "data/sources/textbooks/senior-private/math-compulsory2.pdf",
+          "sha256": "7c948d1dc0e8926bab53235f3e0e87505dbe2c4c92110cf86ec77071ae91ba4c",
+          "pages": 281,
+          "role": "local_pdf_toc"
+        }
+      ],
+      "units": [
+        {
+          "id": "math-senior-compulsory-2:u1",
+          "name": "三角函数",
+          "order": 1,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-2:u1:g1",
+              "name": "任意角、弧度制与三角函数定义",
+              "aliases": [
+                "三角函数"
+              ],
+              "can_do": "能识别并解释任意角、弧度制与三角函数定义中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“任意角、弧度制与三角函数定义”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u1",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-2:u1:g2",
+              "name": "三角函数图象、周期与性质",
+              "aliases": [
+                "三角函数"
+              ],
+              "can_do": "能运用三角函数图象、周期与性质所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“三角函数图象、周期与性质”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u1:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u1",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-2:u2",
+          "name": "平面向量及其应用",
+          "order": 2,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-2:u2:g1",
+              "name": "向量运算、坐标与数量积",
+              "aliases": [
+                "平面向量及其应用"
+              ],
+              "can_do": "能识别并解释向量运算、坐标与数量积中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“向量运算、坐标与数量积”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u2",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-2:u2:g2",
+              "name": "平面向量基本定理和几何应用",
+              "aliases": [
+                "平面向量及其应用"
+              ],
+              "can_do": "能运用平面向量基本定理和几何应用所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“平面向量基本定理和几何应用”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u2:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u2",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-2:u3",
+          "name": "数学建模活动（二）",
+          "order": 3,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-2:u3:g1",
+              "name": "建模问题、假设与变量",
+              "aliases": [
+                "数学建模活动（二）"
+              ],
+              "can_do": "能识别并解释建模问题、假设与变量中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“建模问题、假设与变量”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u2"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u3",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-2:u3:g2",
+              "name": "模型计算、检验和结论交流",
+              "aliases": [
+                "数学建模活动（二）"
+              ],
+              "can_do": "能运用模型计算、检验和结论交流所列方法完成计算、论证或建模，并检查答案条件。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“模型计算、检验和结论交流”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u3:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u3",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-2:u4",
+          "name": "三角恒等变换",
+          "order": 4,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-2:u4:g1",
+              "name": "同角三角函数关系与诱导",
+              "aliases": [
+                "三角恒等变换"
+              ],
+              "can_do": "能识别并解释同角三角函数关系与诱导中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“同角三角函数关系与诱导”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u3"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u4",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-2:u4:g2",
+              "name": "两角和差、倍角公式及恒等变换",
+              "aliases": [
+                "三角恒等变换"
+              ],
+              "can_do": "能运用两角和差、倍角公式及恒等变换所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“两角和差、倍角公式及恒等变换”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u4:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u4",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-2:u5",
+          "name": "复数",
+          "order": 5,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-2:u5:g1",
+              "name": "复数概念、相等与几何表示",
+              "aliases": [
+                "复数"
+              ],
+              "can_do": "能识别并解释复数概念、相等与几何表示中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“复数概念、相等与几何表示”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u4"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u5",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-2:u5:g2",
+              "name": "复数四则运算和三角表示",
+              "aliases": [
+                "复数"
+              ],
+              "can_do": "能运用复数四则运算和三角表示所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“复数四则运算和三角表示”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u5:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u5",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-2:u6",
+          "name": "立体几何初步",
+          "order": 6,
+          "goals": [
+            {
+              "id": "math-senior-compulsory-2:u6:g1",
+              "name": "空间基本图形与直观图",
+              "aliases": [
+                "立体几何初步"
+              ],
+              "can_do": "能识别并解释空间基本图形与直观图中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“空间基本图形与直观图”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u5"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u6",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-compulsory-2:u6:g2",
+              "name": "点线面关系、平行垂直和体积面积",
+              "aliases": [
+                "立体几何初步"
+              ],
+              "can_do": "能运用点线面关系、平行垂直和体积面积所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“点线面关系、平行垂直和体积面积”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-compulsory-2:u6:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-compulsory-2:u6",
+              "book_id": "math-senior-compulsory-2",
+              "subject": "math"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-senior-selective-1",
+      "book_id": "math-senior-selective-1",
+      "subject": "math",
+      "grade": null,
+      "term": null,
+      "stage": "senior",
+      "edition": "北师大版",
+      "basis": "local_toc_verified",
+      "title": "普通高中教科书 数学 选择性必修第一册",
+      "book_type": "selective_compulsory",
+      "scope_note": "完整教材册级范围；章目已按本地目录核对。教材册次不强行映射到年级或学期；学习目标由项目按目录主题编写，需由 Luna 标注员复核。版次年份和印次未确认。",
+      "source_sha256": "12231be1b17b39e46b15df624bfb2e28749ab933c7da93274d7edcaf96377671",
+      "source_archive": "data/sources/textbooks/senior-private/math-selective1.pdf",
+      "pages": 272,
+      "sources": [
+        {
+          "title": "普通高中教科书 数学 选择性必修第一册",
+          "path": "data/sources/textbooks/senior-private/math-selective1.pdf",
+          "sha256": "12231be1b17b39e46b15df624bfb2e28749ab933c7da93274d7edcaf96377671",
+          "pages": 272,
+          "role": "local_pdf_toc"
+        }
+      ],
+      "units": [
+        {
+          "id": "math-senior-selective-1:u1",
+          "name": "直线与圆",
+          "order": 1,
+          "goals": [
+            {
+              "id": "math-senior-selective-1:u1:g1",
+              "name": "直线方程、斜率与位置关系",
+              "aliases": [
+                "直线与圆"
+              ],
+              "can_do": "能识别并解释直线方程、斜率与位置关系中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“直线方程、斜率与位置关系”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u1",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-selective-1:u1:g2",
+              "name": "圆的方程及直线圆的位置关系",
+              "aliases": [
+                "直线与圆"
+              ],
+              "can_do": "能运用圆的方程及直线圆的位置关系所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“圆的方程及直线圆的位置关系”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u1:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u1",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-selective-1:u2",
+          "name": "圆锥曲线",
+          "order": 2,
+          "goals": [
+            {
+              "id": "math-senior-selective-1:u2:g1",
+              "name": "椭圆定义、标准方程与性质",
+              "aliases": [
+                "圆锥曲线"
+              ],
+              "can_do": "能识别并解释椭圆定义、标准方程与性质中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“椭圆定义、标准方程与性质”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u2",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-selective-1:u2:g2",
+              "name": "双曲线、抛物线及圆锥曲线比较",
+              "aliases": [
+                "圆锥曲线"
+              ],
+              "can_do": "能运用双曲线、抛物线及圆锥曲线比较所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“双曲线、抛物线及圆锥曲线比较”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u2:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u2",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-selective-1:u3",
+          "name": "空间向量与立体几何",
+          "order": 3,
+          "goals": [
+            {
+              "id": "math-senior-selective-1:u3:g1",
+              "name": "空间向量运算与坐标表示",
+              "aliases": [
+                "空间向量与立体几何"
+              ],
+              "can_do": "能识别并解释空间向量运算与坐标表示中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“空间向量运算与坐标表示”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u2"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u3",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-selective-1:u3:g2",
+              "name": "空间角、距离及向量法论证",
+              "aliases": [
+                "空间向量与立体几何"
+              ],
+              "can_do": "能运用空间角、距离及向量法论证所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“空间角、距离及向量法论证”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u3:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u3",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-selective-1:u4",
+          "name": "数学建模活动（三）",
+          "order": 4,
+          "goals": [
+            {
+              "id": "math-senior-selective-1:u4:g1",
+              "name": "建模选题、问题假设与变量",
+              "aliases": [
+                "数学建模活动（三）"
+              ],
+              "can_do": "能识别并解释建模选题、问题假设与变量中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“建模选题、问题假设与变量”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u3"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u4",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-selective-1:u4:g2",
+              "name": "结题报告、模型检验和交流",
+              "aliases": [
+                "数学建模活动（三）"
+              ],
+              "can_do": "能运用结题报告、模型检验和交流所列方法完成计算、论证或建模，并检查答案条件。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“结题报告、模型检验和交流”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u4:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u4",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-selective-1:u5",
+          "name": "计数原理",
+          "order": 5,
+          "goals": [
+            {
+              "id": "math-senior-selective-1:u5:g1",
+              "name": "分类加法、分步乘法与排列组合",
+              "aliases": [
+                "计数原理"
+              ],
+              "can_do": "能识别并解释分类加法、分步乘法与排列组合中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“分类加法、分步乘法与排列组合”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u4"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u5",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-selective-1:u5:g2",
+              "name": "组合性质、二项式定理与系数",
+              "aliases": [
+                "计数原理"
+              ],
+              "can_do": "能运用组合性质、二项式定理与系数所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“组合性质、二项式定理与系数”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u5:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u5",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-selective-1:u6",
+          "name": "概率",
+          "order": 6,
+          "goals": [
+            {
+              "id": "math-senior-selective-1:u6:g1",
+              "name": "条件概率、独立性与全概率公式",
+              "aliases": [
+                "概率"
+              ],
+              "can_do": "能识别并解释条件概率、独立性与全概率公式中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“条件概率、独立性与全概率公式”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u5"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u6",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-selective-1:u6:g2",
+              "name": "离散随机变量及分布、均值和方差",
+              "aliases": [
+                "概率"
+              ],
+              "can_do": "能运用离散随机变量及分布、均值和方差所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“离散随机变量及分布、均值和方差”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u6:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u6",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-selective-1:u7",
+          "name": "统计案例",
+          "order": 7,
+          "goals": [
+            {
+              "id": "math-senior-selective-1:u7:g1",
+              "name": "一元线性回归和相关系数",
+              "aliases": [
+                "统计案例"
+              ],
+              "can_do": "能识别并解释一元线性回归和相关系数中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“一元线性回归和相关系数”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u6"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u7",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-selective-1:u7:g2",
+              "name": "独立性检验及统计结论解释",
+              "aliases": [
+                "统计案例"
+              ],
+              "can_do": "能运用独立性检验及统计结论解释所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“独立性检验及统计结论解释”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-1:u7:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-1:u7",
+              "book_id": "math-senior-selective-1",
+              "subject": "math"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-senior-selective-2",
+      "book_id": "math-senior-selective-2",
+      "subject": "math",
+      "grade": null,
+      "term": null,
+      "stage": "senior",
+      "edition": "北师大版",
+      "basis": "local_toc_verified",
+      "title": "普通高中教科书 数学 选择性必修第二册",
+      "book_type": "selective_compulsory",
+      "scope_note": "完整教材册级范围；章目已按本地目录核对。教材册次不强行映射到年级或学期；学习目标由项目按目录主题编写，需由 Luna 标注员复核。版次年份和印次未确认。",
+      "source_sha256": "1528c17c17e5a9bac6c4fd1745018ea8867ef9bfccb768f5847cfae93d860495",
+      "source_archive": "data/sources/textbooks/senior-private/math-selective2.pdf",
+      "pages": 112,
+      "sources": [
+        {
+          "title": "普通高中教科书 数学 选择性必修第二册",
+          "path": "data/sources/textbooks/senior-private/math-selective2.pdf",
+          "sha256": "1528c17c17e5a9bac6c4fd1745018ea8867ef9bfccb768f5847cfae93d860495",
+          "pages": 112,
+          "role": "local_pdf_toc"
+        }
+      ],
+      "units": [
+        {
+          "id": "math-senior-selective-2:u1",
+          "name": "数列",
+          "order": 1,
+          "goals": [
+            {
+              "id": "math-senior-selective-2:u1:g1",
+              "name": "数列概念、通项与等差数列",
+              "aliases": [
+                "数列"
+              ],
+              "can_do": "能识别并解释数列概念、通项与等差数列中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“数列概念、通项与等差数列”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-2:u1",
+              "book_id": "math-senior-selective-2",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-selective-2:u1:g2",
+              "name": "等比数列、求和、应用与数学归纳法",
+              "aliases": [
+                "数列"
+              ],
+              "can_do": "能运用等比数列、求和、应用与数学归纳法所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“等比数列、求和、应用与数学归纳法”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-2:u1:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-2:u1",
+              "book_id": "math-senior-selective-2",
+              "subject": "math"
+            }
+          ]
+        },
+        {
+          "id": "math-senior-selective-2:u2",
+          "name": "导数及其应用",
+          "order": 2,
+          "goals": [
+            {
+              "id": "math-senior-selective-2:u2:g1",
+              "name": "平均变化率、瞬时变化率与导数意义",
+              "aliases": [
+                "导数及其应用"
+              ],
+              "can_do": "能识别并解释平均变化率、瞬时变化率与导数意义中的定义、表示或成立条件。",
+              "checks": [
+                "给出一道聚焦“平均变化率、瞬时变化率与导数意义”的基础任务，要求写出关键定义、公式或推理依据。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-2:u1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-2:u2",
+              "book_id": "math-senior-selective-2",
+              "subject": "math"
+            },
+            {
+              "id": "math-senior-selective-2:u2:g2",
+              "name": "导数运算、单调极值和实际最值问题",
+              "aliases": [
+                "导数及其应用"
+              ],
+              "can_do": "能运用导数运算、单调极值和实际最值问题所列方法完成计算、论证或建模，并检查答案条件。",
+              "checks": [
+                "完成一道涉及“导数运算、单调极值和实际最值问题”的变式或情境任务，写明步骤并核验结果与适用条件。"
+              ],
+              "prerequisites": [
+                "math-senior-selective-2:u2:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "math-senior-selective-2:u2",
+              "book_id": "math-senior-selective-2",
+              "subject": "math"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1",
+      "book_id": "physics-senior-compulsory-1",
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stage": "senior",
+      "edition": "人教版",
+      "basis": "local_toc_verified",
+      "title": "普通高中教科书 物理 必修第一册",
+      "book_type": "compulsory",
+      "scope_note": "完整教材册级范围；章目已按本地目录核对。教材册次不强行映射到年级或学期；学习目标由项目按目录主题编写，需由 Luna 标注员复核。版次年份和印次未确认。",
+      "source_sha256": "2ea495d62e5e2a47f7399187d22f33541681562f2c084ccc830f64df1c501399",
+      "source_archive": "data/sources/textbooks/senior-private/physics-compulsory1.pdf",
+      "pages": 135,
+      "sources": [
+        {
+          "title": "普通高中教科书 物理 必修第一册",
+          "path": "data/sources/textbooks/senior-private/physics-compulsory1.pdf",
+          "sha256": "2ea495d62e5e2a47f7399187d22f33541681562f2c084ccc830f64df1c501399",
+          "pages": 135,
+          "role": "local_pdf_toc"
+        }
+      ],
+      "units": [
+        {
+          "id": "physics-senior-compulsory-1:u1",
+          "name": "运动的描述",
+          "order": 1,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-1:u1:g1",
+              "name": "质点、参考系、时间与位移",
+              "aliases": [
+                "运动的描述"
+              ],
+              "can_do": "能用物理量、规律或模型说明质点、参考系、时间与位移，并正确辨认所需条件。",
+              "checks": [
+                "解释“质点、参考系、时间与位移”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-1:u1",
+              "book_id": "physics-senior-compulsory-1",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-1:u1:g2",
+              "name": "速度、加速度及运动描述",
+              "aliases": [
+                "运动的描述"
+              ],
+              "can_do": "能将速度、加速度及运动描述应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“速度、加速度及运动描述”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-1:u1:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-1:u1",
+              "book_id": "physics-senior-compulsory-1",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-1:u2",
+          "name": "匀变速直线运动的研究",
+          "order": 2,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-1:u2:g1",
+              "name": "匀变速直线运动速度位移关系与自由落体",
+              "aliases": [
+                "匀变速直线运动的研究"
+              ],
+              "can_do": "能用物理量、规律或模型说明匀变速直线运动速度位移关系与自由落体，并正确辨认所需条件。",
+              "checks": [
+                "解释“匀变速直线运动速度位移关系与自由落体”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-1:u1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-1:u2",
+              "book_id": "physics-senior-compulsory-1",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-1:u2:g2",
+              "name": "小车速度实验、数据图像与规律验证",
+              "aliases": [
+                "匀变速直线运动的研究"
+              ],
+              "can_do": "能将小车速度实验、数据图像与规律验证应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“小车速度实验、数据图像与规律验证”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-1:u2:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-1:u2",
+              "book_id": "physics-senior-compulsory-1",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-1:u3",
+          "name": "相互作用——力",
+          "order": 3,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-1:u3:g1",
+              "name": "重力弹力、摩擦力及牛顿第三定律",
+              "aliases": [
+                "相互作用——力"
+              ],
+              "can_do": "能用物理量、规律或模型说明重力弹力、摩擦力及牛顿第三定律，并正确辨认所需条件。",
+              "checks": [
+                "解释“重力弹力、摩擦力及牛顿第三定律”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-1:u2"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-1:u3",
+              "book_id": "physics-senior-compulsory-1",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-1:u3:g2",
+              "name": "力的合成分解与共点力平衡",
+              "aliases": [
+                "相互作用——力"
+              ],
+              "can_do": "能将力的合成分解与共点力平衡应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“力的合成分解与共点力平衡”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-1:u3:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-1:u3",
+              "book_id": "physics-senior-compulsory-1",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-1:u4",
+          "name": "运动和力的关系",
+          "order": 4,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-1:u4:g1",
+              "name": "牛顿第一二定律和力学单位制",
+              "aliases": [
+                "运动和力的关系"
+              ],
+              "can_do": "能用物理量、规律或模型说明牛顿第一二定律和力学单位制，并正确辨认所需条件。",
+              "checks": [
+                "解释“牛顿第一二定律和力学单位制”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-1:u3"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-1:u4",
+              "book_id": "physics-senior-compulsory-1",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-1:u4:g2",
+              "name": "加速度实验、动力学应用与超重失重",
+              "aliases": [
+                "运动和力的关系"
+              ],
+              "can_do": "能将加速度实验、动力学应用与超重失重应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“加速度实验、动力学应用与超重失重”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-1:u4:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-1:u4",
+              "book_id": "physics-senior-compulsory-1",
+              "subject": "physics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2",
+      "book_id": "physics-senior-compulsory-2",
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stage": "senior",
+      "edition": "人教版",
+      "basis": "local_toc_verified",
+      "title": "普通高中教科书 物理 必修第二册",
+      "book_type": "compulsory",
+      "scope_note": "完整教材册级范围；章目已按本地目录核对。教材册次不强行映射到年级或学期；学习目标由项目按目录主题编写，需由 Luna 标注员复核。版次年份和印次未确认。",
+      "source_sha256": "64d6abd953bdbd2fb5a4deb9060079c3776f205edf01435e39f853e874b39f74",
+      "source_archive": "data/sources/textbooks/senior-private/physics-compulsory2.pdf",
+      "pages": 115,
+      "sources": [
+        {
+          "title": "普通高中教科书 物理 必修第二册",
+          "path": "data/sources/textbooks/senior-private/physics-compulsory2.pdf",
+          "sha256": "64d6abd953bdbd2fb5a4deb9060079c3776f205edf01435e39f853e874b39f74",
+          "pages": 115,
+          "role": "local_pdf_toc"
+        }
+      ],
+      "units": [
+        {
+          "id": "physics-senior-compulsory-2:u1",
+          "name": "抛体运动",
+          "order": 1,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-2:u1:g1",
+              "name": "曲线运动、运动合成与分解",
+              "aliases": [
+                "抛体运动"
+              ],
+              "can_do": "能用物理量、规律或模型说明曲线运动、运动合成与分解，并正确辨认所需条件。",
+              "checks": [
+                "解释“曲线运动、运动合成与分解”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-2:u1",
+              "book_id": "physics-senior-compulsory-2",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-2:u1:g2",
+              "name": "平抛实验和抛体运动规律",
+              "aliases": [
+                "抛体运动"
+              ],
+              "can_do": "能将平抛实验和抛体运动规律应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“平抛实验和抛体运动规律”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-2:u1:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-2:u1",
+              "book_id": "physics-senior-compulsory-2",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-2:u2",
+          "name": "圆周运动",
+          "order": 2,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-2:u2:g1",
+              "name": "圆周运动、线速度与角速度",
+              "aliases": [
+                "圆周运动"
+              ],
+              "can_do": "能用物理量、规律或模型说明圆周运动、线速度与角速度，并正确辨认所需条件。",
+              "checks": [
+                "解释“圆周运动、线速度与角速度”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-2:u1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-2:u2",
+              "book_id": "physics-senior-compulsory-2",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-2:u2:g2",
+              "name": "向心力向心加速度及生活实例",
+              "aliases": [
+                "圆周运动"
+              ],
+              "can_do": "能将向心力向心加速度及生活实例应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“向心力向心加速度及生活实例”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-2:u2:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-2:u2",
+              "book_id": "physics-senior-compulsory-2",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-2:u3",
+          "name": "万有引力与宇宙航行",
+          "order": 3,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-2:u3:g1",
+              "name": "行星运动与万有引力定律",
+              "aliases": [
+                "万有引力与宇宙航行"
+              ],
+              "can_do": "能用物理量、规律或模型说明行星运动与万有引力定律，并正确辨认所需条件。",
+              "checks": [
+                "解释“行星运动与万有引力定律”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-2:u2"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-2:u3",
+              "book_id": "physics-senior-compulsory-2",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-2:u3:g2",
+              "name": "天体质量、宇宙航行和经典力学局限",
+              "aliases": [
+                "万有引力与宇宙航行"
+              ],
+              "can_do": "能将天体质量、宇宙航行和经典力学局限应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“天体质量、宇宙航行和经典力学局限”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-2:u3:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-2:u3",
+              "book_id": "physics-senior-compulsory-2",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-2:u4",
+          "name": "机械能守恒定律",
+          "order": 4,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-2:u4:g1",
+              "name": "功率、动能定理与势能",
+              "aliases": [
+                "机械能守恒定律"
+              ],
+              "can_do": "能用物理量、规律或模型说明功率、动能定理与势能，并正确辨认所需条件。",
+              "checks": [
+                "解释“功率、动能定理与势能”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-2:u3"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-2:u4",
+              "book_id": "physics-senior-compulsory-2",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-2:u4:g2",
+              "name": "机械能守恒条件及实验验证",
+              "aliases": [
+                "机械能守恒定律"
+              ],
+              "can_do": "能将机械能守恒条件及实验验证应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“机械能守恒条件及实验验证”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-2:u4:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-2:u4",
+              "book_id": "physics-senior-compulsory-2",
+              "subject": "physics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3",
+      "book_id": "physics-senior-compulsory-3",
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stage": "senior",
+      "edition": "人教版",
+      "basis": "local_toc_verified",
+      "title": "普通高中教科书 物理 必修第三册",
+      "book_type": "compulsory",
+      "scope_note": "完整教材册级范围；章目已按本地目录核对。教材册次不强行映射到年级或学期；学习目标由项目按目录主题编写，需由 Luna 标注员复核。版次年份和印次未确认。",
+      "source_sha256": "912b1b318a811381c463fa6d933ebf9df91f09579baeb062e673a58db72f48bc",
+      "source_archive": "data/sources/textbooks/senior-private/physics-compulsory3.pdf",
+      "pages": 144,
+      "sources": [
+        {
+          "title": "普通高中教科书 物理 必修第三册",
+          "path": "data/sources/textbooks/senior-private/physics-compulsory3.pdf",
+          "sha256": "912b1b318a811381c463fa6d933ebf9df91f09579baeb062e673a58db72f48bc",
+          "pages": 144,
+          "role": "local_pdf_toc"
+        }
+      ],
+      "units": [
+        {
+          "id": "physics-senior-compulsory-3:u1",
+          "name": "静电场及其应用",
+          "order": 1,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-3:u1:g1",
+              "name": "电荷、库仑定律与电场强度",
+              "aliases": [
+                "静电场及其应用"
+              ],
+              "can_do": "能用物理量、规律或模型说明电荷、库仑定律与电场强度，并正确辨认所需条件。",
+              "checks": [
+                "解释“电荷、库仑定律与电场强度”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-3:u1",
+              "book_id": "physics-senior-compulsory-3",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-3:u1:g2",
+              "name": "静电屏蔽、防止与利用",
+              "aliases": [
+                "静电场及其应用"
+              ],
+              "can_do": "能将静电屏蔽、防止与利用应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“静电屏蔽、防止与利用”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-3:u1:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-3:u1",
+              "book_id": "physics-senior-compulsory-3",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-3:u2",
+          "name": "静电场中的能量",
+          "order": 2,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-3:u2:g1",
+              "name": "电势能、电势差与电场强度关系",
+              "aliases": [
+                "静电场中的能量"
+              ],
+              "can_do": "能用物理量、规律或模型说明电势能、电势差与电场强度关系，并正确辨认所需条件。",
+              "checks": [
+                "解释“电势能、电势差与电场强度关系”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-3:u1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-3:u2",
+              "book_id": "physics-senior-compulsory-3",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-3:u2:g2",
+              "name": "电容器及带电粒子在电场中的运动",
+              "aliases": [
+                "静电场中的能量"
+              ],
+              "can_do": "能将电容器及带电粒子在电场中的运动应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“电容器及带电粒子在电场中的运动”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-3:u2:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-3:u2",
+              "book_id": "physics-senior-compulsory-3",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-3:u3",
+          "name": "电路及其应用",
+          "order": 3,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-3:u3:g1",
+              "name": "电源电流、电阻和串并联电路",
+              "aliases": [
+                "电路及其应用"
+              ],
+              "can_do": "能用物理量、规律或模型说明电源电流、电阻和串并联电路，并正确辨认所需条件。",
+              "checks": [
+                "解释“电源电流、电阻和串并联电路”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-3:u2"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-3:u3",
+              "book_id": "physics-senior-compulsory-3",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-3:u3:g2",
+              "name": "电阻率测量、多用电表与实验数据",
+              "aliases": [
+                "电路及其应用"
+              ],
+              "can_do": "能将电阻率测量、多用电表与实验数据应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“电阻率测量、多用电表与实验数据”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-3:u3:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-3:u3",
+              "book_id": "physics-senior-compulsory-3",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-3:u4",
+          "name": "电能 能量守恒定律",
+          "order": 4,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-3:u4:g1",
+              "name": "电路能量、闭合电路欧姆定律",
+              "aliases": [
+                "电能 能量守恒定律"
+              ],
+              "can_do": "能用物理量、规律或模型说明电路能量、闭合电路欧姆定律，并正确辨认所需条件。",
+              "checks": [
+                "解释“电路能量、闭合电路欧姆定律”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-3:u3"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-3:u4",
+              "book_id": "physics-senior-compulsory-3",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-3:u4:g2",
+              "name": "电动势内阻测量和能源可持续发展",
+              "aliases": [
+                "电能 能量守恒定律"
+              ],
+              "can_do": "能将电动势内阻测量和能源可持续发展应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“电动势内阻测量和能源可持续发展”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-3:u4:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-3:u4",
+              "book_id": "physics-senior-compulsory-3",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-3:u5",
+          "name": "电磁感应与电磁波初步",
+          "order": 5,
+          "goals": [
+            {
+              "id": "physics-senior-compulsory-3:u5:g1",
+              "name": "磁场、磁通量与电磁感应",
+              "aliases": [
+                "电磁感应与电磁波初步"
+              ],
+              "can_do": "能用物理量、规律或模型说明磁场、磁通量与电磁感应，并正确辨认所需条件。",
+              "checks": [
+                "解释“磁场、磁通量与电磁感应”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-3:u4"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-3:u5",
+              "book_id": "physics-senior-compulsory-3",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-compulsory-3:u5:g2",
+              "name": "电磁波发现应用及能量量子化",
+              "aliases": [
+                "电磁感应与电磁波初步"
+              ],
+              "can_do": "能将电磁波发现应用及能量量子化应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“电磁波发现应用及能量量子化”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-compulsory-3:u5:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-compulsory-3:u5",
+              "book_id": "physics-senior-compulsory-3",
+              "subject": "physics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1",
+      "book_id": "physics-senior-selective-1",
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stage": "senior",
+      "edition": "人教版",
+      "basis": "local_toc_verified",
+      "title": "普通高中教科书 物理 选择性必修第一册",
+      "book_type": "selective_compulsory",
+      "scope_note": "完整教材册级范围；章目已按本地目录核对。教材册次不强行映射到年级或学期；学习目标由项目按目录主题编写，需由 Luna 标注员复核。版次年份和印次未确认。",
+      "source_sha256": "f9c98f34029eb41906fb7419e5b47e27b03eafd2d00d8522f496992187df4dc6",
+      "source_archive": "data/sources/textbooks/senior-private/physics-selective1.pdf",
+      "pages": 131,
+      "sources": [
+        {
+          "title": "普通高中教科书 物理 选择性必修第一册",
+          "path": "data/sources/textbooks/senior-private/physics-selective1.pdf",
+          "sha256": "f9c98f34029eb41906fb7419e5b47e27b03eafd2d00d8522f496992187df4dc6",
+          "pages": 131,
+          "role": "local_pdf_toc"
+        }
+      ],
+      "units": [
+        {
+          "id": "physics-senior-selective-1:u1",
+          "name": "动量守恒定律",
+          "order": 1,
+          "goals": [
+            {
+              "id": "physics-senior-selective-1:u1:g1",
+              "name": "动量、冲量与动量定理",
+              "aliases": [
+                "动量守恒定律"
+              ],
+              "can_do": "能用物理量、规律或模型说明动量、冲量与动量定理，并正确辨认所需条件。",
+              "checks": [
+                "解释“动量、冲量与动量定理”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-1:u1",
+              "book_id": "physics-senior-selective-1",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-1:u1:g2",
+              "name": "系统动量守恒、碰撞和反冲火箭",
+              "aliases": [
+                "动量守恒定律"
+              ],
+              "can_do": "能将系统动量守恒、碰撞和反冲火箭应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“系统动量守恒、碰撞和反冲火箭”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-1:u1:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-selective-1:u1",
+              "book_id": "physics-senior-selective-1",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-1:u2",
+          "name": "机械振动",
+          "order": 2,
+          "goals": [
+            {
+              "id": "physics-senior-selective-1:u2:g1",
+              "name": "简谐运动描述、回复力与能量",
+              "aliases": [
+                "机械振动"
+              ],
+              "can_do": "能用物理量、规律或模型说明简谐运动描述、回复力与能量，并正确辨认所需条件。",
+              "checks": [
+                "解释“简谐运动描述、回复力与能量”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-1:u1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-1:u2",
+              "book_id": "physics-senior-selective-1",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-1:u2:g2",
+              "name": "单摆周期、重力加速度测量与共振",
+              "aliases": [
+                "机械振动"
+              ],
+              "can_do": "能将单摆周期、重力加速度测量与共振应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“单摆周期、重力加速度测量与共振”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-1:u2:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-selective-1:u2",
+              "book_id": "physics-senior-selective-1",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-1:u3",
+          "name": "机械波",
+          "order": 3,
+          "goals": [
+            {
+              "id": "physics-senior-selective-1:u3:g1",
+              "name": "波的形成、波长频率和波速",
+              "aliases": [
+                "机械波"
+              ],
+              "can_do": "能用物理量、规律或模型说明波的形成、波长频率和波速，并正确辨认所需条件。",
+              "checks": [
+                "解释“波的形成、波长频率和波速”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-1:u2"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-1:u3",
+              "book_id": "physics-senior-selective-1",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-1:u3:g2",
+              "name": "反射折射衍射、干涉与多普勒效应",
+              "aliases": [
+                "机械波"
+              ],
+              "can_do": "能将反射折射衍射、干涉与多普勒效应应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“反射折射衍射、干涉与多普勒效应”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-1:u3:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-1:u3",
+              "book_id": "physics-senior-selective-1",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-1:u4",
+          "name": "光",
+          "order": 4,
+          "goals": [
+            {
+              "id": "physics-senior-selective-1:u4:g1",
+              "name": "光的折射、全反射与光路",
+              "aliases": [
+                "光"
+              ],
+              "can_do": "能用物理量、规律或模型说明光的折射、全反射与光路，并正确辨认所需条件。",
+              "checks": [
+                "解释“光的折射、全反射与光路”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-1:u3"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-1:u4",
+              "book_id": "physics-senior-selective-1",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-1:u4:g2",
+              "name": "双缝干涉、衍射偏振和激光",
+              "aliases": [
+                "光"
+              ],
+              "can_do": "能将双缝干涉、衍射偏振和激光应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“双缝干涉、衍射偏振和激光”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-1:u4:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-selective-1:u4",
+              "book_id": "physics-senior-selective-1",
+              "subject": "physics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2",
+      "book_id": "physics-senior-selective-2",
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stage": "senior",
+      "edition": "人教版",
+      "basis": "local_toc_verified",
+      "title": "普通高中教科书 物理 选择性必修第二册",
+      "book_type": "selective_compulsory",
+      "scope_note": "完整教材册级范围；章目已按本地目录核对。教材册次不强行映射到年级或学期；学习目标由项目按目录主题编写，需由 Luna 标注员复核。版次年份和印次未确认。",
+      "source_sha256": "e7b8d61f3c98f1352f5d2d0ecf44d13f110ba3d833c68a4fd2e94b495166e81f",
+      "source_archive": "data/sources/textbooks/senior-private/physics-selective2.pdf",
+      "pages": 123,
+      "sources": [
+        {
+          "title": "普通高中教科书 物理 选择性必修第二册",
+          "path": "data/sources/textbooks/senior-private/physics-selective2.pdf",
+          "sha256": "e7b8d61f3c98f1352f5d2d0ecf44d13f110ba3d833c68a4fd2e94b495166e81f",
+          "pages": 123,
+          "role": "local_pdf_toc"
+        }
+      ],
+      "units": [
+        {
+          "id": "physics-senior-selective-2:u1",
+          "name": "安培力与洛伦兹力",
+          "order": 1,
+          "goals": [
+            {
+              "id": "physics-senior-selective-2:u1:g1",
+              "name": "安培力与洛伦兹力的方向和大小",
+              "aliases": [
+                "安培力与洛伦兹力"
+              ],
+              "can_do": "能用物理量、规律或模型说明安培力与洛伦兹力的方向和大小，并正确辨认所需条件。",
+              "checks": [
+                "解释“安培力与洛伦兹力的方向和大小”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-2:u1",
+              "book_id": "physics-senior-selective-2",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-2:u1:g2",
+              "name": "带电粒子轨迹、质谱仪与回旋加速器",
+              "aliases": [
+                "安培力与洛伦兹力"
+              ],
+              "can_do": "能将带电粒子轨迹、质谱仪与回旋加速器应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“带电粒子轨迹、质谱仪与回旋加速器”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-2:u1:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-2:u1",
+              "book_id": "physics-senior-selective-2",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-2:u2",
+          "name": "电磁感应",
+          "order": 2,
+          "goals": [
+            {
+              "id": "physics-senior-selective-2:u2:g1",
+              "name": "楞次定律和法拉第电磁感应定律",
+              "aliases": [
+                "电磁感应"
+              ],
+              "can_do": "能用物理量、规律或模型说明楞次定律和法拉第电磁感应定律，并正确辨认所需条件。",
+              "checks": [
+                "解释“楞次定律和法拉第电磁感应定律”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-2:u1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-2:u2",
+              "book_id": "physics-senior-selective-2",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-2:u2:g2",
+              "name": "涡流、电磁阻尼驱动及自感互感",
+              "aliases": [
+                "电磁感应"
+              ],
+              "can_do": "能将涡流、电磁阻尼驱动及自感互感应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“涡流、电磁阻尼驱动及自感互感”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-2:u2:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-2:u2",
+              "book_id": "physics-senior-selective-2",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-2:u3",
+          "name": "交变电流",
+          "order": 3,
+          "goals": [
+            {
+              "id": "physics-senior-selective-2:u3:g1",
+              "name": "交变电流图象和有效值",
+              "aliases": [
+                "交变电流"
+              ],
+              "can_do": "能用物理量、规律或模型说明交变电流图象和有效值，并正确辨认所需条件。",
+              "checks": [
+                "解释“交变电流图象和有效值”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-2:u2"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-2:u3",
+              "book_id": "physics-senior-selective-2",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-2:u3:g2",
+              "name": "变压器原理与远距离输电",
+              "aliases": [
+                "交变电流"
+              ],
+              "can_do": "能将变压器原理与远距离输电应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“变压器原理与远距离输电”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-2:u3:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-2:u3",
+              "book_id": "physics-senior-selective-2",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-2:u4",
+          "name": "电磁振荡与电磁波",
+          "order": 4,
+          "goals": [
+            {
+              "id": "physics-senior-selective-2:u4:g1",
+              "name": "电磁振荡与电磁波",
+              "aliases": [
+                "电磁振荡与电磁波"
+              ],
+              "can_do": "能用物理量、规律或模型说明电磁振荡与电磁波，并正确辨认所需条件。",
+              "checks": [
+                "解释“电磁振荡与电磁波”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-2:u3"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-2:u4",
+              "book_id": "physics-senior-selective-2",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-2:u4:g2",
+              "name": "无线电发射接收及电磁波谱",
+              "aliases": [
+                "电磁振荡与电磁波"
+              ],
+              "can_do": "能将无线电发射接收及电磁波谱应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“无线电发射接收及电磁波谱”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-2:u4:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-2:u4",
+              "book_id": "physics-senior-selective-2",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-2:u5",
+          "name": "传感器",
+          "order": 5,
+          "goals": [
+            {
+              "id": "physics-senior-selective-2:u5:g1",
+              "name": "传感器类型与工作原理",
+              "aliases": [
+                "传感器"
+              ],
+              "can_do": "能用物理量、规律或模型说明传感器类型与工作原理，并正确辨认所需条件。",
+              "checks": [
+                "解释“传感器类型与工作原理”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-2:u4"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-2:u5",
+              "book_id": "physics-senior-selective-2",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-2:u5:g2",
+              "name": "传感器应用和自动控制装置制作",
+              "aliases": [
+                "传感器"
+              ],
+              "can_do": "能将传感器应用和自动控制装置制作应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“传感器应用和自动控制装置制作”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-2:u5:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-selective-2:u5",
+              "book_id": "physics-senior-selective-2",
+              "subject": "physics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3",
+      "book_id": "physics-senior-selective-3",
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stage": "senior",
+      "edition": "人教版",
+      "basis": "local_toc_verified",
+      "title": "普通高中教科书 物理 选择性必修第三册",
+      "book_type": "selective_compulsory",
+      "scope_note": "完整教材册级范围；章目已按本地目录核对。教材册次不强行映射到年级或学期；学习目标由项目按目录主题编写，需由 Luna 标注员复核。版次年份和印次未确认。",
+      "source_sha256": "f330599ea414fddb103e57f4a72452478acda1641efb44e4fb35c38a10e0d8a7",
+      "source_archive": "data/sources/textbooks/senior-private/physics-selective3.pdf",
+      "pages": 144,
+      "sources": [
+        {
+          "title": "普通高中教科书 物理 选择性必修第三册",
+          "path": "data/sources/textbooks/senior-private/physics-selective3.pdf",
+          "sha256": "f330599ea414fddb103e57f4a72452478acda1641efb44e4fb35c38a10e0d8a7",
+          "pages": 144,
+          "role": "local_pdf_toc"
+        }
+      ],
+      "units": [
+        {
+          "id": "physics-senior-selective-3:u1",
+          "name": "分子动理论",
+          "order": 1,
+          "goals": [
+            {
+              "id": "physics-senior-selective-3:u1:g1",
+              "name": "分子动理论与分子速率分布",
+              "aliases": [
+                "分子动理论"
+              ],
+              "can_do": "能用物理量、规律或模型说明分子动理论与分子速率分布，并正确辨认所需条件。",
+              "checks": [
+                "解释“分子动理论与分子速率分布”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-3:u1",
+              "book_id": "physics-senior-selective-3",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-3:u1:g2",
+              "name": "油膜法测分子大小和分子能量",
+              "aliases": [
+                "分子动理论"
+              ],
+              "can_do": "能将油膜法测分子大小和分子能量应用于定量、实验或实际情境，说明方向、单位和结论。；能说明器材、步骤、测量量和数据处理，或提交可复核的建模/制作成果。",
+              "checks": [
+                "提交与“油膜法测分子大小和分子能量”对应的实验记录、模型报告或装置测试结果，包含操作/假设、原始数据或检验过程和误差/局限说明。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-3:u1:g1"
+              ],
+              "practical": true,
+              "required": true,
+              "unit_id": "physics-senior-selective-3:u1",
+              "book_id": "physics-senior-selective-3",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-3:u2",
+          "name": "气体、固体和液体",
+          "order": 2,
+          "goals": [
+            {
+              "id": "physics-senior-selective-3:u2:g1",
+              "name": "温度温标与气体状态变化",
+              "aliases": [
+                "气体、固体和液体"
+              ],
+              "can_do": "能用物理量、规律或模型说明温度温标与气体状态变化，并正确辨认所需条件。",
+              "checks": [
+                "解释“温度温标与气体状态变化”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-3:u1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-3:u2",
+              "book_id": "physics-senior-selective-3",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-3:u2:g2",
+              "name": "气体定律、固体和液体性质",
+              "aliases": [
+                "气体、固体和液体"
+              ],
+              "can_do": "能将气体定律、固体和液体性质应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“气体定律、固体和液体性质”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-3:u2:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-3:u2",
+              "book_id": "physics-senior-selective-3",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-3:u3",
+          "name": "热力学定律",
+          "order": 3,
+          "goals": [
+            {
+              "id": "physics-senior-selective-3:u3:g1",
+              "name": "功热内能与热力学第一定律",
+              "aliases": [
+                "热力学定律"
+              ],
+              "can_do": "能用物理量、规律或模型说明功热内能与热力学第一定律，并正确辨认所需条件。",
+              "checks": [
+                "解释“功热内能与热力学第一定律”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-3:u2"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-3:u3",
+              "book_id": "physics-senior-selective-3",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-3:u3:g2",
+              "name": "能量守恒、热力学第二定律与方向性",
+              "aliases": [
+                "热力学定律"
+              ],
+              "can_do": "能将能量守恒、热力学第二定律与方向性应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“能量守恒、热力学第二定律与方向性”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-3:u3:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-3:u3",
+              "book_id": "physics-senior-selective-3",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-3:u4",
+          "name": "原子结构和波粒二象性",
+          "order": 4,
+          "goals": [
+            {
+              "id": "physics-senior-selective-3:u4:g1",
+              "name": "黑体辐射、光电效应与原子模型",
+              "aliases": [
+                "原子结构和波粒二象性"
+              ],
+              "can_do": "能用物理量、规律或模型说明黑体辐射、光电效应与原子模型，并正确辨认所需条件。",
+              "checks": [
+                "解释“黑体辐射、光电效应与原子模型”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-3:u3"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-3:u4",
+              "book_id": "physics-senior-selective-3",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-3:u4:g2",
+              "name": "氢原子光谱、物质波和量子力学",
+              "aliases": [
+                "原子结构和波粒二象性"
+              ],
+              "can_do": "能将氢原子光谱、物质波和量子力学应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“氢原子光谱、物质波和量子力学”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-3:u4:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-3:u4",
+              "book_id": "physics-senior-selective-3",
+              "subject": "physics"
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-3:u5",
+          "name": "原子核",
+          "order": 5,
+          "goals": [
+            {
+              "id": "physics-senior-selective-3:u5:g1",
+              "name": "原子核组成、衰变与核力",
+              "aliases": [
+                "原子核"
+              ],
+              "can_do": "能用物理量、规律或模型说明原子核组成、衰变与核力，并正确辨认所需条件。",
+              "checks": [
+                "解释“原子核组成、衰变与核力”中的物理量含义，判断规律适用条件并完成一步推理。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-3:u4"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-3:u5",
+              "book_id": "physics-senior-selective-3",
+              "subject": "physics"
+            },
+            {
+              "id": "physics-senior-selective-3:u5:g2",
+              "name": "结合能、裂变聚变和基本粒子",
+              "aliases": [
+                "原子核"
+              ],
+              "can_do": "能将结合能、裂变聚变和基本粒子应用于定量、实验或实际情境，说明方向、单位和结论。",
+              "checks": [
+                "完成“结合能、裂变聚变和基本粒子”对应的计算、图像分析或情境判断，并核对单位、方向和边界条件。"
+              ],
+              "prerequisites": [
+                "physics-senior-selective-3:u5:g1"
+              ],
+              "practical": false,
+              "required": true,
+              "unit_id": "physics-senior-selective-3:u5",
+              "book_id": "physics-senior-selective-3",
+              "subject": "physics"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

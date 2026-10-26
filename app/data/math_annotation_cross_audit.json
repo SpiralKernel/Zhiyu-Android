@@ -1,0 +1,566 @@
+[
+  {
+    "question_id": "bank:cjeval:0163e9f9122691bed57fa150:b28853697d0d",
+    "source_sha256": "605aa8110c48a716755de245afda7fc62eb5868df3e8e464d442e1d89483ba16",
+    "action": "no_issue_found",
+    "reason": "题干要求数轴定义的三要素；来源答案与解析均列出原点、正方向、单位长度，候选rubric要求三项齐全，与题意一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cjeval:0226ab288811c7c41c63812f:e93d2986b777",
+    "source_sha256": "f2f5a829d0dc5b9f7d614e0010dd3a30e3d2e184a7fdc021ee96107018108e19",
+    "action": "no_issue_found",
+    "reason": "题干以气温增加记正，减少5℃应记为-5℃；来源答案、解析及候选rubric均保留负号和摄氏度单位。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cjeval:06c77a33dc531f335970c0a1:df2d36e77cae",
+    "source_sha256": "f8d7907095c05b6b7553ded127c8695fe24e56e50286d6d2e3b70b1eb24a32f1",
+    "action": "no_issue_found",
+    "reason": "点到3的距离为4满足|x-3|=4，解为x=-1或7；来源解析逐一处理左右两侧，候选rubric要求给全两个解。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cjeval:32e0dc088dd004e04d8b5d33:168d4ae45fb8",
+    "source_sha256": "3506a83fcb5f559682f14b41ea827e38a9c3394680239a691b7ee202ab49a4de",
+    "action": "no_issue_found",
+    "reason": "给定数中负数仅为-3和-0.5，共2个，选B；来源逐项判断和候选依据相符。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cjeval:6382fe97e747ab7b175826b5:69a39971ca91",
+    "source_sha256": "c145bdf0c99670fe655ed99ec7b7be5207c60c1d121d3c5b6ed2e6b9874085ba",
+    "action": "no_issue_found",
+    "reason": "从-2向右8再向左6，位置为-2+8-6=0，选B；来源运算和候选rubric正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cjeval:8d118d884346f50c997ebb4a:fc20f0dacaa2",
+    "source_sha256": "ea019894cd210152bd2fdb9946f624e2db43baf825c3362b2ce5fd3f45bc8603",
+    "action": "no_issue_found",
+    "reason": "加分为正的约定下，减去20分表示-20分；来源答案、解析和候选rubric一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cjeval:b7796eacb294115c03e80966:95692d617881",
+    "source_sha256": "36eedcc087b11c594d96edc5c977f28e63c05aa27ba408d77a717fe5e12aca2a",
+    "action": "exclude",
+    "reason": "复核后移出练习范围：来源公式|m-n|及候选判分依据正确；但来源解析声称绝对值使距离“总是正的”，当m=n时距离为0。应将“正的”更正为“非负”，并说明m=n时距离为0。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cjeval:e2f37b5519d15bd9f68a05f5:e16b7fe71c19",
+    "source_sha256": "6eae9af62dff09b39530f2355e02d069b3e9a209335158f3a553e5a976e93555",
+    "action": "no_issue_found",
+    "reason": "变换T(x,y)=(1-y,x+2)给出Q2=(1,4)、Q3=(-3,3)、Q4=(-2,-1)、Q5=Q1，周期4；2018除以4余2，Q2018=Q2=(1,4)，来源解析和候选rubric一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:1637:5d646d1b6ac2",
+    "source_sha256": "4ffd32c4ef54e1c535b74ce69073645fa49039b0fe826ce600c4782d94b4a0ca",
+    "action": "no_issue_found",
+    "reason": "定价方程120x+100(x+15)=5900得甲20元、乙35元；只有120本的甲书超过110本，节省120×20×0.2=480元。来源分问答案和候选rubric均与折扣条件吻合。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:2103:87b79c44264b",
+    "source_sha256": "73f3c9a159edd0c3f6f7bc1a9ac1c6dc9bcb6e247e04886429c7b2139fa60b1c",
+    "action": "no_issue_found",
+    "reason": "选项C令C位于BA的延长线上，点序为B-A-C，因此BC=BA+AC>AB，不可能满足BC=AB；A、B、D的构造均可实现。候选rubric说明了此长度关系，虽来源解析仅写“略”，未见答案冲突。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:23579:74383865b5d9",
+    "source_sha256": "4d0e0a77e5373fa6c8e7adce64534a4c8e7fe539d83de53e0f62a217f0df21e5",
+    "action": "no_issue_found",
+    "reason": "将125^x=1000和8^y=1000分别取2/x、2/y次幂得1000^(2/x)=125²及1000^(2/y)=8²；相乘后因125×8=1000，目标指数和为2，选B。来源与候选过程正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:2404:2cc7a9fad2ae",
+    "source_sha256": "a65cf90cd3852773e57d97016a5943701df9745b74c4adf22c5379b32789bfaa",
+    "action": "no_issue_found",
+    "reason": "摸红球频率约0.6用于估计红球比例，1000×0.6=600；来源答案、解析和候选rubric一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:2939:d80ea9f78288",
+    "source_sha256": "d7ff467dc8eee43e087d5b6061bf9192f68b7f4b9aa1d026fcc7f1fa570da531",
+    "action": "no_issue_found",
+    "reason": "原式定义域要求a≠±1；约分后原式化为a，方程根为1、2，排除使原式无定义的a=1，故值为2。来源解析保留了这个排除，候选rubric明确指出定义域，计算正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:4245:7f2b900c0205",
+    "source_sha256": "b552b3b76149a3d91ddb94244e91c799cabcd67253fab127a042dd09df3e922c",
+    "action": "no_issue_found",
+    "reason": "B的逆命题是“对应角相等的两个三角形全等”，该命题不成立（角相等只能保证相似，未保证边长）；其余选项的逆命题均为真。候选选择B正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:4720:4feb67ea039f",
+    "source_sha256": "ec7b5a26ce19c9ef8ad71e50a4bf9a138759db030e75c7a3d8a97c8b9c9fdb55",
+    "action": "no_issue_found",
+    "reason": "由x>y乘以正数5或加减5不改变方向；乘以-5应反向为-5x<-5y，因此错误项是D。候选rubric正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:621:4de38e3cdc7f",
+    "source_sha256": "2e48b7be606dbb90f86c1a9a6026c5e734aab0a250b9da696d5e44e208bc1184",
+    "action": "no_issue_found",
+    "reason": "放回抽取时公平条件为P(绿)=P(黑)，即2x/10=(10-3x)/10，得x=2，选D；来源列式与候选依据正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:tal:5cbd99a693d947abaf4ad5ff30cfbf98:0286567def6c",
+    "source_sha256": "2bb62719e3fd8f0f4f50b93fd7d6395ce5c9c87700f7f14ae1b59e3ffef4e5a5",
+    "action": "no_issue_found",
+    "reason": "配方为(m+1/2)²+2(n-1/3)²=0，故m=-1/2、n=1/3；-mn²=1/18，其平方根为±√2/6，选B。来源配方和候选依据正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:tal:c73fd71416df4e498c6a575f53f2f938:9b9947e36ad7",
+    "source_sha256": "afdda178ec80efeb0365128ed1cf10cc94b2d24e76594ea0eb3f927630edfd40",
+    "action": "needs_review",
+    "reason": "答案B正确：①、④对任意不同质数a、b均互素，②、③可用a=3、b=5反例说明不总是最简。但来源解析只代入一组质数便断言①、④“总是”最简，没有证明对任意质数成立；候选rubric也只给结论性公因数断言，需补充如gcd(a+b,a)=gcd(b,a)=1及gcd(ab,a²+b²)=1的论证。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cjeval:1a0df8243603155bcae32779:ba1aa404d37b",
+    "source_sha256": "50ead8b6cbc4937cc586be18b4da58ca1cd85dd2f1e62d25eb0af435d0112b07",
+    "action": "no_issue_found",
+    "reason": "节约记正，浪费方向相反，浪费3.2吨记为-3.2吨；来源答案、解析及候选依据一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cjeval:39380e634eb4e16b377ec319:677bd0381e59",
+    "source_sha256": "0edbe861108d4b7dde2f29cba4e9e4924c497c424afa44d13c0d876a52dc213a",
+    "action": "no_issue_found",
+    "reason": "0属于整数，故B“0不是整数”错误；A、C、D陈述正确，选B。来源解析与候选判分依据正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:184:8ea8c36615f4",
+    "source_sha256": "88d6bcec2fe8ea9b8775708fc5f04fb60681f46a3225418dbf26c661a0527ea0",
+    "action": "no_issue_found",
+    "reason": "抛物线左移3将x替换为x+3，上移4将函数值加4，得y=-1/2(x+3)²+4，选A；来源规则、答案和候选依据一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:23793:51448b266b8b",
+    "source_sha256": "48491d995b27cb99a3af91117fb080d2754887aa88f9e6e67a685c735cd0a9ce",
+    "action": "no_issue_found",
+    "reason": "统计对象是体重；总体为32000名学生的体重，个体为每名学生的体重，1500名被抽查学生的体重数据构成样本，且属于抽样调查，故C正确。候选rubric准确识别样本。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cmm:2654:610c50fc9ae3",
+    "source_sha256": "39b73edfb743d20dd44ac36d8d192592421b494d496206cea7614ef64f0f7d9f",
+    "action": "no_issue_found",
+    "reason": "D可写为(x-1/2)²；A为平方差而非完全平方，B不满足平方中项关系，C也不是完全平方，故答案D正确，候选依据充分。",
+    "auditor": "gpt-6-luna",
+    "shard": 0
+  },
+  {
+    "question_id": "bank:cjeval:004c77065f7a913ef04b8c80:b7fd35d7d19f",
+    "source_sha256": "9ab9d32c2a967eecbdc6eff06a38ee180073778531ebd214a450b132ed2f3d6d",
+    "action": "no_issue_found",
+    "reason": "|1-b|=3 给出 b=1±3，即 -2、4；源解析逐步建立绝对值方程，候选判分依据要求两侧解均保留，正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cjeval:05f5fdf45e6d341c25fb748d:36dcf574850a",
+    "source_sha256": "c2c39a52c8229de4ca3b66e159e205b3a8771769a371b1a5119e754a4d4275cb",
+    "action": "no_issue_found",
+    "reason": "题目约定收入为正，-500表示支出500元，对应A；源解析及候选证据均按符号约定和金额大小判断。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cjeval:14476f2770d8db0460bb780d:16349cb39bfb",
+    "source_sha256": "eb9e3a7d029a6a289f18d610ba68fad3bedbe1754a61b90cf41cef4873514ebd",
+    "action": "exclude",
+    "reason": "源解析第(3)问把 x<-1 时 |x-2| 写成 x-2，故推出常数和 -3；正确应为 |x+1|+|x-2|=(-x-1)+(2-x)=1-2x>3，虽然最终计数4正确，该关键分段推导错误。候选又将四问答案全部留空，不能直接使用。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cjeval:2555d8e2f31989b7326f872f:80468c5f2a8f",
+    "source_sha256": "095028df82aa9c732b20ceb817278c4dee58b4e1f3a49c109cdbcf3bda3fed3c",
+    "action": "no_issue_found",
+    "reason": "向北定义为正，-7米表示反向向南7米；源解析和候选判分依据均正确保留方向与长度。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cjeval:6f5d559feb08468d2f62563b:2e1cdf251489",
+    "source_sha256": "58cfb8202147ce4da50d2cdbf7e8809ec603bb1b129d7c27c722af25f04c9a55",
+    "action": "no_issue_found",
+    "reason": "负整数须为小于0的整数，四项中只有 -2 同时满足，选C；解析逐项排除零、负分数和正整数，正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cjeval:82de1f788b274c84ab8d1364:d4d3a61b3383",
+    "source_sha256": "14e1da6d7d348a819de3bcc4b768a12e43740f764271207a8eda34a2e7844df3",
+    "action": "no_issue_found",
+    "reason": "等式 1/a=1/b 的定义域要求 a,b 非零；两边乘 ab 得 b=a，命题为真。候选判分依据明确要求分母非零条件，推理成立。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cjeval:aaa8fc0adb2795ec9e66a1a9:c7d7e54d7c6a",
+    "source_sha256": "6ed730ce3afdefb6c6097897b41faa739792e27bc77526065d620028837761ea",
+    "action": "exclude",
+    "reason": "复核后移出练习范围：答案“假”依赖三维空间中异面直线不相交这一反例；题干未声明空间或允许异面直线，若按平面几何默认两直线共面，则“不相交即平行”为真。需要明确几何背景后才能确定答案。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cjeval:da9d6b3fb998a0780cc33027:258920bdf3e8",
+    "source_sha256": "d3b2f58175044ed9c2b6959c1e9c965e8333501250ddfe0256127898936153fa",
+    "action": "no_issue_found",
+    "reason": "盈利记正、亏损为相反方向；亏损6%应记 -6%，与盈利数值8%无关。源解析及判分依据正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:105:b8065f7765a3",
+    "source_sha256": "b75cc9dd1821d6a079b8a6746919d725247ea044782933b658350b6e87f2182f",
+    "action": "no_issue_found",
+    "reason": "y=(x+2)^2-3=(x-(-2))^2-3，顶点为(-2,-3)，与A项吻合；源解析及候选证据核对了顶点式中的符号。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:1910:33dcc5661a41",
+    "source_sha256": "b84102aa90b243676e09a70dc473dd3e3592633dfcedf95c7f50b1c903e7825d",
+    "action": "no_issue_found",
+    "reason": "排序为 -2 < -2/3 < 0 < 1，最大值1，对应A；源解析排序和候选比较证据正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:231:b3451943839a",
+    "source_sha256": "4884927cc1a82a7d8fec1e59b4496fda15c36cd39131335a2d838abd3244d013",
+    "action": "no_issue_found",
+    "reason": "令 y=0，判别式 Δ=(a+2)^2-4a=a²+4>0 对任意实数a成立，因此有两个不同交点，选B；源解析计算正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:23830:913c755a2763",
+    "source_sha256": "83284b5e958fb656224ada166e253abf6fa68297d3e216e8942c0b861032d0e4",
+    "action": "no_issue_found",
+    "reason": "盐水总质量为100+25=125克，盐的质量分数为25/125=20%，选B；源解析公式和候选判分步骤正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:2650:e98907f2689e",
+    "source_sha256": "c51e8c796f258fb703dba9838085a6be2404928762987809b35a0aa0f6a082f0",
+    "action": "no_issue_found",
+    "reason": "4x³-xy²=x(2x+y)(2x-y)；代入(11,12)得11、34、10，按题设拼成113410。源解析和候选证据一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:3159:14a8b33133dd",
+    "source_sha256": "b048b6d199747269d18e53e610261b4f53293f0d6860d62a6d40fc8ef931f187",
+    "action": "no_issue_found",
+    "reason": "A组 1×4=2×2，满足四线段成比例的乘积判据；其余组选项乘积不等。源解析逐项计算正确，候选要求核对比例顺序。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:3576:2bae882d25de",
+    "source_sha256": "65c94c9bdd5bfbcb8ca2551cce8cbb52507c340c8eadf5ef95262059b13fbd1e",
+    "action": "no_issue_found",
+    "reason": "同一时刻高与水平影长之比为1.5/1.2=1.25；大树高出墙上影长的部分为1.25×6.4=8米，再加墙上1.4米得9.4米。源答案、解析方程和候选证据一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:3985:c806186c8714",
+    "source_sha256": "279cefc9c4598b340cf7bda471628b7064fd37a6b06c67e364257ede98dea898",
+    "action": "exclude",
+    "reason": "复核后移出练习范围：题干写 tan a=2，而待求式使用 sin α、cos α；源解析把 a 与 α 当成同一变量并夹入无法对应的 sin² 项。若原意为 tan α=2，计算结果确为(3×2-1)/(4×2+2)=1/2（C），但按现有符号题目未充分确定。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:4492:1fb93b2a8d3a",
+    "source_sha256": "2d81abae5c41bd25e8141eef9e2aa9d6864689ad4e1ca7e0d9481dedabf29c81",
+    "action": "correct_annotation",
+    "reason": "答案坐标正确：底边 AC 在 x 轴上，B 到 x 轴距离为5，面积条件给 |AC|=4，故 C=(2,0) 或(-6,0)。候选评分依据却称“点C到x轴的水平距离”，C本就在x轴上，该高度为0；应改为使用B到x轴的垂直距离。",
+    "auditor": "gpt-6-luna",
+    "shard": 1,
+    "annotation_patch": {
+      "fine_types": [
+        "由坐标轴上底边及面积反求顶点坐标"
+      ],
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "已知点 $A(-2,0), B(0,-5)$, 点 $C$ 在 $x$ 轴上, 三角形的面积为 10 , 则点 $C$ 的坐标是",
+          "reference_answer": "$(-6,0)$ 或 $(2,0)$",
+          "solution_steps": [
+            "以x轴上的AC为底，B到x轴的垂直距离为5。",
+            "由10=AC×5÷2，得AC=4。",
+            "设C=(x,0)，则|x+2|=4，所以x=-6或2。"
+          ],
+          "knowledge_tags": [
+            "解析几何",
+            "平面直角坐标系",
+            "三角形面积"
+          ],
+          "type_tags": [
+            "由坐标轴上底边及面积反求顶点坐标"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "height",
+              "description": "以AC为底，正确取B到x轴的垂直距离5作为高",
+              "points": null,
+              "evidence_required": "说明所取底边、高与相应长度"
+            },
+            {
+              "id": "base",
+              "description": "根据面积10和高5求得AC=4",
+              "points": null,
+              "evidence_required": "正确应用三角形面积公式"
+            },
+            {
+              "id": "coordinates",
+              "description": "由|x+2|=4得到C=(-6,0)或(2,0)，不漏另一侧位置",
+              "points": null,
+              "evidence_required": "包含两个满足条件的坐标"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "误把 C 限定在某一侧而漏掉另一解。",
+              "knowledge_tags": [
+                "解析几何",
+                "平面直角坐标系",
+                "三角形面积"
+              ],
+              "type_tags": [
+                "坐标轴上三角形面积反求点坐标"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "bank:cmm:4910:190100335504",
+    "source_sha256": "f7d8be06ce9374af87cf64768b46fad2fa1f022a485eda7d73e5ce466ced11e9",
+    "action": "no_issue_found",
+    "reason": "通分得 (3x+2)/(x-2)-2=(x+6)/(x-2)<0；临界点 -6、2，符号分析得 (-6,2)，且排除分母为零点。源解与候选判分依据正确。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:5361:ef9ca1d0abad",
+    "source_sha256": "3973eed5ff9557a78511d106b8544fa2461296cf51d9b0c57d1e8ff6d0f8c7cf",
+    "action": "no_issue_found",
+    "reason": "平行四边形第四点可分别为 O+B-A=(0,2)、A+B-O=(6,2)、O+A-B=(0,-2)，三种排列均须列出；源答案完整，候选证据要求枚举顶点次序，合理。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cmm:992:f1eabc88d52f",
+    "source_sha256": "b7bbf91a178d2bbab093d61d7957ca5e8eb47b8778381c66c1a4412af79ad37f",
+    "action": "exclude",
+    "reason": "原题有5红7黑，加入总数6个并令两色概率相等：5+r=7+b、r+b=6，得 r=4、b=2。源解析前半部分正确，但末尾又说只加入5球、总数16并提到黄球，与题干和前述答案矛盾；候选两问答案也都未映射。需清理解析后再用。",
+    "auditor": "gpt-6-luna",
+    "shard": 1
+  },
+  {
+    "question_id": "bank:cjeval:003c857e5cf25613d387787d:6eb37fc1069d",
+    "source_sha256": "2a53d7b71c435bc6cbd35d4421e8d634b490b745244379e394ed6a95d1a7d1ed",
+    "action": "exclude",
+    "reason": "题干分类和答案(-√3、π)正确，候选解法也正确；但来源解析把有限小数-0.1010010001称为“周期性小数”。它是有限小数，直接等于-1010010001/10^10；该理由错误，建议隔离来源题以免作为教学解析呈现。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:004b7aa33f2a82172f12a7d3:9721e71ef772",
+    "source_sha256": "d59785a5e28663b355be0282d136aced23e22140ebe34422e9b8a935b1847ea6",
+    "action": "exclude",
+    "reason": "来源及候选答案算术错误：正向位移和为62，负向位移绝对值和为43，净位移为+19千米（东），不是+12；总路程为105千米，油费105×0.1×5=52.5元，不是57.5元。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:0077aaebee94623281377971:fdc35aeecbb8",
+    "source_sha256": "d618f1664d0ee7f2954d64be0c6d6bf94b7370f327249d84055fbd05bf62cca2",
+    "action": "no_issue_found",
+    "reason": "向东取正时，反向向西8米记为-8米；来源答案、候选答案及评分依据一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:01b1817efcb9b5af531a5446:29935b6c4d10",
+    "source_sha256": "372a0bdd1f81b92fd34973129103d7708c1777952215ab5f00d014cc421a3a84",
+    "action": "exclude",
+    "reason": "源答案两处算术错误：前三天应为15000+150-250+350=15250个（源15450）；一周增减和550，工资(35000+550)×0.5=17775元（源17850）。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:01f6c2d36eca14cbad1d2a42:c853e083dffb",
+    "source_sha256": "36f716e321ed8f26b2d74d948a1042b78a502aa33d9ddc5eee4dd11c2d05166c",
+    "action": "no_issue_found",
+    "reason": "六个数中负数为-48、-5、-3000，共3个，对应B；来源解析与候选推导一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:03244a1b87ef94169370bd8b:4894c84f0365",
+    "source_sha256": "74f6f68b9a6d38bb847a112f6ea12df98dccdecffbc5eade88f8c4e40d0326ad",
+    "action": "no_issue_found",
+    "reason": "B项“射线是直线的一部分”成立；其余项把直线/射线当作有有限长度或可比较长度。来源答案和候选解释成立。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:0382c6aecbe35f7cd0f418dc:5c0fdb5988f4",
+    "source_sha256": "24905632a5ca406248211deb8c233ceed5b023327d8da7e0d7186d9e6cef9ed8",
+    "action": "no_issue_found",
+    "reason": "收入约定为正，则支出30元表示为-30元，选A；来源与候选答案和理由一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:03a94f28ca4779ddbafa5ac4:e300dbbecf4c",
+    "source_sha256": "17be994e19c3d9b18a7b22adb0c02f1ccb2498242732fc9864c6f55eccd3a240",
+    "action": "exclude",
+    "reason": "逐项化简得到负数-4.5、-3^2=-9、-|3|=-3，共3个；选项A才是“3个”，而来源答案和解析都给出B（B为4个），候选也错误沿用了B。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:03d60ce1b859dd8686d30598:61f3d929a221",
+    "source_sha256": "4028ff231c03eeb1b0cd4a671bc42054b630df17b797a508baf8725172471c22",
+    "action": "no_issue_found",
+    "reason": "两日净变化分别为-2本、-1本，现存20-2-1=17本；来源和候选计算一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:041cff91c4aef6d0e82356d8:3b49e9118a06",
+    "source_sha256": "9454c32c4773529f48c0605564fb7e77b5852b6165d3090b6bca1c7ecfa889ef",
+    "action": "no_issue_found",
+    "reason": "A、C、D分别为正数、正数、正数，只有B=-3为负数；来源和候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:0542dc4975ef022960ec5066:ba525fbe926f",
+    "source_sha256": "d4cbbb1bbf33d15adb771aa015328a69ec6ec969507c48dea834fae0e2ec688c",
+    "action": "no_issue_found",
+    "reason": "与-4相距3的数满足|x+4|=3，得x=-1或-7，对应B；来源和候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:05838ce2db916830e6d907dd:4d3e698fc956",
+    "source_sha256": "c698abedf6c9cfdb4910ac757310bc886197391b538afbf0cb7724ac32478119",
+    "action": "no_issue_found",
+    "reason": "每日变化和为1.1万人，最大与最小变化差1.4万人；七天总量为2×7+1.1=15.1万人。来源与候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:059af7adbb7fb23ba864b865:67204321c80d",
+    "source_sha256": "b5f8dfc73a69a407d6ca60baf475be14ddbe0bc396d8df63e5731e113dac64ca",
+    "action": "no_issue_found",
+    "reason": "上涨记正时，下跌50点记为-50点；来源和候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:05cf8426a9450b9114c406fd:7c1805663d27",
+    "source_sha256": "7189ed29df149a50cd1ebc5cd7ea69f307a130ba5f7574a77af7f510c89a2556",
+    "action": "no_issue_found",
+    "reason": "获得为正时，花费30元表示为-30元，对应A；来源和候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:062e2b81959f1b95355dfbba:a601bbaac1f3",
+    "source_sha256": "9b41e1dd49c1c6f591fcfe52a3e2c31a2a1eab38f5f03ac8c36d890165bba8f1",
+    "action": "no_issue_found",
+    "reason": "相对正常水位低3米表示为-3米；来源答案与候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:065c44425ef058bd3e561e9e:5a7d41151bcd",
+    "source_sha256": "e702c55aa71e53558209c5efa1aa2f54e77c7b2093135facbf3d77b58b066186",
+    "action": "no_issue_found",
+    "reason": "盈利为正时，亏损500元记作-500元；来源和候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:06774055d754a3820b941fec:0db65293ede8",
+    "source_sha256": "e38cf47a9cc33d2b870418a7adc97dd84111f4c57220000002a636745adc1cf6",
+    "action": "no_issue_found",
+    "reason": "水位上升取正，则下降1米记为-1米；来源和候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:07035c4e6b52b17f5191111e:a0c7f668bfc5",
+    "source_sha256": "be9b285ad3f30ffbd73d3fc9799e40bc392c9eac19f01396bce1c7746894fef7",
+    "action": "no_issue_found",
+    "reason": "盈利记正时，损失75元表示为-75元，对应A；来源和候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:0718cd003f0c034b074ba259:fd7659b21142",
+    "source_sha256": "d3c30cd6d1d9d2663f38560007f78a4089d8e1856fb96148fca103fd0c0b8d0d",
+    "action": "no_issue_found",
+    "reason": "题目将气温变化量相对常温表示；-4℃表示下降4℃，对应B；来源和候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  },
+  {
+    "question_id": "bank:cjeval:077c053f2c70c6281289c01b:5bf7a0e32627",
+    "source_sha256": "4f495926231dd10f56e5b561d373e4b59568e8e001d2862407d044cea6e25b63",
+    "action": "no_issue_found",
+    "reason": "水位下降4米取负，表示为-4米，对应D；来源和候选一致。",
+    "auditor": "gpt-6-luna",
+    "shard": 2
+  }
+]

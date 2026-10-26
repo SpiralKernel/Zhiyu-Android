@@ -1,0 +1,1836 @@
+{
+  "batch_id": "senior-20261015-physics-gaokao-1",
+  "source_manifest": [
+    {
+      "path": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+      "revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+      "sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa",
+      "license": "Apache-2.0",
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench"
+    },
+    {
+      "path": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+      "revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+      "sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed",
+      "license": "Apache-2.0",
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench"
+    }
+  ],
+  "items": [
+    {
+      "question_id": "bank:gaokao:202eb9da6938753df2d2",
+      "source_sha256": "b296c0e1fb560c5e96abe2019e27d8feb15807275d583d6b1be896243454b291",
+      "decision": "pending",
+      "quarantine_original": true,
+      "question": {
+        "id": "bank:gaokao:202eb9da6938753df2d2",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "11. (14 分) 短跑名将博尔特在北京奥运会上创造了 $100 \\mathrm{~m}$ 和 $200 \\mathrm{~m}$ 短跑项目的 新世界纪录, 他的成绩分别是 $9.69 \\mathrm{~s}$ 和 $19.30 \\mathrm{~s}$ 。假定他在 $100 \\mathrm{~m}$ 比赛时从发令 到起跑的反应时间是 $0.15 \\mathrm{~s}$, 起跑后做匀加速运动, 达到最大速率后做匀速运 动. $200 \\mathrm{~m}$ 比赛时, 反应时间及起跑后加速阶段的加速度和加速时间与 $100 \\mathrm{~m}$ 比 赛时相同, 但由于弯道和体力等因素的影响, 以后的平均速率只有跑 $100 \\mathrm{~m}$ 时 最大速率的 $96 \\%$. 求:\n\n(1) 加速所用时间和达到的最大速率。\n\n（2）起跑后做匀加速运动的加速度。（结果保留两位小数）",
+        "options": [],
+        "answer": "(1) 加速所用时间是 $1.29 \\mathrm{~s}$, 达到的最大速率是 $11.24 \\mathrm{~m} / \\mathrm{s}$ 。\n\n（2）起跑后做匀加速运动的加速度是 $8.71 \\mathrm{~m} / \\mathrm{s}^{2}$ 。",
+        "kind": "reference",
+        "steps": [
+          "解: （1）设加速所用时间 $\\mathrm{t}$ 和达到的最大速率 $\\mathrm{v}$,\n\n$100 \\mathrm{~m}$ 比赛时有,\n\n$\\frac{0+v}{2} t+v(9.69-0.15-t)=10 C$\n\n$200 \\mathrm{~m}$ 比赛时有，\n\n$\\frac{0+v}{2} t+96 \\% v(19.30-0.15-t)=20 c$\n\n联立解得: $t=1.29 \\mathrm{~s}, \\mathrm{v}=11.24 \\mathrm{~m} / \\mathrm{s}$\n\n（2）设起跑后做匀加速运动的加速度 $\\mathrm{a}$,\n\n则 $v=a t$,\n\n解得: $a=8.71 \\mathrm{~m} / \\mathrm{s}^{2}$"
+        ],
+        "difficulty": 3,
+        "difficulty_raw": 14,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "subjective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "subjective",
+          "2010-2022_Physics_Open-ended_Questions"
+        ],
+        "status": "reference",
+        "issues": [
+          "subjective_question_reference_only"
+        ],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2010:（新课标ⅰ）:1",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-1",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-1:u2:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "匀变速直线运动",
+            "平均速度与分段运动模型"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "联立100m与200m分段路程方程求加速时间、最大速度和加速度"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "联立两场比赛的分段运动方程，并需判断源解答中间舍入对最后一位的影响。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-1",
+          "goal_ids": [
+            "physics-senior-compulsory-1:u2:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按经核目录映射高中物理主适用册和目标；原题未给年级、学期或版次信息。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "来源答案：t≈1.29s，v≈11.24m/s；独立解算未舍入值约t=1.2889s，v=11.241m/s。",
+            "来源答案8.71m/s²；由未舍入联立解计算约8.72m/s²，来源末位与直接复算不一致。"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "代数式接受等价形式；数值答案使用题目给定单位与有效数字要求。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求加速所用时间和100m比赛中的最大速率。",
+            "reference_answer": "来源答案：t≈1.29s，v≈11.24m/s；独立解算未舍入值约t=1.2889s，v=11.241m/s。",
+            "solution_steps": [
+              "设加速时间t、最大速度v。100m赛跑距离方程为(1/2)vt+v(9.69−0.15−t)=100。",
+              "200m赛跑距离方程为(1/2)vt+0.96v(19.30−0.15−t)=200。",
+              "联立得t=0.696/0.54≈1.2889s，v≈11.241m/s，按题目精度分别约为1.29s、11.24m/s。"
+            ],
+            "knowledge_tags": [
+              "匀变速直线运动"
+            ],
+            "type_tags": [
+              "由两组分段路程方程联立求运动参数"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "建立两场比赛路程式：正确列出100m与200m路程方程。",
+                "points": null,
+                "evidence_required": "加速段按初速0、末速v的匀加速平均速度计算。"
+              },
+              {
+                "id": "c2",
+                "description": "联立求解：得到t约1.29s、v约11.24m/s。",
+                "points": null,
+                "evidence_required": "秒和m/s单位正确。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "漏减反应时间；将200m后的平均速率误当最大速率。",
+                "knowledge_tags": [
+                  "匀变速直线运动"
+                ],
+                "type_tags": [
+                  "由两组分段路程方程联立求运动参数"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "prompt": "求起跑后的匀加速加速度，结果保留两位小数。",
+            "reference_answer": "来源答案8.71m/s²；由未舍入联立解计算约8.72m/s²，来源末位与直接复算不一致。",
+            "solution_steps": [
+              "用未舍入联立解的最大速率约11.241m/s及加速时间约1.2889s。",
+              "a=v/t≈8.722m/s²，保留两位小数为8.72m/s²。",
+              "来源解析先把t、v舍入至1.29s、11.24m/s后求比值，得到约8.71m/s²；题目没有明确后续计算是否必须使用已舍入中间值。"
+            ],
+            "knowledge_tags": [
+              "匀变速直线运动"
+            ],
+            "type_tags": [
+              "由同一加速阶段末速度和时间求加速度并处理中间值舍入"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "加速度关系：使用a=v/t。",
+                "points": null,
+                "evidence_required": "取自同一加速阶段。"
+              },
+              {
+                "id": "c2",
+                "description": "精度处理：说明使用未舍入解得约8.72m/s²，并识别来源8.71的舍入差异。",
+                "points": null,
+                "evidence_required": "不掩盖来源与复算结果差异。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将四舍五入中间量当精确值而不说明。",
+                "knowledge_tags": [
+                  "匀变速直线运动"
+                ],
+                "type_tags": [
+                  "由同一加速阶段末速度和时间求加速度并处理中间值舍入"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "conflict",
+          "issues": [
+            "source_answer_rounding_conflict"
+          ],
+          "method": "item_read",
+          "notes": "逐题阅读题干、选项/小问、源答案与解析并独立复算；逐问步骤和评分证据已记录。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-1"
+        }
+      },
+      "independent_solution": [
+        "设加速时间t、最大速度v。100m赛跑距离方程为(1/2)vt+v(9.69−0.15−t)=100。",
+        "200m赛跑距离方程为(1/2)vt+0.96v(19.30−0.15−t)=200。",
+        "联立得t=0.696/0.54≈1.2889s，v≈11.241m/s，按题目精度分别约为1.29s、11.24m/s。",
+        "用未舍入联立解的最大速率约11.241m/s及加速时间约1.2889s。",
+        "a=v/t≈8.722m/s²，保留两位小数为8.72m/s²。",
+        "来源解析先把t、v舍入至1.29s、11.24m/s后求比值，得到约8.71m/s²；题目没有明确后续计算是否必须使用已舍入中间值。"
+      ],
+      "source_conflicts": [
+        "来源第二小问将已四舍五入的t=1.29s、v=11.24m/s相除得8.71m/s²；直接由未舍入方程解得约8.72m/s²，精度约定不足以裁决来源答案。"
+      ],
+      "remaining_issues": [
+        "source_answer_rounding_conflict"
+      ],
+      "rationale": "设加速时间t、最大速度v。100m赛跑距离方程为(1/2)vt+v(9.69−0.15−t)=100。 | 200m赛跑距离方程为(1/2)vt+0.96v(19.30−0.15−t)=200。 | 联立得t=0.696/0.54≈1.2889s，v≈11.241m/s，按题目精度分别约为1.29s、11.24m/s。 | 用未舍入联立解的最大速率约11.241m/s及加速时间约1.2889s。 | a=v/t≈8.722m/s²，保留两位小数为8.72m/s²。 | 来源解析先把t、v舍入至1.29s、11.24m/s后求比值，得到约8.71m/s²；题目没有明确后续计算是否必须使用已舍入中间值。"
+    },
+    {
+      "question_id": "bank:gaokao:bf109ff4ce542d88ce12",
+      "source_sha256": "9502123488e1fa07f26e3d3fef720092a3ac883a5c8bbd1b300fb98c3064c411",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:bf109ff4ce542d88ce12",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "11. （12 分) 公路上行驶的两辆汽车之间应保持一定的安全距离。当前车突然 停止时, 后车司机可以采取刹车措施, 使汽车匀减速在安全距离内停下而不 会与前车相碰。通常情况下,人的反应时间和汽车系统的反应时间之和为 $1 \\mathrm{~s}$ （ 这一时间段内车仍保持匀速）。当汽车在晴天干燥沥青路面上以 $108 \\mathrm{~km} / \\mathrm{h}$ 的 速度匀速行驶时, 安全距离为 $120 \\mathrm{~m}$ 。设雨天时汽车匀减速时的加速度为晴天 时的 $\\frac{2}{5}$, 若要求安全距离仍为 $120 \\mathrm{~m}$, 求汽车在雨天安全行驶的最大速度。",
+        "options": [],
+        "answer": "汽车在雨天安全行驶的最大速度为 $20 \\mathrm{~m} / \\mathrm{s}$",
+        "kind": "reference",
+        "steps": [
+          "解：设路面干燥时, 汽车杀车时的加速度大小为 $\\mathrm{a}_{0}$, 安全距离为 $\\mathrm{s}$, 反 映时间为 $\\mathrm{t}_{0}$, 由运动学公式得:\n\n$s=v_{0} t_{0}+\\frac{v_{0}^{2}}{2 \\mathrm{a}_{0}} \\ldots$.\n\n式中, $\\mathrm{v}_{0}$ 为汽车杀车前的速度。\n\n设在雨天行驶时汽车杀车的加速度大小为 $\\mathrm{a}$, 安全行驶的最大速度为 $\\mathrm{v}$, 由运动 学公式得:\n\n$s=\\mathrm{vt}_{0}+\\frac{\\mathrm{v}^{2}}{2 \\mathrm{a}} \\ldots(2)$\n\n依题意有： $a=\\frac{2}{5} a_{0} \\ldots(3)$\n\n联立(1)(2)(3)式并代入题给数据得: $v=20 \\mathrm{~m} / \\mathrm{s}$"
+        ],
+        "difficulty": 3,
+        "difficulty_raw": 12,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "subjective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "subjective",
+          "2010-2022_Physics_Open-ended_Questions"
+        ],
+        "status": "reference",
+        "issues": [
+          "subjective_question_reference_only"
+        ],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2014:（新课标ⅰ）:11",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-1",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-1:u2:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "匀变速直线运动的位移",
+            "反应时间与安全距离"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "先由晴天反应距离和刹车位移求减速度，再建立雨天安全距离方程并取正根"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "需要从晴天条件反求减速度，再处理反应与制动两段运动并解二次方程；来源给出完整条件。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-1",
+          "goal_ids": [
+            "physics-senior-compulsory-1:u2:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按经核目录映射高中物理主适用册和目标；原题未给年级、学期或版次信息。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "20 m/s"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "代数式接受等价形式；数值答案使用题目给定单位与有效数字要求。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求雨天安全行驶的最大速度。",
+            "reference_answer": "20 m/s",
+            "solution_steps": [
+              "晴天车速108km/h=30m/s。反应距离30×1=30m，制动距离120−30=90m。",
+              "由v²=2a₀s，晴天制动减速度a₀=30²/(2×90)=5m/s²；雨天a=(2/5)a₀=2m/s²。",
+              "雨天安全距离满足v×1+v²/(2×2)=120，即v²+4v−480=0。取正根v=20m/s。"
+            ],
+            "knowledge_tags": [
+              "匀变速直线运动的位移"
+            ],
+            "type_tags": [
+              "含反应时间的分段停车距离计算"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "晴天制动参数：正确换算30m/s并由120m安全距离扣除30m反应距离，得a₀=5m/s²。",
+                "points": null,
+                "evidence_required": "列出晴天反应距离、制动距离和v₀²=2a₀s。"
+              },
+              {
+                "id": "c2",
+                "description": "雨天参数与方程：得雨天减速度2m/s²，建立v+v²/4=120。",
+                "points": null,
+                "evidence_required": "显示雨天反应位移与刹车位移两项。"
+              },
+              {
+                "id": "c3",
+                "description": "速度与物理范围：取正根20m/s并给出速度单位。",
+                "points": null,
+                "evidence_required": "舍弃负根并报告m/s。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把反应距离漏算或将反应时间用于制动阶段。",
+                "knowledge_tags": [
+                  "匀变速直线运动的位移"
+                ],
+                "type_tags": [
+                  "含反应时间的分段停车距离计算"
+                ]
+              },
+              {
+                "description": "把速度108km/h误当108m/s。",
+                "knowledge_tags": [
+                  "匀变速直线运动的位移"
+                ],
+                "type_tags": [
+                  "含反应时间的分段停车距离计算"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、选项/小问、源答案与解析并独立复算；逐问步骤和评分证据已记录。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-1"
+        }
+      },
+      "independent_solution": [
+        "晴天车速108km/h=30m/s。反应距离30×1=30m，制动距离120−30=90m。",
+        "由v²=2a₀s，晴天制动减速度a₀=30²/(2×90)=5m/s²；雨天a=(2/5)a₀=2m/s²。",
+        "雨天安全距离满足v×1+v²/(2×2)=120，即v²+4v−480=0。取正根v=20m/s。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "晴天车速108km/h=30m/s。反应距离30×1=30m，制动距离120−30=90m。 | 由v²=2a₀s，晴天制动减速度a₀=30²/(2×90)=5m/s²；雨天a=(2/5)a₀=2m/s²。 | 雨天安全距离满足v×1+v²/(2×2)=120，即v²+4v−480=0。取正根v=20m/s。"
+    },
+    {
+      "question_id": "bank:gaokao:d610831c42b0114592ab",
+      "source_sha256": "5902a227cf08c26193cdcf051aacd01dcc88402ade7253b03caae091f3273bc1",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:d610831c42b0114592ab",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "18. 某游乐园入口旁有一喷泉, 喷出的水柱将一质量为 $M$ 的卡通玩具稳定地悬 停在空中。为计算方便起见, 假设水柱从横截面积为 $\\mathrm{S}$ 的喷口持续以速度 $\\mathrm{v}_{0}$ 坚直向上喷出; 玩具底部为平板（面积略大于 $S$ ）; 水柱冲击到玩具底板后, 在坚直方向水的速度变为零, 在水平方向朝四周均匀散开。忽略空气阻力。 已知水的密度为 $\\rho$, 重力加速度大小为 $g$ 。求:\n\n（i）喷泉单位时间内喷出的水的质量;\n\n（ii）玩具在空中悬停时, 其底面相对于喷口的高度。",
+        "options": [],
+        "answer": "(i）喷泉单位时间内喷出的水的质量为 $\\rho \\mathrm{Sv}_{0}$;\n\n(ii）玩具在空中悬停时, 其底面相对于喷口的高度为 $\\frac{\\rho^{2} S^{2} v_{0}{ }^{4}-M^{2} g^{2}}{2 \\rho^{2} S^{2} v_{0}{ }^{2} g}$ 。",
+        "kind": "reference",
+        "steps": [
+          "解：（i）喷泉单位时间内喷出的水的质量 $m=\\rho V=\\rho S v_{0}$, （ii）设水到达卡通玩具处的速度为 $v$, 玩具在空中悬停时, 其底面相对于喷口 的高度为 $h$,\n\n根据运动学基本公式得: $v^{2}-v_{0}{ }^{2}=-2 g h$,\n\n水柱冲击到玩具底板后, 在坚直方向水的速度变为零, 以向上为正, 根据动量定理得:\n\n$-\\mathrm{Mgt}=\\rho \\mathrm{Sv}_{0} \\mathrm{t}(0-\\mathrm{v})$\n\n联立解得: $h=\\frac{\\rho^{2} S^{2} v_{0}^{4}-M^{2} g^{2}}{2 \\rho^{2} S^{2} v_{0}^{2} g}$"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "subjective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "subjective",
+          "2010-2022_Physics_Open-ended_Questions"
+        ],
+        "status": "reference",
+        "issues": [
+          "subjective_question_reference_only"
+        ],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2016:（新课标ⅰ）:23",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-selective-1",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-1:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "动量定理与质量流率",
+            "匀减速直线运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "用质量流率与动量定理求水柱冲击力，再联立竖直运动求悬停高度"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "需把连续流质量率、动量通量、受力平衡和匀减速运动组合建模；悬停是题设前提。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-1",
+          "goal_ids": [
+            "physics-senior-selective-1:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按经核目录映射高中物理主适用册和目标；原题未给年级、学期或版次信息。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "ρSv₀",
+            "h=(ρ²S²v₀⁴−M²g²)/(2ρ²S²v₀²g)"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "代数式接受等价形式；数值答案使用题目给定单位与有效数字要求。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求喷泉单位时间喷出的水的质量。",
+            "reference_answer": "ρSv₀",
+            "solution_steps": [
+              "单位时间流过喷口的水体积为Sv₀。",
+              "乘以水密度ρ，得到质量流率ṁ=ρSv₀。"
+            ],
+            "knowledge_tags": [
+              "质量流率"
+            ],
+            "type_tags": [
+              "截面积与流速求体积流率和质量流率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "体积流率：写出每秒水体积Sv₀。",
+                "points": null,
+                "evidence_required": "用喷口横截面积乘喷出速度。"
+              },
+              {
+                "id": "c2",
+                "description": "质量流率：乘以密度得到ρSv₀。",
+                "points": null,
+                "evidence_required": "量纲为kg/s。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将质量流率误写成ρS/v₀。",
+                "knowledge_tags": [
+                  "质量流率"
+                ],
+                "type_tags": [
+                  "截面积与流速求体积流率和质量流率"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "prompt": "求玩具稳定悬停时其底面相对喷口的高度h。",
+            "reference_answer": "h=(ρ²S²v₀⁴−M²g²)/(2ρ²S²v₀²g)",
+            "solution_steps": [
+              "水从喷口上升至玩具底面，v²=v₀²−2gh。",
+              "单位时间水质量ṁ=ρSv₀，水竖直速度由v变为0；水对玩具的向上冲击力大小为ṁv。",
+              "悬停平衡要求ṁv=Mg，得v=Mg/(ρSv₀)。",
+              "代回运动学关系得h=[v₀²−M²g²/(ρ²S²v₀²)]/(2g)，即题给等价表达式。稳定悬停前提保证该高度可达。"
+            ],
+            "knowledge_tags": [
+              "动量定理与质量流率",
+              "竖直上抛运动"
+            ],
+            "type_tags": [
+              "连续水流速度改变产生的动量通量支撑玩具并反推高度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "水柱速度与高度关系：列出v²=v₀²−2gh。",
+                "points": null,
+                "evidence_required": "明确上升过程重力使水速减小。"
+              },
+              {
+                "id": "c2",
+                "description": "动量通量与平衡：建立冲击力ṁv=Mg，并使用ṁ=ρSv₀。",
+                "points": null,
+                "evidence_required": "写明单位时间质量乘速度变化率。"
+              },
+              {
+                "id": "c3",
+                "description": "代数联立：得到题给h表达式，符号及量纲一致。",
+                "points": null,
+                "evidence_required": "把v=Mg/(ρSv₀)正确代入。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把水流质量流率误当总水质量。",
+                "knowledge_tags": [
+                  "动量定理与质量流率",
+                  "竖直上抛运动"
+                ],
+                "type_tags": [
+                  "连续水流速度改变产生的动量通量支撑玩具并反推高度"
+                ]
+              },
+              {
+                "description": "忽略水流速度变化而直接令冲击力为零。",
+                "knowledge_tags": [
+                  "动量定理与质量流率",
+                  "竖直上抛运动"
+                ],
+                "type_tags": [
+                  "连续水流速度改变产生的动量通量支撑玩具并反推高度"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、选项/小问、源答案与解析并独立复算；逐问步骤和评分证据已记录。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-1"
+        }
+      },
+      "independent_solution": [
+        "单位时间流过喷口的水体积为Sv₀。",
+        "乘以水密度ρ，得到质量流率ṁ=ρSv₀。",
+        "水从喷口上升至玩具底面，v²=v₀²−2gh。",
+        "单位时间水质量ṁ=ρSv₀，水竖直速度由v变为0；水对玩具的向上冲击力大小为ṁv。",
+        "悬停平衡要求ṁv=Mg，得v=Mg/(ρSv₀)。",
+        "代回运动学关系得h=[v₀²−M²g²/(ρ²S²v₀²)]/(2g)，即题给等价表达式。稳定悬停前提保证该高度可达。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "单位时间流过喷口的水体积为Sv₀。 | 乘以水密度ρ，得到质量流率ṁ=ρSv₀。 | 水从喷口上升至玩具底面，v²=v₀²−2gh。 | 单位时间水质量ṁ=ρSv₀，水竖直速度由v变为0；水对玩具的向上冲击力大小为ṁv。 | 悬停平衡要求ṁv=Mg，得v=Mg/(ρSv₀)。 | 代回运动学关系得h=[v₀²−M²g²/(ρ²S²v₀²)]/(2g)，即题给等价表达式。稳定悬停前提保证该高度可达。"
+    },
+    {
+      "question_id": "bank:gaokao:2c74dcb789e70357631f",
+      "source_sha256": "de879ad3474754c990de18eaa24b9ec453e8529d97275a2021ebeb1106d78808",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:2c74dcb789e70357631f",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "11. (12 分) 一质量为 $8.00 \\times 10^{4} \\mathrm{~kg}$ 的太空飞船从其飞行轨道返回地面。飞船在 离地面高度 $1.60 \\times 10^{5} \\mathrm{~m}$ 处以 $7.5 \\times 10^{3} \\mathrm{~m} / \\mathrm{s}$ 的速度进入大气层, 逐渐减慢至速 度为 $100 \\mathrm{~m} / \\mathrm{s}$ 时下落到地面。取地面为重力势能零点, 在飞船下落过程中, 重 力加速度可视为常量, 大小取为 $9.8 \\mathrm{~m} / \\mathrm{s}^{2}$. (结果保留 2 位有效数字)\n\n（1）分别求出该飞船着地前瞬间的机械能和它进入大气层时的机械能;\n\n(2) 求飞船从离地面高度 $600 \\mathrm{~m}$ 处至着地前瞬间的过程中克服阻力所做的功, 已知飞船在该处的速度大小是其进入大气层时速度大小的 $2.0 \\%$ 。",
+        "options": [],
+        "answer": "(1) 落地瞬间的机械能为 $4.0 \\times 10^{8} \\mathrm{~J}$; 进入大气层的机械能为 $2.4 \\times 10^{12} \\mathrm{~J}$;\n\n(2) 克服阻力做功为 $9.7 \\times 10^{8} \\mathrm{~J}$ 。",
+        "kind": "reference",
+        "steps": [
+          "解: $1.60 \\times 10^{5} \\mathrm{~m}$ 处的速度为 $v_{1}, 600 \\mathrm{~m}$ 处的速度为 $v_{2}$, 落地前的速度为 $v_{3}$\n\n(1) 落地时的重力势能为零, 动能为 $E_{k 2}=\\frac{1}{2} m_{v_{3}}^{2}=\\frac{1}{2} \\times 8 \\times 10^{4} \\times 100^{2} \\mathrm{~J}=4.0 \\times 10^{8} \\mathrm{~J}$; 进入大气层的机械能 $\\mathrm{E}=\\mathrm{E}_{\\mathrm{k} 1}+\\mathrm{E}_{\\mathrm{p} 1}=\\frac{1}{2} m_{v_{1}^{2}}^{2}+m g H=2.4 \\times 10^{12}$ J\n\n(2) 此时的速度大小为 $v_{2}=7.5 \\times 10^{3} \\times 0.02 \\mathrm{~m} / \\mathrm{s}=150 \\mathrm{~m} / \\mathrm{s}$; 从 $600 \\mathrm{~m}$ 处到落地之间, 重力做正功, 阻力做负功, 根据动能定理\n\n$\\mathrm{mgh}-\\mathrm{W}_{\\mathrm{f}}=\\frac{1}{2} \\mathrm{mv}_{3}^{2}-\\frac{1}{2} \\mathrm{mv}_{2}^{2}$\n\n代入数据, 可得 $\\mathrm{W}_{\\mathrm{f}}=9.7 \\times 10^{8} \\mathrm{~J}$"
+        ],
+        "difficulty": 3,
+        "difficulty_raw": 12,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "subjective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "subjective",
+          "2010-2022_Physics_Open-ended_Questions"
+        ],
+        "status": "reference",
+        "issues": [
+          "subjective_question_reference_only"
+        ],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2017:（新课标ⅰ）:28",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u4:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "重力势能与机械能",
+            "动能定理",
+            "阻力做功"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "计算再入飞船不同位置机械能并用动能定理求阻力功"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "三个小问分别使用机械能定义、重力势能和动能定理；数据与有效数字均给出。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u4:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按经核目录映射高中物理主适用册和目标；原题未给年级、学期或版次信息。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "4.0×10⁸ J",
+            "2.4×10¹² J",
+            "9.7×10⁸ J"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "代数式接受等价形式；数值答案使用题目给定单位与有效数字要求。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求飞船着地前瞬间的机械能。",
+            "reference_answer": "4.0×10⁸ J",
+            "solution_steps": [
+              "地面为重力势能零点，落地前机械能等于动能。",
+              "E=mv²/2=(8.00×10⁴)(100²)/2=4.0×10⁸J。"
+            ],
+            "knowledge_tags": [
+              "动能与重力势能"
+            ],
+            "type_tags": [
+              "地面势能零点下由落地速度求机械能"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "机械能表达式：说明落地时势能为零，E=mv²/2。",
+                "points": null,
+                "evidence_required": "使用题设100m/s着地速度。"
+              },
+              {
+                "id": "c2",
+                "description": "计算和单位：结果4.0×10⁸J。",
+                "points": null,
+                "evidence_required": "质量用kg，能量用J。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将高度160km对应势能加到落地时能量。",
+                "knowledge_tags": [
+                  "动能与重力势能"
+                ],
+                "type_tags": [
+                  "地面势能零点下由落地速度求机械能"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "prompt": "求飞船进入大气层时的机械能。",
+            "reference_answer": "2.4×10¹² J",
+            "solution_steps": [
+              "E=mv₁²/2+mgH。",
+              "动能为2.25×10¹²J，重力势能为1.2544×10¹¹J。",
+              "合计2.37544×10¹²J，按两位有效数字为2.4×10¹²J。"
+            ],
+            "knowledge_tags": [
+              "机械能与重力势能"
+            ],
+            "type_tags": [
+              "高空速度与高度共同确定机械能并按有效数字取值"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "动能项：计算½mv₁²=2.25×10¹²J。",
+                "points": null,
+                "evidence_required": "代入质量及7500m/s。"
+              },
+              {
+                "id": "c2",
+                "description": "势能项与合计：加入mgH，结果约2.4×10¹²J。",
+                "points": null,
+                "evidence_required": "g=9.8m/s²，H=1.60×10⁵m，有效数字合理。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略进入大气层时的重力势能。",
+                "knowledge_tags": [
+                  "机械能与重力势能"
+                ],
+                "type_tags": [
+                  "高空速度与高度共同确定机械能并按有效数字取值"
+                ]
+              },
+              {
+                "description": "把高度单位km未换成m。",
+                "knowledge_tags": [
+                  "机械能与重力势能"
+                ],
+                "type_tags": [
+                  "高空速度与高度共同确定机械能并按有效数字取值"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p3",
+            "prompt": "求从离地600m处至着地前克服阻力所做的功。",
+            "reference_answer": "9.7×10⁸ J",
+            "solution_steps": [
+              "600m处速度为入大气层速度的2.0%，即150m/s。",
+              "以600m处为初态、落地为末态：mgh−W阻=½mv₃²−½mv₂²。",
+              "W阻=mgh+½m(v₂²−v₃²)=9.704×10⁸J，取两位有效数字为9.7×10⁸J。"
+            ],
+            "knowledge_tags": [
+              "动能定理与阻力做功"
+            ],
+            "type_tags": [
+              "由过程机械能减少量求克服阻力所做功"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "中间速度：求得600m处速度150m/s。",
+                "points": null,
+                "evidence_required": "使用题给2.0%比例。"
+              },
+              {
+                "id": "c2",
+                "description": "功的关系和结果：正确列动能定理并求9.7×10⁸J。",
+                "points": null,
+                "evidence_required": "克服阻力功按正值报告。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把阻力功的代数符号与克服阻力所做功的正值混淆。",
+                "knowledge_tags": [
+                  "动能定理与阻力做功"
+                ],
+                "type_tags": [
+                  "由过程机械能减少量求克服阻力所做功"
+                ]
+              },
+              {
+                "description": "漏掉600m处的初动能。",
+                "knowledge_tags": [
+                  "动能定理与阻力做功"
+                ],
+                "type_tags": [
+                  "由过程机械能减少量求克服阻力所做功"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、选项/小问、源答案与解析并独立复算；逐问步骤和评分证据已记录。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-1"
+        }
+      },
+      "independent_solution": [
+        "地面为重力势能零点，落地前机械能等于动能。",
+        "E=mv²/2=(8.00×10⁴)(100²)/2=4.0×10⁸J。",
+        "E=mv₁²/2+mgH。",
+        "动能为2.25×10¹²J，重力势能为1.2544×10¹¹J。",
+        "合计2.37544×10¹²J，按两位有效数字为2.4×10¹²J。",
+        "600m处速度为入大气层速度的2.0%，即150m/s。",
+        "以600m处为初态、落地为末态：mgh−W阻=½mv₃²−½mv₂²。",
+        "W阻=mgh+½m(v₂²−v₃²)=9.704×10⁸J，取两位有效数字为9.7×10⁸J。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "地面为重力势能零点，落地前机械能等于动能。 | E=mv²/2=(8.00×10⁴)(100²)/2=4.0×10⁸J。 | E=mv₁²/2+mgH。 | 动能为2.25×10¹²J，重力势能为1.2544×10¹¹J。 | 合计2.37544×10¹²J，按两位有效数字为2.4×10¹²J。 | 600m处速度为入大气层速度的2.0%，即150m/s。 | 以600m处为初态、落地为末态：mgh−W阻=½mv₃²−½mv₂²。 | W阻=mgh+½m(v₂²−v₃²)=9.704×10⁸J，取两位有效数字为9.7×10⁸J。"
+    },
+    {
+      "question_id": "bank:gaokao:a25bc27645e95f67e79d",
+      "source_sha256": "3801fbe8ce32023f2ef30790507795dbd50cc9a940b945f0d2d5646a2118f23b",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:a25bc27645e95f67e79d",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "11. (12 分）一质量为 $\\mathrm{m}$ 的烟花弹获得动能 $\\mathrm{E}$ 后, 从地面坚直升空。当烟花弹 上升的速度为零时, 弹中火药爆炸将烟花弹炸为质量相等的两部分, 两部分 获得的动能之和也为 $\\mathrm{E}$, 且均沿坚直方向运动, 爆炸时间极短, 重力加速度大 小为 $g$, 不计空气阻力和火药的质量。求\n(1) 烟花弹从地面开始上升到弹中火药爆炸所经过的时间;\n（2）爆炸后烟花弹向上运动的部分距地面的最大高度。",
+        "options": [],
+        "answer": "（1）烟花弹从地面开始上升到弹中火药爆炸所经过的时间是 $\\frac{1}{\\mathrm{~g}} \\sqrt{\\frac{2 \\mathrm{E}}{\\mathrm{m}}}$;\n\n（2）爆炸后烟花弹向上运动的部分距地面的最大高度是 $\\frac{2 \\mathrm{E}}{\\mathrm{mg}}$ 。",
+        "kind": "reference",
+        "steps": [
+          "解： (1) 设烟花弹的初速度为 $v_{0}$. 则有: $E=\\frac{1}{2} m v_{0}^{2}$\n\n得: $v_{0}=\\sqrt{\\frac{2 \\mathrm{E}}{m}}$\n\n烟花弹从地面开始上升的过程中做竖直上抛运动, 则有: $v_{0}-g t=0$\n\n得: $t=\\frac{1}{g} \\sqrt{\\frac{2 \\mathrm{E}}{\\mathrm{m}}}$\n\n(2) 烟花弹从地面开始上升到弹中火药爆炸上升的高度为: $h_{1}=\\frac{v_{0}^{2}}{2 g}=\\frac{E}{m g}$\n\n对于暴炸过程, 取竖直向上为正方向, 由动量守恒定律得:\n\n$0=\\frac{1}{2} \\mathrm{mv}_{1}-\\frac{1}{2} \\mathrm{mv}_{2}$ 。\n\n根据能量守恒定律得： $\\mathrm{E}=\\frac{1}{2} \\cdot \\frac{1}{2} \\mathrm{mv}_{1}^{2}+\\frac{1}{2} \\cdot \\frac{1}{2} \\mathrm{mv}_{2}^{2}$ 。\n\n联立解得： $v_{1}=\\sqrt{\\frac{2 \\mathrm{E}}{\\mathrm{m}}}$\n\n爆炸后烟花弹向上运动的部分能继续上升的最大高度为: $h_{2}=\\frac{v_{1}^{2}}{2 g}=\\frac{E}{m g}$\n\n所以爆炸后烟花弹向上运动的部分距地面的最大高度为: $h=h_{1}+h_{2}=\\frac{2 \\mathrm{E}}{\\mathrm{mg}}$"
+        ],
+        "difficulty": 3,
+        "difficulty_raw": 12,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "subjective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "subjective",
+          "2010-2022_Physics_Open-ended_Questions"
+        ],
+        "status": "reference",
+        "issues": [
+          "subjective_question_reference_only"
+        ],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2018:（新课标ⅰ）:32",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-selective-1",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-1:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "竖直上抛运动",
+            "动量守恒定律",
+            "能量守恒"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由初动能求上升至最高点时间，结合爆炸瞬间动量和能量守恒求碎片最高点"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "综合运动学、动量守恒、能量分配及高度叠加，需辨认爆炸的短时过程。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-1",
+          "goal_ids": [
+            "physics-senior-selective-1:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按经核目录映射高中物理主适用册和目标；原题未给年级、学期或版次信息。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "(1/g)√(2E/m)",
+            "2E/(mg)"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "代数式接受等价形式；数值答案使用题目给定单位与有效数字要求。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求烟花弹从地面上升至爆炸所经历的时间。",
+            "reference_answer": "(1/g)√(2E/m)",
+            "solution_steps": [
+              "初动能E=mv₀²/2，故v₀=√(2E/m)。",
+              "上升至最高点速度变为零，v₀−gt=0。",
+              "t=√(2E/m)/g。"
+            ],
+            "knowledge_tags": [
+              "竖直上抛运动与动能"
+            ],
+            "type_tags": [
+              "动能转换初速度后求竖直上抛到最高点时间"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "初速度：由E=mv₀²/2得v₀=√(2E/m)。",
+                "points": null,
+                "evidence_required": "明确E为初动能。"
+              },
+              {
+                "id": "c2",
+                "description": "到达最高点时间：使用v=v₀−gt=0并得目标表达式。",
+                "points": null,
+                "evidence_required": "重力加速度g置于分母。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把动能写成mv₀²；漏掉平方根。",
+                "knowledge_tags": [
+                  "竖直上抛运动与动能"
+                ],
+                "type_tags": [
+                  "动能转换初速度后求竖直上抛到最高点时间"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "prompt": "求爆炸后向上运动部分距地面的最大高度。",
+            "reference_answer": "2E/(mg)",
+            "solution_steps": [
+              "爆炸前上升到最高点高度h₁=v₀²/(2g)=E/(mg)。",
+              "爆炸时间极短，系统竖直动量守恒；两等质量碎片总动量为零，所以两者速率相等且方向相反。",
+              "爆炸后总动能E均分，两碎片各自速度大小仍为v₀=√(2E/m)；向上碎片继续上升h₂=v₀²/(2g)=E/(mg)。",
+              "最大高度h=h₁+h₂=2E/(mg)。"
+            ],
+            "knowledge_tags": [
+              "动量守恒定律",
+              "机械能与竖直上抛"
+            ],
+            "type_tags": [
+              "利用爆炸瞬间动量守恒及碎片动能分配计算继续上升高度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "爆炸前高度：由初始动能得到h₁=E/(mg)。",
+                "points": null,
+                "evidence_required": "使用机械能守恒或v₀²=2E/m。"
+              },
+              {
+                "id": "c2",
+                "description": "爆炸条件：说明总动量为零使两等质量碎片等速反向，结合总动能E。",
+                "points": null,
+                "evidence_required": "爆炸瞬间忽略重力冲量。"
+              },
+              {
+                "id": "c3",
+                "description": "末高度：求h₂=E/(mg)，与h₁相加得2E/(mg)。",
+                "points": null,
+                "evidence_required": "报告相对地面的最大高度。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略爆炸前已经上升的高度。",
+                "knowledge_tags": [
+                  "动量守恒定律",
+                  "机械能与竖直上抛"
+                ],
+                "type_tags": [
+                  "利用爆炸瞬间动量守恒及碎片动能分配计算继续上升高度"
+                ]
+              },
+              {
+                "description": "认为总动能E是每一碎片各自的动能。",
+                "knowledge_tags": [
+                  "动量守恒定律",
+                  "机械能与竖直上抛"
+                ],
+                "type_tags": [
+                  "利用爆炸瞬间动量守恒及碎片动能分配计算继续上升高度"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、选项/小问、源答案与解析并独立复算；逐问步骤和评分证据已记录。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-1"
+        }
+      },
+      "independent_solution": [
+        "初动能E=mv₀²/2，故v₀=√(2E/m)。",
+        "上升至最高点速度变为零，v₀−gt=0。",
+        "t=√(2E/m)/g。",
+        "爆炸前上升到最高点高度h₁=v₀²/(2g)=E/(mg)。",
+        "爆炸时间极短，系统竖直动量守恒；两等质量碎片总动量为零，所以两者速率相等且方向相反。",
+        "爆炸后总动能E均分，两碎片各自速度大小仍为v₀=√(2E/m)；向上碎片继续上升h₂=v₀²/(2g)=E/(mg)。",
+        "最大高度h=h₁+h₂=2E/(mg)。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "初动能E=mv₀²/2，故v₀=√(2E/m)。 | 上升至最高点速度变为零，v₀−gt=0。 | t=√(2E/m)/g。 | 爆炸前上升到最高点高度h₁=v₀²/(2g)=E/(mg)。 | 爆炸时间极短，系统竖直动量守恒；两等质量碎片总动量为零，所以两者速率相等且方向相反。 | 爆炸后总动能E均分，两碎片各自速度大小仍为v₀=√(2E/m)；向上碎片继续上升h₂=v₀²/(2g)=E/(mg)。 | 最大高度h=h₁+h₂=2E/(mg)。"
+    },
+    {
+      "question_id": "bank:gaokao:c32fa763990a2749ed49",
+      "source_sha256": "ce30820449d2e9cb815e39e36e7a80500856ae8857a0a94fd954c93b5b020da7",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:c32fa763990a2749ed49",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "13. ( 5 分) 用油膜法估算分子大小的实验中, 首先需将纯油酸稀释成一定浓度的油酸酒精 溶液, 稀释的目的是_________。实验中为了测量出一滴已知浓度的油酸酒精溶液中纯油酸的体积, 可以 ___________________。 为得到油酸分子的直径, 还需测量的物理量是___________。$",
+        "options": [],
+        "answer": "使油酸在浅盘的水面上容易形成一块单分子层油膜；把油酸酒精溶液一滴一 滴地滴人小量筒中, 测出 $1 \\mathrm{~mL}$ 油酸酒精溶液的滴数, 得到一滴溶液中纯油酸的体积; 单 分子层油膜的面积。",
+        "kind": "reference",
+        "steps": [
+          "【解答】解：用油膜法估算分子大小的实验中, 首先需将纯油酸稀释成一定浓度的油酸 酒精溶液，稀释的目的是使油酸在浅盘的水面上容易形成一块单分子层油膜；\n\n在实验中为了测量出一滴已知浓度的油酸酒精溶液中纯油酸的体积, 可以把油酸酒精溶 液一滴一滴地滴人小量筒中, 测出 $1 \\mathrm{~mL}$ 油酸酒精溶液的滴数, 得到一滴溶液中纯油酸的 体积;\n\n为得到油酸分子的直径, 由 $\\mathrm{d}=\\frac{\\mathrm{V}}{\\mathrm{S}}$, 还需测量的物理量是单分子层油膜的面积;\n\n故答案为：使油酸在浅盘的水面上容易形成一块单分子层油膜；把油酸酒精溶液一滴一 滴地滴人小量筒中, 测出 $1 \\mathrm{~mL}$ 油酸酒精溶液的滴数, 得到一滴溶液中纯油酸的体积; 单 分子层油膜的面积。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 5,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "subjective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "subjective",
+          "2010-2022_Physics_Open-ended_Questions"
+        ],
+        "status": "reference",
+        "issues": [
+          "subjective_question_reference_only"
+        ],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2019:（新课标ⅲ）:37",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "油膜法估测分子大小",
+            "单分子层模型"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "按油膜法实验顺序说明稀释目的、液滴体积测量和油膜面积测量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "实验方案题要求按实验顺序区分模型假设、体积测量和面积测量。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按经核目录映射高中物理主适用册和目标；原题未给年级、学期或版次信息。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "使油酸易在水面形成单分子层油膜。",
+            "量取1mL溶液并数出滴数，再结合浓度求一滴中的纯油酸体积。",
+            "单分子层油膜的面积。"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "代数式接受等价形式；数值答案使用题目给定单位与有效数字要求。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "将纯油酸稀释成一定浓度油酸酒精溶液的目的是什么？",
+            "reference_answer": "使油酸易在水面形成单分子层油膜。",
+            "solution_steps": [
+              "稀释可使少量油酸较易铺展，便于形成单分子层油膜。"
+            ],
+            "knowledge_tags": [
+              "油膜法实验模型"
+            ],
+            "type_tags": [
+              "说明稀释油酸的实验目的"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "稀释目的：指出帮助油酸铺展并形成单分子层油膜。",
+                "points": null,
+                "evidence_required": "答案同时体现铺展性和单分子层条件。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "称稀释是为了改变油酸分子直径。",
+                "knowledge_tags": [
+                  "油膜法实验模型"
+                ],
+                "type_tags": [
+                  "说明稀释油酸的实验目的"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "prompt": "如何测出一滴已知浓度溶液中纯油酸的体积？",
+            "reference_answer": "量取1mL溶液并数出滴数，再结合浓度求一滴中的纯油酸体积。",
+            "solution_steps": [
+              "将1mL溶液逐滴加入量筒，记录总滴数N。",
+              "每滴溶液体积为1/N mL，再乘溶液中油酸体积分数得到纯油酸体积。"
+            ],
+            "knowledge_tags": [
+              "实验测量与体积分数"
+            ],
+            "type_tags": [
+              "用已知浓度和滴数求单滴纯油酸体积"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "滴数测量：说明量取已知总体积并逐滴计数。",
+                "points": null,
+                "evidence_required": "给出1mL与滴数N。"
+              },
+              {
+                "id": "c2",
+                "description": "单滴纯油酸体积：将单滴溶液体积乘油酸浓度。",
+                "points": null,
+                "evidence_required": "浓度含义和单位匹配。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把一滴溶液总体积当作纯油酸体积。",
+                "knowledge_tags": [
+                  "实验测量与体积分数"
+                ],
+                "type_tags": [
+                  "用已知浓度和滴数求单滴纯油酸体积"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p3",
+            "prompt": "为了得到油酸分子的直径，还需测量什么物理量？",
+            "reference_answer": "单分子层油膜的面积。",
+            "solution_steps": [
+              "单分子层近似为厚度d的薄层，油酸体积V≈Sd。",
+              "已由溶液浓度和滴数求得V，故还需测量油膜面积S，再算d=V/S。"
+            ],
+            "knowledge_tags": [
+              "单分子层模型与几何测量"
+            ],
+            "type_tags": [
+              "用单分子层油膜面积和油酸体积估算分子尺度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "待测量识别：指出油膜面积S。",
+                "points": null,
+                "evidence_required": "不得重复回答已知液滴体积。"
+              },
+              {
+                "id": "c2",
+                "description": "模型关系：用d=V/S说明用途。",
+                "points": null,
+                "evidence_required": "明确单分子层近似。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "测量水面总面积而非油膜覆盖面积。",
+                "knowledge_tags": [
+                  "单分子层模型与几何测量"
+                ],
+                "type_tags": [
+                  "用单分子层油膜面积和油酸体积估算分子尺度"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、选项/小问、源答案与解析并独立复算；逐问步骤和评分证据已记录。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-1"
+        }
+      },
+      "independent_solution": [
+        "稀释可使少量油酸较易铺展，便于形成单分子层油膜。",
+        "将1mL溶液逐滴加入量筒，记录总滴数N。",
+        "每滴溶液体积为1/N mL，再乘溶液中油酸体积分数得到纯油酸体积。",
+        "单分子层近似为厚度d的薄层，油酸体积V≈Sd。",
+        "已由溶液浓度和滴数求得V，故还需测量油膜面积S，再算d=V/S。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "稀释可使少量油酸较易铺展，便于形成单分子层油膜。 | 将1mL溶液逐滴加入量筒，记录总滴数N。 | 每滴溶液体积为1/N mL，再乘溶液中油酸体积分数得到纯油酸体积。 | 单分子层近似为厚度d的薄层，油酸体积V≈Sd。 | 已由溶液浓度和滴数求得V，故还需测量油膜面积S，再算d=V/S。"
+    },
+    {
+      "question_id": "bank:gaokao:ddb87b76d48fcf600386",
+      "source_sha256": "0ffd2be8f5f2c4143cc28d75eebe118b29931b2977434bea0baf7f809fde4cdc",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:ddb87b76d48fcf600386",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "11. (12 分) 我国自主研制了运 - 20 重型运输机。飞机获得的升力大小 $\\mathrm{F}$ 可用 $\\mathrm{F}=\\mathrm{kv}^{2}$ 描写, $\\mathrm{k}$ 为系数; $\\mathrm{v}$ 是飞机在平直跑道上的滑行速度, $\\mathrm{F}$ 与飞机所受重力相等时的 $\\mathrm{v}$ 称为飞机的 起飞离地速度。已知飞机质量为 $1.21 \\times 10^{5} \\mathrm{~kg}$ 时, 起飞离地速度为 $66 \\mathrm{~m} / \\mathrm{s}$; 装载货物后质 量为 $1.69 \\times 10^{5} \\mathrm{~kg}$, 装载货物前后起飞离地时的 $\\mathrm{k}$ 值可视为不变。\n\n(1) 求飞机装载货物后的起飞离地速度;\n\n(2) 若该飞机装载货物后, 从静止开始匀加速滑行 $1521 \\mathrm{~m}$ 起飞离地, 求飞机在滑行过 程中加速度的大小和所用的时间。",
+        "options": [],
+        "answer": "( 1 ) 飞机装载货物后的起飞离地速度为 $78 \\mathrm{~m} / \\mathrm{s}$;\n\n(2) 若该飞机装载货物后, 从静止开始匀加速滑行 $1521 \\mathrm{~m}$ 起飞离地, 飞机在滑行过程 中加速度的大小为 $2 \\mathrm{~m} / \\mathrm{s}^{2}$, 所用的时间为 $39 \\mathrm{~s}$ 。",
+        "kind": "reference",
+        "steps": [
+          "【解答】解: (1) 令飞机装载货物前的起飞速度为 $\\mathrm{v}_{1}$, 飞机的质量为 $\\mathrm{m}$ 离地时有 $\\mathrm{kv} \\mathrm{v}_{1}^{2}=\\mathrm{mg}$,\n\n代人数据解得 $\\mathrm{k}=\\frac{1}{36} \\times 10^{4} \\mathrm{~N} \\cdot \\mathrm{s}^{2} / \\mathrm{m}^{2}$,\n\n令飞机装载货物后的质量为 $\\mathrm{m}^{\\prime}$, 飞机的起飞速度为 $\\mathrm{v}_{2}$,\n\n则当飞机起飞时有 $\\mathrm{kv} \\mathrm{2}_{2}^{2}=\\mathrm{m}^{\\prime} \\mathrm{g}$ ，\n\n则 $\\mathrm{v}_{2}=78 \\mathrm{~m} / \\mathrm{s}$;\n\n(2) 根据运动学公式可知, 飞机在滑行过程中加速度的大小为 $\\mathrm{a}=\\frac{\\mathrm{v}_{2}^{2}}{2 \\mathrm{x}}=2 \\mathrm{~m} / \\mathrm{s}^{2}$,\n\n所用时间为 $\\mathrm{t}=\\frac{\\mathrm{v}_{2}}{\\mathrm{a}}=39 \\mathrm{~s}$ 。\n\n答: ( 1 ) 飞机装载货物后的起飞离地速度为 $78 \\mathrm{~m} / \\mathrm{s}$;\n\n(2) 若该飞机装载货物后, 从静止开始匀加速滑行 $1521 \\mathrm{~m}$ 起飞离地, 飞机在滑行过程 中加速度的大小为 $2 \\mathrm{~m} / \\mathrm{s}^{2}$, 所用的时间为 $39 \\mathrm{~s}$ 。"
+        ],
+        "difficulty": 3,
+        "difficulty_raw": 12,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "subjective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "subjective",
+          "2010-2022_Physics_Open-ended_Questions"
+        ],
+        "status": "reference",
+        "issues": [
+          "subjective_question_reference_only"
+        ],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2020:（新课标ⅰ）:39",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-1",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-1:u4:g1",
+          "physics-senior-compulsory-1:u2:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "牛顿第二定律",
+            "匀变速直线运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "根据升力正比速度平方反求载货后起飞速度，再由匀加速位移求加速度和时间"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "小问分别使用比例模型和匀加速公式，计算步骤短但有模型转换。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-1",
+          "goal_ids": [
+            "physics-senior-compulsory-1:u4:g1",
+            "physics-senior-compulsory-1:u2:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按经核目录映射高中物理主适用册和目标；原题未给年级、学期或版次信息。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "78 m/s",
+            "a=2 m/s²；t=39 s"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "代数式接受等价形式；数值答案使用题目给定单位与有效数字要求。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求装载货物后的起飞离地速度。",
+            "reference_answer": "78 m/s",
+            "solution_steps": [
+              "起飞时升力等于重力，kv₁²=mg。",
+              "装载前后k不变，速度平方与质量成正比：v₂²/v₁²=m₂/m₁。",
+              "v₂=66√(1.69×10⁵/1.21×10⁵)=78m/s（按题设数据取整数）。"
+            ],
+            "knowledge_tags": [
+              "牛顿第二定律与平衡条件"
+            ],
+            "type_tags": [
+              "由升力模型和起飞平衡关系推算载荷变化后的起飞速度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "起飞条件：写出kv²=mg。",
+                "points": null,
+                "evidence_required": "指出升力等于重力时离地。"
+              },
+              {
+                "id": "c2",
+                "description": "比例计算：正确建立v₂=v₁√(m₂/m₁)，得78m/s。",
+                "points": null,
+                "evidence_required": "同一k且质量使用SI数值。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "认为速度与质量成正比；忘记开平方。",
+                "knowledge_tags": [
+                  "牛顿第二定律与平衡条件"
+                ],
+                "type_tags": [
+                  "由升力模型和起飞平衡关系推算载荷变化后的起飞速度"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "prompt": "装载后飞机从静止匀加速滑行1521m离地，求加速度和滑行时间。",
+            "reference_answer": "a=2 m/s²；t=39 s",
+            "solution_steps": [
+              "使用v²=2ax，a=78²/(2×1521)=2m/s²。",
+              "使用v=at，t=78/2=39s。"
+            ],
+            "knowledge_tags": [
+              "匀变速直线运动"
+            ],
+            "type_tags": [
+              "用位移速度关系与速度时间关系求匀加速滑行参数"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "加速度：由v²=2ax得2m/s²。",
+                "points": null,
+                "evidence_required": "初速度为零，位移1521m。"
+              },
+              {
+                "id": "c2",
+                "description": "时间：由v=at得39s。",
+                "points": null,
+                "evidence_required": "使用装载后起飞速度78m/s。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将位移公式中的2漏掉；把km/h和m/s混用。",
+                "knowledge_tags": [
+                  "匀变速直线运动"
+                ],
+                "type_tags": [
+                  "用位移速度关系与速度时间关系求匀加速滑行参数"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、选项/小问、源答案与解析并独立复算；逐问步骤和评分证据已记录。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-1"
+        }
+      },
+      "independent_solution": [
+        "起飞时升力等于重力，kv₁²=mg。",
+        "装载前后k不变，速度平方与质量成正比：v₂²/v₁²=m₂/m₁。",
+        "v₂=66√(1.69×10⁵/1.21×10⁵)=78m/s（按题设数据取整数）。",
+        "使用v²=2ax，a=78²/(2×1521)=2m/s²。",
+        "使用v=at，t=78/2=39s。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "起飞时升力等于重力，kv₁²=mg。 | 装载前后k不变，速度平方与质量成正比：v₂²/v₁²=m₂/m₁。 | v₂=66√(1.69×10⁵/1.21×10⁵)=78m/s（按题设数据取整数）。 | 使用v²=2ax，a=78²/(2×1521)=2m/s²。 | 使用v=at，t=78/2=39s。"
+    },
+    {
+      "question_id": "bank:gaokao:5b8b0846984fa17dbef3",
+      "source_sha256": "9e765ef9fe747205a4ab3a758cf7bac264e108361f5820aae390dc96ddf9138f",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:5b8b0846984fa17dbef3",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "11. 一篮球质量为 $m=0.60 \\mathrm{~kg}$, 一运动员使其从距地面高度为 $h_{1}=1.8 \\mathrm{~m}$ 处由静止自由落下,\n\n反弹高度为 $h_{2}=1.2 \\mathrm{~m}$ 。若使篮球从距地面 $h_{3}=1.5 \\mathrm{~m}$ 的高度由静止下落, 并在开始下落的同 时向下拍球、球落地后反弹的高度也为 $1.5 \\mathrm{~m}$ 。假设运动员拍球时对球的作用力为恒力, 作用 时间为 $t=0.20 \\mathrm{~s}$; 该篮球每次与地面碰撞前后的动能的比值不变。重力加速度大小取 $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$, 不计空气阻力。求:\n\n(1) 运动员拍球过程中对篮球所做的功;\n\n(2) 运动员拍球时对篮球的作用力的大小。",
+        "options": [],
+        "answer": "(1) $W=4.5 \\mathrm{~J} ;$ (2) $F=9 \\mathrm{~N}$",
+        "kind": "reference",
+        "steps": [
+          "【详解】（1）第一次篮球下落的过程中由动能定理可得\n\n$$\nE_{1}=m g h_{1}\n$$\n\n篮球反弹后向上运动的过程由动能定理可得\n\n$$\n0-E_{2}=-m g h_{2}\n$$\n\n第二次从 $1.5 \\mathrm{~m}$ 的高度静止下落, 同时向下拍球, 在篮球反弹上升的过程中, 由动能定理可得\n\n$$\n0-E_{4}=0-m g h_{4}\n$$\n\n第二次从 $1.5 \\mathrm{~m}$ 的高度静止下落, 同时向下拍球, 篮球下落过程中, 由动能定理可得\n\n$$\nW+m g h_{3}=E_{3}\n$$\n\n因篮球每次和地面撞击的前后动能的比值不变, 则有比例关系\n\n$$\n\\frac{E_{2}}{E_{1}}=\\frac{E_{4}}{E_{3}}\n$$\n\n代人数据可得\n\n$$\nW=4.5 \\mathrm{~J}\n$$\n\n(2) 因作用力是恒力, 在恒力作用下篮球向下做匀加速直线运动, 因此有牛顿第二定律可得\n\n$$\nF+m g=m a\n$$\n\n在拍球时间内运动的位移为\n\n$$\nx=\\frac{1}{2} a t^{2}\n$$\n\n做得功为\n\n$$\nW=F x\n$$\n\n联立可得\n\n$$\nF=9 \\mathrm{~N} \\quad(F=-15 \\mathrm{~N} \\text { 舍去 })\n$$"
+        ],
+        "difficulty": 3,
+        "difficulty_raw": 12,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "subjective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "subjective",
+          "2010-2022_Physics_Open-ended_Questions"
+        ],
+        "status": "reference",
+        "issues": [
+          "subjective_question_reference_only"
+        ],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2021:（全国乙卷）:44",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u4:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "动能定理",
+            "碰撞前后动能比",
+            "恒力做功与牛顿第二定律"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "先由相同碰撞动能比反求拍球功，再联立恒力做功和运动学求施力"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "结合两次碰撞的能量比例、动能定理、恒力功和牛顿第二定律，需消去运动位移。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u4:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按经核目录映射高中物理主适用册和目标；原题未给年级、学期或版次信息。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "4.5 J",
+            "9 N"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "代数式接受等价形式；数值答案使用题目给定单位与有效数字要求。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求运动员拍球过程中对篮球所做的功。",
+            "reference_answer": "4.5 J",
+            "solution_steps": [
+              "第一次下落碰撞前动能E₁=mgh₁=10.8J；第一次反弹碰撞后动能E₂=mgh₂=7.2J。",
+              "每次碰撞前后动能比相同，E₄/E₃=E₂/E₁=2/3。第二次反弹到1.5m，E₄=mgh₄=9J，故碰撞前E₃=13.5J。",
+              "拍球前从h₃落下的重力势能为mgh₃=9J，故拍球做功W=E₃−mgh₃=4.5J。"
+            ],
+            "knowledge_tags": [
+              "动能定理与重力势能"
+            ],
+            "type_tags": [
+              "用相同碰撞能量比建立两次下落能量关系"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "第一次碰撞能量比：正确得到E₂/E₁=2/3。",
+                "points": null,
+                "evidence_required": "用mgh₁、mgh₂计算。"
+              },
+              {
+                "id": "c2",
+                "description": "第二次碰撞前动能：由反弹高度求E₄=9J，并得E₃=13.5J。",
+                "points": null,
+                "evidence_required": "使用相同碰撞前后动能比。"
+              },
+              {
+                "id": "c3",
+                "description": "拍球做功：扣除下落重力势能9J，得4.5J。",
+                "points": null,
+                "evidence_required": "功的数值及正号正确。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把碰撞前后动能比方向倒置。",
+                "knowledge_tags": [
+                  "动能定理与重力势能"
+                ],
+                "type_tags": [
+                  "用相同碰撞能量比建立两次下落能量关系"
+                ]
+              },
+              {
+                "description": "漏掉拍球前下落的重力做功。",
+                "knowledge_tags": [
+                  "动能定理与重力势能"
+                ],
+                "type_tags": [
+                  "用相同碰撞能量比建立两次下落能量关系"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "prompt": "求运动员拍球时对篮球的作用力大小。",
+            "reference_answer": "9 N",
+            "solution_steps": [
+              "取向下为正，拍球期间合力F+mg=ma，故a=F/m+g。",
+              "篮球由静止开始，作用时间t=0.20s，位移x=at²/2。",
+              "拍球功W=Fx=F(F/m+g)t²/2。代入W=4.5J、m=0.60kg、g=10m/s²、t=0.20s，解得正根F=9N。"
+            ],
+            "knowledge_tags": [
+              "牛顿第二定律与恒力功"
+            ],
+            "type_tags": [
+              "将拍球力、重力、匀加速位移和已知做功联立"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "c1",
+                "description": "动力学及位移关系：列出a=(F+mg)/m及x=at²/2。",
+                "points": null,
+                "evidence_required": "方向约定和初速度为零正确。"
+              },
+              {
+                "id": "c2",
+                "description": "功方程与解：列出W=Fx并求正根9N。",
+                "points": null,
+                "evidence_required": "单位N，舍去不符合拍球方向的根。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把手对球的力误当作合力ma。",
+                "knowledge_tags": [
+                  "牛顿第二定律与恒力功"
+                ],
+                "type_tags": [
+                  "将拍球力、重力、匀加速位移和已知做功联立"
+                ]
+              },
+              {
+                "description": "只用W=F×球下落距离，忽略作用时间内的动力学。",
+                "knowledge_tags": [
+                  "牛顿第二定律与恒力功"
+                ],
+                "type_tags": [
+                  "将拍球力、重力、匀加速位移和已知做功联立"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、选项/小问、源答案与解析并独立复算；逐问步骤和评分证据已记录。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-1"
+        }
+      },
+      "independent_solution": [
+        "第一次下落碰撞前动能E₁=mgh₁=10.8J；第一次反弹碰撞后动能E₂=mgh₂=7.2J。",
+        "每次碰撞前后动能比相同，E₄/E₃=E₂/E₁=2/3。第二次反弹到1.5m，E₄=mgh₄=9J，故碰撞前E₃=13.5J。",
+        "拍球前从h₃落下的重力势能为mgh₃=9J，故拍球做功W=E₃−mgh₃=4.5J。",
+        "取向下为正，拍球期间合力F+mg=ma，故a=F/m+g。",
+        "篮球由静止开始，作用时间t=0.20s，位移x=at²/2。",
+        "拍球功W=Fx=F(F/m+g)t²/2。代入W=4.5J、m=0.60kg、g=10m/s²、t=0.20s，解得正根F=9N。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "第一次下落碰撞前动能E₁=mgh₁=10.8J；第一次反弹碰撞后动能E₂=mgh₂=7.2J。 | 每次碰撞前后动能比相同，E₄/E₃=E₂/E₁=2/3。第二次反弹到1.5m，E₄=mgh₄=9J，故碰撞前E₃=13.5J。 | 拍球前从h₃落下的重力势能为mgh₃=9J，故拍球做功W=E₃−mgh₃=4.5J。 | 取向下为正，拍球期间合力F+mg=ma，故a=F/m+g。 | 篮球由静止开始，作用时间t=0.20s，位移x=at²/2。 | 拍球功W=Fx=F(F/m+g)t²/2。代入W=4.5J、m=0.60kg、g=10m/s²、t=0.20s，解得正根F=9N。"
+    }
+  ]
+}

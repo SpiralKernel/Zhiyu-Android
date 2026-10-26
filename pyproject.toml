@@ -1,0 +1,23 @@
+[project]
+name = "ai-teacher"
+version = "0.3.0"
+description = "面向初中数学的可追溯、自适应 AI 学习框架"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "uvicorn>=0.34,<1",
+    "httpx[socks]>=0.28,<1",
+    "pydantic-settings>=2.7,<3",
+    "python-multipart>=0.0.20,<1",
+    "pillow>=11,<13",
+    "pypdf>=5,<7",
+    "reportlab>=4,<5",
+    "cryptography>=50.0.2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "playwright>=1.50,<2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,1740 @@
+[
+  {
+    "question_id": "bank:cjeval:510843fdebf1a63d2eeac469",
+    "source_sha256": "8c39275001b417e5fee9c6a7c379baa03ba1fe492b5a7824acc4458c6d287ebe",
+    "current_snapshot_id": "bank:cjeval:510843fdebf1a63d2eeac469:15d4f24d9eca",
+    "batch": "B2",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "m水=ρSh=1000×0.03×0.4=12kg。",
+      "p=ρgh=3920Pa。",
+      "Δh=147/(1000×9.8)=0.015m，溢水体积=V球−SΔh=0.00105m³，溢水质量1.05kg。容器压力增量=980×0.03=29.4N，球质量=29.4/9.8+1.05=4.05kg；ρ球=4.05/0.0015=2700kg/m³。"
+    ],
+    "source_conflicts": [
+      "来源将溢水体积错误地等同球体积；未给g，且答案暗含g=9.8。"
+    ],
+    "resolved_findings": [
+      "表格的980Pa、147Pa完整在题干内；计算约2700kg/m³。"
+    ],
+    "remaining_issues": [
+      "完整转录表格读数；图表足以作答，不应仅因缺外部图排除。题干显式新增g=9.8N/kg；溢水体积为球体积减去液面升高对应容积。"
+    ],
+    "rationale": "独立复算并区分来源条件与草稿新增条件；答案仍为candidate/source_only，未经人工认证。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "S=3×10⁻²m²的轻质圆柱容器盛深0.4m的水。取ρ水=1000kg/m³、g=9.8N/kg。求：(1)水质量；(2)底部液体压强；(3)将V=1.5×10⁻³m³实心球完全浸没并静止放底，容器对地压强增980Pa、水底压强增147Pa，求球密度。",
+      "kind": "reference",
+      "options": [],
+      "answer": "12kg；3920Pa；约2.70×10³kg/m³",
+      "steps": [
+        "m水=ρSh=1000×0.03×0.4=12kg。",
+        "p=ρgh=3920Pa。",
+        "Δh=147/(1000×9.8)=0.015m，溢水体积=V球−SΔh=0.00105m³，溢水质量1.05kg。容器压力增量=980×0.03=29.4N，球质量=29.4/9.8+1.05=4.05kg；ρ球=4.05/0.0015=2700kg/m³。"
+      ],
+      "knowledge_tags": [
+        "密度",
+        "液体压强",
+        "固体压强"
+      ],
+      "type_tags": [
+        "由液面升高和容器压力变化反推沉底球密度"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 3,
+      "difficulty_basis": "来源难度：较难；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度"
+          ],
+          "supporting": [
+            "液体压强",
+            "固体压强"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由液面升高和容器压力变化反推沉底球密度"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "来源难度：较难；未经实测校准 未经实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "完整转录表格读数；图表足以作答，不应仅因缺外部图排除。题干显式新增g=9.8N/kg；溢水体积为球体积减去液面升高对应容积。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "(1) 求水的质量。",
+            "reference_answer": "12kg",
+            "solution_steps": [
+              "m水=ρSh=1000×0.03×0.4=12kg。",
+              "p=ρgh=3920Pa。",
+              "Δh=147/(1000×9.8)=0.015m，溢水体积=V球−SΔh=0.00105m³，溢水质量1.05kg。容器压力增量=980×0.03=29.4N，球质量=29.4/9.8+1.05=4.05kg；ρ球=4.05/0.0015=2700kg/m³。"
+            ],
+            "knowledge_tags": [
+              "密度",
+              "液体压强",
+              "固体压强"
+            ],
+            "type_tags": [
+              "由液面升高和容器压力变化反推沉底球密度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "V=Sh、m=ρV并得12kg。",
+                "points": null,
+                "evidence_required": "V=Sh、m=ρV并得12kg。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "(2) 求水对容器底部的压强。",
+            "reference_answer": "3920Pa",
+            "solution_steps": [
+              "m水=ρSh=1000×0.03×0.4=12kg。",
+              "p=ρgh=3920Pa。",
+              "Δh=147/(1000×9.8)=0.015m，溢水体积=V球−SΔh=0.00105m³，溢水质量1.05kg。容器压力增量=980×0.03=29.4N，球质量=29.4/9.8+1.05=4.05kg；ρ球=4.05/0.0015=2700kg/m³。"
+            ],
+            "knowledge_tags": [
+              "密度",
+              "液体压强",
+              "固体压强"
+            ],
+            "type_tags": [
+              "由液面升高和容器压力变化反推沉底球密度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "p=ρgh并得3920Pa。",
+                "points": null,
+                "evidence_required": "p=ρgh并得3920Pa。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "(3) 求实心球的密度。",
+            "reference_answer": "约2.70×10³kg/m³",
+            "solution_steps": [
+              "m水=ρSh=1000×0.03×0.4=12kg。",
+              "p=ρgh=3920Pa。",
+              "Δh=147/(1000×9.8)=0.015m，溢水体积=V球−SΔh=0.00105m³，溢水质量1.05kg。容器压力增量=980×0.03=29.4N，球质量=29.4/9.8+1.05=4.05kg；ρ球=4.05/0.0015=2700kg/m³。"
+            ],
+            "knowledge_tags": [
+              "密度",
+              "液体压强",
+              "固体压强"
+            ],
+            "type_tags": [
+              "由液面升高和容器压力变化反推沉底球密度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "用Δp水求液面升高、正确算溢水，再由Δp容反推球质量和密度。",
+                "points": null,
+                "evidence_required": "用Δp水求液面升高、正确算溢水，再由Δp容反推球质量和密度。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "独立核查草稿；答案仅为候选，不代表来源答案核验认证。"
+        }
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "B2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:a46ad64e4d40ab705e6f5b67",
+    "source_sha256": "a920c6e269db11cbdb7ab05f0b8aca2ad010e835b0fa60a14475d316ab2821bf",
+    "current_snapshot_id": "bank:cjeval:a46ad64e4d40ab705e6f5b67:7ce0bace5610",
+    "batch": "B2",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "Q=cmΔT=4.18×10³×45×30=5.643×10⁶J。",
+      "Pt=Q，t=5.643×10⁶/1600=3526.875s。"
+    ],
+    "source_conflicts": [
+      "来源Q与t数值均错。"
+    ],
+    "resolved_findings": [
+      "Q=5.643×10⁶J，忽略热损时t=3526.875s。"
+    ],
+    "remaining_issues": [
+      "铭牌数值完整转录在文本中，无须依赖图片。来源乘积、除法结果错误。"
+    ],
+    "rationale": "独立复算并区分来源条件与草稿新增条件；答案仍为candidate/source_only，未经人工认证。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "电热水器水箱装满45kg水，从25℃加热至55℃。c水=4.18×10³J/(kg·℃)，功率1600W，忽略热损。求：(1)水吸热；(2)加热时间。",
+      "kind": "reference",
+      "options": [],
+      "answer": "5.643×10⁶J；3526.875s（约3.53×10³s）",
+      "steps": [
+        "Q=cmΔT=4.18×10³×45×30=5.643×10⁶J。",
+        "Pt=Q，t=5.643×10⁶/1600=3526.875s。"
+      ],
+      "knowledge_tags": [
+        "比热容与吸放热",
+        "电功率与电能"
+      ],
+      "type_tags": [
+        "由比热容求水吸热并按功率求加热时间"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "比热容与吸放热"
+          ],
+          "supporting": [
+            "电功率与电能"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由比热容求水吸热并按功率求加热时间"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 未经实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "铭牌数值完整转录在文本中，无须依赖图片。来源乘积、除法结果错误。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "(1) 求水吸收的热量。",
+            "reference_answer": "5.643×10⁶J",
+            "solution_steps": [
+              "Q=cmΔT=4.18×10³×45×30=5.643×10⁶J。",
+              "Pt=Q，t=5.643×10⁶/1600=3526.875s。"
+            ],
+            "knowledge_tags": [
+              "比热容与吸放热",
+              "电功率与电能"
+            ],
+            "type_tags": [
+              "由比热容求水吸热并按功率求加热时间"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "列Q=cmΔT并代入得到5.643×10⁶J。",
+                "points": null,
+                "evidence_required": "列Q=cmΔT并代入得到5.643×10⁶J。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "(2) 求完成加热所需时间。",
+            "reference_answer": "3526.875s（约3.53×10³s）",
+            "solution_steps": [
+              "Q=cmΔT=4.18×10³×45×30=5.643×10⁶J。",
+              "Pt=Q，t=5.643×10⁶/1600=3526.875s。"
+            ],
+            "knowledge_tags": [
+              "比热容与吸放热",
+              "电功率与电能"
+            ],
+            "type_tags": [
+              "由比热容求水吸热并按功率求加热时间"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "忽略热损下用Pt=Q得秒数。",
+                "points": null,
+                "evidence_required": "忽略热损下用Pt=Q得秒数。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "独立核查草稿；答案仅为候选，不代表来源答案核验认证。"
+        }
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "B2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:33164a55b4024e27993879a1",
+    "source_sha256": "218c85e9688c37ecb90e07e1b3aa5c98da16635d6b818c172a1b62779ecde554",
+    "current_snapshot_id": "bank:cjeval:33164a55b4024e27993879a1:cb8fa4d12836",
+    "batch": "B2",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "m总=G/g=3.2×10⁴kg。",
+      "m油=3.2×10⁴−1.2×10⁴=2×10⁴kg；ρ=2×10⁴/25=800kg/m³。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "总质量3.2×10⁴kg、油密度800kg/m³，来源解答正确。"
+    ],
+    "remaining_issues": [
+      "图示不是必要数据来源，题干文字已给全计算量。"
+    ],
+    "rationale": "独立复算并区分来源条件与草稿新增条件；答案仍为candidate/source_only，未经人工认证。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "运油车空车质量1.2×10⁴kg，装油25m³，总重3.2×10⁵N，g=10N/kg。求：(1)总质量；(2)油密度。",
+      "kind": "reference",
+      "options": [],
+      "answer": "3.2×10⁴kg；8.0×10²kg/m³",
+      "steps": [
+        "m总=G/g=3.2×10⁴kg。",
+        "m油=3.2×10⁴−1.2×10⁴=2×10⁴kg；ρ=2×10⁴/25=800kg/m³。"
+      ],
+      "knowledge_tags": [
+        "重力与质量",
+        "密度公式"
+      ],
+      "type_tags": [
+        "由总重和空车质量求油的密度"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "重力与质量"
+          ],
+          "supporting": [
+            "密度公式"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由总重和空车质量求油的密度"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准 未经实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "图示不是必要数据来源，题干文字已给全计算量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "(1) 求运油车和油的总质量。",
+            "reference_answer": "3.2×10⁴kg",
+            "solution_steps": [
+              "m总=G/g=3.2×10⁴kg。",
+              "m油=3.2×10⁴−1.2×10⁴=2×10⁴kg；ρ=2×10⁴/25=800kg/m³。"
+            ],
+            "knowledge_tags": [
+              "重力与质量",
+              "密度公式"
+            ],
+            "type_tags": [
+              "由总重和空车质量求油的密度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "用G/g得总质量。",
+                "points": null,
+                "evidence_required": "用G/g得总质量。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "(2) 求油的密度。",
+            "reference_answer": "8.0×10²kg/m³",
+            "solution_steps": [
+              "m总=G/g=3.2×10⁴kg。",
+              "m油=3.2×10⁴−1.2×10⁴=2×10⁴kg；ρ=2×10⁴/25=800kg/m³。"
+            ],
+            "knowledge_tags": [
+              "重力与质量",
+              "密度公式"
+            ],
+            "type_tags": [
+              "由总重和空车质量求油的密度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "减去空车质量再除以油体积，写kg/m³。",
+                "points": null,
+                "evidence_required": "减去空车质量再除以油体积，写kg/m³。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "独立核查草稿；答案仅为候选，不代表来源答案核验认证。"
+        }
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "B2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:506bcfb4572253919ff7c6bb",
+    "source_sha256": "37bf794465900c32e5c4c8c81fcad97e82fddc09d487fe159e775ab64e7f4308",
+    "current_snapshot_id": "bank:cjeval:506bcfb4572253919ff7c6bb:71afa3e4c0fd",
+    "batch": "B2",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "仅改变颜色；黑色组升温更多。",
+      "100L水质量100kg，Q=cmΔT=4.2×10⁶J。",
+      "I=Q/(3600×1.5×0.40)=1944.44J/(s·m²)=1944.44W/m²。"
+    ],
+    "source_conflicts": [
+      "来源1944J缺功率面密度单位。"
+    ],
+    "resolved_findings": [
+      "控制变量法、黑色；Q=4.2×10⁶J；入射辐照功率密度1944.44W/m²。"
+    ],
+    "remaining_issues": [
+      "题干表格完整，图非必要。将来源“1944J”补成每秒每平方米功率单位W/m²。"
+    ],
+    "rationale": "独立复算并区分来源条件与草稿新增条件；答案仍为candidate/source_only，未经人工认证。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "对比相同烧杯中相同质量、初温的水，分别用黑、白塑料袋包裹并在阳光下同时间曝晒，数据见题干表格。回答：(1)研究方法；(2)集热管颜色；(3)容积100L、采光面积1.5m²、效率40%的热水器中，水每小时升温10℃时的吸热量及单位面积每秒获得的太阳能功率。c水=4.2×10³J/(kg·℃)，ρ水=1000kg/m³。",
+      "kind": "reference",
+      "options": [],
+      "answer": "控制变量法；黑色；4.2×10⁶J；约1.94×10³W/m²",
+      "steps": [
+        "仅改变颜色；黑色组升温更多。",
+        "100L水质量100kg，Q=cmΔT=4.2×10⁶J。",
+        "I=Q/(3600×1.5×0.40)=1944.44J/(s·m²)=1944.44W/m²。"
+      ],
+      "knowledge_tags": [
+        "控制变量法",
+        "比热容与吸热",
+        "能量效率与功率"
+      ],
+      "type_tags": [
+        "比较表面颜色对吸收太阳能的影响并由热水升温求辐照功率"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "控制变量法"
+          ],
+          "supporting": [
+            "比热容与吸热",
+            "能量效率与功率"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "比较表面颜色对吸收太阳能的影响并由热水升温求辐照功率"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 未经实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "题干表格完整，图非必要。将来源“1944J”补成每秒每平方米功率单位W/m²。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "(1) 本实验采用的科学研究方法是什么？",
+            "reference_answer": "控制变量法",
+            "solution_steps": [
+              "仅改变颜色；黑色组升温更多。",
+              "100L水质量100kg，Q=cmΔT=4.2×10⁶J。",
+              "I=Q/(3600×1.5×0.40)=1944.44J/(s·m²)=1944.44W/m²。"
+            ],
+            "knowledge_tags": [
+              "控制变量法",
+              "比热容与吸热",
+              "能量效率与功率"
+            ],
+            "type_tags": [
+              "比较表面颜色对吸收太阳能的影响并由热水升温求辐照功率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "指出只改变颜色，其余主要变量相同。",
+                "points": null,
+                "evidence_required": "指出只改变颜色，其余主要变量相同。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "(2) 太阳能热水器集热管表面应选用什么颜色？",
+            "reference_answer": "黑色",
+            "solution_steps": [
+              "仅改变颜色；黑色组升温更多。",
+              "100L水质量100kg，Q=cmΔT=4.2×10⁶J。",
+              "I=Q/(3600×1.5×0.40)=1944.44J/(s·m²)=1944.44W/m²。"
+            ],
+            "knowledge_tags": [
+              "控制变量法",
+              "比热容与吸热",
+              "能量效率与功率"
+            ],
+            "type_tags": [
+              "比较表面颜色对吸收太阳能的影响并由热水升温求辐照功率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "据黑色组升温更多选黑色。",
+                "points": null,
+                "evidence_required": "据黑色组升温更多选黑色。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "(3) 求每小时水吸热量及单位面积每秒获得的太阳能功率。",
+            "reference_answer": "4.2×10⁶J",
+            "solution_steps": [
+              "仅改变颜色；黑色组升温更多。",
+              "100L水质量100kg，Q=cmΔT=4.2×10⁶J。",
+              "I=Q/(3600×1.5×0.40)=1944.44J/(s·m²)=1944.44W/m²。"
+            ],
+            "knowledge_tags": [
+              "控制变量法",
+              "比热容与吸热",
+              "能量效率与功率"
+            ],
+            "type_tags": [
+              "比较表面颜色对吸收太阳能的影响并由热水升温求辐照功率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "由100L换成100kg，Q=cmΔT；计入面积、效率、3600s求W/m²。",
+                "points": null,
+                "evidence_required": "由100L换成100kg，Q=cmΔT；计入面积、效率、3600s求W/m²。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p4",
+            "prompt": "题目子问4",
+            "reference_answer": "约1.94×10³W/m²",
+            "solution_steps": [
+              "仅改变颜色；黑色组升温更多。",
+              "100L水质量100kg，Q=cmΔT=4.2×10⁶J。",
+              "I=Q/(3600×1.5×0.40)=1944.44J/(s·m²)=1944.44W/m²。"
+            ],
+            "knowledge_tags": [
+              "控制变量法",
+              "比热容与吸热",
+              "能量效率与功率"
+            ],
+            "type_tags": [
+              "比较表面颜色对吸收太阳能的影响并由热水升温求辐照功率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "由100L换成100kg，Q=cmΔT；计入面积、效率、3600s求W/m²。",
+                "points": null,
+                "evidence_required": "由100L换成100kg，Q=cmΔT；计入面积、效率、3600s求W/m²。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "独立核查草稿；答案仅为候选，不代表来源答案核验认证。"
+        }
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "B2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:bfa74347a1445a3dbb529a18",
+    "source_sha256": "3589c0d122508fe51b8569a1742612c3b9e66ee5afc8dfb4c2b4d1a95a3affc4",
+    "current_snapshot_id": "bank:cjeval:bfa74347a1445a3dbb529a18:a91c47248cc8",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "R=U²/P=230²/1200=44.1Ω。",
+      "m=1.7kg；Q=4.2×10³×1.7×75=5.355×10⁵J；W=1200×720=8.64×10⁵J；η=Q/W=61.98%。",
+      "m气=Q/q=0.0153kg。"
+    ],
+    "source_conflicts": [
+      "效率应61.98%，来源73.38%错。"
+    ],
+    "resolved_findings": [
+      "电阻、吸热量和天然气质量计算正确。"
+    ],
+    "remaining_issues": [
+      "来源效率73.38%错误；第三问理想化条件在草稿中明确。"
+    ],
+    "rationale": "独立复算并区分来源条件与草稿新增条件；答案仍为candidate/source_only，未经人工认证。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "电热水壶铭牌：230V、50Hz、1200W、1.7L。正常工作，ρ水=1000kg/m³，c水=4.2×10³J/(kg·℃)。求：(1)电阻；(2)水由20℃到95℃的吸热量及加热12min效率；(3)若天然气燃烧放热全部被水吸收，q=3.5×10⁷J/kg，求天然气质量。",
+      "kind": "reference",
+      "options": [],
+      "answer": "44.1Ω；5.355×10⁵J、61.98%；0.0153kg",
+      "steps": [
+        "R=U²/P=230²/1200=44.1Ω。",
+        "m=1.7kg；Q=4.2×10³×1.7×75=5.355×10⁵J；W=1200×720=8.64×10⁵J；η=Q/W=61.98%。",
+        "m气=Q/q=0.0153kg。"
+      ],
+      "knowledge_tags": [
+        "电功率与电阻",
+        "比热容与吸热",
+        "能量效率",
+        "燃料热值"
+      ],
+      "type_tags": [
+        "由额定值求电阻、烧水能量和燃料质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "电功率与电阻"
+          ],
+          "supporting": [
+            "比热容与吸热",
+            "能量效率",
+            "燃料热值"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由额定值求电阻、烧水能量和燃料质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 未经实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "来源效率73.38%错误；第三问理想化条件在草稿中明确。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "(1) 求电热水壶电阻。",
+            "reference_answer": "44.1Ω",
+            "solution_steps": [
+              "R=U²/P=230²/1200=44.1Ω。",
+              "m=1.7kg；Q=4.2×10³×1.7×75=5.355×10⁵J；W=1200×720=8.64×10⁵J；η=Q/W=61.98%。",
+              "m气=Q/q=0.0153kg。"
+            ],
+            "knowledge_tags": [
+              "电功率与电阻",
+              "比热容与吸热",
+              "能量效率",
+              "燃料热值"
+            ],
+            "type_tags": [
+              "由额定值求电阻、烧水能量和燃料质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "R=U²/P。",
+                "points": null,
+                "evidence_required": "R=U²/P。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "(2) 求水吸热量及加热12分钟时的热效率。",
+            "reference_answer": "5.355×10⁵J、61.98%",
+            "solution_steps": [
+              "R=U²/P=230²/1200=44.1Ω。",
+              "m=1.7kg；Q=4.2×10³×1.7×75=5.355×10⁵J；W=1200×720=8.64×10⁵J；η=Q/W=61.98%。",
+              "m气=Q/q=0.0153kg。"
+            ],
+            "knowledge_tags": [
+              "电功率与电阻",
+              "比热容与吸热",
+              "能量效率",
+              "燃料热值"
+            ],
+            "type_tags": [
+              "由额定值求电阻、烧水能量和燃料质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "水量换成1.7kg，用Q=cmΔT；以Pt为分母算效率。",
+                "points": null,
+                "evidence_required": "水量换成1.7kg，用Q=cmΔT；以Pt为分母算效率。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "(3) 求天然气质量。",
+            "reference_answer": "0.0153kg",
+            "solution_steps": [
+              "R=U²/P=230²/1200=44.1Ω。",
+              "m=1.7kg；Q=4.2×10³×1.7×75=5.355×10⁵J；W=1200×720=8.64×10⁵J；η=Q/W=61.98%。",
+              "m气=Q/q=0.0153kg。"
+            ],
+            "knowledge_tags": [
+              "电功率与电阻",
+              "比热容与吸热",
+              "能量效率",
+              "燃料热值"
+            ],
+            "type_tags": [
+              "由额定值求电阻、烧水能量和燃料质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "在全吸收条件下用Q=mq求天然气质量。",
+                "points": null,
+                "evidence_required": "在全吸收条件下用Q=mq求天然气质量。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "独立核查草稿；答案仅为候选，不代表来源答案核验认证。"
+        }
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "B1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:c42fe116101ff61da5575b1c",
+    "source_sha256": "fcf2fa80bb2c146a283e44acb1581623d3c2cd58d51ec128612babc53b5b907d",
+    "current_snapshot_id": "bank:cjeval:c42fe116101ff61da5575b1c:17c90236953b",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "m水=1000×0.002=2kg。",
+      "净增0.4kg=0.6kg−溢水质量，故溢水0.2kg，体积2×10⁻⁴m³；水面不变且初始满水时V球等于溢水体积。",
+      "ρB=0.6/(2×10⁻⁴)=3000kg/m³。"
+    ],
+    "source_conflicts": [
+      "未说明初始装满水，Δh=0不足以推出溢水量；草稿新增初始满水条件。"
+    ],
+    "resolved_findings": [
+      "在初始满水前提下，金属块体积2×10⁻⁴m³、密度3000kg/m³。"
+    ],
+    "remaining_issues": [
+      "初始满水是原文未明示但推导溢水所必需的新增条件，已明确标作草稿修订；若不接受补充，不能由Δh=0推出溢水。"
+    ],
+    "rationale": "独立复算并区分来源条件与草稿新增条件；答案仍为candidate/source_only，未经人工认证。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "容器A容积2×10⁻³m³，初始装满水；水密度1000kg/m³。实心金属块B质量0.6kg。B完全浸没后水面高度变化0，容器和内容物总质量比放入前增加0.4kg。求：(1)初始水质量；(2a)B体积；(2b)B密度。",
+      "kind": "reference",
+      "options": [],
+      "answer": "2kg；2×10⁻⁴m³；3.0×10³kg/m³",
+      "steps": [
+        "m水=1000×0.002=2kg。",
+        "净增0.4kg=0.6kg−溢水质量，故溢水0.2kg，体积2×10⁻⁴m³；水面不变且初始满水时V球等于溢水体积。",
+        "ρB=0.6/(2×10⁻⁴)=3000kg/m³。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "浮力与排水",
+        "质量变化"
+      ],
+      "type_tags": [
+        "由溢水质量变化求浸没物体体积和密度"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式"
+          ],
+          "supporting": [
+            "浮力与排水",
+            "质量变化"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由溢水质量变化求浸没物体体积和密度"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 未经实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "初始满水是原文未明示但推导溢水所必需的新增条件，已明确标作草稿修订；若不接受补充，不能由Δh=0推出溢水。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "(1) 求初始水质量。",
+            "reference_answer": "2kg",
+            "solution_steps": [
+              "m水=1000×0.002=2kg。",
+              "净增0.4kg=0.6kg−溢水质量，故溢水0.2kg，体积2×10⁻⁴m³；水面不变且初始满水时V球等于溢水体积。",
+              "ρB=0.6/(2×10⁻⁴)=3000kg/m³。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "浮力与排水",
+              "质量变化"
+            ],
+            "type_tags": [
+              "由溢水质量变化求浸没物体体积和密度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "m=ρV得2kg。",
+                "points": null,
+                "evidence_required": "m=ρV得2kg。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "(2a) 求金属块B体积。",
+            "reference_answer": "2×10⁻⁴m³",
+            "solution_steps": [
+              "m水=1000×0.002=2kg。",
+              "净增0.4kg=0.6kg−溢水质量，故溢水0.2kg，体积2×10⁻⁴m³；水面不变且初始满水时V球等于溢水体积。",
+              "ρB=0.6/(2×10⁻⁴)=3000kg/m³。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "浮力与排水",
+              "质量变化"
+            ],
+            "type_tags": [
+              "由溢水质量变化求浸没物体体积和密度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "净增质量差推出溢水质量并求V球。",
+                "points": null,
+                "evidence_required": "净增质量差推出溢水质量并求V球。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "(2b) 求金属块B密度。",
+            "reference_answer": "3.0×10³kg/m³",
+            "solution_steps": [
+              "m水=1000×0.002=2kg。",
+              "净增0.4kg=0.6kg−溢水质量，故溢水0.2kg，体积2×10⁻⁴m³；水面不变且初始满水时V球等于溢水体积。",
+              "ρB=0.6/(2×10⁻⁴)=3000kg/m³。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "浮力与排水",
+              "质量变化"
+            ],
+            "type_tags": [
+              "由溢水质量变化求浸没物体体积和密度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "ρ=m/V得3000kg/m³。",
+                "points": null,
+                "evidence_required": "ρ=m/V得3000kg/m³。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "独立核查草稿；答案仅为候选，不代表来源答案核验认证。"
+        }
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "B1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:8aef648b72b5b72f1f636e58",
+    "source_sha256": "2258b10c5bcfd697b9e1a75ff2a45d084e54894cfa720f1e670391a6b4604497",
+    "current_snapshot_id": "bank:cjeval:8aef648b72b5b72f1f636e58:02122638c7f6",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "insufficient_evidence",
+    "independent_solution": [],
+    "source_conflicts": [
+      "M、N机械能不同，忽略空气阻力假设不成立；运动阶段不明，不能判N下降。"
+    ],
+    "resolved_findings": [
+      "M点总机械能15J，N点13J；M更高且速度更小。"
+    ],
+    "remaining_issues": [
+      "不提供草稿。M、N机械能分别15J和13J，忽略阻力时不守恒；若有阻力题干未说明。仅凭能量表不能判断N点在上升还是下降段；来源C先后次序与M较高且从地面首次上抛时先到M的顺序冲突。需核对原题图或补充运动段条件。"
+    ],
+    "rationale": "现有条件不足以形成可靠修复，保持隔离。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:6629661604548bd778178685",
+    "source_sha256": "5b0409372eefad057340f1119ee20140054acbeb462279d9323fc19511c6d564",
+    "current_snapshot_id": "bank:cjeval:6629661604548bd778178685:57b6b16bf1f9",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "F空=1200×9.8=11760N，p=F/0.05=2.352×10⁵Pa。",
+      "恒速时F牵=f=0.06×(1200+3×70)×9.8=829.08N。",
+      "80km/h=22.22m/s，P=Fv≈1.8424×10⁴W。"
+    ],
+    "source_conflicts": [
+      "来源漏计乘员，牵引力应829.08N、功率约18.4kW（新增恒速条件后）。"
+    ],
+    "resolved_findings": [
+      "空车静压2.352×10⁵Pa；平均速度不能单独证明匀速。"
+    ],
+    "remaining_issues": [
+      "来源解析遗漏三名乘员，882N及19600W有误。平均速度不等于匀速，已显式新增恒速条件。"
+    ],
+    "rationale": "独立复算并区分来源条件与草稿新增条件；答案仍为candidate/source_only，未经人工认证。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "电动汽车空车质量1200kg，最大输出功率110kW，轮胎总接触面积0.05m²，最高速130km/h。小明一家三口以80km/h行驶50km，车辆阻力为含乘员总重的0.06倍，每人质量70kg，g=9.8N/kg。求：(1)静止空车压强；(2)牵引力；(3)牵引功率。为使(2)(3)唯一，草稿补充行驶速度恒定。",
+      "kind": "reference",
+      "options": [],
+      "answer": "2.35×10⁵Pa；829.08N；约1.84×10⁴W",
+      "steps": [
+        "F空=1200×9.8=11760N，p=F/0.05=2.352×10⁵Pa。",
+        "恒速时F牵=f=0.06×(1200+3×70)×9.8=829.08N。",
+        "80km/h=22.22m/s，P=Fv≈1.8424×10⁴W。"
+      ],
+      "knowledge_tags": [
+        "固体压强",
+        "重力与质量",
+        "二力平衡",
+        "功率"
+      ],
+      "type_tags": [
+        "计算车辆压强、匀速牵引力及牵引功率"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "固体压强"
+          ],
+          "supporting": [
+            "重力与质量",
+            "二力平衡",
+            "功率"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "计算车辆压强、匀速牵引力及牵引功率"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 未经实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "来源解析遗漏三名乘员，882N及19600W有误。平均速度不等于匀速，已显式新增恒速条件。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "(1) 求静止空车对地面压强。",
+            "reference_answer": "2.35×10⁵Pa",
+            "solution_steps": [
+              "F空=1200×9.8=11760N，p=F/0.05=2.352×10⁵Pa。",
+              "恒速时F牵=f=0.06×(1200+3×70)×9.8=829.08N。",
+              "80km/h=22.22m/s，P=Fv≈1.8424×10⁴W。"
+            ],
+            "knowledge_tags": [
+              "固体压强",
+              "重力与质量",
+              "二力平衡",
+              "功率"
+            ],
+            "type_tags": [
+              "计算车辆压强、匀速牵引力及牵引功率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "空车压力除接触面积。",
+                "points": null,
+                "evidence_required": "空车压力除接触面积。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "(2) 求恒速行驶时牵引力。",
+            "reference_answer": "829.08N",
+            "solution_steps": [
+              "F空=1200×9.8=11760N，p=F/0.05=2.352×10⁵Pa。",
+              "恒速时F牵=f=0.06×(1200+3×70)×9.8=829.08N。",
+              "80km/h=22.22m/s，P=Fv≈1.8424×10⁴W。"
+            ],
+            "knowledge_tags": [
+              "固体压强",
+              "重力与质量",
+              "二力平衡",
+              "功率"
+            ],
+            "type_tags": [
+              "计算车辆压强、匀速牵引力及牵引功率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "恒速时牵引力等于按总重计算的阻力。",
+                "points": null,
+                "evidence_required": "恒速时牵引力等于按总重计算的阻力。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "(3) 求行驶时牵引力功率。",
+            "reference_answer": "约1.84×10⁴W",
+            "solution_steps": [
+              "F空=1200×9.8=11760N，p=F/0.05=2.352×10⁵Pa。",
+              "恒速时F牵=f=0.06×(1200+3×70)×9.8=829.08N。",
+              "80km/h=22.22m/s，P=Fv≈1.8424×10⁴W。"
+            ],
+            "knowledge_tags": [
+              "固体压强",
+              "重力与质量",
+              "二力平衡",
+              "功率"
+            ],
+            "type_tags": [
+              "计算车辆压强、匀速牵引力及牵引功率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "将速度换算为m/s并用P=Fv。",
+                "points": null,
+                "evidence_required": "将速度换算为m/s并用P=Fv。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "独立核查草稿；答案仅为候选，不代表来源答案核验认证。"
+        }
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "B1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:95db12b298590ae9295437d9",
+    "source_sha256": "a0d66b00d77b69f515050dc6e70ae8efb2e77005ad6585de889df08fe665a1a1",
+    "current_snapshot_id": "bank:cjeval:95db12b298590ae9295437d9:8fb5f187de02",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "insufficient_evidence",
+    "independent_solution": [],
+    "source_conflicts": [
+      "步行支撑脚数不明确，接触面积不确定；整体质量字段待澄清。"
+    ],
+    "resolved_findings": [
+      "器材密度2000kg/m³；体重及行走压强存在条件歧义。"
+    ],
+    "remaining_issues": [
+      "不提供草稿。器材“整体质量6kg”与器材质量3kg关系需核清；步行时单脚或双脚支撑状态未给，单脚面积不能确定总接触面积，压强不唯一。需明确整体质量含义及支撑脚数。"
+    ],
+    "rationale": "现有条件不足以形成可靠修复，保持隔离。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:1b3df8e6f035b7479c4ca962",
+    "source_sha256": "e6d007d8d94b984d373393c993098e936c92bdf896631f2bec85d9fbcb3c3a5c",
+    "current_snapshot_id": "bank:cjeval:1b3df8e6f035b7479c4ca962:e751dfcd093a",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "V块=0.6×0.3×0.2=0.036m³，ρ新=12/0.036≈333.3kg/m³。",
+      "原墙材体积=4000/1850≈2.162m³；新材料质量≈720.7kg。",
+      "减少量≈4000−720.7=3279kg≈3.28t。"
+    ],
+    "source_conflicts": [
+      "来源将约3.279t粗略写作3t；同墙厚是假设而非原文明示。"
+    ],
+    "resolved_findings": [
+      "新材密度约333.3kg/m³；按原砖体积换材后减重约3.28t。"
+    ],
+    "remaining_issues": [
+      "相同墙厚是新增且明示的条件。来源将3.28t粗略写为3t，不能作精确答案。"
+    ],
+    "rationale": "独立复算并区分来源条件与草稿新增条件；答案仍为candidate/source_only，未经人工认证。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "加气混凝土砌块尺寸60cm×30cm×20cm、质量12kg。面积120m²墙体原用总质量4t、密度1.85×10³kg/m³黏土砖。假设新旧墙体厚度相同、忽略砖缝，求换材后减少的质量。",
+      "kind": "reference",
+      "options": [],
+      "answer": "约3.28t",
+      "steps": [
+        "V块=0.6×0.3×0.2=0.036m³，ρ新=12/0.036≈333.3kg/m³。",
+        "原墙材体积=4000/1850≈2.162m³；新材料质量≈720.7kg。",
+        "减少量≈4000−720.7=3279kg≈3.28t。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "体积与质量"
+      ],
+      "type_tags": [
+        "由砌块尺寸和质量比较同体积墙材质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式"
+          ],
+          "supporting": [
+            "体积与质量"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由砌块尺寸和质量比较同体积墙材质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 未经实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "相同墙厚是新增且明示的条件。来源将3.28t粗略写为3t，不能作精确答案。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求将同体积墙材由黏土砖改为加气混凝土砌块后减少的质量。",
+            "reference_answer": "约3.28t",
+            "solution_steps": [
+              "V块=0.6×0.3×0.2=0.036m³，ρ新=12/0.036≈333.3kg/m³。",
+              "原墙材体积=4000/1850≈2.162m³；新材料质量≈720.7kg。",
+              "减少量≈4000−720.7=3279kg≈3.28t。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "体积与质量"
+            ],
+            "type_tags": [
+              "由砌块尺寸和质量比较同体积墙材质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "由砌块尺寸求体积、密度；用原材料质量/密度求相同体积，再比较质量。",
+                "points": null,
+                "evidence_required": "由砌块尺寸求体积、密度；用原材料质量/密度求相同体积，再比较质量。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "独立核查草稿；答案仅为候选，不代表来源答案核验认证。"
+        }
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "B1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:26306c921ebd4d58493b6fd1",
+    "source_sha256": "75f3317d344109a57b12921efa9793f739f3e3e6b3b91abff8d8f727535c39dc",
+    "current_snapshot_id": "bank:cjeval:26306c921ebd4d58493b6fd1:47662a242bf8",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "V=12×6×5=360m³；m=ρV=1.29×360=464.4kg。"
+    ],
+    "source_conflicts": [
+      "来源答案387kg与解析464.4kg矛盾。"
+    ],
+    "resolved_findings": [
+      "V=360m³，空气质量464.4kg。"
+    ],
+    "remaining_issues": [
+      "来源答案387kg与解析464.4kg冲突，按题给数据应为464.4kg。"
+    ],
+    "rationale": "独立复算并区分来源条件与草稿新增条件；答案仍为candidate/source_only，未经人工认证。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "教室长12m、宽6m、高5m，室内空气密度1.29kg/m³。求空气质量。",
+      "kind": "reference",
+      "options": [],
+      "answer": "464.4kg",
+      "steps": [
+        "V=12×6×5=360m³；m=ρV=1.29×360=464.4kg。"
+      ],
+      "knowledge_tags": [
+        "密度公式"
+      ],
+      "type_tags": [
+        "由空间体积和空气密度求空气质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由空间体积和空气密度求空气质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 未经实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "来源答案387kg与解析464.4kg冲突，按题给数据应为464.4kg。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求教室内空气质量。",
+            "reference_answer": "464.4kg",
+            "solution_steps": [
+              "V=12×6×5=360m³；m=ρV=1.29×360=464.4kg。"
+            ],
+            "knowledge_tags": [
+              "密度公式"
+            ],
+            "type_tags": [
+              "由空间体积和空气密度求空气质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "长宽高求体积360m³；用m=ρV得464.4kg。",
+                "points": null,
+                "evidence_required": "长宽高求体积360m³；用m=ρV得464.4kg。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "独立核查草稿；答案仅为候选，不代表来源答案核验认证。"
+        }
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "B1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:2724e1f8b5fc7ded04fa682b",
+    "source_sha256": "8c54c6e7cddee199798e559809163aebb2f92580b6cbe8c7783a37158ea16bc0",
+    "current_snapshot_id": "bank:cjeval:2724e1f8b5fc7ded04fa682b:edd6badd2baf",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "V=64cm³；m=7.5×64=480g=0.48kg。",
+      "G=mg=0.48×10=4.8N。",
+      "无重力场中质量不变0.48kg，重力0N。"
+    ],
+    "source_conflicts": [
+      "题干未给g；来源8.5N既非按g=10所得，亦与解析列出的7.68N不符。"
+    ],
+    "resolved_findings": [
+      "质量0.48kg；补充g=10N/kg后地面重力4.8N。"
+    ],
+    "remaining_issues": [
+      "来源答案0.768kg及8.5N错误。g未在原题给出，4.8N仅在明确新增g=10N/kg后成立。"
+    ],
+    "rationale": "独立复算并区分来源条件与草稿新增条件；答案仍为candidate/source_only，未经人工认证。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "边长4cm、密度7.5g/cm³的正方体。草稿显式补充地面附近g=10N/kg。求：(1)地面附近重力；(2)理想无重力场中的质量和重力。",
+      "kind": "reference",
+      "options": [],
+      "answer": "4.8N；0.48kg、0N",
+      "steps": [
+        "V=64cm³；m=7.5×64=480g=0.48kg。",
+        "G=mg=0.48×10=4.8N。",
+        "无重力场中质量不变0.48kg，重力0N。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "质量与重力"
+      ],
+      "type_tags": [
+        "由正方体体积和密度求质量并区分质量与重力"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式"
+          ],
+          "supporting": [
+            "质量与重力"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由正方体体积和密度求质量并区分质量与重力"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准 未经实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "来源答案0.768kg及8.5N错误。g未在原题给出，4.8N仅在明确新增g=10N/kg后成立。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "(1) 求地面附近物体重力。",
+            "reference_answer": "4.8N",
+            "solution_steps": [
+              "V=64cm³；m=7.5×64=480g=0.48kg。",
+              "G=mg=0.48×10=4.8N。",
+              "无重力场中质量不变0.48kg，重力0N。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "质量与重力"
+            ],
+            "type_tags": [
+              "由正方体体积和密度求质量并区分质量与重力"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "cm、g换算一致后求质量0.48kg；按补入的g求地面重力。",
+                "points": null,
+                "evidence_required": "cm、g换算一致后求质量0.48kg；按补入的g求地面重力。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "(2) 求理想无重力场中物体的质量和重力。",
+            "reference_answer": "0.48kg、0N",
+            "solution_steps": [
+              "V=64cm³；m=7.5×64=480g=0.48kg。",
+              "G=mg=0.48×10=4.8N。",
+              "无重力场中质量不变0.48kg，重力0N。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "质量与重力"
+            ],
+            "type_tags": [
+              "由正方体体积和密度求质量并区分质量与重力"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "e1",
+                "description": "说明质量保持0.48kg，理想无重力场中重力0N。",
+                "points": null,
+                "evidence_required": "说明质量保持0.48kg，理想无重力场中重力0N。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "独立核查草稿；答案仅为候选，不代表来源答案核验认证。"
+        }
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "B1"
+      }
+    }
+  }
+]

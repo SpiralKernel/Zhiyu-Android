@@ -1,0 +1,31 @@
+[
+  {
+    "question_id": "bank:cjeval:202c87b56c881c5782b86add",
+    "source_sha256": "78e5a8cd1ccf8c7a0a4e3e129fa8413ac207381eb78db3c64d6363da719c89a7",
+    "decision": "accept_draft",
+    "rationale": "独立复算与草稿一致；百公里油耗按匀速题设线性折算，单位换算正确，rubric覆盖求油体积和以密度求质量。",
+    "independent_checks": [
+      "耗油体积=8L/100km×60km=4.8L=4.8×10⁻³m³；质量=0.7×10³kg/m³×4.8×10⁻³m³=3.36kg。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:291b0370f1e0f7f33f65f9f8",
+    "source_sha256": "dc59e81f1614a8f09aa8e61461458a9976b8913e181aa323b26ebfff460f9e62",
+    "decision": "accept_draft",
+    "rationale": "独立复算与草稿一致；空瓶质量已扣除，液体体积取瓶容量，单位换算正确，rubric覆盖质量差、密度公式及单位。",
+    "independent_checks": [
+      "豆油质量=500g−20g=480g；体积=600mL=600cm³；ρ=480/600=0.8g/cm³=800kg/m³。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:03899a2d29af25def87c89c7",
+    "source_sha256": "d1d976f5a3445673affb776e230afadb1913a55d67b1ff7447260598da03a692",
+    "decision": "keep_quarantined",
+    "rationale": "题面把“迎着月光”和“逆光”并列，但“逆光”没有定义观察者与月光的相对方位，可能与迎光同义；选项因此不能保证唯一对应两种相反观察情形。不可擅自按“背着月光”解释。来源解释也存在选项文字与结论不一致之处。",
+    "independent_checks": [
+      "若明确为迎着月光行走，水面镜面反射较亮，应避开亮点。",
+      "若明确为背着月光行走，水面镜面反射光偏离眼睛而较暗，应避开暗点。",
+      "原题写“逆光”而非“背着月光”，未建立第二观察情形；来源答案A及解释措辞互相有矛盾，原题应隔离并要求来源核实或明确改写。"
+    ]
+  }
+]

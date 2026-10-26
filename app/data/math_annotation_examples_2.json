@@ -1,0 +1,5107 @@
+[
+  {
+    "question_id": "bank:cjeval:003c857e5cf25613d387787d:6eb37fc1069d",
+    "source_sha256": "2a53d7b71c435bc6cbd35d4421e8d634b490b745244379e394ed6a95d1a7d1ed",
+    "question": {
+      "id": "bank:cjeval:003c857e5cf25613d387787d:6eb37fc1069d",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 在π，-√3，0，−0.1010010001这四个数字中，哪个是负的无理数，哪个是正的实数？",
+      "options": [],
+      "answer": "-√3\nπ",
+      "kind": "reference",
+      "steps": [
+        "首先，我们需要理解实数的概念。实数包括有理数和无理数，其中有理数可以表示为分数，而无理数不能。有理数中又包含整数和分数。负数是指小于零的数。在给出的四个数中，我们可以首先排除0和正数，剩下的是-√3和-0.1010010001两个负数。要判断它们是否为无理数，-√3是一个无理数，因为它无法表示为一个精确的分数，而-0.1010010001是一个周期性小数，可以转化为分数形式，是有理数。因此，负无理数是-√3。其次，在所有给出的数字中，π是唯一的正数且是无理数，但无论是有理数还是无理数都属于实数。因此，π是正实数。综上所述，答案是-√3和π。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "正数、负数的意义",
+        "无理数",
+        "实数的概念和分类"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "容易"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "003c857e5cf25613d387787d",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 在π，-√3，0，−0.1010010001这四个数字中，哪个是负的无理数，哪个是正的实数？",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 正数、负数的意义",
+        "填空题 · 无理数",
+        "填空题 · 实数的概念和分类"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正数、负数的意义",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "实数的概念和分类",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正数、负数的意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-2",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "bc93aeeb5884c1b01b2a7ec7cb85473fbc981acb36ea3f8692b41187889be196",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:f3114691dc1c4b764d43849f",
+          "kind": "knowledge",
+          "label": "正数、负数的意义",
+          "origin": "source"
+        },
+        {
+          "id": "tag:8abdc17bab4f237cba0d5948",
+          "kind": "knowledge",
+          "label": "无理数",
+          "origin": "source"
+        },
+        {
+          "id": "tag:3ad94a19d5e4fadc1d339c7a",
+          "kind": "knowledge",
+          "label": "实数的概念和分类",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:c9323555a5d4ca8c781078f9",
+          "kind": "type",
+          "label": "填空题 · 正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:027aee1ea2ea5823267ac942",
+          "kind": "type",
+          "label": "填空题 · 无理数",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:a2d979be278b94e5e51caa67",
+          "kind": "type",
+          "label": "填空题 · 实数的概念和分类",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c2c629a1af444072ecd2764e",
+          "kind": "type",
+          "label": "正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:d6ca25544b7ec7619f0c6955",
+          "kind": "type",
+          "label": "实数的概念和分类",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "正数、负数的意义",
+          "无理数",
+          "实数的概念和分类"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "有理数与无理数的定义",
+          "数的正负性"
+        ]
+      },
+      "fine_types": [
+        "按定义辨认正负无理数与正实数"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "-√3\nπ"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 在π，-√3，0，−0.1010010001这四个数字中，哪个是负的无理数，哪个是正的实数？",
+          "reference_answer": "-√3\nπ",
+          "solution_steps": [
+            "比较各数与0的大小：-√3、-0.1010010001为负，π为正，0既非正也非负。",
+            "√3为无理数；有限小数-0.1010010001为有理数。",
+            "故负无理数是-√3；正实数包括π（题中只有π为正实数）。"
+          ],
+          "knowledge_tags": [
+            "正数、负数的意义",
+            "无理数",
+            "实数的概念和分类"
+          ],
+          "type_tags": [
+            "按定义辨认正负无理数与正实数"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：比较各数与0的大小：-√3、-0.1010010001为负，π为正，0既非正也非负。；√3为无理数；有限小数-0.1010010001为有理数。；故负无理数是-√3；正实数包括π（题中只有π为正实数）。",
+              "points": null,
+              "evidence_required": "关键依据：比较各数与0的大小：-√3、-0.1010010001为负，π为正，0既非正也非负。；√3为无理数；有限小数-0.1010010001为有理数。；故负无理数是-√3；正实数包括π（题中只有π为正实数）。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把有限小数误判为无理数；把“实数”误当作“有理数”；将0归入正数或负数。",
+              "knowledge_tags": [
+                "正数、负数的意义",
+                "无理数",
+                "实数的概念和分类"
+              ],
+              "type_tags": [
+                "按定义辨认正负无理数与正实数"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:004b7aa33f2a82172f12a7d3:9721e71ef772",
+    "source_sha256": "d59785a5e28663b355be0282d136aced23e22140ebe34422e9b8a935b1847ea6",
+    "question": {
+      "id": "bank:cjeval:004b7aa33f2a82172f12a7d3:9721e71ef772",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 在一次禁毒宣传任务中，某执勤小组早晨从$A$点出发，沿公路的东、西两个方向行驶进行安全巡查，晚上抵达$B$点。若以东为正方向，西为负方向，行驶记录如下（单位：千米）：$+20, -10, +8, -12, -9, +13, -7, -5, +15, +6.$ （1）$B$点位于$A$点的哪个方向？其距离为多远？（2）若车辆行驶每千米的耗油量为$0.1$升，汽油单价为每升$5$元，求此次巡查的总油费是多少？",
+      "options": [],
+      "answer": "东边，12千米\n57.5元",
+      "kind": "reference",
+      "steps": [
+        "要判断B点相对于A点的位置和距离，可以将所有行驶数据相加。向东的算正值，向西的算负值，因此：20 + (-10) + 8 + (-12) + (-9) + 13 + (-7) + (-5) + 15 + 6 = 12（公里）。由于最总结果为正值，故$B$点在$A$点的东边，距离为12公里。计算油费时，需要将每段行驶的绝对值相加，求得总行驶距离，再乘以每千米耗油量和油价即得总费用：5 * 0.1 * ( |+20| + |-10| + |+8| + |-12| + |-9| + |+13| + |-7| + |-5| + |+15| + |+6|) = 5 * 0.1 * (20 + 10 + 8 + 12 + 9 + 13 + 7 + 5 + 15 + 6) = 57.5元。本题考查了有理数的加减法混合运算和正负数表示相反意义的概念，是一道基础题。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "一般",
+      "knowledge_tags": [
+        "正负数在实际生活中的应用",
+        "加法运算率在加减混合运算的应用"
+      ],
+      "type_tags": [
+        "解答题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "解答题",
+        "一般"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "004b7aa33f2a82172f12a7d3",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 在一次禁毒宣传任务中，某执勤小组早晨从$A$点出发，沿公路的东、西两个方向行驶进行安全巡查，晚上抵达$B$点。若以东为正方向，西为负方向，行驶记录如下（单位：千米）：$+20, -10, +8, -12, -9, +13, -7, -5, +15, +6.$ （1）$B$点位于$A$点的哪个方向？其距离为多远？（2）若车辆行驶每千米的耗油量为$0.1$升，汽油单价为每升$5$元，求此次巡查的总油费是多少？",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "解答题 · 正负数在实际生活中的应用",
+        "解答题 · 加法运算率在加减混合运算的应用"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "加法运算率在加减混合运算的应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正负数在实际",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "562bdafcbcbcfe2025a8c599f2523f80604c4acb34ba12462587bf6d5ffc47d3",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:57405d69ee24aff25210a584",
+          "kind": "knowledge",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:1881cdc2e27adedcc493b96a",
+          "kind": "knowledge",
+          "label": "加法运算率在加减混合运算的应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:8b80ce45d75ff58e323fe54b",
+          "kind": "type",
+          "label": "解答题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:1155eba447fcd3fd43727516",
+          "kind": "type",
+          "label": "解答题 · 正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:b4141f3d8703699836bdc18b",
+          "kind": "type",
+          "label": "解答题 · 加法运算率在加减混合运算的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:6f3c09f5b02bf66c763a1538",
+          "kind": "type",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:132e697091915752e6148046",
+          "kind": "type",
+          "label": "加法运算率在加减混合运算的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "正负数在实际生活中的应用",
+          "加法运算率在加减混合运算的应用"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "有理数加法",
+          "绝对值表示路程",
+          "单价×数量"
+        ]
+      },
+      "fine_types": [
+        "有向量求位移与路程费用"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "source_scale_uncalibrated；item_read复杂度：需区分方向/位移与路程",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [
+          "东边，12千米\n57.5元"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "$B$点位于$A$点的哪个方向？其距离为多远",
+          "reference_answer": "东边，12千米",
+          "solution_steps": [
+            "第(1)问将十段有向位移相加得+12千米，正号表示向东。"
+          ],
+          "knowledge_tags": [],
+          "type_tags": [
+            "有向位移求终点位置"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：第(1)问将十段有向位移相加得+12千米，正号表示向东。",
+              "points": null,
+              "evidence_required": "关键依据：第(1)问将十段有向位移相加得+12千米，正号表示向东。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把位移和路程混用；路程未取各段绝对值；只乘油耗或漏乘单价。",
+              "knowledge_tags": [],
+              "type_tags": [
+                "有向位移求终点位置"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "prompt": "若车辆行驶每千米的耗油量为$0.1$升，汽油单价为每升$5$元，求此次巡查的总油费是多少？",
+          "reference_answer": "57.5元",
+          "solution_steps": [
+            "第(2)问把各段位移取绝对值求总路程115千米；耗油11.5升，费用57.5元。"
+          ],
+          "knowledge_tags": [],
+          "type_tags": [
+            "按总路程计算油费"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：第(2)问把各段位移取绝对值求总路程115千米；耗油11.5升，费用57.5元。",
+              "points": null,
+              "evidence_required": "关键依据：第(2)问把各段位移取绝对值求总路程115千米；耗油11.5升，费用57.5元。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把位移和路程混用；路程未取各段绝对值；只乘油耗或漏乘单价。",
+              "knowledge_tags": [],
+              "type_tags": [
+                "按总路程计算油费"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0077aaebee94623281377971:fdc35aeecbb8",
+    "source_sha256": "d618f1664d0ee7f2954d64be0c6d6bf94b7370f327249d84055fbd05bf62cca2",
+    "question": {
+      "id": "bank:cjeval:0077aaebee94623281377971:fdc35aeecbb8",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "问题描述: 如果向东行走5米记为+5米，那么向西行走8米应记为__米。",
+      "options": [],
+      "answer": "-8",
+      "kind": "reference",
+      "steps": [
+        "根据正负数的表示方法，如果向东行走表示为正数，那么相反方向的向西行走应表示为负数。因此，题目中向东行走5米记为+5米，向西行走8米应记为-8米。这是因为两个方向相反，我们用正负号来区分。因此，向西行走8米的数值为-8米。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "正数、负数的意义"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "容易"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "0077aaebee94623281377971",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "问题描述: 如果向东行走5米记为+5米，那么向西行走8米应记为__米。",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 正数、负数的意义"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正数、负数的意义",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正数、负数的意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "4ce5c8661ae6a9ffc236f21a506f57c4dec878e42a5f2b92a6b30b61908e3276",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:f3114691dc1c4b764d43849f",
+          "kind": "knowledge",
+          "label": "正数、负数的意义",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:c9323555a5d4ca8c781078f9",
+          "kind": "type",
+          "label": "填空题 · 正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c2c629a1af444072ecd2764e",
+          "kind": "type",
+          "label": "正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "正数、负数的意义"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "正负数表示相反意义的量"
+        ]
+      },
+      "fine_types": [
+        "用相反方向确定有向数符号"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "-8"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "问题描述: 如果向东行走5米记为+5米，那么向西行走8米应记为__米。",
+          "reference_answer": "-8",
+          "solution_steps": [
+            "约定向东为正，则相反方向向西取负号；长度8米保留，记作-8米。"
+          ],
+          "knowledge_tags": [
+            "正数、负数的意义"
+          ],
+          "type_tags": [
+            "用相反方向确定有向数符号"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：约定向东为正，则相反方向向西取负号；长度8米保留，记作-8米。",
+              "points": null,
+              "evidence_required": "关键依据：约定向东为正，则相反方向向西取负号；长度8米保留，记作-8米。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "只写8而漏负号；误把参照的+5带入答案。",
+              "knowledge_tags": [
+                "正数、负数的意义"
+              ],
+              "type_tags": [
+                "用相反方向确定有向数符号"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:01b1817efcb9b5af531a5446:29935b6c4d10",
+    "source_sha256": "372a0bdd1f81b92fd34973129103d7708c1777952215ab5f00d014cc421a3a84",
+    "question": {
+      "id": "bank:cjeval:01b1817efcb9b5af531a5446:29935b6c4d10",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 2020年的“新冠肺炎”疫情的爆发，导致医用口罩的需求量急剧上升。某口罩生产厂为了满足市场需求，计划每天生产5000个口罩。但由于种种原因，实际生产量与计划有差异，下表显示了三月份某一周的生产情况（超出为正，少于为负，单位：个）。\n\n| 星期 | 一 | 二 | 三 | 四 | 五 | 六 | 日 |\n| 增减 | +150 | -250 | +350 | -150 | -50 | +400 | +100 |\n\n(1) 根据记录，前三天一共生产了多少个口罩？\n(2) 产量最多的一天比产量最少的一天多生产多少个口罩？\n(3) 该口罩生产厂实行计件工资制，每生产一个口罩支付工人0.5元，本周该厂应支付工人的工资总额是多少元？",
+      "options": [],
+      "answer": "15450个\n650个\n17850元",
+      "kind": "reference",
+      "steps": [
+        "在解答问题时，我们需要逐步分析并利用相关数据和数学公式。\n\n(1) 为了得出前三天口罩的生产总量，我们首先将每天的计划生产量（5000个）乘以3天，然后加上这三天的生产增减数据：5000 * 3 + 150 - 250 + 350。计算得出前三天共生产了15450个口罩。\n\n(2) 要找出产量最多的一天和最少的一天，我们需要比较各天的生产量。根据表格可以看出，星期六的增减量最多为+400个，星期二的增减量最少为-250个。将这两者相减，400 - (-250)，我们得出产量最多的一天比产量最少的一天多生产了650个口罩。\n\n(3) 计算该厂本周应支付的工资总额，我们需要得到一周内生产的口罩总数量，然后乘以每个口罩支付给工人的工资（0.5元）。先将一周每天的计划生产量（5000个）乘以7天，再加上全周的生产增减量：0.5 * (5000 * 7 + 150 - 250 + 350 - 150 - 50 + 400 + 100)。计算之后，我们得知这周口罩生产厂需要支付给工人17850元的工资。\n\n本题需要考虑实际生产量与计划生产量的差异，并利用正负数进行计算。理解正负数的意义是解题的关键，并且要熟练使用有理数进行计算。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "一般",
+      "knowledge_tags": [
+        "正负数在实际生活中的应用",
+        "有理数加减乘除混合运算的实际应用"
+      ],
+      "type_tags": [
+        "解答题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "解答题",
+        "一般"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "01b1817efcb9b5af531a5446",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 2020年的“新冠肺炎”疫情的爆发，导致医用口罩的需求量急剧上升。某口罩生产厂为了满足市场需求，计划每天生产5000个口罩。但由于种种原因，实际生产量与计划有差异，下表显示了三月份某一周的生产情况（超出为正，少于为负，单位：个）。\n\n| 星期 | 一 | 二 | 三 | 四 | 五 | 六 | 日 |\n| 增减 | +150 | -250 | +350 | -150 | -50 | +400 | +100 |\n\n(1) 根据记录，前三天一共生产了多少个口罩？\n(2) 产量最多的一天比产量最少的一天多生产多少个口罩？\n(3) 该口罩生产厂实行计件工资制，每生产一个口罩支付工人0.5元，本周该厂应支付工人的工资总额是多少元？",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "解答题 · 正负数在实际生活中的应用",
+        "解答题 · 有理数加减乘除混合运算的实际应用"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "有理数加减乘除混合运算的实际应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正负数在实际",
+          "needs_review": true
+        },
+        {
+          "label": "有理数混合运算的顺序与符号",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "有理数加减乘除混合运算",
+          "needs_review": true
+        },
+        {
+          "label": "有理数加减的符号与运算律",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "有理数加减",
+          "needs_review": true
+        },
+        {
+          "label": "有理数乘除与倒数的条件",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "有理数加减乘除",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数",
+        "有理数混合运算",
+        "有理数加减",
+        "有理数乘除"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "ae5f7d44b5b85794211c51730c40cb0fcce089ce1e253ae0e7998cdf7b538cb2",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:57405d69ee24aff25210a584",
+          "kind": "knowledge",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:4ade5e760cf7fdb0cf9d18cb",
+          "kind": "knowledge",
+          "label": "有理数加减乘除混合运算的实际应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:8b80ce45d75ff58e323fe54b",
+          "kind": "type",
+          "label": "解答题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:1155eba447fcd3fd43727516",
+          "kind": "type",
+          "label": "解答题 · 正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:ba755631d2dbbe8434f809b8",
+          "kind": "type",
+          "label": "解答题 · 有理数加减乘除混合运算的实际应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:6f3c09f5b02bf66c763a1538",
+          "kind": "type",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:e4a99571770290c2a8a4792f",
+          "kind": "type",
+          "label": "有理数加减乘除混合运算的实际应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        },
+        {
+          "id": "tag:d250b5a03e837b27ecdfab75",
+          "kind": "type",
+          "label": "有理数混合运算的顺序与符号",
+          "origin": "heuristic"
+        },
+        {
+          "id": "tag:52dbe590e010a93cde0c30d2",
+          "kind": "type",
+          "label": "有理数加减的符号与运算律",
+          "origin": "heuristic"
+        },
+        {
+          "id": "tag:2c2d080e39aed03c99cf68fa",
+          "kind": "type",
+          "label": "有理数乘除与倒数的条件",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "正负数在实际生活中的应用",
+          "有理数加减乘除混合运算的实际应用"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "有理数加法",
+          "绝对值与实际数量",
+          "单价计算"
+        ]
+      },
+      "fine_types": [
+        "由日变化量求累计产量与费用"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "source_scale_uncalibrated；item_read复杂度：需区分方向/位移与路程",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [
+          "15450个\n650个\n17850元"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "根据记录，前三天一共生产了多少个口罩？",
+          "reference_answer": "15450个",
+          "solution_steps": [
+            "前三天总产量为5000×3+150-250+350=15450个。"
+          ],
+          "knowledge_tags": [],
+          "type_tags": [
+            "按计划量与增减量求累计产量"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：前三天总产量为5000×3+150-250+350=15450个。",
+              "points": null,
+              "evidence_required": "关键依据：前三天总产量为5000×3+150-250+350=15450个。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "将差异量当作实际量；累计时漏掉计划基数；金额漏乘单价。",
+              "knowledge_tags": [],
+              "type_tags": [
+                "按计划量与增减量求累计产量"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "prompt": "产量最多的一天比产量最少的一天多生产多少个口罩？",
+          "reference_answer": "650个",
+          "solution_steps": [
+            "星期六与星期二的产量差为(5000+400)-(5000-250)=650个。"
+          ],
+          "knowledge_tags": [],
+          "type_tags": [
+            "比较最大与最小日增减量"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：星期六与星期二的产量差为(5000+400)-(5000-250)=650个。",
+              "points": null,
+              "evidence_required": "关键依据：星期六与星期二的产量差为(5000+400)-(5000-250)=650个。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "将差异量当作实际量；累计时漏掉计划基数；金额漏乘单价。",
+              "knowledge_tags": [],
+              "type_tags": [
+                "比较最大与最小日增减量"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "prompt": "该口罩生产厂实行计件工资制，每生产一个口罩支付工人0.5元，本周该厂应支付工人的工资总额是多少元？",
+          "reference_answer": "17850元",
+          "solution_steps": [
+            "周总产量为5000×7+150-250+350-150-50+400+100=35700个；工资为35700×0.5=17850元。"
+          ],
+          "knowledge_tags": [],
+          "type_tags": [
+            "按周产量与计件单价计算工资"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：周总产量为5000×7+150-250+350-150-50+400+100=35700个；工资为35700×0.5=17850元。",
+              "points": null,
+              "evidence_required": "关键依据：周总产量为5000×7+150-250+350-150-50+400+100=35700个；工资为35700×0.5=17850元。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "将差异量当作实际量；累计时漏掉计划基数；金额漏乘单价。",
+              "knowledge_tags": [],
+              "type_tags": [
+                "按周产量与计件单价计算工资"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:01f6c2d36eca14cbad1d2a42:c853e083dffb",
+    "source_sha256": "36f716e321ed8f26b2d74d948a1042b78a502aa33d9ddc5eee4dd11c2d05166c",
+    "question": {
+      "id": "bank:cjeval:01f6c2d36eca14cbad1d2a42:c853e083dffb",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 在下列各数：$-\\left ( -\\frac {2}{5} \\right )$，$-48$，$\\frac {15}{4}$，0，-（+5），-|-3000|中，负数的个数是（ ）选项: A. 2个 B. 3个 C. 4个 D. 1个",
+      "options": [
+        {
+          "key": "A",
+          "text": "2个"
+        },
+        {
+          "key": "B",
+          "text": "3个"
+        },
+        {
+          "key": "C",
+          "text": "4个"
+        },
+        {
+          "key": "D",
+          "text": "1个"
+        }
+      ],
+      "answer": "B",
+      "kind": "single_choice",
+      "steps": [
+        "此题考查负数的识别和基本运算法则。首先需要明确什么是负数，即小于0的数。接下来，逐一分析各个给定的数值：$-\\left ( -\\frac {2}{5} \\right )=\\frac {2}{5}$，由于$\\frac {2}{5}$大于0，因此这个数是正数；$-48$显然是负数；$\\frac {15}{4}$是一个大于0的分数，因此是正数；数字0既不是正数也不是负数；-（+5）即-5，小于0，所以是负数；-|-3000|即-3000，也小于0，是负数。综上所述，负数有$-48$、-5和-3000，共计3个。故正确答案选择B。【点评】解决这题的关键是掌握相反数的符号运算规则、绝对值的化简方法以及如何与0进行大小比较。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "较易",
+      "knowledge_tags": [
+        "正数、负数的意义",
+        "化简多重符号",
+        "化简绝对值"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "较易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "01f6c2d36eca14cbad1d2a42",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容: 在下列各数：$-\\left ( -\\frac {2}{5} \\right )$，$-48$，$\\frac {15}{4}$，0，-（+5），-|-3000|中，负数的个数是（ ）选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 正数、负数的意义",
+        "单选题 · 化简多重符号",
+        "单选题 · 化简绝对值"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正数、负数的意义",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "化简多重符号",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "化简绝对值",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正数、负数的意义",
+          "needs_review": true
+        },
+        {
+          "label": "绝对值的意义与条件求值",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "绝对值",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数",
+        "绝对值"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "3b7e8db70d7f107867d73fcd994acd98a28e589038a5f375a50f7959133b3874",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:f3114691dc1c4b764d43849f",
+          "kind": "knowledge",
+          "label": "正数、负数的意义",
+          "origin": "source"
+        },
+        {
+          "id": "tag:2ccdb8fccae402c1e564553a",
+          "kind": "knowledge",
+          "label": "化简多重符号",
+          "origin": "source"
+        },
+        {
+          "id": "tag:0cbf8dfcd73eceb3e23b82fd",
+          "kind": "knowledge",
+          "label": "化简绝对值",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:bc4808bc4ae6d5395b83af9a",
+          "kind": "type",
+          "label": "单选题 · 正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:331ee70c19cca3822cf7e319",
+          "kind": "type",
+          "label": "单选题 · 化简多重符号",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:999484c04718607da0daf152",
+          "kind": "type",
+          "label": "单选题 · 化简绝对值",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c2c629a1af444072ecd2764e",
+          "kind": "type",
+          "label": "正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:561edf61c70e8d999304c1e5",
+          "kind": "type",
+          "label": "化简多重符号",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:9f8adee2bb76baedaa5edf37",
+          "kind": "type",
+          "label": "化简绝对值",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        },
+        {
+          "id": "tag:1fb1a1da5df035b5c07df2b9",
+          "kind": "type",
+          "label": "绝对值的意义与条件求值",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "正数、负数的意义",
+          "化简多重符号",
+          "化简绝对值"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "有理数四则与乘方",
+          "绝对值",
+          "负号优先级"
+        ]
+      },
+      "fine_types": [
+        "化简带符号数并统计负数个数"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 在下列各数：$-\\left ( -\\frac {2}{5} \\right )$，$-48$，$\\frac {15}{4}$，0，-（+5），-|-3000|中，负数的个数是（ ）选项: A. 2个 B. 3个 C. 4个 D. 1个",
+          "reference_answer": "B",
+          "solution_steps": [
+            "分别化简各数：-(-2/5)=2/5，-48为负，15/4为正，0既非正非负，-(+5)=-5，-|-3000|=-3000。",
+            "负数共有-48、-5、-3000三个，对应选项B。"
+          ],
+          "knowledge_tags": [
+            "正数、负数的意义",
+            "化简多重符号",
+            "化简绝对值"
+          ],
+          "type_tags": [
+            "化简带符号数并统计负数个数"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：分别化简各数：-(-2/5)=2/5，-48为负，15/4为正，0既非正非负，-(+5)=-5，-|-3000|=-3000。；负数共有-48、-5、-3000三个，对应选项B。",
+              "points": null,
+              "evidence_required": "关键依据：分别化简各数：-(-2/5)=2/5，-48为负，15/4为正，0既非正非负，-(+5)=-5，-|-3000|=-3000。；负数共有-48、-5、-3000三个，对应选项B。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "误把-(-a)判为负数；将零计入负数；把-|-3000|误判为正数。",
+              "knowledge_tags": [
+                "正数、负数的意义",
+                "化简多重符号",
+                "化简绝对值"
+              ],
+              "type_tags": [
+                "化简带符号数并统计负数个数"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:03244a1b87ef94169370bd8b:4894c84f0365",
+    "source_sha256": "74f6f68b9a6d38bb847a112f6ea12df98dccdecffbc5eade88f8c4e40d0326ad",
+    "question": {
+      "id": "bank:cjeval:03244a1b87ef94169370bd8b:4894c84f0365",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 以下哪种说法是正确的（   ）选项: A. 直线$AB$可以延长到点$C$ B. 射线是直线的一部分 C. 画一条长度为2厘米的射线 D. 比较射线、线段和直线的长度，直线最长",
+      "options": [
+        {
+          "key": "A",
+          "text": "直线$AB$可以延长到点$C$"
+        },
+        {
+          "key": "B",
+          "text": "射线是直线的一部分"
+        },
+        {
+          "key": "C",
+          "text": "画一条长度为2厘米的射线"
+        },
+        {
+          "key": "D",
+          "text": "比较射线、线段和直线的长度，直线最长"
+        }
+      ],
+      "answer": "B",
+      "kind": "single_choice",
+      "steps": [
+        "本题考查的是直线、射线和线段的定义及其性质。A选项：直线是无限延伸的，不能只延长到某一点，故A选项错误。B选项：射线从一个起点开始，向一个方向无限延伸，是直线的一部分，故B选项正确。C选项：射线具有无限长度，不能画出固定长度，故C选项错误。D选项：射线和直线都是无限延伸的，无法比较长短，故D选项错误。综上所述，只有B选项正确，因此答案选B。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "较易",
+      "knowledge_tags": [
+        "直线、射线、线段的联系与区别"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "较易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "03244a1b87ef94169370bd8b",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/test/test_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容: 以下哪种说法是正确的（   ）选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 直线、射线、线段的联系与区别"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "直线、射线、线段的联系与区别",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "直线射线线段的端点与延伸",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "直线、射线",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "直线射线线段"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "102d232eb92269ff23af1e82d6fac5c173cc91dccde9c534411e36351f9af97a",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:9dc0e0f67617ddc201fd5d86",
+          "kind": "knowledge",
+          "label": "直线、射线、线段的联系与区别",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:6ab54e956bd8427d9b554f90",
+          "kind": "type",
+          "label": "单选题 · 直线、射线、线段的联系与区别",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:1113856481a6c481cfc8e21c",
+          "kind": "type",
+          "label": "直线、射线、线段的联系与区别",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:18681dbcc6e781b707eb3fee",
+          "kind": "type",
+          "label": "直线射线线段的端点与延伸",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "直线、射线、线段的联系与区别"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "直线、射线、线段的定义"
+        ]
+      },
+      "fine_types": [
+        "判断直线射线线段的基本性质"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 以下哪种说法是正确的（   ）选项: A. 直线$AB$可以延长到点$C$ B. 射线是直线的一部分 C. 画一条长度为2厘米的射线 D. 比较射线、线段和直线的长度，直线最长",
+          "reference_answer": "B",
+          "solution_steps": [
+            "直线无端点、两端可无限延伸；射线有一个端点，长度不能以有限长度度量。",
+            "因此“射线是直线的一部分”正确，选B。"
+          ],
+          "knowledge_tags": [
+            "直线、射线、线段的联系与区别"
+          ],
+          "type_tags": [
+            "判断直线射线线段的基本性质"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：直线无端点、两端可无限延伸；射线有一个端点，长度不能以有限长度度量。；因此“射线是直线的一部分”正确，选B。",
+              "points": null,
+              "evidence_required": "关键依据：直线无端点、两端可无限延伸；射线有一个端点，长度不能以有限长度度量。；因此“射线是直线的一部分”正确，选B。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把射线当成可度量线段；认为直线可以比较长度；把延长线和线段端点混淆。",
+              "knowledge_tags": [
+                "直线、射线、线段的联系与区别"
+              ],
+              "type_tags": [
+                "判断直线射线线段的基本性质"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0382c6aecbe35f7cd0f418dc:5c0fdb5988f4",
+    "source_sha256": "24905632a5ca406248211deb8c233ceed5b023327d8da7e0d7186d9e6cef9ed8",
+    "question": {
+      "id": "bank:cjeval:0382c6aecbe35f7cd0f418dc:5c0fdb5988f4",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 如果将收入100元记作+100元，那么-30元表示（   ）。选项: A. 支出30元 B. 支出70元 C. 收入70元 D. 收入30元",
+      "options": [
+        {
+          "key": "A",
+          "text": "支出30元"
+        },
+        {
+          "key": "B",
+          "text": "支出70元"
+        },
+        {
+          "key": "C",
+          "text": "收入70元"
+        },
+        {
+          "key": "D",
+          "text": "收入30元"
+        }
+      ],
+      "answer": "A",
+      "kind": "single_choice",
+      "steps": [
+        "这道题目考查了正数和负数在实际生活中的应用。题目中提到收入100元记作+100元，表示增加的金额，因此，-30元表示的是相反的情况，即支出30元。选项B、C、D与-30元的含义不符，而选项A支出30元正确反映了-30元的含义。综上所述，正确答案是A。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "正负数在实际生活中的应用"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "容易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "0382c6aecbe35f7cd0f418dc",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容: 如果将收入100元记作+100元，那么-30元表示（   ）。选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 正负数在实际生活中的应用"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正负数在实际",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "8ebead39193114b5b517c7708ef2a4e1a218d2951040adca7601281702066655",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:57405d69ee24aff25210a584",
+          "kind": "knowledge",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:2e5b6548eb55370f64be2307",
+          "kind": "type",
+          "label": "单选题 · 正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:6f3c09f5b02bf66c763a1538",
+          "kind": "type",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "正负数在实际生活中的应用"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "相反意义的量"
+        ]
+      },
+      "fine_types": [
+        "将收入支出转写为正负数"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "A"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 如果将收入100元记作+100元，那么-30元表示（   ）。选项: A. 支出30元 B. 支出70元 C. 收入70元 D. 收入30元",
+          "reference_answer": "A",
+          "solution_steps": [
+            "收入约定为正，支出与收入方向相反取负；-30元表示支出30元，选A。"
+          ],
+          "knowledge_tags": [
+            "正负数在实际生活中的应用"
+          ],
+          "type_tags": [
+            "将收入支出转写为正负数"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：收入约定为正，支出与收入方向相反取负；-30元表示支出30元，选A。",
+              "points": null,
+              "evidence_required": "关键依据：收入约定为正，支出与收入方向相反取负；-30元表示支出30元，选A。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把负号解释为收入减少到70元；混淆金额的符号与金额大小。",
+              "knowledge_tags": [
+                "正负数在实际生活中的应用"
+              ],
+              "type_tags": [
+                "将收入支出转写为正负数"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:03a94f28ca4779ddbafa5ac4:e300dbbecf4c",
+    "source_sha256": "17be994e19c3d9b18a7b22adb0c02f1ccb2498242732fc9864c6f55eccd3a240",
+    "question": {
+      "id": "bank:cjeval:03a94f28ca4779ddbafa5ac4:e300dbbecf4c",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 在$-4.5、{{\\left ( \\frac {1}{2} \\right )}^{2}}、-{{3}^{2}}、-\\left | 3 \\right |、-\\left ( -3 \\right )、{{\\left ( -6 \\right )}^{2}}$中，负数共有（    ）选项: A. 3个 B. 4个 C. 5个 D. 6个",
+      "options": [
+        {
+          "key": "A",
+          "text": "3个"
+        },
+        {
+          "key": "B",
+          "text": "4个"
+        },
+        {
+          "key": "C",
+          "text": "5个"
+        },
+        {
+          "key": "D",
+          "text": "6个"
+        }
+      ],
+      "answer": "B",
+      "kind": "single_choice",
+      "steps": [
+        "此题考查对正负数、绝对值和乘方的理解。我们需要化简每个数：${{\\left ( \\frac {1}{2} \\right )}^{2}}=\\frac {1}{4}$（正数），$-{{3}^{2}}=-9$（负数），$-4.5$（负数），$-\\left | 3 \\right |=-3$（负数），$-\\left ( -3 \\right )=3$（正数），${{\\left ( -6 \\right )}^{2}}=36$（正数）。根据负数的定义，负数包括$-{{3}^{2}}、-4.5、-\\left | 3 \\right |$，共有三个。因此选项B正确。解题关键在于掌握有理数的分类和运算方法，这是中考常见题型。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "较易",
+      "knowledge_tags": [
+        "正数、负数的意义",
+        "绝对值的意义",
+        "有理数的乘方运算"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "较易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "03a94f28ca4779ddbafa5ac4",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容: 在$-4.5、{{\\left ( \\frac {1}{2} \\right )}^{2}}、-{{3}^{2}}、-\\left | 3 \\right |、-\\left ( -3 \\right )、{{\\left ( -6 \\right )}^{2}}$中，负数共有（    ）选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 正数、负数的意义",
+        "单选题 · 绝对值的意义",
+        "单选题 · 有理数的乘方运算"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正数、负数的意义",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "绝对值的意义",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "有理数的乘方运算",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正数、负数的意义",
+          "needs_review": true
+        },
+        {
+          "label": "绝对值的意义与条件求值",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "绝对值",
+          "needs_review": true
+        },
+        {
+          "label": "负数乘方的符号与作用范围",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "有理数的乘方",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数",
+        "绝对值",
+        "有理数的乘方"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "e3930851953decec42a309c80d527ca6126f3d878de63e98dc146d81f351b3d2",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:f3114691dc1c4b764d43849f",
+          "kind": "knowledge",
+          "label": "正数、负数的意义",
+          "origin": "source"
+        },
+        {
+          "id": "tag:361a76b71044eb8bd6bfbf4f",
+          "kind": "knowledge",
+          "label": "绝对值的意义",
+          "origin": "source"
+        },
+        {
+          "id": "tag:dd9c6a268e133c029236f188",
+          "kind": "knowledge",
+          "label": "有理数的乘方运算",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:bc4808bc4ae6d5395b83af9a",
+          "kind": "type",
+          "label": "单选题 · 正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:4f31f622a4a957bc01fe3957",
+          "kind": "type",
+          "label": "单选题 · 绝对值的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:341d3568bec86ed2363d8e38",
+          "kind": "type",
+          "label": "单选题 · 有理数的乘方运算",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c2c629a1af444072ecd2764e",
+          "kind": "type",
+          "label": "正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:4fd45e8c53691b42a053cdc5",
+          "kind": "type",
+          "label": "绝对值的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:38bf56b464345972082126b0",
+          "kind": "type",
+          "label": "有理数的乘方运算",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        },
+        {
+          "id": "tag:1fb1a1da5df035b5c07df2b9",
+          "kind": "type",
+          "label": "绝对值的意义与条件求值",
+          "origin": "heuristic"
+        },
+        {
+          "id": "tag:46fffe16589b381febe470dc",
+          "kind": "type",
+          "label": "负数乘方的符号与作用范围",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "正数、负数的意义",
+          "绝对值的意义",
+          "有理数的乘方运算"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "有理数乘方",
+          "绝对值",
+          "负号优先级"
+        ]
+      },
+      "fine_types": [
+        "逐项化简乘方绝对值后判号"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 在$-4.5、{{\\left ( \\frac {1}{2} \\right )}^{2}}、-{{3}^{2}}、-\\left | 3 \\right |、-\\left ( -3 \\right )、{{\\left ( -6 \\right )}^{2}}$中，负数共有（    ）选项: A. 3个 B. 4个 C. 5个 D. 6个",
+          "reference_answer": "B",
+          "solution_steps": [
+            "依运算优先级逐项求值：-4.5为负，(1/2)^2为正，-3^2=-9为负，-|3|=-3为负，-(-3)=3为正，(-6)^2为正。",
+            "负数共有3个，选B。"
+          ],
+          "knowledge_tags": [
+            "正数、负数的意义",
+            "绝对值的意义",
+            "有理数的乘方运算"
+          ],
+          "type_tags": [
+            "逐项化简乘方绝对值后判号"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：依运算优先级逐项求值：-4.5为负，(1/2)^2为正，-3^2=-9为负，-|3|=-3为负，-(-3)=3为正，(-6)^2为正。；负数共有3个，选B。",
+              "points": null,
+              "evidence_required": "关键依据：依运算优先级逐项求值：-4.5为负，(1/2)^2为正，-3^2=-9为负，-|3|=-3为负，-(-3)=3为正，(-6)^2为正。；负数共有3个，选B。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把-3^2误算成9；把负号放进乘方底数；忽略绝对值后的外层负号。",
+              "knowledge_tags": [
+                "正数、负数的意义",
+                "绝对值的意义",
+                "有理数的乘方运算"
+              ],
+              "type_tags": [
+                "逐项化简乘方绝对值后判号"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:03d60ce1b859dd8686d30598:61f3d929a221",
+    "source_sha256": "4028ff231c03eeb1b0cd4a671bc42054b630df17b797a508baf8725172471c22",
+    "question": {
+      "id": "bank:cjeval:03d60ce1b859dd8686d30598:61f3d929a221",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 规定每天归还图书为正，借出图书为负，例如$\\left( -3,+1 \\right)$表示借出$3$本，归还$1$本。阅览室某一书架上原有图书$20$本，经过两天借阅情况如下：$\\left( -4,+2 \\right)$，$\\left( -2,+1 \\right)$，则该书架上现有图书__。",
+      "options": [],
+      "answer": "17本",
+      "kind": "reference",
+      "steps": [
+        "首先分析借出和归还图书的情况：第一天借出4本，归还2本，相当于书架图书减少了4-2=2本。第二天借出2本，归还1本，书架图书减少了2-1=1本。现在书架上图书的数量可以通过原有的图书数加上两天的借阅变化计算得出：20-2-1=17本。综上，该书架上现有图书17本。本题考查了正数与负数的应用和有理数的加减运算，重点在于理解借出和归还对图书总量变化的影响，并能对这一变化进行数学计算。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "较易",
+      "knowledge_tags": [
+        "正负数在实际生活中的应用",
+        "加减法统一加法运算"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "较易"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "03d60ce1b859dd8686d30598",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 规定每天归还图书为正，借出图书为负，例如$\\left( -3,+1 \\right)$表示借出$3$本，归还$1$本。阅览室某一书架上原有图书$20$本，经过两天借阅情况如下：$\\left( -4,+2 \\right)$，$\\left( -2,+1 \\right)$，则该书架上现有图书__。",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 正负数在实际生活中的应用",
+        "填空题 · 加减法统一加法运算"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "加减法统一加法运算",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正负数在实际",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "6b810c570a5bd5904e0ba9b93820d15f2eee4d689b11e0573d72b60b8edb74b8",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:57405d69ee24aff25210a584",
+          "kind": "knowledge",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:bc7c2d6a936e2ef6aed0857e",
+          "kind": "knowledge",
+          "label": "加减法统一加法运算",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:9abdd105f42b1a9320f2d8f6",
+          "kind": "type",
+          "label": "填空题 · 正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:318a6ed21c120f2b46e69d47",
+          "kind": "type",
+          "label": "填空题 · 加减法统一加法运算",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:6f3c09f5b02bf66c763a1538",
+          "kind": "type",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:dc1d2c7ad20207bfffee3b54",
+          "kind": "type",
+          "label": "加减法统一加法运算",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "正负数在实际生活中的应用",
+          "加减法统一加法运算"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "正负数表示相反意义的量",
+          "有理数加减"
+        ]
+      },
+      "fine_types": [
+        "按借还方向累计库存变化"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "17本"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 规定每天归还图书为正，借出图书为负，例如$\\left( -3,+1 \\right)$表示借出$3$本，归还$1$本。阅览室某一书架上原有图书$20$本，经过两天借阅情况如下：$\\left( -4,+2 \\right)$，$\\left( -2,+1 \\right)$，则该书架上现有图书__。",
+          "reference_answer": "17本",
+          "solution_steps": [
+            "第一天净变化为-4+2=-2本，第二天净变化为-2+1=-1本。",
+            "现存量为20+(-2)+(-1)=17本。"
+          ],
+          "knowledge_tags": [
+            "正负数在实际生活中的应用",
+            "加减法统一加法运算"
+          ],
+          "type_tags": [
+            "按借还方向累计库存变化"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：第一天净变化为-4+2=-2本，第二天净变化为-2+1=-1本。；现存量为20+(-2)+(-1)=17本。",
+              "points": null,
+              "evidence_required": "关键依据：第一天净变化为-4+2=-2本，第二天净变化为-2+1=-1本。；现存量为20+(-2)+(-1)=17本。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把借出、归还的符号颠倒；忽略初始20本。",
+              "knowledge_tags": [
+                "正负数在实际生活中的应用",
+                "加减法统一加法运算"
+              ],
+              "type_tags": [
+                "按借还方向累计库存变化"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:041cff91c4aef6d0e82356d8:3b49e9118a06",
+    "source_sha256": "9454c32c4773529f48c0605564fb7e77b5852b6165d3090b6bca1c7ecfa889ef",
+    "question": {
+      "id": "bank:cjeval:041cff91c4aef6d0e82356d8:3b49e9118a06",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 以下选项中，属于负数的是（    ）．选项: A. $\\frac{1}{3}$ B. -3 C. |-3| D. -(-3)",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "key": "B",
+          "text": "-3"
+        },
+        {
+          "key": "C",
+          "text": "|-3|"
+        },
+        {
+          "key": "D",
+          "text": "-(-3)"
+        }
+      ],
+      "answer": "B",
+      "kind": "single_choice",
+      "steps": [
+        "本题考察正负数的概念。分析选项：A项，$\\frac{1}{3}$是正数，排除；B项，-3是负数，符合题意；C项，绝对值符号表示数的非负值，因此|-3|等于3，是正数，排除；D项，根据负负得正的规则，-(-3)等于3，是正数，排除。综上所述，正确答案为B。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "正数、负数的意义",
+        "化简多重符号",
+        "化简绝对值"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "容易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "041cff91c4aef6d0e82356d8",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容: 以下选项中，属于负数的是（    ）．选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 正数、负数的意义",
+        "单选题 · 化简多重符号",
+        "单选题 · 化简绝对值"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正数、负数的意义",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "化简多重符号",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "化简绝对值",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正数、负数的意义",
+          "needs_review": true
+        },
+        {
+          "label": "绝对值的意义与条件求值",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "绝对值",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数",
+        "绝对值"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "7059836a59b7334729c13cebd014cf382414e1c2136df95057ce15005aa7521f",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:f3114691dc1c4b764d43849f",
+          "kind": "knowledge",
+          "label": "正数、负数的意义",
+          "origin": "source"
+        },
+        {
+          "id": "tag:2ccdb8fccae402c1e564553a",
+          "kind": "knowledge",
+          "label": "化简多重符号",
+          "origin": "source"
+        },
+        {
+          "id": "tag:0cbf8dfcd73eceb3e23b82fd",
+          "kind": "knowledge",
+          "label": "化简绝对值",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:bc4808bc4ae6d5395b83af9a",
+          "kind": "type",
+          "label": "单选题 · 正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:331ee70c19cca3822cf7e319",
+          "kind": "type",
+          "label": "单选题 · 化简多重符号",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:999484c04718607da0daf152",
+          "kind": "type",
+          "label": "单选题 · 化简绝对值",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c2c629a1af444072ecd2764e",
+          "kind": "type",
+          "label": "正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:561edf61c70e8d999304c1e5",
+          "kind": "type",
+          "label": "化简多重符号",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:9f8adee2bb76baedaa5edf37",
+          "kind": "type",
+          "label": "化简绝对值",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        },
+        {
+          "id": "tag:1fb1a1da5df035b5c07df2b9",
+          "kind": "type",
+          "label": "绝对值的意义与条件求值",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "正数、负数的意义",
+          "化简多重符号",
+          "化简绝对值"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "绝对值",
+          "相反数"
+        ]
+      },
+      "fine_types": [
+        "化简选项表达式辨认负数"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 以下选项中，属于负数的是（    ）．选项: A. $\\frac{1}{3}$ B. -3 C. |-3| D. -(-3)",
+          "reference_answer": "B",
+          "solution_steps": [
+            "A为正分数；B=-3为负；C=|-3|=3；D=-(-3)=3。",
+            "只有B为负数，选B。"
+          ],
+          "knowledge_tags": [
+            "正数、负数的意义",
+            "化简多重符号",
+            "化简绝对值"
+          ],
+          "type_tags": [
+            "化简选项表达式辨认负数"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：A为正分数；B=-3为负；C=|-3|=3；D=-(-3)=3。；只有B为负数，选B。",
+              "points": null,
+              "evidence_required": "关键依据：A为正分数；B=-3为负；C=|-3|=3；D=-(-3)=3。；只有B为负数，选B。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "忽略绝对值非负；把双重负号仍视为负。",
+              "knowledge_tags": [
+                "正数、负数的意义",
+                "化简多重符号",
+                "化简绝对值"
+              ],
+              "type_tags": [
+                "化简选项表达式辨认负数"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0542dc4975ef022960ec5066:ba525fbe926f",
+    "source_sha256": "d4cbbb1bbf33d15adb771aa015328a69ec6ec969507c48dea834fae0e2ec688c",
+    "question": {
+      "id": "bank:cjeval:0542dc4975ef022960ec5066:ba525fbe926f",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 如果数轴上的点C表示的数是$-4$，那么与它相距3个单位的点D表示的数是（   ）选项: A. $\\pm 4$ B. $-1$或$-7$ C. 6 D. $-6$或1",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\pm 4$"
+        },
+        {
+          "key": "B",
+          "text": "$-1$或$-7$"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "$-6$或1"
+        }
+      ],
+      "answer": "B",
+      "kind": "single_choice",
+      "steps": [
+        "这道题考察了数轴上数的位置及相对关系。首先，理解数轴上点之间距离的计算方法。根据题意，点C表示的数是$-4$。当点D在C点左侧时，点D表示的数应是$-4$减去3个单位，即$-4-3=-7$；当点D在C点右侧时，点D表示的数应是$-4$加上3个单位，即$-4+3=-1$。因此，与点C相距3个单位的点D可以表示的数有两个可能，即$-7$或$-1$。综上，正确答案是B选项。注意，解题的关键是分两种情况讨论数轴上点的位置，并应用加减法计算相应的数值。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "一般",
+      "knowledge_tags": [
+        "数轴上两点之间的距离",
+        "有理数的减法运算"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "一般"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "0542dc4975ef022960ec5066",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容: 如果数轴上的点C表示的数是$-4$，那么与它相距3个单位的点D表示的数是（   ）选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 数轴上两点之间的距离",
+        "单选题 · 有理数的减法运算"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "数轴上两点之间的距离",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "有理数的减法运算",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "数轴两点距离与绝对值建模",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "数轴上两点之间的距离",
+          "needs_review": true
+        },
+        {
+          "label": "有理数加减的符号与运算律",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "有理数的减法",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "数轴",
+        "有理数加减"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "fa9d978441a412f1ee05fd661822dbcb9c721f81c879275cded1b6c307336bca",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:6ad31cc857c008c52e878da2",
+          "kind": "knowledge",
+          "label": "数轴上两点之间的距离",
+          "origin": "source"
+        },
+        {
+          "id": "tag:047e2f2261d9a730ff84f827",
+          "kind": "knowledge",
+          "label": "有理数的减法运算",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:5ab47c811bee303d3c1e67b5",
+          "kind": "type",
+          "label": "单选题 · 数轴上两点之间的距离",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:ba0d6169129e718540b85cf5",
+          "kind": "type",
+          "label": "单选题 · 有理数的减法运算",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:edf93eb8a6c30d4a96226ed6",
+          "kind": "type",
+          "label": "数轴上两点之间的距离",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:a5cd0be0923fd8f0095df604",
+          "kind": "type",
+          "label": "有理数的减法运算",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c6fa97e111872ac00eeb4650",
+          "kind": "type",
+          "label": "数轴两点距离与绝对值建模",
+          "origin": "heuristic"
+        },
+        {
+          "id": "tag:52dbe590e010a93cde0c30d2",
+          "kind": "type",
+          "label": "有理数加减的符号与运算律",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "数轴上两点之间的距离",
+          "有理数的减法运算"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "数轴",
+          "绝对值表示两点距离"
+        ]
+      },
+      "fine_types": [
+        "用绝对值距离求数轴上的两个位置"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 如果数轴上的点C表示的数是$-4$，那么与它相距3个单位的点D表示的数是（   ）选项: A. $\\pm 4$ B. $-1$或$-7$ C. 6 D. $-6$或1",
+          "reference_answer": "B",
+          "solution_steps": [
+            "设D表示x，距-4三个单位满足|x-(-4)|=3。",
+            "解得x=-4±3，即-1或-7，选B。"
+          ],
+          "knowledge_tags": [
+            "数轴上两点之间的距离",
+            "有理数的减法运算"
+          ],
+          "type_tags": [
+            "用绝对值距离求数轴上的两个位置"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：设D表示x，距-4三个单位满足|x-(-4)|=3。；解得x=-4±3，即-1或-7，选B。",
+              "points": null,
+              "evidence_required": "关键依据：设D表示x，距-4三个单位满足|x-(-4)|=3。；解得x=-4±3，即-1或-7，选B。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "只向右移动；把距数轴点的距离误当成带符号差。",
+              "knowledge_tags": [
+                "数轴上两点之间的距离",
+                "有理数的减法运算"
+              ],
+              "type_tags": [
+                "用绝对值距离求数轴上的两个位置"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:05838ce2db916830e6d907dd:4d3e698fc956",
+    "source_sha256": "c698abedf6c9cfdb4910ac757310bc886197391b538afbf0cb7724ac32478119",
+    "question": {
+      "id": "bank:cjeval:05838ce2db916830e6d907dd:4d3e698fc956",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 岳麓山是一处著名的旅游景点。根据统计，2019年9月30日岳麓山的游客人数为2万人。十一黄金周期间，岳麓山7天内每天的游客人数变化如下表所示（正数表示比9月30日多的人数，负数表示比9月30日少的人数）：日期1日2日3日4日5日6日7日人数变化（万人）+0.5+0.7+0.8-0.4-0.6+0.2-0.1（1）请问7天内哪一天的游客人数最多，哪一天最少？两者相差多少人？（2）求这7天里岳麓山的总游客人数。",
+      "options": [],
+      "answer": "最多的是3日，最少的是5日，相差1.4万人；\n这7天岳麓山的总游客人数为15.1万人",
+      "kind": "reference",
+      "steps": [
+        "【分析】（1）通过比较表格中的游客人数变化，确定相对于9月30日游客人数最多和最少的日期，并计算它们之间的差异。（2）计算7天内游客人数变化的总和，并将其加到9月30日的基准人数上，乘以7天，得到十一黄金周期间岳麓山的总游客人数。\n【详解】（1）3日的游客人数变化为+0.8万人，5日的游客人数变化为-0.6万人，因此它们之间的差异是0.8-(-0.6)=1.4万人。（2）7天内游客人数变化的总和是0.5+0.7+0.8-0.4-0.6+0.2-0.1=1.1（万人）。9月30日的游客人数为2万人，因此7天的总游客人数为2×7+1.1=15.1（万人）。\n【点睛】本题考察了对统计数据的分析能力以及对正负数和有理数加减混合运算的掌握情况。解题的关键是准确理解题意并进行计算。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "一般",
+      "knowledge_tags": [
+        "正负数在实际生活中的应用",
+        "加法运算率在加减混合运算的应用"
+      ],
+      "type_tags": [
+        "解答题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "解答题",
+        "一般"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "05838ce2db916830e6d907dd",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 岳麓山是一处著名的旅游景点。根据统计，2019年9月30日岳麓山的游客人数为2万人。十一黄金周期间，岳麓山7天内每天的游客人数变化如下表所示（正数表示比9月30日多的人数，负数表示比9月30日少的人数）：日期1日2日3日4日5日6日7日人数变化（万人）+0.5+0.7+0.8-0.4-0.6+0.2-0.1（1）请问7天内哪一天的游客人数最多，哪一天最少？两者相差多少人？（2）求这7天里岳麓山的总游客人数。",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "解答题 · 正负数在实际生活中的应用",
+        "解答题 · 加法运算率在加减混合运算的应用"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "加法运算率在加减混合运算的应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正负数在实际",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "fe4cebef2c6d03c2c53b0175e2b0650564d7f12624a1ba673d68547fb5403c65",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:57405d69ee24aff25210a584",
+          "kind": "knowledge",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:1881cdc2e27adedcc493b96a",
+          "kind": "knowledge",
+          "label": "加法运算率在加减混合运算的应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:8b80ce45d75ff58e323fe54b",
+          "kind": "type",
+          "label": "解答题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:1155eba447fcd3fd43727516",
+          "kind": "type",
+          "label": "解答题 · 正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:b4141f3d8703699836bdc18b",
+          "kind": "type",
+          "label": "解答题 · 加法运算率在加减混合运算的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:6f3c09f5b02bf66c763a1538",
+          "kind": "type",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:132e697091915752e6148046",
+          "kind": "type",
+          "label": "加法运算率在加减混合运算的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "正负数在实际生活中的应用",
+          "加法运算率在加减混合运算的应用"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "有理数大小比较",
+          "有理数加减",
+          "基准量累计"
+        ]
+      },
+      "fine_types": [
+        "比较相对基准的最大最小变化",
+        "合并每日变化求周期总量"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [
+          "最多的是3日，最少的是5日，相差1.4万人；\n这7天岳麓山的总游客人数为15.1万人"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "请问7天内哪一天的游客人数最多，哪一天最少？两者相差多少人",
+          "reference_answer": "最多的是3日，最少的是5日，相差1.4万人；",
+          "solution_steps": [
+            "逐日比较变化量，最大为3日+0.8万人，最小为5日-0.6万人，差为1.4万人。"
+          ],
+          "knowledge_tags": [],
+          "type_tags": [
+            "比较最大最小游客变化并求差"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：逐日比较变化量，最大为3日+0.8万人，最小为5日-0.6万人，差为1.4万人。",
+              "points": null,
+              "evidence_required": "关键依据：逐日比较变化量，最大为3日+0.8万人，最小为5日-0.6万人，差为1.4万人。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "将相对9月30日的变化值直接当作游客总数；总量只加变化和而漏乘基准2万人×7天。",
+              "knowledge_tags": [],
+              "type_tags": [
+                "比较最大最小游客变化并求差"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "prompt": "求这7天里岳麓山的总游客人数",
+          "reference_answer": "这7天岳麓山的总游客人数为15.1万人",
+          "solution_steps": [
+            "七日变化量和为1.1万人；七天游客总量为2×7+1.1=15.1万人。"
+          ],
+          "knowledge_tags": [],
+          "type_tags": [
+            "按基准人数累计七日总量"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：七日变化量和为1.1万人；七天游客总量为2×7+1.1=15.1万人。",
+              "points": null,
+              "evidence_required": "关键依据：七日变化量和为1.1万人；七天游客总量为2×7+1.1=15.1万人。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "将相对9月30日的变化值直接当作游客总数；总量只加变化和而漏乘基准2万人×7天。",
+              "knowledge_tags": [],
+              "type_tags": [
+                "按基准人数累计七日总量"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:059af7adbb7fb23ba864b865:67204321c80d",
+    "source_sha256": "b5f8dfc73a69a407d6ca60baf475be14ddbe0bc396d8df63e5731e113dac64ca",
+    "question": {
+      "id": "bank:cjeval:059af7adbb7fb23ba864b865:67204321c80d",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 如果股票上涨100点被记录为+100点，那么股票下跌50点应该记录为<u>：</u>__．",
+      "options": [],
+      "answer": "-50点",
+      "kind": "reference",
+      "steps": [
+        "解析：\\n1. 股票价格的上涨通常用正数表示，因此+100点代表上涨100点。\\n2. 相反，股票价格的下跌用负数表示。\\n3. 因此，股票下跌50点应该记录为-50点。本题考查了对正负数意义的理解，特别是对股票市场中上下波动的符号表示法。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "较易",
+      "knowledge_tags": [
+        "相反意义的量"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "较易"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "059af7adbb7fb23ba864b865",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 如果股票上涨100点被记录为+100点，那么股票下跌50点应该记录为<u>：</u>__．",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 相反意义的量"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "相反意义的量",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "相反意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "e9db7fb465037b26a8ab1ed1376d695bcd87984518d4940bb20a0051482dbc61",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:6a3dde1d1ed2c13e432f36f1",
+          "kind": "knowledge",
+          "label": "相反意义的量",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:3b3531de7340c95778da7445",
+          "kind": "type",
+          "label": "填空题 · 相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:da9ebd18bb23742b8db3d816",
+          "kind": "type",
+          "label": "相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "相反意义的量"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "相反意义的量"
+        ]
+      },
+      "fine_types": [
+        "依据相反意义标注变化量"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "-50点"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 如果股票上涨100点被记录为+100点，那么股票下跌50点应该记录为<u>：</u>__．",
+          "reference_answer": "-50点",
+          "solution_steps": [
+            "上涨约定为正，则下跌取负号；下跌50点表示为-50点。"
+          ],
+          "knowledge_tags": [
+            "相反意义的量"
+          ],
+          "type_tags": [
+            "依据相反意义标注变化量"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：上涨约定为正，则下跌取负号；下跌50点表示为-50点。",
+              "points": null,
+              "evidence_required": "关键依据：上涨约定为正，则下跌取负号；下跌50点表示为-50点。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "只写50而漏负号；照抄上涨的正号。",
+              "knowledge_tags": [
+                "相反意义的量"
+              ],
+              "type_tags": [
+                "依据相反意义标注变化量"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:05cf8426a9450b9114c406fd:7c1805663d27",
+    "source_sha256": "7189ed29df149a50cd1ebc5cd7ea69f307a130ba5f7574a77af7f510c89a2556",
+    "question": {
+      "id": "bank:cjeval:05cf8426a9450b9114c406fd:7c1805663d27",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 如果将“获得80元”记作“+80元”，那么“花费30元”应记作（  ）选项: A. -30元 B. +30元 C. -110元 D. +50元",
+      "options": [
+        {
+          "key": "A",
+          "text": "-30元"
+        },
+        {
+          "key": "B",
+          "text": "+30元"
+        },
+        {
+          "key": "C",
+          "text": "-110元"
+        },
+        {
+          "key": "D",
+          "text": "+50元"
+        }
+      ],
+      "answer": "A",
+      "kind": "single_choice",
+      "steps": [
+        "此题考查负数在实际生活中的应用，利用负数来描述经济活动中的收支概念。在题目中，获得收入80元被记作“+80元”，显然收入是以正数表示；因此，花费30元应记作“-30元”，即用负数表示支出。选项B“+30元”错误，因为它表示增加的收入，而此处应表示支出；选项C“-110元”是计算错误，与题意不符；选项D“+50元”同样表示的是收入，且数值也是错误的。所以正确答案是A。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "正数、负数的意义"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "容易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "05cf8426a9450b9114c406fd",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容: 如果将“获得80元”记作“+80元”，那么“花费30元”应记作（  ）选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 正数、负数的意义"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正数、负数的意义",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正数、负数的意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "4c2733af139ec8aaf64bcd251c7f709808d0db542e34e579e40b9217ed8b5d62",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:f3114691dc1c4b764d43849f",
+          "kind": "knowledge",
+          "label": "正数、负数的意义",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:bc4808bc4ae6d5395b83af9a",
+          "kind": "type",
+          "label": "单选题 · 正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c2c629a1af444072ecd2764e",
+          "kind": "type",
+          "label": "正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "正数、负数的意义"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "相反意义的量"
+        ]
+      },
+      "fine_types": [
+        "依据相反意义确定支出数值"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "A"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 如果将“获得80元”记作“+80元”，那么“花费30元”应记作（  ）选项: A. -30元 B. +30元 C. -110元 D. +50元",
+          "reference_answer": "A",
+          "solution_steps": [
+            "获得为正，花费为相反意义，花费30元记为-30元，选A。"
+          ],
+          "knowledge_tags": [
+            "正数、负数的意义"
+          ],
+          "type_tags": [
+            "依据相反意义确定支出数值"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：获得为正，花费为相反意义，花费30元记为-30元，选A。",
+              "points": null,
+              "evidence_required": "关键依据：获得为正，花费为相反意义，花费30元记为-30元，选A。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把支出记为正；把30元与80元作差。",
+              "knowledge_tags": [
+                "正数、负数的意义"
+              ],
+              "type_tags": [
+                "依据相反意义确定支出数值"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:062e2b81959f1b95355dfbba:a601bbaac1f3",
+    "source_sha256": "9b41e1dd49c1c6f591fcfe52a3e2c31a2a1eab38f5f03ac8c36d890165bba8f1",
+    "question": {
+      "id": "bank:cjeval:062e2b81959f1b95355dfbba:a601bbaac1f3",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 如果某水库的水位高出正常水位5米，表示为+5米，那么当水位低于正常水位3米时，应该表示为 __ 。",
+      "options": [],
+      "answer": "﹣3m",
+      "kind": "reference",
+      "steps": [
+        "【分析】根据正数和负数的概念，用于表示相对于正常水位的高度变化情况。【详解】水位高于正常水位用正数表示，如+5米；同理，低于正常水位则用负数表示，因此记作−3米。因此，当水位低于正常水位3米时，应记为−3米。【考点】本题考查正负数在实际中的应用，熟练掌握正负数用于表示相反意义的量，并能准确理解正负符号在实际情境中的含义，是解题的关键。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "正数、负数的意义"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "容易"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "062e2b81959f1b95355dfbba",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 如果某水库的水位高出正常水位5米，表示为+5米，那么当水位低于正常水位3米时，应该表示为 __ 。",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 正数、负数的意义"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正数、负数的意义",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正数、负数的意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "57a74a45614485a954205919389d0a696c63c3aa300ed8efe1a9e5b951d50cdd",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:f3114691dc1c4b764d43849f",
+          "kind": "knowledge",
+          "label": "正数、负数的意义",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:c9323555a5d4ca8c781078f9",
+          "kind": "type",
+          "label": "填空题 · 正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c2c629a1af444072ecd2764e",
+          "kind": "type",
+          "label": "正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "正数、负数的意义"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "相反意义的量"
+        ]
+      },
+      "fine_types": [
+        "依据参照方向表示水位变化"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "﹣3m"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 如果某水库的水位高出正常水位5米，表示为+5米，那么当水位低于正常水位3米时，应该表示为 __ 。",
+          "reference_answer": "﹣3m",
+          "solution_steps": [
+            "高于正常水位约定为正，低于正常水位取负；低3米表示为-3米。"
+          ],
+          "knowledge_tags": [
+            "正数、负数的意义"
+          ],
+          "type_tags": [
+            "依据参照方向表示水位变化"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：高于正常水位约定为正，低于正常水位取负；低3米表示为-3米。",
+              "points": null,
+              "evidence_required": "关键依据：高于正常水位约定为正，低于正常水位取负；低3米表示为-3米。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "只写3而忽略方向符号。",
+              "knowledge_tags": [
+                "正数、负数的意义"
+              ],
+              "type_tags": [
+                "依据参照方向表示水位变化"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:065c44425ef058bd3e561e9e:5a7d41151bcd",
+    "source_sha256": "e702c55aa71e53558209c5efa1aa2f54e77c7b2093135facbf3d77b58b066186",
+    "question": {
+      "id": "bank:cjeval:065c44425ef058bd3e561e9e:5a7d41151bcd",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 假设“赚了200元”用+200元表示，那么“亏了500元”应表示为__。",
+      "options": [],
+      "answer": "-500元",
+      "kind": "reference",
+      "steps": [
+        "在代数系统中，正数代表盈利或者增加等正向的数量，而负数则用来表示亏损或减少等负向的数量。题目中说明盈利200元被记作+200元，因此，亏损500元应使用负数，表示为-500元。这反映了在数轴上正数和负数的相对位置和意义。为了便于理解，若一方用正数表示，则相反方向的量自然需要用负数表示。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "正负数在实际生活中的应用"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "容易"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "065c44425ef058bd3e561e9e",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 假设“赚了200元”用+200元表示，那么“亏了500元”应表示为__。",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 正负数在实际生活中的应用"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正负数在实际",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "91880ccb482f1fcda366f2e43405a71971b81d4a0463ed880476226ea6a59225",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:57405d69ee24aff25210a584",
+          "kind": "knowledge",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:9abdd105f42b1a9320f2d8f6",
+          "kind": "type",
+          "label": "填空题 · 正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:6f3c09f5b02bf66c763a1538",
+          "kind": "type",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "正负数在实际生活中的应用"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "相反意义的量"
+        ]
+      },
+      "fine_types": [
+        "将亏损表示为有向数"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "-500元"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 假设“赚了200元”用+200元表示，那么“亏了500元”应表示为__。",
+          "reference_answer": "-500元",
+          "solution_steps": [
+            "盈利为正，亏损为相反意义，亏损500元写作-500元。"
+          ],
+          "knowledge_tags": [
+            "正负数在实际生活中的应用"
+          ],
+          "type_tags": [
+            "将亏损表示为有向数"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：盈利为正，亏损为相反意义，亏损500元写作-500元。",
+              "points": null,
+              "evidence_required": "关键依据：盈利为正，亏损为相反意义，亏损500元写作-500元。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "将亏损金额写成正数；把净盈亏与亏损额混淆。",
+              "knowledge_tags": [
+                "正负数在实际生活中的应用"
+              ],
+              "type_tags": [
+                "将亏损表示为有向数"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:06774055d754a3820b941fec:0db65293ede8",
+    "source_sha256": "e38cf47a9cc33d2b870418a7adc97dd84111f4c57220000002a636745adc1cf6",
+    "question": {
+      "id": "bank:cjeval:06774055d754a3820b941fec:0db65293ede8",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 假设水位上升2米记作+2m，那么水位下降1米应表示为：__．",
+      "options": [],
+      "answer": "-1m",
+      "kind": "reference",
+      "steps": [
+        "当两个相对的量中，一个被设定为正数时，另一个就应用负数来表示。依据题意，水位上升2米记作正数+2m，相应地，水位下降应记作负数。因此，水位下降1米表示为-1m。这一概念帮助我们理解正负数的相对性，并准确表达相反意义的量。这是解决此类问题的关键。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "相反意义的量"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "容易"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "06774055d754a3820b941fec",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 假设水位上升2米记作+2m，那么水位下降1米应表示为：__．",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 相反意义的量"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "相反意义的量",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "相反意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "adb3734941120952b05cdb4bf48caffbce6241ea7f9f41d47a217fa27d76d9da",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:6a3dde1d1ed2c13e432f36f1",
+          "kind": "knowledge",
+          "label": "相反意义的量",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:3b3531de7340c95778da7445",
+          "kind": "type",
+          "label": "填空题 · 相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:da9ebd18bb23742b8db3d816",
+          "kind": "type",
+          "label": "相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "相反意义的量"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "相反意义的量"
+        ]
+      },
+      "fine_types": [
+        "将水位下降转成负变化量"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "-1m"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 假设水位上升2米记作+2m，那么水位下降1米应表示为：__．",
+          "reference_answer": "-1m",
+          "solution_steps": [
+            "水位上升取正；下降方向相反，下降1米记为-1米。"
+          ],
+          "knowledge_tags": [
+            "相反意义的量"
+          ],
+          "type_tags": [
+            "将水位下降转成负变化量"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：水位上升取正；下降方向相反，下降1米记为-1米。",
+              "points": null,
+              "evidence_required": "关键依据：水位上升取正；下降方向相反，下降1米记为-1米。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把下降记为正数；误将已知上升量代入。",
+              "knowledge_tags": [
+                "相反意义的量"
+              ],
+              "type_tags": [
+                "将水位下降转成负变化量"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:07035c4e6b52b17f5191111e:a0c7f668bfc5",
+    "source_sha256": "be9b285ad3f30ffbd73d3fc9799e40bc392c9eac19f01396bce1c7746894fef7",
+    "question": {
+      "id": "bank:cjeval:07035c4e6b52b17f5191111e:a0c7f668bfc5",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容：在大约两千年前，古代中国人已经开始使用负数。如果盈利200元记作$+200$元，那么损失75元应表示为（   ）选项: A. $-75$元 B. $-125$元 C. $+75$元 D. $+125$元",
+      "options": [
+        {
+          "key": "A",
+          "text": "$-75$元"
+        },
+        {
+          "key": "B",
+          "text": "$-125$元"
+        },
+        {
+          "key": "C",
+          "text": "$+75$元"
+        },
+        {
+          "key": "D",
+          "text": "$+125$元"
+        }
+      ],
+      "answer": "A",
+      "kind": "single_choice",
+      "steps": [
+        "这道题考察了正负数的概念及其记法。根据题意，盈利200元用+200元表示，那么对应的损失就应该用负数表示，即-75元。所以应选择A选项。其他选项表示的都是错误的理解：B选项-125元表示损失额比实际多了50元，C选项+75元表示的是盈利而不是损失，D选项+125元同样表示的是盈利。因此，正确的选择是A。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "相反意义的量",
+        "正负数在实际生活中的应用"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "容易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "07035c4e6b52b17f5191111e",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容：在大约两千年前，古代中国人已经开始使用负数。如果盈利200元记作$+200$元，那么损失75元应表示为（   ）选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 相反意义的量",
+        "单选题 · 正负数在实际生活中的应用"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "相反意义的量",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "相反意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "1dd8ee56f08e9f3351fd67adf2adc2026df04e9c0aa4fa80e4c0eb6a69603fde",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:6a3dde1d1ed2c13e432f36f1",
+          "kind": "knowledge",
+          "label": "相反意义的量",
+          "origin": "source"
+        },
+        {
+          "id": "tag:57405d69ee24aff25210a584",
+          "kind": "knowledge",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:137fba2ec4ba80d12c6e9ba7",
+          "kind": "type",
+          "label": "单选题 · 相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:2e5b6548eb55370f64be2307",
+          "kind": "type",
+          "label": "单选题 · 正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:da9ebd18bb23742b8db3d816",
+          "kind": "type",
+          "label": "相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:6f3c09f5b02bf66c763a1538",
+          "kind": "type",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "相反意义的量",
+          "正负数在实际生活中的应用"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "相反意义的量"
+        ]
+      },
+      "fine_types": [
+        "用相反意义判断损失数值"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "A"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容：在大约两千年前，古代中国人已经开始使用负数。如果盈利200元记作$+200$元，那么损失75元应表示为（   ）选项: A. $-75$元 B. $-125$元 C. $+75$元 D. $+125$元",
+          "reference_answer": "A",
+          "solution_steps": [
+            "盈利为正，则损失方向相反，损失75元记为-75元，选A。"
+          ],
+          "knowledge_tags": [
+            "相反意义的量",
+            "正负数在实际生活中的应用"
+          ],
+          "type_tags": [
+            "用相反意义判断损失数值"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：盈利为正，则损失方向相反，损失75元记为-75元，选A。",
+              "points": null,
+              "evidence_required": "关键依据：盈利为正，则损失方向相反，损失75元记为-75元，选A。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "将损失记为正；将差额误作答案。",
+              "knowledge_tags": [
+                "相反意义的量",
+                "正负数在实际生活中的应用"
+              ],
+              "type_tags": [
+                "用相反意义判断损失数值"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0718cd003f0c034b074ba259:fd7659b21142",
+    "source_sha256": "d3c30cd6d1d9d2663f38560007f78a4089d8e1856fb96148fca103fd0c0b8d0d",
+    "question": {
+      "id": "bank:cjeval:0718cd003f0c034b074ba259:fd7659b21142",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 某地的气温从常温上升${{7}^{{}^\\circ  }}C$用$+{{7}^{{}^\\circ  }}C$表示，那么$-{{4}^{{}^\\circ  }}C$代表（ ）选项: A. 上升${{4}^{{}^\\circ  }}C$ B. 下降${{4}^{{}^\\circ  }}C$ C. 下降${{3}^{{}^\\circ  }}C$ D. 上升${{3}^{{}^\\circ  }}C$",
+      "options": [
+        {
+          "key": "A",
+          "text": "上升${{4}^{{}^\\circ  }}C$"
+        },
+        {
+          "key": "B",
+          "text": "下降${{4}^{{}^\\circ  }}C$"
+        },
+        {
+          "key": "C",
+          "text": "下降${{3}^{{}^\\circ  }}C$"
+        },
+        {
+          "key": "D",
+          "text": "上升${{3}^{{}^\\circ  }}C$"
+        }
+      ],
+      "answer": "B",
+      "kind": "single_choice",
+      "steps": [
+        "此题旨在考查正负数的实际意义。根据题意，气温上升用正数表示，因此$+{{7}^{{}^\\circ  }}C$表示气温上升$7^\\circ C$。相应地，气温下降应用负数表示，因此$-{{4}^{{}^\\circ  }}C$表示气温下降$4^\\circ C$。A项表示上升${{4}^{{}^\\circ  }}C$与题干不符，排除；B项表示下降${{4}^{{}^\\circ  }}C$符合题意，保留；C项表示下降${{3}^{{}^\\circ  }}C$数值上不符合题意，排除；D项表示上升${{3}^{{}^\\circ  }}C$亦不符题意，排除。因此，正确答案为B。该题的核心在于理解正负数表示的方法，正数和负数分别代表相对的变化方向。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "正数、负数的意义"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "容易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "0718cd003f0c034b074ba259",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容: 某地的气温从常温上升${{7}^{{}^\\circ  }}C$用$+{{7}^{{}^\\circ  }}C$表示，那么$-{{4}^{{}^\\circ  }}C$代表（ ）选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 正数、负数的意义"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正数、负数的意义",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正数、负数的意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "d72c1171de6d8ab16ca95e82dc88c4ab5ac6be8d34d434505a49bdcb05b9eae5",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:f3114691dc1c4b764d43849f",
+          "kind": "knowledge",
+          "label": "正数、负数的意义",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:bc4808bc4ae6d5395b83af9a",
+          "kind": "type",
+          "label": "单选题 · 正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c2c629a1af444072ecd2764e",
+          "kind": "type",
+          "label": "正数、负数的意义",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "正数、负数的意义"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "正负数表示相反意义的量"
+        ]
+      },
+      "fine_types": [
+        "解释负温差的方向与大小"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 某地的气温从常温上升${{7}^{{}^\\circ  }}C$用$+{{7}^{{}^\\circ  }}C$表示，那么$-{{4}^{{}^\\circ  }}C$代表（ ）选项: A. 上升${{4}^{{}^\\circ  }}C$ B. 下降${{4}^{{}^\\circ  }}C$ C. 下降${{3}^{{}^\\circ  }}C$ D. 上升${{3}^{{}^\\circ  }}C$",
+          "reference_answer": "B",
+          "solution_steps": [
+            "上升记正，-4℃表示相反方向、变化量为4℃，即下降4℃，选B。"
+          ],
+          "knowledge_tags": [
+            "正数、负数的意义"
+          ],
+          "type_tags": [
+            "解释负温差的方向与大小"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：上升记正，-4℃表示相反方向、变化量为4℃，即下降4℃，选B。",
+              "points": null,
+              "evidence_required": "关键依据：上升记正，-4℃表示相反方向、变化量为4℃，即下降4℃，选B。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把负号看成温度为负4而非相对常温变化；误选下降3℃。",
+              "knowledge_tags": [
+                "正数、负数的意义"
+              ],
+              "type_tags": [
+                "解释负温差的方向与大小"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:077c053f2c70c6281289c01b:5bf7a0e32627",
+    "source_sha256": "4f495926231dd10f56e5b561d373e4b59568e8e001d2862407d044cea6e25b63",
+    "question": {
+      "id": "bank:cjeval:077c053f2c70c6281289c01b:5bf7a0e32627",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 如果水位上升3米记作+3米，那么水位下降4米应记作（    ）选项: A. +3米 B. -3米 C. +4米 D. -4米",
+      "options": [
+        {
+          "key": "A",
+          "text": "+3米"
+        },
+        {
+          "key": "B",
+          "text": "-3米"
+        },
+        {
+          "key": "C",
+          "text": "+4米"
+        },
+        {
+          "key": "D",
+          "text": "-4米"
+        }
+      ],
+      "answer": "D",
+      "kind": "single_choice",
+      "steps": [
+        "此题考查学生对正数和负数的理解及其应用。题干中，水位上升3米记为+3米，表明正数用于表示增加的量。因此，水位下降则应使用负数来表示。根据这一逻辑，水位下降4米应记作-4米。因此，正确答案是D。本题的关键在于理解正负号表示相反的量变化，即当一种变化被定义为正时，相反的变化则应定义为负。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "正负数在实际生活中的应用"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "容易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "077c053f2c70c6281289c01b",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容: 如果水位上升3米记作+3米，那么水位下降4米应记作（    ）选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 正负数在实际生活中的应用"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "正负数在实际",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "f06eb1a105d52c011fa8d929bf3926be1daa3db3d3b95acedc2be16feb85fdcb",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:57405d69ee24aff25210a584",
+          "kind": "knowledge",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:2e5b6548eb55370f64be2307",
+          "kind": "type",
+          "label": "单选题 · 正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:6f3c09f5b02bf66c763a1538",
+          "kind": "type",
+          "label": "正负数在实际生活中的应用",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "正负数在实际生活中的应用"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "相反意义的量"
+        ]
+      },
+      "fine_types": [
+        "将水位下降对应到负数选项"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "source_scale_uncalibrated；item_read复杂度：运算步骤与概念判别见人工阅读记录。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "册次/学期仅沿用来源字段；无来源值时保持unknown。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "D"
+        ],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "1",
+          "prompt": "题目内容: 如果水位上升3米记作+3米，那么水位下降4米应记作（    ）选项: A. +3米 B. -3米 C. +4米 D. -4米",
+          "reference_answer": "D",
+          "solution_steps": [
+            "上升记正，下降方向相反；下降4米记为-4米，选D。"
+          ],
+          "knowledge_tags": [
+            "正负数在实际生活中的应用"
+          ],
+          "type_tags": [
+            "将水位下降对应到负数选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence",
+              "description": "关键依据：上升记正，下降方向相反；下降4米记为-4米，选D。",
+              "points": null,
+              "evidence_required": "关键依据：上升记正，下降方向相反；下降4米记为-4米，选D。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "混淆数值4和题中已知上升3；只改方向不改数值。",
+              "knowledge_tags": [
+                "正负数在实际生活中的应用"
+              ],
+              "type_tags": [
+                "将水位下降对应到负数选项"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、源答案及解题步骤；已补充本题特定任务标签、答案推导和常见误区。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard2"
+      }
+    }
+  }
+]

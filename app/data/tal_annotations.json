@@ -1,0 +1,34 @@
+{
+  "annotation_model": "gpt-6-luna",
+  "annotation_model_note": "Luna-generated fallback labels for TAL records whose source knowledge routes are empty. The question hash must match the normalized source stem before a label is applied.",
+  "annotations": {
+    "25ceeec57a544c428b9670a3df11cc4f": {
+      "knowledge_tags": ["数论", "倍数与整除", "数的排列与计数"],
+      "type_tags": ["数的规律与计数"],
+      "origin": "luna",
+      "annotation_model": "gpt-6-luna",
+      "question_sha256": "66ce6cc20eec0e1ec692979337a752e83ab5ed0bc40ac2667df637735d855241"
+    },
+    "35a551685829403f98430deebff29b0c": {
+      "knowledge_tags": ["代数式变形", "分式求值", "因式分解与换元"],
+      "type_tags": ["代数式化简求值"],
+      "origin": "luna",
+      "annotation_model": "gpt-6-luna",
+      "question_sha256": "2eb08ed054f578114e74127db4bb8cf2d4bdfc54d3a82f5b4762a71c610d6f02"
+    },
+    "65b8740d9f904498af31da703c28285b": {
+      "knowledge_tags": ["二次函数", "一元二次方程根与系数关系", "三角形面积"],
+      "type_tags": ["二次函数综合应用"],
+      "origin": "luna",
+      "annotation_model": "gpt-6-luna",
+      "question_sha256": "901db0bdeccf4b7ed8788901f087c158ea9aadb9b56407a6030a481a6af1ca82"
+    },
+    "c6f8fe2aa9d14315ab1f838d92e35108": {
+      "knowledge_tags": ["行程问题", "相遇问题", "速度比与单位换算"],
+      "type_tags": ["相遇问题"],
+      "origin": "luna",
+      "annotation_model": "gpt-6-luna",
+      "question_sha256": "59c0732ec2be33cbafc1191804c80a8d90a000239a97107c8fe4cc1dc6bc33ab"
+    }
+  }
+}

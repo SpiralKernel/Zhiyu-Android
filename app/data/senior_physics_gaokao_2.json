@@ -1,0 +1,3594 @@
+{
+  "batch_id": "senior-20261015-physics-gaokao-2",
+  "source_manifest": [
+    {
+      "path": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+      "revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+      "sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa",
+      "license": "Apache-2.0",
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench"
+    },
+    {
+      "path": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+      "revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+      "sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed",
+      "license": "Apache-2.0",
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench"
+    }
+  ],
+  "items": [
+    {
+      "question_id": "bank:gaokao:e092a6277342b1f80819",
+      "source_sha256": "92172470f4db82a8deeb87d69ed537fc3173cdb73d94ffb88e2326bb77a51a8a",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:e092a6277342b1f80819",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "8. （6 分) 已知地球同步卫星离地面的高度约为地球半径的 6 倍. 若某行星的 平均密度为地球平均密度的一半, 它的同步卫星距其表面的高度是其半径的 2.5 倍, 则该行星的自转周期约为（ $)$\nA. 6 小时\nB. 12 小时\nC. 24 小时\nD. 36 小时",
+        "options": [
+          {
+            "key": "A",
+            "text": "6 小时"
+          },
+          {
+            "key": "B",
+            "text": "12 小时"
+          },
+          {
+            "key": "C",
+            "text": "24 小时"
+          },
+          {
+            "key": "D",
+            "text": "36 小时"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "steps": [
+          "解: 地球的同步卫星的周期为 $\\mathrm{T}_{1}=24$ 小时, 轨道半径为 $\\mathrm{r}_{1}=7 \\mathrm{R}_{1}$, 密度 $\\rho_{1}$\n\n某行星的同步卫星周期为 $T_{2}$, 轨道半径为 $r_{2}=3.5 R_{2}$, 密度 $\\rho_{2}$ 。\n\n根据牛顿第二定律和万有引力定律分别有:\n\n$\\frac{G_{m_{1}} \\times \\rho_{1} \\frac{4}{3} \\pi R_{1}^{3}}{r_{1}^{2}}=m_{1}\\left(\\frac{2 \\pi}{T_{1}}\\right)^{2} r_{1}$\n\n$\\frac{G m_{2} \\times \\rho_{2} \\frac{4}{3} \\pi R_{2}^{3}}{r_{2}^{2}}=m_{2}\\left(\\frac{2 \\pi}{T_{2}}\\right)^{2} r_{2}$\n\n两式化简解得: $\\mathrm{T}_{2}=\\frac{\\mathrm{T}_{1}}{2}=12$ 小时。\n\n故选: B。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2010:（全国卷ⅱ）:2",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "万有引力、同步卫星与平均密度"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由卫星圆轨道周期关系比较不同密度行星的同步周期"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "使用圆轨道周期关系和密度表达式比较同步周期，关键是把轨道半径写为距行星中心的距离。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-2及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "8. （6 分) 已知地球同步卫星离地面的高度约为地球半径的 6 倍. 若某行星的 平均密度为地球平均密度的一半, 它的同步卫星距其表面的高度是其半径的 2.5 倍, 则该行星的自转周期约为（ $)$\nA. 6 小时\nB. 12 小时\nC. 24 小时\nD. 36 小时",
+            "reference_answer": "B",
+            "solution_steps": [
+              "地球同步卫星轨道半径r₁=R₁+6R₁=7R₁，周期T₁=24h。另一行星r₂=R₂+2.5R₂=3.5R₂。",
+              "圆轨道有T²=4π²r³/(GM)，球体质量M=(4/3)πρR³，因此T²∝(r/R)³/ρ。",
+              "T₂²/T₁²=(3.5/7)³×(ρ₁/ρ₂)=(1/8)×2=1/4，故T₂=12h，选B。"
+            ],
+            "knowledge_tags": [
+              "万有引力、同步卫星与平均密度"
+            ],
+            "type_tags": [
+              "由卫星圆轨道周期关系比较不同密度行星的同步周期"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案B；地球同步卫星轨道半径r₁=R₁+6R₁=7R₁，周期T₁=24h。另一行星r₂=R₂+2.5R₂=3.5R₂。；圆轨道有T²=4π²r³/(GM)，球体质量M=(4/3)πρR³，因此T²∝(r/R)³/ρ。；T₂²/T₁²=(3.5/7)³×(ρ₁/ρ₂)=(1/8)×2=1/4，故T₂=12h，选B。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把卫星离地高度当作轨道半径；漏乘密度比。",
+                "knowledge_tags": [
+                  "万有引力、同步卫星与平均密度"
+                ],
+                "type_tags": [
+                  "由卫星圆轨道周期关系比较不同密度行星的同步周期"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "地球同步卫星轨道半径r₁=R₁+6R₁=7R₁，周期T₁=24h。另一行星r₂=R₂+2.5R₂=3.5R₂。",
+        "圆轨道有T²=4π²r³/(GM)，球体质量M=(4/3)πρR³，因此T²∝(r/R)³/ρ。",
+        "T₂²/T₁²=(3.5/7)³×(ρ₁/ρ₂)=(1/8)×2=1/4，故T₂=12h，选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "地球同步卫星轨道半径r₁=R₁+6R₁=7R₁，周期T₁=24h。另一行星r₂=R₂+2.5R₂=3.5R₂。 | 圆轨道有T²=4π²r³/(GM)，球体质量M=(4/3)πρR³，因此T²∝(r/R)³/ρ。 | T₂²/T₁²=(3.5/7)³×(ρ₁/ρ₂)=(1/8)×2=1/4，故T₂=12h，选B。"
+    },
+    {
+      "question_id": "bank:gaokao:c8899521eba1bdbfa68d",
+      "source_sha256": "25652bf24b0bc6d4f4d3b9fbb8110ee07f790b3130b82acac0d29a6b2d779b1f",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:c8899521eba1bdbfa68d",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "1. (3 分) 伽利略根据小球在斜面上运动的实验和理想实验, 提出了惯性的概 念, 从而奠定了牛顿力学的基础. 早期物理学家关于惯性有下列说法, 其中 正确的是（）\nA. 物体抵抗运动状态变化的性质是惯性\nB. 没有力作用, 物体只能处于静止状态\nC. 行星在圆周轨道上保持匀速率运动的性质是惯性\nD. 运动物体如果没有受到力的作用, 将继续以同一速度沿同一直线运动",
+        "options": [
+          {
+            "key": "A",
+            "text": "物体抵抗运动状态变化的性质是惯性"
+          },
+          {
+            "key": "B",
+            "text": "没有力作用, 物体只能处于静止状态"
+          },
+          {
+            "key": "C",
+            "text": "行星在圆周轨道上保持匀速率运动的性质是惯性"
+          },
+          {
+            "key": "D",
+            "text": "运动物体如果没有受到力的作用, 将继续以同一速度沿同一直线运动"
+          }
+        ],
+        "answer": "AD",
+        "kind": "multiple_choice",
+        "steps": [
+          "解: A、任何物体都有保持原来运动状态的性质, 叫着惯性, 所以物体 抵抗运动状态变化的性质是惯性, 故 $\\mathrm{A}$ 正确;\n\nB、没有力作用，物体可以做匀速直线运动，故 B 错误;\n\nC、惯性是保持原来运动状态的性质, 圆周运动速度是改变的, 故 C 错误;\n\nD、运动的物体在不受力时，将保持匀速直线运动，故 D 正确;\n\n故选：AD。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2012:（新课标）:8",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-1",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-1:u4:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "惯性与牛顿第一定律"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨析惯性定义及合外力为零时速度矢量保持不变"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "按惯性定义与牛顿第一定律逐项判断，不需要代数计算。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-1",
+          "goal_ids": [
+            "physics-senior-compulsory-1:u4:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-1及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A",
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "1. (3 分) 伽利略根据小球在斜面上运动的实验和理想实验, 提出了惯性的概 念, 从而奠定了牛顿力学的基础. 早期物理学家关于惯性有下列说法, 其中 正确的是（）\nA. 物体抵抗运动状态变化的性质是惯性\nB. 没有力作用, 物体只能处于静止状态\nC. 行星在圆周轨道上保持匀速率运动的性质是惯性\nD. 运动物体如果没有受到力的作用, 将继续以同一速度沿同一直线运动",
+            "reference_answer": "AD",
+            "solution_steps": [
+              "惯性是物体保持原有运动状态的性质，A正确。",
+              "合外力为零时物体可以静止，也可以沿直线匀速运动，B错误。",
+              "匀速率圆周运动速度方向持续变化，不能称为惯性保持，C错误。",
+              "不受力的运动物体保持原速度和方向，即匀速直线运动，D正确；选AD。"
+            ],
+            "knowledge_tags": [
+              "惯性与牛顿第一定律"
+            ],
+            "type_tags": [
+              "辨析惯性定义及合外力为零时速度矢量保持不变"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案AD；惯性是物体保持原有运动状态的性质，A正确。；合外力为零时物体可以静止，也可以沿直线匀速运动，B错误。；匀速率圆周运动速度方向持续变化，不能称为惯性保持，C错误。；不受力的运动物体保持原速度和方向，即匀速直线运动，D正确；选AD。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把没有合外力理解为只能静止。",
+                "knowledge_tags": [
+                  "惯性与牛顿第一定律"
+                ],
+                "type_tags": [
+                  "辨析惯性定义及合外力为零时速度矢量保持不变"
+                ]
+              },
+              {
+                "description": "把速率不变的圆周运动误当速度矢量不变。",
+                "knowledge_tags": [
+                  "惯性与牛顿第一定律"
+                ],
+                "type_tags": [
+                  "辨析惯性定义及合外力为零时速度矢量保持不变"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "惯性是物体保持原有运动状态的性质，A正确。",
+        "合外力为零时物体可以静止，也可以沿直线匀速运动，B错误。",
+        "匀速率圆周运动速度方向持续变化，不能称为惯性保持，C错误。",
+        "不受力的运动物体保持原速度和方向，即匀速直线运动，D正确；选AD。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "惯性是物体保持原有运动状态的性质，A正确。 | 合外力为零时物体可以静止，也可以沿直线匀速运动，B错误。 | 匀速率圆周运动速度方向持续变化，不能称为惯性保持，C错误。 | 不受力的运动物体保持原速度和方向，即匀速直线运动，D正确；选AD。"
+    },
+    {
+      "question_id": "bank:gaokao:5351ccc024729b06d162",
+      "source_sha256": "7e6ec2b5468c9795d45f772a65f7b7edc45a13fe6b97665eefa6b7a625c8fae4",
+      "decision": "pending",
+      "quarantine_original": true,
+      "question": {
+        "id": "bank:gaokao:5351ccc024729b06d162",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "8. (6 分) 公路急转弯处通常是交通事故多发地带. 某公路急转弯处是一圆弧, 当汽车行驶的速率为 $v_{c}$ 时, 汽车恰好没有向公路内外两侧滑动的趋势, 则在 该弯道处，（）\nA. 路面外侧高内侧低\nB. 车速只要低于 $v_{c}$ ， 车辆便会向内侧滑动\nC. 车速虽然高于 $v_{c}$, 但只要不超出某一高度限度, 车辆便不会向外侧滑动\nD. 当路面结冰时, 与末结冰时相比, $v_{c}$ 的值变小",
+        "options": [
+          {
+            "key": "A",
+            "text": "路面外侧高内侧低"
+          },
+          {
+            "key": "B",
+            "text": "车速只要低于 $v_{c}$ ， 车辆便会向内侧滑动"
+          },
+          {
+            "key": "C",
+            "text": "车速虽然高于 $v_{c}$, 但只要不超出某一高度限度, 车辆便不会向外侧滑动"
+          },
+          {
+            "key": "D",
+            "text": "当路面结冰时, 与末结冰时相比, $v_{c}$ 的值变小"
+          }
+        ],
+        "answer": "AC",
+        "kind": "multiple_choice",
+        "steps": [
+          "解： A、路面应建成外高内低, 此时重力和支持力的合力指向内侧, 可 以提供圆周运动向心力。故 $A$ 正确。\n\n$B$ 、车速低于 $v_{0}$, 所需的向心力减小, 此时摩擦力可以指向外侧, 合力依然提供 向心力，车辆不会向内侧滑动，故 B 错误;\n\nC、车速若高于 $v_{0}$, 所需的向心力增大, 此时摩擦力可以指向内侧, 增大提供的 力, 所以只要不超出某一最高限度, 车辆也不会向外侧滑动, 故 C 正确;\n\nD、当路面结冰时与末结冰时相比, 由于支持力和重力不变, 则 $\\mathrm{v}_{\\mathrm{c}}$ 的值不变。故 D 错误。\n\n故选: $\\mathrm{AC}$ 。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2013:（新课标ⅱ）:13",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u2:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "圆周运动与弯道摩擦"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨析倾斜弯道的重力支持力合力及非设计速度时轮胎摩擦趋势"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "需区别理想设计速度下的受力分解和偏离该速度时摩擦力对滑动趋势的约束。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u2:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-2及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A",
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "8. (6 分) 公路急转弯处通常是交通事故多发地带. 某公路急转弯处是一圆弧, 当汽车行驶的速率为 $v_{c}$ 时, 汽车恰好没有向公路内外两侧滑动的趋势, 则在 该弯道处，（）\nA. 路面外侧高内侧低\nB. 车速只要低于 $v_{c}$ ， 车辆便会向内侧滑动\nC. 车速虽然高于 $v_{c}$, 但只要不超出某一高度限度, 车辆便不会向外侧滑动\nD. 当路面结冰时, 与末结冰时相比, $v_{c}$ 的值变小",
+            "reference_answer": "AC",
+            "solution_steps": [
+              "在临界设计速度v_c下没有向内外滑动趋势，路面需外侧高、内侧低；重力与支持力的合力提供向心力，A正确。",
+              "低于v_c时车辆有向内侧滑动的趋势，但静摩擦力会阻止该趋势，题述‘便会向内侧滑动’过于绝对，B错误。",
+              "高于v_c时需要更大的向心力，轮胎静摩擦力朝弯道内侧，车辆对外侧路面/轮缘有挤压趋势，C正确。",
+              "低于v_c时趋势相反，不会挤压外轨，D错误；正确项A、C，对应题源答案AC。"
+            ],
+            "knowledge_tags": [
+              "圆周运动与弯道摩擦"
+            ],
+            "type_tags": [
+              "辨析倾斜弯道的重力支持力合力及非设计速度时轮胎摩擦趋势"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案AC；在临界设计速度v_c下没有向内外滑动趋势，路面需外侧高、内侧低；重力与支持力的合力提供向心力，A正确。；低于v_c时车辆有向内侧滑动的趋势，但静摩擦力会阻止该趋势，题述‘便会向内侧滑动’过于绝对，B错误。；高于v_c时需要更大的向心力，轮胎静摩擦力朝弯道内侧，车辆对外侧路面/轮缘有挤压趋势，C正确。；低于v_c时趋势相反，不会挤压外轨，D错误；正确项A、C，对应题源答案AC。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "混淆内外轨高度；忽略车速偏离设计值时静摩擦的约束作用。",
+                "knowledge_tags": [
+                  "圆周运动与弯道摩擦"
+                ],
+                "type_tags": [
+                  "辨析倾斜弯道的重力支持力合力及非设计速度时轮胎摩擦趋势"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "pending",
+          "issues": [
+            "原始选项C出现‘高度限度’，物理语义疑为‘速度限度’，但无法仅凭本地题源确认，选项含义影响作答。"
+          ],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "在临界设计速度v_c下没有向内外滑动趋势，路面需外侧高、内侧低；重力与支持力的合力提供向心力，A正确。",
+        "低于v_c时车辆有向内侧滑动的趋势，但静摩擦力会阻止该趋势，题述‘便会向内侧滑动’过于绝对，B错误。",
+        "高于v_c时需要更大的向心力，轮胎静摩擦力朝弯道内侧，车辆对外侧路面/轮缘有挤压趋势，C正确。",
+        "低于v_c时趋势相反，不会挤压外轨，D错误；正确项A、C，对应题源答案AC。"
+      ],
+      "source_conflicts": [
+        "选项C‘高度限度’疑似OCR错字；需回到清晰原件确认是否为‘速度限度’。"
+      ],
+      "remaining_issues": [
+        "选项C关键字疑似OCR错误，无法可靠确认正确选项集合。"
+      ],
+      "rationale": "题目其余内容可读，但选项C关键字损坏会改变物理含义，暂不判定通过。"
+    },
+    {
+      "question_id": "bank:gaokao:d259d37f48605cbdd237",
+      "source_sha256": "f853d1aab63c6eb82f498885c7587eb51f5e17961121b186431ff2cfe28309e2",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:d259d37f48605cbdd237",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "2. (6 分) 取水平地面为重力势能零点, 一物块从某一高度水平抛出, 在抛出 点其动能与重力势能恰好相等. 不计空气阻力, 该物块落地时的速度方向与 水平方向的夹角为 $(\\quad)$\nA. $\\frac{\\pi}{6}$\nB. $\\frac{\\pi}{4}$\nC. $\\frac{\\pi}{3}$\nD. $\\frac{5 \\pi}{12}$",
+        "options": [
+          {
+            "key": "A",
+            "text": "$\\frac{\\pi}{6}$"
+          },
+          {
+            "key": "B",
+            "text": "$\\frac{\\pi}{4}$"
+          },
+          {
+            "key": "C",
+            "text": "$\\frac{\\pi}{3}$"
+          },
+          {
+            "key": "D",
+            "text": "$\\frac{5 \\pi}{12}$"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "steps": [
+          "解: 设抛出时物体的初速度为 $v_{0}$, 高度为 $h$, 物块落地时的速度大小为 $v$, 方向与水平方向的夹角为 $\\alpha$. 根据机械能守恒定律得:\n\n$\\frac{1}{2} m v_{0}^{2}+m g h=\\frac{1}{2} m v^{2}$\n\n据题有: $\\frac{1}{2} m v_{0}^{2}=m g h$,\n\n联立解得: $v=\\sqrt{2} \\mathrm{v}_{0}$,\n\n则 $\\cos \\alpha=\\frac{\\mathrm{v}_{0}}{\\mathrm{v}}=\\frac{\\sqrt{2}}{2}$,\n\n得： $\\alpha=\\frac{\\pi}{4}$ 。\n\n故选: $\\mathrm{B}$ 。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2014:（新课标ⅱ）:16",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "平抛运动与机械能守恒"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由抛出点动能等于重力势能求落地速度方向"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "分解平抛运动并使用机械能守恒；题目已给出抛出点能量关系。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-2及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "2. (6 分) 取水平地面为重力势能零点, 一物块从某一高度水平抛出, 在抛出 点其动能与重力势能恰好相等. 不计空气阻力, 该物块落地时的速度方向与 水平方向的夹角为 $(\\quad)$\nA. $\\frac{\\pi}{6}$\nB. $\\frac{\\pi}{4}$\nC. $\\frac{\\pi}{3}$\nD. $\\frac{5 \\pi}{12}$",
+            "reference_answer": "B",
+            "solution_steps": [
+              "设抛出点水平速度为v₀、高度为h。题设½mv₀²=mgh。",
+              "机械能守恒给出落地速度v²=v₀²+2gh=2v₀²。",
+              "竖直速度分量满足v_y²=2gh=v₀²，水平分量仍为v₀，因此tanθ=v_y/v₀=1，θ=π/4，选B。"
+            ],
+            "knowledge_tags": [
+              "平抛运动与机械能守恒"
+            ],
+            "type_tags": [
+              "由抛出点动能等于重力势能求落地速度方向"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案B；设抛出点水平速度为v₀、高度为h。题设½mv₀²=mgh。；机械能守恒给出落地速度v²=v₀²+2gh=2v₀²。；竖直速度分量满足v_y²=2gh=v₀²，水平分量仍为v₀，因此tanθ=v_y/v₀=1，θ=π/4，选B。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "只使用抛体运动公式而漏掉题设动能势能条件。",
+                "knowledge_tags": [
+                  "平抛运动与机械能守恒"
+                ],
+                "type_tags": [
+                  "由抛出点动能等于重力势能求落地速度方向"
+                ]
+              },
+              {
+                "description": "误把落地速度方向当成位移方向。",
+                "knowledge_tags": [
+                  "平抛运动与机械能守恒"
+                ],
+                "type_tags": [
+                  "由抛出点动能等于重力势能求落地速度方向"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "设抛出点水平速度为v₀、高度为h。题设½mv₀²=mgh。",
+        "机械能守恒给出落地速度v²=v₀²+2gh=2v₀²。",
+        "竖直速度分量满足v_y²=2gh=v₀²，水平分量仍为v₀，因此tanθ=v_y/v₀=1，θ=π/4，选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "设抛出点水平速度为v₀、高度为h。题设½mv₀²=mgh。 | 机械能守恒给出落地速度v²=v₀²+2gh=2v₀²。 | 竖直速度分量满足v_y²=2gh=v₀²，水平分量仍为v₀，因此tanθ=v_y/v₀=1，θ=π/4，选B。"
+    },
+    {
+      "question_id": "bank:gaokao:3fee1cc256487c56b0f0",
+      "source_sha256": "4cf2f7c1737116fc30630fe1ff55466f3a4ce6dfb9c923fdb34600a587f72da5",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:3fee1cc256487c56b0f0",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "1. （6 分）两相邻匀强磁场区域的磁感应强度大小不同、方向平行。一速度方 向与磁感应强度方向垂直的带电粒子（不计重力，,从较强磁场区域进入到 较弱磁场区域后粒子的（）\nA. 轨道半径增大, 角速度增大\nB. 轨道半径增大, 角速度减小\nC. 轨道半径减小, 速度增大\nD. 轨道半径减小, 速度不变",
+        "options": [
+          {
+            "key": "A",
+            "text": "轨道半径增大, 角速度增大"
+          },
+          {
+            "key": "B",
+            "text": "轨道半径增大, 角速度减小"
+          },
+          {
+            "key": "C",
+            "text": "轨道半径减小, 速度增大"
+          },
+          {
+            "key": "D",
+            "text": "轨道半径减小, 速度不变"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "steps": [
+          "解: 带电粒子在匀强磁场中做匀速圆周运动,\n\n根据洛伦兹力提供向心力: $\\mathrm{qvB}=\\mathrm{m} \\frac{\\mathrm{v}^{2}}{\\mathrm{R}}$\n\n可得: $R=\\frac{\\Pi V}{q B}$\n\n从较强磁场区域进入到较弱磁场区域后， $B$ 减小，所以 $R$ 增大。\n\n线速度、角速度的关系为: $v=\\omega R$\n\n因为洛伦兹力不做功, 故线速度 $\\mathrm{v}$ 的大小不变, 半径 $\\mathrm{R}$ 增大, 所以角速度减小, 故 B 正确, ACD 错误。\n\n故选: B。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2015:（新课标ⅰ）:20",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "洛伦兹力与带电粒子圆周运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "比较带电粒子进入较弱磁场后的半径与角速度"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "由洛伦兹力与向心力关系分别比较半径、角速度，并确认磁力不改变速率。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-selective-2及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "1. （6 分）两相邻匀强磁场区域的磁感应强度大小不同、方向平行。一速度方 向与磁感应强度方向垂直的带电粒子（不计重力，,从较强磁场区域进入到 较弱磁场区域后粒子的（）\nA. 轨道半径增大, 角速度增大\nB. 轨道半径增大, 角速度减小\nC. 轨道半径减小, 速度增大\nD. 轨道半径减小, 速度不变",
+            "reference_answer": "B",
+            "solution_steps": [
+              "粒子速度垂直磁场，洛伦兹力提供向心力：qvB=mv²/r，所以r=mv/(|q|B)。",
+              "磁场减弱后粒子速率不变（洛伦兹力不做功），轨道半径增大。角速度ω=v/r=|q|B/m减小，选B。"
+            ],
+            "knowledge_tags": [
+              "洛伦兹力与带电粒子圆周运动"
+            ],
+            "type_tags": [
+              "比较带电粒子进入较弱磁场后的半径与角速度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案B；粒子速度垂直磁场，洛伦兹力提供向心力：qvB=mv²/r，所以r=mv/(|q|B)。；磁场减弱后粒子速率不变（洛伦兹力不做功），轨道半径增大。角速度ω=v/r=|q|B/m减小，选B。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "认为洛伦兹力会改变粒子速率。",
+                "knowledge_tags": [
+                  "洛伦兹力与带电粒子圆周运动"
+                ],
+                "type_tags": [
+                  "比较带电粒子进入较弱磁场后的半径与角速度"
+                ]
+              },
+              {
+                "description": "把轨道半径增大误判为角速度增大。",
+                "knowledge_tags": [
+                  "洛伦兹力与带电粒子圆周运动"
+                ],
+                "type_tags": [
+                  "比较带电粒子进入较弱磁场后的半径与角速度"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "粒子速度垂直磁场，洛伦兹力提供向心力：qvB=mv²/r，所以r=mv/(|q|B)。",
+        "磁场减弱后粒子速率不变（洛伦兹力不做功），轨道半径增大。角速度ω=v/r=|q|B/m减小，选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "粒子速度垂直磁场，洛伦兹力提供向心力：qvB=mv²/r，所以r=mv/(|q|B)。 | 磁场减弱后粒子速率不变（洛伦兹力不做功），轨道半径增大。角速度ω=v/r=|q|B/m减小，选B。"
+    },
+    {
+      "question_id": "bank:gaokao:3537719a08f3e5370cff",
+      "source_sha256": "39a60f997a91122bed4371d6ed04e59fa755819e33643d1aa35cedf7a375ac64",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:3537719a08f3e5370cff",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "1. (6 分) 一平行电容器两极板之间充满云母介质, 接在恒压直流电源上, 若 将云母介质移出, 则电容器（）\nA. 极板上的电荷量变大, 极板间的电场强度变大\nB. 极板上的电荷量变小，极板间的电场强度变大\nC. 极板上的电荷量变大，极板间的电场强度不变\nD. 极板上的电荷量变小, 极板间的电场强度不变",
+        "options": [
+          {
+            "key": "A",
+            "text": "极板上的电荷量变大, 极板间的电场强度变大"
+          },
+          {
+            "key": "B",
+            "text": "极板上的电荷量变小，极板间的电场强度变大"
+          },
+          {
+            "key": "C",
+            "text": "极板上的电荷量变大，极板间的电场强度不变"
+          },
+          {
+            "key": "D",
+            "text": "极板上的电荷量变小, 极板间的电场强度不变"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "steps": [
+          "解：电容器接在恒压直流电源上, 则电容器两端的电势差不变。\n\n将云母介质移出后, 介电常数减小, 根据电容的决定式 $C=\\frac{\\varepsilon S}{4 \\pi \\mathrm{kd}}$ 知, 介电常数 减小, 电容减小。\n\n由于电压不变, 根据 $\\mathrm{C}=\\frac{Q}{\\mathrm{U}}$ 可知, 电荷量 $\\mathrm{Q}$ 减小。\n\n由于电容器的电压不变, 板间的距离 $\\mathrm{d}$ 不变, 根据 $\\mathrm{E}=\\frac{\\mathrm{U}}{\\mathrm{d}}$ 可知, 极板间的电场强度 不变。\n\n所以 $A B C$ 错误, $D$ 正确;\n\n故选: D。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [
+          "电场"
+        ],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2016:（新课标ⅰ）:24",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u2:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电容器与介质"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "恒压直流连接下移出电介质对电荷量和场强的影响"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "需要依次用介质对电容的影响、恒压条件和板间场强关系判断。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u2:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-3及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "1. (6 分) 一平行电容器两极板之间充满云母介质, 接在恒压直流电源上, 若 将云母介质移出, 则电容器（）\nA. 极板上的电荷量变大, 极板间的电场强度变大\nB. 极板上的电荷量变小，极板间的电场强度变大\nC. 极板上的电荷量变大，极板间的电场强度不变\nD. 极板上的电荷量变小, 极板间的电场强度不变",
+            "reference_answer": "D",
+            "solution_steps": [
+              "电容器仍接恒压电源，极板电压U不变；移出云母使相对介电常数减小，C=εS/d减小。",
+              "Q=CU，故极板电荷量减小。板间距d与电压U不变，匀强场E=U/d不变，选D。"
+            ],
+            "knowledge_tags": [
+              "电容器与介质"
+            ],
+            "type_tags": [
+              "恒压直流连接下移出电介质对电荷量和场强的影响"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案D；电容器仍接恒压电源，极板电压U不变；移出云母使相对介电常数减小，C=εS/d减小。；Q=CU，故极板电荷量减小。板间距d与电压U不变，匀强场E=U/d不变，选D。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "移出介质后仍认为电容量不变。",
+                "knowledge_tags": [
+                  "电容器与介质"
+                ],
+                "type_tags": [
+                  "恒压直流连接下移出电介质对电荷量和场强的影响"
+                ]
+              },
+              {
+                "description": "忽略电源连接使电压保持不变。",
+                "knowledge_tags": [
+                  "电容器与介质"
+                ],
+                "type_tags": [
+                  "恒压直流连接下移出电介质对电荷量和场强的影响"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "电容器仍接恒压电源，极板电压U不变；移出云母使相对介电常数减小，C=εS/d减小。",
+        "Q=CU，故极板电荷量减小。板间距d与电压U不变，匀强场E=U/d不变，选D。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "电容器仍接恒压电源，极板电压U不变；移出云母使相对介电常数减小，C=εS/d减小。 | Q=CU，故极板电荷量减小。板间距d与电压U不变，匀强场E=U/d不变，选D。"
+    },
+    {
+      "question_id": "bank:gaokao:74ad5984db7aae1f1628",
+      "source_sha256": "b3bceed15c3cc973ea44485f692684d2ae6718c6688ce1a2e9413bc9b80a4489",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:74ad5984db7aae1f1628",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "2. (6 分) 关于静电场的等势面, 下列说法正确的是 $(\\quad)$\nA. 两个电势不同的等势面可能相交\nB. 电场线与等势面处处相互垂直 \nC. 同一等势面上各点电场强度一定相等\nD. 将一负的试探电荷从电势较高的等势面移至电势较低的等势面, 电场力做 正功",
+        "options": [
+          {
+            "key": "A",
+            "text": "两个电势不同的等势面可能相交"
+          },
+          {
+            "key": "B",
+            "text": "电场线与等势面处处相互垂直"
+          },
+          {
+            "key": "C",
+            "text": "同一等势面上各点电场强度一定相等"
+          },
+          {
+            "key": "D",
+            "text": "将一负的试探电荷从电势较高的等势面移至电势较低的等势面, 电场力做 正功"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "steps": [
+          "【解答】解: A、沿电场线的方向电势降低, 所以电势不同的等势面不可能相交。 故 $\\mathrm{A}$ 错误;\n\nB、根据电场线与等势面的关系可知, 电场线与等势面互相垂直，故 B 正确;\n\nC、电场强度的大小与电势的高低没有关系, 所以同一等势面上各点电场强度不 一定相等，故 C 错误;\n\nD、负电荷在电势高的位置的电势能小, 所以将一负的试探电荷从电势较高的等 势面移至电势较低的等势面, 电势能增大, 电场力做负功, 故 D 错误。\n\n故选: B。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [
+          "电场"
+        ],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2016:（新课标ⅲ）:28",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u2:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电势与等势面"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "利用电场线与等势面正交关系辨析等势面性质"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "直接使用静电场中电势变化和等势面的定义关系。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u2:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-3及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "2. (6 分) 关于静电场的等势面, 下列说法正确的是 $(\\quad)$\nA. 两个电势不同的等势面可能相交\nB. 电场线与等势面处处相互垂直 \nC. 同一等势面上各点电场强度一定相等\nD. 将一负的试探电荷从电势较高的等势面移至电势较低的等势面, 电场力做 正功",
+            "reference_answer": "B",
+            "solution_steps": [
+              "静电场中电场方向沿电势降低最快的方向，电场线与等势面处处垂直，B正确。",
+              "不同电势的等势面不能相交；等势面上场强大小未必相同。负电荷由高电势移至低电势时电势能增加、电场力做负功。故选B。"
+            ],
+            "knowledge_tags": [
+              "电势与等势面"
+            ],
+            "type_tags": [
+              "利用电场线与等势面正交关系辨析等势面性质"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案B；静电场中电场方向沿电势降低最快的方向，电场线与等势面处处垂直，B正确。；不同电势的等势面不能相交；等势面上场强大小未必相同。负电荷由高电势移至低电势时电势能增加、电场力做负功。故选B。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "认为同一等势面各点场强必相同。",
+                "knowledge_tags": [
+                  "电势与等势面"
+                ],
+                "type_tags": [
+                  "利用电场线与等势面正交关系辨析等势面性质"
+                ]
+              },
+              {
+                "description": "忽略负电荷电势能随电势升高而降低。",
+                "knowledge_tags": [
+                  "电势与等势面"
+                ],
+                "type_tags": [
+                  "利用电场线与等势面正交关系辨析等势面性质"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "静电场中电场方向沿电势降低最快的方向，电场线与等势面处处垂直，B正确。",
+        "不同电势的等势面不能相交；等势面上场强大小未必相同。负电荷由高电势移至低电势时电势能增加、电场力做负功。故选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "静电场中电场方向沿电势降低最快的方向，电场线与等势面处处垂直，B正确。 | 不同电势的等势面不能相交；等势面上场强大小未必相同。负电荷由高电势移至低电势时电势能增加、电场力做负功。故选B。"
+    },
+    {
+      "question_id": "bank:gaokao:1319c9257f615c511773",
+      "source_sha256": "660b0b6b82a83ac277ad2f4d76b41ae738262383365d130b5d1422e6d9e11dbf",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:1319c9257f615c511773",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "3. (6 分) 一质点做速度逐渐增大的匀加速直线运动, 在时间间隔 $\\mathrm{t}$ 内位移为 $\\mathrm{s}$, 动能变为原来的 9 倍。该质点的加速度为 $(\\quad)$\nA. $\\frac{2 s}{t^{2}}$\nB. $\\frac{s}{t^{2}}$\nC. $\\frac{3 s}{2 t^{2}}$\nD. $\\frac{4 s}{t^{2}}$",
+        "options": [
+          {
+            "key": "A",
+            "text": "$\\frac{2 s}{t^{2}}$"
+          },
+          {
+            "key": "B",
+            "text": "$\\frac{s}{t^{2}}$"
+          },
+          {
+            "key": "C",
+            "text": "$\\frac{3 s}{2 t^{2}}$"
+          },
+          {
+            "key": "D",
+            "text": "$\\frac{4 s}{t^{2}}$"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "steps": [
+          "【解答】解：设质点的初速度为 $\\mathrm{v}$, 则动能 $\\mathrm{E}_{\\mathrm{k} 1}=\\frac{1}{2} \\mathrm{mv}^{2}$, 由于末动能变为原来的 9 倍, 则可知, 末速度为原来的 3 倍, 故 $v^{\\prime}=3 \\mathrm{v}$;\n\n故平均速度 $\\bar{v}=\\frac{v+3 v}{2}=2 v$;\n\n根据位移公式可知: $\\bar{v}=\\frac{s}{t}$\n\n联立解得： $v=\\frac{s}{2 t}$;\n\n根据加速度定义可知 $a=\\frac{\\Delta v}{t}=\\frac{3 v-v}{t}=\\frac{2 \\times \\frac{s}{2 t}}{t}=\\frac{s}{t^{2}}$, 故 $B$ 正确, ACD 错误。\n\n故选: B。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2016:（新课标ⅲ）:29",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-1",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-1:u2:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "匀变速直线运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "根据动能倍数与平均速度求匀加速运动加速度"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "结合动能速度平方关系、匀变速平均速度和速度变化定义求a。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-1",
+          "goal_ids": [
+            "physics-senior-compulsory-1:u2:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-1及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "3. (6 分) 一质点做速度逐渐增大的匀加速直线运动, 在时间间隔 $\\mathrm{t}$ 内位移为 $\\mathrm{s}$, 动能变为原来的 9 倍。该质点的加速度为 $(\\quad)$\nA. $\\frac{2 s}{t^{2}}$\nB. $\\frac{s}{t^{2}}$\nC. $\\frac{3 s}{2 t^{2}}$\nD. $\\frac{4 s}{t^{2}}$",
+            "reference_answer": "B",
+            "solution_steps": [
+              "动能变为9倍意味着速度大小变为3倍；速度增大，若初速为u则末速3u。",
+              "匀加速位移s=(u+3u)t/2=2ut，故u=s/(2t)。",
+              "a=(3u−u)/t=2u/t=s/t²，选B。"
+            ],
+            "knowledge_tags": [
+              "匀变速直线运动"
+            ],
+            "type_tags": [
+              "根据动能倍数与平均速度求匀加速运动加速度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案B；动能变为9倍意味着速度大小变为3倍；速度增大，若初速为u则末速3u。；匀加速位移s=(u+3u)t/2=2ut，故u=s/(2t)。；a=(3u−u)/t=2u/t=s/t²，选B。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把动能变为9倍误认为速度变为9倍。",
+                "knowledge_tags": [
+                  "匀变速直线运动"
+                ],
+                "type_tags": [
+                  "根据动能倍数与平均速度求匀加速运动加速度"
+                ]
+              },
+              {
+                "description": "把位移平均速度关系中的平均速度误作初速度。",
+                "knowledge_tags": [
+                  "匀变速直线运动"
+                ],
+                "type_tags": [
+                  "根据动能倍数与平均速度求匀加速运动加速度"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "动能变为9倍意味着速度大小变为3倍；速度增大，若初速为u则末速3u。",
+        "匀加速位移s=(u+3u)t/2=2ut，故u=s/(2t)。",
+        "a=(3u−u)/t=2u/t=s/t²，选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "动能变为9倍意味着速度大小变为3倍；速度增大，若初速为u则末速3u。 | 匀加速位移s=(u+3u)t/2=2ut，故u=s/(2t)。 | a=(3u−u)/t=2u/t=s/t²，选B。"
+    },
+    {
+      "question_id": "bank:gaokao:ecb56600f8bd9bf4981b",
+      "source_sha256": "2935a0d8b849342acf5ec620d9abe01a984515b9b4905bb13360716c6815a2d3",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:ecb56600f8bd9bf4981b",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "2. （6 分）发球机从同一高度向正前方依次水平射出两个速度不同的乒乓球（ 忽略空气的影响）。速度较大的球越过球网, 速度较小的球没有越过球网; 其原因是（ $）$\nA. 速度较小的球下降相同距离所用的时间较多\nB. 速度较小的球在下降相同距离时在竖直方向上的速度较大\nC. 速度较大的球通过同一水平距离所用的时间较少\nD. 速度较大的球在相同时间间隔内下降的距离较大",
+        "options": [
+          {
+            "key": "A",
+            "text": "速度较小的球下降相同距离所用的时间较多"
+          },
+          {
+            "key": "B",
+            "text": "速度较小的球在下降相同距离时在竖直方向上的速度较大"
+          },
+          {
+            "key": "C",
+            "text": "速度较大的球通过同一水平距离所用的时间较少"
+          },
+          {
+            "key": "D",
+            "text": "速度较大的球在相同时间间隔内下降的距离较大"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "steps": [
+          "解: 发球机发出的球, 速度较大的球越过球网, 速度度较小的球没有越 过球网, 原因是发球机到网的水平距离一定, 速度大, 则所用的时间较少, 球下降的高度较小, 容易越过球网, 故 C 正确, ABD 错误。\n\n故选: C。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2017:（新课标ⅰ）:31",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "平抛运动的水平与竖直分运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "解释相同高度水平抛球越过球网的时间差"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "将平抛运动分解为相互独立的水平匀速与竖直自由落体。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-2及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "2. （6 分）发球机从同一高度向正前方依次水平射出两个速度不同的乒乓球（ 忽略空气的影响）。速度较大的球越过球网, 速度较小的球没有越过球网; 其原因是（ $）$\nA. 速度较小的球下降相同距离所用的时间较多\nB. 速度较小的球在下降相同距离时在竖直方向上的速度较大\nC. 速度较大的球通过同一水平距离所用的时间较少\nD. 速度较大的球在相同时间间隔内下降的距离较大",
+            "reference_answer": "C",
+            "solution_steps": [
+              "两球从相同高度水平抛出且忽略空气阻力，竖直运动相同，下降同一高度所用时间相同。",
+              "从发球点到球网的水平距离相同，水平速度较大时通过该距离所需时间更短，在此期间竖直下落更少，因此更容易越网。选C。"
+            ],
+            "knowledge_tags": [
+              "平抛运动的水平与竖直分运动"
+            ],
+            "type_tags": [
+              "解释相同高度水平抛球越过球网的时间差"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案C；两球从相同高度水平抛出且忽略空气阻力，竖直运动相同，下降同一高度所用时间相同。；从发球点到球网的水平距离相同，水平速度较大时通过该距离所需时间更短，在此期间竖直下落更少，因此更容易越网。选C。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把较快水平速度误认为会改变竖直自由落体时间。",
+                "knowledge_tags": [
+                  "平抛运动的水平与竖直分运动"
+                ],
+                "type_tags": [
+                  "解释相同高度水平抛球越过球网的时间差"
+                ]
+              },
+              {
+                "description": "把水平距离固定误成运动时间固定。",
+                "knowledge_tags": [
+                  "平抛运动的水平与竖直分运动"
+                ],
+                "type_tags": [
+                  "解释相同高度水平抛球越过球网的时间差"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "两球从相同高度水平抛出且忽略空气阻力，竖直运动相同，下降同一高度所用时间相同。",
+        "从发球点到球网的水平距离相同，水平速度较大时通过该距离所需时间更短，在此期间竖直下落更少，因此更容易越网。选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "两球从相同高度水平抛出且忽略空气阻力，竖直运动相同，下降同一高度所用时间相同。 | 从发球点到球网的水平距离相同，水平速度较大时通过该距离所需时间更短，在此期间竖直下落更少，因此更容易越网。选C。"
+    },
+    {
+      "question_id": "bank:gaokao:d5f99c89b4765bfa775e",
+      "source_sha256": "d65a2bbd59d9effbc57fdc9ecd56f2883579b97e1ed5edcec44d1430a4363b97",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:d5f99c89b4765bfa775e",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "4. （6 分) 大科学工程“人造太阳”主要是将㲴核聚变反应释放的能量用来发电, 氚核聚变反应方程是: ${ }_{1}^{2} \\mathrm{H}+{ }_{1}^{2} \\mathrm{H} \\rightarrow{ }_{2}^{3} \\mathrm{He}+{ }_{0}^{1} \\mathrm{n}$, 已知 ${ }_{1}^{2} \\mathrm{H}$ 的质量为 $2.0136 \\mathrm{u}$, ${ }_{2}^{3} \\mathrm{He}$ 的质量为 $3.0150 \\mathrm{u},{ }_{0}^{1} \\mathrm{n}$ 的质量为 $1.0087 \\mathrm{u}, 1 \\mathrm{u}=931 \\mathrm{MeV} / \\mathrm{c}^{2}$. 㲴核聚变反 应中释放的核能约为 ( $)$\nA. 3.7MeV\nB. $3.3 \\mathrm{MeV}$\nC. $2.7 \\mathrm{MeV}$\nD. $0.93 \\mathrm{MeV}$",
+        "options": [
+          {
+            "key": "A",
+            "text": "3.7MeV"
+          },
+          {
+            "key": "B",
+            "text": "$3.3 \\mathrm{MeV}$"
+          },
+          {
+            "key": "C",
+            "text": "$2.7 \\mathrm{MeV}$"
+          },
+          {
+            "key": "D",
+            "text": "$0.93 \\mathrm{MeV}$"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "steps": [
+          "解：因氞核聚变的核反应方程为: ${ }_{1}^{2} \\mathrm{H}+{ }_{1}^{2} \\mathrm{H} \\rightarrow{ }_{2}^{3} \\mathrm{He}+{ }_{0}^{1} \\mathrm{n}$;\n\n核反应过程中的质量亏损为 $\\triangle \\mathrm{m}=2 \\mathrm{~m}_{\\mathrm{H}^{-}} \\quad\\left(\\mathrm{m}_{\\mathrm{He}}+\\mathrm{m}_{\\mathrm{n}}\\right)=0.0035 \\mathrm{u}$\n\n释放的核能为 $\\triangle \\mathrm{E}=\\triangle \\mathrm{mc}^{2}=0.0035 \\mathrm{uc}^{2}=3.3 \\mathrm{MeV}$, 故 B 正确, $A C D$ 错误; 故选：B。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2017:（新课标ⅰ）:33",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u5:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "核反应与质量亏损"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由核反应方程质量亏损计算聚变释放能量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "先核对反应前后核子守恒并求质量亏损，再用题给u与MeV换算。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u5:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-selective-3及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "4. （6 分) 大科学工程“人造太阳”主要是将㲴核聚变反应释放的能量用来发电, 氚核聚变反应方程是: ${ }_{1}^{2} \\mathrm{H}+{ }_{1}^{2} \\mathrm{H} \\rightarrow{ }_{2}^{3} \\mathrm{He}+{ }_{0}^{1} \\mathrm{n}$, 已知 ${ }_{1}^{2} \\mathrm{H}$ 的质量为 $2.0136 \\mathrm{u}$, ${ }_{2}^{3} \\mathrm{He}$ 的质量为 $3.0150 \\mathrm{u},{ }_{0}^{1} \\mathrm{n}$ 的质量为 $1.0087 \\mathrm{u}, 1 \\mathrm{u}=931 \\mathrm{MeV} / \\mathrm{c}^{2}$. 㲴核聚变反 应中释放的核能约为 ( $)$\nA. 3.7MeV\nB. $3.3 \\mathrm{MeV}$\nC. $2.7 \\mathrm{MeV}$\nD. $0.93 \\mathrm{MeV}$",
+            "reference_answer": "B",
+            "solution_steps": [
+              "核反应前总质量为2×2.0136u=4.0272u；反应后总质量为3.0150u+1.0087u=4.0237u。",
+              "质量亏损Δm=0.0035u。释放能量ΔE=Δmc²=0.0035×931MeV≈3.26MeV≈3.3MeV，选B。"
+            ],
+            "knowledge_tags": [
+              "核反应与质量亏损"
+            ],
+            "type_tags": [
+              "由核反应方程质量亏损计算聚变释放能量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案B；核反应前总质量为2×2.0136u=4.0272u；反应后总质量为3.0150u+1.0087u=4.0237u。；质量亏损Δm=0.0035u。释放能量ΔE=Δmc²=0.0035×931MeV≈3.26MeV≈3.3MeV，选B。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "质量差计算漏掉生成物一侧的中子质量。",
+                "knowledge_tags": [
+                  "核反应与质量亏损"
+                ],
+                "type_tags": [
+                  "由核反应方程质量亏损计算聚变释放能量"
+                ]
+              },
+              {
+                "description": "把u直接当成MeV而不乘931MeV/c²。",
+                "knowledge_tags": [
+                  "核反应与质量亏损"
+                ],
+                "type_tags": [
+                  "由核反应方程质量亏损计算聚变释放能量"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "核反应前总质量为2×2.0136u=4.0272u；反应后总质量为3.0150u+1.0087u=4.0237u。",
+        "质量亏损Δm=0.0035u。释放能量ΔE=Δmc²=0.0035×931MeV≈3.26MeV≈3.3MeV，选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "核反应前总质量为2×2.0136u=4.0272u；反应后总质量为3.0150u+1.0087u=4.0237u。 | 质量亏损Δm=0.0035u。释放能量ΔE=Δmc²=0.0035×931MeV≈3.26MeV≈3.3MeV，选B。"
+    },
+    {
+      "question_id": "bank:gaokao:ad6ac48e90170cd67e76",
+      "source_sha256": "7344f227d61f9f496f9bc323972c77a3699755378b4b571f0c95c683a9b5adb9",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:ad6ac48e90170cd67e76",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "6. (6 分) 在光电效应实验中, 分别用频率为 $v_{a} 、 v_{b}$ 的单色光 $a 、 b$ 照射到同种 金属上，测得相应的遏止电压分别为 $U_{a}$ 和 $U_{b}$ 、光电子的最大初动能分别为 $E_{k a}$ 和 $E_{k b} ， h$ 为普朗克常量。下列说法正确的是（）\nA. 若 $v_{a}>v_{b}$, 则一定有 $U_{a}<U_{b}$ \nB. 若 $v_{a}>v_{b}$, 则一定有 $E_{k a}>E_{k b}$\nC. 若 $U_{\\mathrm{a}}<U_{b}$, 则一定有 $E_{k a}<E_{k b}$\nD. 若 $v_{a}>v_{b}$, 则一定有 $h v_{a}-E_{k a}>h v_{b}-E_{k b}$",
+        "options": [
+          {
+            "key": "A",
+            "text": "若 $v_{a}>v_{b}$, 则一定有 $U_{a}<U_{b}$"
+          },
+          {
+            "key": "B",
+            "text": "若 $v_{a}>v_{b}$, 则一定有 $E_{k a}>E_{k b}$"
+          },
+          {
+            "key": "C",
+            "text": "若 $U_{\\mathrm{a}}<U_{b}$, 则一定有 $E_{k a}<E_{k b}$"
+          },
+          {
+            "key": "D",
+            "text": "若 $v_{a}>v_{b}$, 则一定有 $h v_{a}-E_{k a}>h v_{b}-E_{k b}$"
+          }
+        ],
+        "answer": "BC",
+        "kind": "multiple_choice",
+        "steps": [
+          "【解答】解: $A B$ 、根据光电效应方程 $E_{k m}=h v-W_{0}$ 知, $v_{a}>v_{b}$, 逸出功相同, 则 $E_{k a}>E_{k b}$, 又 $E_{k m}=e U_{c}$, 则 $U_{a}>U_{b}$, 故 $A$ 错误, B正确。\n\nC、根据 $E_{k m}=e U_{c}$ 知, 若 $U_{\\mathrm{a}}<U_{b}$, 则一定有 $E_{k a}<E_{k b}$, 故 C 正确。\n\nD、逸出功 $W_{0}=h v-E_{k m}$, 由于金属的逸出功相同, 则有: $h v_{a}-E_{k a}=h v_{b}-E_{k b}$, 故 D 错误。\n\n故选: BC。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2017:（新课标ⅲ）:36",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "光电效应方程"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由光电效应方程比较频率、遏止电压、最大初动能与逸出功"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "逐项应用爱因斯坦光电效应方程和遏止电压关系。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-selective-3及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B",
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "6. (6 分) 在光电效应实验中, 分别用频率为 $v_{a} 、 v_{b}$ 的单色光 $a 、 b$ 照射到同种 金属上，测得相应的遏止电压分别为 $U_{a}$ 和 $U_{b}$ 、光电子的最大初动能分别为 $E_{k a}$ 和 $E_{k b} ， h$ 为普朗克常量。下列说法正确的是（）\nA. 若 $v_{a}>v_{b}$, 则一定有 $U_{a}<U_{b}$ \nB. 若 $v_{a}>v_{b}$, 则一定有 $E_{k a}>E_{k b}$\nC. 若 $U_{\\mathrm{a}}<U_{b}$, 则一定有 $E_{k a}<E_{k b}$\nD. 若 $v_{a}>v_{b}$, 则一定有 $h v_{a}-E_{k a}>h v_{b}-E_{k b}$",
+            "reference_answer": "BC",
+            "solution_steps": [
+              "同一金属逸出功W₀相同，E_k=hν−W₀，频率较高时最大初动能较大，故B正确。",
+              "遏止电压满足E_k=eU_c，故U_a<U_b推出E_ka<E_kb，C正确。",
+              "频率较高时遏止电压应更高，A错误；hν−E_k=W₀恒定，D应取等号而非大于。答案BC。"
+            ],
+            "knowledge_tags": [
+              "光电效应方程"
+            ],
+            "type_tags": [
+              "由光电效应方程比较频率、遏止电压、最大初动能与逸出功"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案BC；同一金属逸出功W₀相同，E_k=hν−W₀，频率较高时最大初动能较大，故B正确。；遏止电压满足E_k=eU_c，故U_a<U_b推出E_ka<E_kb，C正确。；频率较高时遏止电压应更高，A错误；hν−E_k=W₀恒定，D应取等号而非大于。答案BC。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把遏止电压和最大初动能关系方向弄反。",
+                "knowledge_tags": [
+                  "光电效应方程"
+                ],
+                "type_tags": [
+                  "由光电效应方程比较频率、遏止电压、最大初动能与逸出功"
+                ]
+              },
+              {
+                "description": "忽略同一金属逸出功相同。",
+                "knowledge_tags": [
+                  "光电效应方程"
+                ],
+                "type_tags": [
+                  "由光电效应方程比较频率、遏止电压、最大初动能与逸出功"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "同一金属逸出功W₀相同，E_k=hν−W₀，频率较高时最大初动能较大，故B正确。",
+        "遏止电压满足E_k=eU_c，故U_a<U_b推出E_ka<E_kb，C正确。",
+        "频率较高时遏止电压应更高，A错误；hν−E_k=W₀恒定，D应取等号而非大于。答案BC。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "同一金属逸出功W₀相同，E_k=hν−W₀，频率较高时最大初动能较大，故B正确。 | 遏止电压满足E_k=eU_c，故U_a<U_b推出E_ka<E_kb，C正确。 | 频率较高时遏止电压应更高，A错误；hν−E_k=W₀恒定，D应取等号而非大于。答案BC。"
+    },
+    {
+      "question_id": "bank:gaokao:7df093c0ff49cf706d5d",
+      "source_sha256": "8c3b337dcc1274d16f036c64c5cefaa085ee48577d802ab857c1d319738d15ea",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:7df093c0ff49cf706d5d",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "1. (6 分) 高铁列车在启动阶段的运动可看作初速度为零的匀加速直线运动, 在启动阶段，列车的动能（ $)$\nA. 与它所经历的时间成正比\nB. 与它的位移成正比\nC. 与它的速度成正比\nD. 与它的动量成正比",
+        "options": [
+          {
+            "key": "A",
+            "text": "与它所经历的时间成正比"
+          },
+          {
+            "key": "B",
+            "text": "与它的位移成正比"
+          },
+          {
+            "key": "C",
+            "text": "与它的速度成正比"
+          },
+          {
+            "key": "D",
+            "text": "与它的动量成正比"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "steps": [
+          "解: $A$ 、因列车做初速度为零的匀加速直线运动, 则有: $v=a t$, 而动能 表达式 $E_{k}=\\frac{1}{2} m v^{2}=\\frac{1}{2} m a^{2} t^{2}$, 可知动能与所经历的时间平方成正比, 故 $A$ 错误 ;\n\n$B 、$ 依据动能定理, 则有: $F$ 合 $x=\\frac{1}{2} m v^{2}-0$, 可知, 动能与它的位移成正比, 故 $B$ 正确;\n\nC、由动能表达式 $E_{k}=\\frac{1}{2} m v^{2}$, 可知, 动能与它的速度平方成正比, 故 $C$ 错误;\n\nD、依据动能与动量关系式, $E_{k}=\\frac{P^{2}}{2 \\mathrm{~m}}$, 可知, 动能与它的动量平方成正比, 故 $D$ 错误;\n\n故选: B。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [
+          "动量"
+        ],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2018:（新课标ⅰ）:37",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u4:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "动能定理与匀加速运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "判断初速为零恒加速度列车动能与位移的比例关系"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "将动能定理与给定初速度为零的匀加速条件结合，比较变量的幂次。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u4:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-2及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "1. (6 分) 高铁列车在启动阶段的运动可看作初速度为零的匀加速直线运动, 在启动阶段，列车的动能（ $)$\nA. 与它所经历的时间成正比\nB. 与它的位移成正比\nC. 与它的速度成正比\nD. 与它的动量成正比",
+            "reference_answer": "B",
+            "solution_steps": [
+              "动能定理W合=ΔE_k。启动阶段合力恒定时，W合=F合x，因此动能与位移成正比。",
+              "又E_k=½ma²t²与时间平方成正比，和速度平方成正比，也和动量平方成正比；不是与这些量本身成正比。选B。"
+            ],
+            "knowledge_tags": [
+              "动能定理与匀加速运动"
+            ],
+            "type_tags": [
+              "判断初速为零恒加速度列车动能与位移的比例关系"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案B；动能定理W合=ΔE_k。启动阶段合力恒定时，W合=F合x，因此动能与位移成正比。；又E_k=½ma²t²与时间平方成正比，和速度平方成正比，也和动量平方成正比；不是与这些量本身成正比。选B。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "认为动能与速度或时间成正比而忽略平方关系。",
+                "knowledge_tags": [
+                  "动能定理与匀加速运动"
+                ],
+                "type_tags": [
+                  "判断初速为零恒加速度列车动能与位移的比例关系"
+                ]
+              },
+              {
+                "description": "误把合力做功写成与时间成正比。",
+                "knowledge_tags": [
+                  "动能定理与匀加速运动"
+                ],
+                "type_tags": [
+                  "判断初速为零恒加速度列车动能与位移的比例关系"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "动能定理W合=ΔE_k。启动阶段合力恒定时，W合=F合x，因此动能与位移成正比。",
+        "又E_k=½ma²t²与时间平方成正比，和速度平方成正比，也和动量平方成正比；不是与这些量本身成正比。选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "动能定理W合=ΔE_k。启动阶段合力恒定时，W合=F合x，因此动能与位移成正比。 | 又E_k=½ma²t²与时间平方成正比，和速度平方成正比，也和动量平方成正比；不是与这些量本身成正比。选B。"
+    },
+    {
+      "question_id": "bank:gaokao:b6a12aa7d9b491e615f8",
+      "source_sha256": "69bbc4895ed14fb890cf723449d6a20ba242c06a64dbbd200257008dfbdc440f",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:b6a12aa7d9b491e615f8",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "2. (6 分) 为了探测引力波, “天琴计划”预计发射地球卫星 $P$, 其轨道半径约为 地球半径的 16 倍; 另一地球卫星 $\\mathrm{Q}$ 的轨道半径约为地球半径的 4 倍。 $\\mathrm{P}$ 与 $\\mathrm{Q}$ 的周期之比约为 $(\\quad)$ \nA. $2: 1$\nB. 4: 1\nC. $8: 1$\nD. $16: 1$",
+        "options": [
+          {
+            "key": "A",
+            "text": "$2: 1$"
+          },
+          {
+            "key": "B",
+            "text": "4: 1"
+          },
+          {
+            "key": "C",
+            "text": "$8: 1$"
+          },
+          {
+            "key": "D",
+            "text": "$16: 1$"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "steps": [
+          "【解答】解: 根据题意可得 $\\mathrm{P}$ 与 $\\mathrm{Q}$ 的轨道半径之比为:\n\n$\\mathrm{r}_{\\mathrm{P}}: \\mathrm{r}_{\\mathrm{Q}}=4: 1$\n\n根据开普勒第三定律有:\n\n$\\frac{r^{3}}{T^{2}}=k$\n\n得: $\\frac{r_{P}^{3}}{T_{P}^{2}}=\\frac{r_{Q}^{3}}{T_{Q}^{2}}$\n\n可得周期之比为:\n\n$\\mathrm{T}_{\\mathrm{P}}: \\mathrm{T}_{\\mathrm{Q}}=8: \\quad 1$\n\n故 C 正确, ABD 错误。\n\n故选:C。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2018:（新课标ⅲ）:42",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "开普勒第三定律与卫星周期"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由圆轨道半径比求卫星周期比"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "对同一中心天体的圆轨道直接使用开普勒第三定律。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-2及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "2. (6 分) 为了探测引力波, “天琴计划”预计发射地球卫星 $P$, 其轨道半径约为 地球半径的 16 倍; 另一地球卫星 $\\mathrm{Q}$ 的轨道半径约为地球半径的 4 倍。 $\\mathrm{P}$ 与 $\\mathrm{Q}$ 的周期之比约为 $(\\quad)$ \nA. $2: 1$\nB. 4: 1\nC. $8: 1$\nD. $16: 1$",
+            "reference_answer": "C",
+            "solution_steps": [
+              "两颗地球卫星绕同一中心天体运行，开普勒第三定律T²∝r³。",
+              "半径比r_P:r_Q=16:4=4:1，周期比T_P:T_Q=(4:1)^(3/2)=8:1，选C。"
+            ],
+            "knowledge_tags": [
+              "开普勒第三定律与卫星周期"
+            ],
+            "type_tags": [
+              "由圆轨道半径比求卫星周期比"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案C；两颗地球卫星绕同一中心天体运行，开普勒第三定律T²∝r³。；半径比r_P:r_Q=16:4=4:1，周期比T_P:T_Q=(4:1)^(3/2)=8:1，选C。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把半径比直接当周期比。",
+                "knowledge_tags": [
+                  "开普勒第三定律与卫星周期"
+                ],
+                "type_tags": [
+                  "由圆轨道半径比求卫星周期比"
+                ]
+              },
+              {
+                "description": "忘记开平方而误算成64:1。",
+                "knowledge_tags": [
+                  "开普勒第三定律与卫星周期"
+                ],
+                "type_tags": [
+                  "由圆轨道半径比求卫星周期比"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "两颗地球卫星绕同一中心天体运行，开普勒第三定律T²∝r³。",
+        "半径比r_P:r_Q=16:4=4:1，周期比T_P:T_Q=(4:1)^(3/2)=8:1，选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "两颗地球卫星绕同一中心天体运行，开普勒第三定律T²∝r³。 | 半径比r_P:r_Q=16:4=4:1，周期比T_P:T_Q=(4:1)^(3/2)=8:1，选C。"
+    },
+    {
+      "question_id": "bank:gaokao:3ec5115358593e419d82",
+      "source_sha256": "b0ed1ce766acd9649d758c963107b956cb5a4546768b54b60f208c135d881a73",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:3ec5115358593e419d82",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "3. (6 分) 物块在轻绳的拉动下沿倾角为 $30^{\\circ}$ 的固定斜面向上匀速运动, 轻绳与斜面平行。 已知物块与斜面之间的动摩擦因数为 $\\frac{\\sqrt{3}}{3}$, 重力加速度取 $10 \\mathrm{~m} / \\mathrm{s}^{2}$. 若轻绳能承受的最大张 力为 $1500 \\mathrm{~N}$ ，则物块的质量最大为 $(\\quad)$\nA. $150 \\mathrm{~kg}$\nB. $100 \\sqrt{3} \\mathrm{~kg}$\nC. $200 \\mathrm{~kg}$\nD. $200 \\sqrt{3} \\mathrm{~kg}$",
+        "options": [
+          {
+            "key": "A",
+            "text": "$150 \\mathrm{~kg}$"
+          },
+          {
+            "key": "B",
+            "text": "$100 \\sqrt{3} \\mathrm{~kg}$"
+          },
+          {
+            "key": "C",
+            "text": "$200 \\mathrm{~kg}$"
+          },
+          {
+            "key": "D",
+            "text": "$200 \\sqrt{3} \\mathrm{~kg}$"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "steps": [
+          "【解答】解: 以物体为研究对象, 沿斜面方向根据平衡条件可得:\n\n$\\mathrm{F}=\\mathrm{mg} \\sin 30^{\\circ}+\\mu \\mathrm{mg} \\cos 30^{\\circ}$\n\n当拉力最大时质量最大, 解得: $\\mathrm{m}=150 \\mathrm{~kg}$, 故 A 正确, $\\mathrm{BCD}$ 错误。\n\n故选：A。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2019:（新课标ⅱ）:45",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-1",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-1:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "斜面受力与滑动摩擦"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "沿斜面方向列匀速平衡求最大物块质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "需正确确定摩擦方向并分解重力，利用匀速条件和最大张力。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-1",
+          "goal_ids": [
+            "physics-senior-compulsory-1:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-1及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "3. (6 分) 物块在轻绳的拉动下沿倾角为 $30^{\\circ}$ 的固定斜面向上匀速运动, 轻绳与斜面平行。 已知物块与斜面之间的动摩擦因数为 $\\frac{\\sqrt{3}}{3}$, 重力加速度取 $10 \\mathrm{~m} / \\mathrm{s}^{2}$. 若轻绳能承受的最大张 力为 $1500 \\mathrm{~N}$ ，则物块的质量最大为 $(\\quad)$\nA. $150 \\mathrm{~kg}$\nB. $100 \\sqrt{3} \\mathrm{~kg}$\nC. $200 \\mathrm{~kg}$\nD. $200 \\sqrt{3} \\mathrm{~kg}$",
+            "reference_answer": "A",
+            "solution_steps": [
+              "物块匀速上滑，沿斜面合力为零；绳张力平衡重力沿斜面分量和向下的滑动摩擦力。",
+              "T=mg sin30°+μmg cos30°=mg/2+(√3/3)mg(√3/2)=mg。",
+              "T_max=1500N且g=10m/s²，m_max=150kg，选A。"
+            ],
+            "knowledge_tags": [
+              "斜面受力与滑动摩擦"
+            ],
+            "type_tags": [
+              "沿斜面方向列匀速平衡求最大物块质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案A；物块匀速上滑，沿斜面合力为零；绳张力平衡重力沿斜面分量和向下的滑动摩擦力。；T=mg sin30°+μmg cos30°=mg/2+(√3/3)mg(√3/2)=mg。；T_max=1500N且g=10m/s²，m_max=150kg，选A。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把摩擦力方向取为沿斜面向上。",
+                "knowledge_tags": [
+                  "斜面受力与滑动摩擦"
+                ],
+                "type_tags": [
+                  "沿斜面方向列匀速平衡求最大物块质量"
+                ]
+              },
+              {
+                "description": "漏掉重力垂直斜面分量对摩擦力的影响。",
+                "knowledge_tags": [
+                  "斜面受力与滑动摩擦"
+                ],
+                "type_tags": [
+                  "沿斜面方向列匀速平衡求最大物块质量"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "物块匀速上滑，沿斜面合力为零；绳张力平衡重力沿斜面分量和向下的滑动摩擦力。",
+        "T=mg sin30°+μmg cos30°=mg/2+(√3/3)mg(√3/2)=mg。",
+        "T_max=1500N且g=10m/s²，m_max=150kg，选A。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "物块匀速上滑，沿斜面合力为零；绳张力平衡重力沿斜面分量和向下的滑动摩擦力。 | T=mg sin30°+μmg cos30°=mg/2+(√3/3)mg(√3/2)=mg。 | T_max=1500N且g=10m/s²，m_max=150kg，选A。"
+    },
+    {
+      "question_id": "bank:gaokao:e6b254fbc37902bea00d",
+      "source_sha256": "3f7044ad21d140cc718f51cefde92bbc1faf10f1739286390d820456529ae139",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:e6b254fbc37902bea00d",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "1. (6 分 ) 楞次定律是下列哪个定律在电磁感应现象中的具体体现? （）\nA. 电阻定律\nB. 库仑定律\nC. 欧姆定律\nD. 能量守恒定律",
+        "options": [
+          {
+            "key": "A",
+            "text": "电阻定律"
+          },
+          {
+            "key": "B",
+            "text": "库仑定律"
+          },
+          {
+            "key": "C",
+            "text": "欧姆定律"
+          },
+          {
+            "key": "D",
+            "text": "能量守恒定律"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "steps": [
+          "【解答】解：当线圈与磁体间有相对运动时, 根据 “来拒去留” 可知，磁场力都是阻碍 线圈与磁体间的相对运动, 有外力对系统做了功, 导致其他形式的能转化为线圈的电能; 当导体做切割磁感线运动时, 安培力总是阻碍导体的运动, 导体克服安培力做, 把其他 形式的能转化为电能, 所以楞次定律是能量守恒定律在电磁感应现象中的体现, 故 D 正 确， $\\mathrm{ABC}$ 错误。\n\n故选：D。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [
+          "电磁感应"
+        ],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2019:（新课标ⅲ）:47",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u5:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "楞次定律与能量守恒"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "说明楞次定律反映感应过程中的能量守恒"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "将楞次定律的阻碍效果与感应过程中的能量转化联系。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u5:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-3及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "1. (6 分 ) 楞次定律是下列哪个定律在电磁感应现象中的具体体现? （）\nA. 电阻定律\nB. 库仑定律\nC. 欧姆定律\nD. 能量守恒定律",
+            "reference_answer": "D",
+            "solution_steps": [
+              "感应电流产生的磁场总阻碍磁通量变化；要维持磁通量变化，外界必须做功。",
+              "外界机械能转化为电能等其他能量，体现能量守恒，选D。"
+            ],
+            "knowledge_tags": [
+              "楞次定律与能量守恒"
+            ],
+            "type_tags": [
+              "说明楞次定律反映感应过程中的能量守恒"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案D；感应电流产生的磁场总阻碍磁通量变化；要维持磁通量变化，外界必须做功。；外界机械能转化为电能等其他能量，体现能量守恒，选D。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将楞次定律只与电阻定律或欧姆定律关联。",
+                "knowledge_tags": [
+                  "楞次定律与能量守恒"
+                ],
+                "type_tags": [
+                  "说明楞次定律反映感应过程中的能量守恒"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "感应电流产生的磁场总阻碍磁通量变化；要维持磁通量变化，外界必须做功。",
+        "外界机械能转化为电能等其他能量，体现能量守恒，选D。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "感应电流产生的磁场总阻碍磁通量变化；要维持磁通量变化，外界必须做功。 | 外界机械能转化为电能等其他能量，体现能量守恒，选D。"
+    },
+    {
+      "question_id": "bank:gaokao:5753718ba4035c50347c",
+      "source_sha256": "7af33834861b503a998cc4e198084f30c554e4e1bd55a26f51f94ae13ad70d37",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:5753718ba4035c50347c",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "2. (6 分) 金星、地球和火星绕太阳的公转均可视为匀速圆周运动, 它们的向心加速度大小 分别为 $\\mathrm{a}_{\\text {金、 }} \\mathrm{a}_{\\text {地、 }} \\mathrm{a}_{\\text {火 }}$, 它们沿轨道运行的速率分别为 $\\mathrm{v}_{\\text {金、 }} \\mathrm{v}_{\\text {地、 }} \\mathrm{v}$ 炏. 已知它们的轨道半 径 $\\mathrm{R}_{\\text {金 }}<\\mathrm{R}_{\\text {地 }}<\\mathrm{R}_{\\text {火 }}$ ，由此可以判定（（）\nA. $\\mathrm{a}_{\\text {金 }}>\\mathrm{a}_{\\text {地 }}>\\mathrm{a}_{\\text {火 }}$\nB. $\\mathrm{a}_{\\text {火 }}>\\mathrm{a}_{\\text {地 }}>\\mathrm{a}_{\\text {金 }}$\nC. $v_{\\text {地 }}>\\mathrm{v}_{\\text {火 }}>\\mathrm{v}_{\\text {金 }}$\nD. $\\mathrm{v}_{\\text {火 }}>\\mathrm{v}_{\\text {地 }}>\\mathrm{v}_{\\text {金 }}$",
+        "options": [
+          {
+            "key": "A",
+            "text": "$\\mathrm{a}_{\\text {金 }}>\\mathrm{a}_{\\text {地 }}>\\mathrm{a}_{\\text {火 }}$"
+          },
+          {
+            "key": "B",
+            "text": "$\\mathrm{a}_{\\text {火 }}>\\mathrm{a}_{\\text {地 }}>\\mathrm{a}_{\\text {金 }}$"
+          },
+          {
+            "key": "C",
+            "text": "$v_{\\text {地 }}>\\mathrm{v}_{\\text {火 }}>\\mathrm{v}_{\\text {金 }}$"
+          },
+          {
+            "key": "D",
+            "text": "$\\mathrm{v}_{\\text {火 }}>\\mathrm{v}_{\\text {地 }}>\\mathrm{v}_{\\text {金 }}$"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "steps": [
+          "【解答】解: 行星绕太阳运动时, 万有引力提供向心力, 设太阳的质量为 $\\mathrm{M}$, 行星的质 量为 $\\mathrm{m}$, 行星的轨道半径为 $\\mathrm{r}$, 根据牛顿第二定律有:\n\n$G \\frac{M m}{r^{2}}=m a=m \\frac{v^{2}}{r}$\n\n可得向心加速度为 $a=G \\frac{M}{r^{2}}$, 线速度为 $v=\\sqrt{\\frac{G M}{r}}$, 由题意有 $R_{\\text {金 }}<R_{\\text {地 }}<R_{\\text {火 }}$, 所以有 $a \\hat{a}_{\\text {金 }}>a$ 地 $>\\mathrm{a}_{\\text {火 }}, \\mathrm{v}_{\\text {金 }}>\\mathrm{v}_{\\text {地 }}>\\mathrm{v}_{\\text {火 }}$, 故 A 正确, BCD 错误。\n\n故选: A。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2019:（新课标ⅲ）:48",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u3:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "万有引力与行星圆轨道"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "根据向心加速度和轨道速率随半径的关系排序"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "用万有引力提供向心力，分别导出a、v与轨道半径的单调关系。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u3:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-2及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "2. (6 分) 金星、地球和火星绕太阳的公转均可视为匀速圆周运动, 它们的向心加速度大小 分别为 $\\mathrm{a}_{\\text {金、 }} \\mathrm{a}_{\\text {地、 }} \\mathrm{a}_{\\text {火 }}$, 它们沿轨道运行的速率分别为 $\\mathrm{v}_{\\text {金、 }} \\mathrm{v}_{\\text {地、 }} \\mathrm{v}$ 炏. 已知它们的轨道半 径 $\\mathrm{R}_{\\text {金 }}<\\mathrm{R}_{\\text {地 }}<\\mathrm{R}_{\\text {火 }}$ ，由此可以判定（（）\nA. $\\mathrm{a}_{\\text {金 }}>\\mathrm{a}_{\\text {地 }}>\\mathrm{a}_{\\text {火 }}$\nB. $\\mathrm{a}_{\\text {火 }}>\\mathrm{a}_{\\text {地 }}>\\mathrm{a}_{\\text {金 }}$\nC. $v_{\\text {地 }}>\\mathrm{v}_{\\text {火 }}>\\mathrm{v}_{\\text {金 }}$\nD. $\\mathrm{v}_{\\text {火 }}>\\mathrm{v}_{\\text {地 }}>\\mathrm{v}_{\\text {金 }}$",
+            "reference_answer": "A",
+            "solution_steps": [
+              "绕同一太阳做圆周运动时a=GM/r²、v=√(GM/r)。",
+              "已知R金<R地<R火，因此a金>a地>a火且v金>v地>v火。只有A正确。"
+            ],
+            "knowledge_tags": [
+              "万有引力与行星圆轨道"
+            ],
+            "type_tags": [
+              "根据向心加速度和轨道速率随半径的关系排序"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案A；绕同一太阳做圆周运动时a=GM/r²、v=√(GM/r)。；已知R金<R地<R火，因此a金>a地>a火且v金>v地>v火。只有A正确。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将向心加速度与速度随轨道半径的变化关系混淆。",
+                "knowledge_tags": [
+                  "万有引力与行星圆轨道"
+                ],
+                "type_tags": [
+                  "根据向心加速度和轨道速率随半径的关系排序"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "绕同一太阳做圆周运动时a=GM/r²、v=√(GM/r)。",
+        "已知R金<R地<R火，因此a金>a地>a火且v金>v地>v火。只有A正确。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "绕同一太阳做圆周运动时a=GM/r²、v=√(GM/r)。 | 已知R金<R地<R火，因此a金>a地>a火且v金>v地>v火。只有A正确。"
+    },
+    {
+      "question_id": "bank:gaokao:a2c165565d8e3dc25b99",
+      "source_sha256": "b8558b1a87e33b45b113cbd139fe560d8948ed61ecd17d837ed95cf715217a30",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:a2c165565d8e3dc25b99",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "1. (6 分) 行驶中的汽车如果发生剧烈碰撞, 车内的安全气囊会被弹出并瞬间充满气体。若 碰撞后汽车的速度在很短时间内减小为零, 关于安全气囊在此过程中的作用, 下列说法 正确的是 $(\\quad)$\nA. 增加了司机单位面积的受力大小\nB. 减少了碰撞前后司机动量的变化量\nC. 将司机的动能全部转换成汽车的动能\nD. 延长了司机的受力时间并增大了司机的受力面积",
+        "options": [
+          {
+            "key": "A",
+            "text": "增加了司机单位面积的受力大小"
+          },
+          {
+            "key": "B",
+            "text": "减少了碰撞前后司机动量的变化量"
+          },
+          {
+            "key": "C",
+            "text": "将司机的动能全部转换成汽车的动能"
+          },
+          {
+            "key": "D",
+            "text": "延长了司机的受力时间并增大了司机的受力面积"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "steps": [
+          "【解答】解: ABD、在碰撞过程中, 司机的动量的变化量是一定的, 但安全气囊会增加 作用的时间, 根据动量定理 $\\mathrm{Ft}=\\triangle \\mathrm{p}$ 可知, 可以减小司机受到的冲击力 $\\mathrm{F}$, 同时安全气囊 会增大司机的受力面积, 则司机单位面积的受力大小 $\\frac{F}{S}$ 减小, 故 $\\mathrm{AB}$ 错误, D 正确。\n\n$\\mathrm{C} 、$ 安全气囊只是延长了作用时间, 减小了司机的受力, 将司机的动能转换成气囊的弹性 势能，故 $\\mathrm{C}$ 错误。\n\n故选：D。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [
+          "动量"
+        ],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2020:（新课标ⅰ）:49",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-selective-1",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-1:u1:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "动量定理与安全气囊"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "解释缓冲装置延长作用时间和增大受力面积的作用"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "用动量定理解释缓冲时间并区分总力与单位面积压力。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-1",
+          "goal_ids": [
+            "physics-senior-selective-1:u1:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-selective-1及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "1. (6 分) 行驶中的汽车如果发生剧烈碰撞, 车内的安全气囊会被弹出并瞬间充满气体。若 碰撞后汽车的速度在很短时间内减小为零, 关于安全气囊在此过程中的作用, 下列说法 正确的是 $(\\quad)$\nA. 增加了司机单位面积的受力大小\nB. 减少了碰撞前后司机动量的变化量\nC. 将司机的动能全部转换成汽车的动能\nD. 延长了司机的受力时间并增大了司机的受力面积",
+            "reference_answer": "D",
+            "solution_steps": [
+              "司机碰撞前后动量变化由初末速度决定，安全气囊不能减少该动量变化量。",
+              "气囊延长碰撞时间，依据冲量定理可减小平均冲击力；气囊增大接触面积，降低单位面积受力，故D正确。"
+            ],
+            "knowledge_tags": [
+              "动量定理与安全气囊"
+            ],
+            "type_tags": [
+              "解释缓冲装置延长作用时间和增大受力面积的作用"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案D；司机碰撞前后动量变化由初末速度决定，安全气囊不能减少该动量变化量。；气囊延长碰撞时间，依据冲量定理可减小平均冲击力；气囊增大接触面积，降低单位面积受力，故D正确。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "认为安全气囊能减小司机的总动量变化量。",
+                "knowledge_tags": [
+                  "动量定理与安全气囊"
+                ],
+                "type_tags": [
+                  "解释缓冲装置延长作用时间和增大受力面积的作用"
+                ]
+              },
+              {
+                "description": "把延长作用时间对平均力的影响方向弄反。",
+                "knowledge_tags": [
+                  "动量定理与安全气囊"
+                ],
+                "type_tags": [
+                  "解释缓冲装置延长作用时间和增大受力面积的作用"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "司机碰撞前后动量变化由初末速度决定，安全气囊不能减少该动量变化量。",
+        "气囊延长碰撞时间，依据冲量定理可减小平均冲击力；气囊增大接触面积，降低单位面积受力，故D正确。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "司机碰撞前后动量变化由初末速度决定，安全气囊不能减少该动量变化量。 | 气囊延长碰撞时间，依据冲量定理可减小平均冲击力；气囊增大接触面积，降低单位面积受力，故D正确。"
+    },
+    {
+      "question_id": "bank:gaokao:2ba5ca4adb2f13d7bbd0",
+      "source_sha256": "a35a1616e032f02737ca0513b8cf88a9cd2db41b6993bc68d38dde009479421e",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:2ba5ca4adb2f13d7bbd0",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "8. (6 分) 水平冰面上有一固定的竖直挡板。一滑冰运动员面对挡板静止在冰面上, 他把一 质量为 $4.0 \\mathrm{~kg}$ 的静止物块以大小为 $5.0 \\mathrm{~m} / \\mathrm{s}$ 的速度沿与挡板垂直的方向推向挡板, 运动员 获得退行速度; 物块与挡板弹性碰撞, 速度反向, 追上运动员时, 运动员又把物块推向 挡板, 使其再一次以大小为 $5.0 \\mathrm{~m} / \\mathrm{s}$ 的速度与挡板弹性碰撞。总共经过 8 次这样推物块后, 运动员退行速度的大小大于 $5.0 \\mathrm{~m} / \\mathrm{s}$, 反弹的物块不能再追上运动员。不计冰面的摩擦力, 该运动员的质量可能为（）\nA. $48 \\mathrm{~kg}$\nB. $53 \\mathrm{~kg}$\nC. $58 \\mathrm{~kg}$\nD. $63 \\mathrm{~kg}$",
+        "options": [
+          {
+            "key": "A",
+            "text": "$48 \\mathrm{~kg}$"
+          },
+          {
+            "key": "B",
+            "text": "$53 \\mathrm{~kg}$"
+          },
+          {
+            "key": "C",
+            "text": "$58 \\mathrm{~kg}$"
+          },
+          {
+            "key": "D",
+            "text": "$63 \\mathrm{~kg}$"
+          }
+        ],
+        "answer": "BC",
+        "kind": "multiple_choice",
+        "steps": [
+          "【解答】解: 设该运动员的质量为 $\\mathrm{M}$, 物块的质量为 $\\mathrm{m}=4.0 \\mathrm{~kg}$, 推物块的速度大小为 $\\mathrm{v}$ $=5.0 \\mathrm{~m} / \\mathrm{s}$, 取人运动的方向为正方向, 根据动量守恒定律可得:\n\n第一次推物块的过程中: $0=\\mathrm{Mv}_{1}-\\mathrm{mv}$\n\n第二次推物块的过程中: $\\mathrm{Mv}_{1}+\\mathrm{mv}=\\mathrm{Mv}_{2}-\\mathrm{mv}$\n\n第三次推物块的过程中: $\\mathrm{Mv}_{2}+\\mathrm{mv}=\\mathrm{Mv}_{3}-\\mathrm{mv}$\n\n第 $\\mathrm{n}$ 次推物块的过程中: $M_{v_{n} .1}+\\mathrm{mv}=\\mathrm{Mv}_{\\mathrm{n}}-\\mathrm{mv}$\n\n以上各式相加可得: $\\operatorname{Mv}_{\\mathrm{n}}=(2 \\mathrm{n}-1) \\mathrm{mv}$\n\n当 $n=7$ 时, $v 7<v$ ，解得 $M>52 \\mathrm{~kg}$\n\n当 $n=8$ 时, $v 8 \\geqslant v$, 解得 $M \\leqslant 60 \\mathrm{~kg}$,\n\n故 $52 \\mathrm{~kg}<M \\leqslant 60 \\mathrm{~kg}$, 故 AD 错误、BC 正确。\n\n故选: $\\mathrm{BC}$ 。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2020:（新课标ⅱ）:54",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-selective-1",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-1:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "动量守恒与连续反冲"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由多次物块反弹和再次推动建立运动员速度界限"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "需要把推物块过程与挡板弹性反射分开建模，再用第7、8次条件限定质量。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-1",
+          "goal_ids": [
+            "physics-senior-selective-1:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-selective-1及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B",
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "8. (6 分) 水平冰面上有一固定的竖直挡板。一滑冰运动员面对挡板静止在冰面上, 他把一 质量为 $4.0 \\mathrm{~kg}$ 的静止物块以大小为 $5.0 \\mathrm{~m} / \\mathrm{s}$ 的速度沿与挡板垂直的方向推向挡板, 运动员 获得退行速度; 物块与挡板弹性碰撞, 速度反向, 追上运动员时, 运动员又把物块推向 挡板, 使其再一次以大小为 $5.0 \\mathrm{~m} / \\mathrm{s}$ 的速度与挡板弹性碰撞。总共经过 8 次这样推物块后, 运动员退行速度的大小大于 $5.0 \\mathrm{~m} / \\mathrm{s}$, 反弹的物块不能再追上运动员。不计冰面的摩擦力, 该运动员的质量可能为（）\nA. $48 \\mathrm{~kg}$\nB. $53 \\mathrm{~kg}$\nC. $58 \\mathrm{~kg}$\nD. $63 \\mathrm{~kg}$",
+            "reference_answer": "BC",
+            "solution_steps": [
+              "设运动员质量M、物块质量m=4kg、每次推出速度v=5m/s。系统初始动量为零；墙的弹性碰撞使物块速度反向。",
+              "逐次对推物块过程列动量守恒，第n次后可得Mv_n=(2n−1)mv。",
+              "n=7时仍能追上要求v_7<v，得到M>52kg；n=8时不能再追上对应v_8≥v，第8次退行速度题设为严格大于5m/s，故300/M>5，得到M<60kg。范围52kg<M<60kg，选B、C。"
+            ],
+            "knowledge_tags": [
+              "动量守恒与连续反冲"
+            ],
+            "type_tags": [
+              "由多次物块反弹和再次推动建立运动员速度界限"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案BC；设运动员质量M、物块质量m=4kg、每次推出速度v=5m/s。系统初始动量为零；墙的弹性碰撞使物块速度反向。；逐次对推物块过程列动量守恒，第n次后可得Mv_n=(2n−1)mv。；n=7时仍能追上要求v_7<v，得到M>52kg；n=8时不能再追上对应v_8≥v，第8次退行速度题设为严格大于5m/s，故300/M>5，得到M<60kg。范围52kg<M<60kg，选B、C。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把物块在挡板反射后的速度方向或次数条件弄错。",
+                "knowledge_tags": [
+                  "动量守恒与连续反冲"
+                ],
+                "type_tags": [
+                  "由多次物块反弹和再次推动建立运动员速度界限"
+                ]
+              },
+              {
+                "description": "遗漏第7次仍可追上、第8次不可追上的双边界。",
+                "knowledge_tags": [
+                  "动量守恒与连续反冲"
+                ],
+                "type_tags": [
+                  "由多次物块反弹和再次推动建立运动员速度界限"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "设运动员质量M、物块质量m=4kg、每次推出速度v=5m/s。系统初始动量为零；墙的弹性碰撞使物块速度反向。",
+        "逐次对推物块过程列动量守恒，第n次后可得Mv_n=(2n−1)mv。",
+        "n=7时仍能追上要求v_7<v，得到M>52kg；n=8时不能再追上对应v_8≥v，第8次退行速度题设为严格大于5m/s，故300/M>5，得到M<60kg。范围52kg<M<60kg，选B、C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "设运动员质量M、物块质量m=4kg、每次推出速度v=5m/s。系统初始动量为零；墙的弹性碰撞使物块速度反向。 | 逐次对推物块过程列动量守恒，第n次后可得Mv_n=(2n−1)mv。 | n=7时仍能追上要求v_7<v，得到M>52kg；n=8时不能再追上对应v_8≥v，第8次退行速度题设为严格大于5m/s，故300/M>5，得到M<60kg。范围52kg<M<60kg，选B、C。"
+    },
+    {
+      "question_id": "bank:gaokao:52bf5a2f44b3adfeab72",
+      "source_sha256": "756e225e9babe61532419aeb1b7bbb2289a038715a649b6a8cda326745938589",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:52bf5a2f44b3adfeab72",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "6. 水平桌面上, 一质量为 $m$ 的物体在水平恒力 $F$ 拉动下从静止开始运动, 物体通过的路程等 于 $s_{0}$ 时, 速度的大小为 $v_{0}$, 此时撤去 $F$, 物体继续滑行 $2 s_{0}$ 的路程后停止运动, 重力加速度大 小为 $g$, 则 $(\\quad)$\nA. 在此过程中 $F$ 所做的功为 $\\frac{1}{2} m v_{0}^{2}$\nB. 在此过中 $F$ 的冲量大小等于 $\\frac{3}{2} m v_{0}$\nC. 物体与桌面间的动摩擦因数等于 $\\frac{v_{0}^{2}}{4 s_{0} g}$\nD. $F$ 的大小等于物体所受滑动摩擦力大小的 2 倍",
+        "options": [
+          {
+            "key": "A",
+            "text": "在此过程中 $F$ 所做的功为 $\\frac{1}{2} m v_{0}^{2}$"
+          },
+          {
+            "key": "B",
+            "text": "在此过中 $F$ 的冲量大小等于 $\\frac{3}{2} m v_{0}$"
+          },
+          {
+            "key": "C",
+            "text": "物体与桌面间的动摩擦因数等于 $\\frac{v_{0}^{2}}{4 s_{0} g}$"
+          },
+          {
+            "key": "D",
+            "text": "$F$ 的大小等于物体所受滑动摩擦力大小的 2 倍"
+          }
+        ],
+        "answer": "BC",
+        "kind": "multiple_choice",
+        "steps": [
+          "【详解】CD. 外力撤去前, 由牛顿第二定律可知\n\n$$\nF-\\mu m g=m a_{1} \\text { (1) }\n$$\n\n由速度位移公式有\n\n$$\nv_{0}^{2}=2 a_{1} s_{0}(2\n$$\n\n外力撤去后, 由牛顿第二定律可知\n\n$$\n-\\mu m g=m a_{2}\n$$\n\n由速度位移公式有\n\n$$\n-v_{0}^{2}=2 a_{2}\\left(2 s_{0}\\right)\n$$\n\n由(1)(2)(3)(4)可得, 水平恒力\n\n$$\nF=\\frac{3 m v_{0}^{2}}{4 s_{0}}\n$$\n\n动摩擦因数\n\n$$\n\\mu=\\frac{v_{0}^{2}}{4 g s_{0}}\n$$\n\n滑动摩擦力\n\n$$\nF_{\\mathrm{f}}=\\mu m g=\\frac{m v_{0}^{2}}{4 s_{0}}\n$$\n\n可知 $F$ 的大小等于物体所受滑动摩擦力大小的 3 倍,\n\n故 C 正确，D 错误;\n\nA. 在此过程中, 外力 $F$ 做功为\n\n$$\nW=F s_{0}=\\frac{3}{4} m v_{0}^{2}\n$$\n\n故 A 错误;\n\nB. 由平均速度公式可知，外力 $F$ 作用时间\n\n$$\nt_{1}=\\frac{s_{0}}{\\frac{0+v_{0}}{2}}=\\frac{2 s_{0}}{v_{0}}\n$$\n\n在此过程中, $F$ 的冲量大小是\n\n$$\nI=F t_{1}=\\frac{3}{2} m v_{0}\n$$\n\n故 B 正确。\n\n故选 BC。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2021:（新课标ⅰ）:59",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u4:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "动能定理、冲量与摩擦"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由撤力后的滑行数据求摩擦因数、拉力冲量并判定选项"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "联立撤力后滑动减速和撤力前匀加速数据，进一步核查功与冲量。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u4:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-compulsory-2及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B",
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "6. 水平桌面上, 一质量为 $m$ 的物体在水平恒力 $F$ 拉动下从静止开始运动, 物体通过的路程等 于 $s_{0}$ 时, 速度的大小为 $v_{0}$, 此时撤去 $F$, 物体继续滑行 $2 s_{0}$ 的路程后停止运动, 重力加速度大 小为 $g$, 则 $(\\quad)$\nA. 在此过程中 $F$ 所做的功为 $\\frac{1}{2} m v_{0}^{2}$\nB. 在此过中 $F$ 的冲量大小等于 $\\frac{3}{2} m v_{0}$\nC. 物体与桌面间的动摩擦因数等于 $\\frac{v_{0}^{2}}{4 s_{0} g}$\nD. $F$ 的大小等于物体所受滑动摩擦力大小的 2 倍",
+            "reference_answer": "BC",
+            "solution_steps": [
+              "撤力后物体由v₀滑行2s₀停止，a₂=−v₀²/(4s₀)，故μg=v₀²/(4s₀)，C正确。",
+              "撤力前从静止滑行s₀到v₀，合加速度a₁=v₀²/(2s₀)。由F−μmg=ma₁得F=3mv₀²/(4s₀)，为摩擦力的3倍；D错误。",
+              "拉力作用时间由平均速度得t₁=2s₀/v₀，拉力冲量Ft₁=3mv₀/2，B正确。",
+              "拉力做功Fs₀=3mv₀²/4，不是½mv₀²，A错误；答案BC。"
+            ],
+            "knowledge_tags": [
+              "动能定理、冲量与摩擦"
+            ],
+            "type_tags": [
+              "由撤力后的滑行数据求摩擦因数、拉力冲量并判定选项"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案BC；撤力后物体由v₀滑行2s₀停止，a₂=−v₀²/(4s₀)，故μg=v₀²/(4s₀)，C正确。；撤力前从静止滑行s₀到v₀，合加速度a₁=v₀²/(2s₀)。由F−μmg=ma₁得F=3mv₀²/(4s₀)，为摩擦力的3倍；D错误。；拉力作用时间由平均速度得t₁=2s₀/v₀，拉力冲量Ft₁=3mv₀/2，B正确。；拉力做功Fs₀=3mv₀²/4，不是½mv₀²，A错误；答案BC。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "只分析撤力前阶段，忽略撤力后的减速距离。",
+                "knowledge_tags": [
+                  "动能定理、冲量与摩擦"
+                ],
+                "type_tags": [
+                  "由撤力后的滑行数据求摩擦因数、拉力冲量并判定选项"
+                ]
+              },
+              {
+                "description": "把合力冲量误当拉力冲量。",
+                "knowledge_tags": [
+                  "动能定理、冲量与摩擦"
+                ],
+                "type_tags": [
+                  "由撤力后的滑行数据求摩擦因数、拉力冲量并判定选项"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "撤力后物体由v₀滑行2s₀停止，a₂=−v₀²/(4s₀)，故μg=v₀²/(4s₀)，C正确。",
+        "撤力前从静止滑行s₀到v₀，合加速度a₁=v₀²/(2s₀)。由F−μmg=ma₁得F=3mv₀²/(4s₀)，为摩擦力的3倍；D错误。",
+        "拉力作用时间由平均速度得t₁=2s₀/v₀，拉力冲量Ft₁=3mv₀/2，B正确。",
+        "拉力做功Fs₀=3mv₀²/4，不是½mv₀²，A错误；答案BC。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "撤力后物体由v₀滑行2s₀停止，a₂=−v₀²/(4s₀)，故μg=v₀²/(4s₀)，C正确。 | 撤力前从静止滑行s₀到v₀，合加速度a₁=v₀²/(2s₀)。由F−μmg=ma₁得F=3mv₀²/(4s₀)，为摩擦力的3倍；D错误。 | 拉力作用时间由平均速度得t₁=2s₀/v₀，拉力冲量Ft₁=3mv₀/2，B正确。 | 拉力做功Fs₀=3mv₀²/4，不是½mv₀²，A错误；答案BC。"
+    },
+    {
+      "question_id": "bank:gaokao:e3a3d1ac13e5fd2abf90",
+      "source_sha256": "328518b01bb63743000693996f4d984380995ea876b37b99ac78d119f3e0cc48",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:gaokao:e3a3d1ac13e5fd2abf90",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "4. 两种放射性元素的半衰期分别为 $t_{0}$ 和 $2 t_{0}$, 在 $t=0$ 时刻这两种元素的原子核总数为 $N$, 在 $t=2 t_{0}$ 时刻, 尚末衰变的原子核总数为 $\\frac{N}{3}$, 则在 $t=4 t_{0}$ 时刻, 尚末衰变的原子核总数为\nA. $\\frac{N}{12}$\nB. $\\frac{N}{9}$\nC. $\\frac{N}{8}$\nD. $\\frac{N}{6}$",
+        "options": [
+          {
+            "key": "A",
+            "text": "$\\frac{N}{12}$"
+          },
+          {
+            "key": "B",
+            "text": "$\\frac{N}{9}$"
+          },
+          {
+            "key": "C",
+            "text": "$\\frac{N}{8}$"
+          },
+          {
+            "key": "D",
+            "text": "$\\frac{N}{6}$"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "steps": [
+          "【详解】根据题意设半衰期为 $t_{0}$ 的元素原子核数为 $x$, 另一种元素原子核数为 $y$, 依题意有\n\n$$\nx+y=N\n$$\n\n经历 $2 t_{0}$ 后有\n\n$$\n\\frac{1}{4} x+\\frac{1}{2} y=\\frac{N}{3}\n$$\n\n联立可得\n\n$$\nx=\\frac{2}{3} N, \\quad y=\\frac{1}{3} N\n$$\n\n在 $t=4 t_{0}$ 时, 原子核数为 $x$ 的元素经历了 4 个半衰期, 原子核数为 $y$ 的元素经历了 2 个半衰 期, 则此时末衰变的原子核总数为\n\n$$\nn=\\frac{1}{2^{4}} x+\\frac{1}{2^{2}} y=\\frac{N}{8}\n$$\n\n故选 C。"
+        ],
+        "difficulty": 2,
+        "difficulty_raw": 6,
+        "knowledge_tags": [
+          "原子核"
+        ],
+        "type_tags": [
+          "physics",
+          "objective"
+        ],
+        "tags_source": "heuristic",
+        "source_tags": [
+          "objective",
+          "2010-2022_Physics_MCQs"
+        ],
+        "status": "ready",
+        "issues": [],
+        "provenance": {
+          "dataset": "gaokao",
+          "source_id": "2022:（全国甲卷）:63",
+          "url": "https://github.com/OpenLMLab/GAOKAO-Bench/blob/6dbb24f8d8439041e5431c4c184a582182a6ce9c/Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "license": "Apache-2.0",
+          "source_file": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "download_revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+          "file_sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        "has_missing_assets": false,
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u5:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "半衰期与指数衰变"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由总数和中间时刻剩余数求两种核素初始数量及后续剩余数"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "建立两种半衰期的独立指数衰变方程并联立初始占比。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u5:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "按核对过的高中物理目录映射到主册physics-senior-selective-3及对应单元目标；题源未提供年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题需完整选出所有正确项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "4. 两种放射性元素的半衰期分别为 $t_{0}$ 和 $2 t_{0}$, 在 $t=0$ 时刻这两种元素的原子核总数为 $N$, 在 $t=2 t_{0}$ 时刻, 尚末衰变的原子核总数为 $\\frac{N}{3}$, 则在 $t=4 t_{0}$ 时刻, 尚末衰变的原子核总数为\nA. $\\frac{N}{12}$\nB. $\\frac{N}{9}$\nC. $\\frac{N}{8}$\nD. $\\frac{N}{6}$",
+            "reference_answer": "C",
+            "solution_steps": [
+              "设半衰期t₀的初始原子核数为x，半衰期2t₀的为y，则x+y=N。",
+              "经过2t₀后，x剩x/4，y剩y/2；方程x/4+y/2=N/3，解得x=2N/3、y=N/3。",
+              "经过4t₀后，前者剩x/16，后者剩y/4，总数=N/24+N/12=N/8，选C。"
+            ],
+            "knowledge_tags": [
+              "半衰期与指数衰变"
+            ],
+            "type_tags": [
+              "由总数和中间时刻剩余数求两种核素初始数量及后续剩余数"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice_evidence",
+                "description": "答案C；设半衰期t₀的初始原子核数为x，半衰期2t₀的为y，则x+y=N。；经过2t₀后，x剩x/4，y剩y/2；方程x/4+y/2=N/3，解得x=2N/3、y=N/3。；经过4t₀后，前者剩x/16，后者剩y/4，总数=N/24+N/12=N/8，选C。",
+                "points": null,
+                "evidence_required": "作答选项与各项物理关系判断一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把两种核素合并成一个统一半衰期。",
+                "knowledge_tags": [
+                  "半衰期与指数衰变"
+                ],
+                "type_tags": [
+                  "由总数和中间时刻剩余数求两种核素初始数量及后续剩余数"
+                ]
+              },
+              {
+                "description": "对经历2t₀和4t₀的衰变次数计算错误。",
+                "knowledge_tags": [
+                  "半衰期与指数衰变"
+                ],
+                "type_tags": [
+                  "由总数和中间时刻剩余数求两种核素初始数量及后续剩余数"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题阅读题干、全部选项、来源答案和解析，并独立复算/判析；本记录为Luna候选，不表示教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-gaokao-2"
+        }
+      },
+      "independent_solution": [
+        "设半衰期t₀的初始原子核数为x，半衰期2t₀的为y，则x+y=N。",
+        "经过2t₀后，x剩x/4，y剩y/2；方程x/4+y/2=N/3，解得x=2N/3、y=N/3。",
+        "经过4t₀后，前者剩x/16，后者剩y/4，总数=N/24+N/12=N/8，选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "设半衰期t₀的初始原子核数为x，半衰期2t₀的为y，则x+y=N。 | 经过2t₀后，x剩x/4，y剩y/2；方程x/4+y/2=N/3，解得x=2N/3、y=N/3。 | 经过4t₀后，前者剩x/16，后者剩y/4，总数=N/24+N/12=N/8，选C。"
+    }
+  ]
+}

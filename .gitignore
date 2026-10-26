@@ -1,0 +1,27 @@
+.venv/
+.env
+.env.*
+!.env.example
+# Runtime data contains accounts, learning records, uploads and source caches.
+/data/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+
+/output/
+# Temporary database copies, migration digests and extracted pages are private.
+/tmp/
+
+
+# Generated UI previews must stay outside source documentation.
+/docs/previews/
+
+# Android build outputs and private signing material.
+/android/.gradle/
+/android/local.properties
+/android/**/build/
+/android/generated/
+/android/wheels/*.whl
+/android/*.jks
+/android/signing.properties

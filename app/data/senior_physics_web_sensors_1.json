@@ -1,0 +1,717 @@
+{
+  "batch_id": "senior-20261015-physics-web-sensors-1",
+  "source_manifest": [
+    {
+      "path": "https://zy.21cnjy.com/22056465#sensor-functions-q1",
+      "revision": "2026-10-15",
+      "sha256": "1d9247f887c70803f22b47a0959f979d78de66bed2946b2f6d028472fda6a913",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/22056465"
+    },
+    {
+      "path": "https://zy.21cnjy.com/22056465#sensor-application-identification-q5",
+      "revision": "2026-10-15",
+      "sha256": "52594d1c8abc72f5b3d9b01af236917172012cbeee4e92fcdba2517997815d41",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/22056465"
+    },
+    {
+      "path": "https://zy.21cnjy.com/22056465#sensor-signal-workflow-q8",
+      "revision": "2026-10-15",
+      "sha256": "a23e643f1262741c7c7f20b66733df1b5b91c8ed4eb26a56975398a809fc304d",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/22056465"
+    },
+    {
+      "path": "https://zy.21cnjy.com/22056465#sensor-integrated-applications-q6",
+      "revision": "2026-10-15",
+      "sha256": "849d7f34fcf067f1def63efa6826309b0774ed746bf89996aca10522ad0d3d39",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/22056465"
+    }
+  ],
+  "items": [
+    {
+      "question_id": "bank:web-21jy-sensor-functions-q1",
+      "source_sha256": "cabe66883e0c1b2cc5b6bbcc0120bc07bfac1dc541a087d8d933b50fd4385ee7",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-sensor-functions-q1",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "关于传感器的作用，下列说法正确的是（多选）",
+        "options": [
+          {
+            "key": "A",
+            "text": "通常的传感器可以直接用来进行自动控制"
+          },
+          {
+            "key": "B",
+            "text": "传感器可以用来采集信息"
+          },
+          {
+            "key": "C",
+            "text": "通常的传感器可以将感受到的信号转换为电学量"
+          },
+          {
+            "key": "D",
+            "text": "所有的传感器都将感受到的信号转换为电学量"
+          }
+        ],
+        "answer": "BC",
+        "kind": "multiple_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "sensor-functions-q1",
+          "source_file": "https://zy.21cnjy.com/22056465",
+          "download_revision": "2026-10-15",
+          "file_sha256": "1d9247f887c70803f22b47a0959f979d78de66bed2946b2f6d028472fda6a913",
+          "url": "https://zy.21cnjy.com/22056465",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "2025人教版高中物理选择性必修第二册强化练习题（有解析）——第五章传感器：认识传感器",
+          "captured_excerpt_sha256": "1d9247f887c70803f22b47a0959f979d78de66bed2946b2f6d028472fda6a913"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u5:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "传感器的信息采集与信号转换"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "判断传感器的一般功能及信号转换范围"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "区分传感器采集信息、通常的电学转换作用与自动控制器功能。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u5:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "页面明确为人教版（2019）高中物理选择性必修第二册第五章传感器；按课程目录映射u5目标，不推断年级学期。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B",
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题须选全且不多选。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "关于传感器的作用，下列说法正确的是（多选）",
+            "reference_answer": "BC",
+            "solution_steps": [
+              "通常传感器把非电学量变化转换为电学量以便传递处理，不等于直接执行自动控制，因此A错误。",
+              "传感器用于采集信息，B正确。",
+              "通常传感器可把感受到的信号转为电学量，C正确。",
+              "并非所有传感器都输出电学量，例如干簧管可以作为磁控开关，故D错误。",
+              "答案BC。"
+            ],
+            "knowledge_tags": [
+              "传感器的信息采集与信号转换"
+            ],
+            "type_tags": [
+              "判断传感器的一般功能及信号转换范围"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "reasoning",
+                "description": "正确选BC；说明采集信息及通常转换为电学量，排除直接控制和“所有”绝对化表述",
+                "points": null,
+                "evidence_required": "传感器输入量、敏感元件及信号转换关系正确。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把传感器与控制器/执行器功能混同。",
+                "knowledge_tags": [
+                  "传感器的信息采集与信号转换"
+                ],
+                "type_tags": [
+                  "判断传感器的一般功能及信号转换范围"
+                ]
+              },
+              {
+                "description": "忽略“通常”和“所有”的范围差异。",
+                "knowledge_tags": [
+                  "传感器的信息采集与信号转换"
+                ],
+                "type_tags": [
+                  "判断传感器的一般功能及信号转换范围"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题实读来源页面完整文字、选项和答案解析；独立复核依据见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-sensors-1"
+        }
+      },
+      "independent_solution": [
+        "通常传感器把非电学量变化转换为电学量以便传递处理，不等于直接执行自动控制，因此A错误。",
+        "传感器用于采集信息，B正确。",
+        "通常传感器可把感受到的信号转为电学量，C正确。",
+        "并非所有传感器都输出电学量，例如干簧管可以作为磁控开关，故D错误。",
+        "答案BC。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "通常传感器把非电学量变化转换为电学量以便传递处理，不等于直接执行自动控制，因此A错误。；传感器用于采集信息，B正确。；通常传感器可把感受到的信号转为电学量，C正确。；并非所有传感器都输出电学量，例如干簧管可以作为磁控开关，故D错误。；答案BC。"
+    },
+    {
+      "question_id": "bank:web-21jy-sensor-application-identification-q5",
+      "source_sha256": "b42e6d75ec3021f34cc4a5c4aa7292e8a864d79e6eb555f1b7da2992f131dafd",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-sensor-application-identification-q5",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "关于传感器的实际应用，下列说法正确的是（多选）",
+        "options": [
+          {
+            "key": "A",
+            "text": "让孵化器在一定温度下孵化禽蛋，要用光传感器"
+          },
+          {
+            "key": "B",
+            "text": "电梯超出负载时发出报警提示，要用压力传感器"
+          },
+          {
+            "key": "C",
+            "text": "使汽车排放符合国家标准的尾气，要用化学成分传感器"
+          },
+          {
+            "key": "D",
+            "text": "交警使用的酒精检测仪应用了葡萄糖生物传感器"
+          }
+        ],
+        "answer": "BC",
+        "kind": "multiple_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "sensor-application-identification-q5",
+          "source_file": "https://zy.21cnjy.com/22056465",
+          "download_revision": "2026-10-15",
+          "file_sha256": "52594d1c8abc72f5b3d9b01af236917172012cbeee4e92fcdba2517997815d41",
+          "url": "https://zy.21cnjy.com/22056465",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "2025人教版高中物理选择性必修第二册强化练习题（有解析）——第五章传感器：认识传感器",
+          "captured_excerpt_sha256": "52594d1c8abc72f5b3d9b01af236917172012cbeee4e92fcdba2517997815d41"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u5:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "传感器应用与被测量类型"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "依据被测非电学量识别传感器类型"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "将温度、压力、气体化学成分分别映射到相应传感器，区分酒精气体检测与葡萄糖检测。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u5:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "页面明确为人教版（2019）高中物理选择性必修第二册第五章传感器；按课程目录映射u5目标，不推断年级学期。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B",
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题须选全且不多选。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "关于传感器的实际应用，下列说法正确的是（多选）",
+            "reference_answer": "BC",
+            "solution_steps": [
+              "孵化器检测温度需要温度传感器而非光传感器，A错误。",
+              "超载是压力/力学量检测，B正确。",
+              "尾气成分需要化学成分传感器检测，C正确。",
+              "酒精检测仪检测酒精气体，不是葡萄糖生物传感器，D错误。",
+              "答案BC。"
+            ],
+            "knowledge_tags": [
+              "传感器应用与被测量类型"
+            ],
+            "type_tags": [
+              "依据被测非电学量识别传感器类型"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "reasoning",
+                "description": "正确选BC；分别识别压力传感器、化学传感器的用途；排除温度与酒精检测的错误映射",
+                "points": null,
+                "evidence_required": "传感器输入量、敏感元件及信号转换关系正确。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "只凭“能自动工作”判断传感器种类。",
+                "knowledge_tags": [
+                  "传感器应用与被测量类型"
+                ],
+                "type_tags": [
+                  "依据被测非电学量识别传感器类型"
+                ]
+              },
+              {
+                "description": "把酒精气体传感器误作葡萄糖生物传感器。",
+                "knowledge_tags": [
+                  "传感器应用与被测量类型"
+                ],
+                "type_tags": [
+                  "依据被测非电学量识别传感器类型"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题实读来源页面完整文字、选项和答案解析；独立复核依据见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-sensors-1"
+        }
+      },
+      "independent_solution": [
+        "孵化器检测温度需要温度传感器而非光传感器，A错误。",
+        "超载是压力/力学量检测，B正确。",
+        "尾气成分需要化学成分传感器检测，C正确。",
+        "酒精检测仪检测酒精气体，不是葡萄糖生物传感器，D错误。",
+        "答案BC。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "孵化器检测温度需要温度传感器而非光传感器，A错误。；超载是压力/力学量检测，B正确。；尾气成分需要化学成分传感器检测，C正确。；酒精检测仪检测酒精气体，不是葡萄糖生物传感器，D错误。；答案BC。"
+    },
+    {
+      "question_id": "bank:web-21jy-sensor-signal-workflow-q8",
+      "source_sha256": "73003052016b905f979ea6aa938dead10228eeea0e8aef8e360d0e4a60f35471",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-sensor-signal-workflow-q8",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "关于传感器工作的一般流程，以下选项中正确的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "非电学量→敏感元件→转换电路→电学量→转换元件"
+          },
+          {
+            "key": "B",
+            "text": "电学量→敏感元件→转换电路→转换元件→非电学量"
+          },
+          {
+            "key": "C",
+            "text": "非电学量→敏感元件→转换元件→转换电路→电学量"
+          },
+          {
+            "key": "D",
+            "text": "非电学量→转换电路→转换元件→敏感元件→电学量"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "sensor-signal-workflow-q8",
+          "source_file": "https://zy.21cnjy.com/22056465",
+          "download_revision": "2026-10-15",
+          "file_sha256": "a23e643f1262741c7c7f20b66733df1b5b91c8ed4eb26a56975398a809fc304d",
+          "url": "https://zy.21cnjy.com/22056465",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "2025人教版高中物理选择性必修第二册强化练习题（有解析）——第五章传感器：认识传感器",
+          "captured_excerpt_sha256": "a23e643f1262741c7c7f20b66733df1b5b91c8ed4eb26a56975398a809fc304d"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u5:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "传感器的组成与工作流程"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "排序传感器从感知非电学量到输出电信号的环节"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "按敏感元件感知、转换元件转换、转换电路形成可用输出的顺序判断。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u5:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "页面明确为人教版（2019）高中物理选择性必修第二册第五章传感器；按课程目录映射u5目标，不推断年级学期。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题须选全且不多选。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "关于传感器工作的一般流程，以下选项中正确的是",
+            "reference_answer": "C",
+            "solution_steps": [
+              "输入的非电学量先由敏感元件感知。",
+              "转换元件把响应转换为电信号，转换电路再调理为易传输或测量的电学量。",
+              "流程为非电学量→敏感元件→转换元件→转换电路→电学量，选C。"
+            ],
+            "knowledge_tags": [
+              "传感器的组成与工作流程"
+            ],
+            "type_tags": [
+              "排序传感器从感知非电学量到输出电信号的环节"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "reasoning",
+                "description": "正确选C；指出敏感元件、转换元件、转换电路的正确顺序；选C",
+                "points": null,
+                "evidence_required": "传感器输入量、敏感元件及信号转换关系正确。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将转换电路放在敏感元件之前。",
+                "knowledge_tags": [
+                  "传感器的组成与工作流程"
+                ],
+                "type_tags": [
+                  "排序传感器从感知非电学量到输出电信号的环节"
+                ]
+              },
+              {
+                "description": "将转换元件与敏感元件的功能互换。",
+                "knowledge_tags": [
+                  "传感器的组成与工作流程"
+                ],
+                "type_tags": [
+                  "排序传感器从感知非电学量到输出电信号的环节"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题实读来源页面完整文字、选项和答案解析；独立复核依据见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-sensors-1"
+        }
+      },
+      "independent_solution": [
+        "输入的非电学量先由敏感元件感知。",
+        "转换元件把响应转换为电信号，转换电路再调理为易传输或测量的电学量。",
+        "流程为非电学量→敏感元件→转换元件→转换电路→电学量，选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "输入的非电学量先由敏感元件感知。；转换元件把响应转换为电信号，转换电路再调理为易传输或测量的电学量。；流程为非电学量→敏感元件→转换元件→转换电路→电学量，选C。"
+    },
+    {
+      "question_id": "bank:web-21jy-sensor-integrated-applications-q6",
+      "source_sha256": "70c6a3d47074bca7894b38e4401128bb44c1e0de55225625e916b6776e99f2be",
+      "decision": "pending",
+      "quarantine_original": true,
+      "question": {
+        "id": "bank:web-21jy-sensor-integrated-applications-q6",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "下列关于传感器的说法正确的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "话筒是一种常用的传感器，其作用是将电信号转换为声音信号"
+          },
+          {
+            "key": "B",
+            "text": "在天黑且楼道里出现声音时楼道灯才亮，控制电路中只需要用到声音传感器"
+          },
+          {
+            "key": "C",
+            "text": "烟雾散射火灾报警器是应用温度传感器实现火灾报警的"
+          },
+          {
+            "key": "D",
+            "text": "人脸识别系统需要使用光传感器和位移传感器"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "sensor-integrated-applications-q6",
+          "source_file": "https://zy.21cnjy.com/22056465",
+          "download_revision": "2026-10-15",
+          "file_sha256": "849d7f34fcf067f1def63efa6826309b0774ed746bf89996aca10522ad0d3d39",
+          "url": "https://zy.21cnjy.com/22056465",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "2025人教版高中物理选择性必修第二册强化练习题（有解析）——第五章传感器：认识传感器",
+          "captured_excerpt_sha256": "849d7f34fcf067f1def63efa6826309b0774ed746bf89996aca10522ad0d3d39"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u5:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "传感器在自动控制中的应用"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "综合判断声、光、温度及位移传感器的应用"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "区分传感器信号输入输出方向，并确定复合条件控制和成像系统所需的测量量。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u5:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "页面明确为人教版（2019）高中物理选择性必修第二册第五章传感器；按课程目录映射u5目标，不推断年级学期。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题须选全且不多选。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "下列关于传感器的说法正确的是",
+            "reference_answer": "D",
+            "solution_steps": [
+              "话筒把声音信号转换为电信号，不是相反，A错误。",
+              "楼道灯要判断天暗和有声音，需光传感器与声传感器，B错误。",
+              "烟雾散射报警器利用光传感器检测散射光，不是温度传感器，C错误。",
+              "人脸识别用光传感器采集面部图像，固定位置条件可由位移传感器检测，D正确。"
+            ],
+            "knowledge_tags": [
+              "传感器在自动控制中的应用"
+            ],
+            "type_tags": [
+              "综合判断声、光、温度及位移传感器的应用"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "reasoning",
+                "description": "正确选D；指出话筒的信号转换方向；说明复合控制及烟雾报警的传感器类型，选D",
+                "points": null,
+                "evidence_required": "传感器输入量、敏感元件及信号转换关系正确。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把扬声器的电声转换方向套用到话筒。",
+                "knowledge_tags": [
+                  "传感器在自动控制中的应用"
+                ],
+                "type_tags": [
+                  "综合判断声、光、温度及位移传感器的应用"
+                ]
+              },
+              {
+                "description": "把烟雾报警误当温度报警。",
+                "knowledge_tags": [
+                  "传感器在自动控制中的应用"
+                ],
+                "type_tags": [
+                  "综合判断声、光、温度及位移传感器的应用"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "conflict",
+          "issues": [
+            "缺少依据说明题设识别系统如何使用位移传感器；需补充位置检测的明确应用条件或核对原解析。"
+          ],
+          "method": "item_read",
+          "notes": "逐题审读题干及来源解析；D项虽为源答案，但题干未给出识别系统需要检测位置/位移的条件，现有信息不足以证明位移传感器必要，暂隔离。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-sensors-1"
+        }
+      },
+      "independent_solution": [
+        "话筒把声音信号转换为电信号，不是相反，A错误。",
+        "楼道灯要判断天暗和有声音，需光传感器与声传感器，B错误。",
+        "烟雾散射报警器利用光传感器检测散射光，不是温度传感器，C错误。",
+        "人脸识别用光传感器采集面部图像，固定位置条件可由位移传感器检测，D正确。"
+      ],
+      "source_conflicts": [
+        "来源将人脸识别系统表述为需要位移传感器，但仅凭人脸图像采集并不能证明位移传感器为必要组成。"
+      ],
+      "remaining_issues": [
+        "缺少依据说明题设识别系统如何使用位移传感器；需补充位置检测的明确应用条件或核对原解析。"
+      ],
+      "rationale": "光传感器采集图像有依据，但“人脸识别需要位移传感器”不由题干条件推出，故答案D不能唯一确证，暂pending。"
+    }
+  ]
+}

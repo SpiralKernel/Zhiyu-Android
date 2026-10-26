@@ -1,0 +1,687 @@
+[
+  {
+    "fine_types": [
+      "数轴三要素的识记与填空"
+    ],
+    "prerequisites": [
+      "原点、正方向和单位长度的概念"
+    ],
+    "common_errors": [
+      {
+        "description": "遗漏数轴三要素之一，或把刻度间距误当成正方向。",
+        "knowledge_tags": [
+          "数轴的三要素及其画法"
+        ],
+        "type_tags": [
+          "填空题"
+        ]
+      }
+    ],
+    "notes": "逐题阅读：要求补出数轴定义中的三个组成要素；来源答案逐项列出原点、正方向、单位长度。",
+    "question_id": "bank:cjeval:0163e9f9122691bed57fa150:b28853697d0d",
+    "source_sha256": "605aa8110c48a716755de245afda7fc62eb5868df3e8e464d442e1d89483ba16",
+    "parts": [
+      {
+        "reference_answer": "1. 原点\n2. 正方向\n3. 单位长度",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "答案须完整写出数轴的原点、正方向和单位长度三个要素。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "用正负号表示温度变化"
+    ],
+    "prerequisites": [
+      "相反意义的量与正负号约定"
+    ],
+    "common_errors": [
+      {
+        "description": "把气温减少误记为正数，或遗漏温度单位。",
+        "knowledge_tags": [
+          "相反意义的量"
+        ],
+        "type_tags": [
+          "填空题"
+        ]
+      }
+    ],
+    "notes": "逐题阅读：减少5度与增加量方向相反，来源给出的表达式为-5℃。",
+    "question_id": "bank:cjeval:0226ab288811c7c41c63812f:e93d2986b777",
+    "source_sha256": "f2f5a829d0dc5b9f7d614e0010dd3a30e3d2e184a7fdc021ee96107018108e19",
+    "parts": [
+      {
+        "reference_answer": "-5{}^\\circ \\text{C}",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "将减少方向表示为负号，写出-5℃或等价表达。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "由数轴距离求对应数"
+    ],
+    "prerequisites": [
+      "数轴两点距离等于对应数差的绝对值"
+    ],
+    "common_errors": [
+      {
+        "description": "只向右移动4个单位而漏掉左侧对称位置。",
+        "knowledge_tags": [
+          "数轴上两点之间的距离",
+          "绝对值方程"
+        ],
+        "type_tags": [
+          "填空题"
+        ]
+      }
+    ],
+    "notes": "逐题阅读：列|x-3|=4并分类，来源答案为-1或7。",
+    "question_id": "bank:cjeval:06c77a33dc531f335970c0a1:df2d36e77cae",
+    "source_sha256": "f8d7907095c05b6b7553ded127c8695fe24e56e50286d6d2e3b70b1eb24a32f1",
+    "parts": [
+      {
+        "reference_answer": "-1或7",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "设所求数为x，由|x-3|=4得到x=-1或x=7，两个解均须给出。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "情境中正负量意义辨析"
+    ],
+    "prerequisites": [
+      "相反意义的量与基准量"
+    ],
+    "common_errors": [
+      {
+        "description": "把基准值误当成实际值，或混淆相反方向与相反意义。",
+        "knowledge_tags": [
+          "正数、负数的意义"
+        ],
+        "type_tags": [
+          "单选题"
+        ]
+      }
+    ],
+    "notes": "逐题阅读选择题；来源解析对D的基准高度解释支持答案D。",
+    "exclude_reason": "来源解析自相矛盾：B、C、D的分析均与其后的“只有D正确”冲突，且选项D的基准高度计算也错误。",
+    "question_id": "bank:cjeval:207debbc640dd4d81a17f888:8ce4afbfd8f9",
+    "source_sha256": "d6c2f96d19f4b224b323f76ec62b2110c4c4285a54a8270bd6c61e5d0d015599"
+  },
+  {
+    "fine_types": [
+      "有理数集合中负数个数统计"
+    ],
+    "prerequisites": [
+      "负数定义与分数、小数的符号判断"
+    ],
+    "common_errors": [
+      {
+        "description": "把正分数或正整数误计为负数。",
+        "knowledge_tags": [
+          "正数、负数的意义"
+        ],
+        "type_tags": [
+          "单选题"
+        ]
+      }
+    ],
+    "notes": "逐题阅读：给定列表中仅-3和-0.5为负数，共2个。",
+    "question_id": "bank:cjeval:32e0dc088dd004e04d8b5d33:168d4ae45fb8",
+    "source_sha256": "3506a83fcb5f559682f14b41ea827e38a9c3394680239a691b7ee202ab49a4de",
+    "parts": [
+      {
+        "reference_answer": "B",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "逐一识别负数-3和-0.5，得数量2。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "数轴移动与有理数加减"
+    ],
+    "prerequisites": [
+      "数轴方向与有理数加减法"
+    ],
+    "common_errors": [
+      {
+        "description": "把向左移动也当作加正数，导致方向符号错误。",
+        "knowledge_tags": [
+          "数轴上的动点问题",
+          "加减法统一加法运算"
+        ],
+        "type_tags": [
+          "单选题"
+        ]
+      }
+    ],
+    "notes": "逐题阅读：终点为-2+8-6=0，来源答案B。",
+    "question_id": "bank:cjeval:6382fe97e747ab7b175826b5:69a39971ca91",
+    "source_sha256": "c145bdf0c99670fe655ed99ec7b7be5207c60c1d121d3c5b6ed2e6b9874085ba",
+    "parts": [
+      {
+        "reference_answer": "B",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "按数轴方向计算-2+8-6=0，选择对应选项B。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "相反意义量的符号表示"
+    ],
+    "prerequisites": [
+      "正负数表示一对相反意义的量"
+    ],
+    "common_errors": [
+      {
+        "description": "按口语中的“减去”误写成运算式，而未按得分变化方向表示。",
+        "knowledge_tags": [
+          "相反意义的量"
+        ],
+        "type_tags": [
+          "填空题"
+        ]
+      }
+    ],
+    "notes": "逐题阅读：获得10分作为正向基准，减去20分表示为-20分。",
+    "question_id": "bank:cjeval:8d118d884346f50c997ebb4a:fc20f0dacaa2",
+    "source_sha256": "ea019894cd210152bd2fdb9946f624e2db43baf825c3362b2ce5fd3f45bc8603",
+    "parts": [
+      {
+        "reference_answer": "-20分",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "由得分正向约定，减去20分记为-20分。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "用绝对值表示数轴两点距离"
+    ],
+    "prerequisites": [
+      "实数差的绝对值"
+    ],
+    "common_errors": [
+      {
+        "description": "写成m-n而未考虑点的位置次序，遗漏绝对值。",
+        "knowledge_tags": [
+          "数轴上两点之间的距离"
+        ],
+        "type_tags": [
+          "填空题"
+        ]
+      }
+    ],
+    "notes": "逐题阅读：两点坐标为m、n，距离为|m-n|。",
+    "question_id": "bank:cjeval:b7796eacb294115c03e80966:95692d617881",
+    "source_sha256": "36eedcc087b11c594d96edc5c977f28e63c05aa27ba408d77a717fe5e12aca2a",
+    "parts": [
+      {
+        "reference_answer": "|m-n|",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "写出两实数所对应点间距离|m-n|。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "坐标变换迭代与周期规律"
+    ],
+    "prerequisites": [
+      "有序数对与平面直角坐标系"
+    ],
+    "common_errors": [
+      {
+        "description": "忽略变换中坐标交换或平移常数，未先求周期。",
+        "knowledge_tags": [
+          "点坐标规律探索"
+        ],
+        "type_tags": [
+          "填空题"
+        ]
+      }
+    ],
+    "notes": "逐题阅读：按Q'=(1-y,x+2)逐次迭代；参考答案给出Q2018=(1,4)。",
+    "question_id": "bank:cjeval:e2f37b5519d15bd9f68a05f5:e16b7fe71c19",
+    "source_sha256": "6eae9af62dff09b39530f2355e02d069b3e9a209335158f3a553e5a976e93555",
+    "parts": [
+      {
+        "reference_answer": "(1,4)",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "按变换Q′=(1-y,x+2)逐次计算并识别四步周期；Q2018=(1,4)。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "二元一次方程组解决分段优惠预算问题"
+    ],
+    "prerequisites": [
+      "一元一次方程与单价、总价关系"
+    ],
+    "notes": "逐题阅读：两种书的总价和单价差建立方程；第二问按超过110本后的八折分别计算节省额。题干有明确(1)(2)，来源答案需待核对拆分。",
+    "question_id": "bank:cmm:1637:5d646d1b6ac2",
+    "source_sha256": "4ffd32c4ef54e1c535b74ce69073645fa49039b0fe826ce600c4782d94b4a0ca",
+    "parts": [
+      {
+        "reference_answer": "甲种书每本20元，乙种书每本35元。",
+        "knowledge_tags": [
+          "一元一次方程",
+          "商品销售问题"
+        ],
+        "rubric": [
+          {
+            "id": "p1_solution",
+            "description": "设甲价x，列出120x+100(x+15)=5900，解得x=20并求乙价35。",
+            "evidence_required": "列式、解得甲价和乙价均正确。"
+          }
+        ]
+      },
+      {
+        "reference_answer": "节省480元。",
+        "knowledge_tags": [
+          "商品销售问题",
+          "折扣问题"
+        ],
+        "rubric": [
+          {
+            "id": "p2_saving",
+            "description": "仅对购买120本、超过110本的甲种书按原价的20%计算节省额，得480元。",
+            "evidence_required": "正确识别适用折扣的品种并列式计算。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "线段长度条件下尺规作图可行性判断"
+    ],
+    "prerequisites": [
+      "线段和差及三角形三边关系"
+    ],
+    "notes": "逐题阅读：根据已知线段判别所要求图形作图是否可能；保留来源答案选项，不推断题图条件。",
+    "question_id": "bank:cmm:2103:87b79c44264b",
+    "source_sha256": "73f3c9a159edd0c3f6f7bc1a9ac1c6dc9bcb6e247e04886429c7b2139fa60b1c",
+    "parts": [
+      {
+        "reference_answer": "C",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "判断延长线方向：C在BA的延长线上时，BC必大于BA，不可能满足BC=AB，故选C。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "同底数幂关系求倒数指数和"
+    ],
+    "prerequisites": [
+      "幂的乘方与指数运算"
+    ],
+    "notes": "逐题阅读：利用125=5^3、8=2^3及共同幂值关系改写指数后求式值。",
+    "question_id": "bank:cmm:23579:74383865b5d9",
+    "source_sha256": "4d0e0a77e5373fa6c8e7adce64534a4c8e7fe539d83de53e0f62a217f0df21e5",
+    "parts": [
+      {
+        "reference_answer": "B",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "由125^x=1000与8^y=1000，得1000^(2/x)=125²、1000^(2/y)=8²；相乘可得目标值为2，选择B。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "用频率估计总体中红球数量"
+    ],
+    "prerequisites": [
+      "频率估计概率与样本比例估计总体比例"
+    ],
+    "common_errors": [
+      {
+        "description": "把样本频率当作每次必然结果，或误用总球数作除数方向。",
+        "knowledge_tags": [
+          "计数"
+        ],
+        "type_tags": [
+          "应用题"
+        ]
+      }
+    ],
+    "notes": "逐题阅读：摸球放回重复试验，红球频率约0.6，估计1000个中约600个。",
+    "question_id": "bank:cmm:2404:2cc7a9fad2ae",
+    "source_sha256": "a65cf90cd3852773e57d97016a5943701df9745b74c4adf22c5379b32789bfaa",
+    "parts": [
+      {
+        "reference_answer": "600 个.",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "用样本频率0.6估计红球比例，计算1000×0.6=600个。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "分式混合运算化简并用方程根代入求值"
+    ],
+    "prerequisites": [
+      "分式乘除、因式分解、一元二次方程根的关系"
+    ],
+    "notes": "逐题阅读：通分和因式分解后先保留原式定义域a≠±1；方程根1、2中a=1使原式无意义，故a=2，原式值为2。",
+    "question_id": "bank:cmm:2939:d80ea9f78288",
+    "source_sha256": "d7ff467dc8eee43e087d5b6061bf9192f68b7f4b9aa1d026fcc7f1fa570da531",
+    "parts": [
+      {
+        "reference_answer": "$\\left(a-\\frac{2 a}{a+1}\\right) \\div\\left(\\frac{a^{2}-2 a+1}{a^{2}-1}\\right)$\n\n$=\\frac{a(a+1)-2 a}{a+1} \\times \\frac{(a+1)(a-1)}{(a-1)^{2}}$\n\n$=\\frac{a^{2}-a}{a-1}$\n\n$=\\frac{a(a-1)}{a-1}$\n\n$=a$,\n\n由 $a^{2}-3 a+2=0$, 得 $a=1$ 或 $a=2$,\n\n$\\because$ 当 $a=1$ 时, $a-1=0$, 使得原分式无意义,\n\n$\\therefore a=2$, 原式 $=2$.",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "先化简并保留原式定义域a≠±1；方程根1、2中只有a=2可代入，原式值为2。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "命题逆命题真伪判断"
+    ],
+    "prerequisites": [
+      "命题与逆命题的定义"
+    ],
+    "notes": "逐题阅读：把原命题的条件和结论互换后判断其真假；来源缺少解析，保留来源答案作为候选。",
+    "question_id": "bank:cmm:4245:7f2b900c0205",
+    "source_sha256": "b552b3b76149a3d91ddb94244e91c799cabcd67253fab127a042dd09df3e922c",
+    "parts": [
+      {
+        "reference_answer": "B",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "检验各命题的逆命题；“对应角相等”不能推出两个三角形全等，故该逆命题为假，选B。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "不等式性质辨析"
+    ],
+    "prerequisites": [
+      "不等式的基本性质"
+    ],
+    "notes": "逐题阅读：给定x>y，逐项检验不等式变形是否保持方向；来源缺少解析，答案仅来源记录。",
+    "question_id": "bank:cmm:4720:4feb67ea039f",
+    "source_sha256": "ec7b5a26ce19c9ef8ad71e50a4bf9a138759db030e75c7a3d8a97c8b9c9fdb55",
+    "parts": [
+      {
+        "reference_answer": "D",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "由x>y同乘负数-5需反向，得到-5x<-5y，因此错误项为D。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "等可能模型下游戏公平条件求参数"
+    ],
+    "prerequisites": [
+      "概率等于有利结果数与总结果数之比"
+    ],
+    "notes": "逐题阅读：白球x个、绿球2x个、黑球10-3x个，公平要求绿球概率等于黑球概率。",
+    "question_id": "bank:cmm:621:4de38e3cdc7f",
+    "source_sha256": "2e48b7be606dbb90f86c1a9a6026c5e734aab0a250b9da696d5e44e208bc1184",
+    "parts": [
+      {
+        "reference_answer": "D",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "公平要求绿球与黑球概率相同，即2x=10-3x，得x=2，选择D。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "利用同类项指数相同求参数代数式"
+    ],
+    "prerequisites": [
+      "同类项定义与指数相等条件"
+    ],
+    "notes": "逐题阅读：比较x、y指数分别列方程，再求m-2n；选项答案保留来源值。",
+    "exclude_reason": "来源解析计算错误：由指数相同得m=1、n=2，因此m-2n=-3；来源却算成-1并给出互相冲突的选项答案。",
+    "question_id": "bank:tal:076ed741f2cb4477a682cf71b7054cad:22ec3b9b5c1b",
+    "source_sha256": "df6a810428775cea34edaf706ba3da7017ad68df2bd2d8f0d89851beca8c347f"
+  },
+  {
+    "fine_types": [
+      "严格递增正整数数列的极值构造"
+    ],
+    "prerequisites": [
+      "正整数求和估界与递增约束"
+    ],
+    "notes": "逐题阅读竞赛选择题：先界定前五项和的最大值，再在约束和条件下最小化x9-x1；来源解答自身有构造瑕疵，答案保持source_only。",
+    "exclude_reason": "来源构造违反题设严格递增：解析令x6=x7=27；其关键取值构造无效，答案不可可靠采纳。",
+    "question_id": "bank:tal:3b41d4ddc8cd4e138a0757f1c174e640:6ab8757e07b9",
+    "source_sha256": "49dfc71b4715a82ba164a400c387c20fd0b71111d01e0dd54eea3c72ea7881c6"
+  },
+  {
+    "fine_types": [
+      "配方法与非负项判零求代数式平方根"
+    ],
+    "prerequisites": [
+      "完全平方公式与平方根定义"
+    ],
+    "notes": "逐题阅读：利用二次式非负项和为零求m、n，再求-mn²的平方根；题目给实数条件。",
+    "question_id": "bank:tal:5cbd99a693d947abaf4ad5ff30cfbf98:0286567def6c",
+    "source_sha256": "2bb62719e3fd8f0f4f50b93fd7d6395ce5c9c87700f7f14ae1b59e3ffef4e5a5",
+    "parts": [
+      {
+        "reference_answer": "B",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "配方得(m+1/2)²+2(n-1/3)²=0，故m=-1/2,n=1/3；-mn²=1/18，其平方根为±√2/6。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fine_types": [
+      "质数参数下分数最简性判断"
+    ],
+    "prerequisites": [
+      "约分与最大公因数"
+    ],
+    "notes": "逐题阅读：依据a、b为不同质数逐项判断分子分母是否有公因数；来源答案记录为选择项。",
+    "question_id": "bank:tal:c73fd71416df4e498c6a575f53f2f938:9b9947e36ad7",
+    "source_sha256": "afdda178ec80efeb0365128ed1cf10cc94b2d24e76594ea0eb3f927630edfd40",
+    "parts": [
+      {
+        "reference_answer": "B",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "用质数条件检查四项分子分母的公因数：①、④恒为互素，②、③可约；按题目所问对应选项B。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:1a0df8243603155bcae32779:ba1aa404d37b",
+    "source_sha256": "50ead8b6cbc4937cc586be18b4da58ca1cd85dd2f1e62d25eb0af435d0112b07",
+    "fine_types": [
+      "用正负号表示节约与浪费"
+    ],
+    "prerequisites": [],
+    "parts": [
+      {
+        "reference_answer": "-3.2",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "节约记为正，则浪费方向相反，答案为-3.2吨。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ],
+    "notes": "逐题阅读并核对题干、选项和来源答案。"
+  },
+  {
+    "question_id": "bank:cjeval:39380e634eb4e16b377ec319:677bd0381e59",
+    "source_sha256": "0edbe861108d4b7dde2f29cba4e9e4924c497c424afa44d13c0d876a52dc213a",
+    "fine_types": [
+      "整数概念辨析"
+    ],
+    "prerequisites": [],
+    "parts": [
+      {
+        "reference_answer": "B",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "指出0是整数，因此选项B“不为整数”是不正确说法。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ],
+    "notes": "逐题阅读并核对题干、选项和来源答案。"
+  },
+  {
+    "question_id": "bank:cmm:184:8ea8c36615f4",
+    "source_sha256": "88d6bcec2fe8ea9b8775708fc5f04fb60681f46a3225418dbf26c661a0527ea0",
+    "fine_types": [
+      "二次函数图像平移后的解析式"
+    ],
+    "prerequisites": [],
+    "parts": [
+      {
+        "reference_answer": "A",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "向左平移3单位将x替换为x+3，向上平移4单位将函数值加4，得y=-1/2(x+3)^2+4，选A。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ],
+    "notes": "逐题阅读并核对题干、选项和来源答案。"
+  },
+  {
+    "question_id": "bank:cmm:23793:51448b266b8b",
+    "source_sha256": "48491d995b27cb99a3af91117fb080d2754887aa88f9e6e67a685c735cd0a9ce",
+    "fine_types": [
+      "统计调查总体、个体、样本概念辨析"
+    ],
+    "prerequisites": [],
+    "parts": [
+      {
+        "reference_answer": "C",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "1500名抽查学生的体重数据构成样本，选择C。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ],
+    "notes": "逐题阅读并核对题干、选项和来源答案。"
+  },
+  {
+    "question_id": "bank:cmm:2654:610c50fc9ae3",
+    "source_sha256": "39b73edfb743d20dd44ac36d8d192592421b494d496206cea7614ef64f0f7d9f",
+    "fine_types": [
+      "完全平方公式识别与因式分解"
+    ],
+    "prerequisites": [],
+    "parts": [
+      {
+        "reference_answer": "D",
+        "rubric": [
+          {
+            "id": "item_read_key",
+            "description": "x^2-x+1/4=(x-1/2)^2，选择D。",
+            "evidence_required": "呈现描述中的核心判断、关系或运算，并得到来源答案。"
+          }
+        ]
+      }
+    ],
+    "notes": "逐题阅读并核对题干、选项和来源答案。"
+  }
+]

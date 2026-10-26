@@ -1,0 +1,5130 @@
+{
+  "batch_id": "senior-20261015-physics-agieval-1",
+  "source_manifest": [
+    {
+      "path": "data/v1_1/gaokao-physics.jsonl",
+      "revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+      "sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+      "license": "Original dataset licenses apply; repository code MIT",
+      "source_url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl"
+    }
+  ],
+  "items": [
+    {
+      "question_id": "bank:agieval-gaokao-physics:12",
+      "source_sha256": "3c3ceae41bdbd3cef9fd8265b14146143f639b031a52f11bc674d39c3b4e1328",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:12",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "某兴趣小组探究用不同方法测定干电池的电动势和内阻, 他们提出 的实验方案中有如下四种器材组合. 为使实验结果尽可能准确, 最不可取的 一组器材是",
+        "options": [
+          {
+            "key": "A",
+            "text": "一个安培表、一个伏特表和一个滑动变阻器"
+          },
+          {
+            "key": "B",
+            "text": "一个伏特表和多个定值电阻"
+          },
+          {
+            "key": "C",
+            "text": "一个安培表和一个电阻箱"
+          },
+          {
+            "key": "D",
+            "text": "两个安培表和一个滑动变阻器"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:12",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2016年北京市高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "闭合电路欧姆定律与电动势内阻实验"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "比较伏安法、伏阻法和安阻法测电源参数的器材方案"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "需根据已知电阻、电压/电流测量量评估能否拟合E、r；题目比较实验可测性。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-3:u4:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "某兴趣小组探究用不同方法测定干电池的电动势和内阻, 他们提出 的实验方案中有如下四种器材组合. 为使实验结果尽可能准确, 最不可取的 一组器材是",
+            "reference_answer": "D",
+            "solution_steps": [
+              "伏安表加滑动变阻器可测多组端电压与电流，作U-I关系求电动势与内阻，方案A可行。",
+              "电压表配多个已知定值电阻，可由I=U/R取得外电流并建立U-I关系，方案B可行。",
+              "电流表和电阻箱给出已知外电阻与电流，可用E=I(R+r)求源参数，方案C可行。",
+              "两个电流表和滑动变阻器没有独立的电压读数或确定电阻来形成电压-电流关系，最难准确求E与r，选D。"
+            ],
+            "knowledge_tags": [
+              "闭合电路欧姆定律与电动势内阻实验"
+            ],
+            "type_tags": [
+              "比较伏安法、伏阻法和安阻法测电源参数的器材方案"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选D；伏安表加滑动变阻器可测多组端电压与电流，作U-I关系求电动势与内阻，方案A可行。；电压表配多个已知定值电阻，可由I=U/R取得外电流并建立U-I关系，方案B可行。；电流表和电阻箱给出已知外电阻与电流，可用E=I(R+r)求源参数，方案C可行。；两个电流表和滑动变阻器没有独立的电压读数或确定电阻来形成电压-电流关系，最难准确求E与r，选D。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把任何包含电流表的电路都误认为足以测电动势和内阻。",
+                "knowledge_tags": [
+                  "闭合电路欧姆定律与电动势内阻实验"
+                ],
+                "type_tags": [
+                  "比较伏安法、伏阻法和安阻法测电源参数的器材方案"
+                ]
+              },
+              {
+                "description": "忽略实验中必须获得可确定的端电压或外电阻。",
+                "knowledge_tags": [
+                  "闭合电路欧姆定律与电动势内阻实验"
+                ],
+                "type_tags": [
+                  "比较伏安法、伏阻法和安阻法测电源参数的器材方案"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "伏安表加滑动变阻器可测多组端电压与电流，作U-I关系求电动势与内阻，方案A可行。",
+        "电压表配多个已知定值电阻，可由I=U/R取得外电流并建立U-I关系，方案B可行。",
+        "电流表和电阻箱给出已知外电阻与电流，可用E=I(R+r)求源参数，方案C可行。",
+        "两个电流表和滑动变阻器没有独立的电压读数或确定电阻来形成电压-电流关系，最难准确求E与r，选D。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "伏安表加滑动变阻器可测多组端电压与电流，作U-I关系求电动势与内阻，方案A可行。；电压表配多个已知定值电阻，可由I=U/R取得外电流并建立U-I关系，方案B可行。；电流表和电阻箱给出已知外电阻与电流，可用E=I(R+r)求源参数，方案C可行。；两个电流表和滑动变阻器没有独立的电压读数或确定电阻来形成电压-电流关系，最难准确求E与r，选D。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:48",
+      "source_sha256": "f82bcc3b3c90c75c42a8916a876b91ced1604216892ae025792fb65700183575",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:48",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "很多相同的绝缘铜圆环沿坚直方向叠放, 形成一很长的坚直圆 筒. 一条形磁铁沿圆筒的中心轴坚直放置, 其下端与圆筒上端开口平齐. 让 条形磁铁从静止开始下落. 条形磁铁在圆筒中的运动速率",
+        "options": [
+          {
+            "key": "A",
+            "text": "均匀增大"
+          },
+          {
+            "key": "B",
+            "text": "先增大, 后减小"
+          },
+          {
+            "key": "C",
+            "text": "逐渐增大,趋于不变"
+          },
+          {
+            "key": "D",
+            "text": "先增大, 再减小, 最后不变"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:48",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2014年物理试卷（大纲卷）"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u2:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "涡流与楞次定律"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "判断磁铁在绝缘环叠成的导体筒中下落的速度变化"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "楞次定律使涡流磁场阻碍磁通变化，磁铁受到随速度增大的电磁阻力并趋于终端速度。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u2:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u2:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "很多相同的绝缘铜圆环沿坚直方向叠放, 形成一很长的坚直圆 筒. 一条形磁铁沿圆筒的中心轴坚直放置, 其下端与圆筒上端开口平齐. 让 条形磁铁从静止开始下落. 条形磁铁在圆筒中的运动速率",
+            "reference_answer": "C",
+            "solution_steps": [
+              "磁铁下落时穿过每个闭合铜环的磁通量随位置改变，环中产生感应电流。",
+              "依楞次定律，感应磁场阻碍磁铁相对线圈的运动，产生向上的电磁阻力；下落速度增加时感应效应增强。",
+              "经过较长筒段后，电磁阻力趋近于重力，速度逐渐趋于稳定的终端值，符合C。"
+            ],
+            "knowledge_tags": [
+              "涡流与楞次定律"
+            ],
+            "type_tags": [
+              "判断磁铁在绝缘环叠成的导体筒中下落的速度变化"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；磁铁下落时穿过每个闭合铜环的磁通量随位置改变，环中产生感应电流。；依楞次定律，感应磁场阻碍磁铁相对线圈的运动，产生向上的电磁阻力；下落速度增加时感应效应增强。；经过较长筒段后，电磁阻力趋近于重力，速度逐渐趋于稳定的终端值，符合C。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把铜环误认为绝缘而忽略感应电流。",
+                "knowledge_tags": [
+                  "涡流与楞次定律"
+                ],
+                "type_tags": [
+                  "判断磁铁在绝缘环叠成的导体筒中下落的速度变化"
+                ]
+              },
+              {
+                "description": "认为磁铁下落时电磁力会帮助而非阻碍磁通变化。",
+                "knowledge_tags": [
+                  "涡流与楞次定律"
+                ],
+                "type_tags": [
+                  "判断磁铁在绝缘环叠成的导体筒中下落的速度变化"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "磁铁下落时穿过每个闭合铜环的磁通量随位置改变，环中产生感应电流。",
+        "依楞次定律，感应磁场阻碍磁铁相对线圈的运动，产生向上的电磁阻力；下落速度增加时感应效应增强。",
+        "经过较长筒段后，电磁阻力趋近于重力，速度逐渐趋于稳定的终端值，符合C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "磁铁下落时穿过每个闭合铜环的磁通量随位置改变，环中产生感应电流。；依楞次定律，感应磁场阻碍磁铁相对线圈的运动，产生向上的电磁阻力；下落速度增加时感应效应增强。；经过较长筒段后，电磁阻力趋近于重力，速度逐渐趋于稳定的终端值，符合C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:73",
+      "source_sha256": "54ec5136be27f1c1480f7a991add29c7dcf9fbbe02999070207cab138c34829f",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:73",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "假如全世界 60 亿人同时数 $1 \\mathrm{~g}$ 水的分子个数, 每人每小时可以数 5000 个, 不间断地数, 则完成任务所需时间最接近 (阿伏加德罗常数 $\\mathrm{N}_{\\mathrm{A}}$ 取 $\\left.6 \\times 10^{23} \\mathrm{~mol}^{-1}\\right)(\\quad)$",
+        "options": [
+          {
+            "key": "A",
+            "text": "10 年"
+          },
+          {
+            "key": "B",
+            "text": "1 千年"
+          },
+          {
+            "key": "C",
+            "text": "10 万年"
+          },
+          {
+            "key": "D",
+            "text": "1 千万年"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:73",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2008年北京市高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "阿伏伽德罗常数与物质的量"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "估算全球同时清点1g水分子所需时间"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "先用物质的量求粒子数，再除以全球每小时计数总量并换算成年。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-3:u1:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "假如全世界 60 亿人同时数 $1 \\mathrm{~g}$ 水的分子个数, 每人每小时可以数 5000 个, 不间断地数, 则完成任务所需时间最接近 (阿伏加德罗常数 $\\mathrm{N}_{\\mathrm{A}}$ 取 $\\left.6 \\times 10^{23} \\mathrm{~mol}^{-1}\\right)(\\quad)$",
+            "reference_answer": "C",
+            "solution_steps": [
+              "1g水的物质的量约为1/18 mol，分子数N≈(1/18)×6×10²³≈3.3×10²²。",
+              "60亿人每小时合计可数6×10⁹×5000=3×10¹³个。",
+              "所需时间约为1.1×10⁹h，除以8760h/年约1.27×10⁵年，最接近10万年，选C。"
+            ],
+            "knowledge_tags": [
+              "阿伏伽德罗常数与物质的量"
+            ],
+            "type_tags": [
+              "估算全球同时清点1g水分子所需时间"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；1g水的物质的量约为1/18 mol，分子数N≈(1/18)×6×10²³≈3.3×10²²。；60亿人每小时合计可数6×10⁹×5000=3×10¹³个。；所需时间约为1.1×10⁹h，除以8760h/年约1.27×10⁵年，最接近10万年，选C。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把1g水的摩尔质量当作1g/mol。",
+                "knowledge_tags": [
+                  "阿伏伽德罗常数与物质的量"
+                ],
+                "type_tags": [
+                  "估算全球同时清点1g水分子所需时间"
+                ]
+              },
+              {
+                "description": "漏掉60亿人同时计数的乘数。",
+                "knowledge_tags": [
+                  "阿伏伽德罗常数与物质的量"
+                ],
+                "type_tags": [
+                  "估算全球同时清点1g水分子所需时间"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "1g水的物质的量约为1/18 mol，分子数N≈(1/18)×6×10²³≈3.3×10²²。",
+        "60亿人每小时合计可数6×10⁹×5000=3×10¹³个。",
+        "所需时间约为1.1×10⁹h，除以8760h/年约1.27×10⁵年，最接近10万年，选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "1g水的物质的量约为1/18 mol，分子数N≈(1/18)×6×10²³≈3.3×10²²。；60亿人每小时合计可数6×10⁹×5000=3×10¹³个。；所需时间约为1.1×10⁹h，除以8760h/年约1.27×10⁵年，最接近10万年，选C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:83",
+      "source_sha256": "5eadbc7742adedc0c9eb13ff7276f4030db7a38862f7eed98d2b4b81b24cf7c2",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:83",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "通过一理想变压器, 经同一线路输送相同的电功率 $\\mathrm{P}$, 原线圈的电压 $\\mathrm{U}$ 保持不 变, 输电线路的总电阻为 $\\mathrm{R}$. 当副线圈与原线圈的匝数比为 $\\mathrm{k}$ 时, 线路损耗的电功率为 $\\mathrm{P}_{1}$, 若将副线圈与原线圈的匝数比提高到 $\\mathrm{nk}$, 线路损耗的电功率为 $\\mathrm{P}_{2}$, 则 $\\mathrm{P}_{1}$ 和 $\\frac{P_{2}}{P_{1}}$ 分别 为",
+        "options": [
+          {
+            "key": "A",
+            "text": "$\\frac{P R}{k U}, \\frac{1}{n}$"
+          },
+          {
+            "key": "B",
+            "text": "$\\left(\\frac{P R}{k U}\\right)^{2} R, \\frac{1}{n}$"
+          },
+          {
+            "key": "C",
+            "text": "$\\frac{P R}{k U}, \\frac{1}{n^{2}}$"
+          },
+          {
+            "key": "D",
+            "text": "$\\left(\\frac{P}{k U}\\right)^{2} \\mathrm{R}, \\frac{1}{n^{2}}$"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:83",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2012年天津市高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "理想变压器与远距离输电"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "提高变压器匝数比时比较输电线损耗及损耗比"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "先由匝数比求副边电压和线路电流，再用I²R推损耗。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u3:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "通过一理想变压器, 经同一线路输送相同的电功率 $\\mathrm{P}$, 原线圈的电压 $\\mathrm{U}$ 保持不 变, 输电线路的总电阻为 $\\mathrm{R}$. 当副线圈与原线圈的匝数比为 $\\mathrm{k}$ 时, 线路损耗的电功率为 $\\mathrm{P}_{1}$, 若将副线圈与原线圈的匝数比提高到 $\\mathrm{nk}$, 线路损耗的电功率为 $\\mathrm{P}_{2}$, 则 $\\mathrm{P}_{1}$ 和 $\\frac{P_{2}}{P_{1}}$ 分别 为",
+            "reference_answer": "D",
+            "solution_steps": [
+              "忽略变压器损耗，副边电压U₂=kU，输送功率P固定，线路电流I=P/(kU)。",
+              "线路损耗P₁=I²R=(P/(kU))²R。",
+              "匝数比提高到nk后，线路电流变为原来的1/n，损耗变为原来的1/n²；因此P₁及P₂/P₁对应D。"
+            ],
+            "knowledge_tags": [
+              "理想变压器与远距离输电"
+            ],
+            "type_tags": [
+              "提高变压器匝数比时比较输电线损耗及损耗比"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选D；忽略变压器损耗，副边电压U₂=kU，输送功率P固定，线路电流I=P/(kU)。；线路损耗P₁=I²R=(P/(kU))²R。；匝数比提高到nk后，线路电流变为原来的1/n，损耗变为原来的1/n²；因此P₁及P₂/P₁对应D。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把输电线电流与匝数比写成正比。",
+                "knowledge_tags": [
+                  "理想变压器与远距离输电"
+                ],
+                "type_tags": [
+                  "提高变压器匝数比时比较输电线损耗及损耗比"
+                ]
+              },
+              {
+                "description": "损耗只取一次方电流而非I²。",
+                "knowledge_tags": [
+                  "理想变压器与远距离输电"
+                ],
+                "type_tags": [
+                  "提高变压器匝数比时比较输电线损耗及损耗比"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "忽略变压器损耗，副边电压U₂=kU，输送功率P固定，线路电流I=P/(kU)。",
+        "线路损耗P₁=I²R=(P/(kU))²R。",
+        "匝数比提高到nk后，线路电流变为原来的1/n，损耗变为原来的1/n²；因此P₁及P₂/P₁对应D。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "忽略变压器损耗，副边电压U₂=kU，输送功率P固定，线路电流I=P/(kU)。；线路损耗P₁=I²R=(P/(kU))²R。；匝数比提高到nk后，线路电流变为原来的1/n，损耗变为原来的1/n²；因此P₁及P₂/P₁对应D。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:88",
+      "source_sha256": "47b8face5ddb3213135ba1821c979bad9eef2454337da0b117384edffcad84d3",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:88",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "卫星电话信号需要通过地球卫星传送. 如果你与同学在地面上用卫 星电话通话, 则从你发出信号至对方接收到信号所需要最短时间最接近于 (可能用到的数据: 月球绕地球运动的轨道半径为 $3.8 \\times 10^{5} \\mathrm{~km}$, 运动周期约 为 27 天, 地球半径约为 $6400 \\mathrm{~km}$, 无线电信号的传播速度为 $3 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$ )",
+        "options": [
+          {
+            "key": "A",
+            "text": "$0.1 \\mathrm{~s}$"
+          },
+          {
+            "key": "B",
+            "text": "$0.25 \\mathrm{~s}$"
+          },
+          {
+            "key": "C",
+            "text": "$0.5 \\mathrm{~s}$"
+          },
+          {
+            "key": "D",
+            "text": "$1 \\mathrm{~s}$"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:88",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2012年北京市高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u5:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电磁波传播与卫星通信"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "估算地面卫星电话经地球同步卫星中继的最短传播时延"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "由月球轨道数据用开普勒第三定律估算地球同步轨道半径，再估计地面—卫星—地面的光程。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u5:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-3:u5:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "卫星电话信号需要通过地球卫星传送. 如果你与同学在地面上用卫 星电话通话, 则从你发出信号至对方接收到信号所需要最短时间最接近于 (可能用到的数据: 月球绕地球运动的轨道半径为 $3.8 \\times 10^{5} \\mathrm{~km}$, 运动周期约 为 27 天, 地球半径约为 $6400 \\mathrm{~km}$, 无线电信号的传播速度为 $3 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$ )",
+            "reference_answer": "B",
+            "solution_steps": [
+              "月球绕地周期27天、轨道半径3.8×10⁵km；同步周期1天。开普勒第三定律得r同步=3.8×10⁵×(1/27)^(2/3)km≈4.22×10⁴km。",
+              "扣除地球半径约6400km，同步卫星高度约3.58×10⁴km。地面经卫星到地面的最短总传播距离约2h≈7.16×10⁴km。",
+              "t≈7.16×10⁷m/(3×10⁸m/s)≈0.24s，最接近0.25s，选B。"
+            ],
+            "knowledge_tags": [
+              "电磁波传播与卫星通信"
+            ],
+            "type_tags": [
+              "估算地面卫星电话经地球同步卫星中继的最短传播时延"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选B；月球绕地周期27天、轨道半径3.8×10⁵km；同步周期1天。开普勒第三定律得r同步=3.8×10⁵×(1/27)^(2/3)km≈4.22×10⁴km。；扣除地球半径约6400km，同步卫星高度约3.58×10⁴km。地面经卫星到地面的最短总传播距离约2h≈7.16×10⁴km。；t≈7.16×10⁷m/(3×10⁸m/s)≈0.24s，最接近0.25s，选B。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "误把单程地面到卫星当作完整通信链路。",
+                "knowledge_tags": [
+                  "电磁波传播与卫星通信"
+                ],
+                "type_tags": [
+                  "估算地面卫星电话经地球同步卫星中继的最短传播时延"
+                ]
+              },
+              {
+                "description": "将地球同步轨道半径误当作离地高度。",
+                "knowledge_tags": [
+                  "电磁波传播与卫星通信"
+                ],
+                "type_tags": [
+                  "估算地面卫星电话经地球同步卫星中继的最短传播时延"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "月球绕地周期27天、轨道半径3.8×10⁵km；同步周期1天。开普勒第三定律得r同步=3.8×10⁵×(1/27)^(2/3)km≈4.22×10⁴km。",
+        "扣除地球半径约6400km，同步卫星高度约3.58×10⁴km。地面经卫星到地面的最短总传播距离约2h≈7.16×10⁴km。",
+        "t≈7.16×10⁷m/(3×10⁸m/s)≈0.24s，最接近0.25s，选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "月球绕地周期27天、轨道半径3.8×10⁵km；同步周期1天。开普勒第三定律得r同步=3.8×10⁵×(1/27)^(2/3)km≈4.22×10⁴km。；扣除地球半径约6400km，同步卫星高度约3.58×10⁴km。地面经卫星到地面的最短总传播距离约2h≈7.16×10⁴km。；t≈7.16×10⁷m/(3×10⁸m/s)≈0.24s，最接近0.25s，选B。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:93",
+      "source_sha256": "1864e98ff1842da5fa224f1e19bc7dde7d74abed075779509ea2d18db6b669bd",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:93",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "某理想变压器原、副线圈的匝数之比为 1: 10 , 当输入电压增加 $20 \\mathrm{~V}$ 时, 输出 电压",
+        "options": [
+          {
+            "key": "A",
+            "text": "降低 $2 \\mathrm{~V}$"
+          },
+          {
+            "key": "B",
+            "text": "增加 $2 \\mathrm{~V}$"
+          },
+          {
+            "key": "C",
+            "text": "降低 $200 \\mathrm{~V}$"
+          },
+          {
+            "key": "D",
+            "text": "增加 $200 \\mathrm{~V}$"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:93",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2019年江苏省高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u3:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "理想变压器电压变换关系"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由匝数比求输入电压变化所对应的输出电压变化"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "理想变压器输入输出电压变化量之比等于匝数比。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u3:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u3:g1；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "某理想变压器原、副线圈的匝数之比为 1: 10 , 当输入电压增加 $20 \\mathrm{~V}$ 时, 输出 电压",
+            "reference_answer": "D",
+            "solution_steps": [
+              "理想变压器满足ΔU₂/ΔU₁=N₂/N₁=10。",
+              "输入电压增加20V，输出电压增加200V，选D。"
+            ],
+            "knowledge_tags": [
+              "理想变压器电压变换关系"
+            ],
+            "type_tags": [
+              "由匝数比求输入电压变化所对应的输出电压变化"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选D；理想变压器满足ΔU₂/ΔU₁=N₂/N₁=10。；输入电压增加20V，输出电压增加200V，选D。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把匝数比N₁:N₂=1:10误读为输出变化更小。",
+                "knowledge_tags": [
+                  "理想变压器电压变换关系"
+                ],
+                "type_tags": [
+                  "由匝数比求输入电压变化所对应的输出电压变化"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "理想变压器满足ΔU₂/ΔU₁=N₂/N₁=10。",
+        "输入电压增加20V，输出电压增加200V，选D。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "理想变压器满足ΔU₂/ΔU₁=N₂/N₁=10。；输入电压增加20V，输出电压增加200V，选D。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:122",
+      "source_sha256": "b2ca4bfa19060fc4226b856ab91386dbbaf71bdc53372a9490b4d6fbf505f560",
+      "decision": "pending",
+      "quarantine_original": true,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:122",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "利用所学物理知识, 可以初步了解常用的公交一卡通 (IC 卡) 的工 作原理及相关问题. IC 卡内部有一个由电感线圈 L 和电容 C 构成的 LC 振 荡电路. 公交车上的读卡机 (刷卡时“嘀”的响一声的机器) 向外发射某一特 定频率的电磁波. 刷卡时, IC 卡内的线圈 L 中产生感应电流, 给电容 C 充 电, 达到一定的电压后, 驱动卡内芯片进行数据处理和传输. 下列说法正确 的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "IC 卡工作所需要的能量来源于卡内的电池"
+          },
+          {
+            "key": "B",
+            "text": "仅当读卡机发射该特定频率的电磁波时, IC 卡才能有效工作"
+          },
+          {
+            "key": "C",
+            "text": "若读卡机发射的电磁波偏离该特定频率, 则线圈 L 中不会产生感应电流"
+          },
+          {
+            "key": "D",
+            "text": "IC 卡只能接收读卡机发射的电磁波, 而不能向读卡机传输自身的数据信 息"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:122",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2015年北京市高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u4:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电磁振荡、谐振与无线通信"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨析IC卡的LC谐振供能及读卡器与卡片通信"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "LC电路的固有频率决定谐振响应，但偏离频率仍可有感应电流；卡片也能回传数据。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u4:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u4:g1；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "利用所学物理知识, 可以初步了解常用的公交一卡通 (IC 卡) 的工 作原理及相关问题. IC 卡内部有一个由电感线圈 L 和电容 C 构成的 LC 振 荡电路. 公交车上的读卡机 (刷卡时“嘀”的响一声的机器) 向外发射某一特 定频率的电磁波. 刷卡时, IC 卡内的线圈 L 中产生感应电流, 给电容 C 充 电, 达到一定的电压后, 驱动卡内芯片进行数据处理和传输. 下列说法正确 的是",
+            "reference_answer": "B",
+            "solution_steps": [
+              "读卡器发射电磁波，在IC卡线圈中感生电流并给电容充电，能量来自读卡器电磁场而非卡内电池，A错。",
+              "LC回路在与其固有频率匹配时响应最强，但其他频率仍可在线圈中产生感应电流，B的“仅当”过强，C也错。",
+              "IC卡完成处理后需要向读卡器传输数据，D错误；题源标签B表示“仅当特定频率才能有效工作”，与理想谐振回路的响应峰值含义需谨慎，按高中谐振模型可理解为达到有效工作条件，答案B。"
+            ],
+            "knowledge_tags": [
+              "电磁振荡、谐振与无线通信"
+            ],
+            "type_tags": [
+              "辨析IC卡的LC谐振供能及读卡器与卡片通信"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选B；读卡器发射电磁波，在IC卡线圈中感生电流并给电容充电，能量来自读卡器电磁场而非卡内电池，A错。；LC回路在与其固有频率匹配时响应最强，但其他频率仍可在线圈中产生感应电流，B的“仅当”过强，C也错。；IC卡完成处理后需要向读卡器传输数据，D错误；题源标签B表示“仅当特定频率才能有效工作”，与理想谐振回路的响应峰值含义需谨慎，按高中谐振模型可理解为达到有效工作条件，答案B。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把谐振响应最大误认为其他频率完全没有感应电流。",
+                "knowledge_tags": [
+                  "电磁振荡、谐振与无线通信"
+                ],
+                "type_tags": [
+                  "辨析IC卡的LC谐振供能及读卡器与卡片通信"
+                ]
+              },
+              {
+                "description": "误认为无源IC卡不能回传信息。",
+                "knowledge_tags": [
+                  "电磁振荡、谐振与无线通信"
+                ],
+                "type_tags": [
+                  "辨析IC卡的LC谐振供能及读卡器与卡片通信"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "conflict",
+          "issues": [
+            "澄清“有效工作”是指达到可驱动芯片的能量阈值，还是仅指出现感应电流；题干未给出匹配/带宽条件，需明确后再使用。"
+          ],
+          "method": "item_read",
+          "notes": "逐题审读题干、选项及来源答案；B项“仅当特定频率”未定义有效工作的能量/响应阈值，与LC谐振时响应最强但离谐仍有感应电流的模型表述存在歧义，暂隔离。候选标注，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "读卡器发射电磁波，在IC卡线圈中感生电流并给电容充电，能量来自读卡器电磁场而非卡内电池，A错。",
+        "LC回路在与其固有频率匹配时响应最强，但其他频率仍可在线圈中产生感应电流，B的“仅当”过强，C也错。",
+        "IC卡完成处理后需要向读卡器传输数据，D错误；题源标签B表示“仅当特定频率才能有效工作”，与理想谐振回路的响应峰值含义需谨慎，按高中谐振模型可理解为达到有效工作条件，答案B。"
+      ],
+      "source_conflicts": [
+        "B项“仅当读卡机发射特定频率时才能有效工作”未定义有效工作的阈值条件，谐振峰值与其他频率仍能感生电流之间存在适用范围措辞歧义。"
+      ],
+      "remaining_issues": [
+        "澄清“有效工作”是指达到可驱动芯片的能量阈值，还是仅指出现感应电流；题干未给出匹配/带宽条件，需明确后再使用。"
+      ],
+      "rationale": "“有效工作”缺少判据，LC谐振模型下离谐仍有感应电流，B项的“仅当”无法由现有条件唯一判定，暂pending。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:142",
+      "source_sha256": "95c61a9406b3b845521dbb362743c04c22c3446879ae4fa2a2eadbd069f288ab",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:142",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "采用 $220 \\mathrm{kV}$ 高压向远方的城市输电。当输送功率一定时, 为使输电线上损耗的 功率减小为原来的 $\\frac{1}{4}$, 输电电压应变为",
+        "options": [
+          {
+            "key": "A",
+            "text": "$55 \\mathrm{kV}$"
+          },
+          {
+            "key": "B",
+            "text": "$110 \\mathrm{kV}$"
+          },
+          {
+            "key": "C",
+            "text": "$440 \\mathrm{kV}$"
+          },
+          {
+            "key": "D",
+            "text": "$880 \\mathrm{kV}$"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:142",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2018年江苏省高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "远距离输电与线路损耗"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由损耗变化目标反求输电电压"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "固定输送功率和线路电阻时，线路损耗与输电电压平方成反比。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u3:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "采用 $220 \\mathrm{kV}$ 高压向远方的城市输电。当输送功率一定时, 为使输电线上损耗的 功率减小为原来的 $\\frac{1}{4}$, 输电电压应变为",
+            "reference_answer": "C",
+            "solution_steps": [
+              "I=P/U，线路损耗P损=I²R=P²R/U²。",
+              "要使损耗变成原来的1/4，电压须增至原来的2倍，即440kV，选C。"
+            ],
+            "knowledge_tags": [
+              "远距离输电与线路损耗"
+            ],
+            "type_tags": [
+              "由损耗变化目标反求输电电压"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；I=P/U，线路损耗P损=I²R=P²R/U²。；要使损耗变成原来的1/4，电压须增至原来的2倍，即440kV，选C。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "认为损耗和电压成正比。",
+                "knowledge_tags": [
+                  "远距离输电与线路损耗"
+                ],
+                "type_tags": [
+                  "由损耗变化目标反求输电电压"
+                ]
+              },
+              {
+                "description": "把损耗降为1/4误当电压升为4倍。",
+                "knowledge_tags": [
+                  "远距离输电与线路损耗"
+                ],
+                "type_tags": [
+                  "由损耗变化目标反求输电电压"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "I=P/U，线路损耗P损=I²R=P²R/U²。",
+        "要使损耗变成原来的1/4，电压须增至原来的2倍，即440kV，选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "I=P/U，线路损耗P损=I²R=P²R/U²。；要使损耗变成原来的1/4，电压须增至原来的2倍，即440kV，选C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:163",
+      "source_sha256": "c1f60642df3d9b3448fd143ecac5e650eb3c33462fcb414307d028d4237f3ebe",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:163",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "夜间由于气温降低,汽车轮胎内的气体压强变低。与白天相比,夜间轮胎内的气体( )",
+        "options": [
+          {
+            "key": "A",
+            "text": "分子的平均动能更小"
+          },
+          {
+            "key": "B",
+            "text": "单位体积内分子的个数更少"
+          },
+          {
+            "key": "C",
+            "text": "所有分子的运动速率都更小"
+          },
+          {
+            "key": "D",
+            "text": "分子对轮胎内壁单位面积的平均作用力更大"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:163",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": " 2023年北京卷物理"
+        },
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u2:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "理想气体温度、压强与分子运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "根据夜间降温和轮胎压强变化判断气体微观量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "密闭近似定容气体降温使平均平动动能和压强降低，粒子数密度不变。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u2:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-3:u2:g1；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "夜间由于气温降低,汽车轮胎内的气体压强变低。与白天相比,夜间轮胎内的气体( )",
+            "reference_answer": "A",
+            "solution_steps": [
+              "轮胎近似封闭且容积变化小，夜间温度降低。",
+              "理想气体分子平均平动动能与绝对温度成正比，故平均动能更小，A正确。",
+              "气体分子数和体积近似不变，单位体积粒子数不变；不能断言所有分子的速率都减小；壁面平均作用力降低，B、C、D错误。"
+            ],
+            "knowledge_tags": [
+              "理想气体温度、压强与分子运动"
+            ],
+            "type_tags": [
+              "根据夜间降温和轮胎压强变化判断气体微观量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选A；轮胎近似封闭且容积变化小，夜间温度降低。；理想气体分子平均平动动能与绝对温度成正比，故平均动能更小，A正确。；气体分子数和体积近似不变，单位体积粒子数不变；不能断言所有分子的速率都减小；壁面平均作用力降低，B、C、D错误。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把压强降低解释为气体分子数减少。",
+                "knowledge_tags": [
+                  "理想气体温度、压强与分子运动"
+                ],
+                "type_tags": [
+                  "根据夜间降温和轮胎压强变化判断气体微观量"
+                ]
+              },
+              {
+                "description": "把平均速率降低误说成每个分子速率都降低。",
+                "knowledge_tags": [
+                  "理想气体温度、压强与分子运动"
+                ],
+                "type_tags": [
+                  "根据夜间降温和轮胎压强变化判断气体微观量"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "轮胎近似封闭且容积变化小，夜间温度降低。",
+        "理想气体分子平均平动动能与绝对温度成正比，故平均动能更小，A正确。",
+        "气体分子数和体积近似不变，单位体积粒子数不变；不能断言所有分子的速率都减小；壁面平均作用力降低，B、C、D错误。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "轮胎近似封闭且容积变化小，夜间温度降低。；理想气体分子平均平动动能与绝对温度成正比，故平均动能更小，A正确。；气体分子数和体积近似不变，单位体积粒子数不变；不能断言所有分子的速率都减小；壁面平均作用力降低，B、C、D错误。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:166",
+      "source_sha256": "483dadd129cd3f27ac70601cd16da836a4f6488fcc39b9d6ac90a54a8e708cbe",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:166",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "自制一个原、副线圈匝数分别为600匝和190匝的变压器,原线圈接12V的正弦交流电源,副线圈接额定电压为3.8V的小灯泡。实际测得小灯泡两端电压为2.5V。下列措施有可能使小灯泡正常发光的是( )",
+        "options": [
+          {
+            "key": "A",
+            "text": "仅增加原线圈匝数"
+          },
+          {
+            "key": "B",
+            "text": "仅增加副线圈匝数"
+          },
+          {
+            "key": "C",
+            "text": "将原、副线圈匝数都增为原来的两倍"
+          },
+          {
+            "key": "D",
+            "text": "将两个3.8V小灯泡并联起来接入副线圈"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:166",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": " 2023年北京卷物理"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "变压器变比与实际输出电压"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "依据副线圈输出偏低判断匝数调整方向"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "副边电压低于灯泡额定电压时，应增加副线圈匝数以提高变比。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u3:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "自制一个原、副线圈匝数分别为600匝和190匝的变压器,原线圈接12V的正弦交流电源,副线圈接额定电压为3.8V的小灯泡。实际测得小灯泡两端电压为2.5V。下列措施有可能使小灯泡正常发光的是( )",
+            "reference_answer": "B",
+            "solution_steps": [
+              "当前副边2.5V低于额定3.8V，需提高副边电压。",
+              "变压器U₂/U₁≈N₂/N₁；仅增加副线圈匝数会提高副边电压，B符合。",
+              "只增加原线圈匝数会降低输出；原副匝数都加倍比值不变；并联灯泡不能抬高端电压。"
+            ],
+            "knowledge_tags": [
+              "变压器变比与实际输出电压"
+            ],
+            "type_tags": [
+              "依据副线圈输出偏低判断匝数调整方向"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选B；当前副边2.5V低于额定3.8V，需提高副边电压。；变压器U₂/U₁≈N₂/N₁；仅增加副线圈匝数会提高副边电压，B符合。；只增加原线圈匝数会降低输出；原副匝数都加倍比值不变；并联灯泡不能抬高端电压。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "通过增加原线圈匝数提高降压变压器输出。",
+                "knowledge_tags": [
+                  "变压器变比与实际输出电压"
+                ],
+                "type_tags": [
+                  "依据副线圈输出偏低判断匝数调整方向"
+                ]
+              },
+              {
+                "description": "认为增加负载并联支路会改变理想变压器变比。",
+                "knowledge_tags": [
+                  "变压器变比与实际输出电压"
+                ],
+                "type_tags": [
+                  "依据副线圈输出偏低判断匝数调整方向"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "当前副边2.5V低于额定3.8V，需提高副边电压。",
+        "变压器U₂/U₁≈N₂/N₁；仅增加副线圈匝数会提高副边电压，B符合。",
+        "只增加原线圈匝数会降低输出；原副匝数都加倍比值不变；并联灯泡不能抬高端电压。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "当前副边2.5V低于额定3.8V，需提高副边电压。；变压器U₂/U₁≈N₂/N₁；仅增加副线圈匝数会提高副边电压，B符合。；只增加原线圈匝数会降低输出；原副匝数都加倍比值不变；并联灯泡不能抬高端电压。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:173",
+      "source_sha256": "ef7176639c7ca27248a6da7ae314ab40692a6b89ae417fc70c87ca298358617f",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:173",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "用一台理想变压器对电动汽车充电,该变压器原、副线圈的匝数比为 $1:2$ ,输出功率为 $8.8\\ \\mathrm{kW}$ ,原线圈的输入电压 $u = 220 \\sqrt{2} \\sin (100 \\pi t)\\ \\mathrm{V}$。关于副线圈输出电流的有效值和频率正确的是 ( )",
+        "options": [
+          {
+            "key": "A",
+            "text": "$20\\ \\mathrm{A}$, $50\\ \\mathrm{Hz}$"
+          },
+          {
+            "key": "B",
+            "text": "$20 \\sqrt{2}\\ \\mathrm{A}$, $50\\ \\mathrm{Hz}$"
+          },
+          {
+            "key": "C",
+            "text": "$20\\ \\mathrm{A}$, $100\\ \\mathrm{Hz}$"
+          },
+          {
+            "key": "D",
+            "text": "$20 \\sqrt{2}\\ \\mathrm{A}$, $100\\ \\mathrm{Hz}$"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:173",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "  2023年广东省普通高中学业水平选择性考试物理"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "理想变压器、电功率与交流有效值"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "计算电动汽车充电变压器副边电流有效值和频率"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "由正弦输入求有效值和频率，变比求副边有效电压，再用P=UI。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u3:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "用一台理想变压器对电动汽车充电,该变压器原、副线圈的匝数比为 $1:2$ ,输出功率为 $8.8\\ \\mathrm{kW}$ ,原线圈的输入电压 $u = 220 \\sqrt{2} \\sin (100 \\pi t)\\ \\mathrm{V}$。关于副线圈输出电流的有效值和频率正确的是 ( )",
+            "reference_answer": "A",
+            "solution_steps": [
+              "输入u=220√2sin(100πt)V，故U₁=220V有效值，角频率100πrad/s，f=50Hz。",
+              "匝数比N₁:N₂=1:2，副边有效电压U₂=440V。",
+              "I₂=P₂/U₂=8800/440=20A；理想变压器不改变频率，故50Hz，选A。"
+            ],
+            "knowledge_tags": [
+              "理想变压器、电功率与交流有效值"
+            ],
+            "type_tags": [
+              "计算电动汽车充电变压器副边电流有效值和频率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选A；输入u=220√2sin(100πt)V，故U₁=220V有效值，角频率100πrad/s，f=50Hz。；匝数比N₁:N₂=1:2，副边有效电压U₂=440V。；I₂=P₂/U₂=8800/440=20A；理想变压器不改变频率，故50Hz，选A。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把220√2V峰值当成有效值。",
+                "knowledge_tags": [
+                  "理想变压器、电功率与交流有效值"
+                ],
+                "type_tags": [
+                  "计算电动汽车充电变压器副边电流有效值和频率"
+                ]
+              },
+              {
+                "description": "认为变压器会改变交流频率。",
+                "knowledge_tags": [
+                  "理想变压器、电功率与交流有效值"
+                ],
+                "type_tags": [
+                  "计算电动汽车充电变压器副边电流有效值和频率"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "输入u=220√2sin(100πt)V，故U₁=220V有效值，角频率100πrad/s，f=50Hz。",
+        "匝数比N₁:N₂=1:2，副边有效电压U₂=440V。",
+        "I₂=P₂/U₂=8800/440=20A；理想变压器不改变频率，故50Hz，选A。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "输入u=220√2sin(100πt)V，故U₁=220V有效值，角频率100πrad/s，f=50Hz。；匝数比N₁:N₂=1:2，副边有效电压U₂=440V。；I₂=P₂/U₂=8800/440=20A；理想变压器不改变频率，故50Hz，选A。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:99",
+      "source_sha256": "8804e7fcc02b29fad964187a943d1f6589d17687b36de0bef7f81eac098e7227",
+      "decision": "pending",
+      "quarantine_original": true,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:99",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "有研究发现, 某神经细胞传递信号时, 离子从细胞膜一侧流到另一侧形成跨膜电流, 若将该细胞膜视为 $1 \\times 10^{-8} \\mathrm{~F}$ 的电容器, 在 $2 \\mathrm{~ms}$ 内细胞膜两侧的电势差从 $-70 \\mathrm{mV}$ 变为 $30 \\mathrm{mV}$, 则该过程中跨膜电流的平均 值为",
+        "options": [
+          {
+            "key": "A",
+            "text": "$1.5 \\times 10^{-7} \\mathrm{~A}$"
+          },
+          {
+            "key": "B",
+            "text": "$2 \\times 10^{-7} \\mathrm{~A}$"
+          },
+          {
+            "key": "C",
+            "text": "$3.5 \\times 10^{-7} \\mathrm{~A}$"
+          },
+          {
+            "key": "D",
+            "text": "$5 \\times 10^{-7} \\mathrm{~A}$"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:99",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2021年江苏省高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u2:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电容器、电荷量变化与电流"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由电容器电压变化和时间求跨膜平均电流"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "按Q=CU计算电荷变化，并用平均电流定义复算；此题将保留源标签冲突并隔离。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u2:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-3:u2:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "有研究发现, 某神经细胞传递信号时, 离子从细胞膜一侧流到另一侧形成跨膜电流, 若将该细胞膜视为 $1 \\times 10^{-8} \\mathrm{~F}$ 的电容器, 在 $2 \\mathrm{~ms}$ 内细胞膜两侧的电势差从 $-70 \\mathrm{mV}$ 变为 $30 \\mathrm{mV}$, 则该过程中跨膜电流的平均 值为",
+            "reference_answer": "B",
+            "solution_steps": [
+              "电势差从−70mV变为+30mV，变化量ΔU=0.100V。",
+              "电荷量变化ΔQ=CΔU=1.0×10⁻⁸×0.100=1.0×10⁻⁹C。",
+              "平均电流I=ΔQ/Δt=1.0×10⁻⁹/(2.0×10⁻³)=5.0×10⁻⁷A，即选项D；AGIEval标签标B（2×10⁻⁷A），与直接复算不符，故pending。"
+            ],
+            "knowledge_tags": [
+              "电容器、电荷量变化与电流"
+            ],
+            "type_tags": [
+              "由电容器电压变化和时间求跨膜平均电流"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选B；电势差从−70mV变为+30mV，变化量ΔU=0.100V。；电荷量变化ΔQ=CΔU=1.0×10⁻⁸×0.100=1.0×10⁻⁹C。；平均电流I=ΔQ/Δt=1.0×10⁻⁹/(2.0×10⁻³)=5.0×10⁻⁷A，即选项D；AGIEval标签标B（2×10⁻⁷A），与直接复算不符，故pending。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略电压由负变正，应取100mV变化。",
+                "knowledge_tags": [
+                  "电容器、电荷量变化与电流"
+                ],
+                "type_tags": [
+                  "由电容器电压变化和时间求跨膜平均电流"
+                ]
+              },
+              {
+                "description": "把毫秒或毫伏单位换算错误。",
+                "knowledge_tags": [
+                  "电容器、电荷量变化与电流"
+                ],
+                "type_tags": [
+                  "由电容器电压变化和时间求跨膜平均电流"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "conflict",
+          "issues": [
+            "核对原始试卷/答案标签后再决定；独立复算为5×10⁻⁷A。"
+          ],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "电势差从−70mV变为+30mV，变化量ΔU=0.100V。",
+        "电荷量变化ΔQ=CΔU=1.0×10⁻⁸×0.100=1.0×10⁻⁹C。",
+        "平均电流I=ΔQ/Δt=1.0×10⁻⁹/(2.0×10⁻³)=5.0×10⁻⁷A，即选项D；AGIEval标签标B（2×10⁻⁷A），与直接复算不符，故pending。"
+      ],
+      "source_conflicts": [
+        "AGIEval源标签B与电容定义及平均电流计算结果D冲突。"
+      ],
+      "remaining_issues": [
+        "核对原始试卷/答案标签后再决定；独立复算为5×10⁻⁷A。"
+      ],
+      "rationale": "按ΔQ=CΔU、I=ΔQ/Δt复算为选项D，但固定源标签为B，暂隔离。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:110",
+      "source_sha256": "7ed8589c0c1c99db7b0918ba7eea746fa37a9fb7559b5d2ac69f0a58a8370d26",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:110",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "在一斜面顶端, 将甲、乙两个小球分别以 $v$ 和 $\\frac{v}{2}$ 的速度沿同一方向水 平抛出, 两球都落在该斜面上。甲球落至斜面时的速率是乙球落至斜面时速 率的",
+        "options": [
+          {
+            "key": "A",
+            "text": "2 倍"
+          },
+          {
+            "key": "B",
+            "text": "4 倍"
+          },
+          {
+            "key": "C",
+            "text": "6 倍"
+          },
+          {
+            "key": "D",
+            "text": "8 倍"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:110",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2018年物理试卷（新课标ⅲ）"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "平抛运动与斜面相交"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "比较以不同比例水平初速度抛出后落在同一斜面上的速率"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "用斜面几何关系求飞行时间，证明末速大小正比于水平初速度。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-2:u1:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "在一斜面顶端, 将甲、乙两个小球分别以 $v$ 和 $\\frac{v}{2}$ 的速度沿同一方向水 平抛出, 两球都落在该斜面上。甲球落至斜面时的速率是乙球落至斜面时速 率的",
+            "reference_answer": "A",
+            "solution_steps": [
+              "设斜面倾角为θ，水平初速度u的小球飞行t后落到斜面，竖直位移满足(1/2)gt²=(ut)tanθ。",
+              "因此t=2u tanθ/g，竖直末速度gt=2u tanθ；末速v=√(u²+g²t²)=u√(1+4tan²θ)。",
+              "同一斜面上比例因子相同，甲初速度v、乙初速度v/2，则落地速率之比为2:1，选A。"
+            ],
+            "knowledge_tags": [
+              "平抛运动与斜面相交"
+            ],
+            "type_tags": [
+              "比较以不同比例水平初速度抛出后落在同一斜面上的速率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选A；设斜面倾角为θ，水平初速度u的小球飞行t后落到斜面，竖直位移满足(1/2)gt²=(ut)tanθ。；因此t=2u tanθ/g，竖直末速度gt=2u tanθ；末速v=√(u²+g²t²)=u√(1+4tan²θ)。；同一斜面上比例因子相同，甲初速度v、乙初速度v/2，则落地速率之比为2:1，选A。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将水平射程误当作落地速率。",
+                "knowledge_tags": [
+                  "平抛运动与斜面相交"
+                ],
+                "type_tags": [
+                  "比较以不同比例水平初速度抛出后落在同一斜面上的速率"
+                ]
+              },
+              {
+                "description": "认为两球飞行时间相同，忽略抛出速度影响。",
+                "knowledge_tags": [
+                  "平抛运动与斜面相交"
+                ],
+                "type_tags": [
+                  "比较以不同比例水平初速度抛出后落在同一斜面上的速率"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "设斜面倾角为θ，水平初速度u的小球飞行t后落到斜面，竖直位移满足(1/2)gt²=(ut)tanθ。",
+        "因此t=2u tanθ/g，竖直末速度gt=2u tanθ；末速v=√(u²+g²t²)=u√(1+4tan²θ)。",
+        "同一斜面上比例因子相同，甲初速度v、乙初速度v/2，则落地速率之比为2:1，选A。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "设斜面倾角为θ，水平初速度u的小球飞行t后落到斜面，竖直位移满足(1/2)gt²=(ut)tanθ。；因此t=2u tanθ/g，竖直末速度gt=2u tanθ；末速v=√(u²+g²t²)=u√(1+4tan²θ)。；同一斜面上比例因子相同，甲初速度v、乙初速度v/2，则落地速率之比为2:1，选A。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:118",
+      "source_sha256": "70e5da38cb0abaaf7673b5e569327ede7d58df1c396ab1083caadcb41263af45",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:118",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "下列说法正确的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "物体放出热量, 其内能一定减小"
+          },
+          {
+            "key": "B",
+            "text": "物体对外做功, 其内能一定减小"
+          },
+          {
+            "key": "C",
+            "text": "物体吸收热量, 同时对外做功, 其内能可能增加"
+          },
+          {
+            "key": "D",
+            "text": "物体放出热量, 同时对外做功, 其内能可能不变"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:118",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2015年北京市高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u3:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "热力学第一定律与内能变化"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "根据吸放热和气体做功判断内能变化的可能性"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "用ΔU=Q−W判断各过程；热量或功单独一项不能决定内能变化符号。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u3:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-3:u3:g1；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "下列说法正确的是",
+            "reference_answer": "C",
+            "solution_steps": [
+              "吸热Q>0且对外做功W>0时，ΔU=Q−W；若Q>W，内能增加，因此C“可能增加”正确。",
+              "放热时内能还取决于做功，A不一定；对外做功时还取决于吸放热，B不一定。",
+              "放热Q<0且对外做功W>0时ΔU=Q−W<0，不可能不变，D错误。"
+            ],
+            "knowledge_tags": [
+              "热力学第一定律与内能变化"
+            ],
+            "type_tags": [
+              "根据吸放热和气体做功判断内能变化的可能性"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；吸热Q>0且对外做功W>0时，ΔU=Q−W；若Q>W，内能增加，因此C“可能增加”正确。；放热时内能还取决于做功，A不一定；对外做功时还取决于吸放热，B不一定。；放热Q<0且对外做功W>0时ΔU=Q−W<0，不可能不变，D错误。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把吸热必然等同内能增加。",
+                "knowledge_tags": [
+                  "热力学第一定律与内能变化"
+                ],
+                "type_tags": [
+                  "根据吸放热和气体做功判断内能变化的可能性"
+                ]
+              },
+              {
+                "description": "混淆气体对外做功与外界对气体做功的符号。",
+                "knowledge_tags": [
+                  "热力学第一定律与内能变化"
+                ],
+                "type_tags": [
+                  "根据吸放热和气体做功判断内能变化的可能性"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "吸热Q>0且对外做功W>0时，ΔU=Q−W；若Q>W，内能增加，因此C“可能增加”正确。",
+        "放热时内能还取决于做功，A不一定；对外做功时还取决于吸放热，B不一定。",
+        "放热Q<0且对外做功W>0时ΔU=Q−W<0，不可能不变，D错误。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "吸热Q>0且对外做功W>0时，ΔU=Q−W；若Q>W，内能增加，因此C“可能增加”正确。；放热时内能还取决于做功，A不一定；对外做功时还取决于吸放热，B不一定。；放热Q<0且对外做功W>0时ΔU=Q−W<0，不可能不变，D错误。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:131",
+      "source_sha256": "6d07401a3401cb8e82600d108ece4fb599f742517a24f11e2fffa184161ad965",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:131",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "关于分子动理论,下列说法正确的是( )",
+        "options": [
+          {
+            "key": "A",
+            "text": "气体扩散的快慢与温度无关"
+          },
+          {
+            "key": "B",
+            "text": "布朗运动是液体分子的无规则运动"
+          },
+          {
+            "key": "C",
+            "text": "分子间同时存在着引力和斥力"
+          },
+          {
+            "key": "D",
+            "text": "分子间的引力总是随分子间距增大而增大"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:131",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2018年北京市高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u1:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "分子间作用力与布朗运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨析扩散、布朗运动与分子引力斥力的性质"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "区分分子热运动的温度依赖、悬浮粒子布朗运动及分子力的共存。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u1:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-3:u1:g1；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "关于分子动理论,下列说法正确的是( )",
+            "reference_answer": "C",
+            "solution_steps": [
+              "扩散快慢与温度有关，A错误。",
+              "布朗运动是液体中悬浮微粒的无规则运动，不是液体分子本身的运动，B错误。",
+              "分子间同时存在引力和斥力，C正确。",
+              "分子力随间距的变化并非引力总是增大；引力通常在一定范围内随间距增大而减小，D错误。"
+            ],
+            "knowledge_tags": [
+              "分子间作用力与布朗运动"
+            ],
+            "type_tags": [
+              "辨析扩散、布朗运动与分子引力斥力的性质"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；扩散快慢与温度有关，A错误。；布朗运动是液体中悬浮微粒的无规则运动，不是液体分子本身的运动，B错误。；分子间同时存在引力和斥力，C正确。；分子力随间距的变化并非引力总是增大；引力通常在一定范围内随间距增大而减小，D错误。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将布朗运动等同液体分子热运动。",
+                "knowledge_tags": [
+                  "分子间作用力与布朗运动"
+                ],
+                "type_tags": [
+                  "辨析扩散、布朗运动与分子引力斥力的性质"
+                ]
+              },
+              {
+                "description": "认为分子引力随距离增大总是增大。",
+                "knowledge_tags": [
+                  "分子间作用力与布朗运动"
+                ],
+                "type_tags": [
+                  "辨析扩散、布朗运动与分子引力斥力的性质"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "扩散快慢与温度有关，A错误。",
+        "布朗运动是液体中悬浮微粒的无规则运动，不是液体分子本身的运动，B错误。",
+        "分子间同时存在引力和斥力，C正确。",
+        "分子力随间距的变化并非引力总是增大；引力通常在一定范围内随间距增大而减小，D错误。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "扩散快慢与温度有关，A错误。；布朗运动是液体中悬浮微粒的无规则运动，不是液体分子本身的运动，B错误。；分子间同时存在引力和斥力，C正确。；分子力随间距的变化并非引力总是增大；引力通常在一定范围内随间距增大而减小，D错误。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:156",
+      "source_sha256": "da8486fc0cecfb9082d5cbc19906edb382c24ae8a2fc1ea425420ae45ab30d94",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:156",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "一质点做匀速圆周运动,若其所受合力的大小与轨道半径的n次方成正比,运动周期与轨道半径成反比,则n等于( )",
+        "options": [
+          {
+            "key": "A",
+            "text": "1"
+          },
+          {
+            "key": "B",
+            "text": "2"
+          },
+          {
+            "key": "C",
+            "text": "3"
+          },
+          {
+            "key": "D",
+            "text": "4"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:156",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": " 2023年 全国甲卷物理"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-2",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-2:u2:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "匀速圆周运动与周期关系"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由合力随半径幂律和周期反比求指数n"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "由F=mr(2π/T)²和T∝1/r推出F∝r³。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-2",
+          "goal_ids": [
+            "physics-senior-compulsory-2:u2:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-2:u2:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "一质点做匀速圆周运动,若其所受合力的大小与轨道半径的n次方成正比,运动周期与轨道半径成反比,则n等于( )",
+            "reference_answer": "C",
+            "solution_steps": [
+              "匀速圆周运动合力F=m(2π/T)²r。",
+              "已知T∝r⁻¹，则1/T²∝r²，故F∝r³。",
+              "与F∝rⁿ比较得n=3，选C。"
+            ],
+            "knowledge_tags": [
+              "匀速圆周运动与周期关系"
+            ],
+            "type_tags": [
+              "由合力随半径幂律和周期反比求指数n"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；匀速圆周运动合力F=m(2π/T)²r。；已知T∝r⁻¹，则1/T²∝r²，故F∝r³。；与F∝rⁿ比较得n=3，选C。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把向心力表达式中的r放在分母。",
+                "knowledge_tags": [
+                  "匀速圆周运动与周期关系"
+                ],
+                "type_tags": [
+                  "由合力随半径幂律和周期反比求指数n"
+                ]
+              },
+              {
+                "description": "遗漏周期平方导致幂次错误。",
+                "knowledge_tags": [
+                  "匀速圆周运动与周期关系"
+                ],
+                "type_tags": [
+                  "由合力随半径幂律和周期反比求指数n"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "匀速圆周运动合力F=m(2π/T)²r。",
+        "已知T∝r⁻¹，则1/T²∝r²，故F∝r³。",
+        "与F∝rⁿ比较得n=3，选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "匀速圆周运动合力F=m(2π/T)²r。；已知T∝r⁻¹，则1/T²∝r²，故F∝r³。；与F∝rⁿ比较得n=3，选C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:172",
+      "source_sha256": "9a16f6ad8488e91a09b21744581d41a20d7cdbc55006c7334408e1a28818d993",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:172",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "某小型医用回旋加速器,最大回旋半径约为 $0.5\\ \\mathrm{m}$ ,磁感应强度大小为 $1.12\\ \\mathrm{T}$ ,质子加速后获得的最大动能为 $1.5 \\times 10^7\\ \\mathrm{eV}$ 。根据给出的数据,可计算质子经该回旋加速器加速后的最大速率约为(忽略相对论效应,$1\\ \\mathrm{eV} = 1.6 \\times 10^{-19}\\ \\mathrm{J}$) ( )",
+        "options": [
+          {
+            "key": "A",
+            "text": "$3.6 \\times 10^6\\ \\mathrm{m/s}$"
+          },
+          {
+            "key": "B",
+            "text": "$1.2 \\times 10^7\\ \\mathrm{m/s}$"
+          },
+          {
+            "key": "C",
+            "text": "$5.4 \\times 10^7\\ \\mathrm{m/s}$"
+          },
+          {
+            "key": "D",
+            "text": "$2.4 \\times 10^8\\ \\mathrm{m/s}$"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:172",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "  2023年广东省普通高中学业水平选择性考试物理"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "回旋加速器与带电粒子动能"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由质子获得的动能求非相对论速率"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "先把电子伏特换算为焦耳，再使用经典动能公式。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u1:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "某小型医用回旋加速器,最大回旋半径约为 $0.5\\ \\mathrm{m}$ ,磁感应强度大小为 $1.12\\ \\mathrm{T}$ ,质子加速后获得的最大动能为 $1.5 \\times 10^7\\ \\mathrm{eV}$ 。根据给出的数据,可计算质子经该回旋加速器加速后的最大速率约为(忽略相对论效应,$1\\ \\mathrm{eV} = 1.6 \\times 10^{-19}\\ \\mathrm{J}$) ( )",
+            "reference_answer": "C",
+            "solution_steps": [
+              "K=1.5×10⁷eV×1.6×10⁻¹⁹J/eV=2.4×10⁻¹²J。",
+              "取质子质量m≈1.67×10⁻²⁷kg，由K=(1/2)mv²得v=√(2K/m)。",
+              "v≈√(4.8×10⁻¹²/1.67×10⁻²⁷)=5.36×10⁷m/s，约5.4×10⁷m/s，选C。"
+            ],
+            "knowledge_tags": [
+              "回旋加速器与带电粒子动能"
+            ],
+            "type_tags": [
+              "由质子获得的动能求非相对论速率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；K=1.5×10⁷eV×1.6×10⁻¹⁹J/eV=2.4×10⁻¹²J。；取质子质量m≈1.67×10⁻²⁷kg，由K=(1/2)mv²得v=√(2K/m)。；v≈√(4.8×10⁻¹²/1.67×10⁻²⁷)=5.36×10⁷m/s，约5.4×10⁷m/s，选C。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忘记将eV转换为焦耳。",
+                "knowledge_tags": [
+                  "回旋加速器与带电粒子动能"
+                ],
+                "type_tags": [
+                  "由质子获得的动能求非相对论速率"
+                ]
+              },
+              {
+                "description": "将动能公式中的2或质量因子遗漏。",
+                "knowledge_tags": [
+                  "回旋加速器与带电粒子动能"
+                ],
+                "type_tags": [
+                  "由质子获得的动能求非相对论速率"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "K=1.5×10⁷eV×1.6×10⁻¹⁹J/eV=2.4×10⁻¹²J。",
+        "取质子质量m≈1.67×10⁻²⁷kg，由K=(1/2)mv²得v=√(2K/m)。",
+        "v≈√(4.8×10⁻¹²/1.67×10⁻²⁷)=5.36×10⁷m/s，约5.4×10⁷m/s，选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "K=1.5×10⁷eV×1.6×10⁻¹⁹J/eV=2.4×10⁻¹²J。；取质子质量m≈1.67×10⁻²⁷kg，由K=(1/2)mv²得v=√(2K/m)。；v≈√(4.8×10⁻¹²/1.67×10⁻²⁷)=5.36×10⁷m/s，约5.4×10⁷m/s，选C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:50",
+      "source_sha256": "f82ab9f66ad9d902e3a8082209b9212d6547b4bebed1c44ade665e3386adbd65",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:50",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "2007 年度诺贝尔物理学奖授予了法国和德国的两位科学家, 以表彰他们发现“巨 磁电阻效应”. 基于巨磁电阻效应开发的用于读取硬盘数据的技术, 被认为是纳米技术 的第一次真正应用. 在下列有关其它电阻应用的说法中. 错误的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "热敏电阻可应用于温度测控装置中"
+          },
+          {
+            "key": "B",
+            "text": "光敏电阻是一种光电传感器"
+          },
+          {
+            "key": "C",
+            "text": "电阻丝可应用于电热设备中"
+          },
+          {
+            "key": "D",
+            "text": "电阻在电路中主要起到通过直流、阻碍交流的作用"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:50",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2008年江苏省高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u3:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电阻与传感器应用"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨析热敏电阻、光敏电阻和电阻在交直流电路中的作用"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "根据传感器的非电学量到电学量转换原理以及纯电阻元件特性判断。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u3:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-3:u3:g1；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "2007 年度诺贝尔物理学奖授予了法国和德国的两位科学家, 以表彰他们发现“巨 磁电阻效应”. 基于巨磁电阻效应开发的用于读取硬盘数据的技术, 被认为是纳米技术 的第一次真正应用. 在下列有关其它电阻应用的说法中. 错误的是",
+            "reference_answer": "D",
+            "solution_steps": [
+              "热敏电阻阻值随温度变化，可用于温度测控，A正确。",
+              "光敏电阻阻值随光照变化，可作为光电传感器，B正确。",
+              "电阻丝将电能转化为内能，可用于电热设备，C正确。",
+              "电阻可限制交直流电流，但不会像电容那样主要阻交流、通直流；D错误，选D。"
+            ],
+            "knowledge_tags": [
+              "电阻与传感器应用"
+            ],
+            "type_tags": [
+              "辨析热敏电阻、光敏电阻和电阻在交直流电路中的作用"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选D；热敏电阻阻值随温度变化，可用于温度测控，A正确。；光敏电阻阻值随光照变化，可作为光电传感器，B正确。；电阻丝将电能转化为内能，可用于电热设备，C正确。；电阻可限制交直流电流，但不会像电容那样主要阻交流、通直流；D错误，选D。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把电阻与电容的交直流特性混淆。",
+                "knowledge_tags": [
+                  "电阻与传感器应用"
+                ],
+                "type_tags": [
+                  "辨析热敏电阻、光敏电阻和电阻在交直流电路中的作用"
+                ]
+              },
+              {
+                "description": "把传感器输出的电阻变化误认为非电学量。",
+                "knowledge_tags": [
+                  "电阻与传感器应用"
+                ],
+                "type_tags": [
+                  "辨析热敏电阻、光敏电阻和电阻在交直流电路中的作用"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "热敏电阻阻值随温度变化，可用于温度测控，A正确。",
+        "光敏电阻阻值随光照变化，可作为光电传感器，B正确。",
+        "电阻丝将电能转化为内能，可用于电热设备，C正确。",
+        "电阻可限制交直流电流，但不会像电容那样主要阻交流、通直流；D错误，选D。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "热敏电阻阻值随温度变化，可用于温度测控，A正确。；光敏电阻阻值随光照变化，可作为光电传感器，B正确。；电阻丝将电能转化为内能，可用于电热设备，C正确。；电阻可限制交直流电流，但不会像电容那样主要阻交流、通直流；D错误，选D。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:53",
+      "source_sha256": "73ef53609e8220ca2c1d3537e0029feb98ec7a6ce6c4240a9ca0cff1c103e362",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:53",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "一平行板电容器的两个极板水平放置, 两极板间有一带电量不变的 小油滴, 油滴在极板间运动时所受空气阻力的大小与其速率成正比. 若两极 板间电压为零, 经一段时间后, 油滴以速率 $\\mathrm{v}$ 匀速下降; 若两极板间的电压 为 $\\mathrm{U}$, 经一段时间后, 油滴以速率 $\\mathrm{v}$ 匀速上升. 若两极板间电压为 $-\\mathrm{U}$, 油 滴做匀速运动时速度的大小、方向将是",
+        "options": [
+          {
+            "key": "A",
+            "text": "$2 \\mathrm{v} $ 、 向下"
+          },
+          {
+            "key": "B",
+            "text": "$2 \\mathrm{v} $ 、 向上"
+          },
+          {
+            "key": "C",
+            "text": "$3 \\mathrm{v} $ 、 向下"
+          },
+          {
+            "key": "D",
+            "text": "$3 \\mathrm{v}$ 、向上"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:53",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2008年物理试卷（全国卷ⅱ）"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u2:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "带电粒子受电场力与阻力的终端运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由零电压及正反电压下终端速度推断电荷受力"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "先由无电场终端速度确定mg=kv，再由向上终端状态反求电场力并计算反向电压下净力。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u2:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-3:u2:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "一平行板电容器的两个极板水平放置, 两极板间有一带电量不变的 小油滴, 油滴在极板间运动时所受空气阻力的大小与其速率成正比. 若两极 板间电压为零, 经一段时间后, 油滴以速率 $\\mathrm{v}$ 匀速下降; 若两极板间的电压 为 $\\mathrm{U}$, 经一段时间后, 油滴以速率 $\\mathrm{v}$ 匀速上升. 若两极板间电压为 $-\\mathrm{U}$, 油 滴做匀速运动时速度的大小、方向将是",
+            "reference_answer": "C",
+            "solution_steps": [
+              "无电压时雨滴以v向下匀速，故mg=kv。",
+              "电压为U时以v向上匀速，向上电场力需平衡重力与向下阻力，qE=mg+kv=2mg。",
+              "电压反向后电场力向下，合向下驱动力为mg+2mg=3mg。终端时阻力k v_终=3mg=3kv，故速率3v、方向向下，选C。"
+            ],
+            "knowledge_tags": [
+              "带电粒子受电场力与阻力的终端运动"
+            ],
+            "type_tags": [
+              "由零电压及正反电压下终端速度推断电荷受力"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；无电压时雨滴以v向下匀速，故mg=kv。；电压为U时以v向上匀速，向上电场力需平衡重力与向下阻力，qE=mg+kv=2mg。；电压反向后电场力向下，合向下驱动力为mg+2mg=3mg。终端时阻力k v_终=3mg=3kv，故速率3v、方向向下，选C。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "认为阻力方向固定而非总与速度反向。",
+                "knowledge_tags": [
+                  "带电粒子受电场力与阻力的终端运动"
+                ],
+                "type_tags": [
+                  "由零电压及正反电压下终端速度推断电荷受力"
+                ]
+              },
+              {
+                "description": "忘记根据向上匀速状态确定电场力是2mg。",
+                "knowledge_tags": [
+                  "带电粒子受电场力与阻力的终端运动"
+                ],
+                "type_tags": [
+                  "由零电压及正反电压下终端速度推断电荷受力"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "无电压时雨滴以v向下匀速，故mg=kv。",
+        "电压为U时以v向上匀速，向上电场力需平衡重力与向下阻力，qE=mg+kv=2mg。",
+        "电压反向后电场力向下，合向下驱动力为mg+2mg=3mg。终端时阻力k v_终=3mg=3kv，故速率3v、方向向下，选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "无电压时雨滴以v向下匀速，故mg=kv。；电压为U时以v向上匀速，向上电场力需平衡重力与向下阻力，qE=mg+kv=2mg。；电压反向后电场力向下，合向下驱动力为mg+2mg=3mg。终端时阻力k v_终=3mg=3kv，故速率3v、方向向下，选C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:57",
+      "source_sha256": "2fdc217f41d78ac302130da2df06bc0bb761989285340c0ca4e02ca28814a8ac",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:57",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "板间距为 $\\mathrm{d}$ 的平行板电容器所带电荷量为 $\\mathrm{Q}$ 时, 两极板间电势差为 $\\mathrm{U}_{1}$, 板间场 强为 $\\mathrm{E} 1$. 现将电容器所带电荷量变为 $2 \\mathrm{Q}$, 板间距变为 $\\frac{1}{2} \\mathrm{~d}$, 其他条件不变, 这时两极板 间电势差为 $\\mathrm{U}_{2}$, 板间场强为 $\\mathrm{E}_{2}$, 下列说法正确的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "$\\mathrm{U}_{2}=\\mathrm{U}_{1}, \\mathrm{E}_{2}=\\mathrm{E}_{1}$"
+          },
+          {
+            "key": "B",
+            "text": "$\\mathrm{U}_{2}=2 \\mathrm{U}_{1}, \\mathrm{E}_{2}=4 \\mathrm{E}_{1}$"
+          },
+          {
+            "key": "C",
+            "text": "$\\mathrm{U}_{2}=\\mathrm{U}_{1}, \\mathrm{E}_{2}=2 \\mathrm{E}_{1}$"
+          },
+          {
+            "key": "D",
+            "text": "$\\mathrm{U}_{2}=2 \\mathrm{U}_{1}, \\mathrm{E}_{2}=2 \\mathrm{E}_{1}$"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:57",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2011年天津市高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u2:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "平行板电容器、电容与场强"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由电荷量和板间距变化比较电势差及场强"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "孤立电容器C∝1/d，U=Q/C，E=U/d；逐项追踪Q、d与C的变化。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u2:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-3:u2:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "板间距为 $\\mathrm{d}$ 的平行板电容器所带电荷量为 $\\mathrm{Q}$ 时, 两极板间电势差为 $\\mathrm{U}_{1}$, 板间场 强为 $\\mathrm{E} 1$. 现将电容器所带电荷量变为 $2 \\mathrm{Q}$, 板间距变为 $\\frac{1}{2} \\mathrm{~d}$, 其他条件不变, 这时两极板 间电势差为 $\\mathrm{U}_{2}$, 板间场强为 $\\mathrm{E}_{2}$, 下列说法正确的是",
+            "reference_answer": "C",
+            "solution_steps": [
+              "板间距减为d/2，C=εA/d变为2C；电荷量变为2Q。",
+              "U₂=(2Q)/(2C)=U₁。",
+              "E₂=U₂/(d/2)=2U₁/d=2E₁，因此选C。"
+            ],
+            "knowledge_tags": [
+              "平行板电容器、电容与场强"
+            ],
+            "type_tags": [
+              "由电荷量和板间距变化比较电势差及场强"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；板间距减为d/2，C=εA/d变为2C；电荷量变为2Q。；U₂=(2Q)/(2C)=U₁。；E₂=U₂/(d/2)=2U₁/d=2E₁，因此选C。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "认为电容器电量改变不影响电压。",
+                "knowledge_tags": [
+                  "平行板电容器、电容与场强"
+                ],
+                "type_tags": [
+                  "由电荷量和板间距变化比较电势差及场强"
+                ]
+              },
+              {
+                "description": "只看板距减半而漏掉电量也加倍。",
+                "knowledge_tags": [
+                  "平行板电容器、电容与场强"
+                ],
+                "type_tags": [
+                  "由电荷量和板间距变化比较电势差及场强"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "板间距减为d/2，C=εA/d变为2C；电荷量变为2Q。",
+        "U₂=(2Q)/(2C)=U₁。",
+        "E₂=U₂/(d/2)=2U₁/d=2E₁，因此选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "板间距减为d/2，C=εA/d变为2C；电荷量变为2Q。；U₂=(2Q)/(2C)=U₁。；E₂=U₂/(d/2)=2U₁/d=2E₁，因此选C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:80",
+      "source_sha256": "93c1c77f234b6c50d95ee4150a7950d4f7de1800ae69fa188768c8f84d7ee98c",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:80",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "一充电后的平行板电容器保持两极板的正对面积、间距和电荷量不变, 在两极 板间插入一电介质, 其电容 C 和两极板间的电势差 U 的变化情况是",
+        "options": [
+          {
+            "key": "A",
+            "text": "C 和 U 均增大"
+          },
+          {
+            "key": "B",
+            "text": "C 增大, U减小"
+          },
+          {
+            "key": "C",
+            "text": "C 减小, U 增大"
+          },
+          {
+            "key": "D",
+            "text": "C 和 U 均减小"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:80",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2012年江苏省高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u2:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电容器插入电介质与电势差"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "判断孤立带电电容器插入介质后的电容和电压变化"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "电容增大且总电荷保持不变，由U=Q/C求电势差变化。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u2:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-3:u2:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "一充电后的平行板电容器保持两极板的正对面积、间距和电荷量不变, 在两极 板间插入一电介质, 其电容 C 和两极板间的电势差 U 的变化情况是",
+            "reference_answer": "B",
+            "solution_steps": [
+              "电容器已充电并保持电荷量及几何尺寸不变，插入介质使介电常数增加，因此C增大。",
+              "Q固定，U=Q/C随C增大而减小，选B。"
+            ],
+            "knowledge_tags": [
+              "电容器插入电介质与电势差"
+            ],
+            "type_tags": [
+              "判断孤立带电电容器插入介质后的电容和电压变化"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选B；电容器已充电并保持电荷量及几何尺寸不变，插入介质使介电常数增加，因此C增大。；Q固定，U=Q/C随C增大而减小，选B。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "误将孤立电容器当成仍接恒压电源。",
+                "knowledge_tags": [
+                  "电容器插入电介质与电势差"
+                ],
+                "type_tags": [
+                  "判断孤立带电电容器插入介质后的电容和电压变化"
+                ]
+              },
+              {
+                "description": "认为介质会使电容减小。",
+                "knowledge_tags": [
+                  "电容器插入电介质与电势差"
+                ],
+                "type_tags": [
+                  "判断孤立带电电容器插入介质后的电容和电压变化"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "电容器已充电并保持电荷量及几何尺寸不变，插入介质使介电常数增加，因此C增大。",
+        "Q固定，U=Q/C随C增大而减小，选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "电容器已充电并保持电荷量及几何尺寸不变，插入介质使介电常数增加，因此C增大。；Q固定，U=Q/C随C增大而减小，选B。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:11",
+      "source_sha256": "50fdb7cccce82185ae0a6675faaf7d1ac0f7e211cf59b19afc92e8fe3999d2fe",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:11",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "下列说法正确的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "电磁波在真空中以光速 $\\mathrm{C}$ 传播"
+          },
+          {
+            "key": "B",
+            "text": "在空气中传播的声波是横波"
+          },
+          {
+            "key": "C",
+            "text": "声波只能在空气中传播"
+          },
+          {
+            "key": "D",
+            "text": "光需要介质才能传播"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:11",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2016年北京市高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u5:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电磁波传播与机械波介质条件"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "区分真空电磁波传播、声波传播介质和光的传播条件"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "逐项应用电磁波速率、机械波介质条件和光的传播特点。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u5:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-3:u5:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "下列说法正确的是",
+            "reference_answer": "A",
+            "solution_steps": [
+              "电磁波在真空中以光速c传播，A正确。",
+              "空气中的声波是纵波，B错；声波也能在液体和固体中传播，C错；光在真空中可传播，不需要介质，D错。"
+            ],
+            "knowledge_tags": [
+              "电磁波传播与机械波介质条件"
+            ],
+            "type_tags": [
+              "区分真空电磁波传播、声波传播介质和光的传播条件"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选A；电磁波在真空中以光速c传播，A正确。；空气中的声波是纵波，B错；声波也能在液体和固体中传播，C错；光在真空中可传播，不需要介质，D错。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把空气声波误判为横波。",
+                "knowledge_tags": [
+                  "电磁波传播与机械波介质条件"
+                ],
+                "type_tags": [
+                  "区分真空电磁波传播、声波传播介质和光的传播条件"
+                ]
+              },
+              {
+                "description": "认为声波只能在空气中传播。",
+                "knowledge_tags": [
+                  "电磁波传播与机械波介质条件"
+                ],
+                "type_tags": [
+                  "区分真空电磁波传播、声波传播介质和光的传播条件"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "电磁波在真空中以光速c传播，A正确。",
+        "空气中的声波是纵波，B错；声波也能在液体和固体中传播，C错；光在真空中可传播，不需要介质，D错。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "电磁波在真空中以光速c传播，A正确。；空气中的声波是纵波，B错；声波也能在液体和固体中传播，C错；光在真空中可传播，不需要介质，D错。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:54",
+      "source_sha256": "94fc0c2be271657b346e30a13a0c10083e72ec3209ac7c1d209330e618d8a760",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:54",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "大功率微波对人和其他生物有一定的杀伤作用。实验表明, 当人体单位面积接收的微波功率达到 $250 \\mathrm{~W} / \\mathrm{m}^{2}$ 时会引起神经混乱, 达到 $1000 \\mathrm{~W} / \\mathrm{m}^{2}$ 时会引起心肺功能衰竭。现有一微波武器, 其发射功率 $P=3 \\times 10^{7} \\mathrm{~W}$ 。若发射的微波可视为球面波, 则引起神经混乱和心肺功能衰竭的有效攻击的最远距离约为",
+        "options": [
+          {
+            "key": "A",
+            "text": "$100 \\mathrm{~m} \\quad 25 \\mathrm{~m}$"
+          },
+          {
+            "key": "B",
+            "text": "$100 \\mathrm{~m} \\quad 50 \\mathrm{~m}$"
+          },
+          {
+            "key": "C",
+            "text": "$200 \\mathrm{~m} \\quad 100 \\mathrm{~m}$"
+          },
+          {
+            "key": "D",
+            "text": "$200 \\mathrm{~m} \\quad 50 \\mathrm{~m}$"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:54",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2021年浙江省物理选考（6月）物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u5:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电磁波能量传播与辐射强度"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "根据球面微波功率密度阈值估算两种影响的最远距离"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "用均匀球面波强度I=P/(4πr²)，分别代入两个阈值。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u5:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-compulsory-3:u5:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "大功率微波对人和其他生物有一定的杀伤作用。实验表明, 当人体单位面积接收的微波功率达到 $250 \\mathrm{~W} / \\mathrm{m}^{2}$ 时会引起神经混乱, 达到 $1000 \\mathrm{~W} / \\mathrm{m}^{2}$ 时会引起心肺功能衰竭。现有一微波武器, 其发射功率 $P=3 \\times 10^{7} \\mathrm{~W}$ 。若发射的微波可视为球面波, 则引起神经混乱和心肺功能衰竭的有效攻击的最远距离约为",
+            "reference_answer": "B",
+            "solution_steps": [
+              "距各向均匀辐射源r处功率密度I=P/(4πr²)，故r=√(P/(4πI))。",
+              "神经混乱阈值250W/m²：r=√(3×10⁷/(4π×250))≈97.7m，约100m。",
+              "严重心肺影响阈值1000W/m²：r≈48.9m，约50m，选B。"
+            ],
+            "knowledge_tags": [
+              "电磁波能量传播与辐射强度"
+            ],
+            "type_tags": [
+              "根据球面微波功率密度阈值估算两种影响的最远距离"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选B；距各向均匀辐射源r处功率密度I=P/(4πr²)，故r=√(P/(4πI))。；神经混乱阈值250W/m²：r=√(3×10⁷/(4π×250))≈97.7m，约100m。；严重心肺影响阈值1000W/m²：r≈48.9m，约50m，选B。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "遗漏球面面积4πr²。",
+                "knowledge_tags": [
+                  "电磁波能量传播与辐射强度"
+                ],
+                "type_tags": [
+                  "根据球面微波功率密度阈值估算两种影响的最远距离"
+                ]
+              },
+              {
+                "description": "误认为阈值越高对应距离越远。",
+                "knowledge_tags": [
+                  "电磁波能量传播与辐射强度"
+                ],
+                "type_tags": [
+                  "根据球面微波功率密度阈值估算两种影响的最远距离"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "距各向均匀辐射源r处功率密度I=P/(4πr²)，故r=√(P/(4πI))。",
+        "神经混乱阈值250W/m²：r=√(3×10⁷/(4π×250))≈97.7m，约100m。",
+        "严重心肺影响阈值1000W/m²：r≈48.9m，约50m，选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "距各向均匀辐射源r处功率密度I=P/(4πr²)，故r=√(P/(4πI))。；神经混乱阈值250W/m²：r=√(3×10⁷/(4π×250))≈97.7m，约100m。；严重心肺影响阈值1000W/m²：r≈48.9m，约50m，选B。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:61",
+      "source_sha256": "e099cc256384e1986fd84b6ac68e20851e727dd41f3601a2abdd5f0963a62b60",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:61",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "空间有一圆柱形匀强磁场区域, 该区域的横截面的半径为 $\\mathrm{R}$, 磁场方 向垂直横截面。一质量为 $m$ 、电荷量为 $q(q>0)$ 的粒子以速率 $v_{0}$ 沿横截面 的某直径射入磁场, 离开磁场时速度方向偏离入射方向 $60^{\\circ}$. 不计重力, 该 磁场的磁感应强度大小为",
+        "options": [
+          {
+            "key": "A",
+            "text": "$\\quad \\frac{\\sqrt{3} m v_{0}}{3 \\mathrm{qR}}$"
+          },
+          {
+            "key": "B",
+            "text": "$\\frac{m v_{0}}{\\mathrm{qR}}$"
+          },
+          {
+            "key": "C",
+            "text": "$\\quad \\frac{\\sqrt{3} m v_{0}}{\\mathrm{qR}}$"
+          },
+          {
+            "key": "D",
+            "text": "$\\frac{3 m v_{0}}{\\mathrm{qR}}$"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:61",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2013年物理试卷（新课标ⅱ）"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "洛伦兹力与带电粒子在有界磁场中的圆周运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由磁区弦长和速度偏转角求轨道半径及磁感应强度"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "粒子圆弧偏转角为60°；以入口、出口同在半径R边界上列圆几何，得轨道半径√3R。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u1:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "空间有一圆柱形匀强磁场区域, 该区域的横截面的半径为 $\\mathrm{R}$, 磁场方 向垂直横截面。一质量为 $m$ 、电荷量为 $q(q>0)$ 的粒子以速率 $v_{0}$ 沿横截面 的某直径射入磁场, 离开磁场时速度方向偏离入射方向 $60^{\\circ}$. 不计重力, 该 磁场的磁感应强度大小为",
+            "reference_answer": "A",
+            "solution_steps": [
+              "带电粒子在匀强磁场中做圆周运动，轨道半径ρ=mv₀/(qB)。",
+              "入射点与出射点的速度方向夹角60°，圆弧对应弦长2ρsin30°=ρ；由区域圆几何及两交点同在边界可得ρ=√3R（等价地，入口点切线与区域弦形成30°直角三角形）。",
+              "因此B=mv₀/(qρ)=mv₀/(√3qR)=√3mv₀/(3qR)，选A。"
+            ],
+            "knowledge_tags": [
+              "洛伦兹力与带电粒子在有界磁场中的圆周运动"
+            ],
+            "type_tags": [
+              "由磁区弦长和速度偏转角求轨道半径及磁感应强度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选A；带电粒子在匀强磁场中做圆周运动，轨道半径ρ=mv₀/(qB)。；入射点与出射点的速度方向夹角60°，圆弧对应弦长2ρsin30°=ρ；由区域圆几何及两交点同在边界可得ρ=√3R（等价地，入口点切线与区域弦形成30°直角三角形）。；因此B=mv₀/(qρ)=mv₀/(√3qR)=√3mv₀/(3qR)，选A。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把粒子轨道半径误等于磁区半径。",
+                "knowledge_tags": [
+                  "洛伦兹力与带电粒子在有界磁场中的圆周运动"
+                ],
+                "type_tags": [
+                  "由磁区弦长和速度偏转角求轨道半径及磁感应强度"
+                ]
+              },
+              {
+                "description": "漏掉偏转角对应的弦和切线几何关系。",
+                "knowledge_tags": [
+                  "洛伦兹力与带电粒子在有界磁场中的圆周运动"
+                ],
+                "type_tags": [
+                  "由磁区弦长和速度偏转角求轨道半径及磁感应强度"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "带电粒子在匀强磁场中做圆周运动，轨道半径ρ=mv₀/(qB)。",
+        "入射点与出射点的速度方向夹角60°，圆弧对应弦长2ρsin30°=ρ；由区域圆几何及两交点同在边界可得ρ=√3R（等价地，入口点切线与区域弦形成30°直角三角形）。",
+        "因此B=mv₀/(qρ)=mv₀/(√3qR)=√3mv₀/(3qR)，选A。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "带电粒子在匀强磁场中做圆周运动，轨道半径ρ=mv₀/(qB)。；入射点与出射点的速度方向夹角60°，圆弧对应弦长2ρsin30°=ρ；由区域圆几何及两交点同在边界可得ρ=√3R（等价地，入口点切线与区域弦形成30°直角三角形）。；因此B=mv₀/(qρ)=mv₀/(√3qR)=√3mv₀/(3qR)，选A。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:134",
+      "source_sha256": "f62cd8700e7533d3dd1ec2ae332940f4645fdaf88c07f1ce74c4c4d0151032a5",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:134",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "某空间存在匀强磁场和匀强电场。一个带电粒子(不计重力)以一 定初速度射入该空间后, 做匀速直线运动; 若仅撤除电场, 则该粒子做匀速 圆周运动。下列因素与完成上述两类运动无关的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "磁场和电场的方向"
+          },
+          {
+            "key": "B",
+            "text": "磁场和电场的强弱"
+          },
+          {
+            "key": "C",
+            "text": "粒子的电性和电量"
+          },
+          {
+            "key": "D",
+            "text": "粒子入射时的速度"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:134",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2018年北京市高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u1:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "速度选择器与洛伦兹力"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "判断交叉匀强电磁场中直线运动和撤场后圆周运动的依赖量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "直线通过时电场力与磁场力抵消；移去电场后任意非零横向磁力使轨迹为圆，电荷符号和大小不影响“是否为圆周”。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u1:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u1:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "某空间存在匀强磁场和匀强电场。一个带电粒子(不计重力)以一 定初速度射入该空间后, 做匀速直线运动; 若仅撤除电场, 则该粒子做匀速 圆周运动。下列因素与完成上述两类运动无关的是",
+            "reference_answer": "C",
+            "solution_steps": [
+              "匀速直线条件是qE与qv×B大小相等、方向相反，取决于场方向、场强和速度，A、B、D相关。",
+              "撤去电场后，磁场力始终垂直速度且大小不做功，提供向心力，带电粒子轨迹为圆；电荷正负改变转向，电荷量只改变半径，但不影响轨迹是否为圆周。",
+              "因此完成两种运动与粒子的电性和电荷量（在带电且非零磁场的既定前提下）无关，选C。"
+            ],
+            "knowledge_tags": [
+              "速度选择器与洛伦兹力"
+            ],
+            "type_tags": [
+              "判断交叉匀强电磁场中直线运动和撤场后圆周运动的依赖量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；匀速直线条件是qE与qv×B大小相等、方向相反，取决于场方向、场强和速度，A、B、D相关。；撤去电场后，磁场力始终垂直速度且大小不做功，提供向心力，带电粒子轨迹为圆；电荷正负改变转向，电荷量只改变半径，但不影响轨迹是否为圆周。；因此完成两种运动与粒子的电性和电荷量（在带电且非零磁场的既定前提下）无关，选C。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "将电荷正负对旋转方向的影响误认为会改变圆周运动性质。",
+                "knowledge_tags": [
+                  "速度选择器与洛伦兹力"
+                ],
+                "type_tags": [
+                  "判断交叉匀强电磁场中直线运动和撤场后圆周运动的依赖量"
+                ]
+              },
+              {
+                "description": "认为洛伦兹力会改变速率。",
+                "knowledge_tags": [
+                  "速度选择器与洛伦兹力"
+                ],
+                "type_tags": [
+                  "判断交叉匀强电磁场中直线运动和撤场后圆周运动的依赖量"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "匀速直线条件是qE与qv×B大小相等、方向相反，取决于场方向、场强和速度，A、B、D相关。",
+        "撤去电场后，磁场力始终垂直速度且大小不做功，提供向心力，带电粒子轨迹为圆；电荷正负改变转向，电荷量只改变半径，但不影响轨迹是否为圆周。",
+        "因此完成两种运动与粒子的电性和电荷量（在带电且非零磁场的既定前提下）无关，选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "匀速直线条件是qE与qv×B大小相等、方向相反，取决于场方向、场强和速度，A、B、D相关。；撤去电场后，磁场力始终垂直速度且大小不做功，提供向心力，带电粒子轨迹为圆；电荷正负改变转向，电荷量只改变半径，但不影响轨迹是否为圆周。；因此完成两种运动与粒子的电性和电荷量（在带电且非零磁场的既定前提下）无关，选C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:23",
+      "source_sha256": "e355b1e0c4df0a1020f3114086beabf70339d585bd00732dad90c2d2bb574eed",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:23",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "楞次定律是下列哪个定律在电磁感应现象中的具体体现?",
+        "options": [
+          {
+            "key": "A",
+            "text": "电阻定律"
+          },
+          {
+            "key": "B",
+            "text": "库仑定律"
+          },
+          {
+            "key": "C",
+            "text": "欧姆定律"
+          },
+          {
+            "key": "D",
+            "text": "能量守恒定律"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:23",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2019年物理试卷（新课标ⅲ）"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u2:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "楞次定律与能量守恒"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨析楞次定律体现的普遍物理规律"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "感应电流的效果总是阻碍磁通量变化，体现能量守恒：若感应效应助长原变化会无中生有地持续获得能量。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u2:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u2:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "楞次定律是下列哪个定律在电磁感应现象中的具体体现?",
+            "reference_answer": "D",
+            "solution_steps": [
+              "楞次定律规定感应电流的磁场总阻碍引起感应电流的磁通量变化。",
+              "这种“阻碍”保证外界改变磁通时必须做功，机械能或其他能量转化为电能；因此其具体体现的是能量守恒定律，选D。"
+            ],
+            "knowledge_tags": [
+              "楞次定律与能量守恒"
+            ],
+            "type_tags": [
+              "辨析楞次定律体现的普遍物理规律"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选D；楞次定律规定感应电流的磁场总阻碍引起感应电流的磁通量变化。；这种“阻碍”保证外界改变磁通时必须做功，机械能或其他能量转化为电能；因此其具体体现的是能量守恒定律，选D。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把楞次定律和电磁感应定律混同于欧姆定律。",
+                "knowledge_tags": [
+                  "楞次定律与能量守恒"
+                ],
+                "type_tags": [
+                  "辨析楞次定律体现的普遍物理规律"
+                ]
+              },
+              {
+                "description": "只根据“磁”字联想到库仑定律。",
+                "knowledge_tags": [
+                  "楞次定律与能量守恒"
+                ],
+                "type_tags": [
+                  "辨析楞次定律体现的普遍物理规律"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "楞次定律规定感应电流的磁场总阻碍引起感应电流的磁通量变化。",
+        "这种“阻碍”保证外界改变磁通时必须做功，机械能或其他能量转化为电能；因此其具体体现的是能量守恒定律，选D。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "楞次定律规定感应电流的磁场总阻碍引起感应电流的磁通量变化。；这种“阻碍”保证外界改变磁通时必须做功，机械能或其他能量转化为电能；因此其具体体现的是能量守恒定律，选D。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:144",
+      "source_sha256": "dbb3519b98e02f81faa1e642d6d4913a77f3e15a756c8220bef1c9963500796e",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:144",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "关于通电直导线在匀强磁场中所受的安培力, 下列说法正确的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "安培力的方向可以不垂直于直导线"
+          },
+          {
+            "key": "B",
+            "text": "安培力的方向总是垂直于磁场的方向"
+          },
+          {
+            "key": "C",
+            "text": "安培力的大小与通电导线和磁场方向的夹角无关"
+          },
+          {
+            "key": "D",
+            "text": "将直导线从中折成直角, 安培力的大小一定变为原来的一半"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:144",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2014年物理试卷（新课标ⅰ）"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u1:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "安培力与磁场方向"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "判断直导线安培力的方向和大小关系"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "安培力F=BILsinθ，方向垂直于磁场与电流方向构成的平面；直角折线的合力还依赖折线几何。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u1:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u1:g1；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "关于通电直导线在匀强磁场中所受的安培力, 下列说法正确的是",
+            "reference_answer": "B",
+            "solution_steps": [
+              "直导线所受安培力方向遵从左手定则，必垂直于磁感应强度方向，因此B正确。",
+              "力的大小为BILsinθ，随导线与磁场方向夹角改变，C错误。",
+              "力方向也垂直于导线本身，A错误；折成直角后合力大小取决于两段长度和朝向，不能断言一定减半，D错误。"
+            ],
+            "knowledge_tags": [
+              "安培力与磁场方向"
+            ],
+            "type_tags": [
+              "判断直导线安培力的方向和大小关系"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选B；直导线所受安培力方向遵从左手定则，必垂直于磁感应强度方向，因此B正确。；力的大小为BILsinθ，随导线与磁场方向夹角改变，C错误。；力方向也垂直于导线本身，A错误；折成直角后合力大小取决于两段长度和朝向，不能断言一定减半，D错误。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把安培力大小误认为与电流和磁场夹角无关。",
+                "knowledge_tags": [
+                  "安培力与磁场方向"
+                ],
+                "type_tags": [
+                  "判断直导线安培力的方向和大小关系"
+                ]
+              },
+              {
+                "description": "将导线形状改变后简单按总长度比例判断合力。",
+                "knowledge_tags": [
+                  "安培力与磁场方向"
+                ],
+                "type_tags": [
+                  "判断直导线安培力的方向和大小关系"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "直导线所受安培力方向遵从左手定则，必垂直于磁感应强度方向，因此B正确。",
+        "力的大小为BILsinθ，随导线与磁场方向夹角改变，C错误。",
+        "力方向也垂直于导线本身，A错误；折成直角后合力大小取决于两段长度和朝向，不能断言一定减半，D错误。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "直导线所受安培力方向遵从左手定则，必垂直于磁感应强度方向，因此B正确。；力的大小为BILsinθ，随导线与磁场方向夹角改变，C错误。；力方向也垂直于导线本身，A错误；折成直角后合力大小取决于两段长度和朝向，不能断言一定减半，D错误。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:151",
+      "source_sha256": "f0a208d88f9235a4a4508453797e732faeb53cc9a2f5bbbb68595e3cbb5089b4",
+      "decision": "excluded",
+      "quarantine_original": true,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:151",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "一电器中的变压器可视为理想变压器, 它将 $220 \\mathrm{~V}$ 交变电流改变为 $110 \\mathrm{~V}$, 已知 变压器原线圈匝数为 800 , 则副线圈的匝数为",
+        "options": [
+          {
+            "key": "A",
+            "text": "200"
+          },
+          {
+            "key": "B",
+            "text": "400"
+          },
+          {
+            "key": "C",
+            "text": "1600"
+          },
+          {
+            "key": "D",
+            "text": "3200"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:151",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2015年江苏省高考物理试卷"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u3:g1"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "理想变压器电压与匝数关系"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由原副边有效电压比求副线圈匝数"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "理想变压器满足U₂/U₁=N₂/N₁。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u3:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-2:u3:g1；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "一电器中的变压器可视为理想变压器, 它将 $220 \\mathrm{~V}$ 交变电流改变为 $110 \\mathrm{~V}$, 已知 变压器原线圈匝数为 800 , 则副线圈的匝数为",
+            "reference_answer": "B",
+            "solution_steps": [
+              "理想变压器电压比等于匝数比，N₂=N₁(U₂/U₁)。",
+              "N₂=800×110/220=400匝，选B。"
+            ],
+            "knowledge_tags": [
+              "理想变压器电压与匝数关系"
+            ],
+            "type_tags": [
+              "由原副边有效电压比求副线圈匝数"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选B；理想变压器电压比等于匝数比，N₂=N₁(U₂/U₁)。；N₂=800×110/220=400匝，选B。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把电压比与匝数比倒置。",
+                "knowledge_tags": [
+                  "理想变压器电压与匝数关系"
+                ],
+                "type_tags": [
+                  "由原副边有效电压比求副线圈匝数"
+                ]
+              },
+              {
+                "description": "将输入电压和输出电压的比值方向取反。",
+                "knowledge_tags": [
+                  "理想变压器电压与匝数关系"
+                ],
+                "type_tags": [
+                  "由原副边有效电压比求副线圈匝数"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "理想变压器电压比等于匝数比，N₂=N₁(U₂/U₁)。",
+        "N₂=800×110/220=400匝，选B。"
+      ],
+      "source_conflicts": [
+        "AGIEval题干与累计库中已有题目的规范化题干重合，避免重复收录。"
+      ],
+      "remaining_issues": [
+        "重复题不作新增练习项。"
+      ],
+      "rationale": "重复于bank:tizhuang:3507334，保留原题及已有复核记录。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:8",
+      "source_sha256": "d7ed1b25685a063fd2ef7644230476dca115f36338a204fa33b417a0c29559e8",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:8",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "氦氖激光器能产生三种波长的激光, 其中两种波长分别为 $\\lambda_{1}=0.6328 \\mu \\mathrm{m}, \\lambda_{2}=3.39 \\mu \\mathrm{m}$, 已知波长为 $\\lambda_{1}$ 的激光是氖原子在能级间隔为 $\\triangle \\mathrm{E}_{1}=1.96 \\mathrm{eV}$ 的两个能级之间跃迁产生的. 用 $\\triangle \\mathrm{E}_{2}$ 表示产生波长为 $\\lambda_{2}$ 的激光 所对应的跃迁的能级间隔, 则 $\\triangle \\mathrm{E}_{2}$ 的近似值为",
+        "options": [
+          {
+            "key": "A",
+            "text": "$10.50 \\mathrm{eV}$"
+          },
+          {
+            "key": "B",
+            "text": "$0.98 \\mathrm{eV}$"
+          },
+          {
+            "key": "C",
+            "text": "$0.53 \\mathrm{eV}$"
+          },
+          {
+            "key": "D",
+            "text": "$0.36 \\mathrm{eV}$"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:8",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2009年物理试卷（全国卷ⅰ）"
+        },
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "原子能级跃迁与光子能量"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由两种激光波长比求原子跃迁能级差"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "同一介质中光子能量E=hc/λ；用已知跃迁标定能级差比例。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-3:u4:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "氦氖激光器能产生三种波长的激光, 其中两种波长分别为 $\\lambda_{1}=0.6328 \\mu \\mathrm{m}, \\lambda_{2}=3.39 \\mu \\mathrm{m}$, 已知波长为 $\\lambda_{1}$ 的激光是氖原子在能级间隔为 $\\triangle \\mathrm{E}_{1}=1.96 \\mathrm{eV}$ 的两个能级之间跃迁产生的. 用 $\\triangle \\mathrm{E}_{2}$ 表示产生波长为 $\\lambda_{2}$ 的激光 所对应的跃迁的能级间隔, 则 $\\triangle \\mathrm{E}_{2}$ 的近似值为",
+            "reference_answer": "D",
+            "solution_steps": [
+              "跃迁光子能量等于能级差，ΔE∝1/λ。",
+              "ΔE₂=ΔE₁λ₁/λ₂=1.96×0.6328/3.39 eV≈0.366 eV。",
+              "最接近0.36eV，选D。"
+            ],
+            "knowledge_tags": [
+              "原子能级跃迁与光子能量"
+            ],
+            "type_tags": [
+              "由两种激光波长比求原子跃迁能级差"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选D；跃迁光子能量等于能级差，ΔE∝1/λ。；ΔE₂=ΔE₁λ₁/λ₂=1.96×0.6328/3.39 eV≈0.366 eV。；最接近0.36eV，选D。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "误将能级差与波长成正比。",
+                "knowledge_tags": [
+                  "原子能级跃迁与光子能量"
+                ],
+                "type_tags": [
+                  "由两种激光波长比求原子跃迁能级差"
+                ]
+              },
+              {
+                "description": "单位换算虽可约去但比值顺序颠倒。",
+                "knowledge_tags": [
+                  "原子能级跃迁与光子能量"
+                ],
+                "type_tags": [
+                  "由两种激光波长比求原子跃迁能级差"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "跃迁光子能量等于能级差，ΔE∝1/λ。",
+        "ΔE₂=ΔE₁λ₁/λ₂=1.96×0.6328/3.39 eV≈0.366 eV。",
+        "最接近0.36eV，选D。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "跃迁光子能量等于能级差，ΔE∝1/λ。；ΔE₂=ΔE₁λ₁/λ₂=1.96×0.6328/3.39 eV≈0.366 eV。；最接近0.36eV，选D。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:65",
+      "source_sha256": "475bcb400a4d8b98a99cd873250e4e8812e26150c3fdf8042ae7782a263e542b",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:65",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "已知氢原子的基态能量为 $E_{1}$, 激发态能量 $E_{n}=\\frac{E_{1}}{n^{2}}$, 其中 $n=2$, 3.... 用 $\\mathrm{h}$ 表示普朗克常量, $\\mathrm{c}$ 表示真空中的光速。能使氢原子从第一激发态 电离的光子的最大波长为",
+        "options": [
+          {
+            "key": "A",
+            "text": "$-\\frac{4 h c}{3 \\mathrm{E}_{1}}$"
+          },
+          {
+            "key": "B",
+            "text": "$-\\frac{2 h c}{\\mathrm{E}_{1}}$"
+          },
+          {
+            "key": "C",
+            "text": "$-\\frac{4 h c}{\\mathrm{E}_{1}}$"
+          },
+          {
+            "key": "D",
+            "text": "$-\\frac{9 h c}{\\mathrm{E}_{1}}$"
+          }
+        ],
+        "answer": "C",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:65",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2011年物理试卷（全国卷ⅱ）"
+        },
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "氢原子能级与电离"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "求第一激发态电离所需光子的最大波长"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "电离阈值光子能量等于第一激发态到连续能级的能量差；波长上限对应最小电离能。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-3:u4:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "已知氢原子的基态能量为 $E_{1}$, 激发态能量 $E_{n}=\\frac{E_{1}}{n^{2}}$, 其中 $n=2$, 3.... 用 $\\mathrm{h}$ 表示普朗克常量, $\\mathrm{c}$ 表示真空中的光速。能使氢原子从第一激发态 电离的光子的最大波长为",
+            "reference_answer": "C",
+            "solution_steps": [
+              "基态能量E₁为负，第一激发态能量E₂=E₁/4。",
+              "将电子从n=2电离到能量零处，最小光子能量为0−E₂=−E₁/4。",
+              "λ_max=hc/(−E₁/4)=−4hc/E₁，选C。"
+            ],
+            "knowledge_tags": [
+              "氢原子能级与电离"
+            ],
+            "type_tags": [
+              "求第一激发态电离所需光子的最大波长"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选C；基态能量E₁为负，第一激发态能量E₂=E₁/4。；将电子从n=2电离到能量零处，最小光子能量为0−E₂=−E₁/4。；λ_max=hc/(−E₁/4)=−4hc/E₁，选C。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "用基态到电离的能量差，而非第一激发态到电离。",
+                "knowledge_tags": [
+                  "氢原子能级与电离"
+                ],
+                "type_tags": [
+                  "求第一激发态电离所需光子的最大波长"
+                ]
+              },
+              {
+                "description": "忽略E₁为负能量而漏掉符号。",
+                "knowledge_tags": [
+                  "氢原子能级与电离"
+                ],
+                "type_tags": [
+                  "求第一激发态电离所需光子的最大波长"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "基态能量E₁为负，第一激发态能量E₂=E₁/4。",
+        "将电子从n=2电离到能量零处，最小光子能量为0−E₂=−E₁/4。",
+        "λ_max=hc/(−E₁/4)=−4hc/E₁，选C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "基态能量E₁为负，第一激发态能量E₂=E₁/4。；将电子从n=2电离到能量零处，最小光子能量为0−E₂=−E₁/4。；λ_max=hc/(−E₁/4)=−4hc/E₁，选C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:96",
+      "source_sha256": "43eef3a146049e8cd2a038ab4bb55c36522a7ce48f4167ec0955b5ac828c73d0",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:agieval-gaokao-physics:96",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "用波长为 $300 \\mathrm{~nm}$ 的光照射锌板, 电子逸出锌板表面的最大初动能为 $1.28 \\times 10^{-19}\\mathrm{J}$, 已知普朗克常量为 $6.63 \\times 10^{-34} \\mathrm{J}\\cdot \\mathrm{s}$, 真空中的光速为 $3.00 \\times 10^{8} \\mathrm{~m} \\cdot \\mathrm{~s}^{-1}$, 能使锌产生光电效应的单色光的最低频率约为",
+        "options": [
+          {
+            "key": "A",
+            "text": "$1 \\times 10^{14} \\mathrm{~Hz}$"
+          },
+          {
+            "key": "B",
+            "text": "$8 \\times 10^{14} \\mathrm{~Hz}$"
+          },
+          {
+            "key": "C",
+            "text": "$2 \\times 10^{15} \\mathrm{~Hz}$"
+          },
+          {
+            "key": "D",
+            "text": "$8 \\times 10^{15} \\mathrm{~Hz}$"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "AGIEval v1.1 gaokao-physics",
+          "source_id": "agieval-gaokao-physics:96",
+          "source_file": "data/v1_1/gaokao-physics.jsonl",
+          "download_revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+          "file_sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b",
+          "url": "https://github.com/ruixiangcui/AGIEval/blob/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "license": "Original dataset licenses apply; repository code MIT",
+          "original_source": "2018年物理试卷（新课标ⅱ）"
+        },
+        "curriculum_book_id": "physics-senior-selective-3",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-3:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "光电效应与逸出功"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由入射光波长和光电子最大初动能求截止频率"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "爱因斯坦光电方程W₀=hc/λ−K_max，再计算ν₀=W₀/h。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-3",
+          "goal_ids": [
+            "physics-senior-selective-3:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "题源标注高考物理，按已核对的高中课程目录映射到physics-senior-selective-3:u4:g2；年级、学期与版次未推断。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按单选选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "用波长为 $300 \\mathrm{~nm}$ 的光照射锌板, 电子逸出锌板表面的最大初动能为 $1.28 \\times 10^{-19}\\mathrm{J}$, 已知普朗克常量为 $6.63 \\times 10^{-34} \\mathrm{J}\\cdot \\mathrm{s}$, 真空中的光速为 $3.00 \\times 10^{8} \\mathrm{~m} \\cdot \\mathrm{~s}^{-1}$, 能使锌产生光电效应的单色光的最低频率约为",
+            "reference_answer": "B",
+            "solution_steps": [
+              "入射光子能量hc/λ=6.63×10⁻³⁴×3.00×10⁸/(300×10⁻⁹)≈6.63×10⁻¹⁹J。",
+              "逸出功W₀=E光−K_max≈6.63×10⁻¹⁹−1.28×10⁻¹⁹=5.35×10⁻¹⁹J。",
+              "截止频率ν₀=W₀/h≈8.07×10¹⁴Hz，选B。"
+            ],
+            "knowledge_tags": [
+              "光电效应与逸出功"
+            ],
+            "type_tags": [
+              "由入射光波长和光电子最大初动能求截止频率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "answer_and_reasoning",
+                "description": "正确选B；入射光子能量hc/λ=6.63×10⁻³⁴×3.00×10⁸/(300×10⁻⁹)≈6.63×10⁻¹⁹J。；逸出功W₀=E光−K_max≈6.63×10⁻¹⁹−1.28×10⁻¹⁹=5.35×10⁻¹⁹J。；截止频率ν₀=W₀/h≈8.07×10¹⁴Hz，选B。",
+                "points": null,
+                "evidence_required": "答案选项与物理关系、代入计算一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把入射光频率当作截止频率。",
+                "knowledge_tags": [
+                  "光电效应与逸出功"
+                ],
+                "type_tags": [
+                  "由入射光波长和光电子最大初动能求截止频率"
+                ]
+              },
+              {
+                "description": "忘记从光子能量中减去最大初动能得到逸出功。",
+                "knowledge_tags": [
+                  "光电效应与逸出功"
+                ],
+                "type_tags": [
+                  "由入射光波长和光电子最大初动能求截止频率"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读题干、全部选项和原始标签；独立推导见步骤。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-agieval-1"
+        }
+      },
+      "independent_solution": [
+        "入射光子能量hc/λ=6.63×10⁻³⁴×3.00×10⁸/(300×10⁻⁹)≈6.63×10⁻¹⁹J。",
+        "逸出功W₀=E光−K_max≈6.63×10⁻¹⁹−1.28×10⁻¹⁹=5.35×10⁻¹⁹J。",
+        "截止频率ν₀=W₀/h≈8.07×10¹⁴Hz，选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "入射光子能量hc/λ=6.63×10⁻³⁴×3.00×10⁸/(300×10⁻⁹)≈6.63×10⁻¹⁹J。；逸出功W₀=E光−K_max≈6.63×10⁻¹⁹−1.28×10⁻¹⁹=5.35×10⁻¹⁹J。；截止频率ν₀=W₀/h≈8.07×10¹⁴Hz，选B。"
+    }
+  ]
+}

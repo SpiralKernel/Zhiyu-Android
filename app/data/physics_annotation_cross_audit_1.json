@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "bank:cjeval:75f0052a7ad8c15a9b06b2ec",
+    "source_sha256": "1f825be0c40aa371c1b2dc5b099aa8b2c0de96de4faa27f6d96504d27a9adbb2",
+    "action": "no_issue_found",
+    "reason": "90Ω与230V代入I=U/R得2.56A，答案和欧姆定律主标签吻合；rubric无分值但对应具体关系式，未发现实质冲突。"
+  },
+  {
+    "question_id": "bank:cjeval:5e32baf9b5b0849e844245e8",
+    "source_sha256": "fc10a8bcd8fd9a4eb3fec9116adddb3fc373e672712d1f6fbc4f527e270cc872",
+    "action": "no_issue_found",
+    "reason": "192盏×25W=4.8kW，电流约21.8A；4.8kW×120h=576kWh。两小问答案和逐问依据对应，未虚构分值。"
+  },
+  {
+    "question_id": "bank:cjeval:3c84eeed57b381aef7f2cac5",
+    "source_sha256": "f47da4195e6074ea738084f159fe1aa230d57f45dc11f50c783d0c5f048077ba",
+    "action": "no_issue_found",
+    "reason": "多选BD与来源解析相符：先排除故障再换保险丝，电器着火先断电；题型multiple_choice与“哪些”吻合。"
+  },
+  {
+    "question_id": "bank:cjeval:3d6c72967d1566354fc642f5",
+    "source_sha256": "ae5b2aa46158047a2236e43cb9ea2a4c15cb6a91ac9caf398234ec455ab85b14",
+    "action": "needs_review",
+    "reason": "两问被合并为一个part，建议分别建立“读数-6℃对应实际温度”和“示值等于实际值时温度”两个part以便答案、步骤及证据一一对应；所列答案数值本身与线性标定计算相符。知识主标签“体温计”不准确，应标为不准确刻度温度计的线性校准。"
+  },
+  {
+    "question_id": "bank:cjeval:4ca94c187a461ffafb1e62fb",
+    "source_sha256": "96f4422417e3f0b83602243291d858a9648a0b1db499e20729f8bc9fecf97088",
+    "action": "exclude",
+    "reason": "答案/解析与选项冲突：线性标定给出实际温度=(34-3)×100/(97-3)≈32.98℃，应约33℃，选项A-D均无33℃；来源答案A/解析写约31℃属于算术错误，题目无正确选项。"
+  },
+  {
+    "question_id": "bank:cjeval:166c98a5162fd10f07475b2a",
+    "source_sha256": "23035749bf678bd70806516292bcbeb3c75970e03aa56147a373c79d96cda81b",
+    "action": "no_issue_found",
+    "reason": "口罩呼气遇冷镜片形成液滴，答案“液化”及物态变化标签正确。"
+  },
+  {
+    "question_id": "bank:cjeval:2e3ce792d77b741d0bafc79e",
+    "source_sha256": "7739eddce856ecec68623b59ff4e1790e9d3e930aa07fa749058e17ae3f8d74f",
+    "action": "no_issue_found",
+    "reason": "露是水蒸气液化，答案B与其他汽化/凝华选项区分正确。"
+  },
+  {
+    "question_id": "bank:cjeval:eca17b961aa05a5796b7782d",
+    "source_sha256": "c977c164e01d1bc0c007518b7cf80eadbb31540f229f9e68e7564184c56dc598",
+    "action": "no_issue_found",
+    "reason": "灯丝钨升华、蒸气遇冷凝华的顺序正确；一个part呈现连续两空且答案顺序一致。"
+  },
+  {
+    "question_id": "bank:cjeval:e33080f6526f15c8b9dffc76",
+    "source_sha256": "acc70d695f6151861d2dc0ae59db96a7452fafd56d5de26c3aad3cb63e8b66e5",
+    "action": "no_issue_found",
+    "reason": "尘土飞扬是颗粒宏观机械运动，不能证明分子热运动；答案D正确。"
+  },
+  {
+    "question_id": "bank:cjeval:69bae0c949076edff9dd6b68",
+    "source_sha256": "34e061329a2d08417d3996c18b6cb7c9fced6d948bb4f46f224d3e8cd968fe9b",
+    "action": "needs_review",
+    "reason": "答案BD有依据，但primary“分子间存在间隙”对应错误选项C；本题核心应覆盖比热容、热量与温度关系、热传递方向，建议调整primary/supporting层级。"
+  },
+  {
+    "question_id": "bank:cjeval:f4979e80f78fb9e19f1cb3c7",
+    "source_sha256": "a60d0875176a8ece44d22166290a01373be17699e7f10ca6e8372b4f95523213",
+    "action": "needs_review",
+    "reason": "题目有声级单位和时间换算两空，当前唯一rubric只覆盖dB，没有为1.5h换算5400s提供独立依据；建议拆成两个part或在一个rubric中明确两项证据。答案本身正确。"
+  },
+  {
+    "question_id": "bank:cjeval:f70ca41f4bfc947f2fccfe08",
+    "source_sha256": "3f9e4db2758e6aeb3a30f16b042408914bd13e0ce063e28223e41c7f5c57c4a0",
+    "action": "no_issue_found",
+    "reason": "辨认说话人依音色，答案C和主标签正确。"
+  },
+  {
+    "question_id": "bank:cjeval:132956f695796c5cec94b57c",
+    "source_sha256": "0e751d6cdeb6e41dc98bb7f5abf062a8b08339e8f3141d284a5510bf0afb7444",
+    "action": "needs_review",
+    "reason": "答案B正确，但primary“长度估测”未覆盖题目重点LED功率估值，建议以电功率/常见用电器额定功率为primary，长度估测仅作干扰项相关支持知识。"
+  },
+  {
+    "question_id": "bank:cjeval:a88e13be8fa89f618fc46573",
+    "source_sha256": "62b28e29c53a5ae4228ee394afd35a03e4f688aa5792aaa45320a760258851a2",
+    "action": "no_issue_found",
+    "reason": "答案B及“卫星通信”主标签与题干相符；光纤、核能、Wi-Fi干扰项解释方向正确。"
+  },
+  {
+    "question_id": "bank:cjeval:4f9cfd163f1ec25c7c1c31ae",
+    "source_sha256": "3b62ce5b61fe6cd1b65b5fe6d79b6bf3a8f5c8fda21f09748573aaa4b881e2a6",
+    "action": "no_issue_found",
+    "reason": "光年为长度单位、1nm=10^-9m，答案与长度单位知识对应。"
+  },
+  {
+    "question_id": "bank:cjeval:f947c2d4a7a1b6d804ec579c",
+    "source_sha256": "7a461912ebcbd93cad6e7912dfd8692704cb088f222609b7249c9eedafb5ef61",
+    "action": "no_issue_found",
+    "reason": "多选BD正确：0dB不表示无声，体温计可离体读数，误差不能完全消除，窗花为凝华；题型匹配。"
+  },
+  {
+    "question_id": "bank:cjeval:514e535944c59f3ae6ef64ac",
+    "source_sha256": "806e9e60f4037a14b313a433fc256dddb62b989a7ff64fd456b744860e830e5c",
+    "action": "needs_review",
+    "reason": "答案AB正确，但primary“家庭电路故障分析”只覆盖A；B考查电流磁效应，C/D涉及电动机/电磁感应。建议以电磁现象和感应条件为primary，按四项覆盖相关知识。"
+  },
+  {
+    "question_id": "bank:cjeval:da01c4ed1974b7491063690f",
+    "source_sha256": "17a873deda5f231a3cf6db4b5be6ab64907db38a2b1a960194600f028249df47",
+    "action": "needs_review",
+    "reason": "答案D与累积法相符，但part.prompt仍是嵌套对象（原题ques_type/ques_content/ques_answer/ques_analyze），不符合Annotation中prompt为字符串的schema；应抽取ques_content转成字符串后再校验。"
+  },
+  {
+    "question_id": "bank:cjeval:c355e201ff53d6b07b32dcbb",
+    "source_sha256": "99f0fc6aa599a9c75e8532874cb845b2e8576fc3cb37872a5ffd6a10026d161f",
+    "action": "needs_review",
+    "reason": "答案四项与题面相符，但唯一rubric仅覆盖表头a、b，未覆盖平均值用于减小误差以及平均厚度0.086mm；建议拆分或增补对应rubric证据。"
+  },
+  {
+    "question_id": "bank:cjeval:27e57078e75bba29b683eab7",
+    "source_sha256": "196a9e92a1a2685671cdd2c435e76a0db9591a9fce7ce6a6d225833e544b3b29",
+    "action": "needs_review",
+    "reason": "答案C正确，但primary“长度单位及换算”与力的单位无关；建议改为力的SI单位/物理量单位，移除不相关支撑标签。"
+  },
+  {
+    "question_id": "bank:cjeval:aed752cce2c4841050937f68",
+    "source_sha256": "6e62f191ff187cfe7f1bcd98c9bfd5d1af2086ca4dab6b6855847c7c3e8ef22a",
+    "action": "needs_review",
+    "reason": "题干问“哪个单位”且答案只有B，语义是single_choice，当前response_format标为multiple_choice；知识primary也误标“长度单位”，应聚焦SI基本单位及时间单位秒。"
+  },
+  {
+    "question_id": "bank:cjeval:7826d67322fd18a7e4b34d34",
+    "source_sha256": "1d1ae98d6124d2f586e286acc078e1c99f707037bf96c59f79e3425a557bd7ea",
+    "action": "needs_review",
+    "reason": "答案A合理，但题目同时比较质量、容积、电压和长度，primary只标长度估测，建议使用常见物理量估测作为主标签并分列支撑量。"
+  },
+  {
+    "question_id": "bank:cjeval:acc83dbdb79977f685d01392",
+    "source_sha256": "76eb1880adbd98d7562189fab57b1b7ef2481bcab1f5303a1f732a63dea6be63",
+    "action": "no_issue_found",
+    "reason": "多选AD与误差/测量错误概念区分相符；answer_spec保持source_only，未宣称教师核验。"
+  },
+  {
+    "question_id": "bank:cjeval:32297f27bd60755f22d6dfdb",
+    "source_sha256": "8da2465c8cc814c63a2c70254c030d3119bb65d44379e718b6848c8e1ed31ae4",
+    "action": "needs_review",
+    "reason": "答案BCD与物理判断相符，但primary仅“质量”覆盖D，B蒸发致冷及C凸透镜聚光同为正确项；建议将实验现象综合辨析或并列知识设为primary，并使rubric的证据要求具体覆盖B/C/D。"
+  },
+  {
+    "question_id": "bank:cjeval:fecb5a64fe3c0cea15d73cac",
+    "source_sha256": "067089f4455c51c7f16f5495fb5467b1b64ef5a020b503802c6a809204d4d765",
+    "action": "no_issue_found",
+    "reason": "三个小问答案逐问对应；8L汽油放热2.76×10^8J、100km用时4000s且发动机功9.2×10^7J、效率33.3%均计算一致。逐问rubric给出方法和单位要求，分值保持空缺。"
+  },
+  {
+    "question_id": "bank:cjeval:ea48007baa061d5acb41c410",
+    "source_sha256": "dffcf69c287481747c250f9496cb41ba85ed10c6d254b1658eccf0c766c0e882",
+    "action": "no_issue_found",
+    "reason": "200W×4h=0.8kWh（0.8度），主标签与换算任务一致；未赋分。"
+  },
+  {
+    "question_id": "bank:cjeval:18a7726cb6029c2caf4f6036",
+    "source_sha256": "c8a55e170e017a49d6120670c17834e430039e512f10effa48b33502b4e1810e",
+    "action": "no_issue_found",
+    "reason": "Q=cmΔT=1.764×10^5J，忽略热损后t=Q/P=176.4s；两问映射正确，rubric说明了关键证据且未编分。"
+  },
+  {
+    "question_id": "bank:cjeval:44a36dacc472f633e7f88502",
+    "source_sha256": "2d7c408b2f11f3fc19ec00dae594fa7e8780bcfe9590670b470b733448931c2b",
+    "action": "needs_review",
+    "reason": "答案D估测正确，但primary“时间的测量”未覆盖站立压强估测；应将压强估算/常见物理量估测设为主知识。"
+  },
+  {
+    "question_id": "bank:cjeval:035881dfc14ad346020bdd22",
+    "source_sha256": "05a8e4078625f7b911aded5ab807b496f89bf2b56d8f341a570e672364404d34",
+    "action": "no_issue_found",
+    "reason": "三个part分别对应浮沉状态、密度和酒精排液质量；漂浮、ρ=950kg/m³、64g的结果计算一致，rubric逐项说明依据且不造分。"
+  },
+  {
+    "question_id": "bank:cjeval:bdab725e53ba690c1135b70a",
+    "source_sha256": "5be2d23bff8052c13e94c6ccafcbd94ee66786fd9735122e5fb0ac8c9ac8a7ef",
+    "action": "needs_review",
+    "reason": "两个填空共用一个part且rubric只有笼统“与来源参考答案一致”，未明确分别要求累积法厚度0.01cm及面密度/体积换算密度0.75g/cm³的证据；建议拆分或增补细则。数值本身正确。"
+  },
+  {
+    "question_id": "bank:cjeval:72a375790d57c58d146dd3dd",
+    "source_sha256": "200f3f1136b0653754b40ea916a550262eea65f74a780f0513ab59c167e664dd",
+    "action": "exclude",
+    "reason": "来源答案与题干数据冲突：水吸热55×4.2×10^3×20=4.62×10^6J；电输入2200×2700=5.94×10^6J，效率约77.8%，不是答案87.5%。排除是恰当处理。"
+  }
+]

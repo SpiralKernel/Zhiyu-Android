@@ -1,0 +1,533 @@
+{
+  "batch_id": "senior-20261015-physics-web-1",
+  "source_manifest": [
+    {
+      "path": "https://zy.21cnjy.com/25306220#lc-current-energy-transfer",
+      "revision": "2026-10-15",
+      "sha256": "a8da1b036676280c9c5417bcefa4049abd9a3a43fce4c6836f1c996745237b19",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/25306220"
+    },
+    {
+      "path": "https://zy.21cnjy.com/25306220#lc-frequency-adjustment",
+      "revision": "2026-10-15",
+      "sha256": "3fc9939aa5c5d4e4db56b4adbd60300c03816980f03dd53de343dfbee9b08108",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/25306220"
+    },
+    {
+      "path": "https://zy.21cnjy.com/25306220#em-spectrum-properties",
+      "revision": "2026-10-15",
+      "sha256": "3db7b63b9260eb29c089041e7a60e8bb8bbb154409a4ce30843245b1a0018201",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/25306220"
+    }
+  ],
+  "items": [
+    {
+      "question_id": "bank:web-21jy-lc-current-energy-transfer",
+      "source_sha256": "2c4d425b20002952a38bc525341fe94d79fa7b914791bc5cb07b4ce3307fb848",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-lc-current-energy-transfer",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "关于LC振荡电路中的振荡电流，下列说法正确的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "振荡电流最大时，电容器两极板间的电场强度最大"
+          },
+          {
+            "key": "B",
+            "text": "振荡电流为零时，线圈中自感电动势为零"
+          },
+          {
+            "key": "C",
+            "text": "振荡电流增大的过程中，线圈中的磁场能转化为电场能"
+          },
+          {
+            "key": "D",
+            "text": "振荡电流减小的过程中，线圈中的磁场能转化为电场能"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "lc-current-energy-transfer",
+          "source_file": "https://zy.21cnjy.com/25306220",
+          "download_revision": "2026-10-15",
+          "file_sha256": "a8da1b036676280c9c5417bcefa4049abd9a3a43fce4c6836f1c996745237b19",
+          "url": "https://zy.21cnjy.com/25306220",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "《学霸笔记 同步精讲》第4章 电磁振荡与电磁波：同步练习+单元测评（教师版）",
+          "captured_excerpt_sha256": "a8da1b036676280c9c5417bcefa4049abd9a3a43fce4c6836f1c996745237b19"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电磁振荡中的能量转化与相位"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "根据LC回路电流变化判断电场能、磁场能的转化"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "需要辨别电流大小变化与磁场能变化关系，并区分电流为零时电流变化率并不为零。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "来源页面标注为人教版高中物理选择性必修第二册第四章；映射本册u4:g2；不推断年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题答案为全部正确选项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "关于LC振荡电路中的振荡电流，下列说法正确的是",
+            "reference_answer": "D",
+            "solution_steps": [
+              "电流最大时磁场能最大，电容器电场能为零，A错。",
+              "电流过零处电流变化最快，线圈自感电动势幅值最大，B错。",
+              "电流增大时磁场能增大，电场能转化为磁场能，C错。",
+              "电流减小时磁场能减少，转化为电场能，D正确。"
+            ],
+            "knowledge_tags": [
+              "电磁振荡中的能量转化与相位"
+            ],
+            "type_tags": [
+              "根据LC回路电流变化判断电场能、磁场能的转化"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "correct_answer_and_reasoning",
+                "description": "选D；电流最大时磁场能最大，电容器电场能为零，A错。；电流过零处电流变化最快，线圈自感电动势幅值最大，B错。；电流增大时磁场能增大，电场能转化为磁场能，C错。；电流减小时磁场能减少，转化为电场能，D正确。",
+                "points": null,
+                "evidence_required": "所选项与LC关系、能量变化或电磁波谱性质一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "混淆振荡电流与电容器电场强度的相位。",
+                "knowledge_tags": [
+                  "电磁振荡中的能量转化与相位"
+                ],
+                "type_tags": [
+                  "根据LC回路电流变化判断电场能、磁场能的转化"
+                ]
+              },
+              {
+                "description": "把电流为零误认为电流变化率也为零。",
+                "knowledge_tags": [
+                  "电磁振荡中的能量转化与相位"
+                ],
+                "type_tags": [
+                  "根据LC回路电流变化判断电场能、磁场能的转化"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题读取公开教师版的题干、选项和答案解析，并独立依据高中物理关系复核。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-1"
+        }
+      },
+      "independent_solution": [
+        "电流最大时磁场能最大，电容器电场能为零，A错。",
+        "电流过零处电流变化最快，线圈自感电动势幅值最大，B错。",
+        "电流增大时磁场能增大，电场能转化为磁场能，C错。",
+        "电流减小时磁场能减少，转化为电场能，D正确。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "电流最大时磁场能最大，电容器电场能为零，A错。；电流过零处电流变化最快，线圈自感电动势幅值最大，B错。；电流增大时磁场能增大，电场能转化为磁场能，C错。；电流减小时磁场能减少，转化为电场能，D正确。"
+    },
+    {
+      "question_id": "bank:web-21jy-lc-frequency-adjustment",
+      "source_sha256": "39a69e77a602b96f17986a1a90148f8dd9162acdb30de98eb3e86051934dd225",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-lc-frequency-adjustment",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "要想增大LC振荡电路中产生的振荡电流的频率，可采用的方法是",
+        "options": [
+          {
+            "key": "A",
+            "text": "增大电容器两极板的间距"
+          },
+          {
+            "key": "B",
+            "text": "升高电容器的充电电压"
+          },
+          {
+            "key": "C",
+            "text": "增加线圈的匝数"
+          },
+          {
+            "key": "D",
+            "text": "在线圈中插入铁芯"
+          }
+        ],
+        "answer": "A",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "lc-frequency-adjustment",
+          "source_file": "https://zy.21cnjy.com/25306220",
+          "download_revision": "2026-10-15",
+          "file_sha256": "3fc9939aa5c5d4e4db56b4adbd60300c03816980f03dd53de343dfbee9b08108",
+          "url": "https://zy.21cnjy.com/25306220",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "《学霸笔记 同步精讲》第4章 电磁振荡与电磁波：同步练习+单元测评（教师版）",
+          "captured_excerpt_sha256": "3fc9939aa5c5d4e4db56b4adbd60300c03816980f03dd53de343dfbee9b08108"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "LC回路固有频率与电容电感"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "通过调节电容或电感改变LC振荡频率"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "使用f=1/(2π√LC)及平行板电容、线圈电感随结构变化的关系逐项判断。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "来源页面标注为人教版高中物理选择性必修第二册第四章；映射本册u4:g2；不推断年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题答案为全部正确选项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "要想增大LC振荡电路中产生的振荡电流的频率，可采用的方法是",
+            "reference_answer": "A",
+            "solution_steps": [
+              "增大板间距使平行板电容C减小，固有频率f增大，A正确。",
+              "充电电压改变振幅，不改变理想LC固有频率，B错。",
+              "增加线圈匝数使L增大，频率降低，C错。",
+              "插入铁芯增大L，频率降低，D错。"
+            ],
+            "knowledge_tags": [
+              "LC回路固有频率与电容电感"
+            ],
+            "type_tags": [
+              "通过调节电容或电感改变LC振荡频率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "correct_answer_and_reasoning",
+                "description": "选A；增大板间距使平行板电容C减小，固有频率f增大，A正确。；充电电压改变振幅，不改变理想LC固有频率，B错。；增加线圈匝数使L增大，频率降低，C错。；插入铁芯增大L，频率降低，D错。",
+                "points": null,
+                "evidence_required": "所选项与LC关系、能量变化或电磁波谱性质一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把振荡幅度或充电电压当成频率决定因素。",
+                "knowledge_tags": [
+                  "LC回路固有频率与电容电感"
+                ],
+                "type_tags": [
+                  "通过调节电容或电感改变LC振荡频率"
+                ]
+              },
+              {
+                "description": "误判增加电感会提高频率。",
+                "knowledge_tags": [
+                  "LC回路固有频率与电容电感"
+                ],
+                "type_tags": [
+                  "通过调节电容或电感改变LC振荡频率"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题读取公开教师版的题干、选项和答案解析，并独立依据高中物理关系复核。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-1"
+        }
+      },
+      "independent_solution": [
+        "增大板间距使平行板电容C减小，固有频率f增大，A正确。",
+        "充电电压改变振幅，不改变理想LC固有频率，B错。",
+        "增加线圈匝数使L增大，频率降低，C错。",
+        "插入铁芯增大L，频率降低，D错。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "增大板间距使平行板电容C减小，固有频率f增大，A正确。；充电电压改变振幅，不改变理想LC固有频率，B错。；增加线圈匝数使L增大，频率降低，C错。；插入铁芯增大L，频率降低，D错。"
+    },
+    {
+      "question_id": "bank:web-21jy-em-spectrum-properties",
+      "source_sha256": "350cd0e98bb7dfe9821e4b56c110e98b798e42fe585a35e6eaa10027a260cb9b",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-em-spectrum-properties",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "关于电磁波谱，下列说法正确的是（多选）",
+        "options": [
+          {
+            "key": "A",
+            "text": "波长不同的电磁波在本质上完全相同"
+          },
+          {
+            "key": "B",
+            "text": "电磁波的波长若差异太大则会出现本质不同的现象"
+          },
+          {
+            "key": "C",
+            "text": "电磁波谱的频带很宽"
+          },
+          {
+            "key": "D",
+            "text": "电磁波的波长很短，所以电磁波谱的频带很窄"
+          }
+        ],
+        "answer": "AC",
+        "kind": "multiple_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "em-spectrum-properties",
+          "source_file": "https://zy.21cnjy.com/25306220",
+          "download_revision": "2026-10-15",
+          "file_sha256": "3db7b63b9260eb29c089041e7a60e8bb8bbb154409a4ce30843245b1a0018201",
+          "url": "https://zy.21cnjy.com/25306220",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "《学霸笔记 同步精讲》第4章 电磁振荡与电磁波：同步练习+单元测评（教师版）",
+          "captured_excerpt_sha256": "3db7b63b9260eb29c089041e7a60e8bb8bbb154409a4ce30843245b1a0018201"
+        },
+        "curriculum_book_id": "physics-senior-selective-2",
+        "curriculum_goal_ids": [
+          "physics-senior-selective-2:u4:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "电磁波谱与电磁波共同性质"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨析电磁波谱波长差异及共同本质"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "区分电磁波的共同本质与不同波长引起的性质差异，并识别谱段范围。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-selective-2",
+          "goal_ids": [
+            "physics-senior-selective-2:u4:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "来源页面标注为人教版高中物理选择性必修第二册第四章；映射本册u4:g2；不推断年级、学期或教材版次。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A",
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题答案为全部正确选项。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "关于电磁波谱，下列说法正确的是（多选）",
+            "reference_answer": "AC",
+            "solution_steps": [
+              "不同波长的电磁波本质上都是电磁波，A正确；波长差异会使与物质作用、传播等表现不同，但不改变其本质，B错误。",
+              "电磁波谱从无线电波延伸至伽马射线，频带范围很宽，C正确。",
+              "电磁波并非都波长很短，且频带并不窄，D错误。",
+              "正确项为A、C。"
+            ],
+            "knowledge_tags": [
+              "电磁波谱与电磁波共同性质"
+            ],
+            "type_tags": [
+              "辨析电磁波谱波长差异及共同本质"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "correct_answer_and_reasoning",
+                "description": "选AC；不同波长的电磁波本质上都是电磁波，A正确；波长差异会使与物质作用、传播等表现不同，但不改变其本质，B错误。；电磁波谱从无线电波延伸至伽马射线，频带范围很宽，C正确。；电磁波并非都波长很短，且频带并不窄，D错误。；正确项为A、C。",
+                "points": null,
+                "evidence_required": "所选项与LC关系、能量变化或电磁波谱性质一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把波长差异造成的现象差异误作本质不同。",
+                "knowledge_tags": [
+                  "电磁波谱与电磁波共同性质"
+                ],
+                "type_tags": [
+                  "辨析电磁波谱波长差异及共同本质"
+                ]
+              },
+              {
+                "description": "把“电磁波”局限理解为可见光。",
+                "knowledge_tags": [
+                  "电磁波谱与电磁波共同性质"
+                ],
+                "type_tags": [
+                  "辨析电磁波谱波长差异及共同本质"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题读取公开教师版的题干、选项和答案解析，并独立依据高中物理关系复核。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-1"
+        }
+      },
+      "independent_solution": [
+        "不同波长的电磁波本质上都是电磁波，A正确；波长差异会使与物质作用、传播等表现不同，但不改变其本质，B错误。",
+        "电磁波谱从无线电波延伸至伽马射线，频带范围很宽，C正确。",
+        "电磁波并非都波长很短，且频带并不窄，D错误。",
+        "正确项为A、C。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "不同波长的电磁波本质上都是电磁波，A正确；波长差异会使与物质作用、传播等表现不同，但不改变其本质，B错误。；电磁波谱从无线电波延伸至伽马射线，频带范围很宽，C正确。；电磁波并非都波长很短，且频带并不窄，D错误。；正确项为A、C。"
+    }
+  ]
+}

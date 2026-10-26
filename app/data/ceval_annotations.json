@@ -1,0 +1,339 @@
+{
+  "annotation_model": "Luna",
+  "annotation_model_note": "Luna-generated review labels inferred from each question and its options. These are not labels supplied by C-Eval; check them before using them for instruction or grading.",
+  "annotations": {
+    "dev/middle_school_politics_dev.csv:0": {
+      "knowledge_tags": [
+        "当今时代主题：和平与发展",
+        "中国外交与国际关系",
+        "和平解决国际争端"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "国际关系判断"
+      ],
+      "origin": "luna",
+      "question_sha256": "db5768b3a978a4322c5da91e7834d6f78a79f3efa75784307c61ff1610cb2166"
+    },
+    "dev/middle_school_politics_dev.csv:1": {
+      "knowledge_tags": [
+        "社会主义核心价值观",
+        "爱国主义"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "名句理解"
+      ],
+      "origin": "luna",
+      "question_sha256": "9996483991fce3e1f7232c1cbe4bcfd2a7b9daae63e252fba2e3a140f709270e"
+    },
+    "dev/middle_school_politics_dev.csv:2": {
+      "knowledge_tags": [
+        "我国资源现状",
+        "资源地区分布不平衡"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "材料分析"
+      ],
+      "origin": "luna",
+      "question_sha256": "44555ee1d5354715b60119079a0d9fb894ad9b74af7eb8a9992a5820a6c769c0"
+    },
+    "dev/middle_school_politics_dev.csv:3": {
+      "knowledge_tags": [
+        "个人利益与国家利益",
+        "中国梦",
+        "爱国情感"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "观点辨析"
+      ],
+      "origin": "luna",
+      "question_sha256": "3c33f1fb118e7f71a52d6c7f49e47fedab4833d716828d9c5eefe5ae4f9e786a"
+    },
+    "dev/middle_school_politics_dev.csv:4": {
+      "knowledge_tags": [
+        "一个中国原则",
+        "祖国统一",
+        "一国两制"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "基础知识判断"
+      ],
+      "origin": "luna",
+      "question_sha256": "be8be2789b20974837b4f4fcd98bcbab92fdab75c3d6c159ca7fd6fffdf3fa74"
+    },
+    "val/middle_school_politics_val.csv:0": {
+      "knowledge_tags": [
+        "中华传统美德",
+        "文明素质",
+        "民族文化认同"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "组合选择"
+      ],
+      "origin": "luna",
+      "question_sha256": "594f3a56f8363116276127e2eb08d1a7ea3a362a31fd98f573b28900a132c830"
+    },
+    "val/middle_school_politics_val.csv:1": {
+      "knowledge_tags": [
+        "非公有制经济",
+        "就业与经济发展",
+        "我国基本经济制度"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "组合选择"
+      ],
+      "origin": "luna",
+      "question_sha256": "6b39521d8baccb1a5d114b1864692f6c693162619c63dc542c7ba700e988c17e"
+    },
+    "val/middle_school_politics_val.csv:2": {
+      "knowledge_tags": [
+        "市场配置资源",
+        "市场经济",
+        "政府宏观调控"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "组合选择"
+      ],
+      "origin": "luna",
+      "question_sha256": "a2a24078e413510e9ede25a36e3740b73b5adfd92a90169b70a1cf77391c2512"
+    },
+    "val/middle_school_politics_val.csv:3": {
+      "knowledge_tags": [
+        "文明礼仪",
+        "社会生活中的礼仪要求"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "情境判断"
+      ],
+      "origin": "luna",
+      "question_sha256": "cae823ffa47e561e902ebaf38426b11c1677f5b7aa62b45134a7337c0c376205"
+    },
+    "val/middle_school_politics_val.csv:4": {
+      "knowledge_tags": [
+        "国有经济",
+        "国有企业",
+        "国有经济的主导作用"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "观点辨析"
+      ],
+      "origin": "luna",
+      "question_sha256": "b62e5350d5cee096d2f2e2f4dc6598bdc0515bdadea4b955a133d50e6334af73"
+    },
+    "val/middle_school_politics_val.csv:5": {
+      "knowledge_tags": [
+        "当今时代主题：和平与发展",
+        "国际合作",
+        "国际争端解决"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "观点辨析"
+      ],
+      "origin": "luna",
+      "question_sha256": "7d25face8b769b1c35c996cce2d70b42052a24cd4eb5e6679e0a8295a9e63b0a"
+    },
+    "val/middle_school_politics_val.csv:6": {
+      "knowledge_tags": [
+        "中国共产党领导",
+        "党的领导与中国特色社会主义",
+        "党的初心和使命"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "组合选择"
+      ],
+      "origin": "luna",
+      "question_sha256": "11403287b3650721104bda380675f8f9c2c88f190df1b079ceb058ff88fb807c"
+    },
+    "val/middle_school_politics_val.csv:7": {
+      "knowledge_tags": [
+        "违法行为类别",
+        "行政违法行为",
+        "民事违法行为与刑事违法行为"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "案例分类"
+      ],
+      "origin": "luna",
+      "question_sha256": "916320ab7ab151b366e84c0c5bfe41d359ed8e74897e970c1b78f79cc16195c6"
+    },
+    "val/middle_school_politics_val.csv:8": {
+      "knowledge_tags": [
+        "中国特色社会主义总任务",
+        "社会主义现代化",
+        "中华民族伟大复兴"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "组合选择"
+      ],
+      "origin": "luna",
+      "question_sha256": "482f56fbd546a89122c641764f7ca6c775cabbb340cd3e2a378229da8eece3e4"
+    },
+    "val/middle_school_politics_val.csv:9": {
+      "knowledge_tags": [
+        "消费者权益",
+        "知情权与公平交易权",
+        "自主选择权"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "组合选择"
+      ],
+      "origin": "luna",
+      "question_sha256": "890d0a2894e5c7cb213b8b8ee1ba1517981f4e03cb3ba798adcb4a55ef7e9dd4"
+    },
+    "val/middle_school_politics_val.csv:10": {
+      "knowledge_tags": [
+        "个体经济",
+        "非公有制经济",
+        "我国所有制经济形式"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "情境分类"
+      ],
+      "origin": "luna",
+      "question_sha256": "dae010b336cb400a33b99f27a6585e6eb740309beb0ff2ded44df3ec11032866"
+    },
+    "val/middle_school_politics_val.csv:11": {
+      "knowledge_tags": [
+        "人治与法治",
+        "法治思维",
+        "法治的特征"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "观点辨析"
+      ],
+      "origin": "luna",
+      "question_sha256": "268eeaced8c9aceec5273b9bcaf41946a7a9c7d6227820f2d9392364ed49c6a6"
+    },
+    "val/middle_school_politics_val.csv:12": {
+      "knowledge_tags": [
+        "民营经济",
+        "非公有制经济",
+        "我国基本经济制度"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "观点辨析"
+      ],
+      "origin": "luna",
+      "question_sha256": "e1922815fa1680d8b6494e9220549a2c75f517e00b4dac5b0df52ab9f585835e"
+    },
+    "val/middle_school_politics_val.csv:13": {
+      "knowledge_tags": [
+        "生物安全",
+        "国家安全",
+        "人民生命健康"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "组合选择"
+      ],
+      "origin": "luna",
+      "question_sha256": "38c0f6f87e4ffd3ed89a382298d94851069655af0925159e4c97ccf2e97ef484"
+    },
+    "val/middle_school_politics_val.csv:14": {
+      "knowledge_tags": [
+        "亲社会行为",
+        "关心社会发展",
+        "积极承担社会责任"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "名句启示"
+      ],
+      "origin": "luna",
+      "question_sha256": "97b200eb9ec8074b358636d6f9c33c65df44ba5d444bfb8a391efb3e6040b604"
+    },
+    "val/middle_school_politics_val.csv:15": {
+      "knowledge_tags": [
+        "国内生产总值",
+        "宏观经济发展目标"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "时政常识"
+      ],
+      "origin": "luna",
+      "question_sha256": "ac6219f20a537763a88d2733cd625869cae4b86b7f7948bd6008ca955b98b7d2"
+    },
+    "val/middle_school_politics_val.csv:16": {
+      "knowledge_tags": [
+        "当今世界特征",
+        "世界开放发展与联系"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "组合选择"
+      ],
+      "origin": "luna",
+      "question_sha256": "ef49fe9ef7eeed42fec7314685ac4b7969e459f7c8be655705ab1750c7f5f56d"
+    },
+    "val/middle_school_politics_val.csv:17": {
+      "knowledge_tags": [
+        "积极谋求发展",
+        "发展质量",
+        "国际竞争力"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "基础知识判断"
+      ],
+      "origin": "luna",
+      "question_sha256": "4b896b5590603baa4b79aad12f511117d4aaf5ca157f65ce60700f34881c8762"
+    },
+    "val/middle_school_politics_val.csv:18": {
+      "knowledge_tags": [
+        "人民代表大会制度",
+        "中国人民政治协商会议",
+        "我国政治制度"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "基础知识判断"
+      ],
+      "origin": "luna",
+      "question_sha256": "913404e8b8c2a558a23a8b7ea9027e8f4803eb5d8ec2b38862b3387d9f603c48"
+    },
+    "val/middle_school_politics_val.csv:19": {
+      "knowledge_tags": [
+        "宪法",
+        "规范国家权力运行",
+        "依法行政"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "宪法知识"
+      ],
+      "origin": "luna",
+      "question_sha256": "c1040bd308c5dc20a12497545e111936a5113bcb7789ee354848d035bdfee434"
+    },
+    "val/middle_school_politics_val.csv:20": {
+      "knowledge_tags": [
+        "社会保障",
+        "人民幸福",
+        "共享发展成果"
+      ],
+      "type_tags": [
+        "单项选择题",
+        "目的判断"
+      ],
+      "origin": "luna",
+      "question_sha256": "1363376be6339e493127cdd66d7fa5d9a61cc0ce103649e4c5325ce548ed4509"
+    }
+  }
+}

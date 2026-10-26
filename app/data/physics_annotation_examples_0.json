@@ -1,0 +1,2558 @@
+{
+  "bank:cjeval:e93363829f8dfe8cb3cdcfee": {
+    "source_sha256": "a2ac0815d84fe6b10616c88d03f62d7cf3067a6f2491d938a8a408b7b64629e3",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "根据欧姆定律计算导体的电阻、电流及电压"
+        ],
+        "supporting": [
+          "电功的公式及简单应用"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "串联等效电阻与欧姆定律求电流，再用电功公式W=UIt求电能"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "R1、R2串联，先相加求总电阻；保持题设5 V电源与10 s通电时间。电流用A，电功用J。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 有两个定值电阻的阻值分别为R1=10Ω、R2=15Ω，现将这两个电阻串联后接到电压为5V的电源两端，求：\n(1)电路中的电流；\n(2)通电10s电流做的功。",
+          "reference_answer": "0.2A\n10J",
+          "solution_steps": [
+            "首先，我们需要找到电路中总电阻的值。由于电阻R1和R2是串联的，总电阻R等于两者电阻值之和。即：R总 = R1 + R2 = 10Ω + 15Ω = 25Ω。接下来，我们可以使用欧姆定律计算电路中的电流I，欧姆定律的公式是I = U / R，其中U是电源的电压。所以，I = 5V / 25Ω = 0.2A。这样我们得到了电路中的电流是0.2A。其次，要计算通电10秒内电流做的功W，使用功的公式W = UIt，替换已知值后，W = 5V * 0.2A * 10s = 10J。因此，通电10s电流做的功是10J。"
+          ],
+          "knowledge_tags": [
+            "根据欧姆定律计算导体的电阻、电流及电压",
+            "电功的公式及简单应用"
+          ],
+          "type_tags": [
+            "串联等效电阻与欧姆定律求电流，再用电功公式W=UIt求电能"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "subquestion_alignment_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:c66ad827c8ac7d6e01fa9d46": {
+    "source_sha256": "4b93f8adc7f5d56630e8990ec86edb3295853bae516eb6890b82d8d7850b7ba2",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "根据欧姆定律计算导体的电阻、电流及电压"
+        ],
+        "supporting": [
+          "电功率的定义式P=W/t的应用",
+          "电功率的计算式P=UI及推导式的应用",
+          "电热器的工作部分与导线的发热情况比较"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "在额定条件下串联电路电流、电阻、电能时间换算与插线板总电流比较"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "额定运行时按铭牌230 V、1200 W；3.6 kW·h须与功率单位一致再求小时。并用同一230 V下两电器功率分别求电流后求和，与10 A限值比较。焦耳定律解释须指出串联导线与电热器中电流相同且导线电阻较小。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: (1)将“230V  1200W”的电暖气连接到插座，在额定电压下运行：\n①电暖气的电流是多少？  \n②电暖气的电阻是多少？\n③电暖气需要多长时间消耗3.6kW·h的电能？\n④为什么电暖气在工作时放出大量热量，而连接的电线几乎不发热？\n(2)假设插线板允许的最大电流为10A，通过计算分析，该插线板能否同时支持“230V  800W”的电吹风和上述电暖气同时工作？",
+          "reference_answer": "5.22A\n44.06Ω\n3h\n因为电暖气的电阻远大于电线电阻，根据焦耳定律Q=I²Rt，发热量与电阻成正比。\n可以",
+          "solution_steps": [
+            "(1)①要计算流过电暖气的电流，可以使用公式I=P/U，即I=1200W/230V≈5.22A。②进一步求电暖气的电阻，根据公式R=U/I，即R=230V/5.22A≈44.06Ω。③计算电暖气消耗3.6kW·h电能所需的时间，根据公式t=W/P，即t=3.6kW·h/1.2kW=3h。④根据焦耳定律Q=I²Rt，电流相同的情况下，由于导线的电阻远小于电暖气的电阻，因此导线发热量远小于电暖气，所以电暖气工作时放出大量热，而导线几乎不发热。(2)分别计算电暖气和电吹风的工作电流，然后相加。电吹风的电流I'=800W/230V≈3.48A，电暖气和电吹风并联后的总电流I总=5.22A+3.48A≈8.7A。由于8.7A小于插线板允许的最大电流10A，因此插线板可以承载这两个电器同时工作。"
+          ],
+          "knowledge_tags": [
+            "根据欧姆定律计算导体的电阻、电流及电压",
+            "电功率的定义式P=W/t的应用",
+            "电功率的计算式P=UI及推导式的应用",
+            "电热器的工作部分与导线的发热情况比较"
+          ],
+          "type_tags": [
+            "在额定条件下串联电路电流、电阻、电能时间换算与插线板总电流比较"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "subquestion_alignment_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:0603344173fc3cf042e10cfd": {
+    "source_sha256": "00dacf666d35a838abfeeaf3c3bd799725fcfd1dc51bdf55a51670ce0c37fa46",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "根据欧姆定律计算导体的电阻、电流及电压"
+        ],
+        "supporting": [
+          "电功率的计算式P=UI及推导式的应用"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "串联支路电流与电功率关系推导，并在R2>R1条件下比较P1、P2"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：困难；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "按题设两次均为同一恒定电压源，电阻为正且R2>R1；先写I=U/(R0+R)，再写支路功率I²R，推导时保留不等式方向。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 已知电阻值R0，与电阻R1串联后连接到一个恒定电压电源上，电阻R1的功率为P1；若将电阻R0与电阻R2（R2大于R1）串联后再连接到同一电源上，电阻R2的功率为P2。\n(1) 如果P1等于P2，推导出R1和R2之间的关系式。\n(2) 在什么条件下，P1大于P2？又在什么条件下，P1小于P2？请在推导中预先设定所需的物理量。",
+          "reference_answer": "R1 * R2 = R0^2\nR1 * R2 > R0^2 时 P1 > P2； R1 * R2 < R0^2 时 P1 < P2。",
+          "solution_steps": [
+            "设电源电压为U，根据欧姆定律，当电阻R0与电阻R1串联时，电流I1为U/(R0+R1)，电阻R1的功率P1为I1^2 * R1；同样的，当电阻R0与电阻R2串联时，电流I2为U/(R0+R2)，电阻R2的功率P2为I2^2 * R2。\n当P1等于P2时，有I1^2 * R1 = I2^2 * R2，代入I1和I2的表达式，得到(U/(R0 + R1))^2 * R1 = (U/(R0 + R2))^2 * R2。化简可得(R1 - R2) * (R0^2 - R1 * R2) = 0，因为R2大于R1，所以得出R1 * R2 = R0^2。\n在分析P1和P2的大小关系时，类似的方法得出：当P1大于P2时，需要满足(R1 - R2) * (R0^2 - R1 * R2) > 0，因R2大于R1，所以有R1 * R2 > R0^2；同理，当P1小于P2时，需要满足(R1 - R2) * (R0^2 - R1 * R2) < 0，所以有R1 * R2 < R0^2。\n此推导帮助我们理解电阻串联后总功率的变化，以及串联电阻值对各自功率的影响。"
+          ],
+          "knowledge_tags": [
+            "根据欧姆定律计算导体的电阻、电流及电压",
+            "电功率的计算式P=UI及推导式的应用"
+          ],
+          "type_tags": [
+            "串联支路电流与电功率关系推导，并在R2>R1条件下比较P1、P2"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "subquestion_alignment_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:bfa74347a1445a3dbb529a18": {
+    "source_sha256": "3589c0d122508fe51b8569a1742612c3b9e66ee5afc8dfb4c2b4d1a95a3affc4",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "电功率的计算式P=UI及推导式的应用"
+        ],
+        "supporting": [
+          "计算物体温度变化时的吸放热",
+          "热值的公式及相关计算",
+          "热机效率的计算与估算"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "额定电压功率求电阻，结合水的比热容计算吸热、效率与等效燃料质量"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "按额定230 V、1200 W计算电阻；容量1.7 L换算成水质量时需采用水密度约1 kg/L；温差用95℃−20℃。效率分母为12 min内电热水壶消耗的电能；燃料部分按题设忽略热损失。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 一款电热水壶的铭牌参数如下表所示，当电热水壶在正常使用时，求解以下问题：\n额定电压\n230V\n频率\n50Hz\n额定功率\n1200W\n容量\n1.7L\n\n（1）电热水壶的电阻是多少？\n（2）将一整壶水从 20℃加热到 95℃时，水吸收的热量是多少？（c水=4.2×103J/(kg·℃)）如果加热这壶水需时 12 分钟，电热水壶的热效率是多少？\n（3）假设水吸收的热量由天然气提供，忽略热量损失，需要燃烧多少kg的天然气？（q天然气=3.5×107J/kg）",
+          "reference_answer": "44.1Ω\n5.355×10^5J、73.38%\n0.0153kg",
+          "solution_steps": [
+            "(1) 电热水壶的电阻可以通过功率公式计算：$P=\\\\frac{U^2}{R}$，代入铭牌上的额定电压和功率，计算出电热水壶的电阻为$R=\\\\frac{U^2}{P} = \\\\frac{(230V)^2}{1200W} = 44.1 \\\\Omega$。\n(2) 首先计算水的质量：由水的容量得$V = 1.7L = 1.7 \\\\times 10^{-3} m^3$，水的密度为$1000 kg/m^3$，所以$m=\\\\rho V = 1000 kg/m^3 \\\\times 1.7 \\\\times 10^{-3} m^3 = 1.7kg$。接着计算水吸收的热量：$Q_{\\\\text{吸}} = cm(\\\\Delta t) = 4.2 \\\\times 10^3 J/(kg \\\\cdot \\\\degree C) \\\\times 1.7kg \\\\times (95 \\\\degree C - 20 \\\\degree C) = 5.355 \\\\times 10^5 J$。计算电热水壶消耗的电能：$W = Pt' = 1200W \\\\times 12 \\\\times 60s = 8.64 \\\\times 10^5 J$。最后，计算电热水壶的热效率：$\\\\eta = \\\\frac{Q_{\\\\text{吸}}}{W} \\\\times 100\\\\% = \\\\frac{5.355 \\\\times 10^5 J}{8.64 \\\\times 10^5 J} \\\\times 100\\\\% = 73.38\\\\%$。\n(3) 根据热量守恒，水吸收的热量等于天然气燃烧放出的热量：$Q_{\\\\text{放}} = Q_{\\\\text{吸}} = 5.355 \\\\times 10^5 J$。计算需要天然气的质量：$m_{\\\\text{气}} = \\\\frac{Q_{\\\\text{放}}}{q_{\\\\text{气}}} = \\\\frac{5.355 \\\\times 10^5 J}{3.5 \\\\times 10^7 J/kg} = 0.0153 kg$。综上所述，计算过程分条说明，步骤清晰，思路简洁明了。"
+          ],
+          "knowledge_tags": [
+            "电功率的计算式P=UI及推导式的应用",
+            "计算物体温度变化时的吸放热",
+            "热值的公式及相关计算",
+            "热机效率的计算与估算"
+          ],
+          "type_tags": [
+            "额定电压功率求电阻，结合水的比热容计算吸热、效率与等效燃料质量"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "subquestion_alignment_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:c9d1aef82ca6c0ec0ad203bb": {
+    "source_sha256": "4b0ce1ba92ec41167cfc8f176e5cd81db1f1cb5917a75056081753894e55b1c6",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "电功率的定义式P=W/t的应用"
+        ],
+        "supporting": [
+          "计算物体温度变化时的吸放热",
+          "热机效率的计算与估算"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "由水的比热容计算吸热，按额定功率求加热时间并用燃料热值和效率求燃料质量"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "50 L水按ρ水=1.0×10³ kg/m³换算为50 kg；温差为45℃。加热时间按题设吸热等于转入水中的能量计算；燃料计算使用12%利用效率，区分热值单位J/kg。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 小红家安装了一台电热水器，额定加热功率为2500W，容量为50L。将15℃的水加热到60℃，已知水的比热容c水=4.2×103J/(kg∙℃)，干木材的热值q=1.2×107J/kg。计算：\n(1)将水从15℃加热到60℃，水需要吸收多少热量？\n(2)电热水器正常工作需要多少时间才能完成加热？\n(3)如果使用干木材加热，该干木材的利用效率为12%，完全燃烧多少千克的干木材能够完成任务？",
+          "reference_answer": "9.45×10^6J\n3780s\n7.88kg",
+          "solution_steps": [
+            "(1) 先计算水的质量。水的密度为1.0×10^3 kg/m^3，因此50L水的质量为m = ρV = 1.0×10^3 kg/m^3 × 50×10^-3 m^3 = 50kg。温度从15℃升高到60℃，吸收的热量使用公式Q吸 = c水m(Δt) = c水m(t - t0)，代入数值得Q吸 = 4.2×10^3 J/(kg∙℃) × 50kg × (60℃ - 15℃) = 9.45×10^6 J。\n(2) 电热水器的功率P=2500W，根据功率和能量的关系，加热水所需的时间t = W/P。已知吸收的热量Q吸是电能W，所以t = Q吸/P = 9.45×10^6 J / 2500W = 3780s。\n(3) 使用干木材进行加热，效率为12%。因此所需实际能量为Q放 = Q吸 / 12% = 9.45×10^6 J / 12% = 7.875×10^7 J。干木材的热值q为1.2×10^7 J/kg，所以需要燃烧的木材质量m' = Q放/q = 7.875×10^7 J / 1.2×10^7 J/kg ≈ 7.88kg。"
+          ],
+          "knowledge_tags": [
+            "电功率的定义式P=W/t的应用",
+            "计算物体温度变化时的吸放热",
+            "热机效率的计算与估算"
+          ],
+          "type_tags": [
+            "由水的比热容计算吸热，按额定功率求加热时间并用燃料热值和效率求燃料质量"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "subquestion_alignment_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:dd4821e89d672710438b6099": {
+    "source_sha256": "e0c8a03f446fae3f5f2e0aa5e74f525cddd84dd814477bec1be1c0b704e98d96",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "熔化和凝固的概念及现象"
+        ],
+        "supporting": [
+          "沸腾的条件、沸点",
+          "声音是怎么传播的"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "读取声速、熔点和沸点表格，辨析多个判断中的错误陈述"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "BC"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "根据题给表格比较温度与声速、锅具熔点与被加热物熔点、温度计液体沸点和目标温度；题目问“不正确”，应选全部错误项。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 小雨同学根据下列数据表格作出了一些结论，其中不正确的是：（    ）\n表1：介质中的声速（单位：米/秒）\n空气（0℃）\n331\n空气（20℃）\n343\n水（常温）\n1500\n冰\n3230\n煤油（25℃）\n1324\n软木\n500\n铜\n3750\n铝\n5000\n表2：物质的熔点（单位：摄氏度，标准大气压）\n水银\n-39\n冰\n0\n银\n961\n铅\n328\n锡\n232\n表3：物质的沸点（单位：摄氏度，标准大气压）\n液氮\n-196\n水\n100\n液氧\n-183\n煤油\n111\n酒精\n78\n水银\n357\n选项: A. 温度会影响同一介质中的声速 B. 用锡锅加热铅会导致锡锅熔化 C. 酒精温度计无法测量沸水的温度 D. 水银温度计不能测量液态氧的温度但能测量沸水的温度",
+          "reference_answer": "BC",
+          "solution_steps": [
+            "该题考核学生对物质性质的理解和应用能力。A项：通过观察表1可知，空气在0℃和20℃下的声速分别为331米/秒和343米/秒，因此温度确实会影响同一介质中的声速，A项正确。B项：表2显示铅的熔点是328℃，而锡的熔点是232℃，用熔点较低的锡锅去熔化熔点较高的铅，锡锅会先熔化，因此B项错误，符合题干要求。C项：依据表3，酒精的沸点为78℃，低于水的沸点100℃，因此用于测量沸水的酒精温度计会因酒精先沸腾而失效，C项错误，符合题干要求。D项：水银温度计的测量范围从-39℃至357℃，可以测量水的沸点100℃，但是由于液氧的沸点为-183℃，低于水银温度计的测量下限，因此水银温度计无法测量液氧的温度，D项正确。综上，选项B和C是错误结论，符合题干要求。"
+          ],
+          "knowledge_tags": [
+            "熔化和凝固的概念及现象",
+            "沸腾的条件、沸点",
+            "声音是怎么传播的"
+          ],
+          "type_tags": [
+            "读取声速、熔点和沸点表格，辨析多个判断中的错误陈述"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:e871c8726fed3171f7fc8744": {
+    "source_sha256": "a05ee6d4a0ebfe366ccd33cc9d50984bb6bf460d3fef3e311734b57d3dbe7bad",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "力的作用效果"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "区分力使物体运动状态改变与使物体发生形变"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "C"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "逐项识别力的作用效果；抛球、下落和足球减速均改变运动状态，捏橡皮泥改变形状。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 以下过程，力的作用效果与其他三个不同的是（　　）选项: A. 用力将实心球掷出 B. 篮球受重力从篮筐内竖直下落 C. 把橡皮泥捏成不同造型 D. 滚动的足球受阻力缓缓停下",
+          "reference_answer": "C",
+          "solution_steps": [
+            "此题考查物体在力的作用下所发生的不同效果。选项A中将实心球掷出，是力使静止的球开始运动；选项B中篮球受重力作用下落，速度增加，表现为力使物体的速度发生改变；选项D中足球受到阻力而逐渐停止，同样体现力改变物体的运动状态，使之由运动变为静止；而选项C中的橡皮泥在力的作用下形状发生了变化，体现的是力使物体发生了形变。通过对每个选项的分析可以看出，A、B和D都是力改变物体的运动状态，而C是力使物体发生了形变等不同的效果。因此，选项C与其他三个选项表现的力的作用效果不同，是正确答案。"
+          ],
+          "knowledge_tags": [
+            "力的作用效果"
+          ],
+          "type_tags": [
+            "区分力使物体运动状态改变与使物体发生形变"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:03f0f79cea06b51021280937": {
+    "source_sha256": "a845c309ece5603da74341d397e4f0f49295e2508c9aec68e401188c545f7e8e",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "长度的单位及换算"
+        ],
+        "supporting": [
+          "摩擦起电现象",
+          "分子热运动",
+          "分子之间存在间隙"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "区分飞沫机械运动与花香扩散，并结合微米换算、带电体吸引及分子间隙作多空填答"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "0.3 μm换算为米；静电过滤解释应落在带电体吸引轻小物体；等体积混合体积变化与分子间有间隙有关。答案各空需按顺序分别核对。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 自2020年春节以来，新冠肺炎疫情一直在持续传播，新冠病毒可以通过飞沫传染。这种飞沫传染与花香传播的方式__（选填“相同”或“不同”），为了防护，前线的医护人员必须佩戴N95口罩、护目镜等防护用具。N95口罩中的熔喷布能够过滤直径为0.3μm即为__米的微小颗粒物，这主要是因为在生产过程中熔喷布被处理后带上了大量__（正/负）电荷，从而利用电荷能够__轻小物体的原理。在各种防控措施中，用酒精消毒是一种重要方法，使用前需将酒精稀释。稀释过程中，当等体积的酒精和水混合发现总体积小于两者相加的体积，这是由于__的缘故。酒精的香味能够在远处闻到，则表明酒精分子的__运动。",
+          "reference_answer": "不同\n3×10^-7\n负\n吸引\n分子间有空隙\n永不停息的无规则运动",
+          "solution_steps": [
+            "{\"1\": \"由于新冠病毒通过飞沫传播以机械运动为主，而花香则通过分子的无规则运动扩散，因此两者传播方式是不同的。\", \"2\": \"熔喷布能过滤的颗粒物计算方式为：1μm等于10^-6米，所以0.3μm等于3×10^-7米。\", \"3\": \"在N95口罩生产过程中，通过处理使熔喷布带上大量电子，带负电荷。带电体能够吸引细小物体，从而有效过滤细颗粒物。\", \"4\": \"带电体能够吸引轻小物体，因此利用了这一物理性质来捕捉污染物。\", \"5\": \"当相同体积的酒精与水混合时，总体积小于单独的体积之和，是因为酒精与水分子之间有空隙，分子能够互相嵌入。\", \"6\": \"酒精的气味能在远处被闻到，是由于酒精分子的永不停息的无规则运动，这是一种扩散现象。\"}"
+          ],
+          "knowledge_tags": [
+            "长度的单位及换算",
+            "摩擦起电现象",
+            "分子热运动",
+            "分子之间存在间隙"
+          ],
+          "type_tags": [
+            "区分飞沫机械运动与花香扩散，并结合微米换算、带电体吸引及分子间隙作多空填答"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:8bbe57a0bf06904c12089055": {
+    "source_sha256": "3b9d9700e9a9a24e5de2d300f0220af3b3e385d2770ce35141ec705026fd876a",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "生活中的惯性现象、惯性的利用及危害防止"
+        ],
+        "supporting": [
+          "探究动能大小与速度的关系"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "用惯性解释急刹后继续运动，并判断速度增加时动能变化"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "质量一定时讨论速度变化对动能的影响；惯性解释物体保持原运动状态的性质。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "当汽车在高速公路上高速行驶并遇到紧急情况时，刹车后无法立即停下，这是由于汽车具有__；交通法则规定汽车不能超速行驶，是因为当汽车质量一定时，其速度越快，__（请填“动能”或“势能”）就会越大，发生交通事故时，造成的伤害也会越严重。",
+          "reference_answer": "惯性\n动能",
+          "solution_steps": [
+            "解析如下：\n[1] 根据物理学中的惯性原理，所有物体都有保持当前运动状态的特性，即惯性。因此，快速行驶的汽车在紧急刹车后不能立即停下来，是由于它具有惯性。\n[2] 动能是物体因运动而具有的能量，且动能与物体的质量和速度的平方成正比。公式为动能=1/2mv^2。当汽车质量一定时，速度越快，动能越大，因此在发生交通事故时，会造成更大的破坏和伤害。这是交通法规定限制汽车速度的主要原因。"
+          ],
+          "knowledge_tags": [
+            "生活中的惯性现象、惯性的利用及危害防止",
+            "探究动能大小与速度的关系"
+          ],
+          "type_tags": [
+            "用惯性解释急刹后继续运动，并判断速度增加时动能变化"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:942c2117b0fa7cb0d336d019": {
+    "source_sha256": "9d352a8c1e554484fad0c4a7fc279d1c2a2ce755f41fe7ff84c02dcba750a13d",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "application",
+      "knowledge": {
+        "primary": [
+          "增大摩擦的方法及生活中的实例"
+        ],
+        "supporting": [
+          "简单机械及其效率",
+          "杠杆"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "从不同自行车部件举例，描述结构并将其对应到物理原理"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "须给出两个不同部件与不同原理，避开题面示例的座垫增大受力面积减小压强；开放作答需按题意核对部件、结构和原理的对应关系。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 自行车是我们日常生活中常见的交通工具。骑自行车不仅有助于锻炼身体，也符合当今社会倡导的“低碳生活，节能环保”的理念。自行车的许多部件都与物理学原理相关，请列举两个例子，描述自行车上某部件的结构特点，并解释其所对应的物理原理（注意：不能与示例重复，列举的两个例子应选择不同的部件和物理原理）。\n示例：自行车的座垫设计得宽大而柔软——增大受力面积，减小压强，提高舒适度。",
+          "reference_answer": "车把设计成T字形——杠杆原理；车胎内充气——弹性形变原理。",
+          "solution_steps": [
+            "自行车部件的结构特点及其对应的物理原理如下：1. 车把设计成T字形，这种设计增加了力臂长度，根据杠杆原理，较长的力臂可以减少转动车把所需的力，使得骑行时更容易控制方向，这体现了杠杆原理。2. 车胎内充气，通过充气增加车胎的弹性，这利用了弹性形变原理，车胎在受到外力时会形变并能恢复原状，提供了更好的减震效果和舒适的骑行体验。考点：杠杆原理、弹性形变原理。"
+          ],
+          "knowledge_tags": [
+            "增大摩擦的方法及生活中的实例",
+            "简单机械及其效率",
+            "杠杆"
+          ],
+          "type_tags": [
+            "从不同自行车部件举例，描述结构并将其对应到物理原理"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:b6393383690db6760ab394db": {
+    "source_sha256": "7f967514862d5e1d74e0df9546f044ccd66801d0477c2df4649773021c8bb013",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "计算机械的总功、有用功和额外功"
+        ],
+        "supporting": [
+          "机械效率的简单计算"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "提升重物的有用功与电梯输入能量之比求机械效率"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "g=10 N/kg；用W有=Gh和W总=Pt，50 s、150 m、75 kW的单位须统一；效率为百分数且整题分值未知。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 位于柳州的马鞍山竖井电梯是中国第二座安装在山体内部的电梯，它在2015年春节期间开始对外开放。该电梯的最大载重量为1000kg。在满载的情况下，电梯在50秒内将乘客提升到150米高的观景平台（g取10N/kg）。试计算：\n（1）电梯将乘客提升所做的有用功；\n（2）电梯的效率。（假设电梯的电动机以额定功率P=75kW工作）",
+          "reference_answer": "1.5×10^6J\n40%",
+          "solution_steps": [
+            "解析：\\n（1）为了计算电梯提升乘客所做的有用功，首先需要确定满载状态下乘客的总重力。使用公式G = mg，其中m是质量，g是重力加速度。\\n  因此，电梯额定载客的重力 G = 1000kg × 10N/kg = 10000N。\\n  有用功W有由公式W有 = Gh给出，其中G是重力，h是提升的高度。\\n  所以电梯提升乘客做的有用功 W有 = 10000N × 150m = 1.5 × 10^6J。\\n（2）接下来，我们需要计算电梯在提升过程中消耗的电能。电能W通过电动机额定功率P和时间t计算得出，W=Pt。\\n电动机额定功率 P = 75kW = 75 × 10^3W，运行时间t=50s。\\n消耗的电能 W = 75 × 10^3W × 50s = 3.75 × 10^6J。\\n最后，根据能效比公式，计算电梯的效率 $\\eta =\\\\frac{W_{\\\\mathrm{有}}}{W} \\times 100\\\\%$。\\n电梯的效率为 $\\eta =\\\\frac{1.5 \\times 10^6J}{3.75 \\times 10^6J} \\times 100\\\\% = 40\\\\%$。\\n故电梯的效率为40%。"
+          ],
+          "knowledge_tags": [
+            "计算机械的总功、有用功和额外功",
+            "机械效率的简单计算"
+          ],
+          "type_tags": [
+            "提升重物的有用功与电梯输入能量之比求机械效率"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "subquestion_alignment_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:8d74f33c7a9f6986435b78b5": {
+    "source_sha256": "60896b652756425acbaa232c09fa850befdc0b8b4115334e057ea0f9eb2eda13",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "家庭电路中各用电器的连接方式"
+        ],
+        "supporting": [
+          "总功率过大对家庭电路的影响",
+          "短路及其对家庭电路的影响"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "判断家庭用电器并联连接及空气开关跳闸的过载或短路原因"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "分别判断连接方式与保护装置动作原因；跳闸可能由总功率过大或短路造成，单凭题干不能二选一。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 在家庭电路里，所有用电器是__（请填写“串联”或“并联”）连接的。炎热的夏季，小明家里开着空调，当小明的妈妈将烤箱插头插入插座时，空气开关立即“跳闸”，其原因可能是__。",
+          "reference_answer": "并联\n烤箱功率过大或短路",
+          "solution_steps": [
+            "[1] 在家庭电路中，各个用电器需要独立工作并且电压相同，所以它们是并联连接的。\\n[2] 当空气开关“跳闸”时，通常是因为电路过载或短路。当小明的家同时使用空调和烤箱时，可能会导致总功率过大，从而引起电路过载。同样，如果烤箱出现短路现象，也会导致跳闸。"
+          ],
+          "knowledge_tags": [
+            "家庭电路中各用电器的连接方式",
+            "总功率过大对家庭电路的影响",
+            "短路及其对家庭电路的影响"
+          ],
+          "type_tags": [
+            "判断家庭用电器并联连接及空气开关跳闸的过载或短路原因"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:4b778db412a46f96a31110ed": {
+    "source_sha256": "eec7f3d7692f0d935a2576d9ee5c848035c1fbb24a0dd9948f4168d2d760b2f8",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "刻度尺的使用"
+        ],
+        "supporting": [
+          "质量的测量",
+          "测量力的工具—弹簧测力计",
+          "体温计的构造、原理及使用"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "辨析刻度尺、温度计、托盘天平和弹簧测力计的规范使用"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "D"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "区分普通温度计与体温计；天平称量时不得通过平衡螺母调节称量过程中的平衡；测力前先检查零点。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容：正确使用实验仪器是确保物理实验成功的重要前提。关于仪器的正确使用，以下说法中哪一个是正确的？（  ）选项：A. 使用刻度尺测量长度时，必须从零刻度线开始量起 B. 在使用温度计测量温度前，应甩动温度计 C. 使用天平测量物体的质量时，需要通过向右盘增减砝码并调节平衡螺母让天平平衡 D. 在使用弹簧测力计测力前，应先检查指针是否与零刻度线对齐",
+          "reference_answer": "D",
+          "solution_steps": [
+            "这道题考查学生是否理解物理实验中正确使用仪器的方法。A项指出测量长度时必须从零刻度线开始，但实际上无论从哪个位置开始测量，只要记录起始刻度值并计算差值即可，因此A项错误。B项建议在使用温度计之前甩动，这只是针对体温计而言，为了让水银回到最低点，而普通温度计使用前不需要甩动，因此B项错误。C项提到在使用天平测质量时需要调节平衡螺母，事实上，天平初始校准后应通过加减砝码达到平衡，因此C项错误。D项说明使用弹簧测力计前需确认指针是否对齐零刻度线，这是为了确保读数准确的必备步骤，因此D项正确。经过逐一分析，正确答案是D。"
+          ],
+          "knowledge_tags": [
+            "刻度尺的使用",
+            "质量的测量",
+            "测量力的工具—弹簧测力计",
+            "体温计的构造、原理及使用"
+          ],
+          "type_tags": [
+            "辨析刻度尺、温度计、托盘天平和弹簧测力计的规范使用"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:cb3e34c5fa5b24d6d36023d3": {
+    "source_sha256": "0fb8137625457a6ac587015661505e12acd6569c3c5da178867fdffcca1cdc4b",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "calculation",
+      "knowledge": {
+        "primary": [
+          "刻度尺的使用"
+        ],
+        "supporting": [
+          "测量长度的特殊方法"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "用叠加法估算单枚硬币厚度，并从记录位数判断刻度尺分度值"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "numeric",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "10枚硬币总高2.30 cm，先除以10，再换算cm至m；保留题设测量记录的有效位数。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 小明同学用刻度尺测量10枚壹圆硬币堆叠的高度，结果是2.30厘米。计算小明同学使用的刻度尺的最小分度值，每枚硬币的厚度是多少米。（用科学计数法表示）",
+          "reference_answer": "1mm\n2.30×10^-3",
+          "solution_steps": [
+            "[1] 根据测量结果2.30cm可以看出，数字0是估算得出的，而2.3cm则是实际可读的部分，这说明刻度尺的最小刻度至少准确到0.1cm，即1mm。\\n[2] 将总高度2.30cm除以10，得到每枚硬币的厚度为0.230cm。换算成米并表示为科学计数法，结果为2.30×10^-3m。注意，要求的是硬币的厚度，所以结果要表述为厚度。"
+          ],
+          "knowledge_tags": [
+            "刻度尺的使用",
+            "测量长度的特殊方法"
+          ],
+          "type_tags": [
+            "用叠加法估算单枚硬币厚度，并从记录位数判断刻度尺分度值"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:c78749f316724d7e6869128b": {
+    "source_sha256": "5d04e6d49ee7b23b00609f1db096e3389a5f6c53e2a59a3e72121222e5024e35",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "长度的单位及换算"
+        ],
+        "supporting": [
+          "时间的单位及换算",
+          "密度的定义"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "纳米换算、密度单位换算与跨时刻间隔换算"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "分别处理nm到m、kg/m³到g/cm³、时刻差到小时；列车时间差需跨分钟借位，结果单位为h。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 新型冠状病毒 COVID-19 的直径大约是100nm=__m；“全碳气凝胶”的密度为0.16kg/m3，换算成g/cm3为__g/cm3；G7772次高铁列车于7:34从铜陵站出发，并在8:43抵达合肥南站，所需时间为__h。",
+          "reference_answer": "1×10-7\n1.6×10-4\n1.15",
+          "solution_steps": [
+            "[1] 首先进行单位转换，1纳米等于1×10-9米，因此，100纳米等于100×1×10-9米，即1×10-7米。\\n[2] 对于密度的单位转换，1千克每立方米等于1000克每百万立方厘米，因此0.16千克每立方米等于0.16×1000克每百万立方厘米，即1.6×10-4克每立方厘米。\\n[3] 计算列车的运行时间，先确定时间点8:43和7:34，相减后得到1小时9分钟。由于1分钟等于1/60小时，因此9分钟等于0.15小时，加上最初的1小时，总共为1.15小时。"
+          ],
+          "knowledge_tags": [
+            "长度的单位及换算",
+            "时间的单位及换算",
+            "密度的定义"
+          ],
+          "type_tags": [
+            "纳米换算、密度单位换算与跨时刻间隔换算"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:45bdc8327771c6343d80b89b": {
+    "source_sha256": "3e2acef7f82e78c1c6f755973cefdd5ab231980bb837910407042ff42f6b23e9",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "温度计的构造、原理及使用"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "利用均匀刻度温度计的两组标定点建立线性读数关系"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "假设刻度均匀，读数与真实温度呈线性关系；由两个给定标定点求关系式，再代入80℃刻度读数。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 某同学在进行实验时发现一支温度计的读数不准确，经过仔细观察确认其刻度是均匀分布的。将该温度计和标准温度计一同放入水中，观察到当实际温度为2℃时，该温度计的读数为4℃；当实际温度为42℃时，该温度计的读数与实际温度一致。请问，当温度计读数为80℃时，实际温度是多少？",
+          "reference_answer": "82",
+          "solution_steps": [
+            "由于温度计的刻度是均匀的，所以当其读数变化时，实际温度也等量变化，即存在线性关系$T=at+b$。根据已知条件，当温度计读数为4℃时，实际温度T=2℃；当温度计读数为42℃时，实际温度T=42℃。由此可建立方程组：\\n①$4a + b = 2$\\n②$42a + b = 42$。解方程组，得到$a=\\frac{20}{19}$，$b=-\\frac{42}{19}$。于是，实际温度的计算公式为$T=\\frac{20}{19}t-\\frac{42}{19}$。将温度计读数t=80℃代入公式，得$T=\\frac{20}{19}\\times 80 - \\frac{42}{19} = 82℃$。所以，当温度计的读数为80℃时，实际温度为82℃。考点：线性函数的应用。"
+          ],
+          "knowledge_tags": [
+            "温度计的构造、原理及使用"
+          ],
+          "type_tags": [
+            "利用均匀刻度温度计的两组标定点建立线性读数关系"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:24d3cf7fa4567a1dc8131852": {
+    "source_sha256": "d178aa6c6b177f75e739b0b03a7c103148cf779f6be1e5daabedf57ef7318304",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "长度的单位及换算"
+        ],
+        "supporting": [
+          "小孔成像",
+          "光的反射定律",
+          "平面镜成像的特点和规律"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "辨析光年单位、平面镜反射角、小孔成像和像大小规律的多选题"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "CD"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "光年是长度单位；垂直入射时反射角为0°；小孔成像依赖光沿直线传播；平面镜像大小等于物体大小。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "试题内容：同学们在学习光现象的过程中提出了许多观点，你认为正确的有（    ）。选项: A. 光年是一个极大的时间单位 B. 光线垂直入射到平面镜上，反射角为90度 C. 小孔成像由于光的直线传播而形成倒立实像 D. 小明从远处走向挂在墙上的平面镜，他在镜中的像大小不变",
+          "reference_answer": "CD",
+          "solution_steps": [
+            "此题目考察了光现象的基本概念和光传播的原理。分析各个选项：A选项是错误的，光年是指光在真空中一年时间里传播的距离，是距离单位而非时间单位。B选项是错误的，当光线垂直入射到平面镜上时，反射角为0度，而不是90度。C选项是正确的，小孔成像是由于光沿直线传播在小孔后的光屏上形成的倒立实像。D选项是正确的，根据平面镜成像原理，不论观察者如何改变与镜子的距离，平面镜中形成的像与物体大小始终相同。因此，正确答案为C和D。"
+          ],
+          "knowledge_tags": [
+            "长度的单位及换算",
+            "小孔成像",
+            "光的反射定律",
+            "平面镜成像的特点和规律"
+          ],
+          "type_tags": [
+            "辨析光年单位、平面镜反射角、小孔成像和像大小规律的多选题"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:883ff0a06303facbc175049c": {
+    "source_sha256": "14bfebf8abca602f5b54956220bc5988d63a4e0832db8130c82a0137a4b5ce91",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "密度的定义"
+        ],
+        "supporting": [
+          "实验:探究平面镜成像的特点",
+          "探究凸透镜成像规律实验",
+          "等效替代法"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "识别密度测量、类比、等效替代和分类研究方法"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "AC"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "逐项核对研究方法与示例的对应；玻璃板代替平面镜用于便于确定像的位置，属于等效替代。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 下列关于研究方法的叙述中，正确的是选项: A. 通过天平和刻度尺测量正方体物块的密度，运用了组合法 B. 类比速度的概念得出密度的概念，运用了分类法 C. 用玻璃板代替平面镜研究平面镜成像的特点，运用了等效法 D. 凸透镜成像可分为实像和虚像，运用了比较法",
+          "reference_answer": "AC",
+          "solution_steps": [
+            "此题考查物理学中的研究方法。A选项描述通过天平测质量、刻度尺测体积，然后联合使用这些数据计算出密度，这一过程融合了不同的测量手段，体现了综合性，故运用的是组合法，因此A选项正确。B选项提到根据速度概念类比得出密度的概念，类比是将两者相似处加以对比得出结果的方法，所以实际上此处运用的是类比法，因此B选项错误。C选项中运用玻璃板来替换平面镜进行成像特点研究的行为，实际上是用一种物品代替另一种相似的物品来展开实验，运用的是等效法，因此C选项正确。D选项谈到将凸透镜成像分为实像和虚像的过程，实际上是将成像分为两类，运用的是分类法，故D选项错误。综上，正确答案为A和C。"
+          ],
+          "knowledge_tags": [
+            "密度的定义",
+            "实验:探究平面镜成像的特点",
+            "探究凸透镜成像规律实验",
+            "等效替代法"
+          ],
+          "type_tags": [
+            "识别密度测量、类比、等效替代和分类研究方法"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:32efa9264c268f6df99a102a": {
+    "source_sha256": "19400c0085f82986793bdd6e91fe923becbfb8a1b3801e349afe25e551f8b12d",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "常见物体的长度及长度的估测"
+        ],
+        "supporting": [
+          "质量",
+          "压强",
+          "压力与压强",
+          "压强公式及其计算",
+          "压强公式的简单应用",
+          "熟悉一些家庭用电器的电功率"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "估算家庭与人体数据并用压力和受力面积检验压强选项"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "C"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "压强估算须将压力单位用N、面积用m²；其他选项按常见数量级判断。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "下列厨房环境中的估测数据最符合实际的是（    ）选项: A. 一个鸡蛋的重量大约是0.5千克 B. 家用冰箱的功率大约是1000瓦 C. 小明双脚站立时对地面产生的压强为1.2×10^4帕斯卡 D. 菜刀刀刃的厚度大约是0.5厘米",
+          "reference_answer": "C",
+          "solution_steps": [
+            "本题考察对生活常识中估测数据准确性的判断。选项A的一个鸡蛋重量为0.5千克太重，一般鸡蛋重量约50克即0.05千克，因此A选项不正确。选项B的家用冰箱功率约为1000瓦，但实际家用冰箱功率通常在200瓦左右，因此B选项不正确。选项C描述小明双脚站立时对地面的压强为1.2×10^4帕斯卡较为准确。一个中学生的体重约为500牛顿，双脚与地面的接触面积约为0.04平方米，计算得压强$p=\\frac{F}{S}=\\frac{500N}{0.04m^2}$=1.25×10^4帕斯卡，所以C选项较为合理。选项D的菜刀刀刃厚度约为0.5厘米显然过厚，实际值大约为0.5毫米，因此D不正确。综合分析，正确答案为C。"
+          ],
+          "knowledge_tags": [
+            "常见物体的长度及长度的估测",
+            "质量",
+            "压强",
+            "压力与压强",
+            "压强公式及其计算",
+            "压强公式的简单应用",
+            "熟悉一些家庭用电器的电功率"
+          ],
+          "type_tags": [
+            "估算家庭与人体数据并用压力和受力面积检验压强选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:b45f6cb9ad58d2a5998d1bbf": {
+    "source_sha256": "be1b3c686936575608843c844204dfc7d67676dd4702742ab5bd4aee55b07f99",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "机械运动"
+        ],
+        "supporting": [
+          "分子热运动",
+          "光的色散原理及现象",
+          "根据音色辨别发声体"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "从诗句识别平均速度、彩虹光学、分子热运动及声音传播相关知识"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "ACD"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "逐项识别现象与知识点的对应；彩虹涉及折射和色散，香气传播体现分子无规则运动。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 以下诗句中包含的物理知识正确的是（ ）选项: A. “千里江陵一日还”——平均速度 B. “瀑水喷成虹”——光的折射和反射 C. “花气袭人知骤暖”——温度和分子运动 D. “夜半钟声到客船”——声音的传播和音质",
+          "reference_answer": "ACD",
+          "solution_steps": [
+            "本题旨在检测学生是否能够从诗句中提取出相关的物理知识。A. 诗句“千里江陵一日还”描述的是远距离在短时间内完成，可以计算出平均速度，这涉及到平均速度的概念，因此选项A正确。B. “‘瀑水喷成虹”与光学现象相关，但彩虹形成需要光的折射和反射，而不仅仅是反射，因此选项B不准确。C. 诗句“花气袭人知骤暖”说明了温度升高会加快气味的散播，这与温度对分子无规则运动的影响有关，即温度上升使分子运动更加剧烈，所以选项C正确。D. “夜半钟声到客船”展示了声音在空气中的传播，并可以根据音质辨别声音的来源，因此包含了声音的传播和音质的知识点，所以选项D正确。综上所述，正确答案为ACD。"
+          ],
+          "knowledge_tags": [
+            "机械运动",
+            "分子热运动",
+            "光的色散原理及现象",
+            "根据音色辨别发声体"
+          ],
+          "type_tags": [
+            "从诗句识别平均速度、彩虹光学、分子热运动及声音传播相关知识"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:8eb58e4dc9c12c77fd8f6694": {
+    "source_sha256": "13d3465a9588f6252b03bea2a2f605ed53336e4c82f0a530873f31502573144b",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "常见物体的长度及长度的估测"
+        ],
+        "supporting": [
+          "时间的测量",
+          "质量",
+          "重力的方向"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "用重力数量级、长度和时间常识判断实际估算"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "A"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "区分质量与重力，核对单位和常见量级；鸡蛋重力约0.5 N。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 以下哪个物理量最符合实际情况是（　　）选项: A. 一颗鸡蛋的重量大约是0.5N B. 一个教室门的高度约为10米 C. 一个初中生的体重大约是500千克 D. 初中生100米跑的时间大约是6秒",
+          "reference_answer": "A",
+          "solution_steps": [
+            "本题考查对常见物体及其物理量的日常知识。分析选项：A选项，一个鸡蛋的质量接近50克=0.05千克，其受地球引力的重力力为G=mg=0.05千克×10N/kg=0.5N，这是合理的。B选项，一般教室门高约2米，不可能达到10米，不合理。C选项，一个初中生的体重一般约为50千克，不会有500千克，不合理。D选项，初中生百米跑大多在14秒左右，不会是6秒，不合理。综合来看，只有A选项符合实际情况，故正确答案为A。"
+          ],
+          "knowledge_tags": [
+            "常见物体的长度及长度的估测",
+            "时间的测量",
+            "质量",
+            "重力的方向"
+          ],
+          "type_tags": [
+            "用重力数量级、长度和时间常识判断实际估算"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:239e6a848ed9737292f3cd36": {
+    "source_sha256": "f8647e53602f9485a1a6e2a3ffc5f5d30863919d2bac463056bae20c6d932df1",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "内能的概念，一切物体都具有内能"
+        ],
+        "supporting": [
+          "热传递与热量"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "辨析相同温度物体内能、零摄氏度冰内能及热传递实例"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "BC"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "内能不能仅凭温度判断，还与质量和状态等因素有关；热水袋向手传热属于热传递。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 关于内能的知识，下列说法正确的是（    ）选项: A. 一杯水和一桶水，如果它们的温度相同，那么它们的内能也相同 B. 0℃的冰块也具有内能 C. 冬天用“热水袋”暖手是通过热传递的方式改变物体内能 D. 比热容越大的物体，所具有的内能越大",
+          "reference_answer": "BC",
+          "solution_steps": [
+            "此题考查的是内能的相关知识。A选项错误，因为内能除了与物体的温度有关外，还与物体的质量和物质种类有关。同温度下，不同质量的水内能是不同的。B选项正确，任何物体，无论温度多低，只要其内部有分子运动，就存在内能，因此0℃的冰块也具有内能。C选项正确，使用热水袋暖手确实是通过热量的传递来增加手部的内能。D选项错误，比热容反映的是物体在吸热或放热时温度变化的能力，并不直接决定物体的内能大小。内能与物体的质量、温度及物质种类等因素有关。因此，B、C选项描述正确，A、D选项描述不正确。"
+          ],
+          "knowledge_tags": [
+            "内能的概念，一切物体都具有内能",
+            "热传递与热量"
+          ],
+          "type_tags": [
+            "辨析相同温度物体内能、零摄氏度冰内能及热传递实例"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:b71e8141b7cd41fca232d6cb": {
+    "source_sha256": "fd63be3bc32a4106b217cbff46dfc823eccbe8e93e5dda3bd29d57c8332e8bc7",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "熔化和凝固的概念及现象"
+        ],
+        "supporting": [
+          "利用汽化和液化知识解释生活现象",
+          "利用升华和凝华知识解释生活现象"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "识别冰淇淋周围的凝华、液化、熔化现象并判断木材导热性"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "逐项依据物态变化的初末状态判断；白雾与杯外水珠均涉及液化，木材导热性差。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 夏天，小明买了一根冰淇淋，他观察到了以下现象：\n（1）从冰柜里取出的冰淇淋上有很多“白色粉末”；\n（2）撕开包装纸，冰淇淋表面出现了“白色的雾气”；\n（3）将冰淇淋放在玻璃杯里，玻璃杯外壁很快就形成了“水珠”；\n（4）一段时间后，冰淇淋变成液态。\n以上四个观察中，表现相同物态变化的现象是__（填序号），这种物态变化叫做__. 另外，小明发现虽然冰淇淋很凉，但握着冰淇淋棒的手感觉不到同样的凉意，这是因为冰淇淋棒是木制的，表明木材的导热性__.(选填“好”或“差”).",
+          "reference_answer": "(2)(3)\n液化\n差",
+          "solution_steps": [
+            "首先，我们来分析小明的四个观察：(1)因为空气中的水蒸气遇冷凝结成微小冰晶， 看起来像“白色粉末”；(2)当冰淇淋遇到相对温暖的空气时，冰会吸热融化，导致水蒸气凝结成小水滴，呈现出“白色的雾气”，这是液化现象；(3)冰淇淋放在玻璃杯中，导致玻璃杯壁冷却，空气中的水蒸气凝结成水珠，也是液化现象；(4)冰淇淋吸收热量后，由固态变为液态，是发生了熔化。综上分析，2和3是相同的物态变化现象，均为液化。至于木质冰淇淋棒，由于其导热性差，因此手握住时不会感觉到很凉，这说明木材导热性差。"
+          ],
+          "knowledge_tags": [
+            "熔化和凝固的概念及现象",
+            "利用汽化和液化知识解释生活现象",
+            "利用升华和凝华知识解释生活现象"
+          ],
+          "type_tags": [
+            "识别冰淇淋周围的凝华、液化、熔化现象并判断木材导热性"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "subquestion_alignment_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:dce143c99c7a09c0688c6e3d": {
+    "source_sha256": "0f6483a86d42e1a854cda3a3e7f1a381710edc906201f84726b0779f5193da84",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "密度的定义"
+        ],
+        "supporting": [
+          "蒸发和沸腾的区别与联系",
+          "光沿直线传播的条件",
+          "探究凹透镜对光的作用"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "辨析均匀介质光传播、汽化、透镜作用与密度定义"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "ACD"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "根据选项原文逐条判断；需注意凸透镜对不同位置入射光线的作用描述及密度定义条件。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 以下关于物理概念的表述，哪些是正确的？（   ）选项: A. 均匀介质中光线总是沿直线传播 B. 液体中剧烈蒸发现象包括了内部和表面的汽化 C. 凹透镜对光线有发散作用，凸透镜对光线有会聚作用 D. 由同一种物质组成的物体，其质量与体积的比值为该物质的密度",
+          "reference_answer": "ACD",
+          "solution_steps": [
+            "这道题目考察的是对基本物理概念的理解。A选项准确描述了光在均匀介质中的传播规律，因此是正确的。B选项中，'液体中剧烈蒸发现象包括了内部和表面的汽化'描述的不是蒸发而是沸腾，所以B是错误的。C选项正确地讲述了凸透镜和凹透镜对光线的作用，因此是正确的。D选项准确给出了密度的定义，因此是正确的。综合分析，正确选项为ACD。"
+          ],
+          "knowledge_tags": [
+            "密度的定义",
+            "蒸发和沸腾的区别与联系",
+            "光沿直线传播的条件",
+            "探究凹透镜对光的作用"
+          ],
+          "type_tags": [
+            "辨析均匀介质光传播、汽化、透镜作用与密度定义"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:c8734b658ecf73f053844bb2": {
+    "source_sha256": "5e6b238ba2511b2f27967d0e0642bc7c7f2d1127072df0ac9b52581b071dd13c",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "short_answer",
+      "knowledge": {
+        "primary": [
+          "用比热容解释自然现象及生活中的问题"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "用比热容解释日照下沙子与海水温升不同"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "比较相同日照条件下单位质量物体吸收热量与温度变化；水的比热容较大，温度变化较小。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 北海银滩是一个非常受欢迎的旅游胜地。在炎热的夏天，小明发现光着脚走在沙滩上时，沙子烫得让人难以忍受，但当他把脚放到海水里时，却感到非常凉爽。在相同的阳光照射下，为什么沙子和海水的温度会有不同？请用你学过的物理知识进行解释。",
+          "reference_answer": null,
+          "solution_steps": [
+            "在相同的阳光照射下，沙子和海水都会吸收热量。但是，由于水的比热容大于沙子的比热容，水在吸收相同的热量时，温度上升得更慢。这意味着在同样的热量下，沙子的温度上升得更快，达到更高的温度。因此，当小明光脚走在沙滩上时，沙子让他感到烫脚，而当他把脚放进海水中时，由于海水的温度较低，感觉到凉爽。这里的关键是理解比热容的概念，以及它如何影响物体的温度变化。"
+          ],
+          "knowledge_tags": [
+            "用比热容解释自然现象及生活中的问题"
+          ],
+          "type_tags": [
+            "用比热容解释日照下沙子与海水温升不同"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "part_answer_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:5a13941557dd2948929d514e": {
+    "source_sha256": "e1e5d93cdda250d511c0f79022e7e02452b3657045e09e849b77eb5117d93c24",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "长度的单位及换算"
+        ],
+        "supporting": [
+          "时间的单位及换算",
+          "质量的测量",
+          "温度计的构造、原理及使用"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "填写长度、时间单位，温度计原理、负温读法及天平测量对象"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "每个空分别对齐对应量与单位；负温读数需表达摄氏温度，天平测量质量。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 在国际单位制中，长度的基本单位是__，时间的基本单位是__；家用和实验室中常见的温度计是基于__的原理制造的，现在室外的气温大约是“-20℃”读作__；实验室常用来测量__的工具是天平。",
+          "reference_answer": "1. 米（m）\n2. 秒（s）\n3. 液体的热胀冷缩现象\n4. 零下二十摄氏度（或负二十摄氏度）\n5. 质量",
+          "solution_steps": [
+            "在国际单位制中，长度的基本单位是米(m)，这是测量长度的标准单位，其他如厘米(cm)、分米(dm)等都是由米导出的单位。时间的基本单位是秒(s)，也是测量时间的标准单位，通常我们还会用到小时(h)和分钟(min)等单位。家用和实验室常见的温度计是基于液体的热胀冷缩现象制成的，因为液体在温度变化时会发生体积的变化。当前气温为'-20℃'，读作零下二十摄氏度或负二十摄氏度。在实验室中，用来测量物质量的天平称为托盘天平，其使用目的是确定物质的质量，其基本单位为千克(kg)。掌握国际单位制中的基本单位和对应物理量是解题的关键。"
+          ],
+          "knowledge_tags": [
+            "长度的单位及换算",
+            "时间的单位及换算",
+            "质量的测量",
+            "温度计的构造、原理及使用"
+          ],
+          "type_tags": [
+            "填写长度、时间单位，温度计原理、负温读法及天平测量对象"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:e7a5193be9176e0ba81bceac": {
+    "source_sha256": "5a621ad3b4ac9c46da550234358ae95d259eb46dd6523d51b1defae11d34f8ac",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "short_answer",
+      "knowledge": {
+        "primary": [
+          "力作用的相互性"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "解释拍打桌面时手感疼痛涉及的相互作用力"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "说明手对桌面施力的同时桌面对手施加反作用力，力的作用是相互的；因果说明须落到手受到的力。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 当你用手拍打桌面时，手会感到疼痛，请用你学过的物理知识解释这一现象的原因。",
+          "reference_answer": "当手拍打桌面时，手对桌面施加了一个力，同时根据物体间力的相互作用原理，桌面对手也施加了一个力，因此手会感到疼痛。",
+          "solution_steps": [
+            "根据牛顿第三定律（作用力和反作用力定律），当手对桌面施加一个力时，桌面会对手施加一个大小相等、方向相反的力。这一反作用力作用于手上，刺激了手中的感觉神经，导致疼痛的感觉。因此，用手拍打桌面时会感到疼痛是由于手与桌面之间的相互作用力所致。"
+          ],
+          "knowledge_tags": [
+            "力作用的相互性"
+          ],
+          "type_tags": [
+            "解释拍打桌面时手感疼痛涉及的相互作用力"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:21fdd30deb06f97251d03aec": {
+    "source_sha256": "105d1e4e5e632a7e612391b9118511d9b7346d98c168b1765ab42296b494d118",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "short_answer",
+      "knowledge": {
+        "primary": [
+          "力作用的相互性"
+        ],
+        "supporting": [
+          "压强",
+          "液体压强",
+          "液体压强的特点和公式",
+          "液体压强的特点及其应用"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "用液体压强与力的相互作用解释深海潜水服及向后划水前进"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "需要对应两个不同物理原理：深水压强随深度增加，划水时水对潜水员施加向前作用力；作答要分别说明因果。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "问题描述: 请利用相关的两个物理原理解释以下情况：\n当潜水员在深海里工作时，他穿着抗压潜水服，并用力向后划水来使身体前进。",
+          "reference_answer": null,
+          "solution_steps": [
+            "潜水员在深海中作业时穿上抗压潜水服的原因是：（1）根据流体压强的特点，液体压强随深度增加而增加，潜水员在深海中承受的压强远超过水面。如果没有坚固的抗压潜水服保护，潜水员可能会遇到生命危险。所以，高强度的抗压潜水服可以有效抵御深海压力，保护潜水员的安全。潜水员向前移动的原因是：（2）依据牛顿第三定律，即作用力与反作用力定律。当潜水员用力向后划水时，他的手对水施加了一个向后的力，根据作用力与反作用力相等且方向相反的原理，水会对他的手施加一个等大但方向相反的力，即向前的力，从而推动潜水员向前移动。"
+          ],
+          "knowledge_tags": [
+            "力作用的相互性",
+            "压强",
+            "液体压强",
+            "液体压强的特点和公式",
+            "液体压强的特点及其应用"
+          ],
+          "type_tags": [
+            "用液体压强与力的相互作用解释深海潜水服及向后划水前进"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "part_answer_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:c47873112e21bd06a0448414": {
+    "source_sha256": "c21a464ac3398ddabe60afa2b6f3be50001245f3c2f18b6355496a25c81bd25f",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "short_answer",
+      "knowledge": {
+        "primary": [
+          "力学"
+        ],
+        "supporting": [
+          "浮力",
+          "浮力的应用",
+          "轮船的原理"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "改变橡皮泥形状以增大排水体积并解释漂浮条件"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "需要说明改变形状可增大排水体积，从而增大浮力；漂浮时浮力与重力平衡，做法须保证橡皮泥形状不进水。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "问题描述: 由于橡皮泥的密度大于水，它会在水中下沉。你有什么方法可以使橡皮泥漂浮在水面上？请用所学的物理知识进行解释。",
+          "reference_answer": "将橡皮泥塑造成中空的小船状",
+          "solution_steps": [
+            "要让密度大于水的橡皮泥漂浮在水面上，我们需要增加它所受的浮力。根据阿基米德原理，浮力的公式是F浮=ρ水gV排，其中ρ水是水的密度，g是重力加速度，V排是物体排开水的体积。因此，为了增加浮力，可以通过增大物体排开水的体积来实现。将橡皮泥塑造成中空的小船形状可以增大其排开水的体积，从而增加浮力，从而使它能漂浮在水面上。这一原理解释了为什么即使是密度大于水的材料，比如铁，只要制成中空的结构如轮船，也能在水面上漂浮。"
+          ],
+          "knowledge_tags": [
+            "力学",
+            "浮力",
+            "浮力的应用",
+            "轮船的原理"
+          ],
+          "type_tags": [
+            "改变橡皮泥形状以增大排水体积并解释漂浮条件"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；保留整题以避免无可靠逐问答案时错误拆分。候选答案仍为source_only；rubric_pending，分值未知。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  },
+  "bank:cjeval:fcdffd6321281acfe642a626": {
+    "source_sha256": "2ee69599982b852ef02ed72c19f968634492c1aee02b407e4ddcf68d4ec032b8",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "密度公式的应用"
+        ],
+        "supporting": [
+          "浮力",
+          "阿基米德原理",
+          "阿基米德原理的应用",
+          "利用阿基米德原理计算浮力、密度及质量"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "依据阿基米德原理由排水重量求浮力，再由排水体积求密度"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "输入年级与学期未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [
+          "g=10 N/kg；60 g先换算为0.06 kg。完全浸没时物体体积等于排开水体积；用F浮=ρ水gV排，ρ水=1.0×10³ kg/m³。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题目内容: 一个不规则的固体，质量为60g，将其放入装满水的容器中，物体完全沉入水底，排出0.6N的水。（假设g=10N/kg）求：\n（1）物体在水中受到的浮力是多少；\n（2）物体的密度是多少。",
+          "reference_answer": "0.6N\n1.0×10^3 kg/m^3",
+          "solution_steps": [
+            "解：（1）按照阿基米德原理，物体在水中受到的浮力等于它排出的水的重量。题目给出了排出水的重量是0.6N，所以浮力 F浮 = 0.6N。\\n（2）物体完全浸没在水中时，根据排水定律，物体排出的水的体积等于物体本身的体积。可以通过排出的水的体积来计算物体的体积 V。排出的水的体积 V排 可以用公式 V排 = F浮 / (ρ水 * g) 计算，其中ρ水是水的密度（1.0×10^3 kg/m^3），g是重力加速度（10 N/kg）。代入已知数值得到 V排 = 0.6N / (1.0×10^3 kg/m^3 * 10 N/kg) = 6×10^-5 m^3。已知物体的质量 m = 60g = 0.06kg，用密度公式 ρ = m / V，将物体的质量和体积代入公式得到物体的密度 ρ = 0.06kg / 6×10^-5 m^3 = 1.0×10^3 kg/m^3。答案：（1）浮力是0.6N；（2）物体的密度是1.0×10^3 kg/m^3。"
+          ],
+          "knowledge_tags": [
+            "密度公式的应用",
+            "浮力",
+            "阿基米德原理",
+            "阿基米德原理的应用",
+            "利用阿基米德原理计算浮力、密度及质量"
+          ],
+          "type_tags": [
+            "依据阿基米德原理由排水重量求浮力，再由排水体积求密度"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "subquestion_alignment_pending"
+        ],
+        "method": "item_read",
+        "notes": "已逐题阅读题干、来源答案与解析；按题设完全浸没和排水重量核对浮力及密度计算。答案仍为source_only，得分点待核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-0"
+      }
+    }
+  }
+}

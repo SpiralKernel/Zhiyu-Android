@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "cmmlu-senior",
+      "revision": "d6e7b716d8ac694f38969a6c0407437d1fded799",
+      "license": "CC-BY-NC-SA-4.0",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/haonan-li/CMMLU/d6e7b716d8ac694f38969a6c0407437d1fded799/README.md",
+          "sha256": "958e0b90d4258bb477b6f432d8eeb919148339efa8869f83e71a60d36ef3e24c"
+        },
+        {
+          "path": "data/dev/high_school_mathematics.csv",
+          "url": "https://raw.githubusercontent.com/haonan-li/CMMLU/d6e7b716d8ac694f38969a6c0407437d1fded799/data/dev/high_school_mathematics.csv",
+          "sha256": "7175e27a845260f0c97088c7dbcf4a571d46e617d6c0378aa45ac219119ab473"
+        },
+        {
+          "path": "data/test/high_school_mathematics.csv",
+          "url": "https://raw.githubusercontent.com/haonan-li/CMMLU/d6e7b716d8ac694f38969a6c0407437d1fded799/data/test/high_school_mathematics.csv",
+          "sha256": "8fa2fd48768defe7473e1b13f3d3864f792ae99a153f1eb6fea8b4d2842f021d"
+        },
+        {
+          "path": "data/dev/high_school_physics.csv",
+          "url": "https://raw.githubusercontent.com/haonan-li/CMMLU/d6e7b716d8ac694f38969a6c0407437d1fded799/data/dev/high_school_physics.csv",
+          "sha256": "b0b6cf2222e11c18ca40f95606d75617092671ccb55cd34851137c111922eef2"
+        },
+        {
+          "path": "data/test/high_school_physics.csv",
+          "url": "https://raw.githubusercontent.com/haonan-li/CMMLU/d6e7b716d8ac694f38969a6c0407437d1fded799/data/test/high_school_physics.csv",
+          "sha256": "c21a1c6725d2933f0ebd52e1b300a9bb7d49e37097fbe58ad8c256da82bf5b91"
+        }
+      ]
+    },
+    {
+      "id": "agieval-senior",
+      "revision": "84ab72d94318290aad2e4ec820d535a95a1f7552",
+      "license": "Original dataset licenses apply; repository code MIT",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/ruixiangcui/AGIEval/84ab72d94318290aad2e4ec820d535a95a1f7552/README.md",
+          "sha256": "eb30fc6be5dc9e4554876f74aa4b68768235163b5d465329908af99251a52236"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/ruixiangcui/AGIEval/84ab72d94318290aad2e4ec820d535a95a1f7552/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "path": "data/v1_1/gaokao-physics.jsonl",
+          "url": "https://raw.githubusercontent.com/ruixiangcui/AGIEval/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-physics.jsonl",
+          "sha256": "9f8f91b35b5cc2d3ba67b9c6f31bc72c51caaaa58a4a46375690d3b8b127a82b"
+        },
+        {
+          "path": "data/v1_1/gaokao-mathqa.jsonl",
+          "url": "https://raw.githubusercontent.com/ruixiangcui/AGIEval/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-mathqa.jsonl",
+          "sha256": "d246f12752d121289ef55cbf1bcf954243cefb65d110f71d09358e24065c808f"
+        },
+        {
+          "path": "data/v1_1/gaokao-mathcloze.jsonl",
+          "url": "https://raw.githubusercontent.com/ruixiangcui/AGIEval/84ab72d94318290aad2e4ec820d535a95a1f7552/data/v1_1/gaokao-mathcloze.jsonl",
+          "sha256": "088675c147794970a3ed25c7147a3bbc59715d6813837d5f483f46dcb1b5008d"
+        }
+      ]
+    },
+    {
+      "id": "cmm",
+      "revision": "5b227e818a47ebfd0090b4fdcaac38cbf8cb7aa3",
+      "license": "BSD-3-Clause",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math/resolve/5b227e818a47ebfd0090b4fdcaac38cbf8cb7aa3/README.md",
+          "sha256": "edf9b7a44da4ed5e7d9ab2df3ac87d2a7541094e2bf3dfc2ac95e0c3fb007772"
+        },
+        {
+          "path": "train_data.jsonl",
+          "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math/resolve/5b227e818a47ebfd0090b4fdcaac38cbf8cb7aa3/train_data.jsonl",
+          "sha256": "14798fafb9be449243c5c64430d5480fb4b8071ad50adddb67a950bb248c05fd"
+        },
+        {
+          "path": "test_data.jsonl",
+          "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math/resolve/5b227e818a47ebfd0090b4fdcaac38cbf8cb7aa3/test_data.jsonl",
+          "sha256": "3db74dbebfc54b2e5a9d227cac85837cf512ebd1571263484785d89923f9820a"
+        }
+      ]
+    },
+    {
+      "id": "gaokao",
+      "revision": "6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+      "license": "Apache-2.0 repository; original exams retained",
+      "archive": {
+        "url": "https://codeload.github.com/OpenLMLab/GAOKAO-Bench/zip/6dbb24f8d8439041e5431c4c184a582182a6ce9c",
+        "sha256": "b9aa9fc7a48e731c8d2d066fc41b1deebbbc054f0aa353710d3e4a7ff89c6483"
+      },
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "README.md",
+          "sha256": "76cf85c67f5988d0cbd933b74f825ec3c5ec2bd4f597c9f64953a3c63c34b302"
+        },
+        {
+          "path": "Data/Objective_Questions/2010-2022_Math_II_MCQs.json",
+          "sha256": "5f977c8aefbd54d7de6f630cb7cb4a85ac5391fd96753fb6689aa052819e1df7"
+        },
+        {
+          "path": "Data/Objective_Questions/2010-2022_Math_I_MCQs.json",
+          "sha256": "e1d80fb7e6f1b614edeadf6c9007c3ea0e47540b9c6b41ac68bb414ea39fed4c"
+        },
+        {
+          "path": "Data/Objective_Questions/2010-2022_Physics_MCQs.json",
+          "sha256": "bb0287539421c3d9317f5be3afe7ca0a752da15605f20bf1b4cfc002029532aa"
+        },
+        {
+          "path": "Data/Subjective_Questions/2010-2022_Math_II_Fill-in-the-Blank.json",
+          "sha256": "797ccc7635a6c1fb7c3ecdb7497a9cd525affd5d2f449a20c2c921b105e20d3a"
+        },
+        {
+          "path": "Data/Subjective_Questions/2010-2022_Math_II_Open-ended_Questions.json",
+          "sha256": "d0dadc40e289ee989194c2ab474e2d30537eb54a6f36d457d75fd04e9618152d"
+        },
+        {
+          "path": "Data/Subjective_Questions/2010-2022_Math_I_Fill-in-the-Blank.json",
+          "sha256": "f7ab2860a0dcf877bc6572f51c800cd51dc5d1b3e7829ede6be68b43e885a0e9"
+        },
+        {
+          "path": "Data/Subjective_Questions/2010-2022_Math_I_Open-ended_Questions.json",
+          "sha256": "7a093e56bc3bebdb24e774a250d109be6b1ef62540105c73bbfcc6d8e23306bc"
+        },
+        {
+          "path": "Data/Subjective_Questions/2010-2022_Physics_Open-ended_Questions.json",
+          "sha256": "8d48d4348bad353f62bf3d832a0cbdf43723de054e1dbb923df9e51d6b1f1bed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+[
+  {
+    "question_id": "bank:cjeval:021f1a1848153a887e7420e8",
+    "source_sha256": "61a168b2c58cece8190a4cffc078e309fc8cb5c8b915c57b0199a573fd76fe19",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "I=12/8=1.5A；单问、单位及列式对应。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:0261b811bfc4751a72af7ca7",
+    "source_sha256": "ad18a9e47975c4a9467d5ab3cae375565e7eedbef99870dc7ea38b0df65f048c",
+    "decision": "accept_draft",
+    "rationale": "在初中常用水密度近似1g/cm³的条件下结果成立；题干未写该条件，候选中应明示假设。",
+    "independent_checks": [
+      "750mL=750cm³；按常用水密度1g/cm³得750g；题面未给密度/温度，需保留假设。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:056f343692cae57d71e714f9",
+    "source_sha256": "94bf774ec50a1bd1f8e991f44d18f48e904d96b31753ffbe7874d55350fa37c5",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "ρ=16/6=2.6667g/cm³=2666.7kg/m³；M≈146666.7kg=146.67t；单位换算正确。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:07bc53610f18ed6ea2f64a58",
+    "source_sha256": "52e85afbb2fabff37c85a8314a2b847f3839d21dcb3865f4e144493a6763925d",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "ρ=12/15=0.8g/mL=800kg/m³；14000/800=17.5m³；计算正确。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:0aef63240d3fc8200a96ea29",
+    "source_sha256": "38a8c756ae5063d5b9149892bb8b18bcf2cd2502280360327d5b3156a4d90190",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "铝体积200cm³，空腔160cm³，水160g，总质量700g=0.7kg；三问三part齐全。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:0f14d0a37daae83abceb3553",
+    "source_sha256": "2c046d0bf73f34b1a20102a7f46e6297c4e0c88bda1d56748a66a22c6163a23f",
+    "decision": "needs_revision",
+    "rationale": "独立复核发现草稿与题面/答案表达有实质错配或矛盾，修正后再考虑候选入库。",
+    "independent_checks": [
+      "每瓶价冬56元、夏52元，冬更贵；每千克价冬≈4.29、夏≈4.23元/kg也冬更贵。来源答案“夏季价格高”冲突，草稿还改变了比较口径。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:10b3e5bf0274bc9c02b424e9",
+    "source_sha256": "7c4316f446cf2a0f2a69dc12191b0a044abc2237ccb5c7ec89c6cf448e0c19e0",
+    "decision": "keep_quarantined",
+    "rationale": "独立核验确认题源冲突或不足以唯一作答；保持隔离，先核实来源或修订题干。",
+    "independent_checks": [
+      "液体质量24g；铝实体积60/2.7=22.22cm³；液体体积32.78cm³；密度≈0.732g/cm³，非来源0.8，保持隔离。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:1427981f7b76a018748f923e",
+    "source_sha256": "23c71ec4533045c004d1ea6c99c999b0a0e6a5bbb1fbc1c3ca1a47cb52e459df",
+    "decision": "keep_quarantined",
+    "rationale": "独立核验确认题源冲突或不足以唯一作答；保持隔离，先核实来源或修订题干。",
+    "independent_checks": [
+      "排酒精31.25cm³；铜体积90/8.9≈10.11cm³；空腔≈21.14cm³；注水总质量≈111.14g；来源答案冲突。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:14314698e3220c6934410092",
+    "source_sha256": "e5f45fb76ac1fabb2f10df51dafc4b53e34c5616477ff4ab412f60b99db89672",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "Q水=4.2e3×0.5×80=1.68e5J；燃料热量=3.36e5J；酒精质量=0.0112kg=11.2g。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:18dc93d19b53f3f94b77610e",
+    "source_sha256": "999ec788ed6e0a6320575516968d39790c374c97646bf7ce11976ced0c98540e",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "铝体积0.0005m³，球体积0.0012m³，空腔0.0007m³；注水后总质量2.05kg。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:0043dd939ae67d86539c58c4",
+    "source_sha256": "6f41e07623e7527f695e698ed6393bf456fd542ae4ed3cfc48e2162c45e10bef",
+    "decision": "keep_quarantined",
+    "rationale": "独立核验确认题源冲突或不足以唯一作答；保持隔离，先核实来源或修订题干。",
+    "independent_checks": [
+      "D甲乙相对静止为真；B把地球自转初速度说成利用惯性有概念问题；“错误项”答案不稳，隔离。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:006b8d8b08de17f88541bbd8",
+    "source_sha256": "f23624a8051e969442e0577f8902e28ae2f8e40643b482d1935e2f5b6efb3cad",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "A、C成立；B能量转化方向反了；D热量还依赖燃料质量，正确项AC。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:006d4772e3cf56c185829e2c",
+    "source_sha256": "5c2b168f3a629cb01db9f3b9cbfebcbc2a8f2c69cf723d05d48c5b0e3a0a0d8f",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "65次/min合理；步速10m/s、手掌宽20cm、门高6m均偏离常见量级，A唯一。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:0082096a9186c3dd4eba3792",
+    "source_sha256": "8aedd1ff71fe20902e422035b08d6f9f0dc7919b8b1d1254c6e2e2b5689ef1ab",
+    "decision": "keep_quarantined",
+    "rationale": "独立核验确认题源冲突或不足以唯一作答；保持隔离，先核实来源或修订题干。",
+    "independent_checks": [
+      "B光速量级正确、C教材宽18cm合理、D灯泡1W常见，题目无法唯一选项，隔离。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:01b207eec120e10b658efccb",
+    "source_sha256": "ec000e9c947b7a8928251dd0b32d9675e9c2fa6aad01e46bca15159be78024e8",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "初中模型中气态水直接成雪晶为凝华放热，对应C。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:01be7481a738663329907f79",
+    "source_sha256": "6055d94f788633b6e797326d27da5cc704275247423fe279dfb5d3be618dd053",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "10枚总厚度除以10降低薄片直接读数误差，B为合适方法；操作及原因覆盖。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:023fdff5e8c4554035b54848",
+    "source_sha256": "649435fb560963eaa0ff80309f1ee6ba88b64693585eca69c99cf1f9b07baa3c",
+    "decision": "keep_quarantined",
+    "rationale": "独立核验确认题源冲突或不足以唯一作答；保持隔离，先核实来源或修订题干。",
+    "independent_checks": [
+      "D标准大气压值合理，C大型货轮排水质量有可能，A试电笔电阻也可能；依对象量级难唯一，隔离。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:02810c619982b5eafed5f8a7",
+    "source_sha256": "b982847529f8e86c626814d65aa86fc1050ab13c4527e21a54a651f67f187c90",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "A、B、D重复测同一稳定物体；C是在不同时间测不同体温状态，答案C。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:0294a1623e5d652580b6e1c0",
+    "source_sha256": "3fb7ab7ffdac4d2dd66b8d953746c853243d2bfc74cb2bc5b7aa34f598573d6d",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "步行5m/s过快；肺活量2L合理；42码鞋不长42cm；室温25℃合理，BD。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:02ac0cf922b0ad9f06347d62",
+    "source_sha256": "859928704ed418b5dadd4087eb140cc29cd3828cbd363897e672942f6675ad5d",
+    "decision": "keep_quarantined",
+    "rationale": "独立核验确认题源冲突或不足以唯一作答；保持隔离，先核实来源或修订题干。",
+    "independent_checks": [
+      "口温37℃正确；骑车5m/s亦可能为常见速度；题面可能有B/C双答案，隔离。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:006b839f36df1b256ed0f1c4",
+    "source_sha256": "5cea97f4d946b6cc36960c1ae59de85f39402d19ec994193f347274f24896c80",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "V样=85cm³；ρ=160/85≈1.882g/cm³；总质量≈65.88t（约65.9t）；三小问逐项覆盖。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:01637cbeff345a427b873dc7",
+    "source_sha256": "18fb8bc911e9f89784229ca24c7e6b1fa7c4a8379769a3b2b4406f7cf6370214",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "Q=4.032e5J；W=7000×60=4.20e5J；效率96%；时间换算及三问匹配。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:01c1dceea492471f6370fb42",
+    "source_sha256": "23b9ad4b9f4041e36e58d15864d12bec9e65d8242e089ce1db114e13c25c89e2",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "控制变量法；秒；符号s，三个空均覆盖。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:0261b5149615f05e8322b0e9",
+    "source_sha256": "c6f0e6320c492c890594e0728a38ddd765211d8fb0abf86f45bb1882b6b73723",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "体积=50/2500=0.020m³；等体积蜡质量=800×0.02=16kg。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:02c1878849a29c61e087cace",
+    "source_sha256": "ed8492680afe3fa348976683d60550520f26088e4e7dcb0e546bc855b906dfe5",
+    "decision": "accept_draft",
+    "rationale": "计算及比较正确；能吊起限于静力/匀速的理想模型，题干没有涵盖启动冲击。",
+    "independent_checks": [
+      "m=3000kg；G=30000N，小于钢绳35000N，静力/匀速模型下可吊；动态冲击未给。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:033f1b1b36e5626752629731",
+    "source_sha256": "094bf57f20d5998121fdf960166fe0656550bc38027fa8b6795a4964d0025839",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "W=1500×300=4.5e5J；Q=4.2e3×1×50=2.1e5J；η≈46.7%。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:0524072734cc0280f72572eb",
+    "source_sha256": "b3d3efa531d74ef88c8312a44b91f2bd526a8d04a798a1fd3740179a756c57f5",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "100nm与25km/h符合题设单位量级；两空逐项覆盖。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:0541fa3adbf5ce6c460fe45a",
+    "source_sha256": "925ac7e9cce8bafb2b2ba2a10a9621145e504e49b46941635d91baedf2daaa59",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "换算依次3600、1000、1000、1、10、1000；六小问六part匹配。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:05800e0f66f2f4568048f9d5",
+    "source_sha256": "3018151e3f67dcc4604619fd1b0afc6bb3606cfa2c1a9230198f8411b56fe084",
+    "decision": "keep_quarantined",
+    "rationale": "独立核验确认题源冲突或不足以唯一作答；保持隔离，先核实来源或修订题干。",
+    "independent_checks": [
+      "Q=1.47e5J；P=Q/180≈816.7W；I≈3.71A；来源980W/4.45A与之冲突，隔离。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:059e4830fd7d55850b6f4d95",
+    "source_sha256": "fbcdf5a2b959e91804e8fac0aeaa2d6a3d22bbf41a7aadb015bc7503fe8ecccf",
+    "decision": "needs_revision",
+    "rationale": "独立复核发现草稿与题面/答案表达有实质错配或矛盾，修正后再考虑候选入库。",
+    "independent_checks": [
+      "酒精450mL×0.8=360g；水150mL×1=150g；总质量510g/600cm³=0.85g/cm³。现草稿答案及rubric是无关测量题，需整体重做。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:03091e15973566423e73a0b3",
+    "source_sha256": "eac14a4f61900fbead8c1ca40bb3002e2528745a26f400287531322b2a9f8cd8",
+    "decision": "accept_draft",
+    "rationale": "答案符合升温膨胀模型；密度改变方向依赖升温或降温，解释应保留该条件。",
+    "independent_checks": [
+      "升温时水银温度、体积变化，质量不变，ρ随体积增大而减小；ABC可成立，解释应明确升温条件。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:03559a73661ef3530190e032",
+    "source_sha256": "dfcaf342c82eda07265b34eb38954e6015aceabf4db512b3526abbc5716e479e",
+    "decision": "needs_revision",
+    "rationale": "物理判断支持A，但草稿答案字段写“500N”；选择题应答A，需统一答案格式。",
+    "independent_checks": [
+      "500N对应约50kg学生；其他项数量级不合理。答案字段写500N但选择题应答A，需统一。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:03899a2d29af25def87c89c7",
+    "source_sha256": "d1d976f5a3445673affb776e230afadb1913a55d67b1ff7447260598da03a692",
+    "decision": "accept_draft",
+    "rationale": "A符合常见迎月光/背月光观察模型；解释需明确“逆光”是背向月光观察。",
+    "independent_checks": [
+      "迎月光水面亮，背向月光时水面暗，对应A；需明确“逆光”方向含义。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:046b3adee8cd2544f15b766c",
+    "source_sha256": "177fd6dae1ceb02fd06525c4143f05fd29b5e2e0e2b07b7f44c5416bf895967e",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "A通常成立，B取走部分后质量减少，C同种同条件m∝V，D同质量时较大V对应小ρ；ACD。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:05aeb31ea90376f9c9c821c3",
+    "source_sha256": "4c81855991439c592a813ff18bce441c6f661fd7f11c4e12a49aa554a8f71e04",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "铝实体积30cm³<35cm³；空腔5cm³，两个小问对应rubric。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:1d4413b53ddaf4c96ab83dca",
+    "source_sha256": "05a173562ee28d9b2e509728a5b1e3d17eaef5c5a0f379a26eeeacb8f93faa71",
+    "decision": "accept_draft",
+    "rationale": "独立重算或逐项核验支持草稿核心结论，rubric与小问基本对应；此同伴复核不代表教师认证。",
+    "independent_checks": [
+      "2min=120s；U=48/(0.2×120)=2V。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:1f398308c2010da64c638669",
+    "source_sha256": "4237d5c1258cbf62fac9ed7cb3058dc144637e0bec2dc50d3fec840fd892f4ec",
+    "decision": "accept_draft",
+    "rationale": "结果按水密度取1000kg/m³的常用近似成立；题干未提供水密度，应明示假设。",
+    "independent_checks": [
+      "瓶容积=1/900m³；按水密度1000kg/m³装水约1.11kg；题干未注明水密度条件。"
+    ]
+  }
+]

@@ -1,0 +1,532 @@
+{
+  "batch_id": "senior-20261015-physics-web-comp3-resistors-1",
+  "source_manifest": [
+    {
+      "path": "https://zy.21cnjy.com/26640551#parallel-branch-current-ratio",
+      "revision": "2026-10-15",
+      "sha256": "4ca2a171c1e51bf5072f5448ef6e5b5c8388559c0cfd5e9ddbe36a80d7117294",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/26640551"
+    },
+    {
+      "path": "https://zy.21cnjy.com/26640551#series-resistor-voltage-current",
+      "revision": "2026-10-15",
+      "sha256": "fe8e6001be1cadd4387b01b1858a9b3c3f4bcb7365c91a95fa185bc159cc5f9d",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/26640551"
+    },
+    {
+      "path": "https://zy.21cnjy.com/26640551#three-resistor-total-extrema",
+      "revision": "2026-10-15",
+      "sha256": "7d86d5c8521f2b57cd41cea5adffa8becac2c8e86455e001164750c07854c347",
+      "license": "unknown; public page; redistribution terms not confirmed",
+      "source_url": "https://zy.21cnjy.com/26640551"
+    }
+  ],
+  "items": [
+    {
+      "question_id": "bank:web-21jy-parallel-branch-current-ratio",
+      "source_sha256": "eccd006c32cf133e0ee03bdbb669a64790c31239ca820768c937450a5711fd90",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-parallel-branch-current-ratio",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "电阻R₁的阻值为6 Ω，与电阻R₂并联后接入电路中，通过两电阻的电流之比为I₁∶I₂=3∶2。则R₂的阻值和总电阻分别是",
+        "options": [
+          {
+            "key": "A",
+            "text": "4 Ω，3.6 Ω"
+          },
+          {
+            "key": "B",
+            "text": "9 Ω，4.5 Ω"
+          },
+          {
+            "key": "C",
+            "text": "4 Ω，2.4 Ω"
+          },
+          {
+            "key": "D",
+            "text": "9 Ω，3.6 Ω"
+          }
+        ],
+        "answer": "D",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "parallel-branch-current-ratio",
+          "source_file": "https://zy.21cnjy.com/26640551",
+          "download_revision": "2026-10-15",
+          "file_sha256": "4ca2a171c1e51bf5072f5448ef6e5b5c8388559c0cfd5e9ddbe36a80d7117294",
+          "url": "https://zy.21cnjy.com/26640551",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "第十一章 电路及其应用 4.串联电路和并联电路（课件+学案）高中物理人教版（2019）必修第三册",
+          "captured_excerpt_sha256": "4ca2a171c1e51bf5072f5448ef6e5b5c8388559c0cfd5e9ddbe36a80d7117294"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "并联电路电流与电阻关系"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由并联电流比求支路电阻和等效电阻"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "用并联各支路电压相等与欧姆定律计算，再求并联等效电阻。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "人教版2019必修第三册电路及其应用章节；映射compulsory-3 u3:g2。不推断年级、学期。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题须选全且不多选。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "电阻R₁的阻值为6 Ω，与电阻R₂并联后接入电路中，通过两电阻的电流之比为I₁∶I₂=3∶2。则R₂的阻值和总电阻分别是",
+            "reference_answer": "D",
+            "solution_steps": [
+              "并联电压相等，I₁R₁=I₂R₂，因此R₂/R₁=I₁/I₂=3/2。",
+              "R₂=6×3/2=9Ω。",
+              "总电阻R=R₁R₂/(R₁+R₂)=54/15=3.6Ω，选D。"
+            ],
+            "knowledge_tags": [
+              "并联电路电流与电阻关系"
+            ],
+            "type_tags": [
+              "由并联电流比求支路电阻和等效电阻"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "reasoning",
+                "description": "选择D；由I₁/I₂=3/2得到R₂/R₁=3/2；算出R₂=9Ω和R总=3.6Ω",
+                "points": null,
+                "evidence_required": "选择与串并联等效及欧姆定律关系一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "把并联电流比与电阻比写成同向。",
+                "knowledge_tags": [
+                  "并联电路电流与电阻关系"
+                ],
+                "type_tags": [
+                  "由并联电流比求支路电阻和等效电阻"
+                ]
+              },
+              {
+                "description": "把并联总电阻算成大于任一支路电阻。",
+                "knowledge_tags": [
+                  "并联电路电流与电阻关系"
+                ],
+                "type_tags": [
+                  "由并联电流比求支路电阻和等效电阻"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读公开教师版完整题干、选项和答案解析，并独立复算。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-comp3-resistors-1"
+        }
+      },
+      "independent_solution": [
+        "并联电压相等，I₁R₁=I₂R₂，因此R₂/R₁=I₁/I₂=3/2。",
+        "R₂=6×3/2=9Ω。",
+        "总电阻R=R₁R₂/(R₁+R₂)=54/15=3.6Ω，选D。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "并联电压相等，I₁R₁=I₂R₂，因此R₂/R₁=I₁/I₂=3/2。；R₂=6×3/2=9Ω。；总电阻R=R₁R₂/(R₁+R₂)=54/15=3.6Ω，选D。"
+    },
+    {
+      "question_id": "bank:web-21jy-series-resistor-voltage-current",
+      "source_sha256": "4e50418fb13c91ce3ab3fac1e25a18b482b12ba6843b73df3d9482078e968853",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-series-resistor-voltage-current",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "电阻R₁、R₂、R₃串联在电路中，已知R₁=10 Ω、R₃=5 Ω，R₁两端的电压为6 V，R₂两端的电压为12 V，则下列说法正确的是（多选）",
+        "options": [
+          {
+            "key": "A",
+            "text": "电路中的电流为0.6 A"
+          },
+          {
+            "key": "B",
+            "text": "电阻R₂的阻值为20 Ω"
+          },
+          {
+            "key": "C",
+            "text": "三只电阻两端的总电压为21 V"
+          },
+          {
+            "key": "D",
+            "text": "电阻R₃两端的电压为4 V"
+          }
+        ],
+        "answer": "ABC",
+        "kind": "multiple_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "series-resistor-voltage-current",
+          "source_file": "https://zy.21cnjy.com/26640551",
+          "download_revision": "2026-10-15",
+          "file_sha256": "fe8e6001be1cadd4387b01b1858a9b3c3f4bcb7365c91a95fa185bc159cc5f9d",
+          "url": "https://zy.21cnjy.com/26640551",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "第十一章 电路及其应用 4.串联电路和并联电路（课件+学案）高中物理人教版（2019）必修第三册",
+          "captured_excerpt_sha256": "fe8e6001be1cadd4387b01b1858a9b3c3f4bcb7365c91a95fa185bc159cc5f9d"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "串联电路电压电流与欧姆定律"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "用串联电流相同关系求各电阻压降和总电压"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "串联支路电流处处相等，分别应用欧姆定律并相加检验选项。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "人教版2019必修第三册电路及其应用章节；映射compulsory-3 u3:g2。不推断年级、学期。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A",
+            "B",
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题须选全且不多选。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "电阻R₁、R₂、R₃串联在电路中，已知R₁=10 Ω、R₃=5 Ω，R₁两端的电压为6 V，R₂两端的电压为12 V，则下列说法正确的是（多选）",
+            "reference_answer": "ABC",
+            "solution_steps": [
+              "I=U₁/R₁=6/10=0.6A，A正确。",
+              "R₂=U₂/I=12/0.6=20Ω，B正确。",
+              "U总=I(R₁+R₂+R₃)=0.6×35=21V，C正确。",
+              "U₃=IR₃=0.6×5=3V，不是4V，D错误。",
+              "正确项为ABC。"
+            ],
+            "knowledge_tags": [
+              "串联电路电压电流与欧姆定律"
+            ],
+            "type_tags": [
+              "用串联电流相同关系求各电阻压降和总电压"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "reasoning",
+                "description": "选择ABC；算出电流0.6A并确定R₂=20Ω；求总电压21V并指出R₃压降3V，选ABC",
+                "points": null,
+                "evidence_required": "选择与串并联等效及欧姆定律关系一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "混淆串联电流相等与电压相等。",
+                "knowledge_tags": [
+                  "串联电路电压电流与欧姆定律"
+                ],
+                "type_tags": [
+                  "用串联电流相同关系求各电阻压降和总电压"
+                ]
+              },
+              {
+                "description": "将已知R₂电压误加到R₃压降上。",
+                "knowledge_tags": [
+                  "串联电路电压电流与欧姆定律"
+                ],
+                "type_tags": [
+                  "用串联电流相同关系求各电阻压降和总电压"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读公开教师版完整题干、选项和答案解析，并独立复算。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-comp3-resistors-1"
+        }
+      },
+      "independent_solution": [
+        "I=U₁/R₁=6/10=0.6A，A正确。",
+        "R₂=U₂/I=12/0.6=20Ω，B正确。",
+        "U总=I(R₁+R₂+R₃)=0.6×35=21V，C正确。",
+        "U₃=IR₃=0.6×5=3V，不是4V，D错误。",
+        "正确项为ABC。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "I=U₁/R₁=6/10=0.6A，A正确。；R₂=U₂/I=12/0.6=20Ω，B正确。；U总=I(R₁+R₂+R₃)=0.6×35=21V，C正确。；U₃=IR₃=0.6×5=3V，不是4V，D错误。；正确项为ABC。"
+    },
+    {
+      "question_id": "bank:web-21jy-three-resistor-total-extrema",
+      "source_sha256": "6f69ac48d83f20b3b9ba8320f09755c85f713003604a4c064c5e0309a9d27836",
+      "decision": "passed",
+      "quarantine_original": false,
+      "question": {
+        "id": "bank:web-21jy-three-resistor-total-extrema",
+        "subject": "physics",
+        "stage": "senior",
+        "grade": null,
+        "term": null,
+        "stem": "三个阻值分别为4 Ω、6 Ω、12 Ω的电阻，以不同方式进行组合连接，获得的总电阻的最大值和最小值分别为",
+        "options": [
+          {
+            "key": "A",
+            "text": "22 Ω和4 Ω"
+          },
+          {
+            "key": "B",
+            "text": "22 Ω和2 Ω"
+          },
+          {
+            "key": "C",
+            "text": "18 Ω和4 Ω"
+          },
+          {
+            "key": "D",
+            "text": "18 Ω和2 Ω"
+          }
+        ],
+        "answer": "B",
+        "kind": "single_choice",
+        "has_missing_assets": false,
+        "steps": [],
+        "provenance": {
+          "dataset": "21世纪教育网公开教师版练习页",
+          "source_id": "three-resistor-total-extrema",
+          "source_file": "https://zy.21cnjy.com/26640551",
+          "download_revision": "2026-10-15",
+          "file_sha256": "7d86d5c8521f2b57cd41cea5adffa8becac2c8e86455e001164750c07854c347",
+          "url": "https://zy.21cnjy.com/26640551",
+          "license": "unknown; public page; redistribution terms not confirmed",
+          "page_title": "第十一章 电路及其应用 4.串联电路和并联电路（课件+学案）高中物理人教版（2019）必修第三册",
+          "captured_excerpt_sha256": "7d86d5c8521f2b57cd41cea5adffa8becac2c8e86455e001164750c07854c347"
+        },
+        "curriculum_book_id": "physics-senior-compulsory-3",
+        "curriculum_goal_ids": [
+          "physics-senior-compulsory-3:u3:g2"
+        ]
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "串并联电路等效电阻"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "比较多个电阻串联和并联时总电阻的极值"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "在可用连接中，全部串联使电阻最大，全部并联使电阻最小。",
+          "origin": "luna",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "book_id": "physics-senior-compulsory-3",
+          "goal_ids": [
+            "physics-senior-compulsory-3:u3:g2"
+          ],
+          "scope_status": "candidate",
+          "basis": "人教版2019必修第三册电路及其应用章节；映射compulsory-3 u3:g2。不推断年级、学期。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "按选项作答；多选题须选全且不多选。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "三个阻值分别为4 Ω、6 Ω、12 Ω的电阻，以不同方式进行组合连接，获得的总电阻的最大值和最小值分别为",
+            "reference_answer": "B",
+            "solution_steps": [
+              "最大值为串联：Rmax=4+6+12=22Ω。",
+              "最小值为并联：1/Rmin=1/4+1/6+1/12=1/2Ω⁻¹，因此Rmin=2Ω。",
+              "选B。"
+            ],
+            "knowledge_tags": [
+              "串并联电路等效电阻"
+            ],
+            "type_tags": [
+              "比较多个电阻串联和并联时总电阻的极值"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "reasoning",
+                "description": "选择B；计算串联最大值22Ω；计算并联倒数和并求得2Ω",
+                "points": null,
+                "evidence_required": "选择与串并联等效及欧姆定律关系一致。"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "误把并联总电阻当成各支路电阻之和。",
+                "knowledge_tags": [
+                  "串并联电路等效电阻"
+                ],
+                "type_tags": [
+                  "比较多个电阻串联和并联时总电阻的极值"
+                ]
+              },
+              {
+                "description": "对并联倒数求和时分数通分错误。",
+                "knowledge_tags": [
+                  "串并联电路等效电阻"
+                ],
+                "type_tags": [
+                  "比较多个电阻串联和并联时总电阻的极值"
+                ]
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "逐题审读公开教师版完整题干、选项和答案解析，并独立复算。Luna候选，不代表教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "senior-20261015-physics-web-comp3-resistors-1"
+        }
+      },
+      "independent_solution": [
+        "最大值为串联：Rmax=4+6+12=22Ω。",
+        "最小值为并联：1/Rmin=1/4+1/6+1/12=1/2Ω⁻¹，因此Rmin=2Ω。",
+        "选B。"
+      ],
+      "source_conflicts": [],
+      "remaining_issues": [],
+      "rationale": "最大值为串联：Rmax=4+6+12=22Ω。；最小值为并联：1/Rmin=1/4+1/6+1/12=1/2Ω⁻¹，因此Rmin=2Ω。；选B。"
+    }
+  ]
+}

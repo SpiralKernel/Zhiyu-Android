@@ -1,0 +1,122 @@
+[
+  {
+    "question_id": "bank:cjeval:510843fdebf1a63d2eeac469",
+    "source_sha256": "8c39275001b417e5fee9c6a7c379baa03ba1fe492b5a7824acc4458c6d287ebe",
+    "decision": "needs_revision",
+    "rationale": "The numerical table is present in text (Δp容=980 Pa, Δp水=147 Pa), so an icon alone is not grounds to exclude the item. Parts (1) and (2) check: ρ水Sh=1000×0.03×0.4=12 kg and ρgh=3920 Pa. For (3), Δh=147/(1000×9.8)=0.015 m; a sphere of 0.0015 m³ displaces that volume, which would raise a 0.03 m² surface by 0.05 m and cause Δp=490 Pa if no overflow. The draft obtains 2700 kg/m³ only by assuming the container was initially brim-full and overflowed 0.00105 m³. Its revised stem does not state brim-full/overflow, so that necessary added condition is not yet explicit and the density conclusion is unsupported as written.",
+    "independent_checks": [
+      "The numerical table is present in text (Δp容=980 Pa, Δp水=147 Pa), so an icon alone is not grounds to exclude the item. Parts (1) and (2) check: ρ水Sh=1000×0.03×0.4=12 kg and ρgh=3920 Pa. For (3), Δh=147/(1000×9.8)=0.015 m; a sphere of 0.0015 m³ displaces that volume, which would raise a 0.03 m² surface by 0.05 m and cause Δp=490 Pa if no overflow. The draft obtains 2700 kg/m³ only by assuming the container was initially brim-full and overflowed 0.00105 m³. Its revised stem does not state brim-full/overflow, so that necessary added condition is not yet explicit and the density conclusion is unsupported as written."
+    ],
+    "corrections": [
+      "Retain the text-rendered pressure table; explicitly add “容器原先装满水，放球后有水溢出” (if intended) and distinguish added condition from source text, or quarantine part (3) absent evidence for that condition."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:a46ad64e4d40ab705e6f5b67",
+    "source_sha256": "a920c6e269db11cbdb7ab05f0b8aca2ad010e835b0fa60a14475d316ab2821bf",
+    "decision": "accept_draft",
+    "rationale": "Q=4.18×10³×45×(55−25)=5.643×10⁶ J, not the source 5.655×10⁶ J. With stated no-loss heating and P=1600 W, t=Q/P=3526.875 s (about 3.53×10³ s). The two parts match the two prompts, and the source gives the 45 kg capacity.",
+    "independent_checks": [
+      "Q=4.18×10³×45×(55−25)=5.643×10⁶ J, not the source 5.655×10⁶ J. With stated no-loss heating and P=1600 W, t=Q/P=3526.875 s (about 3.53×10³ s). The two parts match the two prompts, and the source gives the 45 kg capacity."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:33164a55b4024e27993879a1",
+    "source_sha256": "218c85e9688c37ecb90e07e1b3aa5c98da16635d6b818c172a1b62779ecde554",
+    "decision": "accept_draft",
+    "rationale": "Total mass=G/g=3.2×10⁵/10=3.2×10⁴ kg. Oil mass=3.2×10⁴−1.2×10⁴=2.0×10⁴ kg; ρ=2.0×10⁴/25=800 kg/m³. Both parts and rubrics match.",
+    "independent_checks": [
+      "Total mass=G/g=3.2×10⁵/10=3.2×10⁴ kg. Oil mass=3.2×10⁴−1.2×10⁴=2.0×10⁴ kg; ρ=2.0×10⁴/25=800 kg/m³. Both parts and rubrics match."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:506bcfb4572253919ff7c6bb",
+    "source_sha256": "37bf794465900c32e5c4c8c81fcad97e82fddc09d487fe159e775ab64e7f4308",
+    "decision": "needs_revision",
+    "rationale": "The table values are already text in the input; the proposal has enough evidence to retain the question. The calculation checks: 100 L water is 100 kg under the explicitly stated ρ=1000 kg/m³; Q=cmΔT=4.2×10⁶ J. With efficiency 0.40, area 1.5 m², and 3600 s, incident solar power density is Q/(0.40×1.5×3600)=1944.44 W/m². But the original has three numbered questions, with question (3) requesting both heat and solar-energy rate. The proposal splits this into parts (3) and a fabricated “题目子问4”; part (3) only answers the heat. Merge the last two outputs into the original third part and give both answers/rubric evidence there.",
+    "independent_checks": [
+      "The table values are already text in the input; the proposal has enough evidence to retain the question. The calculation checks: 100 L water is 100 kg under the explicitly stated ρ=1000 kg/m³; Q=cmΔT=4.2×10⁶ J. With efficiency 0.40, area 1.5 m², and 3600 s, incident solar power density is Q/(0.40×1.5×3600)=1944.44 W/m². But the original has three numbered questions, with question (3) requesting both heat and solar-energy rate. The proposal splits this into parts (3) and a fabricated “题目子问4”; part (3) only answers the heat. Merge the last two outputs into the original third part and give both answers/rubric evidence there."
+    ],
+    "corrections": [
+      "Keep exactly three parts; make part (3) answer both Q=4.2×10⁶ J and the rate 1.94×10³ W/m², with rubric evidence for both."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:bfa74347a1445a3dbb529a18",
+    "source_sha256": "3589c0d122508fe51b8569a1742612c3b9e66ee5afc8dfb4c2b4d1a95a3affc4",
+    "decision": "accept_draft",
+    "rationale": "R=230²/1200=44.08 Ω (44.1 Ω). Assuming ρ水=1000 kg/m³, the 1.7 L volume gives 1.7 kg; Q=4200×1.7×75=535500 J. Electrical input in 720 s is 864000 J, so η=61.98%, correcting the source’s 73.38%. If the gas transfers all its heat to the water, m=Q/q=535500/(3.5×10⁷)=0.0153 kg. The proposal states the full-transfer assumption and maps the three parts correctly.",
+    "independent_checks": [
+      "R=230²/1200=44.08 Ω (44.1 Ω). Assuming ρ水=1000 kg/m³, the 1.7 L volume gives 1.7 kg; Q=4200×1.7×75=535500 J. Electrical input in 720 s is 864000 J, so η=61.98%, correcting the source’s 73.38%. If the gas transfers all its heat to the water, m=Q/q=535500/(3.5×10⁷)=0.0153 kg. The proposal states the full-transfer assumption and maps the three parts correctly."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:c42fe116101ff61da5575b1c",
+    "source_sha256": "fcf2fa80bb2c146a283e44acb1581623d3c2cd58d51ec128612babc53b5b907d",
+    "decision": "accept_draft",
+    "rationale": "Initial water mass=1000×2×10⁻³=2 kg. With the revised stem explicitly stating a full container and Δh=0, the 0.6 kg block causing a net mass gain of 0.4 kg implies 0.2 kg overflow, hence Vblock=2×10⁻⁴ m³ and ρblock=0.6/(2×10⁻⁴)=3.0×10³ kg/m³. All three requested results are assigned to the matching parts and rubrics.",
+    "independent_checks": [
+      "Initial water mass=1000×2×10⁻³=2 kg. With the revised stem explicitly stating a full container and Δh=0, the 0.6 kg block causing a net mass gain of 0.4 kg implies 0.2 kg overflow, hence Vblock=2×10⁻⁴ m³ and ρblock=0.6/(2×10⁻⁴)=3.0×10³ kg/m³. All three requested results are assigned to the matching parts and rubrics."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:8aef648b72b5b72f1f636e58",
+    "source_sha256": "2258b10c5bcfd697b9e1a75ff2a45d084e54894cfa720f1e670391a6b4604497",
+    "decision": "needs_revision",
+    "rationale": "Kinetic energy gives vN>vM for the same ball; gravitational potential energy gives hM>hN. Totals are EM=15 J and EN=13 J, so nonconservation is physically possible with air resistance and does not by itself make the data impossible. But under gravity plus dissipative air resistance, a first-pass ascent N→M would increase mechanical energy from 13 J to 15 J, which is inconsistent; the physically compatible order is M then N on descent, making D true and C false. The source explanation claims M then N but its keyed answer CD contradicts that explanation. The B1 proposal quarantines the item and says N’s phase cannot be determined; that conclusion misses the ordering constraint. Revise the key/explanation to D only under the ordinary drag model, or retain quarantine if the intended model is not specified.",
+    "independent_checks": [
+      "Kinetic energy gives vN>vM for the same ball; gravitational potential energy gives hM>hN. Totals are EM=15 J and EN=13 J, so nonconservation is physically possible with air resistance and does not by itself make the data impossible. But under gravity plus dissipative air resistance, a first-pass ascent N→M would increase mechanical energy from 13 J to 15 J, which is inconsistent; the physically compatible order is M then N on descent, making D true and C false. The source explanation claims M then N but its keyed answer CD contradicts that explanation. The B1 proposal quarantines the item and says N’s phase cannot be determined; that conclusion misses the ordering constraint. Revise the key/explanation to D only under the ordinary drag model, or retain quarantine if the intended model is not specified."
+    ],
+    "corrections": [
+      "Do not call unequal mechanical energies impossible under air resistance. Reconcile the stem/model and source explanation; if ordinary drag is assumed, change the key to D and explain why N is on descent."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:6629661604548bd778178685",
+    "source_sha256": "5b0409372eefad057340f1119ee20140054acbeb462279d9323fc19511c6d564",
+    "decision": "accept_draft",
+    "rationale": "Empty car pressure: 1200×9.8/0.05=235200 Pa. Total moving mass=1200+3×70=1410 kg; resistance=0.06×1410×9.8=829.08 N. With the draft’s explicit constant-speed condition, traction equals resistance; 80 km/h=22.222 m/s and P≈18424 W. The added uniform-speed condition is visible in the revised stem and the part prompts/rubrics correspond to the three asks.",
+    "independent_checks": [
+      "Empty car pressure: 1200×9.8/0.05=235200 Pa. Total moving mass=1200+3×70=1410 kg; resistance=0.06×1410×9.8=829.08 N. With the draft’s explicit constant-speed condition, traction equals resistance; 80 km/h=22.222 m/s and P≈18424 W. The added uniform-speed condition is visible in the revised stem and the part prompts/rubrics correspond to the three asks."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:95db12b298590ae9295437d9",
+    "source_sha256": "a0d66b00d77b69f515050dc6e70ae8efb2e77005ad6585de889df08fe665a1a1",
+    "decision": "keep_quarantined",
+    "rationale": "Material density is determinate: 3/(1.5×10⁻³)=2000 kg/m³. The source’s force arithmetic is independently wrong even before resolving support area: if total mass is 40+6=46 kg, F=46×9.8=450.8 N, not 470.4 N (the latter corresponds to 48 kg). The phrase “overall mass 6 kg” also leaves whether 6 kg is equipment or combined equipment unclear, and walking pressure needs the number of supporting feet/total contact area; one-foot area alone does not fix it. The existing quarantine is justified, but its audit must record the 450.8 N correction.",
+    "independent_checks": [
+      "Material density is determinate: 3/(1.5×10⁻³)=2000 kg/m³. The source’s force arithmetic is independently wrong even before resolving support area: if total mass is 40+6=46 kg, F=46×9.8=450.8 N, not 470.4 N (the latter corresponds to 48 kg). The phrase “overall mass 6 kg” also leaves whether 6 kg is equipment or combined equipment unclear, and walking pressure needs the number of supporting feet/total contact area; one-foot area alone does not fix it. The existing quarantine is justified, but its audit must record the 450.8 N correction."
+    ],
+    "corrections": [
+      "Record the source arithmetic error: 46×9.8=450.8 N, not 470.4 N; keep pressure quarantined until mass interpretation and support-foot/contact area are specified."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:1b3df8e6f035b7479c4ca962",
+    "source_sha256": "e6d007d8d94b984d373393c993098e936c92bdf896631f2bec85d9fbcb3c3a5c",
+    "decision": "accept_draft",
+    "rationale": "Block volume=0.6×0.3×0.2=0.036 m³ and density=12/0.036≈333.33 kg/m³. Old brick volume=4000/1850≈2.16216 m³. Under the proposal’s explicit same-wall-thickness/equal-volume assumption, new mass≈720.72 kg and reduction≈3279.28 kg≈3.28 t. Rubric supports the method and units.",
+    "independent_checks": [
+      "Block volume=0.6×0.3×0.2=0.036 m³ and density=12/0.036≈333.33 kg/m³. Old brick volume=4000/1850≈2.16216 m³. Under the proposal’s explicit same-wall-thickness/equal-volume assumption, new mass≈720.72 kg and reduction≈3279.28 kg≈3.28 t. Rubric supports the method and units."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:26306c921ebd4d58493b6fd1",
+    "source_sha256": "75f3317d344109a57b12921efa9793f739f3e3e6b3b91abff8d8f727535c39dc",
+    "decision": "accept_draft",
+    "rationale": "Room volume=12×6×5=360 m³; air mass=1.29×360=464.4 kg. This independently matches the corrected proposal and its one-part rubric; the source’s 387 kg conflicts with its own shown multiplication.",
+    "independent_checks": [
+      "Room volume=12×6×5=360 m³; air mass=1.29×360=464.4 kg. This independently matches the corrected proposal and its one-part rubric; the source’s 387 kg conflicts with its own shown multiplication."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:2724e1f8b5fc7ded04fa682b",
+    "source_sha256": "8c54c6e7cddee199798e559809163aebb2f92580b6cbe8c7783a37158ea16bc0",
+    "decision": "accept_draft",
+    "rationale": "Cube volume=4³=64 cm³; mass=7.5×64=480 g=0.48 kg. With the revised stem’s explicit g=10 N/kg assumption, ground weight=4.8 N. In an ideal zero-gravity field, mass remains 0.48 kg and gravitational weight is 0 N. The answer/rubrics align and the added g assumption is explicit.",
+    "independent_checks": [
+      "Cube volume=4³=64 cm³; mass=7.5×64=480 g=0.48 kg. With the revised stem’s explicit g=10 N/kg assumption, ground weight=4.8 N. In an ideal zero-gravity field, mass remains 0.48 kg and gravitational weight is 0 N. The answer/rubrics align and the added g assumption is explicit."
+    ]
+  }
+]

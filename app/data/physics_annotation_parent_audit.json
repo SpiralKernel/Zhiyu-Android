@@ -1,0 +1,8 @@
+[
+  {
+    "question_id": "bank:cjeval:da01c4ed1974b7491063690f",
+    "source_sha256": "17a873deda5f231a3cf6db4b5be6ab64907db38a2b1a960194600f028249df47",
+    "action": "exclude",
+    "reason": "来源题干为未解析的序列化对象，包含答案/解析字段；选项文本被污染，不能作为学生习题。"
+  }
+]

@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "bank:cjeval:202c87b56c881c5782b86add",
+    "source_sha256": "78e5a8cd1ccf8c7a0a4e3e129fa8413ac207381eb78db3c64d6363da719c89a7",
+    "current_snapshot_id": "bank:cjeval:202c87b56c881c5782b86add:7af6b115045f",
+    "batch": "B4",
+    "trial_group": "calculation_reserve",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "耗油体积V=8 L/100 km×60 km=4.8 L=4.8×10⁻³ m³。",
+      "汽油质量m=ρV=0.7×10³ kg/m³×4.8×10⁻³ m³=3.36 kg。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "该备用题为单一计算任务；独立算式与来源答案一致，细化到可核验的计算步骤和单位rubric。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "单问计算题，来源答案经独立复算一致；补齐具体计算方法和rubric，不添加分值、年级或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 一辆以汽油为燃料的小轿车，在平坦的高速公路上匀速行驶，每百公里耗油8升。如果这辆车行驶60公里，计算该段路程中消耗的汽油质量。（汽油的密度为0.7×10^3 kg/m^3）",
+      "kind": "reference",
+      "options": [],
+      "answer": "3.36 kg",
+      "steps": [
+        "耗油体积V=8 L/100 km×60 km=4.8 L=4.8×10⁻³ m³。",
+        "汽油质量m=ρV=0.7×10³ kg/m³×4.8×10⁻³ m³=3.36 kg。"
+      ],
+      "knowledge_tags": [
+        "密度公式的应用",
+        "体积单位换算"
+      ],
+      "type_tags": [
+        "由百公里油耗求给定路程耗油体积，再由密度求汽油质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未实测校准。计算步骤已独立补全，未进行实测难度校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式的应用"
+          ],
+          "supporting": [
+            "体积单位换算"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由百公里油耗求给定路程耗油体积，再由密度求汽油质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；本题需按题设关系进行单位换算和一次密度计算，未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未提供可核验的年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "按题目明示的油耗、距离、体积和密度计算；答案须与计算过程及单位一致。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "计算行驶60 km消耗汽油的质量。",
+            "reference_answer": "3.36 kg",
+            "solution_steps": [
+              "耗油体积V=8 L/100 km×60 km=4.8 L。",
+              "4.8 L=4.8×10⁻³ m³；m=ρV=0.7×10³×4.8×10⁻³=3.36 kg。"
+            ],
+            "knowledge_tags": [
+              "密度公式的应用",
+              "体积单位换算"
+            ],
+            "type_tags": [
+              "由百公里油耗求给定路程耗油体积，再由密度求汽油质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "依据百公里油耗求出耗油体积，统一体积单位后用m=ρV求质量。",
+                "points": null,
+                "evidence_required": "列出8 L/100 km×60 km=4.8 L=4.8×10⁻³ m³，并用0.7×10³ kg/m³相乘得到3.36 kg；单位换算一致。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "已按题干独立计算并形成待审核候选；答案状态仍为source_only，须人工审核后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-20261014-B4-extra"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:291b0370f1e0f7f33f65f9f8",
+    "source_sha256": "dc59e81f1614a8f09aa8e61461458a9976b8913e181aa323b26ebfff460f9e62",
+    "current_snapshot_id": "bank:cjeval:291b0370f1e0f7f33f65f9f8:bfc1dc80f2f0",
+    "batch": "B4",
+    "trial_group": "calculation_reserve",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "豆油质量m=500 g−20 g=480 g；体积V=600 mL=600 cm³。",
+      "密度ρ=m/V=480 g/600 cm³=0.8 g/cm³=0.8×10³ kg/m³=800 kg/m³。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "该备用题为单一计算任务；独立算式与来源答案一致，细化到可核验的计算步骤和单位rubric。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "单问计算题，来源答案经独立复算一致；补齐具体计算方法和rubric，不添加分值、年级或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 小红找了一只容量为600mL（1mL=1cm³）的无任何物体的可乐瓶，称量其重量为20g。她将瓶子注满豆油，再次称重时测得豆油与瓶子的总质量为500g，求这种豆油的密度。",
+      "kind": "reference",
+      "options": [],
+      "answer": "0.8×10³ kg/m³（即800 kg/m³）",
+      "steps": [
+        "豆油质量m=500 g−20 g=480 g；体积V=600 mL=600 cm³。",
+        "密度ρ=m/V=480 g/600 cm³=0.8 g/cm³=0.8×10³ kg/m³=800 kg/m³。"
+      ],
+      "knowledge_tags": [
+        "密度公式的应用",
+        "质量差的计算",
+        "体积单位换算"
+      ],
+      "type_tags": [
+        "用满瓶总质量减空瓶质量求液体质量，再由液体体积求密度并换算单位"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未实测校准。计算步骤已独立补全，未进行实测难度校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式的应用"
+          ],
+          "supporting": [
+            "质量差的计算",
+            "体积单位换算"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "用满瓶总质量减空瓶质量求液体质量，再由液体体积求密度并换算单位"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；本题需按题设关系进行单位换算和一次密度计算，未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未提供可核验的年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "按题目明示的油耗、距离、体积和密度计算；答案须与计算过程及单位一致。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "求豆油的质量、体积及密度。",
+            "reference_answer": "0.8×10³ kg/m³（即800 kg/m³）",
+            "solution_steps": [
+              "豆油质量=500 g−20 g=480 g；豆油体积=600 mL=600 cm³。",
+              "ρ=480 g/600 cm³=0.8 g/cm³=800 kg/m³。"
+            ],
+            "knowledge_tags": [
+              "密度公式的应用",
+              "质量差的计算",
+              "体积单位换算"
+            ],
+            "type_tags": [
+              "用满瓶总质量减空瓶质量求液体质量，再由液体体积求密度并换算单位"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "先从瓶油总质量中减去空瓶质量，再以瓶的容量作为豆油体积，用ρ=m/V计算并换算为kg/m³。",
+                "points": null,
+                "evidence_required": "写出500 g−20 g=480 g、600 mL=600 cm³、480/600=0.8 g/cm³，并给出0.8×10³ kg/m³或800 kg/m³；量纲换算一致。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "已按题干独立计算并形成待审核候选；答案状态仍为source_only，须人工审核后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-20261014-B4-extra"
+        }
+      }
+    }
+  }
+]

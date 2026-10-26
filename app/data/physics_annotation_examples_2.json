@@ -1,0 +1,326 @@
+[
+  {
+    "question_id": "bank:ceval-physics:physics:dev:0",
+    "source_sha256": "21cb34c2d81dd16aac98ce74c706504bf4a6194dec3af3d69778b615078be0e8",
+    "decision": "annotate",
+    "reason": "逐题阅读后的候选标注；来源答案保留 source_only，rubric 有概念依据但不虚构分值。",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "音色是声音的特性之一，不同发声体的音色不同"
+        ],
+        "supporting": [
+          "声音的频率、振幅和音调、响度的区别"
+        ],
+        "prerequisites": [
+          "声音由物体振动产生"
+        ]
+      },
+      "fine_types": [
+        "依据音色辨认发声乐器"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源未提供可核验的难度等级；按概念数量与推理步骤作候选估计，未经校准。",
+        "origin": "luna",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "来源仅标注初中阶段；未提供具体年级、学期或课程目标。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "C"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "按题干选择一个最符合初中物理规律的选项。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题干：一曲《梁祝》哀婉动听，用小提琴或钢琴演奏能呈现不同的特点，你能区分出是钢琴还是小提琴，主要是依据声音的____\n选项：\nA. 频率\nB. 振幅\nC. 音色\nD. 节奏",
+          "reference_answer": "C",
+          "solution_steps": [
+            "频率关系到音调，振幅关系到响度；不同乐器的音色不同，可据此辨认。"
+          ],
+          "knowledge_tags": [
+            "音色是声音的特性之一，不同发声体的音色不同",
+            "声音的频率、振幅和音调、响度的区别"
+          ],
+          "type_tags": [
+            "依据音色辨认发声乐器"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "choice_and_physics_basis",
+              "description": "唯一选择符合题意且与对应物理规律一致的选项。",
+              "points": null,
+              "evidence_required": "说明辨认不同乐器依据其音色差异。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把音色与音调或响度混为一谈。",
+              "knowledge_tags": [
+                "音色是声音的特性之一，不同发声体的音色不同"
+              ],
+              "type_tags": [
+                "依据音色辨认发声乐器"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_source_only",
+          "rubric_unscored",
+          "curriculum_unknown"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、选项和可用来源解析，并按物理概念形成候选标注。参考选项沿用来源答案，未标记checked；题目未提供分值，rubric不赋分；未提供具体册次。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:dev:1",
+    "source_sha256": "a2fc41a844fecfb7a4dbf2512186ab58c1d47d8ba4db4470b38ca2506b9717eb",
+    "decision": "annotate",
+    "reason": "逐题阅读后的候选标注；来源答案保留 source_only，rubric 有概念依据但不虚构分值。",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "牛顿第一定律、惯性与运动状态变化"
+        ],
+        "supporting": [
+          "力的作用是相互的；平衡力与相互作用力的区别"
+        ],
+        "prerequisites": [
+          "速度和运动方向共同描述运动状态"
+        ]
+      },
+      "fine_types": [
+        "分析运动情境中的受力与运动并选择正确表述"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源未提供可核验的难度等级；按概念数量与推理步骤作候选估计，未经校准。",
+        "origin": "luna",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "来源仅标注初中阶段；未提供具体年级、学期或课程目标。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "D"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "按题干选择一个最符合初中物理规律的选项。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题干：第24届冬奥会将于2022年2月4日至20日在北京市和张家口市联合举行。关于冬奥会的部分比赛项目，下列分析正确的是____\n选项：\nA. 被推出的冰壶在水平冰面上滑行时受力平衡\nB. 短道速滑运动员匀速过弯道时运动状态不变\nC. 滑雪运动员冲过终点后不能立即停下来是因为受到惯性的作用\nD. 冰球运动员向后蹬冰面就会前进说明物体间力的作用是相互的",
+          "reference_answer": "D",
+          "solution_steps": [
+            "头球/滑行/转弯等实例需区分力的效果、惯性和作用力；相互作用力分别作用于两个物体。"
+          ],
+          "knowledge_tags": [
+            "牛顿第一定律、惯性与运动状态变化",
+            "力的作用是相互的；平衡力与相互作用力的区别"
+          ],
+          "type_tags": [
+            "分析运动情境中的受力与运动并选择正确表述"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "choice_and_physics_basis",
+              "description": "唯一选择符合题意且与对应物理规律一致的选项。",
+              "points": null,
+              "evidence_required": "能用惯性、运动状态变化或相互作用力的正确规律辨析选项。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把惯性说成一种力；把运动方向改变视为运动状态不变；混淆平衡力与相互作用力。",
+              "knowledge_tags": [
+                "牛顿第一定律、惯性与运动状态变化"
+              ],
+              "type_tags": [
+                "分析运动情境中的受力与运动并选择正确表述"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_source_only",
+          "rubric_unscored",
+          "curriculum_unknown"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、选项和可用来源解析，并按物理概念形成候选标注。参考选项沿用来源答案，未标记checked；题目未提供分值，rubric不赋分；未提供具体册次。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-2"
+      }
+    }
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:dev:2",
+    "source_sha256": "11a1a96fcaac344733951c1f4a48d335e2a4d57bcd701f78f55ecd0942e9d216",
+    "decision": "annotate",
+    "reason": "逐题阅读后的候选标注；来源答案保留 source_only，rubric 有概念依据但不虚构分值。",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "透镜对光的作用及远视眼矫正"
+        ],
+        "supporting": [
+          "平面镜成像特点；照相机成像条件；显微镜物镜成像"
+        ],
+        "prerequisites": [
+          "凸透镜和凹透镜对光线的作用"
+        ]
+      },
+      "fine_types": [
+        "辨析常见光学成像与视力矫正陈述"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源未提供可核验的难度等级；按概念数量与推理步骤作候选估计，未经校准。",
+        "origin": "luna",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "来源仅标注初中阶段；未提供具体年级、学期或课程目标。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "D"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "按题干选择一个最符合初中物理规律的选项。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "whole",
+          "prompt": "题干：关于光现象，下列说法中正确的是____\n选项：\nA. 矫正远视眼需要佩戴合适的凹透镜\nB. 人站在穿衣镜前看到自己在镜中的像是实像\nC. 用照相机拍照时，景物应位于照相机镜头的二倍焦距以内\nD. 待观察物体通过显微镜的物镜在目镜的焦点附近生成一个倒立、放大的实像",
+          "reference_answer": "D",
+          "solution_steps": [
+            "远视眼用凸透镜矫正，平面镜成虚像，照相机物距通常大于二倍焦距；显微镜物镜成倒立放大的实像。"
+          ],
+          "knowledge_tags": [
+            "透镜对光的作用及远视眼矫正",
+            "平面镜成像特点；照相机成像条件；显微镜物镜成像"
+          ],
+          "type_tags": [
+            "辨析常见光学成像与视力矫正陈述"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "choice_and_physics_basis",
+              "description": "唯一选择符合题意且与对应物理规律一致的选项。",
+              "points": null,
+              "evidence_required": "根据透镜、平面镜及仪器成像规律判断陈述。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "混淆远视与近视矫正镜片；把平面镜像当作实像；颠倒照相机物距条件。",
+              "knowledge_tags": [
+                "透镜对光的作用及远视眼矫正"
+              ],
+              "type_tags": [
+                "辨析常见光学成像与视力矫正陈述"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_source_only",
+          "rubric_unscored",
+          "curriculum_unknown"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、选项和可用来源解析，并按物理概念形成候选标注。参考选项沿用来源答案，未标记checked；题目未提供分值，rubric不赋分；未提供具体册次。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-2"
+      }
+    }
+  }
+]

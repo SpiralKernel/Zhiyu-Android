@@ -1,0 +1,1464 @@
+[
+  {
+    "question_id": "bank:cjeval:02f5b1c8e5f1a10d0446cc9d",
+    "source_sha256": "dfafb4e22b9423ce35fbf87d7082e42f7bdeb0935c0b2d79ad604929046b4bb6",
+    "current_snapshot_id": "bank:cjeval:02f5b1c8e5f1a10d0446cc9d:49671ccb68a2",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "排开水的质量等于9×10⁶+1.5×10⁶=1.05×10⁷kg；F浮=mg=1.05×10⁷×10=1.05×10⁸N。",
+      "下潜时深度增加，液体压强随深度增大，故变大。",
+      "潜水器最终悬浮且静止平衡，合力为零，故重力等于浮力。"
+    ],
+    "source_conflicts": [
+      "来源第三空表述未充分区分下潜过程与最终悬浮状态；来源答案不符合最终静止悬浮时G=F浮。"
+    ],
+    "remaining_issues": [
+      "题面增加g=10N/kg并将第三空限定为最终悬浮状态，均属显式修订，须教师确认。"
+    ],
+    "rationale": "已按peer意见拆分三空并明确g与状态条件；来源答案修正为1.05×10⁸N、变大、等于。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "“凤凰”号载人潜水器水面航行时排水量为9×10⁶kg，注入1.5×10⁶kg海水后下潜并在150m深处最终悬浮。取g=10N/kg。填空：（1）此时潜水器受到的浮力为__N；（2）下潜过程中潜水器受到的水压__（变大/变小/不变）；（3）在最终悬浮状态下，潜水器所受重力__浮力（大于/等于/小于）。",
+      "kind": "reference",
+      "options": [],
+      "answer": "1.05×10⁸ N\n变大\n等于",
+      "steps": [
+        "排开水的质量等于9×10⁶+1.5×10⁶=1.05×10⁷kg；F浮=mg=1.05×10⁷×10=1.05×10⁸N。",
+        "下潜时深度增加，液体压强随深度增大，故变大。",
+        "潜水器最终悬浮且静止平衡，合力为零，故重力等于浮力。"
+      ],
+      "knowledge_tags": [
+        "阿基米德原理",
+        "浮沉条件",
+        "液体压强与深度的关系"
+      ],
+      "type_tags": [
+        "由排水量求浮力并判断液体压强变化与悬浮平衡"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "fill_blank",
+        "knowledge": {
+          "primary": [
+            "阿基米德原理",
+            "液体压强与深度的关系",
+            "物体浮沉条件"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由排水总质量用阿基米德原理求浮力并判断下潜压强和悬浮平衡"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "text",
+          "accepted_answers": [
+            "1.05×10⁸N；变大；等于"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "取g=10N/kg。",
+            "第三空指最终悬浮状态；压强变化指下潜过程中深度增加。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求最终悬浮时潜水器受到的浮力。",
+            "reference_answer": "1.05×10⁸N",
+            "solution_steps": [
+              "排开水的质量等于9×10⁶+1.5×10⁶=1.05×10⁷kg；F浮=mg=1.05×10⁷×10=1.05×10⁸N。"
+            ],
+            "knowledge_tags": [
+              "阿基米德原理",
+              "浮力"
+            ],
+            "type_tags": [
+              "由排水总质量用阿基米德原理求浮力并判断下潜压强和悬浮平衡"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "由排水总质量计算浮力",
+                "points": null,
+                "evidence_required": "列出总排水质量并乘g，结果写N单位。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "判断下潜过程中水压的变化。",
+            "reference_answer": "变大",
+            "solution_steps": [
+              "下潜时深度增加，液体压强随深度增大，故变大。"
+            ],
+            "knowledge_tags": [
+              "液体压强与深度的关系"
+            ],
+            "type_tags": [
+              "由排水总质量用阿基米德原理求浮力并判断下潜压强和悬浮平衡"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "判断下潜过程中液体压强变化",
+                "points": null,
+                "evidence_required": "指出下潜深度增加且液体密度不变，压强增大。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "填写最终悬浮状态下重力与浮力的关系。",
+            "reference_answer": "等于",
+            "solution_steps": [
+              "潜水器最终悬浮且静止平衡，合力为零，故重力等于浮力。"
+            ],
+            "knowledge_tags": [
+              "物体浮沉条件"
+            ],
+            "type_tags": [
+              "由排水总质量用阿基米德原理求浮力并判断下潜压强和悬浮平衡"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "依据悬浮平衡比较重力与浮力",
+                "points": null,
+                "evidence_required": "指出最终静止悬浮时合力为零，G=F浮。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_review_pending",
+            "source_conflict_corrected_in_draft"
+          ],
+          "method": "item_read",
+          "notes": "基于原题逐项独立核算形成修订候选；答案保持source_only，需教师审核后方可使用。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "B1"
+        }
+      },
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      }
+    },
+    "resolved_findings": [
+      "按peer复核拆分小问/修正题型与条件，并提供逐项可观察rubric。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:31ded231f3e578a602a18cfd",
+    "source_sha256": "6b6b340d96f96cc5a134a50bea7523169acd4805997448d2400d5e53ed010ded",
+    "current_snapshot_id": "bank:cjeval:31ded231f3e578a602a18cfd:a63be1de7b49",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "A、C、D为初中物理概念的正确表述。",
+      "B没有给出闭合电路条件；切割磁感线可产生感应电动势，只有电路闭合才能形成感应电流，故B不正确。"
+    ],
+    "source_conflicts": [
+      "原题和来源解析/答案不一致；B遗漏闭合回路条件，按原措辞不能稳妥认定唯一错误项。"
+    ],
+    "remaining_issues": [
+      "修订后改为单选并明确问“不正确的一项”；须教师确认该编辑后的题目。"
+    ],
+    "rationale": "按peer意见改为单选题，唯一答案B；rubric要求指出闭合电路条件。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "以下关于物理概念的说法中，不正确的一项是（　　）",
+      "kind": "reference",
+      "options": [
+        {
+          "key": "A",
+          "text": "物体内部所有分子的动能与势能之和称为物体的内能"
+        },
+        {
+          "key": "B",
+          "text": "导体切割磁感线时会产生感应电流，这一现象称为电磁感应"
+        },
+        {
+          "key": "C",
+          "text": "并联电路的总电阻等于各并联电阻倒数之和的倒数"
+        },
+        {
+          "key": "D",
+          "text": "单位体积某种物质的质量称为该物质的密度"
+        }
+      ],
+      "answer": "B",
+      "steps": [
+        "A、C、D为初中物理概念的正确表述。",
+        "B没有给出闭合电路条件；切割磁感线可产生感应电动势，只有电路闭合才能形成感应电流，故B不正确。"
+      ],
+      "knowledge_tags": [
+        "内能",
+        "电磁感应及感应电流条件",
+        "并联电路等效电阻",
+        "密度定义"
+      ],
+      "type_tags": [
+        "逐项核对内能、电磁感应条件、并联电阻关系与密度定义"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "内能",
+            "电磁感应",
+            "并联电路等效电阻",
+            "密度定义"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨析电磁感应形成感应电流的闭合电路条件"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "判断B时采用完整条件：感应电流须有闭合电路。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择不正确的一项并说明缺少的必要条件。",
+            "reference_answer": "B；感应电流还要求电路闭合。",
+            "solution_steps": [
+              "A、C、D为初中物理概念的正确表述。",
+              "B没有给出闭合电路条件；切割磁感线可产生感应电动势，只有电路闭合才能形成感应电流，故B不正确。"
+            ],
+            "knowledge_tags": [
+              "内能",
+              "电磁感应",
+              "并联电路等效电阻",
+              "密度定义"
+            ],
+            "type_tags": [
+              "辨析电磁感应形成感应电流的闭合电路条件"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "选择B并指出感应电流形成条件",
+                "points": null,
+                "evidence_required": "选择B；说明导体切割磁感线时形成感应电流还需闭合电路。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_review_pending",
+            "source_conflict_corrected_in_draft"
+          ],
+          "method": "item_read",
+          "notes": "基于原题逐项独立核算形成修订候选；答案保持source_only，需教师审核后方可使用。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "B1"
+        }
+      },
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      }
+    },
+    "resolved_findings": [
+      "按peer复核拆分小问/修正题型与条件，并提供逐项可观察rubric。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:40aba870202cca5176a2a368",
+    "source_sha256": "d0e1f301ef8b29db7a52272821c7a352741e9fb225a32d96734e351be5fa85e9",
+    "current_snapshot_id": "bank:cjeval:40aba870202cca5176a2a368:341d52f33d01",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "①针孔成像由光沿直线传播形成实像；②潜望镜由平面镜反射形成虚像；③放大镜由折射形成虚像；④幻灯机和⑤照相机均形成实像。",
+      "因此A、B、D错误，只有C正确。"
+    ],
+    "source_conflicts": [
+      "来源答案BC错误，且来源解析把针孔成像错误归为折射成像、把幻灯机实像列为虚像。"
+    ],
+    "remaining_issues": [
+      "修订为single_choice并使用独立选项字段；教师需核定选项编辑版本。"
+    ],
+    "rationale": "已改为single_choice，题干明确求正确说法；独立分析仅C成立。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "小希分析针孔相机、潜望镜、放大镜、幻灯机和照相机形成的图像。下列关于这些成像实例的说法，正确的是（　　）",
+      "kind": "reference",
+      "options": [
+        {
+          "key": "A",
+          "text": "反射成像的有②③"
+        },
+        {
+          "key": "B",
+          "text": "折射成像的有①③⑤"
+        },
+        {
+          "key": "C",
+          "text": "实像的是①④⑤"
+        },
+        {
+          "key": "D",
+          "text": "虚像的是②③④"
+        }
+      ],
+      "answer": "C",
+      "steps": [
+        "①针孔成像由光沿直线传播形成实像；②潜望镜由平面镜反射形成虚像；③放大镜由折射形成虚像；④幻灯机和⑤照相机均形成实像。",
+        "因此A、B、D错误，只有C正确。"
+      ],
+      "knowledge_tags": [
+        "小孔成像",
+        "平面镜成像",
+        "凸透镜成像与实像虚像"
+      ],
+      "type_tags": [
+        "分类判断针孔、潜望镜、放大镜、幻灯机和照相机成像"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "小孔成像",
+            "平面镜成像",
+            "凸透镜成像与实像虚像"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "分类判断针孔相机、潜望镜、放大镜、幻灯机和照相机的成像原理与虚实"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "针孔成像按光沿直线传播形成实像判断。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择成像原理或像的虚实表述正确的一项。",
+            "reference_answer": "C",
+            "solution_steps": [
+              "①针孔成像由光沿直线传播形成实像；②潜望镜由平面镜反射形成虚像；③放大镜由折射形成虚像；④幻灯机和⑤照相机均形成实像。",
+              "因此A、B、D错误，只有C正确。"
+            ],
+            "knowledge_tags": [
+              "光的直线传播与小孔成像",
+              "平面镜成像",
+              "凸透镜成像与实像虚像"
+            ],
+            "type_tags": [
+              "分类判断针孔相机、潜望镜、放大镜、幻灯机和照相机的成像原理与虚实"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "依据五类成像实例判定正确选项",
+                "points": null,
+                "evidence_required": "指出针孔成像为实像、幻灯机和照相机为实像，并选C；或准确辨析其余错误项。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_review_pending",
+            "source_conflict_corrected_in_draft"
+          ],
+          "method": "item_read",
+          "notes": "基于原题逐项独立核算形成修订候选；答案保持source_only，需教师审核后方可使用。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "B1"
+        }
+      },
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      }
+    },
+    "resolved_findings": [
+      "按peer复核拆分小问/修正题型与条件，并提供逐项可观察rubric。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:4ca94c187a461ffafb1e62fb",
+    "source_sha256": "96f4422417e3f0b83602243291d858a9648a0b1db499e20729f8bc9fecf97088",
+    "current_snapshot_id": "bank:cjeval:4ca94c187a461ffafb1e62fb:89490e9b472d",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "两个校准点对应(r,T)=(3,0)、(97,100)，均匀刻度下真实温度T=(r−3)×100/(97−3)。",
+      "r=34时T=31×100/94≈32.98℃，最接近33℃，选A。"
+    ],
+    "source_conflicts": [
+      "原选项A为31℃，但按题设校准结果约32.98℃，原选项没有正确答案；来源解析误写31℃。"
+    ],
+    "remaining_issues": [
+      "草稿将选项A从31℃改为33℃；题干已移除原选项串，修订差异需教师确认。"
+    ],
+    "rationale": "统一stem与options，选项A更正为33℃；计算结果约32.98℃。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "一支均匀刻度但读数有偏差的温度计，在标准大气压下测冰水混合物显示3℃、测沸水显示97℃。用它测得室温示数为34℃，室温实际温度最接近下列哪项？",
+      "kind": "reference",
+      "options": [
+        {
+          "key": "A",
+          "text": "33℃"
+        },
+        {
+          "key": "B",
+          "text": "32℃"
+        },
+        {
+          "key": "C",
+          "text": "35℃"
+        },
+        {
+          "key": "D",
+          "text": "29℃"
+        }
+      ],
+      "answer": "A",
+      "steps": [
+        "两个校准点对应(r,T)=(3,0)、(97,100)，均匀刻度下真实温度T=(r−3)×100/(97−3)。",
+        "r=34时T=31×100/94≈32.98℃，最接近33℃，选A。"
+      ],
+      "knowledge_tags": [
+        "温度计校准与线性刻度"
+      ],
+      "type_tags": [
+        "用冰点和沸点两个校准点修正均匀刻度温度计"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 3,
+      "difficulty_basis": "来源难度：困难；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "温度计校准与线性刻度"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "利用冰点和沸点校准均匀刻度温度计的示值"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "来源难度：困难；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "标准大气压下冰水混合物取0℃、沸水取100℃。",
+            "均匀刻度表示示数与真实温度线性对应；按最近选项作答。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "根据两个校准点选择室温实际温度最接近值。",
+            "reference_answer": "A（33℃）",
+            "solution_steps": [
+              "两个校准点对应(r,T)=(3,0)、(97,100)，均匀刻度下真实温度T=(r−3)×100/(97−3)。",
+              "r=34时T=31×100/94≈32.98℃，最接近33℃，选A。"
+            ],
+            "knowledge_tags": [
+              "温度计校准与线性刻度"
+            ],
+            "type_tags": [
+              "利用冰点和沸点校准均匀刻度温度计的示值"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "列出线性校准关系并选择最接近的选项",
+                "points": null,
+                "evidence_required": "使用两个校准点建立线性关系，算得约32.98℃并选择A。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_review_pending",
+            "source_conflict_corrected_in_draft"
+          ],
+          "method": "item_read",
+          "notes": "基于原题逐项独立核算形成修订候选；答案保持source_only，需教师审核后方可使用。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "B1"
+        }
+      },
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      }
+    },
+    "resolved_findings": [
+      "按peer复核拆分小问/修正题型与条件，并提供逐项可观察rubric。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:606023fa1a341901e1d555d6",
+    "source_sha256": "c69aeb52e5b7c2db9aae533dccd13bc2246710be8cbaeb9b2f5760e3f47753c7",
+    "current_snapshot_id": "bank:cjeval:606023fa1a341901e1d555d6:47c18ddc65f9",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "（1）I₁=Q/t=8C/12s=2/3A≈0.67A。",
+      "（2）第（1）问状态R=U₁/I₁=4V÷(2/3A)=6Ω。保持温度不变，电阻仍为6Ω；若I₂=1A，则所需电压U₂=I₂R=6V。"
+    ],
+    "source_conflicts": [
+      "原题“保持4V”与改变电流到1A且导体温度不变的条件有歧义；来源将电阻写4Ω，与第（1）问算得的6Ω冲突。"
+    ],
+    "remaining_issues": [
+      "本草稿明确4V仅为第（1）问初始状态，并加入恒温、调整电压至I=1A条件；这是显式题干修订，须确认。"
+    ],
+    "rationale": "两小问拆开并各设独立rubric；不把第（1）问4V错误沿用到新状态。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "某导体在第（1）问状态下两端电压为4V，12s内有8C电荷量通过其横截面。（1）求该状态下的电流。（2）保持导体温度不变，调整两端电压使电流为1A，求该导体的电阻。",
+      "kind": "reference",
+      "options": [],
+      "answer": "2/3 A（约0.67 A）\n6 Ω",
+      "steps": [
+        "（1）I₁=Q/t=8C/12s=2/3A≈0.67A。",
+        "（2）第（1）问状态R=U₁/I₁=4V÷(2/3A)=6Ω。保持温度不变，电阻仍为6Ω；若I₂=1A，则所需电压U₂=I₂R=6V。"
+      ],
+      "knowledge_tags": [
+        "电流定义式",
+        "欧姆定律",
+        "电阻与温度的关系"
+      ],
+      "type_tags": [
+        "由电荷量与时间求电流，再用欧姆定律求同温导体电阻"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 3,
+      "difficulty_basis": "来源难度：较难；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "电流定义式",
+            "欧姆定律",
+            "电阻与温度的关系"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由电荷量和时间求电流，再在温度不变条件下求导体电阻"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "来源难度：较难；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "2/3A；6Ω"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "4V只对应第（1）问状态，不表示第（2）问继续保持4V。",
+            "第（2）问明确保持温度不变；I₂=1A时对应电压U₂=6V，为由恒定电阻推出的检查值。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求第（1）问状态下的电流。",
+            "reference_answer": "2/3A（约0.67A）",
+            "solution_steps": [
+              "（1）I₁=Q/t=8C/12s=2/3A≈0.67A。"
+            ],
+            "knowledge_tags": [
+              "电流定义式"
+            ],
+            "type_tags": [
+              "由电荷量和时间求电流，再在温度不变条件下求导体电阻"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "用电荷量除以通电时间求电流",
+                "points": null,
+                "evidence_required": "列I=Q/t并代入8C和12s，结果约0.67A。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "保持导体温度不变且将电流调为1A，求电阻。",
+            "reference_answer": "6Ω",
+            "solution_steps": [
+              "（2）第（1）问状态R=U₁/I₁=4V÷(2/3A)=6Ω。保持温度不变，电阻仍为6Ω；若I₂=1A，则所需电压U₂=I₂R=6V。"
+            ],
+            "knowledge_tags": [
+              "欧姆定律",
+              "电阻与温度的关系"
+            ],
+            "type_tags": [
+              "由电荷量和时间求电流，再在温度不变条件下求导体电阻"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "用第（1）问电压和电流求同温导体电阻",
+                "points": null,
+                "evidence_required": "列R=U₁/I₁=6Ω；说明同温下电阻不变。所需新电压6V可作校验说明。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_review_pending",
+            "source_conflict_corrected_in_draft"
+          ],
+          "method": "item_read",
+          "notes": "基于原题逐项独立核算形成修订候选；答案保持source_only，需教师审核后方可使用。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "B1"
+        }
+      },
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      }
+    },
+    "resolved_findings": [
+      "按peer复核拆分小问/修正题型与条件，并提供逐项可观察rubric。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:72a375790d57c58d146dd3dd",
+    "source_sha256": "200f3f1136b0653754b40ea916a550262eea65f74a780f0513ab59c167e664dd",
+    "current_snapshot_id": "bank:cjeval:72a375790d57c58d146dd3dd:a4d64c967ead",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "（1）R=U²/P=220²/2200=22Ω。",
+      "（2）Q吸=cmΔT=4.2×10³×55×(40−20)=4.62×10⁶J。",
+      "（3）t=45×60=2700s；W=Pt=2200×2700=5.94×10⁶J；η=Q吸/W×100%≈77.78%。"
+    ],
+    "source_conflicts": [
+      "来源效率87.5%与题设计算不符；按55kg水和20℃温升Q吸=4.62×10⁶J，输入电能5.94×10⁶J。"
+    ],
+    "remaining_issues": [
+      "草稿明确额定状态持续运行45min；效率按水吸热量/电能计算，未另给热损失分配条件。"
+    ],
+    "rationale": "三小问分别设置rubric，显式加入按额定参数持续45min的计算条件。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "一台电热水器按额定电压220V、额定功率2200W运行，水箱装满55kg水。通电45min，水温由20℃升至40℃。取水的比热容c=4.2×10³J/(kg·℃)，按额定功率连续运行计算：（1）电热丝电阻；（2）水吸收的热量；（3）水吸热量占45min输入电能的百分比。",
+      "kind": "reference",
+      "options": [],
+      "answer": "22Ω\n4.62×10⁶J\n约77.78%",
+      "steps": [
+        "（1）R=U²/P=220²/2200=22Ω。",
+        "（2）Q吸=cmΔT=4.2×10³×55×(40−20)=4.62×10⁶J。",
+        "（3）t=45×60=2700s；W=Pt=2200×2700=5.94×10⁶J；η=Q吸/W×100%≈77.78%。"
+      ],
+      "knowledge_tags": [
+        "电功率与额定用电器",
+        "比热容与吸热",
+        "效率"
+      ],
+      "type_tags": [
+        "由额定参数求电阻、水吸热和热水器效率"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 3,
+      "difficulty_basis": "来源难度：较难；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "电功率与额定用电器",
+            "比热容与热量计算",
+            "电能与热效率"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由额定参数求电阻、由比热容求水吸热并比较输入电能求效率"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "来源难度：较难；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "22Ω；4.62×10⁶J；约77.78%"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "按额定220V、2200W连续运行45min计算。",
+            "水量55kg，温差20℃；效率定义为水吸热量/输入电能。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按额定电压和额定功率求电热丝电阻。",
+            "reference_answer": "22Ω",
+            "solution_steps": [
+              "（1）R=U²/P=220²/2200=22Ω。"
+            ],
+            "knowledge_tags": [
+              "电功率与额定用电器"
+            ],
+            "type_tags": [
+              "由额定参数求电阻、由比热容求水吸热并比较输入电能求效率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "应用P=U²/R求电阻",
+                "points": null,
+                "evidence_required": "正确代入220V和2200W，结果22Ω。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "求水温升高过程中吸收的热量。",
+            "reference_answer": "4.62×10⁶J",
+            "solution_steps": [
+              "（2）Q吸=cmΔT=4.2×10³×55×(40−20)=4.62×10⁶J。"
+            ],
+            "knowledge_tags": [
+              "比热容与热量计算"
+            ],
+            "type_tags": [
+              "由额定参数求电阻、由比热容求水吸热并比较输入电能求效率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "应用Q=cmΔT求水吸热",
+                "points": null,
+                "evidence_required": "使用55kg、4.2×10³J/(kg·℃)及20℃温差，结果单位J。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "求45min内水吸热量占输入电能的百分比。",
+            "reference_answer": "约77.78%",
+            "solution_steps": [
+              "（3）t=45×60=2700s；W=Pt=2200×2700=5.94×10⁶J；η=Q吸/W×100%≈77.78%。"
+            ],
+            "knowledge_tags": [
+              "电功率与电能",
+              "热效率"
+            ],
+            "type_tags": [
+              "由额定参数求电阻、由比热容求水吸热并比较输入电能求效率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "由输入电能与水吸热量求效率",
+                "points": null,
+                "evidence_required": "将45min换算成2700s，算W=Pt并计算Q吸/W×100%。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_review_pending",
+            "source_conflict_corrected_in_draft"
+          ],
+          "method": "item_read",
+          "notes": "基于原题逐项独立核算形成修订候选；答案保持source_only，需教师审核后方可使用。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "B1"
+        }
+      },
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      }
+    },
+    "resolved_findings": [
+      "按peer复核拆分小问/修正题型与条件，并提供逐项可观察rubric。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:a7d2e8bd2a4b59b9b9114ce1",
+    "source_sha256": "e4b09d509afc53dfbffd565d8d1682eb77f7baa549ddb7dc03f5e6fc3d3a2f15",
+    "current_snapshot_id": "bank:cjeval:a7d2e8bd2a4b59b9b9114ce1:35863b0da8e1",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "insufficient_evidence",
+    "independent_solution": [
+      "Q吸=4.1×10^3×1.5×80=4.92×10^5J。",
+      "W=1100×400=4.40×10^5J，η=111.8%，不可能。"
+    ],
+    "source_conflicts": [
+      "题设数据得水吸热4.92×10^5J，而1100W×400s输入电能为4.40×10^5J，效率111.8%，违反能量守恒；来源第3问数据亦冲突。"
+    ],
+    "remaining_issues": [
+      "缺少证据判断应改哪个源参数或答案；不猜测修改。"
+    ],
+    "rationale": "题设给出的能量条件不物理自洽，不能据此形成可信修订草稿。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:b45f6cb9ad58d2a5998d1bbf",
+    "source_sha256": "be1b3c686936575608843c844204dfc7d67676dd4702742ab5bd4aee55b07f99",
+    "current_snapshot_id": "bank:cjeval:b45f6cb9ad58d2a5998d1bbf:053132ea05d0",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "A：诗句涉及路程和时间，可联系平均速度，正确。",
+      "B：彩虹涉及折射、色散及水滴内反射，并非仅由反射形成，错误。",
+      "C：温度升高时分子热运动加快，扩散更明显，正确。",
+      "D：钟声传到客船说明声音可经空气传播，正确；诗句不足以判断音质。故选ACD。"
+    ],
+    "source_conflicts": [
+      "原B写“光的折射和反射”，来源解析却以“并非仅由反射”判错，选项与解析不一致；原D把声音传播和音质混为一谈。"
+    ],
+    "remaining_issues": [
+      "B修订为“仅由光的反射形成”，D修订为“声音可以在空气中传播”；这是对题目的编辑改写，不是忠实保留原题，需教师确认。"
+    ],
+    "rationale": "按要求显式标明B、D改写差异，修订后正确项ACD；题干不重复选项文本。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "阅读下列诗句及其物理知识解释，选出正确项（多选）：",
+      "kind": "reference",
+      "options": [
+        {
+          "key": "A",
+          "text": "“千里江陵一日还”——平均速度"
+        },
+        {
+          "key": "B",
+          "text": "“瀑水喷成虹”——彩虹仅由光的反射形成"
+        },
+        {
+          "key": "C",
+          "text": "“花气袭人知骤暖”——温度升高时分子热运动加快"
+        },
+        {
+          "key": "D",
+          "text": "“夜半钟声到客船”——声音可以在空气中传播"
+        }
+      ],
+      "answer": "ACD",
+      "steps": [
+        "A：诗句涉及路程和时间，可联系平均速度，正确。",
+        "B：彩虹涉及折射、色散及水滴内反射，并非仅由反射形成，错误。",
+        "C：温度升高时分子热运动加快，扩散更明显，正确。",
+        "D：钟声传到客船说明声音可经空气传播，正确；诗句不足以判断音质。故选ACD。"
+      ],
+      "knowledge_tags": [
+        "平均速度",
+        "光的折射、色散与反射",
+        "分子热运动",
+        "声音传播与音色"
+      ],
+      "type_tags": [
+        "由诗句识别平均速度、彩虹光学、分子热运动与声音传播"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "平均速度",
+            "光的折射、色散与反射",
+            "分子热运动",
+            "声音传播"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "依据诗句判断平均速度、彩虹光学、分子热运动和声音传播的物理解释"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "ACD"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "B已修改为“仅由光的反射形成”，该项为错误项。",
+            "D只判断声音传播，不推断音质。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择物理解释正确的诗句项（多选）。",
+            "reference_answer": "ACD",
+            "solution_steps": [
+              "A：诗句涉及路程和时间，可联系平均速度，正确。",
+              "B：彩虹涉及折射、色散及水滴内反射，并非仅由反射形成，错误。",
+              "C：温度升高时分子热运动加快，扩散更明显，正确。",
+              "D：钟声传到客船说明声音可经空气传播，正确；诗句不足以判断音质。故选ACD。"
+            ],
+            "knowledge_tags": [
+              "平均速度",
+              "光的折射、色散与反射",
+              "分子热运动",
+              "声音传播"
+            ],
+            "type_tags": [
+              "依据诗句判断平均速度、彩虹光学、分子热运动和声音传播的物理解释"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "逐项判断四句对应的物理概念",
+                "points": null,
+                "evidence_required": "选择A、C、D；指出彩虹不可能仅由反射形成，声音传播不等于音质判断。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_review_pending",
+            "source_conflict_corrected_in_draft"
+          ],
+          "method": "item_read",
+          "notes": "基于原题逐项独立核算形成修订候选；答案保持source_only，需教师审核后方可使用。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "B1"
+        }
+      },
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      }
+    },
+    "resolved_findings": [
+      "按peer复核拆分小问/修正题型与条件，并提供逐项可观察rubric。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:c9d1aef82ca6c0ec0ad203bb",
+    "source_sha256": "4b0ce1ba92ec41167cfc8f176e5cd81db1f1cb5917a75056081753894e55b1c6",
+    "current_snapshot_id": "bank:cjeval:c9d1aef82ca6c0ec0ad203bb:c9c548335227",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "50L=0.050m³，m=ρV=50kg。",
+      "（1）ΔT=60−15=45℃；Q吸=cmΔT=4.2×10³×50×45=9.45×10⁶J。",
+      "（2）在忽略散热且水吸热等于电能的条件下t=Q/P=9.45×10⁶/2500=3780s。",
+      "（3）燃料化学能Q放=Q吸/0.12=7.875×10⁷J；m木=Q放/q=7.875×10⁷/(1.2×10⁷)=6.5625kg≈6.56kg。"
+    ],
+    "source_conflicts": [
+      "来源第（3）步除法错误：7.875×10⁷/1.2×10⁷=6.5625kg，不是7.88kg。"
+    ],
+    "remaining_issues": [
+      "第（2）问新增忽略散热且水吸热等于电能的理想条件，属于明确题干修订，须教师确认。"
+    ],
+    "rationale": "三小问分别设置计算证据；补充水密度与理想加热条件，修正木材质量。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "一台额定加热功率2500W、容量50L的电热水器，将15℃水加热到60℃。取ρ水=1.0×10³kg/m³、c水=4.2×10³J/(kg·℃)，干木材热值q=1.2×10⁷J/kg。求：（1）水吸收的热量；（2）若忽略电热水器散热并假设水吸热等于其消耗电能，按2500W计算加热时间；（3）若木材利用效率为12%，完全燃烧多少木材可提供等于该水吸热量的有用热量？",
+      "kind": "reference",
+      "options": [],
+      "answer": "9.45×10⁶J\n3780s\n约6.56kg",
+      "steps": [
+        "50L=0.050m³，m=ρV=50kg。",
+        "（1）ΔT=60−15=45℃；Q吸=cmΔT=4.2×10³×50×45=9.45×10⁶J。",
+        "（2）在忽略散热且水吸热等于电能的条件下t=Q/P=9.45×10⁶/2500=3780s。",
+        "（3）燃料化学能Q放=Q吸/0.12=7.875×10⁷J；m木=Q放/q=7.875×10⁷/(1.2×10⁷)=6.5625kg≈6.56kg。"
+      ],
+      "knowledge_tags": [
+        "比热容与吸热",
+        "电功率与电能",
+        "燃料热值与效率"
+      ],
+      "type_tags": [
+        "由比热容求水吸热、额定功率求理想加热时间、由热值和效率求燃料质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 3,
+      "difficulty_basis": "来源难度：较难；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "比热容与热量计算",
+            "电功率与电能",
+            "燃料热值与效率"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由比热容求水吸热、理想输入功率求时间及燃料热值和效率求木材质量"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "来源难度：较难；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源年级、学期未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "9.45×10⁶J；3780s；约6.56kg"
+          ],
+          "equivalence": "manual",
+          "constraints": [
+            "50L水按ρ=1.0×10³kg/m³换算为50kg。",
+            "第（2）问明确忽略散热并假设水吸热等于电能。",
+            "第（3）问木材利用效率为12%，所求燃料有用热量等于水吸热量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求水吸收的热量。",
+            "reference_answer": "9.45×10⁶J",
+            "solution_steps": [
+              "50L=0.050m³，m=ρV=50kg。",
+              "（1）ΔT=60−15=45℃；Q吸=cmΔT=4.2×10³×50×45=9.45×10⁶J。"
+            ],
+            "knowledge_tags": [
+              "比热容与热量计算",
+              "密度与体积质量关系"
+            ],
+            "type_tags": [
+              "由比热容求水吸热、理想输入功率求时间及燃料热值和效率求木材质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "将水体积换算为质量并用Q=cmΔT",
+                "points": null,
+                "evidence_required": "50L换算为50kg，温差45℃，列Q=cmΔT得9.45×10⁶J。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "在题设理想条件下求加热时间。",
+            "reference_answer": "3780s",
+            "solution_steps": [
+              "（2）在忽略散热且水吸热等于电能的条件下t=Q/P=9.45×10⁶/2500=3780s。"
+            ],
+            "knowledge_tags": [
+              "电功率与电能"
+            ],
+            "type_tags": [
+              "由比热容求水吸热、理想输入功率求时间及燃料热值和效率求木材质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "在输入电能全部转化为水吸热的条件下用t=Q/P",
+                "points": null,
+                "evidence_required": "说明忽略散热且水吸热等于电能，再用Q/P计算3780s。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "求以12%利用效率提供该水吸热量所需木材质量。",
+            "reference_answer": "6.5625kg（约6.56kg）",
+            "solution_steps": [
+              "（3）燃料化学能Q放=Q吸/0.12=7.875×10⁷J；m木=Q放/q=7.875×10⁷/(1.2×10⁷)=6.5625kg≈6.56kg。"
+            ],
+            "knowledge_tags": [
+              "燃料热值与效率"
+            ],
+            "type_tags": [
+              "由比热容求水吸热、理想输入功率求时间及燃料热值和效率求木材质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "evidence",
+                "description": "由有用热量和利用效率求燃料放热，再用热值求质量",
+                "points": null,
+                "evidence_required": "列Q有用=ηQ放及Q放=mq，代入12%和热值，得约6.56kg。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_review_pending",
+            "source_conflict_corrected_in_draft"
+          ],
+          "method": "item_read",
+          "notes": "基于原题逐项独立核算形成修订候选；答案保持source_only，需教师审核后方可使用。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "B1"
+        }
+      },
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      }
+    },
+    "resolved_findings": [
+      "按peer复核拆分小问/修正题型与条件，并提供逐项可观察rubric。"
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:e2fda4bb218d4aba805d5f9d",
+    "source_sha256": "b3993142309f665c362178cd37b5552f52e340317b345975be84b2e13c69d1f7",
+    "current_snapshot_id": "bank:cjeval:e2fda4bb218d4aba805d5f9d:94d02206cc61",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "insufficient_evidence",
+    "independent_solution": [
+      "三节1.5V串联：U=4.5V，I=0.15A，5s电荷量0.75C。",
+      "三节1.5V并联：U=1.5V，I=0.05A，5s电荷量0.25C。"
+    ],
+    "source_conflicts": [
+      "原题缺少电池连接方式/电压信息；并联与串联会产生不同结果，来源解析也与其连接描述冲突。"
+    ],
+    "remaining_issues": [
+      "需要核对原图或题源连接条件；不得凭空补入串联条件。"
+    ],
+    "rationale": "电池连接方式决定电压，现有来源信息无法唯一计算。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:fcdffd6321281acfe642a626",
+    "source_sha256": "2ee69599982b852ef02ed72c19f968634492c1aee02b407e4ddcf68d4ec032b8",
+    "current_snapshot_id": "bank:cjeval:fcdffd6321281acfe642a626:4471d5d6447e",
+    "batch": "B1",
+    "reviewer": "gpt-6-luna",
+    "decision": "insufficient_evidence",
+    "independent_solution": [
+      "m=G/g=0.6/10=0.06kg。",
+      "V排=m水/ρ水=0.6N/(10N/kg×1000kg/m³)=6.0×10^-5m³。",
+      "若完全浸没，ρ物=0.06/(6×10^-5)=1000kg/m³，等于水。"
+    ],
+    "source_conflicts": [
+      "按排开水重0.6N计算，物体质量0.06kg、体积6.0×10^-5m³，密度等于水；与“自行下沉到水底”的条件不符，中性浮力物体不会自然下沉。"
+    ],
+    "remaining_issues": [
+      "须核对物体质量、排水量、液体或“沉入水底”的题干表述，当前不足以决定修哪项。"
+    ],
+    "rationale": "计算结果为中性浮力，不能据此认定物体自然沉底；保持隔离。",
+    "proposed_form": null
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "question_id": "bank:cjeval:132956f695796c5cec94b57c",
+    "source_sha256": "0e751d6cdeb6e41dc98bb7f5abf062a8b08339e8f3141d284a5510bf0afb7444",
+    "decision": "accept_draft",
+    "rationale": "10 W at 220 V gives I≈0.045 A; one hour uses 0.010 kW·h. Those estimates support B, and the choice rubric anchors the answer in the given options.",
+    "independent_checks": [
+      "10 W at 220 V gives I≈0.045 A; one hour uses 0.010 kW·h. Those estimates support B, and the choice rubric anchors the answer in the given options."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:27e57078e75bba29b683eab7",
+    "source_sha256": "196a9e92a1a2685671cdd2c435e76a0db9591a9fce7ce6a6d225833e544b3b29",
+    "decision": "accept_draft",
+    "rationale": "The SI unit of force is the newton (N); kg, dB, and m denote mass, sound level, and length. Answer C and rubric match.",
+    "independent_checks": [
+      "The SI unit of force is the newton (N); kg, dB, and m denote mass, sound level, and length. Answer C and rubric match."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:32297f27bd60755f22d6dfdb",
+    "source_sha256": "8da2465c8cc814c63a2c70254c030d3119bb65d44379e718b6848c8e1ed31ae4",
+    "decision": "needs_revision",
+    "rationale": "B (evaporation cools), C (a converging lens focuses sunlight), and D (for the same iron with no material loss, changing shape does not change mass) are sound. A does not isolate the air path: the ear touching the desk provides a solid path, while airborne sound may also reach the ear. Thus the observation cannot establish air transmission; the draft should say the setup is inconclusive about air rather than that it demonstrates only solid transmission.",
+    "independent_checks": [
+      "B (evaporation cools), C (a converging lens focuses sunlight), and D (for the same iron with no material loss, changing shape does not change mass) are sound. A does not isolate the air path: the ear touching the desk provides a solid path, while airborne sound may also reach the ear. Thus the observation cannot establish air transmission; the draft should say the setup is inconclusive about air rather than that it demonstrates only solid transmission."
+    ],
+    "corrections": [
+      "Describe A as insufficient to identify the transmission medium: the desk provides a solid path and airborne sound is also possible. Retain BCD only if “正确” means the claim is established by the stated observation."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:3d6c72967d1566354fc642f5",
+    "source_sha256": "ae5b2aa46158047a2236e43cb9ea2a4c15cb6a91ac9caf398234ec455ab85b14",
+    "decision": "needs_revision",
+    "rationale": "Assuming the boiling-water calibration point is 100 °C at standard atmospheric pressure, T=100(r+0.7)/103. At r=−6 °C, T=−530/103≈−5.1456 °C (about −5.1 °C); setting r=T gives T=70/3≈23.333 °C. The draft arithmetic and parts are correct, but it should state the pressure assumption/model explicitly; a local boiling point need not be 100 °C.",
+    "independent_checks": [
+      "Assuming the boiling-water calibration point is 100 °C at standard atmospheric pressure, T=100(r+0.7)/103. At r=−6 °C, T=−530/103≈−5.1456 °C (about −5.1 °C); setting r=T gives T=70/3≈23.333 °C. The draft arithmetic and parts are correct, but it should state the pressure assumption/model explicitly; a local boiling point need not be 100 °C."
+    ],
+    "corrections": [
+      "State that boiling water is taken as 100 °C under standard atmospheric pressure (or explicitly use that calibration assumption); numerical results remain approximately −5.1 °C and 23.3 °C."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:44a36dacc472f633e7f88502",
+    "source_sha256": "2d7c408b2f11f3fc19ec00dae594fa7e8780bcfe9590670b470b733448931c2b",
+    "decision": "accept_draft",
+    "rationale": "For a plausible student weight 500 N and combined foot area 0.04 m², p=F/S≈1.25×10⁴ Pa, consistent with D. The other estimates are far from ordinary values; rubric properly permits reasonable body-size estimates.",
+    "independent_checks": [
+      "For a plausible student weight 500 N and combined foot area 0.04 m², p=F/S≈1.25×10⁴ Pa, consistent with D. The other estimates are far from ordinary values; rubric properly permits reasonable body-size estimates."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:514e535944c59f3ae6ef64ac",
+    "source_sha256": "806e9e60f4037a14b313a433fc256dddb62b989a7ff64fd456b744860e830e5c",
+    "decision": "accept_draft",
+    "rationale": "A and B are correct: excess current trips an air breaker, and reversing current reverses the magnetic field direction. C confuses motor force with generator induction; D omits the necessary magnetic-flux change and closed circuit. The rubric captures those distinctions.",
+    "independent_checks": [
+      "A and B are correct: excess current trips an air breaker, and reversing current reverses the magnetic field direction. C confuses motor force with generator induction; D omits the necessary magnetic-flux change and closed circuit. The rubric captures those distinctions."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:69bae0c949076edff9dd6b68",
+    "source_sha256": "34e061329a2d08417d3996c18b6cb7c9fced6d948bb4f46f224d3e8cd968fe9b",
+    "decision": "needs_revision",
+    "rationale": "A is false because heat release need not lower temperature during a phase change; C is false because separated mirror surfaces do not reunite under ordinary conditions despite intermolecular attraction. B is also false as written: specific heat capacity depends on the material and its state/phase, not material kind alone. D can be true because total internal energy and temperature are different quantities; heat transfer follows temperature difference, so a lower-internal-energy hotter small object can transfer energy to a larger, higher-internal-energy cooler object. The source key BD is therefore wrong under the literal wording; revise the answer to D and give a direct explanation instead of retaining BD as an unresolved candidate.",
+    "independent_checks": [
+      "A is false because heat release need not lower temperature during a phase change; C is false because separated mirror surfaces do not reunite under ordinary conditions despite intermolecular attraction. B is also false as written: specific heat capacity depends on the material and its state/phase, not material kind alone. D can be true because total internal energy and temperature are different quantities; heat transfer follows temperature difference, so a lower-internal-energy hotter small object can transfer energy to a larger, higher-internal-energy cooler object. The source key BD is therefore wrong under the literal wording; revise the answer to D and give a direct explanation instead of retaining BD as an unresolved candidate."
+    ],
+    "corrections": [
+      "Correct accepted answer under the literal statement to D; replace the present BD reference answer and revise the rubric to explain why B is false and D is possible."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:7826d67322fd18a7e4b34d34",
+    "source_sha256": "1d1ae98d6124d2f586e286acc078e1c99f707037bf96c59f79e3425a557bd7ea",
+    "decision": "accept_draft",
+    "rationale": "A household soap bottle around 500 g is plausible; 10 mL is too little for a household disinfectant container, 220 V is not a thermometer-gun operating voltage, and 30 cm is too long for a typical rectangular mask. A and its order-of-magnitude rubric are defensible.",
+    "independent_checks": [
+      "A household soap bottle around 500 g is plausible; 10 mL is too little for a household disinfectant container, 220 V is not a thermometer-gun operating voltage, and 30 cm is too long for a typical rectangular mask. A and its order-of-magnitude rubric are defensible."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:aed752cce2c4841050937f68",
+    "source_sha256": "6e62f191ff187cfe7f1bcd98c9bfd5d1af2086ca4dab6b6855847c7c3e8ef22a",
+    "decision": "accept_draft",
+    "rationale": "The SI base unit of time is the second; minute is a non-SI unit, while kilogram, ampere, and metre are SI base units. B and rubric are correct.",
+    "independent_checks": [
+      "The SI base unit of time is the second; minute is a non-SI unit, while kilogram, ampere, and metre are SI base units. B and rubric are correct."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:bdab725e53ba690c1135b70a",
+    "source_sha256": "5be2d23bff8052c13e94c6ccafcbd94ee66786fd9735122e5fb0ac8c9ac8a7ef",
+    "decision": "accept_draft",
+    "rationale": "Thickness: 5 cm/500=0.01 cm. Total sheet area: 500×30×20 cm²=300,000 cm²=30 m²; mass=75 g/m²×30 m²=2250 g. Stack volume=30×20×5=3000 cm³, so density=0.75 g/cm³. Both blanks, units, steps, and rubric agree.",
+    "independent_checks": [
+      "Thickness: 5 cm/500=0.01 cm. Total sheet area: 500×30×20 cm²=300,000 cm²=30 m²; mass=75 g/m²×30 m²=2250 g. Stack volume=30×20×5=3000 cm³, so density=0.75 g/cm³. Both blanks, units, steps, and rubric agree."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:c355e201ff53d6b07b32dcbb",
+    "source_sha256": "99f0fc6aa599a9c75e8532874cb845b2e8576fc3cb37872a5ffd6a10026d161f",
+    "decision": "accept_draft",
+    "rationale": "The table columns are paper count then total thickness (with mm), so a=纸张数量 and b=总厚度/mm. Mean=(0.084+0.089+0.086)/3=0.086333… mm, recorded to 0.001 mm as 0.086 mm. Taking the mean reduces random error; the part mapping and rubric are sound.",
+    "independent_checks": [
+      "The table columns are paper count then total thickness (with mm), so a=纸张数量 and b=总厚度/mm. Mean=(0.084+0.089+0.086)/3=0.086333… mm, recorded to 0.001 mm as 0.086 mm. Taking the mean reduces random error; the part mapping and rubric are sound."
+    ]
+  },
+  {
+    "question_id": "bank:cjeval:f4979e80f78fb9e19f1cb3c7",
+    "source_sha256": "a60d0875176a8ece44d22166290a01373be17699e7f10ca6e8372b4f95523213",
+    "decision": "accept_draft",
+    "rationale": "The sound-level unit symbol is dB; 1.5 h×3600 s/h=5400 s. Both blanks are separated into matching parts with units in the rubric.",
+    "independent_checks": [
+      "The sound-level unit symbol is dB; 1.5 h×3600 s/h=5400 s. Both blanks are separated into matching parts with units in the rubric."
+    ]
+  }
+]

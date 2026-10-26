@@ -1,0 +1,146 @@
+[
+  {
+    "question_id": "bank:ceval-physics:physics:dev:0",
+    "source_sha256": "21cb34c2d81dd16aac98ce74c706504bf4a6194dec3af3d69778b615078be0e8",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；来源解析未见与答案冲突，仍保留source_only候选状态。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:dev:1",
+    "source_sha256": "a2fc41a844fecfb7a4dbf2512186ab58c1d47d8ba4db4470b38ca2506b9717eb",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；来源解析未见与答案冲突，仍保留source_only候选状态。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:dev:2",
+    "source_sha256": "11a1a96fcaac344733951c1f4a48d335e2a4d57bcd701f78f55ecd0942e9d216",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；来源解析未见与答案冲突，仍保留source_only候选状态。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:dev:3",
+    "source_sha256": "a071c1a5414b0a4620ef4619821ae199a3c142bd723e9286d594a717b7b4b32a",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；来源解析未见与答案冲突，仍保留source_only候选状态。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:dev:4",
+    "source_sha256": "2ec53f6ba5d7bee8b9178c403914817f688b1f28b952739bbdc8f659747defc9",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；来源解析未见与答案冲突，仍保留source_only候选状态。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:0",
+    "source_sha256": "22f27419449ee1b2b06f93418ece39005c3e4a4316f2c8d49ece5a31790c1d7f",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:1",
+    "source_sha256": "de9a216cd308e99448762b49a20310a42e2deb19a9f39bdf46edf257db9ab675",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:2",
+    "source_sha256": "0655fdfbeac1eb079aac744a9414f468b685e9ef43fe5c086c71a785870d3b63",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:3",
+    "source_sha256": "b451d0f1a37983ba669249bd533d1400df6f47bfbd5d9612ab7763d03d7d0677",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:4",
+    "source_sha256": "000ea806877c15d2bdfe9e896ca71e20210361d9c169dada59e1a78ead539bbe",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:5",
+    "source_sha256": "f0aec6d875108b627e9cea0152cacfdd6497226d1c01c2f3c1cce1c99f2ee1d2",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:6",
+    "source_sha256": "9fd38945ab8a06f93b3be247faac0fb58cca3854fba877610c359cfbb8d96f2e",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:7",
+    "source_sha256": "4924d097a6622bce03bc09638462afce0d2ee2a4cd571f3562f0ea1a8df9c756",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:8",
+    "source_sha256": "cd6dbc025cd2e489db36120489ab0513e360213e22cabc4effa4939831b4a017",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:9",
+    "source_sha256": "1853e9171b4947aba8fb8486ba79c9e7e15f4f971f5e4309e935f2954ce1ef02",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:10",
+    "source_sha256": "7bbb43ca9560c69a55e0d355888d0306ccd2e89520f6505e7ae14f8873738f6b",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:11",
+    "source_sha256": "64d9912ff954ec58541261a64a35c4a40328f12bd4ec9789559b011f5ff083b3",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:12",
+    "source_sha256": "9d1d39d17586024558f8393f7f0c410cd1736629acb222f5779ca2f6181b8956",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:13",
+    "source_sha256": "3402abc673c270a9b7c32bef9187075317a1c1c30870832864d0852f62f442e5",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:14",
+    "source_sha256": "26ddb4cc0ae53121a6641730511829d1607de8dffd9b4452e71bb661a744034d",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:15",
+    "source_sha256": "3432de37a8176ddf4b6d5a756595e498b65d5fdde7eedc01400d066c5f851256",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:16",
+    "source_sha256": "515044f8e956415168e6ae4bde5e172d038298f489748a9f2f7bf30014b8e47c",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:17",
+    "source_sha256": "a844243a304d26932e3f629b999148d991c44685c781e941bd265092a53061b5",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  },
+  {
+    "question_id": "bank:ceval-physics:physics:val:18",
+    "source_sha256": "d920787cb595dfaea1044c8a707d1dddd511bbc8ead959aadc31494b57691cf9",
+    "action": "no_issue_found",
+    "reason": "候选作答形式、完整选项与来源答案一致；该题无来源解析，答案核验状态仍为source_only。"
+  }
+]

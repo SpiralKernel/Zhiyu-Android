@@ -1,0 +1,3023 @@
+{
+  "items": [
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:0",
+      "source_sha256": "4f29333dc9c6c6121eaa3b573b01652bd68749360b94e4557e601806a8ca13b9",
+      "annotation_sha256": "dbc71ae87a4d5d925c2ebafae1d8908734fa29d66198c9e80ed46d39331abc21",
+      "decision": "passed",
+      "reason": "A=[1,∞)，B=(−1,2)，交集[1,2)，选D。",
+      "independent_solution": "集合交集直接求得[1,2)。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:104",
+      "source_sha256": "2acea4058b6df57b8f2f8fa88fea0f48a790565dc2a0795c101feb456ebb8755",
+      "annotation_sha256": "883b9906b482c4cd9320e20f93861a0a5aa8883e240b3e9ab6efa812157b4956",
+      "decision": "passed",
+      "reason": "总排法数C(6,2)=15；将两零放入四个1形成的5个间隙中有C(5,2)=10种，概率10/15=2/3，选C。",
+      "independent_solution": "插空计数得2/3。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:107",
+      "source_sha256": "bead4ad4bfdf4f8d72887338000273bdbac034d6cf74957d054b03ab9991580f",
+      "annotation_sha256": "c80e5f89ad7a8ba85aa388f2504065220f026c5db1c9089d97175362d7e58e46",
+      "decision": "passed",
+      "reason": "(3−i)/(1+i)=1−2i，平方为−3−4i，选A。",
+      "independent_solution": "乘以共轭化简并平方。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:15",
+      "source_sha256": "138f1fef81dc9db2fa4ee53a47de8dec8845af09a0db7afd6e9954ac7939a824",
+      "annotation_sha256": "54cef9bdc3465ecdf77b73ee855d7e762a0cb4ef1a3bd7f22764782bf719ee39",
+      "decision": "passed",
+      "reason": "关于虚轴对称将2+i变为−2+i，乘积(2+i)(−2+i)=−5，选A。",
+      "independent_solution": "复数乘法得−5。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:16",
+      "source_sha256": "f12acce4ebdf85a904ad818a278876106198d05785727d3ec49f664c1a2ef2ae",
+      "annotation_sha256": "68b2e827aedd63719f0b34672c624b8b1a7079bd16f11806b04c67f9c2a751d3",
+      "decision": "passed",
+      "reason": "|a+b|²−|a−b|²=4a·b=10−6=4，故a·b=1，选A。",
+      "independent_solution": "用向量模平方差公式。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:161",
+      "source_sha256": "1c700fa9e8ff0acdf45d6be2693b249c1be25f62bac247a564e7cf88a25250a7",
+      "annotation_sha256": "986fa2840fee182289b0053d9e3719f29ec3a31562ff7cc2d506f861376161a7",
+      "decision": "passed",
+      "reason": "偶次最高系数a=C(2m,m)，奇次最高系数b=C(2m+1,m+1)；b/a=(2m+1)/(m+1)。13a=7b得13=7(2m+1)/(m+1)，解m=6，选B。",
+      "independent_solution": "中心二项式系数比值求解m=6。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:18",
+      "source_sha256": "27fd80d82cdb621d9a17abe64b681c3bca6da6460582fccbd98528b0fd9a6101",
+      "annotation_sha256": "f8cb49b7e09e90e86f9f6287354edf31ae5f505a37cdea0c14bc368044fce27c",
+      "decision": "passed",
+      "reason": "条件概率P(连续两天优良)/P(首日优良)=0.6/0.75=0.8，选A。",
+      "independent_solution": "按条件概率定义计算0.8。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:19",
+      "source_sha256": "e9c35b592b76869e18c56cef6cc6f9cdc49d7868767838accd10782ee17045c9",
+      "annotation_sha256": "945bdb99110defccf4a7b14dd8750c2cba0cf0f94b85cfb79127cb442764d69b",
+      "decision": "passed",
+      "reason": "f′(0)=a−1，切线斜率2，故a=3，选D。",
+      "independent_solution": "由导数求切线斜率得到3。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:196",
+      "source_sha256": "19e3dd612ce606a973378fd1dec9c2bfd49c224f2bfe9d28d03dddfc1c55e27c",
+      "annotation_sha256": "016a0f3c94ddbe35032bcc1e4f69e3330dc5c4553763b674d51d29392278c99a",
+      "decision": "passed",
+      "reason": "9=|a−2b|²=|a|²−4a·b+4|b|²=1−4a·b+12，故a·b=1，选C。",
+      "independent_solution": "展开向量模平方得1。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:2",
+      "source_sha256": "e5fd15174beb2f0ae149d68e0dd1a56956d7af8752c90b4479a05598320f932c",
+      "annotation_sha256": "cbb4a1bf79d4f69993395114b0066dff09e974de38469f24bbd86b46ce705a93",
+      "decision": "passed",
+      "reason": "a=b必推出a·c=b·c；反之不成立，例如非零c=(1,0),a=(1,0),b=(1,1)点积相同但a≠b，故必要不充分B。",
+      "independent_solution": "构造反例验证必要非充分。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:235",
+      "source_sha256": "48cb836a1e61835d55c1eb41b949f99c69cde3bff4cff5e8e20f028408ec674e",
+      "annotation_sha256": "fecfdab6de7d6ff216ff222b49977bd9e709271adadd9b180870ca50fea62056",
+      "decision": "passed",
+      "reason": "圆心(a,0)须落在其对称轴2x+y−1=0上，故2a−1=0，a=1/2，选A。",
+      "independent_solution": "圆的对称轴过圆心，代入解得1/2。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:29",
+      "source_sha256": "c9ae1527eccdd698681b5950875246518a706d9922eb42f95fb2d9b54188d9ea",
+      "annotation_sha256": "57a8a05e7cf10db107b37bd519dca04220c42592d3d125de3e3df3bc90218fc8",
+      "decision": "passed",
+      "reason": "递推公比−1/3，a₂=−4/3故a₁=4；S₁₀=4(1−(−1/3)^10)/(1+1/3)=3(1−3⁻¹⁰)，选C。",
+      "independent_solution": "等比数列求和与C相符。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:298",
+      "source_sha256": "44cb199f37a67d2d33061a5d4d8c8ef74b5a0402b7501492359f0925f658e260",
+      "annotation_sha256": "52259ba813e2569191786ee3523ae09f9c5b57835dfe8a0f6bd0791d296d0066",
+      "decision": "passed",
+      "reason": "A、C关于水平直线y=−2对称，圆心(1,−2)，半径5；与y轴交点满足1+(y+2)²=25，弦长2√24=4√6，选C。",
+      "independent_solution": "求圆心半径及y轴交点距离得4√6。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:303",
+      "source_sha256": "65006e10a1f94585c10c2170485bf242f5abc3381bd4b26cd5c69696e5abedca",
+      "annotation_sha256": "f70cf3c50cc22ccec2d95e7d9a2c66e9a094100422280285b954b0cea44789cd",
+      "decision": "passed",
+      "reason": "y²=2px的焦点为(p/2,0)、准线x=−p/2；点A到y轴距离9且在右开口抛物线上，焦半径等于到准线距离9+p/2=12，得p=6，选C。",
+      "independent_solution": "焦半径定义解出p=6。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:304",
+      "source_sha256": "bdc56d50a8e5b58da4061b7cd8dd8c326bec264ebfcaaeb10e3ed85dbb229b3d",
+      "annotation_sha256": "c7bf16bc6c0a8636ac456f284f2552215a367f0921adfc444679da43344cab2c",
+      "decision": "passed",
+      "reason": "f(1)=−1，f′(x)=4x³−6x²，f′(1)=−2。切线为y+1=−2(x−1)，即y=−2x+1，选B。",
+      "independent_solution": "导数斜率与切点坐标给出选项B。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:329",
+      "source_sha256": "87ab9785aeb269b8c3100bf7fd909704694c3d756919cc2db36bf3e00d31b126",
+      "annotation_sha256": "040b438e5bcf7e99217468513e913b5409e0368309078d652fd6b0dc4d21743d",
+      "decision": "passed",
+      "reason": "点P=(3,4)到原点距离5；所求圆心位于以P为圆心、半径1的圆上，到原点最小距离5−1=4，选A。",
+      "independent_solution": "三角不等式及内切点取等。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:340",
+      "source_sha256": "5fe40a72b27197df0fbf5e48a307741d2692eaa7d16153621214889708c61ac3",
+      "annotation_sha256": "e23d0098cb5cb383a95c18094ec932fba1d582bf726dd72e8e73d00a1b23864c",
+      "decision": "passed",
+      "reason": "10p(1−p)=2.4给p=0.4或0.6。P(X=6)/P(X=4)=(p/(1−p))²>1要求p>1/2，故p=0.6，选B。",
+      "independent_solution": "方差与概率比联合确定p=0.6。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:345",
+      "source_sha256": "4bd9794b11a60d7b97b7c44dbde3c4859ed268fc6eed534911315a3767ae902f",
+      "annotation_sha256": "dd5e8f7afb33558f77075b4e1d78da03a63371eb3fd5d43a715d52f128d302c8",
+      "decision": "passed",
+      "reason": "S9=27给a1+4d=3；a10=8给a1+9d=8，解得d=1、a1=−1，a100=98，选C。",
+      "independent_solution": "联立前9项和与a10得到通项，a100=98。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:346",
+      "source_sha256": "7b1dda5992ac91aec8405daba7955cb943969ba2d940fdf4fe89115bbab1a056",
+      "annotation_sha256": "1fc5a0ad2e8bdc62188ee40fd079a97d403b368f3772916ad6f62d39d7395558",
+      "decision": "passed",
+      "reason": "在7:50至8:30均匀到达。等车≤10分钟的时段为7:50–8:00和8:20–8:30，共20分钟/40分钟，概率1/2，选B。",
+      "independent_solution": "长度比得1/2。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:348",
+      "source_sha256": "2764cdeffc8995b2fdc8e06fd55c70843ad7dfea923309f51a648a484c7eb5ad",
+      "annotation_sha256": "2c61af843a5f87a0ffcc276d12b41c22ab2f0fcb673656e2f9a9e8c281064cc1",
+      "decision": "passed",
+      "reason": "设抛物线y²=4ax，圆心顶点半径R。AB=4√2给y=±2√2、交点x=2/a，因此R²=4/a²+8。准线x=−a弦DE=2√5给R²−a²=5；解a²=4，焦准距2a=4，选B。",
+      "independent_solution": "由两弦长分别构建圆半径关系解得焦准距4。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:38",
+      "source_sha256": "f7c5967bb19b9d190bd1dff65d3b132bca229b172ee0a537ea29401a72e77174",
+      "annotation_sha256": "ea0fd8396b213ab03f5b7e8fb04466aadc54afa93e49ebb02cf1cb8948e940b6",
+      "decision": "passed",
+      "reason": "BA、BC均为单位向量，数量积=1/4+3/4=√3/2，夹角30°，选A。",
+      "independent_solution": "点积公式求夹角30°。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:46",
+      "source_sha256": "5756e7da0383dc1853d0572ddde0462efc53d37790a8611421a74a8654c19734",
+      "annotation_sha256": "f6ba580003949736ae84815b7490b9ff4b3bc2179a7924a33b4424efd9ecaab4",
+      "decision": "passed",
+      "reason": "按每日容量为120件，过去积压500件，新订单量超过1600件的概率为0.05。95%满足需求上限1600+500=2100件。扩容n天容量1200+50n≥2100，得n≥18，选B。",
+      "independent_solution": "独立复算：满足概率0.95对应当日订单≤1600，需处理积压后总容量≥2100；120×10+50n≥2100，最小整数n=18，对应B。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:70",
+      "source_sha256": "7fd5ff26c37e7115bea39776e1bbf59945b3b6006d59b3ec9fc4ae5f4fb794d4",
+      "annotation_sha256": "d52591adbf7442160cd96dabbb499dd5c24a1f203d23999fb409ff5597409406",
+      "decision": "passed",
+      "reason": "总选法C(30,3)，两类全同性选法C(20,3)+C(10,3)；混合概率=(4060−1140−120)/4060=20/29，选D。",
+      "independent_solution": "补集计数得20/29。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:76",
+      "source_sha256": "dc5378be5e9a67e5b11cabb2fc01ef3aaebf98278748908b1dc798346ed127d8",
+      "annotation_sha256": "e4049e0b104e067fb43fd20539bb22ae51b76fc01daaab7fb9b6ad08981c04f5",
+      "decision": "passed",
+      "reason": "令两截面交线为z轴，球心到两个坐标平面的垂距为a,b；公共弦半长1，故a²+b²=2²−1=3。两截面圆心距√(a²+b²)=√3，选C。",
+      "independent_solution": "球心投影圆心距离由直角坐标关系得√3。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:8",
+      "source_sha256": "7597556a719fdbf8669a6147de92ca2ba0b44ef825830a1fbc5599bcd4adb964",
+      "annotation_sha256": "ae0155a6842cdadb0156d859ec231fe0c24967220b2f7cc17d578dcb4bedf933",
+      "decision": "passed",
+      "reason": "S3=6+3d，S2+S4=12+7d；3S3=S2+S4给d=−3。a1=2，a5=2+4d=−10，选B。",
+      "independent_solution": "等差和公式解得公差−3，a5=−10。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-mathqa:87",
+      "source_sha256": "5925eba33b69a4d60f12f9d6dcf4e8ad0a2aa8288d1ff3d37e609ef8720dac47",
+      "annotation_sha256": "19d4127b257b559769add6cc6b00528a5b6145615105750572c1e4390b733241",
+      "decision": "passed",
+      "reason": "化为x²/(3m)−y²/3=1，a²=3m,b²=3,c²=3m+3。焦点到渐近线x−√m y=0距离=√(3m+3)/√(1+m)=√3，选A。",
+      "independent_solution": "独立使用双曲线焦点与渐近线距离公式得√3。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:11",
+      "source_sha256": "50fdb7cccce82185ae0a6675faaf7d1ac0f7e211cf59b19afc92e8fe3999d2fe",
+      "annotation_sha256": "cba5afcac818483b488c8c08c0074571c237407195b4156a8fcda068dec1ebcb",
+      "decision": "passed",
+      "reason": "真空电磁波以c传播；空气声波为纵波；声波也可在液体固体传播；光无需介质，只有A正确。",
+      "independent_solution": "基础波动概念逐项核对选A。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:110",
+      "source_sha256": "7ed8589c0c1c99db7b0918ba7eea746fa37a9fb7559b5d2ac69f0a58a8370d26",
+      "annotation_sha256": "e8ed99ea6d7bd131855737243319caadf2105336bb0c1b289e82c3a82a4880a7",
+      "decision": "passed",
+      "reason": "水平射程落在斜面满足(1/2)gt²=ut tanθ，故t∝u；末速度大小为u√(1+4tan²θ)，同斜面比例与u成正比。甲乙初速比2，选A。",
+      "independent_solution": "落斜面末速与水平初速成正比，比例2。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:118",
+      "source_sha256": "70e5da38cb0abaaf7673b5e569327ede7d58df1c396ab1083caadcb41263af45",
+      "annotation_sha256": "ad9f294df62537bb7dbf327f08175001323d876b8b226898cec7e56f2809de8a",
+      "decision": "passed",
+      "reason": "由第一定律ΔU=Q−W：吸热且对外做功时若Q>W，内能可以增加，C正确；放热时A不必然，对外做功时B不必然，放热且对外做功时D不可能内能不变。",
+      "independent_solution": "逐项用热力学第一定律核对，只有C正确。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:12",
+      "source_sha256": "3c3ceae41bdbd3cef9fd8265b14146143f639b031a52f11bc674d39c3b4e1328",
+      "annotation_sha256": "6b1afe7a59488e0ec043495a0bddb2bcb80d2ce355f0a39446947d6ddbbf3057",
+      "decision": "passed",
+      "reason": "伏安法、伏特表配定值电阻、安培表配电阻箱均可形成求E、r的数据；两个安培表加滑变缺少测压或已知负载信息，最不可取D。",
+      "independent_solution": "逐项辨析四种器材组合，答案D。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:122",
+      "source_sha256": "b2ca4bfa19060fc4226b856ab91386dbbaf71bdc53372a9490b4d6fbf505f560",
+      "annotation_sha256": "d53156e31a5777f6ffc7402107d3435f8c7e8e566ca189465e5597cd5122b10f",
+      "decision": "pending",
+      "reason": "A错（卡由读卡器供能）；C错（偏频仍可感应，只是响应较弱）；D错（可双向交换数据）。B中的“仅当该频率才能有效工作”缺少有效工作的阈值定义；谐振频率响应最强，但不意味着其他频率绝不工作，需结合原题课程模型核对。",
+      "independent_solution": "在理想LC模型下固有频率处能量响应最强；偏离时仍有感应电流，题干将“有效工作”绝对化但未定义阈值，因此暂不能确定单选B是否唯一正确。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:131",
+      "source_sha256": "6d07401a3401cb8e82600d108ece4fb599f742517a24f11e2fffa184161ad965",
+      "annotation_sha256": "13562cb8d0426bcdcb3c014ebd4c9d8ab8bc25f4ec0c9015dc7b642c6b709ab5",
+      "decision": "passed",
+      "reason": "气体扩散受温度影响；布朗运动为悬浮颗粒运动；分子间同时存在引力与斥力；引力并非随距离增大而增大，选C。",
+      "independent_solution": "四项概念核对答案C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:134",
+      "source_sha256": "f62cd8700e7533d3dd1ec2ae332940f4645fdaf88c07f1ce74c4c4d0151032a5",
+      "annotation_sha256": "4ab172f8b3ddb9108472538c4905e8ee743ca0d803ad09e905b29a224c0add80",
+      "decision": "passed",
+      "reason": "匀速直线要求电场力与磁场力抵消，依赖场矢量、强度和入射速度；撤电场后非零带电粒子在匀强磁场中均做匀速圆周运动，电荷量只改半径、电性只改转向，选C。",
+      "independent_solution": "电荷属性不影响两种运动的类型。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:142",
+      "source_sha256": "95c61a9406b3b845521dbb362743c04c22c3446879ae4fa2a2eadbd069f288ab",
+      "annotation_sha256": "1f375ab0974bd3760115057cf26b4a9065182236ec5defc2583d31e4897d617b",
+      "decision": "passed",
+      "reason": "输送功率固定时损耗P损=P²R/U²。损耗降为1/4需输电电压加倍，由220kV到440kV，选C。",
+      "independent_solution": "平方反比关系给出440kV。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:144",
+      "source_sha256": "dbb3519b98e02f81faa1e642d6d4913a77f3e15a756c8220bef1c9963500796e",
+      "annotation_sha256": "fda9e769e443b59a085a98363ecb1cb5017ae9e6223ff246a650d992a01c74ae",
+      "decision": "passed",
+      "reason": "安培力F=BILsinθ且方向垂直B，故B正确；方向也垂直导线，大小与夹角有关，折弯结果不固定。",
+      "independent_solution": "逐项根据安培力定则排除，仅B正确。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:151",
+      "source_sha256": "f0a208d88f9235a4a4508453797e732faeb53cc9a2f5bbbb68595e3cbb5089b4",
+      "annotation_sha256": "18efe089b6a556c8ed9fed5cca813b38a1b9eb02856bd6421d8253bd15eff57b",
+      "decision": "excluded",
+      "reason": "与累计库中已有理想变压器110/220电压比题规范化题干重复，不作新增练习。",
+      "independent_solution": "题目计算800×110/220=400匝正确，但重复题排除。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:156",
+      "source_sha256": "da8486fc0cecfb9082d5cbc19906edb382c24ae8a2fc1ea425420ae45ab30d94",
+      "annotation_sha256": "5d4e1de66810a18f5566ba446cb42b543d3a19be707df73a691354700e700be4",
+      "decision": "passed",
+      "reason": "圆周运动F=m(2π/T)²r；若T∝r⁻¹，则F∝r²·r=r³，故n=3，选C。",
+      "independent_solution": "由向心力公式求幂指数3。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:163",
+      "source_sha256": "c1f60642df3d9b3448fd143ecac5e650eb3c33462fcb414307d028d4237f3ebe",
+      "annotation_sha256": "86ce7244d7c559dd10dd0ca99c2db5ef663306ac7358c81638c3ab0121aeee49",
+      "decision": "passed",
+      "reason": "轮胎气体量与体积近似不变，温度降低使分子平均平动动能下降；数密度不变，不能说所有速率都下降，选A。",
+      "independent_solution": "温度与平均动能正比，答案A。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:166",
+      "source_sha256": "483dadd129cd3f27ac70601cd16da836a4f6488fcc39b9d6ac90a54a8e708cbe",
+      "annotation_sha256": "18cafa198a6a5bf5d89e718158aee8777c84650e82888a98e54c0cb7396fc08d",
+      "decision": "passed",
+      "reason": "理想变压器副边电压与N₂/N₁成正比；仅增加副线圈匝数可提高输出电压，有可能使2.5V升至3.8V，选B。",
+      "independent_solution": "仅增加副线圈匝数的方向正确；其余选项不提高输出电压。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:172",
+      "source_sha256": "9a16f6ad8488e91a09b21744581d41a20d7cdbc55006c7334408e1a28818d993",
+      "annotation_sha256": "59b7fadbdce62a2d6a8d25400b9e78b68bb347a2f77b0c4dcb4e7154411eed8c",
+      "decision": "passed",
+      "reason": "K=1.5×10⁷×1.6×10⁻¹⁹=2.4×10⁻¹²J；v=√(2K/m_p)≈5.36×10⁷m/s，选C。",
+      "independent_solution": "非相对论动能计算约5.4×10⁷m/s。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:173",
+      "source_sha256": "ef7176639c7ca27248a6da7ae314ab40692a6b89ae417fc70c87ca298358617f",
+      "annotation_sha256": "e57264d2cac094e298e729304772cd7a6b646120f8f8f02172bcd8ee15bac76a",
+      "decision": "passed",
+      "reason": "输入有效值220V，频率50Hz；匝比1:2给副边440V，输出电流8800/440=20A，选A。",
+      "independent_solution": "按有效值功率与理想变压器频率不变计算。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:23",
+      "source_sha256": "e355b1e0c4df0a1020f3114086beabf70339d585bd00732dad90c2d2bb574eed",
+      "annotation_sha256": "dc3905f4e10080b7c6bad995524bd3ec367d2f9a1f506d952540f7c8dea83de2",
+      "decision": "passed",
+      "reason": "楞次定律的阻碍效应体现能量守恒，外力克服感应作用做功转化为电能，选D。",
+      "independent_solution": "楞次定律防止能量无源产生，选能量守恒。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:48",
+      "source_sha256": "f82bcc3b3c90c75c42a8916a876b91ced1604216892ae025792fb65700183575",
+      "annotation_sha256": "5bedee166adc07b5c61fe9895146baf358f94dcf88f02ce8bd7b3f0100548973",
+      "decision": "passed",
+      "reason": "磁铁下落改变各闭合铜环磁通量，感应力阻碍相对运动；速度增大时阻力增大，最终趋近重力形成终端速度，选C。",
+      "independent_solution": "楞次定律和动量交换判断速度渐增至稳定。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:50",
+      "source_sha256": "f82ab9f66ad9d902e3a8082209b9212d6547b4bebed1c44ade665e3386adbd65",
+      "annotation_sha256": "8e5b951e2ae1d8819cbdc8b6d575fb44f025ed08fc08abfd08a94046c93168ff",
+      "decision": "passed",
+      "reason": "热敏/光敏电阻应用及电热设备说法正确；普通电阻不具有主要通直流、阻交流的特性，错误项D。",
+      "independent_solution": "逐项区分电阻与电容的交流特性，答案D。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:53",
+      "source_sha256": "73ef53609e8220ca2c1d3537e0029feb98ec7a6ce6c4240a9ca0cff1c103e362",
+      "annotation_sha256": "e9e511a370b30e455728c4b15eefebb630339daa8c11b2d4c10208a1899ff8e7",
+      "decision": "passed",
+      "reason": "无电压时mg=kv。电压U使油滴向上匀速，电场力需为mg+kv=2mg；反向电压后向下合力驱动3mg，终端速度3v向下，选C。",
+      "independent_solution": "阻力随速率线性，反向电场使重力与电场力共向下，终速3v。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:54",
+      "source_sha256": "94fc0c2be271657b346e30a13a0c10083e72ec3209ac7c1d209330e618d8a760",
+      "annotation_sha256": "6df4acef77d214a950daf634a19f30958dcc97368e9f410ff2dfc61ce77f0883",
+      "decision": "passed",
+      "reason": "球面波功率密度P/(4πr²)。阈值250W/m²对应r≈97.7m，1000W/m²对应r≈48.9m，约100m、50m，选B。",
+      "independent_solution": "反平方定律计算两阈值距离。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:57",
+      "source_sha256": "2fdc217f41d78ac302130da2df06bc0bb761989285340c0ca4e02ca28814a8ac",
+      "annotation_sha256": "c6b0967560e60962005967930d15ca3ab6c82500261b41ba1f3c0af5563541cf",
+      "decision": "passed",
+      "reason": "平行板电容C=εA/d；间距减半使C加倍，Q加倍后U=Q/C不变；E=U/d，间距减半故E加倍，选C。",
+      "independent_solution": "电势差不变，场强变为2E₁。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:61",
+      "source_sha256": "e099cc256384e1986fd84b6ac68e20851e727dd41f3601a2abdd5f0963a62b60",
+      "annotation_sha256": "a8c790752ee9c029ffbc1a60cfaade8f737e50d4802f17b2463b32b626e9fab1",
+      "decision": "passed",
+      "reason": "粒子轨迹半径ρ=mv₀/(qB)。由入射点位于磁区直径端点、速度转角60°及出射点仍在半径R圆周，几何关系给ρ=√3R，故B=mv₀/(√3qR)=√3mv₀/(3qR)，选A。",
+      "independent_solution": "独立几何关系代入洛伦兹轨道半径，得到A。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:65",
+      "source_sha256": "475bcb400a4d8b98a99cd873250e4e8812e26150c3fdf8042ae7782a263e542b",
+      "annotation_sha256": "24b8a66d2e2470c9bd4a183278746ffdcdcbbc54be782dc00ce11419de76cf02",
+      "decision": "passed",
+      "reason": "基态E₁<0，第一激发态E₂=E₁/4；电离最小能量−E₁/4，因此最大波长hc/(−E₁/4)=−4hc/E₁，选C。",
+      "independent_solution": "能级差与光子能量相等得C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:73",
+      "source_sha256": "54ec5136be27f1c1480f7a991add29c7dcf9fbbe02999070207cab138c34829f",
+      "annotation_sha256": "c9e0d7e2c8d5cc6651f129fb24f332785840537bf42da21c92252effda7a4fd6",
+      "decision": "passed",
+      "reason": "水分子数约(1/18)×6×10²³=3.33×10²²；每小时合计数3×10¹³，需约1.11×10⁹小时≈1.27×10⁵年，最接近10万年C。",
+      "independent_solution": "数量级独立计算选C。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:8",
+      "source_sha256": "d7ed1b25685a063fd2ef7644230476dca115f36338a204fa33b417a0c29559e8",
+      "annotation_sha256": "653ca81ceb2cbf8046529f75054436b0bcfc52d60f59d3195d18d93a9739accd",
+      "decision": "passed",
+      "reason": "跃迁能量与波长成反比，ΔE₂=1.96×0.6328/3.39≈0.366eV，最接近0.36eV，选D。",
+      "independent_solution": "比例计算得到0.366eV。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:80",
+      "source_sha256": "93c1c77f234b6c50d95ee4150a7950d4f7de1800ae69fa188768c8f84d7ee98c",
+      "annotation_sha256": "1ba7bcdb20dd6e211009151a333bdba4908432e48a4bde6031a883d57dace570",
+      "decision": "passed",
+      "reason": "插入电介质使电容C增大；电荷量固定，U=Q/C减小，选B。",
+      "independent_solution": "固定Q时电容增大对应电压下降。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:83",
+      "source_sha256": "5eadbc7742adedc0c9eb13ff7276f4030db7a38862f7eed98d2b4b81b24cf7c2",
+      "annotation_sha256": "1bd12afd61b4e698c78148399dea55525b3938fa2440f5a5a631fe9193c76020",
+      "decision": "passed",
+      "reason": "副边电压kU，线路电流P/(kU)，P₁=I²R=(P/(kU))²R。匝比提高n倍使电流降至1/n，损耗比1/n²，选D。",
+      "independent_solution": "代入输电电流与焦耳损耗式对应D。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:88",
+      "source_sha256": "47b8face5ddb3213135ba1821c979bad9eef2454337da0b117384edffcad84d3",
+      "annotation_sha256": "b2af37cd09366b5b66f198ae3908f9a3c6c33c7201c43f939def0d116a861e23",
+      "decision": "passed",
+      "reason": "开普勒第三定律得同步轨道半径3.8×10⁵×27^(−2/3)≈4.22×10⁴km；高度约3.58×10⁴km，地面卫星往返传播约7.16×10⁴km/c≈0.24s，选B。",
+      "independent_solution": "同步卫星传播时间近似0.24s，最近0.25s。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:93",
+      "source_sha256": "1864e98ff1842da5fa224f1e19bc7dde7d74abed075779509ea2d18db6b669bd",
+      "annotation_sha256": "f3fed84256c56d8f98fa5950e68964ba19b86b4344f8c7a03660d8ba973c1c8b",
+      "decision": "passed",
+      "reason": "理想变压器电压变化比等于匝数比10；输入增加20V，输出增加200V，选D。",
+      "independent_solution": "变压比线性计算。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:96",
+      "source_sha256": "43eef3a146049e8cd2a038ab4bb55c36522a7ce48f4167ec0955b5ac828c73d0",
+      "annotation_sha256": "3e62d5f9abbfd1564f6565753a0ed126ff212efbe546f3bee59f465735cdefdc",
+      "decision": "passed",
+      "reason": "入射光能量hc/λ≈6.63×10⁻¹⁹J，逸出功约5.35×10⁻¹⁹J；ν₀=W₀/h≈8.07×10¹⁴Hz，选B。",
+      "independent_solution": "光电效应方程独立计算截止频率。"
+    },
+    {
+      "question_id": "bank:agieval-gaokao-physics:99",
+      "source_sha256": "8804e7fcc02b29fad964187a943d1f6589d17687b36de0bef7f81eac098e7227",
+      "annotation_sha256": "4a72e86b751fafd255ebd5f39ec0bcd0c6162dac729de0fb901f585a48a60ff5",
+      "decision": "pending",
+      "reason": "ΔU=100mV，ΔQ=CΔU=1.0×10⁻⁹C，平均电流5.0×10⁻⁷A（D），而源标签B对应2×10⁻⁷A。",
+      "independent_solution": "独立复算与答案标签不符，保留pending并核对源答。"
+    },
+    {
+      "question_id": "bank:cmm:14290",
+      "source_sha256": "b5fbe1c6d3e27b3bcc041b6993787a67f0bda01af47b73929133ddae45b3c4be",
+      "annotation_sha256": "ead09989345b9373f18248990cfbb840a6d67f1032eb002e14a28edf3846a724",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "取1<x_1<x_2，则f(x_2)−f(x_1)=(x_2−x_1)(1−1/(x_1x_2))>0，故f递增。在[2,4]上仍递增，最小值f(2)=5/2，最大值f(4)=17/4。"
+    },
+    {
+      "question_id": "bank:cmm:14294",
+      "source_sha256": "989edf242d1b8a8bc5295db78ea910bb4a9e7d79dae1bbf3f251330896ad7274",
+      "annotation_sha256": "855a7827d7bbfac8ac379f43726cb2f4ff3f4eeb5c72c69be1e5294f5b759f38",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "先由f(0)=f(0)^2及f(0)≠0得f(0)=1。x<0时f(x)f(−x)=1且f(−x)>1，所以0<f(x)<1。对x₁<x₂，f(x₂−x₁)>1且f(x₁)>0，故f(x₂)>f(x₁)。最后原式化为f(3x−x²)>f(0)，由严格递增等价于3x−x²>0，解为(0,3)。"
+    },
+    {
+      "question_id": "bank:cmm:14352",
+      "source_sha256": "c0b857569cd5609648b3995857976417036b1e0b86a9833bf551bb5e18d8e5c7",
+      "annotation_sha256": "253b66233f0b30a691e593a669797e519834ecf39b6ebcfb6fbe0c120fd7544c",
+      "decision": "passed",
+      "reason": "投入总额约束下，f(x)=P(x)+Q(200−x)=250−x/4+4√(2x)，20≤x≤180。令t=√x，配方得f=282−(t−8√2)^2/4，x=128取最大；x=50得277.5。",
+      "independent_solution": "独立复算：x=50时两棚收益分别120与157.5，总计277.5。一般式为250−x/4+4√(2x)；配方最大282在x=128，乙棚72。"
+    },
+    {
+      "question_id": "bank:cmm:14367",
+      "source_sha256": "314321392af0edc64c03cb70df90759dc7a998b19d17f75e5aa20f4b511a1770",
+      "annotation_sha256": "e36209180141e998f993a2e03c11a9973692b7bb634d17955f0322b8a79f9f91",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "m<3给m=1或2；指数3m−9需偶数，故m=1。函数t^-1/3在正、负半轴均递减，但跨过0不可直接比较。两底数均正时要a+1>3−2a且3−2a>0，得到(2/3,3/2)；两底数均负时要求a>2/3且a<−1，矛盾；异号且左底数负时不等式恒成立，条件给a<−1。"
+    },
+    {
+      "question_id": "bank:cmm:14384",
+      "source_sha256": "80cc5a1f45984fd53e6e9296c07e3d8b6a744f68ba6929379bfb5a7d8741c46a",
+      "annotation_sha256": "236d9db29ea393ad3d67ae7dda4d21f2d3ac5f2760b03acc1791a0549463f92b",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "第一式指数1−x遍历全部实数，故值域为(0,+∞)。第二式指数从−3增至无穷，而(1/3)^t递减；最大值27在x=−1取得，趋近0但永不等于0，值域(0,27]。"
+    },
+    {
+      "question_id": "bank:cmm:14403",
+      "source_sha256": "d92e93ef29fc58ae66f3607ef557929efde9864dbc9f4784297395e7dc76d169",
+      "annotation_sha256": "f7e77465547e5e471b415189fbf7eed0056a1eb01f69afab46db4591069b72d8",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "第一次平方得a+2+a^{-1}=5，所以a+a^{-1}=3。于是(a+a^{-1})²=a²+2+a^{-2}=9，故a²+a^{-2}=7。"
+    },
+    {
+      "question_id": "bank:cmm:14405",
+      "source_sha256": "5b6c0c38f955d3e05987a8d80b69fb1b53806560652d0694c5eb4bc813304aa2",
+      "annotation_sha256": "06f6af9eed1838e5a79f30279614dbb47841df8d6046f11f41ad0330b6f9de70",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "(1) 1+1/4·(9/4)^(-1/2)−1/10=1+1/6−1/10=16/15。(2) 5/3+100+9/16−3+37/48=100。(3) 0.064=0.4³，首项=5/2；(-7/8)^0=1；[(-2)^3]^(-4/3)=1/16；16^(-3/4)=1/8；|-0.01|^(1/2)=1/10，合计143/80。"
+    },
+    {
+      "question_id": "bank:cmm:14441",
+      "source_sha256": "f7fe912a4fef12c8c91189aeb55b92720a3fbc744dc5830c352fa45c0250204d",
+      "annotation_sha256": "1095c77ec6b2808bf0597d74e349e6be0f7b2a8913a8e0d07f1f5f147c8f667c",
+      "decision": "passed",
+      "reason": "连续函数在1.5562与1.5625处异号，根在该区间，四舍五入到0.01为1.56。",
+      "independent_solution": "因f(1.5562)<0<f(1.5625)，至少有一个根在(1.5562,1.5625)；此区间均四舍五入为1.56。"
+    },
+    {
+      "question_id": "bank:cmm:14446",
+      "source_sha256": "371f3172bff9836952bda86f3072adfd86f02c45d495313f741e538c58b769d9",
+      "annotation_sha256": "3284a1a48d88cd320c87982821fc69157dd0a7ce48e4dbcb554e111b256661f4",
+      "decision": "passed",
+      "reason": "已知f(1.25)<0<f(1.5)，且f′(x)=ln3·3ˣ+3>0，唯一根在(1.25,1.5)，选B。",
+      "independent_solution": "符号夹根与严格递增性确定根区间。"
+    },
+    {
+      "question_id": "bank:cmm:14459",
+      "source_sha256": "eb914920e1f0494e531149224a3d517e9db0dcb71b475ff482764500180355a7",
+      "annotation_sha256": "8a316a22452e4b1d77ed81d08a80e68b0cd6b6b5253ece9c585e5203cb05b102",
+      "decision": "passed",
+      "reason": "解出参数函数后在(1,2)严格递增，端点值2与18/7不取，范围核对一致。",
+      "independent_solution": "a=(4x²+2)/(4x−1)，其导数8(2x+1)(x−1)/(4x−1)²在(1,2)为正，值域为(2,18/7)。"
+    },
+    {
+      "question_id": "bank:cmm:14505",
+      "source_sha256": "3fa283439cf8ecf19a5922c1172ded444a73214e95ffe745ba3fbb0826e7bf1c",
+      "annotation_sha256": "26c6f7333bb635d547913a419daf10d28a14a9ed178de0bc9ed66337ae063c1c",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "(1) 按来源采用的自然数约定，B={1}，故B为A的真子集。(2) A是实数集合，B是有序数对集合，不存在题目所定义的同类元素包含关系。(3) n遍历整数时2(n-1)也遍历全部整数，故两集合均为偶数集。(4) 等边三角形是三角形的真子类。(5) A=(-1,4)，B=(-∞,5)，故A真包含于B。"
+    },
+    {
+      "question_id": "bank:cmm:14553",
+      "source_sha256": "51c0dd1f70be38367a035e55a616abb7be918b8348c43de68384f7222ef7872e",
+      "annotation_sha256": "f16049011b3c71a90d2408d27be812c826dad386ae82b711f4532c547c3a180b",
+      "decision": "passed",
+      "reason": "3ˣ>0，故3ˣ+1∈(1,∞)，log₂严格递增且趋于0但不取0、无上界，值域(0,∞)，选A。",
+      "independent_solution": "对数定义与单调性求值域。"
+    },
+    {
+      "question_id": "bank:cmm:14583",
+      "source_sha256": "159c285a278bd6eb5e0b5e3f4b261bf2ef9b82789c086450457d26e7c73be008",
+      "annotation_sha256": "09917f9b03ade2d77acaa7339a3933f0d8491a69a692241cd3ff97f85cba4cff",
+      "decision": "passed",
+      "reason": "定义域为x>0且x≠3；分子零点满足x=1或lnx=0，均给出x=1，且分母不为零。",
+      "independent_solution": "独立复算：唯一根x=1。"
+    },
+    {
+      "question_id": "bank:cmm:14731",
+      "source_sha256": "c134f33007dddfae6561da52e7f4b2a349f0f6ae05d41299aee4da1fb544d938",
+      "annotation_sha256": "f44fd3be36b63dc73354ea3f25dfcbb9c246ec11fa65ef1756e21904db6713f7",
+      "decision": "passed",
+      "reason": "指数函数系数必须为1且底数a>0、a≠1；(a−2)²=1得a=1或3，其中a=1不合法，故a=3，选C。",
+      "independent_solution": "令系数为1得(a−2)²=1；结合指数函数底数限制排除1，答案3。"
+    },
+    {
+      "question_id": "bank:cmm:14734",
+      "source_sha256": "2c7ef5db1e26b5ce3ee16361ebd55518dac9f728de6901ec51b36000a0453472",
+      "annotation_sha256": "285f7fd1bec26e6d09617239b8108faf758fa94ce034f87aa0a5d3fcd72ea2aa",
+      "decision": "passed",
+      "reason": "|x|在[−1,2]取值范围[0,2]，指数函数2^(t−1)递增，值域[1/2,2]，选B。",
+      "independent_solution": "绝对值范围及指数单调性。"
+    },
+    {
+      "question_id": "bank:cmm:14845",
+      "source_sha256": "50ec1fa575d655008fd1e3cfd2a8fe11b80ff2d9beb1f4098665c25698d98d0d",
+      "annotation_sha256": "0049d536bdb0c9c036b99ea0263b8b41b769dc9fa1903d16ca35240ad363a88c",
+      "decision": "passed",
+      "reason": "设甲地售x辆，则乙地售15−x辆，总利润为−x²+21x+2(15−x)=−x²+19x+30。x为整数，顶点9.5，x=9或10时最大120万元，选C。",
+      "independent_solution": "因车辆数x为整数，检查顶点两侧9、10均得120万元，其他整数更小。"
+    },
+    {
+      "question_id": "bank:cmm:14860",
+      "source_sha256": "f9270c485e7e4c941eaa0c7940e448bdf2118c667c9b4f750a1c3273373d8a67",
+      "annotation_sha256": "b9db6b89f3190ae2f6f20a16a28b166868522270f739f682cbef296758d4401b",
+      "decision": "passed",
+      "reason": "定义域R\\{0}关于原点对称，f(−x)=−f(x)，为奇函数，选A。",
+      "independent_solution": "奇函数定义直接验证。"
+    },
+    {
+      "question_id": "bank:cmm:14996",
+      "source_sha256": "6e7959fce1ae115b20797fb6ed017749ce50ec62c89e736817562ca287493b38",
+      "annotation_sha256": "65a4c35d49501f8ccf5cc3491968a0bb4aabce9e4ba5d4361a12b7dfe26b6f36",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "A={1,2}, B={1,2,3,4,5}, C={3,4,5,6,7,8}。所以B∩C={3,4,5}，A∪(B∩C)={1,2,3,4,5}。补集分别为{6,7,8}、{1,2}，其并集为{1,2,6,7,8}。"
+    },
+    {
+      "question_id": "bank:cmm:15025",
+      "source_sha256": "098c9235624562006cdcf78742cfdf1481401ba0860beb99d94cb9755b70e99d",
+      "annotation_sha256": "3e199bfe80ca55ec4252db05288853e74f4a5f7a697db4fc3f555903fd4872cc",
+      "decision": "passed",
+      "reason": "顶点x=3/2在区间内，f(3/2)=−1/4；两端f(1)=0、f(4)=6，值域[−1/4,6]，选C。",
+      "independent_solution": "顶点与端点比较求值域。"
+    },
+    {
+      "question_id": "bank:cmm:15358",
+      "source_sha256": "130b46ed43e717fac64d24dc0a0d744ece05a7867d7dcbf0e0bd0378628f4f9c",
+      "annotation_sha256": "55ec5a28e8d2713e3d26b814f71f2a67e6eb3b7f52e72c8abc15a1a943899790",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "a=1时A=(-3,5)，与B的交集=(-3,-1)。对并集覆盖，B之外的闭区间[-1,5]必须落在开区间A=(a-4,a+4)中，故a-4<-1且a+4>5，即1<a<3。"
+    },
+    {
+      "question_id": "bank:cmm:15375",
+      "source_sha256": "631f84b643ae1d99a57be74e56a482b9c8e6541207965851551f954ae910e6be",
+      "annotation_sha256": "ba09c9f851cd4f9129f33c5bdf35790ed3b7bf9258cba8a9ccf3f1d378cc14ae",
+      "decision": "passed",
+      "reason": "f(3/2)=ln(3/2)-1/2<0，f(2)=ln2>0，二分法下一含根区间为(3/2,2)。",
+      "independent_solution": "独立验号：ln(1.5)<0.5且ln2>0，故根在右半区间。"
+    },
+    {
+      "question_id": "bank:cmm:15417",
+      "source_sha256": "2cacbb365d1e58197a3127259ea61c69bd8acfc9819598bb9c593dde3d1cd081",
+      "annotation_sha256": "e7523f874c45e4644d370a35740c5b35fc3d799dea8223fe3b1e8fcb16da34b8",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "不存在三点共线保证任意三点唯一确定平面。四点共面时所有三点组给出同一平面；不共面时四个三点组各给出不同平面。"
+    },
+    {
+      "question_id": "bank:cmm:15442",
+      "source_sha256": "864931c99ef6c46b0310c9a0d44bb879a0cba2526bdd94811379de296a0dd502",
+      "annotation_sha256": "c49446673b13b1d5bcaf394a5e4d1d28aba87a4ea19f7ada6fbd018f70c6bb61",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "A为公共点。若平面ABC等于α则B∈α，与已知矛盾，所以两平面不同且相交。"
+    },
+    {
+      "question_id": "bank:cmm:16439",
+      "source_sha256": "58b8df67f4aba655a8dd201f1494dcb6ce5a4ae73bbed5e0e429c4a178e1e8ec",
+      "annotation_sha256": "2445f174381425865ba463a328581010fcefab55e309372e6f3bac9ca445d4be",
+      "decision": "passed",
+      "reason": "若所求平面存在，其法向量平行于m的方向，且因平面含n须垂直于n方向。m、n若垂直则唯一平面，若不垂直则不存在，故“至多一个”，选B。",
+      "independent_solution": "依m、n是否垂直分情况，满足条件平面数为1或0。"
+    },
+    {
+      "question_id": "bank:cmm:16459",
+      "source_sha256": "a065c4fee73c4846e5a88565e4bcc4ce7e6d0fc96efd015c8eed95208c939845",
+      "annotation_sha256": "167be3e6ee19c9773f40bc761e119b0bf71a93342cc9c98231d204cae7c1b1fc",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "BC中点O到A、P的距离均为√3，且OA、OP都垂直BC，因此∠AOP为所求二面角平面角。三边满足3+3=6，故该角为直角。"
+    },
+    {
+      "question_id": "bank:cmm:16465",
+      "source_sha256": "bfb10abc197d2311b9ed618e699122c55732f214a1aab4a7a9ab8b6a32f235ec",
+      "annotation_sha256": "a13a5587eeadeaa69e9a38b5f6da2f856fe4246b10196b3827396cf3a030de38",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "圆心(3m,m)，半径3|m|；到y=x距离|m−3m|/√2=√2|m|。半弦长√7，因此9m²=2m²+7，m²=1，得到圆心(3,1)或(−3,−1)，半径3。"
+    },
+    {
+      "question_id": "bank:cmm:16530",
+      "source_sha256": "6071f69cedf3efdca38db789ef0504a603054f8f42a436bc74773924f17bc6ba",
+      "annotation_sha256": "a63e3ff78f1b4472f0ffd25b66f3208382540bebed823bc6f5b19352fd27dde4",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "超市总体2000家，抽样比0.05，中型抽20家。职工老年数L满足3L=270，L=90；样本比例32/160=0.2，老年样本为18人。"
+    },
+    {
+      "question_id": "bank:cmm:16532",
+      "source_sha256": "6f2d671bca28c130251dff333dfd2550b2149d863ebdd17598486c0beed1db99",
+      "annotation_sha256": "1e73746c15b8887ea232a00bfb9e1ff016944ba065b25f3d83df47b4c5d7e370",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "极差、标准差、方差均描述离散程度，越小通常越集中；平均数描述中心位置，不决定离散程度。因此(1)(3)(4)正确，共3条。"
+    },
+    {
+      "question_id": "bank:cmm:16561",
+      "source_sha256": "9183402fe111583b7d341adb2ff92dba87ff1680816297de53447d79be42ecfc",
+      "annotation_sha256": "e051e4f7f61ebff8e7f569e29bcca3b42c55b2cd418e9409d582ab5ba86fb37b",
+      "decision": "passed",
+      "reason": "频数=样本量×频率=100×0.3=30，选C。",
+      "independent_solution": "按频率定义计算。"
+    },
+    {
+      "question_id": "bank:cmm:16682",
+      "source_sha256": "58a10171c8633b74fcfdf4a7116d72a09e30fca4024d9f7780a160078b61518e",
+      "annotation_sha256": "94bae62f2041eaef3511b0076e63a7274df36389ac02dc378840b12c4c945f36",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "总数为排列数P(6,2)=30。大于50的有十位5或6且个位不相同的10个数，概率1/3。"
+    },
+    {
+      "question_id": "bank:cmm:16707",
+      "source_sha256": "00eb886a0b0478651c61a1c0ed02eb7a7665d54c1c6be389ec552a71da915d48",
+      "annotation_sha256": "9a7a4e10b5817da8832eacf13d08e36f5c8ec9cda7f110a6c978fcf3237aa173",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "圆上点的极角均匀分布。法向单位向量投影u=2√3cosθ，点线距离|u−5|<2。u≤2√3<5，故只需u>3，即cosθ>√3/2，对应圆周角长π/3，概率1/6。"
+    },
+    {
+      "question_id": "bank:cmm:16732",
+      "source_sha256": "619502295b802e188a895ca47a768dea295490edcff1ba08312e08a0a4a04846",
+      "annotation_sha256": "ec9359ed7f4ade0b72e495ec5499d2f5eb079959d67533082d152763d23f1769",
+      "decision": "passed",
+      "reason": "回归直线必过样本中心(3,3.5)，且正相关要求斜率为正。只有A斜率正且0.4×3+2.3=3.5，选A。",
+      "independent_solution": "检验各直线过中心且斜率正，唯一A。"
+    },
+    {
+      "question_id": "bank:cmm:16753",
+      "source_sha256": "27c2737e60883f0733f0b6e2fcf05f94cb5258532a7478825e5ec3c9082e9c82",
+      "annotation_sha256": "d0e8df8a3882ecfd5ae2c7497a4bf3fcd4bee3cb6421931399a544b1c4276647",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "样本均值为(2,6)，代入经过样本中心的回归直线得截距6−4.4=1.6。"
+    },
+    {
+      "question_id": "bank:cmm:16766",
+      "source_sha256": "d43ed3d913978a4b57e13c0b6ea1e3087bafa8b41a1a3d9bd237d77d6d84a858",
+      "annotation_sha256": "b5e5d93b91fa5590ce8f80b7b6bfdf421447f4144f898d0279449c4b8fd84e6f",
+      "decision": "passed",
+      "reason": "总取法C(5,3)=10，至少一个白球的补集只有全取3个红球一种，概率1−1/10=9/10，选D。",
+      "independent_solution": "补集法独立计算为9/10。"
+    },
+    {
+      "question_id": "bank:cmm:16791",
+      "source_sha256": "50b02dd1a344c7fa5eb82db1766f4e41ad330cb81d1313698a5ce4f77f1a75d8",
+      "annotation_sha256": "4d0822592d44facdb5b1dba7e85eafad9975101ad02bc4578f4e973300e56ff7",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "四个独立二元选择产生16种等可能安排；全周一或全周二共2种，所以概率14/16=7/8。"
+    },
+    {
+      "question_id": "bank:cmm:16977",
+      "source_sha256": "047c37dab66bef6c3398bddffbdec3a9714d8496435bfc3511509fda46b64cef",
+      "annotation_sha256": "a87f8bc3d68e9685f372b08721cecee4ec581f7dceea0c8b49d10d99a3a11e60",
+      "decision": "passed",
+      "reason": "复核已修正的逐行计数与原题相符；行计数1,2,3,2,2,1,1,1,1总计14，概率14/45。",
+      "independent_solution": "按较大乘数j=1至9逐行计数，乘积≤10的条数为1,2,3,2,2,1,1,1,1，总数14；全部口诀句数45，概率14/45。"
+    },
+    {
+      "question_id": "bank:cmm:17039",
+      "source_sha256": "b9601261708a3d521e6d44626b87a8a37042273d43ce24136c3de20e035f9c65",
+      "annotation_sha256": "f6d68c22df88f27700aa46b7fbf47d5fa68ca385976de71ba6ebcbfd2d77fe8f",
+      "decision": "passed",
+      "reason": "从2白2黄取2个时样本情形按颜色为WW、YY、混合。四组中只有“至少1黄”与“全白”互斥；两者并为全样本空间，属于对立事件，因此互斥而不对立的组数为0，选A。",
+      "independent_solution": "逐对分析：前三组两事件有重叠；第4组互斥且合为全集。故符合“互斥不对立”的组数0。"
+    },
+    {
+      "question_id": "bank:cmm:17062",
+      "source_sha256": "d083606133694c5d02017c1f6f6b1e260d631ac1abee4abfdae30610607245f5",
+      "annotation_sha256": "0ed408814db3019a6635a517a4657aef594b48261c7d0f85c9f6ca2c1b7715a9",
+      "decision": "passed",
+      "reason": "分层抽样比例14/98=1/7；甲56×1/7=8，乙42×1/7=6，选B。",
+      "independent_solution": "按比例分层分配。"
+    },
+    {
+      "question_id": "bank:cmm:17067",
+      "source_sha256": "dcdfd5d151c44a9e6451d8cd1ebe90b4a9879b81da27fe1a18d29cb94b5b50ea",
+      "annotation_sha256": "9fe1464224305a2183a1b3f2175c66969feb39880a99f01d0ca870d492575b48",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "y均值=ŷ(4)=8；实际y均值=(8a+16)/4=2a+4，解得a=2。"
+    },
+    {
+      "question_id": "bank:cmm:17068",
+      "source_sha256": "f8e0016f4b4f4f4193965a76ab0a3d7488fef593970ee0aee51a00d9e6f05ae2",
+      "annotation_sha256": "170446193bec28c0566cfb7081bd26fc80913a5983b207c6deef434086c9417b",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "p均值14，回归线给出样本y均值40.2。其余四个y之和148，因此(148+m)/5=40.2，解得m=53。"
+    },
+    {
+      "question_id": "bank:cmm:17239",
+      "source_sha256": "3911197266d22216b5e03a051f5ada6e3c227783f0d0aa28ea22ad3c756fc91b",
+      "annotation_sha256": "979c982f853db3fcbf9db426ce4a3852c4d7f98579a840c6d60cfef59d68cc50",
+      "decision": "passed",
+      "reason": "Y=2X+3的均值2×3+3=9，方差4×1=4，选D。",
+      "independent_solution": "均值、方差的线性变换规则。"
+    },
+    {
+      "question_id": "bank:cmm:17421",
+      "source_sha256": "6131f6c7b708677d065e8feb6808d463b07b29644005b4e941189e12d9e933c3",
+      "annotation_sha256": "e37db1aa462d29974a259e7262dcb1ab8bb4cf9d8f3bf544b51079a0a0049627",
+      "decision": "passed",
+      "reason": "sin(π/2)=1，题设纵坐标−m=1，故m=−1，选C。",
+      "independent_solution": "代入已知函数值。"
+    },
+    {
+      "question_id": "bank:cmm:17450",
+      "source_sha256": "5bdb144c847c1a74046f3765eaa12e12714137a2d27cca0dc389a428b9d4d442",
+      "annotation_sha256": "d59cd6154dc4c03d9131dce031db5439dbb6d9fbac46f4dfd5f464b62be95e94",
+      "decision": "passed",
+      "reason": "cos(−x/2+π/2)=cos(π/2−x/2)=sin(x/2)，为奇函数，选A。",
+      "independent_solution": "诱导公式化为正弦奇函数。"
+    },
+    {
+      "question_id": "bank:cmm:17481",
+      "source_sha256": "b34d4f30cfe0523ded1cc84b182814a13849749805e4ceb75727c66f4d625e26",
+      "annotation_sha256": "de6f8c91ab1e306ba3fbccf5de79e62fd8f169b9343f70dd646383006eeab2dc",
+      "decision": "passed",
+      "reason": "第(1)项分式因式为−cosα/sinα，与sin(α−π/2)=−cosα、cos(π/2+α)=−sinα相乘得−cos²α（需sinα≠0）。第(2)项逐项化简为sin²α+cos²α=1。",
+      "independent_solution": "独立用诱导公式分别得(1)−cos²α（原式定义要求sinα≠0），(2)1。"
+    },
+    {
+      "question_id": "bank:cmm:17495",
+      "source_sha256": "b726e5f3c6637c264fafaae3bbfc8e7be91b25b2dbaa9aa4535687b60efb9bcb",
+      "annotation_sha256": "24cec3d5f8c60f376a38a1ddf702921561bb6d5ad1448f60bb508a2164c5b7a2",
+      "decision": "passed",
+      "reason": "积化和差/余弦差公式：sin(x+y)sin(x−y)+cos(x+y)cos(x−y)=cos(2y)，选B。",
+      "independent_solution": "原式等于cos((x+y)−(x−y))=cos2y。"
+    },
+    {
+      "question_id": "bank:cmm:17560",
+      "source_sha256": "100fb1dbff56faef9d6d10fd5f9b8d30ec4447cd6276e29695eb97a2ad618430",
+      "annotation_sha256": "414e7bd04b9bdd7c06ae26a8fc84991fa22c4fef4bc8a6ecce301aa593d2b285",
+      "decision": "passed",
+      "reason": "2sin(x+y)siny=cosx−cos(x+2y)，与首项相加为cosx，选A。",
+      "independent_solution": "由余弦差公式独立化简为cosx。"
+    },
+    {
+      "question_id": "bank:cmm:17705",
+      "source_sha256": "6088ccb95c72c49ad7b62d742a558dcb6964ffea6e9e22749934f2c525d43573",
+      "annotation_sha256": "b6d7dbd2692370cbcd6a92924b2843e1a3aee714ec50881a83a24c1db1942c55",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "a+b=(2,1)，3a−2b=(1,−2)。4a−b=(3,−1)，其模为√10，故同方向和反方向单位向量分别为(3/√10,−1/√10)与(−3/√10,1/√10)。"
+    },
+    {
+      "question_id": "bank:cmm:18104",
+      "source_sha256": "4ceddddc5827c76ad82dc3446241df045a346e576c1083888bd1ece46bf103a9",
+      "annotation_sha256": "d6e9c0db84660d63ec9a88d9e861a6ebb83c4e8fb0a408f717459dc19922c4ed",
+      "decision": "passed",
+      "reason": "cos(2x−π/6)的角频率系数为2，最小正周期2π/2=π，选B。",
+      "independent_solution": "余弦函数周期公式。"
+    },
+    {
+      "question_id": "bank:cmm:18202",
+      "source_sha256": "345bff668995c17e9158eba9496fbfb30299c9eaeb352c5436e47ca16106fd3c",
+      "annotation_sha256": "25e2452929dc8c579323ad886feaa6765a61324e1988ebab2111b31e50bcb70d",
+      "decision": "passed",
+      "reason": "原式分组为cos²β(sin²α+cos²α)+sin²β=1。",
+      "independent_solution": "平方和恒等式化简为1。"
+    },
+    {
+      "question_id": "bank:cmm:18257",
+      "source_sha256": "dfe3fcd8660d118185ef354da37680535975671ca9f131639699bddc95a7467e",
+      "annotation_sha256": "0fa189147ce41c86242103689c5caf96b62200a5ed0e21ce87f46d3006161fa7",
+      "decision": "passed",
+      "reason": "分子cos²5°−sin²5°=cos10°=sin80°；分母sin40°cos40°=½sin80°，比值2，选B。",
+      "independent_solution": "独立套用二倍角公式得2。"
+    },
+    {
+      "question_id": "bank:cmm:18362",
+      "source_sha256": "3c4fe535f5ecdf6091bb34d2220796ccffd2b72dac135ade8d6568bbac40cea7",
+      "annotation_sha256": "87740943a7d1dec83bdc960f75b08a5335ea722755fe557d0607a667b42d2942",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "AB=(5,12)，长度13，故唯一同向单位向量是(5/13,12/13)。"
+    },
+    {
+      "question_id": "bank:cmm:18489",
+      "source_sha256": "6e61e7595cc73e4629b1d69096fe89b3fd9b5f80449ed2559ac6ec7e1a26cb5c",
+      "annotation_sha256": "92dd0fe681588752023b6a87970440a12240649cf3d5b1eddfb34d27167e2326",
+      "decision": "passed",
+      "reason": "设t小时后位置A=(0,−10+4t)，B=(3√3t,3t)，则D²=27t²+(10−t)²=28t²−20t+100，在t=5/14小时处最小，即150/7分钟，选A。",
+      "independent_solution": "独立建立位置向量，D²=28t²−20t+100，顶点t=5/14小时；换算为150/7分钟，选择A。"
+    },
+    {
+      "question_id": "bank:cmm:18493",
+      "source_sha256": "a064a8d57a5d37d509973e076b883b0ed9f79e409885c560cc0e3b507d37011f",
+      "annotation_sha256": "f8f85581c069f4d493214dd6040dfad6b3b54b4849064233742e5fe9f3bd1064",
+      "decision": "passed",
+      "reason": "两处地面水平，观测视线分别相对水平线形成仰角与俯角；由平行线内错角相等，α=β，选B。",
+      "independent_solution": "仰角、俯角为同一斜线与平行水平线所成的内错角。"
+    },
+    {
+      "question_id": "bank:cmm:18499",
+      "source_sha256": "0a43154e17d83965f0e37757b789ccc84ce3154582136d90455b7f43e51482aa",
+      "annotation_sha256": "d6e1010130425ae52531672b92f712917bbfacafa3d4eeaa05570ba115d1f4b6",
+      "decision": "passed",
+      "reason": "甲楼高度20tan60°=20√3m；甲乙楼顶高差20tan30°=20√3/3m，故乙楼高40√3/3m，选A。",
+      "independent_solution": "按两段直角三角形分别求高与楼顶高差，得到(20√3,40√3/3)，选A。"
+    },
+    {
+      "question_id": "bank:cmm:18521",
+      "source_sha256": "bb7488ce7ee5cebef9230012717fa0ba4dc063aa279f2ca7415779b26e7af037",
+      "annotation_sha256": "0dadb7199760547a64d56dedbe4ae4d83b6d4dafe5ddf780b11098970e52973f",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "设四项对称写为a−3d,a−d,a+d,a+3d。4a=26得a=13/2；a²−d²=40得d²=9/4。取d=±3/2，得到两组反向排列。"
+    },
+    {
+      "question_id": "bank:cmm:18524",
+      "source_sha256": "21728ddffe5a4176b459c68aa3dad2d77998631b3cb00a8c19617a4682a80fd9",
+      "annotation_sha256": "147efdfa0362bb56bfc6910c961c0ed31dca24a4b6e79fd6511704baf38591a2",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "令b_n=1/a_n。递推两边变形得(1−2a_n)/a_n=(2a_{n−1}+1)/a_{n−1}，即b_n−2=b_{n−1}+2，故b_n−b_{n−1}=4。b_1=5，所以b_n=4n+1，a_n=1/(4n+1)。a_1a_2=1/45=a_11，故是第11项。"
+    },
+    {
+      "question_id": "bank:cmm:18614",
+      "source_sha256": "888c1c448f28b31d0b85688ca377a8681341e77740f28009c1402c384e5243f6",
+      "annotation_sha256": "b2e8438fac29624036bb29644d7489bb8eacafb5a176f140644a537fda4e2450",
+      "decision": "passed",
+      "reason": "原料A消耗a₁x+a₂y≤c₁，原料B消耗b₁x+b₂y≤c₂，且x,y≥0，故选C。",
+      "independent_solution": "分别按两种原料的单位消耗求总耗量，并受库存上限约束；非负产量条件匹配C。"
+    },
+    {
+      "question_id": "bank:cmm:18679",
+      "source_sha256": "a0b7e16969fa162476951dbd6187144cbf7edf7578946d63f2b1f965b5965ac9",
+      "annotation_sha256": "e570bbae9ea9137dfdee91fc6a1269251c63c98f932b4491f6790b544dd13b1e",
+      "decision": "passed",
+      "reason": "恒过点为(-2,-1)，代入直线得2m+n=1；mn>0推出m,n同正。目标=4+n/m+4m/n≥8，等号m=1/4,n=1/2。",
+      "independent_solution": "独立复算：A=(-2,-1)，故2m+n=1。正数条件成立；由AM-GM，n/m+4m/n≥4，最小值8可取到。"
+    },
+    {
+      "question_id": "bank:cmm:18704",
+      "source_sha256": "525e616d27a4d5c334d9130b54531d6216222db046df1144a12d5000816e4abc",
+      "annotation_sha256": "57c5368ddaa2ac690e905d7e9902a36e1d41393376928474835081e02f6fad7e",
+      "decision": "passed",
+      "reason": "对数和为1给出xy=10。代入y=10/x，目标为2/x+x/2≥2，x=2,y=5取等。",
+      "independent_solution": "独立复算：lg(xy)=1，所以xy=10且x,y>0；5/y=x/2。两项乘积为1，和最小2。"
+    },
+    {
+      "question_id": "bank:cmm:18926",
+      "source_sha256": "b9706d41be3a1ddea1694d59703c5a4bf5ed0f27d5253bdec9a370ea8263e786",
+      "annotation_sha256": "526cc6af6e620fa80dc5183f8e2e41043716e0cd7b0c2e3a7c82225832c08d61",
+      "decision": "passed",
+      "reason": "三角形C=45°，正弦定理AB/AC=sin45°/sin30°=√2。时间与路程成正比，30√2≈42分钟，选B。",
+      "independent_solution": "独立用正弦定理求AB/AC=√2，时间约42分钟。"
+    },
+    {
+      "question_id": "bank:cmm:19028",
+      "source_sha256": "18adbf88a347315f96df6c08848d7e95924c1c460d8815cce62daf1e36ec6f05",
+      "annotation_sha256": "4b6954b8e018b7c44bef781296a61e109bddbac10ba456404b4ac5eef5624f5b",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "余弦定理直接给cosB=1/2，故内角B=π/3。第二问用和差化积：cosA+cosC=2cos((A+C)/2)cos((A−C)/2)=cos((A−C)/2)≤1。取A=C=π/3时达到1。"
+    },
+    {
+      "question_id": "bank:cmm:19131",
+      "source_sha256": "94885ce91c3d44f3e5e70a55f625c9078ae48a70e7668e3b34aeb7b2fb203dac",
+      "annotation_sha256": "da7c785232abe9add63b54006c9e14fcc87b17e52a10d1492503b8a84a6c35c8",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "sinC=(c/a)sinA=(3/7)(√3/2)=3√3/14。a=7时c=3，余弦定理b²−3b−40=0，正边长b=8，故面积为(1/2)·8·3·sin60°=6√3。"
+    },
+    {
+      "question_id": "bank:cmm:19269",
+      "source_sha256": "a2a991ec295ca4bdd120e34f3caefbdbf5c1e355754f5ba9c4475c5965a7d618",
+      "annotation_sha256": "69c3a48ad189a40cab917b894db581b4e5c171231bd2b5544cbaa55d6854a7b8",
+      "decision": "passed",
+      "reason": "根式定义域A=[−2,2]，对数定义域B=(−∞,1)，交集[−2,1)，选D。",
+      "independent_solution": "定义域求交集为[−2,1)。"
+    },
+    {
+      "question_id": "bank:cmm:19368",
+      "source_sha256": "cfdf929cf8dd2181c74246113212374bd2bf688e3b6ce69d969152071b3c3b3d",
+      "annotation_sha256": "30260f626a94e033bcb99b0c839b8888283f5639b70375c78509922fa7fc7358",
+      "decision": "passed",
+      "reason": "|z̄||1−i|=|2i|=2，且|1−i|=√2，因此|z|=√2，选A。",
+      "independent_solution": "复数模的乘法性直接得到√2。"
+    },
+    {
+      "question_id": "bank:cmm:19491",
+      "source_sha256": "33dfc701d0bf0868e3ab58d01a1e89b12c979c7948908339403fb565931a3ab4",
+      "annotation_sha256": "2dbdae2f9045a4c702642683e2b22426d985ed9513289cc5921e6a1d676516be",
+      "decision": "passed",
+      "reason": "提价x元后单件利润10+x、销量500−10x，P(x)=−10x²+400x+5000，顶点x=20，最优售价70元，选D。",
+      "independent_solution": "独立复算二次函数顶点：x=20，售价50+20=70元，选D。"
+    },
+    {
+      "question_id": "bank:cmm:19699",
+      "source_sha256": "2beba0c0cae276c1cd5987edc901002936edb1d2562eeaa07f1289090ccf246d",
+      "annotation_sha256": "315887cd63b1e30fad4f96004ae3145fed57e269fe019547075820f55a1e6eee",
+      "decision": "passed",
+      "reason": "令t=2^x>0。等差关系化为(t+1)^2=2(t+5)，即t²=9，故t=3、x=log₂3，选D。",
+      "independent_solution": "对数等差等价中项平方等于首末项乘积；解得正根t=3。"
+    },
+    {
+      "question_id": "bank:cmm:20068",
+      "source_sha256": "d3436928d367adbbb4223c052372a0fd0ac010c87f5205cefddbe61e162f3bae",
+      "annotation_sha256": "c033a204fb1bf0bed8a09c76ab4891551b2c8cb053458baa1cf8fdf01f49765f",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "非竖直l写作x=ty+1，交点y坐标根和4t、根积−4；点积为t²(-4)+4t²+1-4=-3。竖直焦点线x=1的交点(1,±2)，点积亦为-3。"
+    },
+    {
+      "question_id": "bank:cmm:20114",
+      "source_sha256": "d417a5d9a514a3d887afbd4212f4dd40fc7b015a02c28af7a97e62ddb6a3a131",
+      "annotation_sha256": "06178a732b94fc27cd454d6725e6e7ef8a6dd203db684f9fbf62df3f08123366",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "f'(x)=6x²−6x−5；f'(-3)=54+18−5=67。"
+    },
+    {
+      "question_id": "bank:cmm:20119",
+      "source_sha256": "1c93491e5369560df1c422359787ef3e023471bf1363fdb1985e1c737e39385b",
+      "annotation_sha256": "48e631a53b37d533491b67cd7894e574df23a7950a1e2d4a3b6e420f6be718a8",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "对外层求导再乘内层导数，得−6(1+cos2x)^2 sin2x。与来源等价形式−48 sin x cos^5 x一致。"
+    },
+    {
+      "question_id": "bank:cmm:20162",
+      "source_sha256": "3936f0087b68a345985807e8ad54bcab82c6da060f634d7584f7dcc177504bec",
+      "annotation_sha256": "7d15967aeccbc21325fa0ce39ab421d797bd15e9f95b5a12551486ed09a6b9f0",
+      "decision": "passed",
+      "reason": "由销量增量系数k=3得f(x)=(8−x)[48+3(x²+x)]=−3x³+21x²−24x+384。对0≤x≤8，432−f(x)=3(x+1)(x−4)²≥0，且x=4取等，故最大利润432元，售价16元。",
+      "independent_solution": "独立复算：降价3元多售36件给k=36/(9+3)=3；利润函数如主标注。恒等变形432−f(x)=3(x+1)(x−4)²，区间内非负且x=4取零，故全局最大432，售价20−4=16元。"
+    },
+    {
+      "question_id": "bank:cmm:20163",
+      "source_sha256": "eb8b203572de1351a5cda7ead53d8d0ecf45cbdd57905a7bf4ea61c0886bd6e4",
+      "annotation_sha256": "5f94d01e6a3cc232d124c89868d07c55f935019d8375b77295f9d7c21a4cafbf",
+      "decision": "passed",
+      "reason": "在0≤x≤390时利润P=−x³/900+300x−20000；P′=300−x²/300，增至x=300后减。x>390时利润=70090−100x递减且小于x=300时的40000，故最大在300，选D。",
+      "independent_solution": "对前段三次函数求导确定其在300取最大40000；后段线性递减，在边界附近即低于该值。"
+    },
+    {
+      "question_id": "bank:cmm:20192",
+      "source_sha256": "5ff621471472f0b617891361021b5acb6b11dd34dbc4bf841a3dd6d2002c9645",
+      "annotation_sha256": "3f1f03de020c666c8a7511c283b5826f595a72e7c6e27cf8cdda8c59fe832bc9",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "a=0后f′(x)=e^x−1，仅在x=0为零；导数在左侧负、右侧正，因此左减右增。"
+    },
+    {
+      "question_id": "bank:cmm:20250",
+      "source_sha256": "1f2f37acdb0e1947f7d6fef947510ab344d012900cad1297635d156a6f441659",
+      "annotation_sha256": "af6492f41cfd7a97481de6fd6b4baafe720e85e312af5a251f45800a89800ce9",
+      "decision": "passed",
+      "reason": "抛物线f=3x²−4x+c在[0,5]顶点x=2/3为最小值；两端f(0)=c、f(5)=55+c，最大为f(5)，值域[f(2/3),f(5)]，选C。",
+      "independent_solution": "顶点和端点比较得C。"
+    },
+    {
+      "question_id": "bank:cmm:20292",
+      "source_sha256": "c8d7cb97786af342142b183918ff00703318624e455a7f0523a2ca5f61588934",
+      "annotation_sha256": "32131cacce3f8f748d1a0c36157cec8feb1ad83518558fb8b7c15573420c3c69",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "z=x²+2x+3=(x+1)²+2，定义域x≥0，因此最小点是x=0，抛物线上对应y=0，最小值3。"
+    },
+    {
+      "question_id": "bank:cmm:20305",
+      "source_sha256": "3f4f92fb2c5e9286594a923d90dc5d9173d0a3bbb43c5120bd62c7c37275a7bc",
+      "annotation_sha256": "271a183c7d9267838c561364ac26c9191b43deff836f4b93b0e9b9661f59d225",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "抛物线方程y²=−2px的焦点、准线分别为(−p/2,0)、x=p/2。横坐标−9的点到准线距离为9+p/2，应等于焦点距离10，故p=2。再得y=±6。"
+    },
+    {
+      "question_id": "bank:cmm:20491",
+      "source_sha256": "f0e3e763303fde1dfd92057059036eb27b155fcc6c639b4b3dcfde58e941a578",
+      "annotation_sha256": "3ff0e9c53ac6f74066bacc2ef7cd6fb91183edf5151a6d005662fae205ad7405",
+      "decision": "passed",
+      "reason": "对数函数底数0<a<1时单调递减，因此大前提“对数函数是增函数”错误；具体函数确是对数函数，选A。",
+      "independent_solution": "辨析：大前提遗漏底数限制，log_(1/3)x递减；小前提正确。"
+    },
+    {
+      "question_id": "bank:cmm:20532",
+      "source_sha256": "4f32e1cd52724ab751e09f672a0d96ceb3f0d2777ac3a481c0788412d677842f",
+      "annotation_sha256": "0bb6af0e268e4c1a16b6cc377ce551063478f624c1ea2cf1dc0bbb12ceaeb67d",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "实部为零、虚部为2给出x²=y²且xy=1。x=y时x²=1得两组解；x=−y将导致xy=−x²≤0，不可能等于1。"
+    },
+    {
+      "question_id": "bank:cmm:20533",
+      "source_sha256": "31da197237ecd26a3ce734c0122ede3f2b3ce9700db137ded93b247feec7fc50",
+      "annotation_sha256": "27bd8c9982a3a5e3984a2e85f3909171be7d531944193b26c92069c80d35bd6e",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "z的实部为a²−4，虚部为a+2。(1)纯虚数要求a²−4=0且a+2≠0，解得a=2。(2)点坐标为(a²−4,a+2)，代入x+2y+1=0得a²+2a+1=0，故a=−1。"
+    },
+    {
+      "question_id": "bank:cmm:20642",
+      "source_sha256": "50ba06e0078cf05c444b7c72294ec2fc897d84ab1e603fc00ea494563eef53ab",
+      "annotation_sha256": "3842ecf94be777d60992aa38fa162e5025bd7fb50cb8761cc0f5c96e78dc8708",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "令t=a+1/a，根号内化为t²−2。t−2+√2≥√2−0? t≥2，故右端至少√2>0，可平方。平方差为2(2−√2)(t−2)≥0。等号需t=2，由a+1/a≥2取等条件a=1。"
+    },
+    {
+      "question_id": "bank:cmm:20757",
+      "source_sha256": "345a96d6aaa43cf6af53c5bedfc9b62911bd5ecda81902ffb73838027e1acd87",
+      "annotation_sha256": "758a8520fa1233e7e81a3d17516a63b7703ace4203396cf296b06e5d5aa76fb1",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "因b+m>0且b>0，可交叉相乘：b(a+m)>a(b+m)等价于ab+bm>ab+am，等价于m(b−a)>0，题设保证成立。"
+    },
+    {
+      "question_id": "bank:cmm:21002",
+      "source_sha256": "ffb886c925755bffe165ab0b3cc5a5ba8736ef8925783421b436154264f18efc",
+      "annotation_sha256": "ad19df900b68e7c22f2ac4b35032d297a4c7853ff0ffc0524aae0111906b4f66",
+      "decision": "passed",
+      "reason": "a·b=4−4=0，a·c=−12−12+0=−24≠0，只有l₁⊥l₂，选A。",
+      "independent_solution": "方向向量点积判断垂直关系。"
+    },
+    {
+      "question_id": "bank:cmm:21003",
+      "source_sha256": "26d935643356aff6fd2251d37095b4158ea0a8280fbc142414b5daf345eed316",
+      "annotation_sha256": "3b67e6521ae8465afb08c7023e31beb0502cb4bd44ccdb1da506b2ea7acb22a6",
+      "decision": "passed",
+      "reason": "|a|²=4²+4²+x²=36，x=±4。a·b=4+4y+2x=0：x=4得y=−3、和1；x=−4得y=1、和−3，选A。",
+      "independent_solution": "分类计算两组值，答案集合−3或1。"
+    },
+    {
+      "question_id": "bank:cmm:21004",
+      "source_sha256": "41b0715c148b4ef64fedcf88ca8098b844e9a19be435e33a5a1d01b2e96ff80f",
+      "annotation_sha256": "10c7066448a7afaf0c3cb13bb1b4f8c901eefe5b7d7afdfd9aa15a041a5e36ef",
+      "decision": "passed",
+      "reason": "两平面法向量点积(−2)6+2(−4)+5·4=−12−8+20=0，故平面垂直，选B。",
+      "independent_solution": "法向量正交得平面垂直。"
+    },
+    {
+      "question_id": "bank:cmm:21005",
+      "source_sha256": "c609f703a8084c0917a210d5f0d0a9c74e08db3cddadd104fe0884f807de6043",
+      "annotation_sha256": "949122b01924103bffe6130c75d99c3aaaef0ab20deb114f7772512f37053338",
+      "decision": "passed",
+      "reason": "投影到yoz平面令x=0，B=(0,2,3)，|OB|=√(4+9)=√13，选B。",
+      "independent_solution": "坐标投影计算距离√13。"
+    },
+    {
+      "question_id": "bank:cmm:21282",
+      "source_sha256": "a2b013e1b23328b2f60cc0f1959a7cf11d3131ca4454da6f93d007fc418fd0d6",
+      "annotation_sha256": "f95d46118de7e9b67db886119cb8d444ef82c069f8db5226a48e97b7efd9eda1",
+      "decision": "passed",
+      "reason": "关于xOz平面对称B=(1,2,3)；关于x轴对称C=(1,2,−3)；距离|BC|=6，选B。",
+      "independent_solution": "坐标变换后仅z坐标相差6。"
+    },
+    {
+      "question_id": "bank:cmm:21303",
+      "source_sha256": "5fa129d8f0e4893ab6dc608842984df19b54a0f7bc2dc9d92f022dae3b0b9e38",
+      "annotation_sha256": null,
+      "decision": "pending",
+      "reason": "数学答案本身可复算，但主标注解析含控制字符，来源校验/内容完整性风险未清除，待主批次修复后重核。",
+      "independent_solution": "独立核算的候选答案与原题解析一致；因当前primary解析带控制字符不通过。"
+    },
+    {
+      "question_id": "bank:cmm:21316",
+      "source_sha256": "03cb0372651c6f9d66343dfe29e6b65fe8158ad1d58bd11ac36e42d7c70e3c9a",
+      "annotation_sha256": "8cad6b094bd5697a60abd32d01d68742f3af5651554c5a9f371a1734b59de516",
+      "decision": "passed",
+      "reason": "AB=(-1,-2,-1)。线方向在平面内需与法向量点积为0，即a+2b+c=0，唯一D。",
+      "independent_solution": "独立计算AB向量与n的点积为−a−2b−c；等于0对应D。"
+    },
+    {
+      "question_id": "bank:cmm:21317",
+      "source_sha256": "16c8550091e7bd926bfc5f7211b86a87b0043fcf18ddbe7103cccc5a7a6977a9",
+      "annotation_sha256": null,
+      "decision": "pending",
+      "reason": "数学答案本身可复算，但主标注解析含控制字符，来源校验/内容完整性风险未清除，待主批次修复后重核。",
+      "independent_solution": "独立核算的候选答案与原题解析一致；因当前primary解析带控制字符不通过。"
+    },
+    {
+      "question_id": "bank:cmm:21318",
+      "source_sha256": "092a27b3e72611d26efdf2f664e7b283fd3238c9261fc8830c856cb422d3ab3a",
+      "annotation_sha256": null,
+      "decision": "pending",
+      "reason": "a·μ=0只能推出直线方向平行于平面，不能排除直线包含在平面内；题目缺少直线不在平面内条件。",
+      "independent_solution": "四选项只有D的a·μ=0，但该条件本身不能保证严格的l∥α，需补充l不包含于α/不在α内。"
+    },
+    {
+      "question_id": "bank:cmm:21321",
+      "source_sha256": "39918f7db501d3f2b1cdf047884323b310cc79550075ec4a2b3fea81b9ffa13b",
+      "annotation_sha256": null,
+      "decision": "pending",
+      "reason": "数学答案本身可复算，但主标注解析含控制字符，来源校验/内容完整性风险未清除，待主批次修复后重核。",
+      "independent_solution": "独立核算的候选答案与原题解析一致；因当前primary解析带控制字符不通过。"
+    },
+    {
+      "question_id": "bank:cmm:21322",
+      "source_sha256": "b69b3b7207060adf00f9ceeec07925c8bb6f2f3ccc15dd621c101a19ec6b49fc",
+      "annotation_sha256": null,
+      "decision": "pending",
+      "reason": "数学答案本身可复算，但主标注解析含控制字符，来源校验/内容完整性风险未清除，待主批次修复后重核。",
+      "independent_solution": "独立核算的候选答案与原题解析一致；因当前primary解析带控制字符不通过。"
+    },
+    {
+      "question_id": "bank:cmm:22029",
+      "source_sha256": "79d1472fca4df61abe4f44bed58eb66f50d861277b6a9b119e8b8cd44a446938",
+      "annotation_sha256": null,
+      "decision": "pending",
+      "reason": "题干中的分布表在解析到“\\text {”处截断，选项公式也残缺，虽可由期望方差反推p=1/4，但源题完整性不足。",
+      "independent_solution": "由np=5/4、np(1−p)=15/16得p=1/4、n=5；但题目表/选项OCR断裂，需清晰原卷核对。"
+    },
+    {
+      "question_id": "bank:cmm:22030",
+      "source_sha256": "6432bb1ea77df950a565cd3598b7304d27168de4ebd072164a4f9082cbecaaa8",
+      "annotation_sha256": null,
+      "decision": "pending",
+      "reason": "列出a+b=0.5、−0.2+b+0.6=0.8可得(a,b)=(0.1,0.4)，但选项用“0\\cdot1/0\\cdot4”等乘号形式，疑将小数点OCR错，现有选项不可靠。",
+      "independent_solution": "数学结果为(0.1,0.4)，但源选项排版存在小数点/乘号歧义，须核对原题图。"
+    },
+    {
+      "question_id": "bank:cmm:22166",
+      "source_sha256": "0eb5be0348df0b211ddc89d7e341e3ea041dd7411d37ce53b97e77d9aae6eb51",
+      "annotation_sha256": "5b2515559210febfd8cca7d0390846034e0cc1743994726291e7467df40edd5c",
+      "decision": "passed",
+      "reason": "设p=P(X=1),q=P(X=2)，则p+q=3/4、p+2q=1，解得p=1/2,q=1/4。E(X²)=3/2，方差=3/2−1=1/2，选C。",
+      "independent_solution": "独立核算：P0=1/4；p+q=3/4，p+2q=1，得q=1/4,p=1/2。E(X²)=p+4q=3/2，D=3/2−1=1/2，选C。"
+    },
+    {
+      "question_id": "bank:cmm:22168",
+      "source_sha256": "578468a622d01185d3b1feab1a08696cc90ade232cc56bd264ecda64a98ef229",
+      "annotation_sha256": null,
+      "decision": "pending",
+      "reason": "E=np=10、D=np(1−p)=8得p=0.2,n=50，理论选择A；但选项A排版损坏为“${ }^{50,1/5}$”，需清晰源件确认选项/答案。",
+      "independent_solution": "由方差与期望之比得1−p=0.8，故p=1/5,n=50；因选项排版破损暂不通过。"
+    },
+    {
+      "question_id": "bank:cmm:22169",
+      "source_sha256": "da9ef6fdf8dc72eb43313fbb210092efa311f95ea473bf122c53649c3a68acdf",
+      "annotation_sha256": "af005decddd1e613980a327ff780b85411bd4e3bc3ea3e67c95aab144c2e63de",
+      "decision": "passed",
+      "reason": "二项分布方差D(X)=6×1/2×1/2=3/2，D(2X+1)=4D(X)=6，选B。",
+      "independent_solution": "线性变换方差规则给出6。"
+    },
+    {
+      "question_id": "bank:cmm:22330",
+      "source_sha256": "bab71c2d822a6a5bf35c5e348dcc3c969ac69aa9f750c519017530f3eb4ced8d",
+      "annotation_sha256": "501cb1190579764bc60da683396817a0d69eee4883310b2d554688a26401d215",
+      "decision": "passed",
+      "reason": "数据整体作线性变换2x−1，标准差乘|2|、平移不变，结果16，选C。",
+      "independent_solution": "标准差仿射变换规则。"
+    },
+    {
+      "question_id": "bank:cmm:22344",
+      "source_sha256": "55131738f2bc53e2cdfb59a13f1046743f70b910e6248b342ebe508c9657b237",
+      "annotation_sha256": "eeed749b2e582b46f05f1c0f63cf664fd5cdcbd161f0d9552441e6202913d3fd",
+      "decision": "passed",
+      "reason": "总取法C(4,2)=6；至少一白=1−全黑概率=1−1/6=5/6，选D。",
+      "independent_solution": "古典概率补集计算得5/6。"
+    },
+    {
+      "question_id": "bank:cmm:22446",
+      "source_sha256": "992324abbe7375c546aaa8d1a90e2f8b4db0a8d23bde57ac1e009edd1e848a52",
+      "annotation_sha256": "eeb6f52cc2586cfdae55b48a18cf17efbf40886df5c57f3de7508812f41995f0",
+      "decision": "passed",
+      "reason": "1−(1−p)²=5/9得p=1/3。η~B(4,1/3)，P(η≥2)=1−(2/3)^4−4(1/3)(2/3)^3=33/81=11/27，选B。",
+      "independent_solution": "独立由二项分布概率相减得到11/27。"
+    },
+    {
+      "question_id": "bank:cmm:22451",
+      "source_sha256": "c97e1ac6c7f0ca35c6d0915a6b420e75a03fffb2a04260a452ae173bde9e1aa9",
+      "annotation_sha256": "ac43d7e7606864bf26a6c3a31a9b9170675cb8bce8458d6edffa88ab15e03932",
+      "decision": "passed",
+      "reason": "概率和为1得m=2/9。E(X)=1·4/9+2·2/9+3·1/27=1，选B。",
+      "independent_solution": "先归一求m，再计算期望为1。"
+    },
+    {
+      "question_id": "bank:cmm:22484",
+      "source_sha256": "3cb387a315d67ce5c13c0096da71bf6ecda0f54fdafe22fab946e7095e8e0ca7",
+      "annotation_sha256": "fa9aed4917ab13ee96c7845353c43cc1535abd02a42f02a17bd642551667a194",
+      "decision": "passed",
+      "reason": "(1)卡方统计量越大，越倾向拒绝独立性、支持有关；(2)回归线过样本中心且可不经过任何实际样本点；(3)排序为1,2,2,3,3,3，中位数2.5。三项皆真，选D。",
+      "independent_solution": "逐项验证均真，答案3。"
+    },
+    {
+      "question_id": "bank:cmmlu-senior-physics:dev:2",
+      "source_sha256": "5e2160fcf206fb61b9d186dd425abd6b6bac8670e39e592a17f6ff6bf87380ef",
+      "annotation_sha256": "4c6d0af2474f3d415590a977644f9e11db3ed5f0070fd1076e6f2a0f597de89f",
+      "decision": "passed",
+      "reason": "打点计时器纸带相邻计数点间距（及累计间距）直接给出物体运动的位移；速度和加速度需要结合时间间隔计算，选A。",
+      "independent_solution": "由纸带标尺直接读取位置差得到位移，平均/瞬时速度、加速度需计算。"
+    },
+    {
+      "question_id": "bank:cmmlu-senior-physics:test:46",
+      "source_sha256": "a2347c101e88d8b17a945a044a42cdfd0e1757cc61f4a8a5750d17f729be8bca",
+      "annotation_sha256": "315cb82bd6db64f87c726f0cb5be1a6eb9d868b6062f776ecf7d38061e1bac10",
+      "decision": "passed",
+      "reason": "汽油机做功冲程将燃料内能转为活塞/曲轴机械能；水蒸气膨胀推开壶盖同样由内能转为机械能，选B。",
+      "independent_solution": "比较能量转化方向，蒸汽推动壶盖与做功冲程相同。"
+    },
+    {
+      "question_id": "bank:cmmlu-senior-physics:test:65",
+      "source_sha256": "ea389fcfe7c5e915bf29e0a60f6054b72694e5911002e877b8489b2d891d0036",
+      "annotation_sha256": "56355769b42422067652a9d6e2edf1eb05259cbb1b8902ccd0050238fb4fd375",
+      "decision": "passed",
+      "reason": "同摆长小角度单摆频率f=(1/2π)√(g/L)，所以f₁=f₂。平衡位置速度是最大速度且vmax=ωA；频率相同、V₁>V₂，故A₁>A₂，选C。",
+      "independent_solution": "独立由周期与摆长关系、简谐运动vmax=ωA得到选C。"
+    },
+    {
+      "question_id": "bank:cmmlu-senior-physics:test:77",
+      "source_sha256": "2bada7dbee1f53578a77349617248ab2a66af89c0354f1fd73571792bd2e6f09",
+      "annotation_sha256": "2af4de530a322954f45591b80fd87a51de1f65e18940ac64c08190da73f27337",
+      "decision": "passed",
+      "reason": "建筑物尺度相对声波波长较小、相对可见光波长极大；声波波长更长，因此容易明显衍射绕射，光波衍射不明显，选A。",
+      "independent_solution": "衍射显著条件取决于波长与障碍物尺度的比较，答案A。"
+    },
+    {
+      "question_id": "bank:gaokao:1319c9257f615c511773",
+      "source_sha256": "660b0b6b82a83ac277ad2f4d76b41ae738262383365d130b5d1422e6d9e11dbf",
+      "annotation_sha256": "99fe0807336a2bd5f1a8d31e9c0c9e987382e50fd017ea897539fa671df9bf1b",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "动能变为9倍意味着速度大小变为3倍；速度增大，若初速为u则末速3u。；匀加速位移s=(u+3u)t/2=2ut，故u=s/(2t)。；a=(3u−u)/t=2u/t=s/t²，选B。"
+    },
+    {
+      "question_id": "bank:gaokao:202eb9da6938753df2d2",
+      "source_sha256": "b296c0e1fb560c5e96abe2019e27d8feb15807275d583d6b1be896243454b291",
+      "annotation_sha256": "8a1296c194c11cb9fac41f570c18cef00c0075971f3284c6864038548d39e850",
+      "decision": "pending",
+      "reason": "未舍入方程解得a≈8.72m/s²；来源8.71依赖先将中间量舍入，题目未指定中间舍入流程。",
+      "independent_solution": "联立100m、200m路程式得t≈1.2889s、v≈11.241m/s；a=v/t≈8.722m/s²→8.72，来源8.71存在末位冲突。"
+    },
+    {
+      "question_id": "bank:gaokao:2ba5ca4adb2f13d7bbd0",
+      "source_sha256": "a35a1616e032f02737ca0513b8cf88a9cd2db41b6993bc68d38dde009479421e",
+      "annotation_sha256": "9586bb2920118c3869aa81147ec5deebc7268135a9ac7204fb98a10764576128",
+      "decision": "passed",
+      "reason": "已修订严格边界M<60；独立推导支持可选53kg、58kg，答案BC。",
+      "independent_solution": "第n次推出后运动员速度大小=(2n−1)mv/M。第7次可追上要求M>52kg；第8次严格超过5m/s要求300/M>5，即M<60kg；只选B、C。"
+    },
+    {
+      "question_id": "bank:gaokao:2c74dcb789e70357631f",
+      "source_sha256": "de879ad3474754c990de18eaa24b9ec453e8529d97275a2021ebeb1106d78808",
+      "annotation_sha256": "cc32c32c51f9f45aca9a1a1135f0e8be15174aada9073b97a5a50f84bf51ce53",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "地面为重力势能零点，落地前机械能等于动能。；E=mv²/2=(8.00×10⁴)(100²)/2=4.0×10⁸J。；E=mv₁²/2+mgH。；动能为2.25×10¹²J，重力势能为1.2544×10¹¹J。；合计2.37544×10¹²J，按两位有效数字为2.4×10¹²J。；600m处速度为入大气层速度的2.0%，即150m/s。；以600m处为初态、落地为末态：mgh−W阻=½mv₃²−½mv₂²。；W阻=mgh+½m(v₂²−v₃²)=9.704×10⁸J，取两位有效数字为9.7×10⁸J。"
+    },
+    {
+      "question_id": "bank:gaokao:3537719a08f3e5370cff",
+      "source_sha256": "39a60f997a91122bed4371d6ed04e59fa755819e33643d1aa35cedf7a375ac64",
+      "annotation_sha256": "dde9d5f20486c6792863f76dc7f266a81fcbc5402942ca5b15c83eb9b9468032",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "电容器仍接恒压电源，极板电压U不变；移出云母使相对介电常数减小，C=εS/d减小。；Q=CU，故极板电荷量减小。板间距d与电压U不变，匀强场E=U/d不变，选D。"
+    },
+    {
+      "question_id": "bank:gaokao:3ec5115358593e419d82",
+      "source_sha256": "b0ed1ce766acd9649d758c963107b956cb5a4546768b54b60f208c135d881a73",
+      "annotation_sha256": "e14bc2ed1b5e3cdad77d1157838f844e42cda89c801d9baed197f604133c3e53",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "物块匀速上滑，沿斜面合力为零；绳张力平衡重力沿斜面分量和向下的滑动摩擦力。；T=mg sin30°+μmg cos30°=mg/2+(√3/3)mg(√3/2)=mg。；T_max=1500N且g=10m/s²，m_max=150kg，选A。"
+    },
+    {
+      "question_id": "bank:gaokao:3fee1cc256487c56b0f0",
+      "source_sha256": "4cf2f7c1737116fc30630fe1ff55466f3a4ce6dfb9c923fdb34600a587f72da5",
+      "annotation_sha256": "7a153816301976c94f81a9efe5378e1e05e31aa35bd4c699fd674b57d97adfd0",
+      "decision": "passed",
+      "reason": "独立用r=mv/(|q|B)、ω=|q|B/m判断弱磁场中半径增大、角速度减小，选B；题干有冗余逗号和残缺括号，但不影响物理语义，建议清理。",
+      "independent_solution": "粒子速度垂直磁场，洛伦兹力提供向心力：qvB=mv²/r，所以r=mv/(|q|B)。；磁场减弱后粒子速率不变（洛伦兹力不做功），轨道半径增大。角速度ω=v/r=|q|B/m减小，选B。"
+    },
+    {
+      "question_id": "bank:gaokao:52bf5a2f44b3adfeab72",
+      "source_sha256": "756e225e9babe61532419aeb1b7bbb2289a038715a649b6a8cda326745938589",
+      "annotation_sha256": "719d44773abb6477225856a3aeb83b1e889cd6f200afc0966115b9599c217d33",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "撤力后物体由v₀滑行2s₀停止，a₂=−v₀²/(4s₀)，故μg=v₀²/(4s₀)，C正确。；撤力前从静止滑行s₀到v₀，合加速度a₁=v₀²/(2s₀)。由F−μmg=ma₁得F=3mv₀²/(4s₀)，为摩擦力的3倍；D错误。；拉力作用时间由平均速度得t₁=2s₀/v₀，拉力冲量Ft₁=3mv₀/2，B正确。；拉力做功Fs₀=3mv₀²/4，不是½mv₀²，A错误；答案BC。"
+    },
+    {
+      "question_id": "bank:gaokao:5351ccc024729b06d162",
+      "source_sha256": "7e6ec2b5468c9795d45f772a65f7b7edc45a13fe6b97665eefa6b7a625c8fae4",
+      "annotation_sha256": "a83c374004be6853a17a5651ef63b5634a42303281d055e70cb6c9c7006f069e",
+      "decision": "pending",
+      "reason": "选项C出现“高度限度”，与题意可能应为“速度限度”；需核对清晰原题后才能确定多选答案。",
+      "independent_solution": "按弯道受力分析A、C应为正确项（选C）；但C关键字受损，文本证据不足以确认原题。"
+    },
+    {
+      "question_id": "bank:gaokao:5753718ba4035c50347c",
+      "source_sha256": "7af33834861b503a998cc4e198084f30c554e4e1bd55a26f51f94ae13ad70d37",
+      "annotation_sha256": "43c3d03d1ead21daf6fff83fbaad0625022bda69725d845a858d725d96e3a989",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "绕同一太阳做圆周运动时a=GM/r²、v=√(GM/r)。；已知R金<R地<R火，因此a金>a地>a火且v金>v地>v火。只有A正确。"
+    },
+    {
+      "question_id": "bank:gaokao:5b8b0846984fa17dbef3",
+      "source_sha256": "9e765ef9fe747205a4ab3a758cf7bac264e108361f5820aae390dc96ddf9138f",
+      "annotation_sha256": "8b5205bfeb2e15c43a4644b89a2e80e156558c26bb7cc369bf70c2d025459317",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "第一次下落碰撞前动能E₁=mgh₁=10.8J；第一次反弹碰撞后动能E₂=mgh₂=7.2J。；每次碰撞前后动能比相同，E₄/E₃=E₂/E₁=2/3。第二次反弹到1.5m，E₄=mgh₄=9J，故碰撞前E₃=13.5J。；拍球前从h₃落下的重力势能为mgh₃=9J，故拍球做功W=E₃−mgh₃=4.5J。；取向下为正，拍球期间合力F+mg=ma，故a=F/m+g。；篮球由静止开始，作用时间t=0.20s，位移x=at²/2。；拍球功W=Fx=F(F/m+g)t²/2。代入W=4.5J、m=0.60kg、g=10m/s²、t=0.20s，解得正根F=9N。"
+    },
+    {
+      "question_id": "bank:gaokao:74ad5984db7aae1f1628",
+      "source_sha256": "b3bceed15c3cc973ea44485f692684d2ae6718c6688ce1a2e9413bc9b80a4489",
+      "annotation_sha256": "bccd8a535b44abb12c37747d6f417dc756ff987fb8c425693df14fe88b584802",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "静电场中电场方向沿电势降低最快的方向，电场线与等势面处处垂直，B正确。；不同电势的等势面不能相交；等势面上场强大小未必相同。负电荷由高电势移至低电势时电势能增加、电场力做负功。故选B。"
+    },
+    {
+      "question_id": "bank:gaokao:7df093c0ff49cf706d5d",
+      "source_sha256": "8c3b337dcc1274d16f036c64c5cefaa085ee48577d802ab857c1d319738d15ea",
+      "annotation_sha256": "4c40466b5b9c0623171f1b1f3c7c8520e011654a6bcc5ba9bbd7014ab80d6812",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "动能定理W合=ΔE_k。启动阶段合力恒定时，W合=F合x，因此动能与位移成正比。；又E_k=½ma²t²与时间平方成正比，和速度平方成正比，也和动量平方成正比；不是与这些量本身成正比。选B。"
+    },
+    {
+      "question_id": "bank:gaokao:a25bc27645e95f67e79d",
+      "source_sha256": "3801fbe8ce32023f2ef30790507795dbd50cc9a940b945f0d2d5646a2118f23b",
+      "annotation_sha256": "174624efa4889c81d0530d0c3110c85a3c2757d2bd0430cb06632b975868d310",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "初动能E=mv₀²/2，故v₀=√(2E/m)。；上升至最高点速度变为零，v₀−gt=0。；t=√(2E/m)/g。；爆炸前上升到最高点高度h₁=v₀²/(2g)=E/(mg)。；爆炸时间极短，系统竖直动量守恒；两等质量碎片总动量为零，所以两者速率相等且方向相反。；爆炸后总动能E均分，两碎片各自速度大小仍为v₀=√(2E/m)；向上碎片继续上升h₂=v₀²/(2g)=E/(mg)。；最大高度h=h₁+h₂=2E/(mg)。"
+    },
+    {
+      "question_id": "bank:gaokao:a2c165565d8e3dc25b99",
+      "source_sha256": "b8558b1a87e33b45b113cbd139fe560d8948ed61ecd17d837ed95cf715217a30",
+      "annotation_sha256": "9d11444fc21cb2db889602403f8ee33c4226d502274a39b8e03d89823311473b",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "司机碰撞前后动量变化由初末速度决定，安全气囊不能减少该动量变化量。；气囊延长碰撞时间，依据冲量定理可减小平均冲击力；气囊增大接触面积，降低单位面积受力，故D正确。"
+    },
+    {
+      "question_id": "bank:gaokao:ad6ac48e90170cd67e76",
+      "source_sha256": "7344f227d61f9f496f9bc323972c77a3699755378b4b571f0c95c683a9b5adb9",
+      "annotation_sha256": "877d30261254a58835fbb6812eec1667b87ca6d9e56289820dde4c2af53685f5",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "同一金属逸出功W₀相同，E_k=hν−W₀，频率较高时最大初动能较大，故B正确。；遏止电压满足E_k=eU_c，故U_a<U_b推出E_ka<E_kb，C正确。；频率较高时遏止电压应更高，A错误；hν−E_k=W₀恒定，D应取等号而非大于。答案BC。"
+    },
+    {
+      "question_id": "bank:gaokao:b6a12aa7d9b491e615f8",
+      "source_sha256": "69bbc4895ed14fb890cf723449d6a20ba242c06a64dbbd200257008dfbdc440f",
+      "annotation_sha256": "b2c5b8cf689092b79a6d6970e19ed2c56e7caef7b4cbe783e8b2db81a53f64fe",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "两颗地球卫星绕同一中心天体运行，开普勒第三定律T²∝r³。；半径比r_P:r_Q=16:4=4:1，周期比T_P:T_Q=(4:1)^(3/2)=8:1，选C。"
+    },
+    {
+      "question_id": "bank:gaokao:bf109ff4ce542d88ce12",
+      "source_sha256": "9502123488e1fa07f26e3d3fef720092a3ac883a5c8bbd1b300fb98c3064c411",
+      "annotation_sha256": "8a15dd84629168ba3207b8a6dca61e2012030b48916881bbcab5fd877fc80031",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "晴天车速108km/h=30m/s。反应距离30×1=30m，制动距离120−30=90m。；由v²=2a₀s，晴天制动减速度a₀=30²/(2×90)=5m/s²；雨天a=(2/5)a₀=2m/s²。；雨天安全距离满足v×1+v²/(2×2)=120，即v²+4v−480=0。取正根v=20m/s。"
+    },
+    {
+      "question_id": "bank:gaokao:c32fa763990a2749ed49",
+      "source_sha256": "ce30820449d2e9cb815e39e36e7a80500856ae8857a0a94fd954c93b5b020da7",
+      "annotation_sha256": "2d98ded6c52643dbaff68daec84a0d0d2d554614f1044caa577402b281a8cb3e",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "稀释可使少量油酸较易铺展，便于形成单分子层油膜。；将1mL溶液逐滴加入量筒，记录总滴数N。；每滴溶液体积为1/N mL，再乘溶液中油酸体积分数得到纯油酸体积。；单分子层近似为厚度d的薄层，油酸体积V≈Sd。；已由溶液浓度和滴数求得V，故还需测量油膜面积S，再算d=V/S。"
+    },
+    {
+      "question_id": "bank:gaokao:c8899521eba1bdbfa68d",
+      "source_sha256": "25652bf24b0bc6d4f4d3b9fbb8110ee07f790b3130b82acac0d29a6b2d779b1f",
+      "annotation_sha256": "cd1c8d70ef4dcd1b4da766bd138f2f0cc5fa1a7f1f413aba9345a58c2b925433",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "惯性是物体保持原有运动状态的性质，A正确。；合外力为零时物体可以静止，也可以沿直线匀速运动，B错误。；匀速率圆周运动速度方向持续变化，不能称为惯性保持，C错误。；不受力的运动物体保持原速度和方向，即匀速直线运动，D正确；选AD。"
+    },
+    {
+      "question_id": "bank:gaokao:d259d37f48605cbdd237",
+      "source_sha256": "f853d1aab63c6eb82f498885c7587eb51f5e17961121b186431ff2cfe28309e2",
+      "annotation_sha256": "931c69144ac304276d43f90a22a98acfd4f0446857e4e32f8b2f71be250d5343",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "设抛出点水平速度为v₀、高度为h。题设½mv₀²=mgh。；机械能守恒给出落地速度v²=v₀²+2gh=2v₀²。；竖直速度分量满足v_y²=2gh=v₀²，水平分量仍为v₀，因此tanθ=v_y/v₀=1，θ=π/4，选B。"
+    },
+    {
+      "question_id": "bank:gaokao:d5f99c89b4765bfa775e",
+      "source_sha256": "d65a2bbd59d9effbc57fdc9ecd56f2883579b97e1ed5edcec44d1430a4363b97",
+      "annotation_sha256": "b2bbcdf07b3a072e06489ca1621fce2e7acd26381bdecae1b9a060e6da8fef65",
+      "decision": "pending",
+      "reason": "题干反复写“氚核聚变/㲴核聚变”，反应式却是氘核D+D→He-3+n；核种名称冲突需修正。",
+      "independent_solution": "按给定反应式质量亏损=(2×2.0136−3.0150−1.0087)u=0.0035u，释放约3.26MeV，数值选B；题干反应名称冲突仍待修复。"
+    },
+    {
+      "question_id": "bank:gaokao:d610831c42b0114592ab",
+      "source_sha256": "5902a227cf08c26193cdcf051aacd01dcc88402ade7253b03caae091f3273bc1",
+      "annotation_sha256": "06439e8e074385c6114b65b9b1eb96051eebb1e824f4d4cfb1e711745d230510",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "单位时间流过喷口的水体积为Sv₀。；乘以水密度ρ，得到质量流率ṁ=ρSv₀。；水从喷口上升至玩具底面，v²=v₀²−2gh。；单位时间水质量ṁ=ρSv₀，水竖直速度由v变为0；水对玩具的向上冲击力大小为ṁv。；悬停平衡要求ṁv=Mg，得v=Mg/(ρSv₀)。；代回运动学关系得h=[v₀²−M²g²/(ρ²S²v₀²)]/(2g)，即题给等价表达式。稳定悬停前提保证该高度可达。"
+    },
+    {
+      "question_id": "bank:gaokao:ddb87b76d48fcf600386",
+      "source_sha256": "0ffd2be8f5f2c4143cc28d75eebe118b29931b2977434bea0baf7f809fde4cdc",
+      "annotation_sha256": "72eb562a4cd866894126d14a76a73f93782c644e79260ca096be41897be94cbf",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "起飞时升力等于重力，kv₁²=mg。；装载前后k不变，速度平方与质量成正比：v₂²/v₁²=m₂/m₁。；v₂=66√(1.69×10⁵/1.21×10⁵)=78m/s（按题设数据取整数）。；使用v²=2ax，a=78²/(2×1521)=2m/s²。；使用v=at，t=78/2=39s。"
+    },
+    {
+      "question_id": "bank:gaokao:e092a6277342b1f80819",
+      "source_sha256": "92172470f4db82a8deeb87d69ed537fc3173cdb73d94ffb88e2326bb77a51a8a",
+      "annotation_sha256": "7ef460c678ff7b7b3740207efff9fdea124466baf1431094745ab91ad89ec9c8",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "地球同步卫星轨道半径r₁=R₁+6R₁=7R₁，周期T₁=24h。另一行星r₂=R₂+2.5R₂=3.5R₂。；圆轨道有T²=4π²r³/(GM)，球体质量M=(4/3)πρR³，因此T²∝(r/R)³/ρ。；T₂²/T₁²=(3.5/7)³×(ρ₁/ρ₂)=(1/8)×2=1/4，故T₂=12h，选B。"
+    },
+    {
+      "question_id": "bank:gaokao:e3a3d1ac13e5fd2abf90",
+      "source_sha256": "328518b01bb63743000693996f4d984380995ea876b37b99ac78d119f3e0cc48",
+      "annotation_sha256": "79562cc4251916287249eaebf91b11acb7fd9c68da9927b0005ba1d075d983c6",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "设半衰期t₀的初始原子核数为x，半衰期2t₀的为y，则x+y=N。；经过2t₀后，x剩x/4，y剩y/2；方程x/4+y/2=N/3，解得x=2N/3、y=N/3。；经过4t₀后，前者剩x/16，后者剩y/4，总数=N/24+N/12=N/8，选C。"
+    },
+    {
+      "question_id": "bank:gaokao:e6b254fbc37902bea00d",
+      "source_sha256": "3f7044ad21d140cc718f51cefde92bbc1faf10f1739286390d820456529ae139",
+      "annotation_sha256": "d8ec89359d36b8518276db55aac8f6f05805485be2bfae06d89632a79df54d91",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "感应电流产生的磁场总阻碍磁通量变化；要维持磁通量变化，外界必须做功。；外界机械能转化为电能等其他能量，体现能量守恒，选D。"
+    },
+    {
+      "question_id": "bank:gaokao:ecb56600f8bd9bf4981b",
+      "source_sha256": "2935a0d8b849342acf5ec620d9abe01a984515b9b4905bb13360716c6815a2d3",
+      "annotation_sha256": "f447637a8f91ec0e37c1df2aaf5ff5813e05746db71b967d296d2997b3ae2047",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "两球从相同高度水平抛出且忽略空气阻力，竖直运动相同，下降同一高度所用时间相同。；从发球点到球网的水平距离相同，水平速度较大时通过该距离所需时间更短，在此期间竖直下落更少，因此更容易越网。选C。"
+    },
+    {
+      "question_id": "bank:senior-physics:dev:0",
+      "source_sha256": "fcd4248b108c66e8761703be9618a9738dc05f3c919e8fc148a0d8dfec9a319f",
+      "annotation_sha256": "8f1849d29d8d5b6749dbedbf08bd8a54a417cf4754faf021939030fab84fe234",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "取东为+x、北为+y：东西向合位移为2−6=−4m（向西），南向位移3m。；位移大小为√(4²+3²)=5m；路程为2+6+3=11m。"
+    },
+    {
+      "question_id": "bank:senior-physics:dev:3",
+      "source_sha256": "7fdd791fbba8230717ce836ceddeed1213153973fd6ad0d496c7ab7dffc1d600",
+      "annotation_sha256": "cc32915072520cfdf61e9745149338bb40514b83ad931c69b413f3b2fa0fa547",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "铁链使油罐车车身与大地导通，摩擦产生的电荷可转移到大地，降低静电积累和放电引燃风险。；其他选项分别把拖链误作标记、散热或声响装置，均不符其接地用途。"
+    },
+    {
+      "question_id": "bank:senior-physics:dev:4",
+      "source_sha256": "3f894e41cbfd264d8ad89a8a95d6758c583b1d860c8e35c145b2ade4de8c29a0",
+      "annotation_sha256": "78afe271e57049073e904e6f9101c2327a996e4577be5f011fc4bbc8a088ad59",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "刹车时间t停=v₀/a=20/5=4s。；4s内位移=20×4−(1/2)×5×4²=40m；6s时汽车早已停下，位移仍为40m。；位移之比为1:1，选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:0",
+      "source_sha256": "d04749c3325d8d19d7abc246be10915f49866e69c86a751a135a2e4e298d8b6b",
+      "annotation_sha256": "c135161d95c7812f37f185a7631082950a0d7223bf1cec5b4157607642950c0c",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "通常核电站通过可控重核裂变释放能量，再由热机和发电机转化为电能。；放射性衰变、人工同位素和化学反应不是现有核电站的主要能量来源。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:1",
+      "source_sha256": "516245caa2a6873f6cb0298f345e2819c2fddd11948b67ab5fdcaf3925cce8ff",
+      "annotation_sha256": "cda1c895da4ee8a1a274f9a8ec291efe9c624bbbb0e9050ef2ec58a6cde557bc",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "炉火加热沸水时，能量通过温差由火焰/器具传给水，属于热传递。；其余三项均由摩擦或外界压缩做功导致内能改变。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:100",
+      "source_sha256": "3d5e05f81bebdeceae5fe50fc34fdd343d04b2765c190582dd764b0a79b7692c",
+      "annotation_sha256": "b790e3f5413b5f594f4d0486d782ad89c2d33d14e6b35a71a982d0f9f62863d6",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "飞机机轮导电橡胶、地毯夹金属丝、油罐车接地铁链均用于泄放静电、避免静电危害。；静电复印利用静电力转移墨粉，属于静电应用，选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:102",
+      "source_sha256": "c4179020ea1e2c66e78abc6baa3a698efd060e741ca79a342b647099d6ef8548",
+      "annotation_sha256": "a063db838e8275ac17409ae96c49739688ea43a3b5bc40ac7550153b654f0220",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "F=BILsinθ，I L=2.5×0.2=0.5。；B=2T时F最大值为1N，随夹角变化F可从0到1N，故可能为1N，选C。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:103",
+      "source_sha256": "117c9f10dc18fb414a751fea560b57b9a0bf17e5ea62488b18e7285955e67509",
+      "annotation_sha256": "0a15e94546a31d5cda0645f684a33edda7cda9726e503ce9c29fc106149eb568",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "落地前后速度变化近似相同，动量变化量近似相同，因此冲量近似相同。；沙坑延长停止时间，由平均力冲量关系F̄Δt=Δp，平均冲击力减小，选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:105",
+      "source_sha256": "b3b48e94ed5b5ede89f44fdc84cd063264aff4dd68a1f757f8bfc888c80294bd",
+      "annotation_sha256": "96189ad81569aec20b16a4f539fac91de12ab6e2103cee93a2fac3ca960e0fc7",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "受激辐射中原子从较高能态跃迁到较低能态并放出光子，因此原子总能量减小。；对库仑束缚态，势能V=2E、动能K=−E；总能量E降低时V降低、K增加，故选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:107",
+      "source_sha256": "5cd19874c59828b11d0fc29c0ebe46f114d50e4852f492960672ba42d9bfb943",
+      "annotation_sha256": "ce5976344dac504d577ceed1e0e9bbf3da7b4c7d9cc5a735d69ec2f0668a9ec6",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "波速是波形/振动状态在介质中的传播速度，反映振动在介质中传播的快慢，选C。；在给定介质中波速由介质性质决定；频率改变时波长相应变化，波速不由波源单独决定。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:108",
+      "source_sha256": "2d86d23da36098247bfab83b45bdb7d179434fb9f0c8f2b1ee6e9d4e337dedf3",
+      "annotation_sha256": "6e5d0d937ab0894c01d8501cc419048e21d17dff2cc7c2587169ce17d7e0035f",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "器件标注35V及2200μF，其中μF为电容量单位，故为电容器，选C。；35V表示耐压参数，不能据此认作电源电压输出。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:11",
+      "source_sha256": "bf3879a96bd003525308cb5d3ac0b04fed4cb721c4f4fc88a445f609209c2bea",
+      "annotation_sha256": "86cbb2f1ae0e44da75ef331f545e328148ac430246b5215db5c004ab45c0766a",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "原紫外线不能产生光电效应说明其频率低于该金属阈频。；延长照射时间或提高同频光强不能补足单个光子的能量；X射线频率更高，可能超过阈频，选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:14",
+      "source_sha256": "2c37dd26caf6efe7b8e8584ad0596f293f075a5d220aa35f6373702005d82bce",
+      "annotation_sha256": "01cf3bd9084fcbbb2589aac5181328ebdabd7450b607e26e9b96fd6b90237d61",
+      "decision": "passed",
+      "reason": "独立枚举三只电阻均参与时可得36、4、8、18Ω，故24Ω不可能；题干按通常“使用三只”解释。",
+      "independent_solution": "三个12Ω电阻全串联为36Ω，全并联为4Ω。；两只串联后与另一只并联：24||12=8Ω；两只并联后与另一只串联：6+12=18Ω。；可得值为36Ω、4Ω、8Ω、18Ω；24Ω需只用两只而闲置一只，因此题意按三个电阻均参与时，不可能值选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:15",
+      "source_sha256": "23419b784592103437d917bc42f6be68b9c41d28e17dc3404190933cfc5a0883",
+      "annotation_sha256": "7a603e9c09d86e49afb782bce5e72fa273d3fe6ffc1319964e33f57754deb7c7",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "透明标准样板与单色光检验平面平整度利用空气薄膜干涉；油膜彩色也由薄膜干涉产生。；光纤传播利用全反射，白光经棱镜形成彩带属于色散，因此与干涉相关的是B、D，即选项C。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:18",
+      "source_sha256": "cbcfe6907a8cf6cf2f2f9316830fa9d184ec6a5ceb6f767344aeda0a594d5fa8",
+      "annotation_sha256": "357e0ddc77ab15258b17a68b2a18846ed843377979a1259299608c4c07085cf4",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "f与√(LC)成反比。L、C都减半时LC变为原来的1/4，√(LC)减半，频率加倍。；其余组合使LC乘积分别为1/2、1/2、4倍，频率不会加倍。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:19",
+      "source_sha256": "78f799386e082d83192dd189a2882d43760d8e973fc40a3d3d1cfeec69f15cf2",
+      "annotation_sha256": "cae9983a318713c8e1d60f9d2a26d20ac062faf7c5eb37fc377f141db8360cbc",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "冰雪消融是熔化吸热，积水干涸是汽化吸热。；滴水成冰是凝固放热，霜形成是凝华放热，因此为C、D，对应选项D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:20",
+      "source_sha256": "ba49ed8a9a2ec2f4b33e446be3a6b89654a5f6a9b8eca32bfd2d6361d2cb981b",
+      "annotation_sha256": "0a25fb3c607f9e4ba3d6d4ba6c6e036083bc71cf6cb551d52a07b543aff75570",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "自由落体要求物体只受重力作用且由静止开始。；仅知道物体竖直向下运动并不能保证初速度为零或阻力可忽略，所以‘竖直向下运动一定是自由落体’不正确，选B。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:22",
+      "source_sha256": "a5cc054883f30af40f057dd9854ac54fee1b46ddbbf9d869f6fd8030ab81719e",
+      "annotation_sha256": "0e250732ac2fa18f1ecd3153c0f8d01a3f1de342d6b5e9d40c1220d39e4712aa",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "少数α粒子发生大角度偏转、极少数反弹，表明正电荷和大部分质量集中在原子核，卢瑟福据此提出核式结构模型。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:24",
+      "source_sha256": "780a09a160f47003f8900bcb629ac37c3c5cc967c03baf52ca6631e89bf2981c",
+      "annotation_sha256": "cc46ede392180f2ed8beaf834fae0c3517c31f58c76c6123803a8de701397a26",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "初速度为零且只受重力，v=gt=10×2=20m/s，方向竖直向下。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:25",
+      "source_sha256": "31ea15b5cc886a108d47779a1edd6462fd04f25dd06de2e73820a7c52e864c19",
+      "annotation_sha256": "5a2d26dd1d54758db67d08ecddf1113271aa037851236f4cbaffacc9217fefe2",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "频率f=30/60=0.5Hz。甲在波谷，沿传播方向到乙波峰且中间还有一个波峰，波谷至乙波峰的间距为3λ/2。；3m=3λ/2，得λ=2m；v=fλ=0.5×2=1m/s，选C。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:27",
+      "source_sha256": "7ec2d3560b71c11e7b78b63e1e8d6e3144685d0c16ef76cd5e4a7e2e2be853a3",
+      "annotation_sha256": "54e0154795be2b46ade3e311ca2978a6ddb705eca8972736395d657d986d2607",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "匀速圆周运动的速率不变，但速度方向沿切线且不断改变，因此速度矢量变化，运动是变速运动。；加速度一般有向心分量且不必始终只指向圆心；合力不为零。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:29",
+      "source_sha256": "9cc61c37046e73bab6ddfde8021b7ac246d17b83a1e5dbb4c9b8b79d6a536012",
+      "annotation_sha256": "0162cbf2195dddeff60373ca82f9514df8d0cdd8c2c2ae125cfef16f9dd3935b",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "圆轨道由GMm/r²=mv²/r，得v=√(GM/r)。；轨道半径更大时速率更小，选C。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:30",
+      "source_sha256": "e4bcdb0942f1daede0ad64e5d4bec058e94fb1db9b15164c93a97cb9109b4c95",
+      "annotation_sha256": "eed901c2ae2c61fc7731fbcbf13479adf4e8c0ade16a34b79d5c88e98f0dc56d",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "小角度单摆周期T=2π√(l/g)，与摆球质量无关，频率不变。；平衡位置处速度为最大值；摆长固定时振幅与该最大速度成正比，速度减半则振幅改变（减半）。选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:32",
+      "source_sha256": "78d29a78b652eea829996455ef7b59d3120b9011af686b78a19ff0d08ea60228",
+      "annotation_sha256": "f2eaeac1024271761f3dbe7885a923fc7c2534eaca3bbc9c5e82d8c793f43b79",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "加速度、速度和力均为矢量；质量只有大小、没有方向，是标量，选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:35",
+      "source_sha256": "5f73f4120bbd05a05ae7999e98b9a1e9c8a6314cba7191b12a9058b4f10b14a4",
+      "annotation_sha256": "a45b9e3af960dd292193f93c55ff0409f5cfd4239b9f4a9d4aaf983d0a1d4503",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "x(t)=6t−t²，速度v=dx/dt=6−2t；转折点t=3s。；x(0)=0，x(3)=9m，x(4)=8m，所以0到3s走9m，3到4s返回1m，总路程10m，选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:36",
+      "source_sha256": "888b8e9296acf9731dbe6623904ec14e78b1a32643813a2ae35b4ee20f14e202",
+      "annotation_sha256": "08bee667ee980ec8dd71fae95a0cbfbc7a62cf4cacb6e9a1997fe05aecfc8fe4",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "月球绕地球做匀速圆周运动，向心加速度由地球万有引力提供。；因此轨道处地球引力产生的加速度g₂等于月球轨道向心加速度a，选C；月球表面重力加速度g₁是另一个位置的场强。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:37",
+      "source_sha256": "b7b8dad95a434f1eeac9cd02bf103b3eae912ec7405ee8ce0c2541a0cce59c49",
+      "annotation_sha256": "b35f534b96b58133abacdfffd326aca2fd2c1b59fd10d00fb81c357ea6c93935",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "伦琴射线即X射线，可由高速电子轰击固体靶产生。；γ射线来自原子核跃迁；紫外线不比紫光更难衍射，因波长更短反而更难发生明显衍射。故选B。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:40",
+      "source_sha256": "824bfe04e7c5c944189b6a3bb8c89c84ba3dd0b41c03c7621482940230482b52",
+      "annotation_sha256": "18be77faa9d66a9c52fec6ed66bbc541566029a0670d07e32d91864ec2b6b95f",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "波传播一段时间后，距波源x的质点相位滞后kx。若x=vT=λ，则相位差2π。；故质点与波源同位移、同速度状态；其振幅也等于波源振幅A，选C。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:41",
+      "source_sha256": "7919a220213c9051dd148c79758e7c63ca4af2a05811bdd146c991b3bf30c0c2",
+      "annotation_sha256": "2ef1a37407bb70a409addfea9a997960b5c80eaf3c582fa52e6d6c84c2297865",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "取初速度方向为正，初动量pᵢ=0.3×6=1.8kg·m/s，末动量p_f=0.3×(−6)=−1.8kg·m/s。；Δp=p_f−pᵢ=−3.6kg·m/s。动能未变，墙对球做功为0，故正确选项C。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:42",
+      "source_sha256": "ac17af7f65ed25c84fd86d5b6c8bcf3f335b94d153abeeb616d523e88c627975",
+      "annotation_sha256": "6f0e9dd296f83418e575f67b4b7a2bff22876e71ab9782db50d12ecb9bac2142",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "11.4天后衰变的比例为7/8，剩余比例为1/8=(1/2)^3，经过3个半衰期。；半衰期T₁/₂=11.4/3=3.8天，选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:45",
+      "source_sha256": "24042d35a516f3c3c635df0c24c04d30d4fc53878e11f9d2af6df87f93ade7a1",
+      "annotation_sha256": "c971b347b677385ee9cad50ee04e935078852d5eee51697ec18572a71c28b352",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "正弦横波在同一时刻处于平衡位置的点相隔整数个半波长，故6=nλ/2。；当n=1、2、3时，端点间可有一个波峰（端点起始相位方向不同会决定奇数个半波间隔中波峰/波谷数）；对应λ=12m、6m、4m。；其它选项中的波长会给出不整数的半波间隔，或区间内波峰数不为1。故选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:50",
+      "source_sha256": "344a5d09bd56a17e4b46b87096fd0c0634b025b05053c3e528ecd1351c0f617a",
+      "annotation_sha256": "f2efee83119c50c9ee64c0b0b57b114da71e39230ca71aaea9002e1577586c5e",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "小球先从4m高度落到地面，路程4m；再上升到1m被接住，路程1m。；总路程5m；起点在4m、终点在1m，位移大小|1−4|=3m，选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:51",
+      "source_sha256": "fe261cce9d88f5be46a46d0223d9eda5785262ef700a548a21794f5576e00e2b",
+      "annotation_sha256": "ef39e45ff1943a32760453caea94bd9129e50fa75e0858f338ff4da908eb6033",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "法拉第定律ε=|ΔΦ|/Δt（线圈匝数固定），感应电动势取决于磁通量变化率。；所以变化越快，电动势越大；只知道变化量、磁通量值或磁通量为零均不足以单独确定电动势。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:52",
+      "source_sha256": "12aace8dd4cb4fba0a4049aa3e8c364ab976882d50ecae6f6eb1be27dc8a1460",
+      "annotation_sha256": "309dfdf73351543564311c41867fcd4ffd190e7175938c129b2459fbb12975c4",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "相同质量、初温且吸热量相同，ΔT=Q/(mc)。水的比热容大于铜，所以水升温较少，铜温度更高。；接触后热量从温度较高的铜块传给水，选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:53",
+      "source_sha256": "2393d3b0ce7f6d7a8c1d478d729a2739975a436aa8dbd7e37e1aedec312c6df4",
+      "annotation_sha256": "067bc6f852aaa335a4d1cdd27d6420f44f76c391664e8ba615030f1fefc5c15e",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "加速度a=Δv/Δt，描述速度变化的快慢。；速度为零时加速度可能不为零；速度变化量大小还须结合经历时间；速度大小本身不决定加速度。选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:54",
+      "source_sha256": "5c89e8ea6c69a4af34b6139d78c36f519e925775b92a1cd80225a3686cc855ed",
+      "annotation_sha256": "382265bcf1f71a113b480ea5293d08580477121c29d5f8e1870d8cd6bd91db9c",
+      "decision": "passed",
+      "reason": "Q为源电荷、q为试探电荷，大小写有物理意义且选项内容不同；E=F/q，答案D。",
+      "independent_solution": "题设场强由源电荷Q产生，试探电荷q受力F，故E=F/q；更换/移除试探电荷不改变源场。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:57",
+      "source_sha256": "94f42a05e9a39e956dfb2ce2aee285819408890afa53dfca306ebde59e60ee1b",
+      "annotation_sha256": "f5197fe2c941c70b30345f42c4875d2f40eab336b1c71389cb7207660f33c57c",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "取向上为正，F−mg=ma，故起重机对货物拉力F=m(g+a)。；上升位移与拉力同向，做功W=Fh=m(g+a)h，选B。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:58",
+      "source_sha256": "10029a7f8d72d67557ef60c4fa078fad32a422bfb6888ee42c33c7be2ba4fa62",
+      "annotation_sha256": "894d1fa1a6d46d1986582af0b4171f8e1f9e56d2d22dd04e4e519bfa897138d0",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "由O点上抛并返回，t₂=2u/g。越过高h处时的速度平方为u²−2gh，往返该高度的间隔t₁=2√(u²−2gh)/g。；两式平方相减：t₂²−t₁²=8h/g，故g=8h/(t₂²−t₁²)，选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:61",
+      "source_sha256": "f821fb26feb8bb2705acfe673086d0a92ec3cb4c2d801c2a0fc448238b326b9c",
+      "annotation_sha256": "fb158879f22834154b7cee564aea373f69699b1d0c980f2166f1556ad9a73af4",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "同步卫星周期24h，风云一号周期12h。开普勒关系表明周期较长的圆轨道半径较大。；轨道半径更大时卫星可见地球表面范围更广，选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:62",
+      "source_sha256": "621dca26cac6d50671546db1bb4f7b7884a9634a0515fb0b9159cb1026059a09",
+      "annotation_sha256": "03e902a6eebf95b8e95520f412950b30b6e958948b4963dee397963ad7e06060",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "同一位移上各力做功的代数和等于合力做功。；W合=W₁+W₂=8J+6J=14J，选B；两力垂直不意味着功也按矢量合成。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:64",
+      "source_sha256": "a5daa18d83cfd4ede301e419b324f492159ec4937832aa139845f5ee310014da",
+      "annotation_sha256": "c8661f1c25dcdeb685fce467fdbe5093bc1756aa24cb1a7795b521428002a9e0",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "P=Fv恒定。汽车上坡时为克服增大的重力沿坡分力，牵引力逐渐增大，因此速度P/F逐渐减小。；初始阶段合力及加速度逐渐减小、速度逐渐减小，选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:67",
+      "source_sha256": "649b4e59b6f56e32e8782c22a22607f31a9192130aa2f42b8142d79c73d6c05b",
+      "annotation_sha256": "4051a3f8d529332ef92b53ab3bb48c8747a875e74d3116701ca1baf3232aac8b",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "在设计速度下，轨道支持力与重力的合力提供向心力，选项A正确。；速度大于设计值时所需向心力增大，轮缘挤压外轨；低于设计速度时不会挤压外轨。因此C也正确，答案AC对应选项C。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:68",
+      "source_sha256": "e443d249b6fc064376e9df1582ea687c90a4f831f215ba324de2443267121a2f",
+      "annotation_sha256": "c4f2672256983cc78475fd1e906be75ddc2584feb614f4236c3fbbdeb7ba81cf",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "距离不变时F=k|q₁q₂|/r²。两电量各乘3，乘积乘9，静电力为原来的9倍，选B。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:73",
+      "source_sha256": "d3a8d918b928a5d8c67746efd82fe3480a2a0453d68343ce6611986fe8b5ba0b",
+      "annotation_sha256": "c49ab347db134bf26a428c114ab61c616f4407b68853fffc916453469cebe850",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "云层温度不同导致其红外辐射强度不同，传感器利用红外辐射的热效应形成温度信息。；题干描述的是接收辐射并测温，不是化学效应、可见性或穿透性。选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:76",
+      "source_sha256": "2542ac1cd58faf1811bd51c927e0b6380e85939f8e80e20619136b16d5a68985",
+      "annotation_sha256": "a4de54e5f53c1f2b3a71c6fb637e355a71c4ed8bfd4d594f62228a3620f3ab1a",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "支持力为200N，滑动摩擦力μN=0.2×200=40N，题设最大静摩擦力也为40N。；拉力15N、30N小于最大静摩擦力，物体静止，摩擦力分别为15N、30N；拉力80N使物体滑动，摩擦力40N。故选C。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:78",
+      "source_sha256": "f63eb64978b507694b00a275eebeaf0a3ee8c32d8f5b5fbc032d95c4f4eb8d70",
+      "annotation_sha256": "c01e22b7394889a4c6a2cfd5960954a67ad251d271fccddc8e4201e5512463d7",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "全反射只可能发生在光从水等光密介质射向空气等光疏介质时，且入射角大于临界角。；符合条件的是B。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:79",
+      "source_sha256": "b37321104dfb44c659107e34fa60f71b0726c1531b2b8d5cdeaab6e2456ac7f1",
+      "annotation_sha256": "22693f521ff89c9c6d24cdc6643184e5b344d3de15a51f0303722be7cd7fbb5b",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "两绳张力大小相同，水平分量相互抵消。竖直方向平衡：2Tcosα=G。；故每条绳张力T=G/(2cosα)，选B。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:81",
+      "source_sha256": "656c44999c79e555d967c77eceadbbea8fbf9f69df3a219951344bb94fc4a22f",
+      "annotation_sha256": "e799bfb46e5e0b8c65a255c264ad2c69195605a4f0be040deb3152d5db6f3a21",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "分子间距离减小时，分子间斥力迅速增大；该趋势不意味着引力或合力在全部距离范围都单调增大。；选项C符合分子力模型。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:85",
+      "source_sha256": "24e22f05bbb2418a44df33b814129366156755b42cb60227aacac02ac861d93a",
+      "annotation_sha256": "db142f08eca1f978d519d262cba2978985e03096b00a230acd2426c6fc4d463f",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "玻璃砖侧移量δ=t sin(i−r)/cos r；折射率越大，同一入射角下折射角r越小，侧移较大。；紫光折射率高于红光；45°入射比30°有更大的侧移，故紫光45°最大，选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:86",
+      "source_sha256": "888b2dd5a420d2c94fa5ffeca97ee048bcf8e5bcf570dd7b9ee929437e73b022",
+      "annotation_sha256": "501c0d17cd7b09ffa6c9f83e2800c858f9424d127acc27220765c235b45a8e35",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "kg、A、s分别是质量、电流、时间的国际单位制基本单位。；T、N、V和m/s都是导出单位，因此选B。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:89",
+      "source_sha256": "3a8d720a333f7c2e495eebc5e8bf941824ef22c355bad9eb476103ce8359cce0",
+      "annotation_sha256": "8a74ba8ece3ec53191b329972a29849e73f300d39f3c7647e786ab2e55cfe6fd",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "1.26/0.4=3.15个周期，等效于从平衡位置向右运动后经过0.15T。；相位为2π×0.15=0.3π，位移为正、速度仍向右且加速度指向平衡位置，因此向右减速，选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:9",
+      "source_sha256": "5e98daa69c656f01676e7af827ccbf585bc6410233251bc69793b9d6e5b69c00",
+      "annotation_sha256": "b77dd23452e95e95679bd2d1411cd5842be05025e9cd655b7dd63a61506f23ec",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "分子热运动平均动能由温度决定；对一定量气体，分子间平均距离随体积变化，分子势能主要随体积状态变化。；故顺序为温度和体积，选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:93",
+      "source_sha256": "fb9273f6d48730e18ebcdb1e5b386b9c5ea42d79ed743baf83d1bba6612b417c",
+      "annotation_sha256": "f8394fad584d4394c7a327a833eda50a67d043736f02fe19aec1e32d266334eb",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "匀速直线运动合力为零，发动机牵引力等于阻力1.2×10⁷N。；P=Fv=1.2×10⁷×15=1.8×10⁸W=1.8×10⁵kW，选A。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:94",
+      "source_sha256": "662aad6bb8cb552ba521388a9d46f674c406d7c823c7734fe4af626ef47e6501",
+      "annotation_sha256": "03e7fd991586dfe563bbc791e2d449c08de5b87a6e4d397699469b2e8f2566b9",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "两个力互相垂直，合力大小R=√(30²+40²)N=50N。；选D。"
+    },
+    {
+      "question_id": "bank:senior-physics:test:99",
+      "source_sha256": "d79ba13e3b9e5260793eb5c579de113403755446cf89348c5e183151fa30b981",
+      "annotation_sha256": "f8a6efaf62b56a99d263e81165cbeb4266745ad4b35569cb75df13d91719d11c",
+      "decision": "passed",
+      "reason": "独立复核后，答案/选项与题干条件一致；标注主册与课程目标的科目、学段和册次一致。",
+      "independent_solution": "子弹m=0.010kg、v=700m/s，Eₖ=½mv²=2450J。；运动员m=60kg、v=10m/s，Eₖ=½mv²=3000J，较大，选D。"
+    },
+    {
+      "question_id": "bank:tizhuang:10857728",
+      "source_sha256": "b5a8fbe281f232caeaa8a345ef8d76885551b9fdec05c3fdfaff659f94c9529b",
+      "annotation_sha256": "c43eef421903282036fd4708d407033128fab7b48f630d6a57f09c21dc79cea0",
+      "decision": "passed",
+      "reason": "撤去恒力F后其余外力合力恒为−F，产生恒定加速度。初速度与加速度同向可匀加速直线（B），垂直可平抛（C）；匀速圆周与匀减速圆周需方向变化的加速度，不可能。",
+      "independent_solution": "恒定合力后加速度恒定，按初速度相对加速度方向可实现B、C。"
+    },
+    {
+      "question_id": "bank:tizhuang:10907169",
+      "source_sha256": "7befc9e49783c7c6a83c6897cdef61e9d2c6fe1ba12ff0a951f4323b8a991605",
+      "annotation_sha256": "2a4a5917b4b6c7d343c3a54ab1496919d092cbbe7e9a79a31241c5ce341dbebd",
+      "decision": "pending",
+      "reason": "撤去一个力后净力恒定且非零；初速度若与其共线可匀变速直线，若不共线则匀变速曲线，A与B都可能，题源单选只给B但条件不足。",
+      "independent_solution": "源题未给被撤力与原速度的相对方向，不能排除A，单选答案不唯一。"
+    },
+    {
+      "question_id": "bank:tizhuang:11063602",
+      "source_sha256": "7396952a888e3f376463563d24274e4f30ff658d0334e1d6419fc50e54726ec6",
+      "annotation_sha256": "25c124571c0d8228042f14e6463c7ecf75116f3b69beea39c1256d1b9160ca1c",
+      "decision": "passed",
+      "reason": "S=20cm²=2×10⁻³m²；B与线圈平面夹30°，法向分量变化0.2T，磁通量变化4×10⁻⁴Wb；变化率8×10⁻³Wb/s，200匝电动势1.6V。",
+      "independent_solution": "逐步代入法拉第定律，三个填空均与源答案一致。"
+    },
+    {
+      "question_id": "bank:tizhuang:11641820",
+      "source_sha256": "47b684784700510bd1c7f4c88275eff531eeb1f4df7f1e3c92a4aa2d240ec4ae",
+      "annotation_sha256": "ab7a29888392b65d92645e16a0e3c73febe13df0ab4e3ea04ebf51e65991adb6",
+      "decision": "passed",
+      "reason": "圆环翻转180°后有向磁通量反号，|ΔΦ|=2BS。法拉第定律积分得通过截面的电量Q=|ΔΦ|/R=2BS/R。",
+      "independent_solution": "独立复算磁通变化及电量为2BS/R。"
+    },
+    {
+      "question_id": "bank:tizhuang:12212623",
+      "source_sha256": "15b0a78a9d55887869997d3de067b776a5a9be4739cf139f12d0493e91b4618b",
+      "annotation_sha256": "75b10440df6d37d5a8f5c2d8097a8ff9f9e0823028ae6119838af1804a8173fd",
+      "decision": "pending",
+      "reason": "精确几何计算得条纹间距0.0285m；题源答案0.028m与通常两位有效数字舍入0.029m不一致，需核对精度约定。",
+      "independent_solution": "双缝间距由λL/d求得0.0285m；在常规两位有效数字下应为0.029m，来源写0.028m，精度冲突未消解。"
+    },
+    {
+      "question_id": "bank:tizhuang:12383484",
+      "source_sha256": "d1613cb417ffb0941e13308cfd3793974a3f5a040e7e79f4292a8fa4e56071bd",
+      "annotation_sha256": "52c88d1ddf7d4b72db708ec424dd5dea9a0827ad4c5597fb4544d254543f3bd8",
+      "decision": "passed",
+      "reason": "A、B、C分别涉及偏振片透射、布儒斯特反射和消除反光；缝隙彩纹是衍射而非偏振，选D。",
+      "independent_solution": "不能反映偏振特性的是衍射条纹D。"
+    },
+    {
+      "question_id": "bank:tizhuang:16127566",
+      "source_sha256": "48dc92b38992badcf5e96b82728209823472755eaa3897b79db4eb3a59fd93a5",
+      "annotation_sha256": "12d230f4fc5b4a91c46f7fb0986b4014e1264ee87c932d8a4a7d6539c3a8ee42",
+      "decision": "passed",
+      "reason": "匀速圆周运动速度方向改变，向心加速度v²/r非零，合力不平衡，选B。",
+      "independent_solution": "非零向心加速度表明合力不为零。"
+    },
+    {
+      "question_id": "bank:tizhuang:16915744",
+      "source_sha256": "f704edf35e1889fc358822d5a6d04d8d8414ff754bb716e8099ab69fab28c9c8",
+      "annotation_sha256": "bda480224ed439d01ee28dd04a8567423b8aae6c70a41f0fbac4b3cbcb7a1998",
+      "decision": "passed",
+      "reason": "电磁波传播时间t=d/c=10¹⁸/(3×10⁸)=3.33×10⁹s，约105年。",
+      "independent_solution": "直接计算与答案相符。"
+    },
+    {
+      "question_id": "bank:tizhuang:16929831",
+      "source_sha256": "d730b0a4143f28e39751edd4fe24f7c140a53849aef7186c0dfa6ed416d314fe",
+      "annotation_sha256": "a89fcada2a989dc0c651dfd6a01ebc5f1957ddccb02d1c0687dbeec30957ea10",
+      "decision": "passed",
+      "reason": "开普勒第三定律r³/T²相同，r/R地=60(1/27)^(2/3)=60/9=6.67；高度约5.67×6400=3.63×10⁴km。",
+      "independent_solution": "同步轨道高度约3.63×10⁴km，与答案精度一致。"
+    },
+    {
+      "question_id": "bank:tizhuang:19127281",
+      "source_sha256": "1f54af3f6d57473528bf30bd68d087815453c74bc57f8a9a36568bbfb8a4b2b0",
+      "annotation_sha256": "eb161c80e56a5f69b79a58768003c414478bdd4dd6c1853c51ddba517a751326",
+      "decision": "passed",
+      "reason": "能量守恒支持A；能量耗散不破坏总能量守恒；机械能仅条件性守恒；永动机不可能，选A。",
+      "independent_solution": "逐项核对答案A。"
+    },
+    {
+      "question_id": "bank:tizhuang:19133753",
+      "source_sha256": "8083470c79e8ead41ac50ac88493b8a4ad61dc774422faad7d7f517fa9b8e217",
+      "annotation_sha256": "990ada089f1ef143e5bc9248f49b00781147a4c4c77b45beea2fdeeb1de41c78",
+      "decision": "passed",
+      "reason": "电功率P=UI=8×2=16W；电机线圈发热功率P热=I²r=4×0.6=2.4W。",
+      "independent_solution": "独立复算16W与2.4W。"
+    },
+    {
+      "question_id": "bank:tizhuang:19713273",
+      "source_sha256": "b41a32f4330f36adec8129c571b67ead8386abe5acb23bff2a6c74180fc7b2dd",
+      "annotation_sha256": "553c4da92e3cdb35915a6bababc37c1af83065963790f6454181106b8752bb65",
+      "decision": "passed",
+      "reason": "温度升高必使平均动能增大，但压强还取决于体积，故“压强一定增大”错误；A、B、D为教材事实，选C。",
+      "independent_solution": "题目问不正确项，选C。"
+    },
+    {
+      "question_id": "bank:tizhuang:19714624",
+      "source_sha256": "8c0c6ad2717060c1937b0176d8d74f9bc5f8afe4f9fb3455b0406a9a31dbe5da",
+      "annotation_sha256": "ae1907e28e6a8b370d3e822bd650933a983546b88b8c12bf703cae77b141bcee",
+      "decision": "passed",
+      "reason": "布朗运动是悬浮颗粒的宏观运动，仍遵循力学；反映液体分子无规则运动；空气微尘运动不等同布朗运动；热运动为分子运动。错误A、C、D。",
+      "independent_solution": "多选不正确项ACD。"
+    },
+    {
+      "question_id": "bank:tizhuang:19870757",
+      "source_sha256": "40d9820a7105167dfc7ee1c5d795be51438f0a4094e8a68961fff272f84faa11",
+      "annotation_sha256": "b7db2c9122a542d1197d826ad832040ba3eea36d871d0a86401e926a85b693bc",
+      "decision": "passed",
+      "reason": "相遇时共同速度9m/s，乙由静止匀加速，令用时t，则at=9；相对位移条件0.5at²=9t−13.5，解t=3s、a=3m/s²。乙位移13.5m，接力区余6.5m。",
+      "independent_solution": "按乙起点为接力区前端、甲起点在其后13.5m建立运动方程；答案a=3m/s²、距末端6.5m一致。"
+    },
+    {
+      "question_id": "bank:tizhuang:27115326",
+      "source_sha256": "909953dc2e78c8a359ec4136f6378794cab271afbd992959b7bc7d280f12ba38",
+      "annotation_sha256": "ccb87eeb2fe0cc012edada4b6223e26877d186dd3abc2f5f6cb6e8edc70e12d6",
+      "decision": "passed",
+      "reason": "初始F=3kQ²/r²。接触后总电荷2Q均分为Q，距离r/2，新力4kQ²/r²=(4/3)F，选C。",
+      "independent_solution": "相同导体球接触均分电荷；代入库仑定律得4F/3。"
+    },
+    {
+      "question_id": "bank:tizhuang:30169627",
+      "source_sha256": "e3ea75d770d24e36a7e7dc7d88a7389543ebf3401d2b9cb6561f0c5b05267e89",
+      "annotation_sha256": "13f200cda9b33657a18d5b54d51359afa5c016bcdbd657f647adc2a1ca48c1e7",
+      "decision": "passed",
+      "reason": "惯性只由质量决定；不依赖受力，质量改变惯性改变；速度不影响惯性，力不是维持运动所必需，选BC。",
+      "independent_solution": "多选BC正确。"
+    },
+    {
+      "question_id": "bank:tizhuang:30169629",
+      "source_sha256": "f4c29c7516c88612ac2f4a7c6814ee8f461d0d16f7f0ccf9885a875ee3f207f9",
+      "annotation_sha256": "1aaa122d544923d468f5b7ca3b3d98bbd6fcb284ea017b2603414cb492f40ae8",
+      "decision": "passed",
+      "reason": "SI基本单位包括千克、秒、米；千米是米的十进倍数单位，非基本单位，选BCD。",
+      "independent_solution": "按SI基本单位定义答案BCD。"
+    },
+    {
+      "question_id": "bank:tizhuang:30169709",
+      "source_sha256": "470549cabc7f7730f0f8904f08be87fc92e5e1e1351286fbd0110df7545a1dce",
+      "annotation_sha256": "de275721bac99d9daedd861f110da7c5cb781260e09a40019ab913fa9692ae8a",
+      "decision": "passed",
+      "reason": "热力学第一定律ΔU=Q−W=2.5×10⁴−1.0×10⁴=1.5×10⁴J；理想气体内能增大表示温度升高，分子平均动能增大。",
+      "independent_solution": "直接复算填空均正确。"
+    },
+    {
+      "question_id": "bank:tizhuang:30170145",
+      "source_sha256": "2b9a4074ec91cd68903e6021d8022d528e63c57eed09ef01b43e363bbe691264",
+      "annotation_sha256": "fb43f895b90c9dd76a944111fdc81546af6bd596d07f91ed72068ecfb7fe5dde",
+      "decision": "passed",
+      "reason": "A：同质量同温度水汽化需吸收汽化热，蒸汽内能更高；B：附着层分子间距减小表示固液作用较强，发生浸润；C错，理想气体分子间作用力可忽略；D定容降温使平均速率及壁面碰撞通量下降；E第二类永动机违背第二定律。选ABD。",
+      "independent_solution": "逐项独立核对为ABD。"
+    },
+    {
+      "question_id": "bank:tizhuang:32677953",
+      "source_sha256": "488dff4a73ead579a2f50875ac7c84b97c07f62d851fea264c6b0462964fd216",
+      "annotation_sha256": "38eff2df4a62a14c0199a1c9014dea49d247ccb1a55d18998bf028f57dace732",
+      "decision": "passed",
+      "reason": "单位时间迎风空气质量ρSv，速度降至0，动量流率/风力ρSv²；临界F=ρSv²，v=√(F/(ρS))，选C。",
+      "independent_solution": "量纲与动量流率均支持选C。"
+    },
+    {
+      "question_id": "bank:tizhuang:32678963",
+      "source_sha256": "36d5822843a537d9a4f498eaba17ad658e141f269b7ce59302685cd4277bc265",
+      "annotation_sha256": "0ab004a43e0b3fb47dd54a860ffd0ef9195617efe9df69dfdb5b918ccc446964",
+      "decision": "passed",
+      "reason": "实验中需标记圆环位置和两分力方向（C、D）；单独拉时恢复相同位置；比较合力图示的大小与方向。",
+      "independent_solution": "按等效替代原理填CD、相同位置、大小和方向。"
+    },
+    {
+      "question_id": "bank:tizhuang:32679174",
+      "source_sha256": "d3b0759ed151c0ed0f6a4c8ae155221c7155981ea6565c8c7702458fe2e13868",
+      "annotation_sha256": "9495f49969e2d580a82727764084282110c95c106c0db4e0de0d68e392f5d285",
+      "decision": "passed",
+      "reason": "电容传感器用于麦克风，动量定理给出合力与动量变化率关系，红外传感器可用于自动门；D错误。选ABC。",
+      "independent_solution": "核对多选项A、B、C正确，D错误。"
+    },
+    {
+      "question_id": "bank:tizhuang:33694979",
+      "source_sha256": "1498f0508b5d5da5d219f662ecf8a5bb8c64443e210d898c68df04de5a4a3322",
+      "annotation_sha256": "04e4d8ab0be3ad7c269740068a6080f8630e015ab6d0f6e16c54ae1ffc5f2de3",
+      "decision": "passed",
+      "reason": "阻尼振动振幅衰减但周期通常不呈逐渐变小；无阻尼振幅不变；受迫频率等于驱动力频率；过桥便步避免共振，选D。",
+      "independent_solution": "逐项核对D正确。"
+    },
+    {
+      "question_id": "bank:tizhuang:33730044",
+      "source_sha256": "bae142923207216206d7f1227ad2fb242327a5a8010883340ff305fbe23ed94e",
+      "annotation_sha256": "6c2f0ef950d06353b0f50a39d262b0083cdf2a2048821f574e22ad084ce27a36",
+      "decision": "passed",
+      "reason": "ω=π/4、周期8s；t=1、3s位移均为A/√2，速度相反；3至5s速度均负，故A、D。",
+      "independent_solution": "代入位移与速度函数得AD。"
+    },
+    {
+      "question_id": "bank:tizhuang:34818522",
+      "source_sha256": "f9e27130c333ac675063603640f7471629784160c307d199164f72aa45756673",
+      "annotation_sha256": "4f61c33a670be250742ae046a8ea1b7e0efdc7fc8ecf39220a7e7c77bded3e9e",
+      "decision": "passed",
+      "reason": "最大磁力时导线垂直磁场，B=F/(IL)=1/(0.5×0.40)=5T，选B。",
+      "independent_solution": "撤去试探导线不改变外磁场，B=5T。"
+    },
+    {
+      "question_id": "bank:tizhuang:34822980",
+      "source_sha256": "8409019e17c2e1267b5770cc25fb3d9f024b6ffe4634a254d8dceb23853810d8",
+      "annotation_sha256": "61aa218407546124ea175524d4130eafa5cc91eeb9fb852ba1c2ede7d93d75a6",
+      "decision": "passed",
+      "reason": "加速度水平向右g、竖直向下g。t=v₀/g时vₓ=0、vᵧ=−v₀，动能回到初值；此时电势能达最大，且重力做功与电势能增量均为mv₀²/2，故BD。",
+      "independent_solution": "按分运动计算：到vₓ=0时Δy=Δx=−v₀²/(2g)，重力功=+mv₀²/2，电势能增量=−qEΔx=+mv₀²/2；K恢复初值，B、D正确。"
+    },
+    {
+      "question_id": "bank:tizhuang:3506197",
+      "source_sha256": "77b180a903f14f33fb43d8708e2616c30d1c5e0a3f6cbf9dc868b8a9a172e08b",
+      "annotation_sha256": "5198298ed60fbf606d0241a5db3970bbe1e1a85dfe3eb78865ec1329bde4b766",
+      "decision": "passed",
+      "reason": "松香非晶体；晶体熔化吸热时内能增大；多晶体整体各向同性；合适条件下晶体/非晶体可相互转化，选C。",
+      "independent_solution": "逐项排除A、B、D，C正确。"
+    },
+    {
+      "question_id": "bank:tizhuang:3506386",
+      "source_sha256": "025d3f46e8cfccce73eb1fd3b48476d9e7565ef7e21a6671db3f07e90103b28f",
+      "annotation_sha256": "26489a3decc5b55e3384440e5074d9420b6051d99588af02e8ba10c12d1f50fa",
+      "decision": "pending",
+      "reason": "A（吸热但对外做功更多时内能可降）和D（表面分子作用力合力指向液体内部）都符合常见教材事实；来源单选答案不唯一。",
+      "independent_solution": "热力学第一定律支持A，表面层分子受力方向支持D，须核对原卷。"
+    },
+    {
+      "question_id": "bank:tizhuang:3506404",
+      "source_sha256": "e5c34d802ba93030ed292dbbcc0fdb988b4cb2865bb3ad6707e2e2c38b5cc2aa",
+      "annotation_sha256": "2c33b3ad6f562a2ce780938bb82c45c28cd809821f17b00ad44745e74419298f",
+      "decision": "passed",
+      "reason": "A为多普勒测速。B混淆麦克斯韦预言与赫兹验证；均匀变化电场不推出均匀变化磁场；衍射在尺寸与波长相当或更小时明显。选A。",
+      "independent_solution": "独立概念核对仅A正确。"
+    },
+    {
+      "question_id": "bank:tizhuang:3506992",
+      "source_sha256": "d58e8a524bae13b185baa91268621a02f5cd52f78111e095ff34739ebde21e55",
+      "annotation_sha256": "bf4ddf9a2ec11eec95cc026ef4c0583bbb3a2986b8be91306d0baa1925c28ca9",
+      "decision": "pending",
+      "reason": "B与D都符合常见模拟欧姆表的物理事实：红表笔接内电源负极，指针在中值附近通常有利于减小相对误差。来源单选答案疑遗漏选项，需原卷核验。",
+      "independent_solution": "独立判断至少B、D均成立，当前单选题答案无法唯一确认。"
+    },
+    {
+      "question_id": "bank:tizhuang:3507334",
+      "source_sha256": "ac9491a1b4d87106d3fbbe152d2499f0fb0bc8ce1e1220952de581f7b5a37be3",
+      "annotation_sha256": "f56f8f3d5c65a7da945eeea9044bf347c3743a942dcf6dd5cee19ab5959f4f18",
+      "decision": "passed",
+      "reason": "理想变压器匝数比等于电压比，N₂=1000×110/220=500匝，选B。",
+      "independent_solution": "独立计算副线圈500匝。"
+    },
+    {
+      "question_id": "bank:tizhuang:3507377",
+      "source_sha256": "36843721aca0c9f974bd6ca1377040de5c70a9e5a711534f60c58cf8b35266f8",
+      "annotation_sha256": "342d7745f005cd468b5bd85b0cc699de87266b92b4a576b12f7b5f005ab7f4c7",
+      "decision": "passed",
+      "reason": "电压挡红表笔接高电势端，常规电流进入表；欧姆挡电流从内电源正极经表头、黑笔外电路再由红笔流入内电源负极，故都流入红表笔，选A。",
+      "independent_solution": "按模拟表欧姆挡回路与电压挡连接方向，红表笔均为电流流入仪表。"
+    },
+    {
+      "question_id": "bank:tizhuang:36573299",
+      "source_sha256": "eb069d36189d02d6b9422a766a65805a8e863c7d6980bc8b3c0080f58779a90c",
+      "annotation_sha256": "bf494c887b4f3d407d63c9952d6d396aa3b72c8f9aa33e4b3b48ba29621e40b1",
+      "decision": "passed",
+      "reason": "点电荷为理想模型但元电荷客观存在；2.4×10⁻¹⁹C不是e的整数倍；静电平衡导体内部场强为零；铜网用于屏蔽，选C。",
+      "independent_solution": "逐项核对仅C正确。"
+    },
+    {
+      "question_id": "bank:tizhuang:36575792",
+      "source_sha256": "45c5c6b9c0d892a5904f700d8acdb42dfec187194abace6cadd71c8241ae37c6",
+      "annotation_sha256": "710b3cd8aed5eeb86716b956e167b4184d6b7a8cf1113d9154119f682fe29eac",
+      "decision": "passed",
+      "reason": "粒子从静止经电势差U加速，动能增量=qU；质子与α粒子电荷量之比1:2，选C。",
+      "independent_solution": "动能比为eU:2eU=1:2。"
+    },
+    {
+      "question_id": "bank:tizhuang:37336747",
+      "source_sha256": "568f7e135aace851ea40bacc00ef4e712718e6e41a067404898d18cb1445d6f2",
+      "annotation_sha256": "dd4a59ac1f52f289da8e2f519e5a6ea92cc6400450a2ee7057b93e423c65d8a8",
+      "decision": "passed",
+      "reason": "真空电磁波速度均为c；机场用X射线安检；E、B互相垂直；长波更易衍射，选B。",
+      "independent_solution": "逐项核对仅B正确。"
+    },
+    {
+      "question_id": "bank:tizhuang:37343955",
+      "source_sha256": "b9542959e4acb270f847b234cf5655130254d97d34aa9be98de43ad01b0818aa",
+      "annotation_sha256": "a22fca266ab1f2e0eb7240a6c89464b2cb27c34351dd9b472da39fac10c5c6b2",
+      "decision": "passed",
+      "reason": "单光子能量hc/λ，光子数率Pλ/(hc)。距离R处接收率=PλS/(4πR²hc)，令其等于n，得选项A。",
+      "independent_solution": "由阈值方程解得R=√(PλS/(4πhcn))。"
+    },
+    {
+      "question_id": "bank:tizhuang:5050410",
+      "source_sha256": "15dfb25c60e5c808a3268b91a64a736e9679437d1911bcbd7593fd947c42eb7b",
+      "annotation_sha256": "afa93f95fc16f8b4b47914360d5429a10ee7b7038fa42079574100166e7c381e",
+      "decision": "passed",
+      "reason": "原始题源HTML核对为²⁷₁₃Al+⁴₂He→X+¹₀n，neutron电荷下标为空即0；选项逐项为¹₀n是否为质子/中子、X是否为²⁸₁₄Si或³¹₁₅P的同位素。质量数和电荷数守恒得X=³⁰₁₅P，所以B、D正确。源解析虽把X先写成³⁰P再说是³¹P的同位素，按同位素定义（同元素不同质量数）表述成立。",
+      "independent_solution": "独立核对本地Tizhuang原始HTML/JSON： Al-27 + He-4 左侧A=31、Z=15；减去中子A=1、Z=0得X为P-30。¹₀n为中子，D中的P-31与P-30同元素、不同质量数，故答案BD。题中该项解析未提供图像，HTML上下标数据齐全。"
+    },
+    {
+      "question_id": "bank:tizhuang:6289709",
+      "source_sha256": "222b785bd3d3589d748fab06ccfe9a0aef4c2f3b35edb90a684a0e85bc31666d",
+      "annotation_sha256": "aeae4b048ddd09e9d9459745baee6646d1ef4b65d1aeb0771ae2ecb650e3ff33",
+      "decision": "passed",
+      "reason": "热敏电阻可把温度变化转为电阻变化，是传感器元件，选B。",
+      "independent_solution": "概念及选项一致。"
+    },
+    {
+      "question_id": "bank:tizhuang:6529315",
+      "source_sha256": "add923e40bd97b3dafcc53aeddaded34b1ba39a4a8960618f0834b85da9dd010",
+      "annotation_sha256": "06851af764b2f10fa4ce386c46abf41edaad19b8abf52de8bf2005a06b9e9f59",
+      "decision": "passed",
+      "reason": "光电效应体现粒子性；衍射、薄膜干涉、偏振体现波动性，选C。",
+      "independent_solution": "对应选项C。"
+    },
+    {
+      "question_id": "bank:web-1010jiajiao-horizontal-projectile-freefall",
+      "source_sha256": "252faef5d63825eb5f3021d5365ba0e622622c451d3a70ebfc3c147fa66cfa7a",
+      "annotation_sha256": "f49dd4e89b4b225dc700ac129d83152fe3d5d8b421dc4d9cf42644b0d9476fd1",
+      "decision": "passed",
+      "reason": "忽略空气阻力时两球竖直加速度均为g，故相同时间下落高度相同；水平抛球另有水平速度分量，速度矢量不同。选B。",
+      "independent_solution": "两者竖直分运动相同，水平抛球有额外水平速度，故B。"
+    },
+    {
+      "question_id": "bank:web-21jy-battery-emf-internal-resistance",
+      "source_sha256": "61c84439fcf7578799b05e5e91bf45e6e68e1b97438679fe55c9d937e1fda505",
+      "annotation_sha256": "0138b7393b77383af404a7c7f4964845a640e059e758f161d8f4c55d617d79bd",
+      "decision": "passed",
+      "reason": "开路端电压即E=3V。接8Ω时I=2.4/8=0.3A，内阻压降0.6V，r=0.6/0.3=2Ω，选B。",
+      "independent_solution": "由开路电压得E=3V；负载电流0.3A，故(E−U)/I=2Ω。"
+    },
+    {
+      "question_id": "bank:web-21jy-em-spectrum-properties",
+      "source_sha256": "350cd0e98bb7dfe9821e4b56c110e98b798e42fe585a35e6eaa10027a260cb9b",
+      "annotation_sha256": "3aedbbf152bee6f248f6ff54abcf8a9545caf05a028600a8777a86848101e7e0",
+      "decision": "passed",
+      "reason": "电磁波谱不同波长的电磁波本质相同，频段跨度广；波长差异带来作用表现差异但不改变其本质，正确A、C。",
+      "independent_solution": "多选AC。"
+    },
+    {
+      "question_id": "bank:web-21jy-emf-external-internal-energy",
+      "source_sha256": "07448e5e45819cc6c520c9c37900bdc36eb442d4b934787d81703fbce9ff5955",
+      "annotation_sha256": "fb91f4862e78344e6a37628dc35361d58407c77f4accdb0bb1e7f1a6a39e9eba",
+      "decision": "passed",
+      "reason": "电源非静电力做功W总=Eq=18J；外电路W外=Uq=14.4J；内阻热W内=(E−U)q=3.6J，三项相加一致。",
+      "independent_solution": "分别用Eq、Uq与(E−U)q计算，得18J、14.4J、3.6J。"
+    },
+    {
+      "question_id": "bank:web-21jy-emf-lead-acid-battery",
+      "source_sha256": "61fc5b8196d091dc21e3a94a85e54ed5465e501b88031534723c6a8fc36d096c",
+      "annotation_sha256": "7bfff23a2b1edc7dbf9fbccfff188a77ee0b1ae5374bbc527e4ee3d692eab2f2",
+      "decision": "passed",
+      "reason": "电动势定义为每库仑非静电力做功，A、C正确；体积大小不决定电动势，B错；4.8V高于1.5V，D正确。",
+      "independent_solution": "按电动势定义验证A、C；排除按容量误判电动势的B；D正确，因此ACD。"
+    },
+    {
+      "question_id": "bank:web-21jy-lc-current-energy-transfer",
+      "source_sha256": "2c4d425b20002952a38bc525341fe94d79fa7b914791bc5cb07b4ce3307fb848",
+      "annotation_sha256": "3e6c3b75ee770fa724c0cfc83f68cb67d412c008bf0736ee6085232dc0fb603b",
+      "decision": "passed",
+      "reason": "LC振荡中电流减小时磁场能转为电场能，电流最大时电场能为零，电流过零时自感电动势最大，选D。",
+      "independent_solution": "能量在电容电场与线圈磁场间交换，只有D正确。"
+    },
+    {
+      "question_id": "bank:web-21jy-lc-frequency-adjustment",
+      "source_sha256": "39a69e77a602b96f17986a1a90148f8dd9162acdb30de98eb3e86051934dd225",
+      "annotation_sha256": "eb4d662d7cb989f545765f6cd1bc3157cc3192e8dcec48c8a13be55f0891914e",
+      "decision": "passed",
+      "reason": "固有频率f=1/(2π√LC)。增加板间距使C=εS/d减小，频率增大；升充电电压不改f，增L则降f，选A。",
+      "independent_solution": "按LC固有频率及平行板电容关系判断A。"
+    },
+    {
+      "question_id": "bank:web-21jy-parallel-branch-current-ratio",
+      "source_sha256": "eccd006c32cf133e0ee03bdbb669a64790c31239ca820768c937450a5711fd90",
+      "annotation_sha256": "c19c145481abf72fc3a66d7ae4aec9b6bc1debd02f888e12c3aa12d336018158",
+      "decision": "passed",
+      "reason": "并联电压相等，I₁/I₂=R₂/R₁=3/2，故R₂=9Ω；并联总阻R=6×9/(6+9)=3.6Ω，选D。",
+      "independent_solution": "电流反比分流，R₂=9Ω，等效电阻3.6Ω。"
+    },
+    {
+      "question_id": "bank:web-21jy-sensor-application-identification-q5",
+      "source_sha256": "b42e6d75ec3021f34cc4a5c4aa7292e8a864d79e6eb555f1b7da2992f131dafd",
+      "annotation_sha256": "98f78dda273fe702fb0bcc3781ce7c9de12b6291e4d6ebad1f245c27e83fbd21",
+      "decision": "passed",
+      "reason": "孵化温控应用温度传感器而非光传感器，A错；超载报警可用压力传感器，C尾气检测需化学传感器，B、C正确；酒精检测仪不是葡萄糖生物传感器，D错。",
+      "independent_solution": "应用场景核对：超载压力检测、尾气化学检测，故BC。"
+    },
+    {
+      "question_id": "bank:web-21jy-sensor-functions-q1",
+      "source_sha256": "cabe66883e0c1b2cc5b6bbcc0120bc07bfac1dc541a087d8d933b50fd4385ee7",
+      "annotation_sha256": "a76531add3a8893a2a14e3cb9bc6e742977cbe91b36a2440ffec78b2834cb044",
+      "decision": "passed",
+      "reason": "传感器用于采集信息，通常把感知信号转换为电学量，B、C正确。传感器通常需配合控制电路，且并非所有类型都转换为电学量，A、D错误。",
+      "independent_solution": "按传感器信息采集与信号转换功能逐项判定为BC。"
+    },
+    {
+      "question_id": "bank:web-21jy-sensor-integrated-applications-q6",
+      "source_sha256": "70c6a3d47074bca7894b38e4401128bb44c1e0de55225625e916b6776e99f2be",
+      "annotation_sha256": "a7697c8273c331728c91e0afbb48817744a5dadb72a09b27550c975de4d9794e",
+      "decision": "pending",
+      "reason": "A描述的是扬声器的电信号转声音功能而非话筒；B需同时有光与声音传感器；C烟雾报警器常通过光散射而非温度感知；D的人脸识别依赖图像/光传感，但题称还必须使用位移传感器依据不足。源答D与通行原理不符，需核对来源选项或答案。",
+      "independent_solution": "逐项核查后未发现D所说位移传感器为人脸识别必要部件；按通常定义该单选题没有明显正确选项，暂pending。"
+    },
+    {
+      "question_id": "bank:web-21jy-sensor-signal-workflow-q8",
+      "source_sha256": "73003052016b905f979ea6aa938dead10228eeea0e8aef8e360d0e4a60f35471",
+      "annotation_sha256": "c297d8ec894afe9a8d4162b63805f6ec10fc3685ddcdc738e7ae267e9a4fba88",
+      "decision": "passed",
+      "reason": "传感器流程是非电学量→敏感元件→转换元件→转换电路→电学量，选C。",
+      "independent_solution": "按信号传递顺序匹配C。"
+    },
+    {
+      "question_id": "bank:web-21jy-series-resistor-voltage-current",
+      "source_sha256": "4e50418fb13c91ce3ab3fac1e25a18b482b12ba6843b73df3d9482078e968853",
+      "annotation_sha256": "7aa8d3afd78a2373d6c82c13913143527136e151f97d65e8502c6d0ef3264234",
+      "decision": "passed",
+      "reason": "串联电流I=6/10=0.6A，R₂=12/0.6=20Ω；R₃压降=0.6×5=3V，总电压21V，故ABC。",
+      "independent_solution": "串联电流相同，三项数值分别0.6A、20Ω、21V；D的4V错误。"
+    },
+    {
+      "question_id": "bank:web-21jy-terminal-voltage-internal-resistance",
+      "source_sha256": "208e1be0fd611bca7110e1233da7981d00b4d7651822948c19fdb723fa082519",
+      "annotation_sha256": "587db52eacf87b62a967d8802bac38ed96bd14c64ac0400a455c3e934d055280",
+      "decision": "passed",
+      "reason": "电流I=U/R=1.8/9=0.2A；内阻压降E−U=0.2V，所以r=0.2/0.2=1Ω。",
+      "independent_solution": "闭路电流0.2A，内阻为0.2V/0.2A=1Ω。"
+    },
+    {
+      "question_id": "bank:web-21jy-three-resistor-total-extrema",
+      "source_sha256": "6f69ac48d83f20b3b9ba8320f09755c85f713003604a4c064c5e0309a9d27836",
+      "annotation_sha256": "f237e82b9e20093b01ed0a7eea60c1d7bbbbfaf8ac3312aaafa9fda9982e33ff",
+      "decision": "passed",
+      "reason": "最大总阻为全串联4+6+12=22Ω；最小为全并联，倒数1/4+1/6+1/12=1/2，得2Ω，选B。",
+      "independent_solution": "串联取得最大22Ω，全并联取得最小2Ω。"
+    },
+    {
+      "question_id": "bank:web-ixuehai-circular-disk-friction-q9",
+      "source_sha256": "9098a49b7adb490cdc4d7c1893622de716795b0e9ccef20787a6efbb36fb8ee8",
+      "annotation_sha256": "37cb1d04a4d962106c5205040a4122b711810ec09fbb1bdc18d6720d78bcddcf",
+      "decision": "passed",
+      "reason": "匀速转盘上静摩擦力提供向心力f=mω²r；在同一物体及转速下与半径成正比，A正确。变速时还可有切向分量，向心力不是额外的力，固定r时f∝ω²而非ω，B/C/D错误。",
+      "independent_solution": "独立列向心力关系f=mω²r，逐项辨析得A。"
+    }
+  ],
+  "coverage": {
+    "math": {
+      "batch_id": "senior-20261015-math-luna-01",
+      "source_file_sha256": "873e2adc56ff7471e0d323c257135636c2f7ba1f32cd284c9f7f4ed28f5dc7d8",
+      "item_count": 127,
+      "decisions": {
+        "passed": 119,
+        "pending": 8,
+        "excluded": 0
+      },
+      "source_sha256_verified": true,
+      "annotation_sha256_method": "senior_bank.digest(Annotation.model_validate(annotation).model_dump()); null when annotation absent",
+      "unit_count": 22,
+      "units_with_at_least_5_items": 22,
+      "units_below_5_items": {}
+    },
+    "physics": {
+      "batch_id": "senior-20261016-physics-cumulative-gap-1",
+      "source_file_sha256": "96f1f2953f610256fe014fd11d83508d785ee2758166e40ba5d713c5f11bf2f6",
+      "item_count": 173,
+      "decisions": {
+        "passed": 162,
+        "pending": 10,
+        "excluded": 1
+      },
+      "source_sha256_verified": true,
+      "annotation_sha256_method": "senior_bank.digest(Annotation.model_validate(annotation).model_dump()); null when annotation absent",
+      "unit_count": 27,
+      "units_with_at_least_5_items": 27,
+      "units_below_5_items": {}
+    },
+    "audit_matrix": {
+      "schema_version": 1,
+      "scope": "senior math BNU compulsory/selective; physics PEP compulsory/selective",
+      "decisions": {
+        "passed": 281,
+        "pending": 18,
+        "excluded": 1
+      },
+      "errors": [],
+      "books": [
+        {
+          "id": "math-senior-compulsory-1",
+          "title": "普通高中教科书 数学 必修第一册",
+          "selected": 40,
+          "formats": {
+            "composite": 8,
+            "calculation": 4,
+            "proof": 3,
+            "fill_blank": 4,
+            "single_choice": 21
+          },
+          "difficulty": {
+            "1": 31,
+            "2": 7,
+            "3": 2
+          },
+          "units": [
+            {
+              "id": "math-senior-compulsory-1:u1",
+              "name": "预备知识",
+              "selected": 7,
+              "peer_checked": 7,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-1:u2",
+              "name": "函数",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-1:u3",
+              "name": "指数运算与指数函数",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-1:u4",
+              "name": "对数运算与对数函数",
+              "selected": 7,
+              "peer_checked": 7,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-1:u5",
+              "name": "函数应用",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-1:u6",
+              "name": "统计",
+              "selected": 6,
+              "peer_checked": 6,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-1:u7",
+              "name": "概率",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            }
+          ]
+        },
+        {
+          "id": "math-senior-compulsory-2",
+          "title": "普通高中教科书 数学 必修第二册",
+          "selected": 31,
+          "formats": {
+            "composite": 6,
+            "short_answer": 2,
+            "fill_blank": 2,
+            "calculation": 1,
+            "proof": 1,
+            "single_choice": 19
+          },
+          "difficulty": {
+            "1": 15,
+            "2": 16
+          },
+          "units": [
+            {
+              "id": "math-senior-compulsory-2:u1",
+              "name": "三角函数",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-2:u2",
+              "name": "平面向量及其应用",
+              "selected": 6,
+              "peer_checked": 6,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-2:u3",
+              "name": "数学建模活动（二）",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-2:u4",
+              "name": "三角恒等变换",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-2:u5",
+              "name": "复数",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-compulsory-2:u6",
+              "name": "立体几何初步",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            }
+          ]
+        },
+        {
+          "id": "math-senior-selective-1",
+          "title": "普通高中教科书 数学 选择性必修第一册",
+          "selected": 38,
+          "formats": {
+            "calculation": 3,
+            "composite": 3,
+            "fill_blank": 4,
+            "proof": 1,
+            "single_choice": 27
+          },
+          "difficulty": {
+            "2": 16,
+            "1": 18,
+            "3": 4
+          },
+          "units": [
+            {
+              "id": "math-senior-selective-1:u1",
+              "name": "直线与圆",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-selective-1:u2",
+              "name": "圆锥曲线",
+              "selected": 6,
+              "peer_checked": 6,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-selective-1:u3",
+              "name": "空间向量与立体几何",
+              "selected": 6,
+              "peer_checked": 6,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-selective-1:u4",
+              "name": "数学建模活动（三）",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-selective-1:u5",
+              "name": "计数原理",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-selective-1:u6",
+              "name": "概率",
+              "selected": 6,
+              "peer_checked": 6,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-selective-1:u7",
+              "name": "统计案例",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            }
+          ]
+        },
+        {
+          "id": "math-senior-selective-2",
+          "title": "普通高中教科书 数学 选择性必修第二册",
+          "selected": 10,
+          "formats": {
+            "composite": 3,
+            "calculation": 2,
+            "single_choice": 5
+          },
+          "difficulty": {
+            "2": 5,
+            "1": 5
+          },
+          "units": [
+            {
+              "id": "math-senior-selective-2:u1",
+              "name": "数列",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "math-senior-selective-2:u2",
+              "name": "导数及其应用",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-1",
+          "title": "普通高中教科书 物理 必修第一册",
+          "selected": 23,
+          "formats": {
+            "single_choice": 16,
+            "composite": 2,
+            "multiple_choice": 3,
+            "short_answer": 1,
+            "calculation": 1
+          },
+          "difficulty": {
+            "1": 12,
+            "2": 10,
+            "3": 1
+          },
+          "units": [
+            {
+              "id": "physics-senior-compulsory-1:u1",
+              "name": "运动的描述",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-compulsory-1:u2",
+              "name": "匀变速直线运动的研究",
+              "selected": 9,
+              "peer_checked": 9,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-compulsory-1:u3",
+              "name": "相互作用——力",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-compulsory-1:u4",
+              "name": "运动和力的关系",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-2",
+          "title": "普通高中教科书 物理 必修第二册",
+          "selected": 26,
+          "formats": {
+            "single_choice": 21,
+            "composite": 2,
+            "multiple_choice": 2,
+            "calculation": 1
+          },
+          "difficulty": {
+            "1": 10,
+            "2": 13,
+            "3": 3
+          },
+          "units": [
+            {
+              "id": "physics-senior-compulsory-2:u1",
+              "name": "抛体运动",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-compulsory-2:u2",
+              "name": "圆周运动",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-compulsory-2:u3",
+              "name": "万有引力与宇宙航行",
+              "selected": 7,
+              "peer_checked": 7,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-compulsory-2:u4",
+              "name": "机械能守恒定律",
+              "selected": 9,
+              "peer_checked": 9,
+              "minimum": 5,
+              "remaining": 0
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-compulsory-3",
+          "title": "普通高中教科书 物理 必修第三册",
+          "selected": 32,
+          "formats": {
+            "single_choice": 26,
+            "short_answer": 1,
+            "calculation": 2,
+            "multiple_choice": 3
+          },
+          "difficulty": {
+            "1": 13,
+            "2": 16,
+            "3": 3
+          },
+          "units": [
+            {
+              "id": "physics-senior-compulsory-3:u1",
+              "name": "静电场及其应用",
+              "selected": 6,
+              "peer_checked": 6,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-compulsory-3:u2",
+              "name": "静电场中的能量",
+              "selected": 8,
+              "peer_checked": 8,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-compulsory-3:u3",
+              "name": "电路及其应用",
+              "selected": 6,
+              "peer_checked": 6,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-compulsory-3:u4",
+              "name": "电能 能量守恒定律",
+              "selected": 7,
+              "peer_checked": 7,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-compulsory-3:u5",
+              "name": "电磁感应与电磁波初步",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-1",
+          "title": "普通高中教科书 物理 选择性必修第一册",
+          "selected": 23,
+          "formats": {
+            "single_choice": 18,
+            "composite": 2,
+            "multiple_choice": 3
+          },
+          "difficulty": {
+            "2": 13,
+            "3": 4,
+            "1": 6
+          },
+          "units": [
+            {
+              "id": "physics-senior-selective-1:u1",
+              "name": "动量守恒定律",
+              "selected": 8,
+              "peer_checked": 8,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-1:u2",
+              "name": "机械振动",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-1:u3",
+              "name": "机械波",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-1:u4",
+              "name": "光",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-2",
+          "title": "普通高中教科书 物理 选择性必修第二册",
+          "selected": 28,
+          "formats": {
+            "single_choice": 22,
+            "multiple_choice": 3,
+            "short_answer": 2,
+            "calculation": 1
+          },
+          "difficulty": {
+            "2": 15,
+            "1": 11,
+            "3": 2
+          },
+          "units": [
+            {
+              "id": "physics-senior-selective-2:u1",
+              "name": "安培力与洛伦兹力",
+              "selected": 7,
+              "peer_checked": 7,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-2:u2",
+              "name": "电磁感应",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-2:u3",
+              "name": "交变电流",
+              "selected": 6,
+              "peer_checked": 6,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-2:u4",
+              "name": "电磁振荡与电磁波",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-2:u5",
+              "name": "传感器",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            }
+          ]
+        },
+        {
+          "id": "physics-senior-selective-3",
+          "title": "普通高中教科书 物理 选择性必修第三册",
+          "selected": 30,
+          "formats": {
+            "single_choice": 24,
+            "composite": 1,
+            "multiple_choice": 4,
+            "fill_blank": 1
+          },
+          "difficulty": {
+            "2": 21,
+            "1": 6,
+            "3": 3
+          },
+          "units": [
+            {
+              "id": "physics-senior-selective-3:u1",
+              "name": "分子动理论",
+              "selected": 6,
+              "peer_checked": 6,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-3:u2",
+              "name": "气体、固体和液体",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-3:u3",
+              "name": "热力学定律",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-3:u4",
+              "name": "原子结构和波粒二象性",
+              "selected": 9,
+              "peer_checked": 9,
+              "minimum": 5,
+              "remaining": 0
+            },
+            {
+              "id": "physics-senior-selective-3:u5",
+              "name": "原子核",
+              "selected": 5,
+              "peer_checked": 5,
+              "minimum": 5,
+              "remaining": 0
+            }
+          ]
+        }
+      ],
+      "complete": true,
+      "note": "Five peer-checked questions per chapter are a minimum content gate, not full skill/experiment mastery certification."
+    }
+  }
+}

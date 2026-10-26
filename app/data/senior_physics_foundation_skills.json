@@ -1,0 +1,1956 @@
+{
+  "batch_id": "senior-physics-foundations-20261016",
+  "skills": [
+    {
+      "id": "physics-senior-compulsory-1:u1:g1:s1",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u1:g1"
+      ],
+      "name": "质点模型与参考系选择",
+      "requirement": "能根据研究问题判断物体能否近似看作质点，并说明运动描述依赖所选参考系。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u1:g1:s2",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u1:g1"
+      ],
+      "name": "时刻与时间间隔",
+      "requirement": "能区分时间轴上的时刻与两时刻之间的时间间隔，并从起止时刻求持续时间。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u1:g1:s3",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u1:g1"
+      ],
+      "name": "路程与位移",
+      "requirement": "能分别按实际路径求路程、按初末位置求位移，并区分标量与矢量。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u1:g2:s4",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u1:g2"
+      ],
+      "name": "平均速度与平均速率",
+      "requirement": "能由位移与时间间隔求平均速度，由路程与时间求平均速率，并区分速度与速率。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g2:s4:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g2:s4:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u1:g2:s5",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u1:g2"
+      ],
+      "name": "瞬时速度的大小与方向",
+      "requirement": "能区分瞬时速度与平均速度，并判断曲线运动中瞬时速度沿轨迹切线方向。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g2:s5:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g2:s5:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u1:g2:s6",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u1:g2"
+      ],
+      "name": "加速度的定义、方向与速度变化",
+      "requirement": "能由速度变化量和时间求加速度，正确处理速度方向、正负号和单位。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g2:s6:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g2:s6:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u1:g2:s7",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u1:g2"
+      ],
+      "name": "运动图象的斜率与面积",
+      "requirement": "能在给定坐标和单位下读取x-t图象斜率或v-t图象斜率/面积所代表的物理量。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g2:s7:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u1:g2:s7:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u2:g1:s1",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u2:g1"
+      ],
+      "name": "匀变速直线运动速度公式",
+      "requirement": "在加速度恒定的直线运动中应用v=v₀+at，并按选定正方向保留速度符号。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u2:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u2:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u2:g1:s2",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u2:g1"
+      ],
+      "name": "自由落体条件与基本计算",
+      "requirement": "识别自由落体是仅受重力、初速度为零的运动，并能用g近似为10 m/s²完成一步计算。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u2:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u2:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u2:g2:s1",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u2:g2"
+      ],
+      "name": "打点计时器时间间隔与纸带数据",
+      "requirement": "能依据打点计时器频率和计数点间隔求时间，并由纸带相邻位置差计算一段平均速度。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u2:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u2:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u2:g2:s2",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u2:g2"
+      ],
+      "name": "v-t图象的加速度斜率与位移面积",
+      "requirement": "能从v-t图象给定数据求斜率表示的加速度，并由图线下方面积求位移。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u2:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u2:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u3:g1:s1",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u3:g1"
+      ],
+      "name": "重力大小、方向与质量的区别",
+      "requirement": "用G=mg求重力并说明重力方向竖直向下；区分质量与重力。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u3:g1:s2",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u3:g1"
+      ],
+      "name": "弹簧弹力与胡克定律",
+      "requirement": "在弹性限度内使用F=kx，并判断弹力方向与形变方向相反。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u3:g1:s3",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u3:g1"
+      ],
+      "name": "静摩擦、滑动摩擦的条件与方向",
+      "requirement": "区分静摩擦和滑动摩擦，判断摩擦力阻碍相对运动或相对运动趋势的方向。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u3:g1:s4",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u3:g1"
+      ],
+      "name": "牛顿第三定律的相互作用力",
+      "requirement": "识别作用力与反作用力大小相等、方向相反、作用在不同物体上。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s4:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s4:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u3:g2:s1",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u3:g2"
+      ],
+      "name": "力的正交分解与合力",
+      "requirement": "按坐标轴分解力，利用勾股关系或分量求共点力合力。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u3:g2:s2",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u3:g2"
+      ],
+      "name": "共点力平衡条件",
+      "requirement": "用两个正交方向合力均为零判断共点力平衡，并从已知力求未知平衡力。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u4:g1:s1",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u4:g1"
+      ],
+      "name": "惯性与牛顿第一定律",
+      "requirement": "说明惯性是物体保持运动状态的性质，并区分惯性与力。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u4:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u4:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u4:g1:s2",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u4:g1"
+      ],
+      "name": "牛顿第二定律与力学单位",
+      "requirement": "应用F合=ma求单物体合力或加速度，并能用1 N=1 kg·m/s²核查单位。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u4:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u4:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u4:g2:s1",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u4:g2"
+      ],
+      "name": "加速度实验的控制变量与数据关系",
+      "requirement": "能根据给定小车实验数据说明控制变量，并由运动记录估算加速度。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u4:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u4:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u4:g2:s2",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u4:g2"
+      ],
+      "name": "超重与失重的加速度方向判断",
+      "requirement": "依据加速度方向相对竖直方向判断超重或失重，不以速度方向代替加速度方向。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u4:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u4:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u1:g1:s1",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u1:g1"
+      ],
+      "name": "曲线运动速度方向与运动合成",
+      "requirement": "识别曲线运动速度沿切线方向，并将互相垂直的分运动按分量合成。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u1:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u1:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u1:g2:s1",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u1:g2"
+      ],
+      "name": "平抛运动的水平与竖直分运动",
+      "requirement": "在忽略空气阻力时分别使用水平匀速和竖直自由落体规律，且共用同一运动时间。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u1:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u1:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u1:g2:s2",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u1:g2"
+      ],
+      "name": "平抛运动飞行时间与初速度影响",
+      "requirement": "能由下落高度确定平抛飞行时间，并判断同一高度下水平初速度不改变飞行时间。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u1:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u1:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u2:g1:s1",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u2:g1"
+      ],
+      "name": "周期、频率与角速度",
+      "requirement": "使用T=1/f及ω=2π/T描述匀速圆周运动，区分周期与频率。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u2:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u2:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u2:g1:s2",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u2:g1"
+      ],
+      "name": "线速度与角速度、半径关系",
+      "requirement": "应用v=ωr，并判断同一转动中不同半径处线速度大小不同而角速度相同。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u2:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u2:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u2:g2:s1",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u2:g2"
+      ],
+      "name": "向心加速度与向心力",
+      "requirement": "使用aₙ=v²/r及Fₙ=mv²/r，确认方向始终指向圆心。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u2:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u2:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u2:g2:s2",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u2:g2"
+      ],
+      "name": "向心力来源与水平圆周实例",
+      "requirement": "把向心力识别为指向圆心的合力效果，并从实际受力中找出提供者。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u2:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u2:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u3:g1:s1",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u3:g1"
+      ],
+      "name": "万有引力的平方反比与量纲",
+      "requirement": "识别F=Gm₁m₂/r²并判断质量、间距改变对引力的影响。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u3:g1:s2",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u3:g1"
+      ],
+      "name": "行星运动周期与轨道描述",
+      "requirement": "识别行星绕恒星运动可近似按椭圆轨道描述，圆轨道近似下区分轨道半径和离中心天体表面的高度。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u3:g2:s1",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u3:g2"
+      ],
+      "name": "由卫星轨道数据求中心天体质量",
+      "requirement": "将万有引力提供向心力与圆周运动关系联立，理解M=4π²r³/(GT²)中的轨道半径和周期。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u3:g2:s2",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u3:g2"
+      ],
+      "name": "经典力学适用范围与宇宙航行",
+      "requirement": "识别经典力学在低速、宏观条件下的适用范围，并区分第一宇宙速度与轨道高度概念。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u4:g1:s1",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u4:g1"
+      ],
+      "name": "功的正负与功的计算",
+      "requirement": "应用W=Fs cosθ计算恒力做功，并按力与位移夹角判断正功、负功或零功。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u4:g1:s2",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u4:g1"
+      ],
+      "name": "动能定理与重力势能",
+      "requirement": "用合力做功等于动能变化，并以选定参考面计算重力势能变化。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u4:g2:s1",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u4:g2"
+      ],
+      "name": "机械能守恒条件与实验数据",
+      "requirement": "判断只有重力或弹力做功时机械能守恒，并用给定初末数据比较机械能。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u1:g1:s2",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u1:g1"
+      ],
+      "name": "同一直线相对运动的速度合成",
+      "requirement": "以同一正方向表示速度，按矢量关系合成或相减同一直线上的速度。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u1:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u1:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u4:g2:s2",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u4:g2"
+      ],
+      "name": "机械能实验测量与误差比较",
+      "requirement": "能说明纸面实验中如何从高度和速度数据求机械能，并依据给出的不确定度比较初末值；该题不认证实操能力。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u1:g1:s1",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u1:g1"
+      ],
+      "name": "电荷守恒与库仑定律",
+      "requirement": "能说明电荷守恒，并用库仑定律判断点电荷间作用力大小随电荷量和距离的变化。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u1:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u1:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u1:g1:s2",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u1:g1"
+      ],
+      "name": "电场强度定义、单位与方向",
+      "requirement": "使用E=F/q定义电场强度，识别N/C单位及正试探电荷受力方向。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u1:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u1:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u1:g2:s1",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u1:g2"
+      ],
+      "name": "静电屏蔽与导体腔",
+      "requirement": "能解释静电平衡导体腔对外部静电场的屏蔽作用。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u1:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u1:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u1:g2:s2",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u1:g2"
+      ],
+      "name": "接地导体的静电防护",
+      "requirement": "能说明接地可使电荷转移至大地，降低静电积累造成放电的风险。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u1:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u1:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u2:g1:s1",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u2:g1"
+      ],
+      "name": "电势差、电势能变化与电场力做功",
+      "requirement": "使用W=qU并根据电荷正负和移动方向解释电势能变化的符号。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u2:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u2:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u2:g1:s2",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u2:g1"
+      ],
+      "name": "匀强电场强度与电势差",
+      "requirement": "在匀强电场沿场强方向的情形下使用E=U/d，并保持长度单位统一。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u2:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u2:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u2:g2:s1",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u2:g2"
+      ],
+      "name": "电容器电容与储存电荷",
+      "requirement": "使用C=Q/U并区分电容、带电量与电压；识别平行板参数变化趋势。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u2:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u2:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u2:g2:s2",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u2:g2"
+      ],
+      "name": "带电粒子在匀强电场中的受力与加速",
+      "requirement": "用F=qE判断带电粒子受力方向，并用电场力做功与动能变化作一步定量推理。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u2:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u2:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u3:g1:s1",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u3:g1"
+      ],
+      "name": "电流、电荷量与时间",
+      "requirement": "使用I=Q/t计算电流，并识别电流方向按正电荷定向移动方向规定。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u3:g1:s2",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u3:g1"
+      ],
+      "name": "欧姆定律与串并联等效",
+      "requirement": "应用I=U/R，并辨认串联电流相同、并联电压相同及等效电阻关系。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u3:g2:s1",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u3:g2"
+      ],
+      "name": "伏安法测电阻与仪表接法",
+      "requirement": "能根据测量对象选择电压表并联、电流表串联，按R=U/I处理测量数据。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u3:g2:s2",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u3:g2"
+      ],
+      "name": "多用电表读数与电阻率测量",
+      "requirement": "能读取给定多用电表欧姆档刻度，按所选倍率换算电阻，并用ρ=RS/L处理测量数据。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g2:s2:q2",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g2:s2:q3"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u4:g1:s1",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u4:g1"
+      ],
+      "name": "电功、电功率与焦耳热",
+      "requirement": "区分电功、电功率和电热，并应用W=UIt、P=UI或Q=I²Rt计算。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u4:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u4:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u4:g1:s2",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u4:g1"
+      ],
+      "name": "闭合电路欧姆定律与路端电压",
+      "requirement": "用U=E−Ir求路端电压，区分电动势、内电压和外电路电压。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u4:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u4:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u4:g2:s1",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u4:g2"
+      ],
+      "name": "电动势、内阻与U-I实验图线",
+      "requirement": "能从U-I直线的纵截距和斜率含义求电动势与内阻，并检查数据单位。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u4:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u4:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u4:g2:s2",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u4:g2"
+      ],
+      "name": "能源转换效率与可持续使用",
+      "requirement": "能用有用能量与输入能量之比解释效率，并识别节能和可再生能源措施的意义。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u4:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u4:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u5:g1:s1",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u5:g1"
+      ],
+      "name": "磁场方向与磁通量",
+      "requirement": "辨认磁感应强度方向，并用Φ=BS cosθ理解磁通量取决于磁场、面积和夹角。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u5:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u5:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u5:g1:s2",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u5:g1"
+      ],
+      "name": "磁通变化与感应电动势",
+      "requirement": "用法拉第定律计算感应电动势大小，并用楞次定律判断感应磁场阻碍磁通变化。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u5:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u5:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u5:g2:s1",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u5:g2"
+      ],
+      "name": "电磁波的传播与谱序",
+      "requirement": "识别电磁波能在真空传播，按频率排列基本电磁波谱。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u5:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u5:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u5:g2:s2",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u5:g2"
+      ],
+      "name": "光子能量量子化",
+      "requirement": "用E=hf判断单个光子能量与频率成正比，并理解能量按光子量子交换。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u5:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u5:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u1:g1:s1",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u1:g1"
+      ],
+      "name": "动量的大小、方向与单位",
+      "requirement": "使用p=mv求动量，按速度方向标记动量方向及单位。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u1:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u1:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u1:g1:s2",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u1:g1"
+      ],
+      "name": "冲量与动量定理",
+      "requirement": "使用I=FΔt及I=Δp，说明冲量方向和动量变化方向一致。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u1:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u1:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u1:g2:s1",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u1:g2"
+      ],
+      "name": "系统动量守恒条件",
+      "requirement": "判断系统所受合外力为零或外力冲量可忽略时，系统总动量守恒。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u1:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u1:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u1:g2:s2",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u1:g2"
+      ],
+      "name": "一维碰撞的动量列式与符号",
+      "requirement": "选定正方向后对碰撞前后系统总动量列式，粘连碰撞还需满足共同末速度。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u1:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u1:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u1:g2:s3",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u1:g2"
+      ],
+      "name": "反冲与火箭推进",
+      "requirement": "用系统动量守恒解释反冲，并按动量方向关系判断物体分离后的速度方向。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u1:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u1:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u2:g1:s1",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u2:g1"
+      ],
+      "name": "简谐运动回复力与位移",
+      "requirement": "辨认回复力总指向平衡位置，并在弹簧振子模型中用F=−kx表示。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u2:g1:s2",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u2:g1"
+      ],
+      "name": "简谐运动位移与能量变化",
+      "requirement": "能根据简谐运动位移判断平衡位置、端点以及动能和势能的变化。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u2:g2:s1",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u2:g2"
+      ],
+      "name": "单摆周期与摆长、重力加速度",
+      "requirement": "小角度条件下应用T=2π√(L/g)，判断周期与摆长关系。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u2:g2:s2",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u2:g2"
+      ],
+      "name": "用单摆周期测量重力加速度",
+      "requirement": "能通过测量摆长和多次振动总时间求周期，再由g=4π²L/T²估算重力加速度。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u2:g2:s3",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u2:g2"
+      ],
+      "name": "共振条件与振幅变化",
+      "requirement": "识别驱动力频率接近系统固有频率时发生共振，振幅显著增大。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u3:g1:s1",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u3:g1"
+      ],
+      "name": "波长、频率、周期与波速",
+      "requirement": "应用v=λf及T=1/f，辨认波速、频率和波长的单位与相互关系。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u3:g1:s2",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u3:g1"
+      ],
+      "name": "横波、纵波与介质质点振动",
+      "requirement": "区分介质质点振动方向与波传播方向，辨认横波和纵波。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u3:g1:s3",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u3:g1"
+      ],
+      "name": "波形图读波长与质点位移",
+      "requirement": "从波形图的相邻同相点读出波长，并区分波形传播与介质质点振动。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u3:g2:s1",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u3:g2"
+      ],
+      "name": "反射、折射、干涉与衍射辨认",
+      "requirement": "根据现象辨认反射、折射、干涉或衍射，并掌握明显衍射的尺度条件。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u3:g2:s2",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u3:g2"
+      ],
+      "name": "多普勒效应的频率变化",
+      "requirement": "判断波源和观察者相互接近时接收频率升高、相互远离时接收频率降低。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u3:g2:s3",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u3:g2"
+      ],
+      "name": "波的反射、折射与干涉条件",
+      "requirement": "辨认波遇界面反射、进入不同介质发生折射，以及相干波叠加形成稳定干涉。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u3:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u4:g1:s1",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u4:g1"
+      ],
+      "name": "折射定律与折射率",
+      "requirement": "应用n₁sinθ₁=n₂sinθ₂，角度从法线量起，并能按定义求介质折射率。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u4:g1:s2",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u4:g1"
+      ],
+      "name": "全反射条件与临界角",
+      "requirement": "识别全反射只可能从光密介质射向光疏介质且入射角大于临界角。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u4:g1:s3",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u4:g1"
+      ],
+      "name": "光路作图与法线角度辨认",
+      "requirement": "能在界面交点处以法线为基准理解入射角、反射角和折射角，而不以界面本身为角度基准。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u4:g2:s1",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u4:g2"
+      ],
+      "name": "双缝干涉条纹间距",
+      "requirement": "应用Δx=λL/d，并判断条纹间距与波长、屏距、双缝间距的比例关系。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u4:g2:s2",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u4:g2"
+      ],
+      "name": "衍射、偏振与激光特点",
+      "requirement": "识别光的衍射和偏振现象，理解偏振说明光为横波，并辨认激光的典型特性。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u2:g1:s3",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u2:g1"
+      ],
+      "name": "简谐运动位移时间图象读振幅与周期",
+      "requirement": "能从给定的x-t极值时刻和位移值读取振幅与周期；题面以明确文字数据给出图象特征。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u1:g1:s1",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u1:g1"
+      ],
+      "name": "安培力大小及方向",
+      "requirement": "应用F=BIL sinθ计算载流导线受力，按左手定则判断方向。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u1:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u1:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u1:g1:s2",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u1:g1"
+      ],
+      "name": "洛伦兹力方向、大小与不做功",
+      "requirement": "应用F=|q|vB sinθ，按电荷符号判断方向，并识别磁场力不改变粒子速率。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u1:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u1:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u1:g2:s1",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u1:g2"
+      ],
+      "name": "带电粒子圆轨道半径与周期",
+      "requirement": "在速度垂直匀强磁场时由洛伦兹力提供向心力，应用r=mv/(|q|B)和T=2πm/(|q|B)。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u1:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u1:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u1:g2:s2",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u1:g2"
+      ],
+      "name": "质谱仪与回旋加速器原理",
+      "requirement": "说明质谱仪利用带电粒子在磁场中的轨迹半径区分质荷比，回旋加速器利用交变电场加速。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u1:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u1:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u2:g1:s1",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u2:g1"
+      ],
+      "name": "楞次定律的方向判断",
+      "requirement": "先判断原磁通量变化，再判断感应磁场阻碍这种变化。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u2:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u2:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u2:g1:s2",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u2:g1"
+      ],
+      "name": "法拉第电磁感应定律与匝数",
+      "requirement": "用|E|=N|ΔΦ|/Δt计算平均感应电动势并正确处理匝数。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u2:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u2:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u2:g2:s1",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u2:g2"
+      ],
+      "name": "涡流与电磁阻尼",
+      "requirement": "解释导体内涡流由变化磁通感生，并说明其磁场阻碍相对运动或磁通变化。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u2:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u2:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u2:g2:s2",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u2:g2"
+      ],
+      "name": "自感与互感现象",
+      "requirement": "识别自感由本回路电流变化引起，互感由邻近回路磁场变化引起。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u2:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u2:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u2:g2:s3",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u2:g2"
+      ],
+      "name": "楞次定律的能量来源",
+      "requirement": "把感应电流的阻碍作用与外力做功、能量转化联系起来，避免把楞次定律理解为能量凭空产生。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u2:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u2:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u3:g1:s1",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u3:g1"
+      ],
+      "name": "正弦交流电图象的周期与峰值",
+      "requirement": "能从给定正弦交流数据识别周期、频率和峰值，不把瞬时值与有效值混淆。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u3:g1:s2",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u3:g1"
+      ],
+      "name": "正弦交流有效值",
+      "requirement": "使用正弦交流有效值与峰值关系，理解有效值由相同电阻热效应定义。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u3:g1:s3",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u3:g1"
+      ],
+      "name": "交流电的瞬时值、峰值与图象符号",
+      "requirement": "依据正负号读取交流电流方向变化，并区分瞬时值、峰值和有效值。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u3:g2:s1",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u3:g2"
+      ],
+      "name": "理想变压器匝数比与电压比",
+      "requirement": "使用U₁/U₂=N₁/N₂判断升降压，并区分理想变压器输入输出功率关系。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u3:g2:s2",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u3:g2"
+      ],
+      "name": "远距离输电损耗与高压输电",
+      "requirement": "使用P=UI和线路损耗P损=I²R，说明相同输送功率下升高电压可减小电流及损耗。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u3:g2:s3",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u3:g2"
+      ],
+      "name": "变压器电流比与功率守恒",
+      "requirement": "理想变压器近似满足输入输出功率相等，判断升压时副线圈电流变化。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u3:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u4:g1:s1",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u4:g1"
+      ],
+      "name": "LC振荡中的电场能和磁场能",
+      "requirement": "判断电容器放电与充电阶段电场能、磁场能的变化方向及电荷、电流关系。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u4:g1:s2",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u4:g1"
+      ],
+      "name": "电磁波的产生、传播和速度",
+      "requirement": "理解变化电场与变化磁场相互激发形成电磁波，并使用c=fλ处理真空传播。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u4:g2:s1",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u4:g2"
+      ],
+      "name": "调制与无线电接收",
+      "requirement": "辨认调制、调谐和检波在无线电发射接收中的基本作用。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u4:g2:s2",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u4:g2"
+      ],
+      "name": "电磁波谱排序及应用",
+      "requirement": "按频率或波长比较无线电波、红外、可见光、紫外、X射线和γ射线，并辨认常见用途。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u4:g2:s3",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u4:g2"
+      ],
+      "name": "无线电波的调幅与调频",
+      "requirement": "识别调幅改变载波振幅、调频改变载波频率，知道两者都可携带信息。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u5:g1:s1",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u5:g1"
+      ],
+      "name": "传感器输入量、输出量与信号转换",
+      "requirement": "能指出传感器感受的非电学输入量及转换后的电学输出量。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u5:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u5:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u5:g1:s2",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u5:g1"
+      ],
+      "name": "热敏、光敏和力敏元件特性",
+      "requirement": "根据元件特性判断温度、光照或压力变化对应的电阻/电信号变化。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u5:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u5:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u5:g2:s1",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u5:g2"
+      ],
+      "name": "传感器阈值与自动控制逻辑",
+      "requirement": "根据阈值条件判断控制器何时接通或断开执行器，并把输入量变化与输出状态对应。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u5:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u5:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u5:g2:s2",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u5:g2"
+      ],
+      "name": "自动控制装置框图与安全条件",
+      "requirement": "能按传感器—控制器—执行器的信息流程解释简单装置，并从给定电路逻辑判断动作条件；纸面分析不证明实操。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u5:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u5:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u1:g1:s1",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u1:g1"
+      ],
+      "name": "分子动理论与扩散",
+      "requirement": "用分子永不停息无规则运动解释扩散，并区分宏观运动和分子热运动。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u1:g1:s2",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u1:g1"
+      ],
+      "name": "温度与分子平均动能",
+      "requirement": "用温度描述大量分子的平均动能，不把温度等同于单个分子的速度。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u1:g1:s3",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u1:g1"
+      ],
+      "name": "分子速率分布与曲线面积",
+      "requirement": "理解同温气体分子速率有统计分布，能把速率分布曲线某区间下的面积解释为该区间分子所占比例。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u1:g2:s1",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u1:g2"
+      ],
+      "name": "油膜法单分子层模型与实验步骤",
+      "requirement": "能说明油膜法需将油滴体积均匀铺展成单分子层，并量取面积以估算分子直径。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u1:g2:s2",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u1:g2"
+      ],
+      "name": "油膜法分子直径计算与单位",
+      "requirement": "使用d≈V/S计算分子直径，并统一体积和面积的SI单位。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u1:g2:s3",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u1:g2"
+      ],
+      "name": "油膜实验数据与不确定度",
+      "requirement": "能根据给定多次测量数据求平均量，并说明污染、油滴体积偏差等误差对估算的影响。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u1:g2:s4",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u1:g2"
+      ],
+      "name": "布朗运动与分子热运动的区别",
+      "requirement": "识别悬浮微粒的布朗运动是液体分子热运动造成的间接可见现象，而非分子本身轨迹。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g2:s4:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u1:g2:s4:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u2:g1:s1",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u2:g1"
+      ],
+      "name": "摄氏温标与热力学温标",
+      "requirement": "使用T=t+273进行摄氏温度与开尔文温度的近似换算，气体定律中使用热力学温度。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u2:g1:s2",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u2:g1"
+      ],
+      "name": "理想气体状态量与状态方程",
+      "requirement": "识别理想气体状态量p、V、T，并在一定质量气体间使用pV/T不变。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u2:g1:s3",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u2:g1"
+      ],
+      "name": "气体压强的微观解释",
+      "requirement": "用气体分子持续撞击器壁解释压强，并判断温度和体积改变对碰撞的影响。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u2:g2:s1",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u2:g2"
+      ],
+      "name": "等温、等容和等压气体定律",
+      "requirement": "识别三个基本气体过程的控制变量，并应用对应简单比例关系。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u2:g2:s2",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u2:g2"
+      ],
+      "name": "晶体、非晶体与各向异性",
+      "requirement": "辨认晶体有规则空间点阵和确定熔点，非晶体无确定熔点；理解单晶体可有各向异性。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u2:g2:s3",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u2:g2"
+      ],
+      "name": "液体表面张力、浸润与毛细现象",
+      "requirement": "识别表面张力使液面趋于收缩，并能描述浸润或毛细现象的基本条件。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u2:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u3:g1:s1",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u3:g1"
+      ],
+      "name": "内能、热量与做功的区别",
+      "requirement": "区分内能是状态量、热量和功是能量传递方式，不能把热量视为物体所含状态量。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u3:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u3:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u3:g1:s2",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u3:g1"
+      ],
+      "name": "热力学第一定律与正负号",
+      "requirement": "按ΔU=Q+W使用Q为系统吸热、W为外界对系统做功的正负号约定。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u3:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u3:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u3:g2:s1",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u3:g2"
+      ],
+      "name": "能量守恒与能量转化",
+      "requirement": "识别能量转化和转移前后总量守恒，说明实际过程仍可能有能量转为不便利用的形式。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u3:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u3:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u3:g2:s2",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u3:g2"
+      ],
+      "name": "热力学第二定律与过程方向",
+      "requirement": "判断热量自发由高温物体传向低温物体，反向过程需外界做功或其他影响。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u3:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u3:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u3:g2:s3",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u3:g2"
+      ],
+      "name": "热机效率与第二定律限制",
+      "requirement": "计算热机效率并理解热机不可能把吸收热量全部转化为功。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u3:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u3:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u4:g1:s1",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u4:g1"
+      ],
+      "name": "黑体辐射与能量量子化",
+      "requirement": "了解黑体辐射谱随温度变化，并认识能量量子化假设用于解释经典理论困难。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u4:g1:s2",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u4:g1"
+      ],
+      "name": "光电效应截止频率与光强影响",
+      "requirement": "区分截止频率条件、光强对光电子数的影响及频率对最大初动能的影响。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u4:g1:s3",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u4:g1"
+      ],
+      "name": "爱因斯坦光电方程与遏止电压",
+      "requirement": "应用hf=W₀+Eₖmax，并理解遏止电压满足eU遏=Eₖmax。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u4:g1:s4",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u4:g1"
+      ],
+      "name": "原子模型与核式结构实验结论",
+      "requirement": "根据α粒子散射实验辨认原子核尺度很小、带正电且集中了大部分质量。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g1:s4:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g1:s4:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u4:g2:s1",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u4:g2"
+      ],
+      "name": "氢原子能级与光谱跃迁",
+      "requirement": "判断能级跃迁吸收或发射光子，并用ΔE=hf连接能级差和光子频率。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u4:g2:s2",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u4:g2"
+      ],
+      "name": "德布罗意物质波",
+      "requirement": "使用λ=h/p判断物质波波长随动量增大而减小，并可由给定常量直接计算。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u4:g2:s3",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u4:g2"
+      ],
+      "name": "不确定关系与微观粒子描述",
+      "requirement": "认识微观粒子位置和动量不能同时无限精确确定，区分概率描述与经典确定轨道。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u4:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u5:g1:s1",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u5:g1"
+      ],
+      "name": "质量数、质子数与中子数",
+      "requirement": "用A=Z+N联系质量数、质子数和中子数，并在核反应中分别守恒质量数和电荷数。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g1:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g1:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u5:g1:s2",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u5:g1"
+      ],
+      "name": "α衰变、β衰变与γ辐射",
+      "requirement": "依据质量数和电荷数变化辨认α、β衰变，并知道γ辐射不改变质量数和电荷数。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g1:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g1:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u5:g1:s3",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u5:g1"
+      ],
+      "name": "半衰期与放射性计数",
+      "requirement": "应用半衰期计算剩余未衰变原子核比例，并区分单个原子核衰变的随机性与大量核的统计规律。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u5:g1:s4",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u5:g1"
+      ],
+      "name": "核力与原子核稳定性",
+      "requirement": "识别核力是短程强相互作用，能在核尺度内克服质子间静电斥力而结合核子。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g1:s4:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g1:s4:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u5:g2:s1",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u5:g2"
+      ],
+      "name": "质量亏损与质能关系",
+      "requirement": "应用E=Δmc²把质量亏损换算为释放能量，并统一质量单位。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g2:s1:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g2:s1:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u5:g2:s2",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u5:g2"
+      ],
+      "name": "比结合能与核稳定性",
+      "requirement": "用比结合能比较核子平均结合紧密程度，并判断裂变或聚变释放能量的基本条件。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g2:s2:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g2:s2:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u5:g2:s3",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u5:g2"
+      ],
+      "name": "核裂变、链式反应与聚变",
+      "requirement": "区分重核裂变和轻核聚变，并说明链式反应需要中子继续引发后续裂变。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-3:u5:g2:s4",
+      "book_id": "physics-senior-selective-3",
+      "goal_ids": [
+        "physics-senior-selective-3:u5:g2"
+      ],
+      "name": "基本粒子与反粒子概念",
+      "requirement": "辨认质子、中子、电子等基本粒子类别，并理解粒子与反粒子具有相反电荷等相反量子数。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g2:s4:q1",
+        "local:senior-foundations:physics:physics-senior-selective-3:u5:g2:s4:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u3:g1:s5",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u3:g1"
+      ],
+      "name": "滑动摩擦力与动摩擦因数",
+      "requirement": "在水平接触面模型中用f=μN求滑动摩擦力，并辨认N为正压力。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s5:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s5:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u3:g1:s6",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u3:g1"
+      ],
+      "name": "静摩擦力与最大静摩擦力",
+      "requirement": "知道静摩擦力随外力需要而变化，最大值受最大静摩擦力限制，不可一概等于μN。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s6:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g1:s6:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-1:u3:g2:s3",
+      "book_id": "physics-senior-compulsory-1",
+      "goal_ids": [
+        "physics-senior-compulsory-1:u3:g2"
+      ],
+      "name": "受力图与绳张力平衡",
+      "requirement": "在受力对象上列出实际力，按坐标方向平衡张力、重力和支持力。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-1:u3:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u3:g1:s3",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u3:g1"
+      ],
+      "name": "开普勒第三定律的轨道比例",
+      "requirement": "对同一中心天体的近似圆轨道，应用T²与r³成正比比较轨道周期。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u3:g2:s3",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u3:g2"
+      ],
+      "name": "圆轨道速度与失重解释",
+      "requirement": "根据v=√(GM/r)判断轨道半径对速度的影响，并用持续自由落体解释轨道中的失重感。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u3:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u4:g1:s3",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u4:g1"
+      ],
+      "name": "动能及其与质量、速度关系",
+      "requirement": "用Eₖ=½mv²计算动能，并判断速度变化对动能的平方影响。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-2:u4:g1:s4",
+      "book_id": "physics-senior-compulsory-2",
+      "goal_ids": [
+        "physics-senior-compulsory-2:u4:g1"
+      ],
+      "name": "弹性势能与弹簧形变量",
+      "requirement": "在线性弹簧模型中应用Eₚ弹=½kx²，判断形变量加倍时弹性势能变化。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g1:s4:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-2:u4:g1:s4:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u3:g1:s3",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u3:g1"
+      ],
+      "name": "串联电路电流与等效电阻",
+      "requirement": "识别串联电路各处电流相同，使用电阻串联等效关系求总电阻。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u3:g2:s3",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u3:g2"
+      ],
+      "name": "电流表接入与多用电表安全操作",
+      "requirement": "伏安法测量时将电流表串联，并按表计量程和接线端读数，避免短接电源。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-compulsory-3:u3:g2:s4",
+      "book_id": "physics-senior-compulsory-3",
+      "goal_ids": [
+        "physics-senior-compulsory-3:u3:g2"
+      ],
+      "name": "测量重复性、平均值与有效数字",
+      "requirement": "能从给定重复电阻测量值求平均值，并保留与仪表精度相符的有效数字。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g2:s4:q1",
+        "local:senior-foundations:physics:physics-senior-compulsory-3:u3:g2:s4:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u2:g2:s4",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u2:g2"
+      ],
+      "name": "用单摆周期数据求重力加速度",
+      "requirement": "由T=2π√(L/g)变形为g=4π²L/T²，代入摆长和周期估算g。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g2:s4:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u2:g2:s4:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-1:u4:g2:s3",
+      "book_id": "physics-senior-selective-1",
+      "goal_ids": [
+        "physics-senior-selective-1:u4:g2"
+      ],
+      "name": "光的衍射条件与激光单色性",
+      "requirement": "判断光通过窄缝/小孔的明显衍射条件，联系激光单色性与条纹清晰度。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g2:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-1:u4:g2:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u4:g1:s3",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u4:g1"
+      ],
+      "name": "LC振荡周期与参数关系",
+      "requirement": "使用T=2π√(LC)，判断电感或电容变化对振荡周期的影响。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u4:g1:s3:q2"
+      ]
+    },
+    {
+      "id": "physics-senior-selective-2:u5:g1:s3",
+      "book_id": "physics-senior-selective-2",
+      "goal_ids": [
+        "physics-senior-selective-2:u5:g1"
+      ],
+      "name": "光电二极管与压力传感元件",
+      "requirement": "依据元件响应区分光敏元件和力敏元件的输入量，说明传感器把输入变化转成电信号。",
+      "question_ids": [
+        "local:senior-foundations:physics:physics-senior-selective-2:u5:g1:s3:q1",
+        "local:senior-foundations:physics:physics-senior-selective-2:u5:g1:s3:q2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "batch_id": "senior-20261015-math",
+  "scope": "screening taxonomy only; not item verification or answer validation",
+  "curriculum_reference": {
+    "books_expected": [
+      "math-senior-compulsory-1",
+      "math-senior-compulsory-2",
+      "math-senior-selective-1",
+      "math-senior-selective-2"
+    ],
+    "basis": "The book/goal mapping is pending curriculum-agent verification. Do not infer grade, term, or book for an individual source question from a topic name.",
+    "sources": [
+      {
+        "title": "普通高中新教材2019版普通高中数学（北师大版）教材的编写",
+        "url": "https://math0.bnu.edu.cn/~jgbao/rencaipeiyang/jcjj2019.pdf",
+        "use": "publisher/university-hosted overview of the 2019 Be师大高中 mathematics textbook structure"
+      },
+      {
+        "title": "2023年秋季学期普通高中教学用书目录",
+        "url": "https://jyt.gxzf.gov.cn/zfxxgk/fdzdgknr/tzgg_58179/P020230602640453097530.pdf",
+        "use": "official education department list identifying Beijing Normal University Press titles and book volumes"
+      }
+    ]
+  },
+  "topics": [
+    {"id":"sets_logic","label":"集合与常用逻辑用语"},
+    {"id":"inequalities","label":"不等式"},
+    {"id":"functions","label":"函数概念与性质"},
+    {"id":"exponential_logarithmic","label":"指数函数与对数函数"},
+    {"id":"trigonometry","label":"三角函数与解三角形"},
+    {"id":"plane_vectors","label":"平面向量"},
+    {"id":"complex_numbers","label":"复数"},
+    {"id":"solid_geometry","label":"立体几何"},
+    {"id":"spatial_vectors","label":"空间向量与立体几何"},
+    {"id":"lines_circles","label":"直线与圆"},
+    {"id":"conics","label":"圆锥曲线"},
+    {"id":"statistics","label":"统计"},
+    {"id":"probability","label":"概率"},
+    {"id":"counting_binomial","label":"排列组合与二项式定理"},
+    {"id":"sequences","label":"数列"},
+    {"id":"derivatives","label":"导数及其应用"},
+    {"id":"distributions_regression","label":"概率分布与统计回归"}
+  ],
+  "screening_rules": {
+    "all_source_records_preserved": true,
+    "screening_is_not_review": true,
+    "source_answer_or_analysis_is_not_independent_verification": true,
+    "bad_formula_or_missing_figure": "exclude from passed practice items; retain traceable candidate and record concrete issue",
+    "status_values_for_future_review": ["passed", "excluded", "pending"]
+  },
+  "source_datasets": [
+    {"id":"cmm","url":"https://huggingface.co/datasets/ecnu-icalk/cmm-math","revision":"5b227e818a47ebfd0090b4fdcaac38cbf8cb7aa3","license":"BSD-3-Clause"},
+    {"id":"gaokao","url":"https://github.com/OpenLMLab/GAOKAO-Bench","revision":"6dbb24f8d8439041e5431c4c184a582182a6ce9c","license":"Apache-2.0"}
+  ]
+}

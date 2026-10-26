@@ -1,0 +1,4825 @@
+[
+  {
+    "question_id": "bank:cjeval:021f1a1848153a887e7420e8",
+    "source_sha256": "61a168b2c58cece8190a4cffc078e309fc8cb5c8b915c57b0199a573fd76fe19",
+    "current_snapshot_id": "bank:cjeval:021f1a1848153a887e7420e8:1f08581d38ee",
+    "batch": "B4",
+    "trial_group": "calculation",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "已知U=12V、R=8Ω。由欧姆定律I=U/R=12V÷8Ω=1.5A。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 一根导线的电阻为8Ω，其两端的电压测为12V，问：导线中通过的电流是多少？",
+      "kind": "reference",
+      "options": [],
+      "answer": "1.5A",
+      "steps": [
+        "已知U=12V、R=8Ω。由欧姆定律I=U/R=12V÷8Ω=1.5A。"
+      ],
+      "knowledge_tags": [
+        "欧姆定律",
+        "电流、电压与电阻"
+      ],
+      "type_tags": [
+        "由电压和电阻用欧姆定律求电流"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "欧姆定律",
+            "电流、电压与电阻"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由电压和电阻用欧姆定律求电流"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "求导线中的电流。",
+            "reference_answer": "1.5A",
+            "solution_steps": [
+              "已知U=12V、R=8Ω。由欧姆定律I=U/R=12V÷8Ω=1.5A。"
+            ],
+            "knowledge_tags": [
+              "欧姆定律",
+              "电流、电压与电阻"
+            ],
+            "type_tags": [
+              "由电压和电阻用欧姆定律求电流"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "代入题设电压和电阻，列I=U/R并给出1.5A。",
+                "points": null,
+                "evidence_required": "代入题设电压和电阻，列I=U/R并给出1.5A。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0261b811bfc4751a72af7ca7",
+    "source_sha256": "ad18a9e47975c4a9467d5ab3cae375565e7eedbef99870dc7ea38b0df65f048c",
+    "current_snapshot_id": "bank:cjeval:0261b811bfc4751a72af7ca7:0c7f0b049d0b",
+    "batch": "B4",
+    "trial_group": "calculation",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "750mL=750cm³；按水的密度1g/cm³，m=ρV=1×750=750g。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容：请计算750mL水的质量是多少？",
+      "kind": "reference",
+      "options": [],
+      "answer": "750g",
+      "steps": [
+        "750mL=750cm³；按水的密度1g/cm³，m=ρV=1×750=750g。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "水的密度及体积质量关系"
+      ],
+      "type_tags": [
+        "由水的体积和密度求质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "水的密度及体积质量关系"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由水的体积和密度求质量"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "计算750mL水的质量。",
+            "reference_answer": "750g",
+            "solution_steps": [
+              "750mL=750cm³；按水的密度1g/cm³，m=ρV=1×750=750g。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "水的密度及体积质量关系"
+            ],
+            "type_tags": [
+              "由水的体积和密度求质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "写出体积换算和m=ρV，质量单位为g。",
+                "points": null,
+                "evidence_required": "写出体积换算和m=ρV，质量单位为g。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:056f343692cae57d71e714f9",
+    "source_sha256": "94bf774ec50a1bd1f8e991f44d18f48e904d96b31753ffbe7874d55350fa37c5",
+    "current_snapshot_id": "bank:cjeval:056f343692cae57d71e714f9:9cecf6a22b73",
+    "batch": "B4",
+    "trial_group": "calculation",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "样本密度ρ=16g/6cm³=2.6667g/cm³=2666.7kg/m³；M=ρV=2666.7×55=146666.7kg≈146.67t。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 一块花岗岩纪念碑，其体积为55立方米。为了估算其质量，有人取了一小块相同类型的花岗岩样本，测得其质量为16克，体积为6立方厘米。利用这些数据，求该花岗岩纪念碑的质量为多少吨？",
+      "kind": "reference",
+      "options": [],
+      "answer": "约146.67吨",
+      "steps": [
+        "样本密度ρ=16g/6cm³=2.6667g/cm³=2666.7kg/m³；M=ρV=2666.7×55=146666.7kg≈146.67t。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "体积单位换算"
+      ],
+      "type_tags": [
+        "由样本密度外推同种花岗岩整体质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "体积单位换算"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由样本密度外推同种花岗岩整体质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "求55m³花岗岩纪念碑的质量。",
+            "reference_answer": "约146.67吨",
+            "solution_steps": [
+              "样本密度ρ=16g/6cm³=2.6667g/cm³=2666.7kg/m³；M=ρV=2666.7×55=146666.7kg≈146.67t。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "体积单位换算"
+            ],
+            "type_tags": [
+              "由样本密度外推同种花岗岩整体质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "展示样本密度、g/cm³到kg/m³换算及M=ρV。",
+                "points": null,
+                "evidence_required": "展示样本密度、g/cm³到kg/m³换算及M=ρV。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:07bc53610f18ed6ea2f64a58",
+    "source_sha256": "52e85afbb2fabff37c85a8314a2b847f3839d21dcb3865f4e144493a6763925d",
+    "current_snapshot_id": "bank:cjeval:07bc53610f18ed6ea2f64a58:e09dede0e7ef",
+    "batch": "B4",
+    "trial_group": "calculation",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "ρ=12g/15mL=0.8g/mL=800kg/m³；14t=14000kg；V=m/ρ=14000/800=17.5m³。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 一个油罐车可以装载最多14吨的石油，已知15毫升这种石油的质量是12克，则这个油罐车的容积是多少立方米？",
+      "kind": "reference",
+      "options": [],
+      "answer": "17.5m³",
+      "steps": [
+        "ρ=12g/15mL=0.8g/mL=800kg/m³；14t=14000kg；V=m/ρ=14000/800=17.5m³。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "密度单位换算"
+      ],
+      "type_tags": [
+        "先由样本求石油密度，再由最大质量求罐容"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "密度单位换算"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "先由样本求石油密度，再由最大质量求罐容"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "计算油罐车容积。",
+            "reference_answer": "17.5m³",
+            "solution_steps": [
+              "ρ=12g/15mL=0.8g/mL=800kg/m³；14t=14000kg；V=m/ρ=14000/800=17.5m³。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "密度单位换算"
+            ],
+            "type_tags": [
+              "先由样本求石油密度，再由最大质量求罐容"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "体现样本密度和单位换算，再以V=m/ρ计算容积。",
+                "points": null,
+                "evidence_required": "体现样本密度和单位换算，再以V=m/ρ计算容积。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0aef63240d3fc8200a96ea29",
+    "source_sha256": "38a8c756ae5063d5b9149892bb8b18bcf2cd2502280360327d5b3156a4d90190",
+    "current_snapshot_id": "bank:cjeval:0aef63240d3fc8200a96ea29:9141a179bb51",
+    "batch": "B4",
+    "trial_group": "calculation",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "铝实体积V铝=540g/(2.7g/cm³)=200cm³，小于外形体积360cm³，故空心。",
+      "V空=360−200=160cm³。",
+      "水质量=1g/cm³×160cm³=160g；总质量=540+160=700g=0.7kg。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 一个铝球质量为540克，体积虽为360立方厘米，但请通过计算判断该铝球是否为实心？如果是空心的，那么空心部分的体积是多少？假如空心部分注满水，总质量又是多少千克？（已知铝的密度为2.7×10^3千克/立方米 ）",
+      "kind": "reference",
+      "options": [],
+      "answer": "空心\n160cm³\n0.7kg",
+      "steps": [
+        "铝实体积V铝=540g/(2.7g/cm³)=200cm³，小于外形体积360cm³，故空心。",
+        "V空=360−200=160cm³。",
+        "水质量=1g/cm³×160cm³=160g；总质量=540+160=700g=0.7kg。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "空心物体体积计算",
+        "质量守恒"
+      ],
+      "type_tags": [
+        "比较铝球实体积与外形体积，并计算注水总质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "空心物体体积计算",
+            "质量守恒"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "比较铝球实体积与外形体积，并计算注水总质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "判断铝球实心或空心。",
+            "reference_answer": "空心",
+            "solution_steps": [
+              "铝实体积V铝=540g/(2.7g/cm³)=200cm³，小于外形体积360cm³，故空心。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "空心物体体积计算",
+              "质量守恒"
+            ],
+            "type_tags": [
+              "比较铝球实体积与外形体积，并计算注水总质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "比较V铝与球外形体积并据此判断。",
+                "points": null,
+                "evidence_required": "比较V铝与球外形体积并据此判断。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "求空心部分体积。",
+            "reference_answer": "160cm³",
+            "solution_steps": [
+              "V空=360−200=160cm³。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "空心物体体积计算",
+              "质量守恒"
+            ],
+            "type_tags": [
+              "比较铝球实体积与外形体积，并计算注水总质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "给出外形体积减铝实体积。",
+                "points": null,
+                "evidence_required": "给出外形体积减铝实体积。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "空心部分注满水后求球的总质量。",
+            "reference_answer": "0.7kg",
+            "solution_steps": [
+              "水质量=1g/cm³×160cm³=160g；总质量=540+160=700g=0.7kg。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "空心物体体积计算",
+              "质量守恒"
+            ],
+            "type_tags": [
+              "比较铝球实体积与外形体积，并计算注水总质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "计算水质量并与铝球原质量相加、换算为kg。",
+                "points": null,
+                "evidence_required": "计算水质量并与铝球原质量相加、换算为kg。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0f14d0a37daae83abceb3553",
+    "source_sha256": "2c046d0bf73f34b1a20102a7f46e6297c4e0c88bda1d56748a66a22c6163a23f",
+    "current_snapshot_id": "bank:cjeval:0f14d0a37daae83abceb3553:98afc8acd12d",
+    "batch": "B4",
+    "trial_group": "calculation",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "冬季每瓶质量=870×0.015=13.05kg，单价=56/13.05≈4.29元/kg；夏季质量=820×0.015=12.3kg，单价=52/12.3≈4.23元/kg；冬季更高。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "两种解释下结论同为冬季：瓶价56元>52元；若按单位质量归一化，冬季约4.29元/kg、夏季约4.23元/kg。草稿明确按单位质量比较。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "两种解释下结论同为冬季：瓶价56元>52元；若按单位质量归一化，冬季约4.29元/kg、夏季约4.23元/kg。草稿明确按单位质量比较。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 小红发现煤气公司的价格公告：冬季每瓶价格为56元，夏季每瓶价格为52元。她好奇为什么夏季价格较低，于是查询了煤气的相关资料：冬季煤气密度为0.87×10³ kg/m³，夏季煤气密度为0.82×10³ kg/m³，煤气瓶的容积为0.015 m³。请通过计算比较夏季和冬季哪个季节的煤气价格更高？",
+      "kind": "reference",
+      "options": [],
+      "answer": "冬季（按每千克售价比较）",
+      "steps": [
+        "冬季每瓶质量=870×0.015=13.05kg，单价=56/13.05≈4.29元/kg；夏季质量=820×0.015=12.3kg，单价=52/12.3≈4.23元/kg；冬季更高。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "单价比较"
+      ],
+      "type_tags": [
+        "由密度和相同瓶容积比较煤气单位质量售价"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "单价比较"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由密度和相同瓶容积比较煤气单位质量售价"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "比较冬、夏每千克煤气的售价。",
+            "reference_answer": "冬季较高",
+            "solution_steps": [
+              "冬季每瓶质量=870×0.015=13.05kg，单价=56/13.05≈4.29元/kg；夏季质量=820×0.015=12.3kg，单价=52/12.3≈4.23元/kg；冬季更高。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "单价比较"
+            ],
+            "type_tags": [
+              "由密度和相同瓶容积比较煤气单位质量售价"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "分别列出每瓶质量和每千克价格。",
+                "points": null,
+                "evidence_required": "分别列出每瓶质量和每千克价格。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:10b3e5bf0274bc9c02b424e9",
+    "source_sha256": "7c4316f446cf2a0f2a69dc12191b0a044abc2237ccb5c7ec89c6cf448e0c19e0",
+    "current_snapshot_id": "bank:cjeval:10b3e5bf0274bc9c02b424e9:c5b20d0c52a3",
+    "batch": "B4",
+    "trial_group": "calculation",
+    "reviewer": "gpt-6-luna",
+    "decision": "keep_quarantined",
+    "independent_solution": [
+      "已独立复算出约0.73g/cm³。"
+    ],
+    "source_conflicts": [
+      "来源答案与解析冲突：m液=24g，V液=55−60/2.7≈32.78cm³，故ρ液≈0.73g/cm³，不是答案0.8g/cm³。"
+    ],
+    "resolved_findings": [],
+    "remaining_issues": [
+      "需B1/B2核对原题答案与解析。"
+    ],
+    "rationale": "已独立检查题干和计算；不沿用无法成立或不唯一的来源答案。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:1427981f7b76a018748f923e",
+    "source_sha256": "23c71ec4533045c004d1ea6c99c999b0a0e6a5bbb1fbc1c3ca1a47cb52e459df",
+    "current_snapshot_id": "bank:cjeval:1427981f7b76a018748f923e:5ec41f2330f8",
+    "batch": "B4",
+    "trial_group": "calculation",
+    "reviewer": "gpt-6-luna",
+    "decision": "keep_quarantined",
+    "independent_solution": [
+      "两个来源答案均与题设数据及步骤计算不符。"
+    ],
+    "source_conflicts": [
+      "来源答案与解析冲突：外排乙醇体积=25/0.8=31.25cm³；铜体积=90/8.9≈10.11cm³；空腔≈21.14cm³，注水总质量≈111.14g，不是22.5cm³、112.5g。"
+    ],
+    "resolved_findings": [],
+    "remaining_issues": [
+      "需B1/B2核查来源数据或标准答案。"
+    ],
+    "rationale": "已独立检查题干和计算；不沿用无法成立或不唯一的来源答案。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:14314698e3220c6934410092",
+    "source_sha256": "e5f45fb76ac1fabb2f10df51dafc4b53e34c5616477ff4ab412f60b99db89672",
+    "current_snapshot_id": "bank:cjeval:14314698e3220c6934410092:412caf31da1e",
+    "batch": "B4",
+    "trial_group": "calculation",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "水吸热Q=cmΔT=4.2×10³×0.5×80=1.68×10⁵J；燃烧放热Q放=Q/0.5=3.36×10⁵J；m=Q放/q=3.36×10⁵/(3×10⁷)=0.0112kg=11.2g。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 酒精是实验室中常用的燃料，现在使用酒精灯对水进行加热。假设酒精完全燃烧产生的热量有50%被水吸收，现有0.5千克、20摄氏度的水被加热到100摄氏度，需要燃烧多少克酒精？［q酒精=3×10^7J/kg，c水=4.2×10^3J/（kg·℃）］",
+      "kind": "reference",
+      "options": [],
+      "answer": "11.2g",
+      "steps": [
+        "水吸热Q=cmΔT=4.2×10³×0.5×80=1.68×10⁵J；燃烧放热Q放=Q/0.5=3.36×10⁵J；m=Q放/q=3.36×10⁵/(3×10⁷)=0.0112kg=11.2g。"
+      ],
+      "knowledge_tags": [
+        "比热容及热量计算",
+        "热值计算",
+        "热效率"
+      ],
+      "type_tags": [
+        "由水吸热、效率及热值求燃料质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 3,
+      "difficulty_basis": "来源难度：较难；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "比热容及热量计算",
+            "热值计算",
+            "热效率"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由水吸热、效率及热值求燃料质量"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "来源难度：较难；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "求燃烧酒精质量。",
+            "reference_answer": "11.2g",
+            "solution_steps": [
+              "水吸热Q=cmΔT=4.2×10³×0.5×80=1.68×10⁵J；燃烧放热Q放=Q/0.5=3.36×10⁵J；m=Q放/q=3.36×10⁵/(3×10⁷)=0.0112kg=11.2g。"
+            ],
+            "knowledge_tags": [
+              "比热容及热量计算",
+              "热值计算",
+              "热效率"
+            ],
+            "type_tags": [
+              "由水吸热、效率及热值求燃料质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "使用Q吸=cmΔT、η=Q吸/Q放、Q放=mq并正确换算kg至g。",
+                "points": null,
+                "evidence_required": "使用Q吸=cmΔT、η=Q吸/Q放、Q放=mq并正确换算kg至g。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:18dc93d19b53f3f94b77610e",
+    "source_sha256": "999ec788ed6e0a6320575516968d39790c374c97646bf7ce11976ced0c98540e",
+    "current_snapshot_id": "bank:cjeval:18dc93d19b53f3f94b77610e:0e714f71c416",
+    "batch": "B4",
+    "trial_group": "calculation",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "总体积1.2dm³=0.0012m³；铝实体积=1.35/2700=0.0005m³，故空心。空腔0.0007m³，注水质量=1000×0.0007=0.70kg，总质量=1.35+0.70=2.05kg。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 一个铝球的质量为1.35千克，体积为1.2立方分米，请判断该铝球是空心的还是实心的？如果是空心的，将空心部分灌满水后，铝球的总质量是多少？（铝的密度为2.7×10^3千克/立方米）",
+      "kind": "reference",
+      "options": [],
+      "answer": "空心；2.05kg",
+      "steps": [
+        "总体积1.2dm³=0.0012m³；铝实体积=1.35/2700=0.0005m³，故空心。空腔0.0007m³，注水质量=1000×0.0007=0.70kg，总质量=1.35+0.70=2.05kg。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "空心物体体积计算",
+        "质量守恒"
+      ],
+      "type_tags": [
+        "由铝实体积判断空心并求注水后总质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "空心物体体积计算",
+            "质量守恒"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由铝实体积判断空心并求注水后总质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "判断是否空心并求注水后总质量。",
+            "reference_answer": "空心；2.05kg",
+            "solution_steps": [
+              "总体积1.2dm³=0.0012m³；铝实体积=1.35/2700=0.0005m³，故空心。空腔0.0007m³，注水质量=1000×0.0007=0.70kg，总质量=1.35+0.70=2.05kg。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "空心物体体积计算",
+              "质量守恒"
+            ],
+            "type_tags": [
+              "由铝实体积判断空心并求注水后总质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "展示体积单位换算、空腔体积及水与铝的质量和。",
+                "points": null,
+                "evidence_required": "展示体积单位换算、空腔体积及水与铝的质量和。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0043dd939ae67d86539c58c4",
+    "source_sha256": "6f41e07623e7527f695e698ed6393bf456fd542ae4ed3cfc48e2162c45e10bef",
+    "current_snapshot_id": "bank:cjeval:0043dd939ae67d86539c58c4:37bf67aa5e6a",
+    "batch": "B4",
+    "trial_group": "choice",
+    "reviewer": "gpt-6-luna",
+    "decision": "keep_quarantined",
+    "independent_solution": [
+      "D可由相对位置不变判断为真；B按“惯性”严格表述不成立。"
+    ],
+    "source_conflicts": [
+      "来源答案D有冲突：D为同速并排运动，甲相对乙静止，陈述正确；B将顺地球自转发射称为“利用惯性”，混淆地球自转提供的初速度与惯性。题干问唯一错误项，按原措辞答案不唯一/来源答案不成立。"
+    ],
+    "resolved_findings": [],
+    "remaining_issues": [
+      "需B1/B2核对是否题干或选项术语有误。"
+    ],
+    "rationale": "已独立检查题干和计算；不沿用无法成立或不唯一的来源答案。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:006b8d8b08de17f88541bbd8",
+    "source_sha256": "f23624a8051e969442e0577f8902e28ae2f8e40643b482d1935e2f5b6efb3cad",
+    "current_snapshot_id": "bank:cjeval:006b8d8b08de17f88541bbd8:7f21f062dfdd",
+    "batch": "B4",
+    "trial_group": "choice",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "A成立：吸热可能使内能增加；B错，汽油机做功冲程内能转化为机械能；C按分子动理论，温度越高分子热运动越剧烈；D还取决于燃料质量，单凭热值大小不足以比较总放热。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 下列关于热和能量的说法中正确的是（　　）选项:",
+      "kind": "multiple_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "物体吸收热量，可能导致内能增加"
+        },
+        {
+          "key": "B",
+          "text": "汽油机在做功过程中将机械能转化为内能"
+        },
+        {
+          "key": "C",
+          "text": "物体的温度越高，其分子无规则运动越剧烈"
+        },
+        {
+          "key": "D",
+          "text": "燃料的热值越高，燃烧时产生的热量越多"
+        }
+      ],
+      "answer": "AC",
+      "steps": [
+        "A成立：吸热可能使内能增加；B错，汽油机做功冲程内能转化为机械能；C按分子动理论，温度越高分子热运动越剧烈；D还取决于燃料质量，单凭热值大小不足以比较总放热。"
+      ],
+      "knowledge_tags": [
+        "热量与内能",
+        "分子热运动"
+      ],
+      "type_tags": [
+        "逐项判断热量、热机能量转化、温度与分子运动及热值"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "热量与内能",
+            "分子热运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "逐项判断热量、热机能量转化、温度与分子运动及热值"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "AC"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择正确说法。",
+            "reference_answer": "AC",
+            "solution_steps": [
+              "A成立：吸热可能使内能增加；B错，汽油机做功冲程内能转化为机械能；C按分子动理论，温度越高分子热运动越剧烈；D还取决于燃料质量，单凭热值大小不足以比较总放热。"
+            ],
+            "knowledge_tags": [
+              "热量与内能",
+              "分子热运动"
+            ],
+            "type_tags": [
+              "逐项判断热量、热机能量转化、温度与分子运动及热值"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "分别说明A、C成立，并指出B能量方向及D的Q=mq条件。",
+                "points": null,
+                "evidence_required": "分别说明A、C成立，并指出B能量方向及D的Q=mq条件。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:006d4772e3cf56c185829e2c",
+    "source_sha256": "5c2b168f3a629cb01db9f3b9cbfebcbc2a8f2c69cf723d05d48c5b0e3a0a0d8f",
+    "current_snapshot_id": "bank:cjeval:006d4772e3cf56c185829e2c:d4b5c9f6b8fc",
+    "batch": "B4",
+    "trial_group": "choice",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "正常心率约60—100次/min，65次/min合理；10m/s远高于步行速度；手掌宽度通常明显小于20cm；教室门约2m而非6m。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "问题陈述：在以下估值中，哪个最接近真实情况（  ）选项:",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "正常人心跳每分钟约为65次"
+        },
+        {
+          "key": "B",
+          "text": "步行速度约为10米/秒"
+        },
+        {
+          "key": "C",
+          "text": "中学生手掌宽度约20厘米"
+        },
+        {
+          "key": "D",
+          "text": "教室门高度约6米"
+        }
+      ],
+      "answer": "A",
+      "steps": [
+        "正常心率约60—100次/min，65次/min合理；10m/s远高于步行速度；手掌宽度通常明显小于20cm；教室门约2m而非6m。"
+      ],
+      "knowledge_tags": [
+        "常见物理量的估测",
+        "心率及速度、长度估测"
+      ],
+      "type_tags": [
+        "比较心率、步速、手掌宽度和门高的常见量级"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "常见物理量的估测",
+            "心率及速度、长度估测"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "比较心率、步速、手掌宽度和门高的常见量级"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择最接近实际的数据。",
+            "reference_answer": "A",
+            "solution_steps": [
+              "正常心率约60—100次/min，65次/min合理；10m/s远高于步行速度；手掌宽度通常明显小于20cm；教室门约2m而非6m。"
+            ],
+            "knowledge_tags": [
+              "常见物理量的估测",
+              "心率及速度、长度估测"
+            ],
+            "type_tags": [
+              "比较心率、步速、手掌宽度和门高的常见量级"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "将各选项与常见心率、步速及长度量级比较。",
+                "points": null,
+                "evidence_required": "将各选项与常见心率、步速及长度量级比较。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0082096a9186c3dd4eba3792",
+    "source_sha256": "8aedd1ff71fe20902e422035b08d6f9f0dc7919b8b1d1254c6e2e2b5689ef1ab",
+    "current_snapshot_id": "bank:cjeval:0082096a9186c3dd4eba3792:bc1ec59616ad",
+    "batch": "B4",
+    "trial_group": "choice",
+    "reviewer": "gpt-6-luna",
+    "decision": "insufficient_evidence",
+    "independent_solution": [
+      "至少B、C及来源承认的A、D均未被题面排除，缺少唯一判据。"
+    ],
+    "source_conflicts": [
+      "题干要求选一个最贴近实际的数据，但B光速约3×10^8m/s、C教材宽约18cm均合理；A舒适温度23℃及D手电灯泡功率约1W也依常见情况可能成立。来源解析还同时承认A、D合理。"
+    ],
+    "resolved_findings": [],
+    "remaining_issues": [
+      "题目缺少足以唯一选项的条件，转B1/B2核原题或作废。"
+    ],
+    "rationale": "已独立检查题干和计算；不沿用无法成立或不唯一的来源答案。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:01b207eec120e10b658efccb",
+    "source_sha256": "ec000e9c947b7a8928251dd0b32d9675e9c2fa6aad01e46bca15159be78024e8",
+    "current_snapshot_id": "bank:cjeval:01b207eec120e10b658efccb:d6939e16584b",
+    "batch": "B4",
+    "trial_group": "choice",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "按题目所用的初中物态变化模型，水蒸气直接形成固态雪晶为凝华，凝华放热。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "新疆的冬天银装素裹，风景如画。雪在形成过程中主要经历的物态变化和热量变化如下（     ）选项:",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "凝固、放热过程"
+        },
+        {
+          "key": "B",
+          "text": "升华、吸热过程"
+        },
+        {
+          "key": "C",
+          "text": "凝华、放热过程"
+        },
+        {
+          "key": "D",
+          "text": "熔化、吸热过程"
+        }
+      ],
+      "answer": "C",
+      "steps": [
+        "按题目所用的初中物态变化模型，水蒸气直接形成固态雪晶为凝华，凝华放热。"
+      ],
+      "knowledge_tags": [
+        "凝华及其吸放热"
+      ],
+      "type_tags": [
+        "判断雪形成时的物态变化和热量方向"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "凝华及其吸放热"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "判断雪形成时的物态变化和热量方向"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "判断雪形成时的物态变化及热量变化。",
+            "reference_answer": "C",
+            "solution_steps": [
+              "按题目所用的初中物态变化模型，水蒸气直接形成固态雪晶为凝华，凝华放热。"
+            ],
+            "knowledge_tags": [
+              "凝华及其吸放热"
+            ],
+            "type_tags": [
+              "判断雪形成时的物态变化和热量方向"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "指出气态到固态的凝华及放热。",
+                "points": null,
+                "evidence_required": "指出气态到固态的凝华及放热。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:01be7481a738663329907f79",
+    "source_sha256": "6055d94f788633b6e797326d27da5cc704275247423fe279dfb5d3be618dd053",
+    "current_snapshot_id": "bank:cjeval:01be7481a738663329907f79:be9783bdbdcb",
+    "batch": "B4",
+    "trial_group": "choice",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "将10枚叠放测总厚度再除以10，增大了尺上读数，能减小单枚薄片直接读数造成的相对误差。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "问题内容: 为了减少误差，在测量硬币厚度时，以下哪种方法最合适？(         )选项:",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用刻度尺直接测量单个硬币的厚度"
+        },
+        {
+          "key": "B",
+          "text": "用刻度尺测量10个硬币的总厚度，然后除以10得到单个硬币的厚度"
+        },
+        {
+          "key": "C",
+          "text": "任意测量方式都可以"
+        },
+        {
+          "key": "D",
+          "text": "用刻度尺多次测量硬币的厚度，并取平均值"
+        }
+      ],
+      "answer": "B",
+      "steps": [
+        "将10枚叠放测总厚度再除以10，增大了尺上读数，能减小单枚薄片直接读数造成的相对误差。"
+      ],
+      "knowledge_tags": [
+        "长度测量与累积法",
+        "测量误差"
+      ],
+      "type_tags": [
+        "选择测量薄硬币厚度时更减小相对误差的方法"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "长度测量与累积法",
+            "测量误差"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "选择测量薄硬币厚度时更减小相对误差的方法"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择测量单枚硬币厚度的最佳方法。",
+            "reference_answer": "B",
+            "solution_steps": [
+              "将10枚叠放测总厚度再除以10，增大了尺上读数，能减小单枚薄片直接读数造成的相对误差。"
+            ],
+            "knowledge_tags": [
+              "长度测量与累积法",
+              "测量误差"
+            ],
+            "type_tags": [
+              "选择测量薄硬币厚度时更减小相对误差的方法"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "说明累积总厚度后除以枚数的操作及减小相对读数误差的原因。",
+                "points": null,
+                "evidence_required": "说明累积总厚度后除以枚数的操作及减小相对读数误差的原因。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:023fdff5e8c4554035b54848",
+    "source_sha256": "649435fb560963eaa0ff80309f1ee6ba88b64693585eca69c99cf1f9b07baa3c",
+    "current_snapshot_id": "bank:cjeval:023fdff5e8c4554035b54848:14d0a9d8fd1c",
+    "batch": "B4",
+    "trial_group": "choice",
+    "reviewer": "gpt-6-luna",
+    "decision": "insufficient_evidence",
+    "independent_solution": [
+      "选项A、C、D均可成立，题干没有给出限定型号/尺度。"
+    ],
+    "source_conflicts": [
+      "多项估值均可符合常见实际：试电笔限流电阻约兆欧量级；家用冰箱额定功率可在约150W附近；大型货轮排水质量1.5×10^7kg可行；标准大气压1×10^5Pa正确。来源解析也先认可A，无法支持仅CD。"
+    ],
+    "resolved_findings": [],
+    "remaining_issues": [
+      "题目多答案，需B1/B2核验原始选项或撤题。"
+    ],
+    "rationale": "已独立检查题干和计算；不沿用无法成立或不唯一的来源答案。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:02810c619982b5eafed5f8a7",
+    "source_sha256": "b982847529f8e86c626814d65aa86fc1050ab13c4527e21a54a651f67f187c90",
+    "current_snapshot_id": "bank:cjeval:02810c619982b5eafed5f8a7:7e7f2144d403",
+    "batch": "B4",
+    "trial_group": "choice",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "A、B、D是对同一物体同一量重复测量，可用平均减小随机误差；C测不同时间的体温，目的是观察体温变化而非重复测量同一状态。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "在以下测量中，使用同一测量工具进行三次测量并取平均值，不是为了减少误差的是（    ）\n选项:",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "用量筒测量同一块鹅卵石的体积"
+        },
+        {
+          "key": "B",
+          "text": "用天平测量同一块橡皮的质量"
+        },
+        {
+          "key": "C",
+          "text": "用体温计测量小明一天不同时间的体温"
+        },
+        {
+          "key": "D",
+          "text": "用刻度尺测量同一本书的厚度"
+        }
+      ],
+      "answer": "C",
+      "steps": [
+        "A、B、D是对同一物体同一量重复测量，可用平均减小随机误差；C测不同时间的体温，目的是观察体温变化而非重复测量同一状态。"
+      ],
+      "knowledge_tags": [
+        "测量误差与重复测量",
+        "温度测量的目的"
+      ],
+      "type_tags": [
+        "区分重复测量取平均减小误差与跨时段观察变化"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "测量误差与重复测量",
+            "温度测量的目的"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "区分重复测量取平均减小误差与跨时段观察变化"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择不是为了减小测量误差而重复测量的操作。",
+            "reference_answer": "C",
+            "solution_steps": [
+              "A、B、D是对同一物体同一量重复测量，可用平均减小随机误差；C测不同时间的体温，目的是观察体温变化而非重复测量同一状态。"
+            ],
+            "knowledge_tags": [
+              "测量误差与重复测量",
+              "温度测量的目的"
+            ],
+            "type_tags": [
+              "区分重复测量取平均减小误差与跨时段观察变化"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "区分同一被测量的重复测量与不同时间状态的观测目的。",
+                "points": null,
+                "evidence_required": "区分同一被测量的重复测量与不同时间状态的观测目的。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0294a1623e5d652580b6e1c0",
+    "source_sha256": "3fb7ab7ffdac4d2dd66b8d953746c853243d2bfc74cb2bc5b7aa34f598573d6d",
+    "current_snapshot_id": "bank:cjeval:0294a1623e5d652580b6e1c0:698b88f2611c",
+    "batch": "B4",
+    "trial_group": "choice",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "5m/s明显快于通常步行速度；2L可作为个体肺活量的合理估值；42码鞋长远小于42cm；教室约25℃合理。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 某学生对周围的一些物理量进行了估计，下列说法中符合实际的是（）选项:",
+      "kind": "multiple_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "正常人步行的速度为5m/s"
+        },
+        {
+          "key": "B",
+          "text": "一个人的肺活量大约是2L"
+        },
+        {
+          "key": "C",
+          "text": "42码的鞋子长度为42cm"
+        },
+        {
+          "key": "D",
+          "text": "教室里的温度是25°C"
+        }
+      ],
+      "answer": "BD",
+      "steps": [
+        "5m/s明显快于通常步行速度；2L可作为个体肺活量的合理估值；42码鞋长远小于42cm；教室约25℃合理。"
+      ],
+      "knowledge_tags": [
+        "常见物理量估测",
+        "速度、容积、长度和温度估测"
+      ],
+      "type_tags": [
+        "逐项判断生活量的合理量级"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "常见物理量估测",
+            "速度、容积、长度和温度估测"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "逐项判断生活量的合理量级"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "BD"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择符合实际的估测。",
+            "reference_answer": "BD",
+            "solution_steps": [
+              "5m/s明显快于通常步行速度；2L可作为个体肺活量的合理估值；42码鞋长远小于42cm；教室约25℃合理。"
+            ],
+            "knowledge_tags": [
+              "常见物理量估测",
+              "速度、容积、长度和温度估测"
+            ],
+            "type_tags": [
+              "逐项判断生活量的合理量级"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "按步速、肺活量、鞋长及室温常见量级判定。",
+                "points": null,
+                "evidence_required": "按步速、肺活量、鞋长及室温常见量级判定。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:02ac0cf922b0ad9f06347d62",
+    "source_sha256": "859928704ed418b5dadd4087eb140cc29cd3828cbd363897e672942f6675ad5d",
+    "current_snapshot_id": "bank:cjeval:02ac0cf922b0ad9f06347d62:0a2ab70906e8",
+    "batch": "B4",
+    "trial_group": "choice",
+    "reviewer": "gpt-6-luna",
+    "decision": "insufficient_evidence",
+    "independent_solution": [
+      "题面和解析支持B、C均可能正确。"
+    ],
+    "source_conflicts": [
+      "答案B不唯一：人体口腔温度约37℃合理；中学生骑行5m/s（18km/h）也在常见骑行速度范围内。来源解析正文亦写平均速度约5m/s，却随后误写成50m/s再判C错。"
+    ],
+    "resolved_findings": [],
+    "remaining_issues": [
+      "需B1/B2核验选项是否原为50m/s或给出更明确的速度限定。"
+    ],
+    "rationale": "已独立检查题干和计算；不沿用无法成立或不唯一的来源答案。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:006b839f36df1b256ed0f1c4",
+    "source_sha256": "5cea97f4d946b6cc36960c1ae59de85f39402d19ec994193f347274f24896c80",
+    "current_snapshot_id": "bank:cjeval:006b839f36df1b256ed0f1c4:ecca16723f80",
+    "batch": "B4",
+    "trial_group": "experiment_multipart",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "V=195mL−110mL=85mL=85cm³。",
+      "ρ=160g/85cm³≈1.882g/cm³。",
+      "ρ≈1882.35kg/m³；m=ρV≈1882.35×35=65882kg≈65.88t。来源按1.88g/cm³中间值计算为65.8t，属中间舍入差异。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立计算为约65.88t；来源用1.88g/cm³中间值给65.8t，差异可由中间舍入解释，不构成答案矛盾。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立计算为约65.88t；来源用1.88g/cm³中间值给65.8t，差异可由中间舍入解释，不构成答案矛盾。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 一块石碑的体积是35立方米，为了计算它的总质量，取一小块石碑，测得它的质量为160克；通过量筒测得其体积过程，量筒内先装了110毫升水，将小石碑沉入后，水面上升到195毫升，求\n(1)该小石碑的体积是多少？\n(2)小石碑的密度是多少？\n(3)大石碑的总质量是多少吨？",
+      "kind": "reference",
+      "options": [],
+      "answer": "85cm³\n约1.88g/cm³\n约65.88吨",
+      "steps": [
+        "V=195mL−110mL=85mL=85cm³。",
+        "ρ=160g/85cm³≈1.882g/cm³。",
+        "ρ≈1882.35kg/m³；m=ρV≈1882.35×35=65882kg≈65.88t。来源按1.88g/cm³中间值计算为65.8t，属中间舍入差异。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "量筒排液法测体积",
+        "体积单位换算"
+      ],
+      "type_tags": [
+        "先用排液法测样本体积，再求密度并外推石碑质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "量筒排液法测体积",
+            "体积单位换算"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "先用排液法测样本体积，再求密度并外推石碑质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求小石碑样本体积。",
+            "reference_answer": "85cm³",
+            "solution_steps": [
+              "V=195mL−110mL=85mL=85cm³。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "量筒排液法测体积",
+              "体积单位换算"
+            ],
+            "type_tags": [
+              "先用排液法测样本体积，再求密度并外推石碑质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "作液面差并换算mL与cm³。",
+                "points": null,
+                "evidence_required": "作液面差并换算mL与cm³。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "求样本密度。",
+            "reference_answer": "约1.88g/cm³",
+            "solution_steps": [
+              "ρ=160g/85cm³≈1.882g/cm³。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "量筒排液法测体积",
+              "体积单位换算"
+            ],
+            "type_tags": [
+              "先用排液法测样本体积，再求密度并外推石碑质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "用样本质量除以排液法得到的体积。",
+                "points": null,
+                "evidence_required": "用样本质量除以排液法得到的体积。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "求35m³大石碑质量。",
+            "reference_answer": "约65.88吨",
+            "solution_steps": [
+              "ρ≈1882.35kg/m³；m=ρV≈1882.35×35=65882kg≈65.88t。来源按1.88g/cm³中间值计算为65.8t，属中间舍入差异。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "量筒排液法测体积",
+              "体积单位换算"
+            ],
+            "type_tags": [
+              "先用排液法测样本体积，再求密度并外推石碑质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "展示单位一致的密度与体积乘法；说明近似结果的舍入依据。",
+                "points": null,
+                "evidence_required": "展示单位一致的密度与体积乘法；说明近似结果的舍入依据。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:01637cbeff345a427b873dc7",
+    "source_sha256": "18fb8bc911e9f89784229ca24c7e6b1fa7c4a8379769a3b2b4406f7cf6370214",
+    "current_snapshot_id": "bank:cjeval:01637cbeff345a427b873dc7:a7b1324ba259",
+    "batch": "B4",
+    "trial_group": "experiment_multipart",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "Q=cmΔT=4.2×10³×4.8×20=4.032×10⁵J。",
+      "t=60s；W=Pt=7000×60=4.2×10⁵J。",
+      "η=Q吸/W=4.032×10⁵/4.2×10⁵=0.96=96%。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 即开即热电热水器可以快速加热水流。某电热水器的功率为7000瓦。在一次使用中，1分钟内从水龙头流出的水质量为4.8千克，温度为40℃。已知水的初始温度为20℃，水的比热容为4.2 × 10^3 J/(kg·℃)。求：\n(1) 水温升高过程中吸收的热量是多少？\n(2) 该电热水器消耗的电能是多少？\n(3) 该电热水器的加热效率是多少？",
+      "kind": "reference",
+      "options": [],
+      "answer": "4.032×10⁵J\n4.2×10⁵J\n96%",
+      "steps": [
+        "Q=cmΔT=4.2×10³×4.8×20=4.032×10⁵J。",
+        "t=60s；W=Pt=7000×60=4.2×10⁵J。",
+        "η=Q吸/W=4.032×10⁵/4.2×10⁵=0.96=96%。"
+      ],
+      "knowledge_tags": [
+        "比热容及热量计算",
+        "电能与电功率",
+        "热效率"
+      ],
+      "type_tags": [
+        "分问计算水吸热、电热器输入电能及能量效率"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "比热容及热量计算",
+            "电能与电功率",
+            "热效率"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "分问计算水吸热、电热器输入电能及能量效率"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求水吸收的热量。",
+            "reference_answer": "4.032×10⁵J",
+            "solution_steps": [
+              "Q=cmΔT=4.2×10³×4.8×20=4.032×10⁵J。"
+            ],
+            "knowledge_tags": [
+              "比热容及热量计算",
+              "电能与电功率",
+              "热效率"
+            ],
+            "type_tags": [
+              "分问计算水吸热、电热器输入电能及能量效率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "列Q=cmΔT并代入质量、比热容和温差。",
+                "points": null,
+                "evidence_required": "列Q=cmΔT并代入质量、比热容和温差。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "求1分钟内消耗的电能。",
+            "reference_answer": "4.2×10⁵J",
+            "solution_steps": [
+              "t=60s；W=Pt=7000×60=4.2×10⁵J。"
+            ],
+            "knowledge_tags": [
+              "比热容及热量计算",
+              "电能与电功率",
+              "热效率"
+            ],
+            "type_tags": [
+              "分问计算水吸热、电热器输入电能及能量效率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "将分钟换算为秒后用W=Pt。",
+                "points": null,
+                "evidence_required": "将分钟换算为秒后用W=Pt。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "求加热效率。",
+            "reference_answer": "96%",
+            "solution_steps": [
+              "η=Q吸/W=4.032×10⁵/4.2×10⁵=0.96=96%。"
+            ],
+            "knowledge_tags": [
+              "比热容及热量计算",
+              "电能与电功率",
+              "热效率"
+            ],
+            "type_tags": [
+              "分问计算水吸热、电热器输入电能及能量效率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "以水吸热除以输入电能并化为百分数。",
+                "points": null,
+                "evidence_required": "以水吸热除以输入电能并化为百分数。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:01c1dceea492471f6370fb42",
+    "source_sha256": "23b9ad4b9f4041e36e58d15864d12bec9e65d8242e089ce1db114e13c25c89e2",
+    "current_snapshot_id": "bank:cjeval:01c1dceea492471f6370fb42:c2e4b5165249",
+    "batch": "B4",
+    "trial_group": "experiment_multipart",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "定义描述对应控制变量法。",
+      "SI时间基本单位名称为秒。",
+      "秒的单位符号为s。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 在进行实验时，只改变一个因素而保持其他因素不变的方法称为__。时间的基本单位是__，其单位符号为__。",
+      "kind": "reference",
+      "options": [],
+      "answer": "控制变量法\n秒\ns",
+      "steps": [
+        "定义描述对应控制变量法。",
+        "SI时间基本单位名称为秒。",
+        "秒的单位符号为s。"
+      ],
+      "knowledge_tags": [
+        "控制变量法",
+        "时间单位及符号"
+      ],
+      "type_tags": [
+        "填写实验方法和时间基本单位名称、符号"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "控制变量法",
+            "时间单位及符号"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "填写实验方法和时间基本单位名称、符号"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "填写只改变一个因素而控制其他因素的方法。",
+            "reference_answer": "控制变量法",
+            "solution_steps": [
+              "定义描述对应控制变量法。"
+            ],
+            "knowledge_tags": [
+              "控制变量法",
+              "时间单位及符号"
+            ],
+            "type_tags": [
+              "填写实验方法和时间基本单位名称、符号"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "名称与“单一改变、其他因素控制不变”的定义相符。",
+                "points": null,
+                "evidence_required": "名称与“单一改变、其他因素控制不变”的定义相符。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "填写时间基本单位。",
+            "reference_answer": "秒",
+            "solution_steps": [
+              "SI时间基本单位名称为秒。"
+            ],
+            "knowledge_tags": [
+              "控制变量法",
+              "时间单位及符号"
+            ],
+            "type_tags": [
+              "填写实验方法和时间基本单位名称、符号"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "给出基本单位名称“秒”。",
+                "points": null,
+                "evidence_required": "给出基本单位名称“秒”。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "填写秒的单位符号。",
+            "reference_answer": "s",
+            "solution_steps": [
+              "秒的单位符号为s。"
+            ],
+            "knowledge_tags": [
+              "控制变量法",
+              "时间单位及符号"
+            ],
+            "type_tags": [
+              "填写实验方法和时间基本单位名称、符号"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "使用小写单位符号s。",
+                "points": null,
+                "evidence_required": "使用小写单位符号s。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0261b5149615f05e8322b0e9",
+    "source_sha256": "c6f0e6320c492c890594e0728a38ddd765211d8fb0abf86f45bb1882b6b73723",
+    "current_snapshot_id": "bank:cjeval:0261b5149615f05e8322b0e9:d91e880578a3",
+    "batch": "B4",
+    "trial_group": "experiment_multipart",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "V=m/ρ=50/(2.5×10³)=0.02m³。",
+      "m蜡=ρ蜡V=0.8×10³×0.02=16kg。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 某雕塑的质量为50kg，它采用密度为2.5×10^3kg/m^3的花岗岩制成。求：\n(1)雕塑的体积；\n(2)用密度是0.8×10^3kg/m^3的蜡按1︰1的比例复制此雕塑，该复制品的质量。",
+      "kind": "reference",
+      "options": [],
+      "answer": "0.02m³\n16kg",
+      "steps": [
+        "V=m/ρ=50/(2.5×10³)=0.02m³。",
+        "m蜡=ρ蜡V=0.8×10³×0.02=16kg。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "同体积复制品的质量计算"
+      ],
+      "type_tags": [
+        "由质量和密度求原雕塑体积，再按等体积求蜡制品质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "同体积复制品的质量计算"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由质量和密度求原雕塑体积，再按等体积求蜡制品质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求花岗岩雕塑体积。",
+            "reference_answer": "0.02m³",
+            "solution_steps": [
+              "V=m/ρ=50/(2.5×10³)=0.02m³。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "同体积复制品的质量计算"
+            ],
+            "type_tags": [
+              "由质量和密度求原雕塑体积，再按等体积求蜡制品质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "单位一致地使用质量除以密度。",
+                "points": null,
+                "evidence_required": "单位一致地使用质量除以密度。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "求同体积蜡复制品质量。",
+            "reference_answer": "16kg",
+            "solution_steps": [
+              "m蜡=ρ蜡V=0.8×10³×0.02=16kg。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "同体积复制品的质量计算"
+            ],
+            "type_tags": [
+              "由质量和密度求原雕塑体积，再按等体积求蜡制品质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "依据1:1复制取相同体积，使用m=ρV。",
+                "points": null,
+                "evidence_required": "依据1:1复制取相同体积，使用m=ρV。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:02c1878849a29c61e087cace",
+    "source_sha256": "ed8492680afe3fa348976683d60550520f26088e4e7dcb0e546bc855b906dfe5",
+    "current_snapshot_id": "bank:cjeval:02c1878849a29c61e087cace:1f2a67ebb853",
+    "batch": "B4",
+    "trial_group": "experiment_multipart",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "m=ρV=3×10³×1=3000kg。",
+      "G=mg=3000×10=30000N。",
+      "3.5×10⁴N>3.0×10⁴N，钢绳最大拉力大于石块重力。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 在工地上，一辆大型吊车准备吊起体积是$1\\text{m}^{3}$的石块，这辆吊车的钢绳能承受最大的拉力为$3.5\\times 10^{4}\\text{N}$，已知石块的密度约为$3\\times 10^{3}\\text{kg/m}^{3}$，（$g$取$10\\text{N/kg}$）\n（1）石块的质量是多少？\n（2）石块所受的重力是多少？\n（3）这根钢绳能否吊起石块？",
+      "kind": "reference",
+      "options": [],
+      "answer": "3000kg\n30000N\n能吊起",
+      "steps": [
+        "m=ρV=3×10³×1=3000kg。",
+        "G=mg=3000×10=30000N。",
+        "3.5×10⁴N>3.0×10⁴N，钢绳最大拉力大于石块重力。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "重力",
+        "力的比较"
+      ],
+      "type_tags": [
+        "逐步求石块质量、重力并与钢绳额定拉力比较"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "重力",
+            "力的比较"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "逐步求石块质量、重力并与钢绳额定拉力比较"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求石块质量。",
+            "reference_answer": "3000kg",
+            "solution_steps": [
+              "m=ρV=3×10³×1=3000kg。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "重力",
+              "力的比较"
+            ],
+            "type_tags": [
+              "逐步求石块质量、重力并与钢绳额定拉力比较"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "使用质量等于密度乘体积。",
+                "points": null,
+                "evidence_required": "使用质量等于密度乘体积。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "求石块重力。",
+            "reference_answer": "30000N",
+            "solution_steps": [
+              "G=mg=3000×10=30000N。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "重力",
+              "力的比较"
+            ],
+            "type_tags": [
+              "逐步求石块质量、重力并与钢绳额定拉力比较"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "代入题设g=10N/kg。",
+                "points": null,
+                "evidence_required": "代入题设g=10N/kg。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "判断钢绳能否吊起石块。",
+            "reference_answer": "能吊起",
+            "solution_steps": [
+              "3.5×10⁴N>3.0×10⁴N，钢绳最大拉力大于石块重力。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "重力",
+              "力的比较"
+            ],
+            "type_tags": [
+              "逐步求石块质量、重力并与钢绳额定拉力比较"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "比较最大拉力和石块重力，并据大小关系判断。",
+                "points": null,
+                "evidence_required": "比较最大拉力和石块重力，并据大小关系判断。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:033f1b1b36e5626752629731",
+    "source_sha256": "094bf57f20d5998121fdf960166fe0656550bc38027fa8b6795a4964d0025839",
+    "current_snapshot_id": "bank:cjeval:033f1b1b36e5626752629731:57c8d4b1a35f",
+    "batch": "B4",
+    "trial_group": "experiment_multipart",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "t=300s；W=Pt=1500×300=4.5×10⁵J。",
+      "Q=cmΔT=4.2×10³×1×(70−20)=2.1×10⁵J。",
+      "η=Q吸/W=2.1×10⁵/4.5×10⁵≈0.4667=46.7%。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 一台电热水壶的额定功率为1500W，在标准大气压下，正常运行5分钟，将一杯初始温度为20℃、质量为1kg的水加热至70℃，[c水=4.2×10^3J/（kg•℃）] 求：\n（1）电热水壶在5分钟内消耗的电能；\n（2）水吸收的总热量；\n（3）电热水壶的效率。",
+      "kind": "reference",
+      "options": [],
+      "answer": "4.5×10⁵J\n2.1×10⁵J\n约46.7%",
+      "steps": [
+        "t=300s；W=Pt=1500×300=4.5×10⁵J。",
+        "Q=cmΔT=4.2×10³×1×(70−20)=2.1×10⁵J。",
+        "η=Q吸/W=2.1×10⁵/4.5×10⁵≈0.4667=46.7%。"
+      ],
+      "knowledge_tags": [
+        "电功率与电能",
+        "比热容及热量计算",
+        "热效率"
+      ],
+      "type_tags": [
+        "分别求输入电能、水吸热及水吸热占输入电能比例"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "电功率与电能",
+            "比热容及热量计算",
+            "热效率"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "分别求输入电能、水吸热及水吸热占输入电能比例"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "求5分钟内消耗的电能。",
+            "reference_answer": "4.5×10⁵J",
+            "solution_steps": [
+              "t=300s；W=Pt=1500×300=4.5×10⁵J。"
+            ],
+            "knowledge_tags": [
+              "电功率与电能",
+              "比热容及热量计算",
+              "热效率"
+            ],
+            "type_tags": [
+              "分别求输入电能、水吸热及水吸热占输入电能比例"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "正确换算时间并用W=Pt。",
+                "points": null,
+                "evidence_required": "正确换算时间并用W=Pt。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "求水吸收的热量。",
+            "reference_answer": "2.1×10⁵J",
+            "solution_steps": [
+              "Q=cmΔT=4.2×10³×1×(70−20)=2.1×10⁵J。"
+            ],
+            "knowledge_tags": [
+              "电功率与电能",
+              "比热容及热量计算",
+              "热效率"
+            ],
+            "type_tags": [
+              "分别求输入电能、水吸热及水吸热占输入电能比例"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "用水质量、比热容和温升计算热量。",
+                "points": null,
+                "evidence_required": "用水质量、比热容和温升计算热量。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "求电热水壶效率。",
+            "reference_answer": "约46.7%",
+            "solution_steps": [
+              "η=Q吸/W=2.1×10⁵/4.5×10⁵≈0.4667=46.7%。"
+            ],
+            "knowledge_tags": [
+              "电功率与电能",
+              "比热容及热量计算",
+              "热效率"
+            ],
+            "type_tags": [
+              "分别求输入电能、水吸热及水吸热占输入电能比例"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "用水吸热除以电能并转成百分比。",
+                "points": null,
+                "evidence_required": "用水吸热除以电能并转成百分比。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0524072734cc0280f72572eb",
+    "source_sha256": "b3d3efa531d74ef88c8312a44b91f2bd526a8d04a798a1fd3740179a756c57f5",
+    "current_snapshot_id": "bank:cjeval:0524072734cc0280f72572eb:7b442e373085",
+    "batch": "B4",
+    "trial_group": "experiment_multipart",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "题设所述约100的病毒直径数量级以纳米计。",
+      "规范所示速度量级采用千米每小时。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目描述: 请为下列物理量填写合适的单位（使用符号表示）：\n(1)新冠病毒COVID-19的平均直径大约为100__；\n(2)国家标准《电动自行车安全技术规范》自2019年4月15日起全面实施，其中规定电动自行车的最高速度不能超过25__。",
+      "kind": "reference",
+      "options": [],
+      "answer": "nm\nkm/h",
+      "steps": [
+        "题设所述约100的病毒直径数量级以纳米计。",
+        "规范所示速度量级采用千米每小时。"
+      ],
+      "knowledge_tags": [
+        "长度单位及数量级",
+        "速度单位"
+      ],
+      "type_tags": [
+        "为病毒尺度和电动自行车限速填写单位符号"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "长度单位及数量级",
+            "速度单位"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "为病毒尺度和电动自行车限速填写单位符号"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "填写100对应的病毒平均直径单位符号。",
+            "reference_answer": "nm",
+            "solution_steps": [
+              "题设所述约100的病毒直径数量级以纳米计。"
+            ],
+            "knowledge_tags": [
+              "长度单位及数量级",
+              "速度单位"
+            ],
+            "type_tags": [
+              "为病毒尺度和电动自行车限速填写单位符号"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "填写长度单位符号nm。",
+                "points": null,
+                "evidence_required": "填写长度单位符号nm。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "填写25对应的电动自行车最高速度单位符号。",
+            "reference_answer": "km/h",
+            "solution_steps": [
+              "规范所示速度量级采用千米每小时。"
+            ],
+            "knowledge_tags": [
+              "长度单位及数量级",
+              "速度单位"
+            ],
+            "type_tags": [
+              "为病毒尺度和电动自行车限速填写单位符号"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "填写速度单位符号km/h。",
+                "points": null,
+                "evidence_required": "填写速度单位符号km/h。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:0541fa3adbf5ce6c460fe45a",
+    "source_sha256": "925ac7e9cce8bafb2b2ba2a10a9621145e504e49b46941635d91baedf2daaa59",
+    "current_snapshot_id": "bank:cjeval:0541fa3adbf5ce6c460fe45a:268956acf648",
+    "batch": "B4",
+    "trial_group": "experiment_multipart",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "1h=60min×60s/min=3600s。",
+      "1kg=1000g。",
+      "1km=1000m。",
+      "1mL=1cm³。",
+      "36km/h=36×1000m/3600s=10m/s。",
+      "1g/cm³=1000kg/m³。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 将以下单位进行换算。\n(1)1小时=__秒；\n(2)1千克=__克；\n(3)1公里=__米；\n(4)1毫升=__立方厘米；\n(5)36公里/小时=__米/秒；\n(6)1克/立方厘米=__千克/立方米。",
+      "kind": "reference",
+      "options": [],
+      "answer": "3600\n1000\n1000\n1\n10\n1000",
+      "steps": [
+        "1h=60min×60s/min=3600s。",
+        "1kg=1000g。",
+        "1km=1000m。",
+        "1mL=1cm³。",
+        "36km/h=36×1000m/3600s=10m/s。",
+        "1g/cm³=1000kg/m³。"
+      ],
+      "knowledge_tags": [
+        "物理量单位换算",
+        "时间、长度、体积、速度和密度单位"
+      ],
+      "type_tags": [
+        "逐空换算常用单位并保持量纲一致"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "物理量单位换算",
+            "时间、长度、体积、速度和密度单位"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "逐空换算常用单位并保持量纲一致"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "(1) 1小时换算为秒。",
+            "reference_answer": "3600",
+            "solution_steps": [
+              "1h=60min×60s/min=3600s。"
+            ],
+            "knowledge_tags": [
+              "物理量单位换算",
+              "时间、长度、体积、速度和密度单位"
+            ],
+            "type_tags": [
+              "逐空换算常用单位并保持量纲一致"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "正确使用60min/h和60s/min。",
+                "points": null,
+                "evidence_required": "正确使用60min/h和60s/min。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "(2) 1千克换算为克。",
+            "reference_answer": "1000",
+            "solution_steps": [
+              "1kg=1000g。"
+            ],
+            "knowledge_tags": [
+              "物理量单位换算",
+              "时间、长度、体积、速度和密度单位"
+            ],
+            "type_tags": [
+              "逐空换算常用单位并保持量纲一致"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "使用质量单位进率1000。",
+                "points": null,
+                "evidence_required": "使用质量单位进率1000。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p3",
+            "prompt": "(3) 1公里换算为米。",
+            "reference_answer": "1000",
+            "solution_steps": [
+              "1km=1000m。"
+            ],
+            "knowledge_tags": [
+              "物理量单位换算",
+              "时间、长度、体积、速度和密度单位"
+            ],
+            "type_tags": [
+              "逐空换算常用单位并保持量纲一致"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "使用长度单位进率1000。",
+                "points": null,
+                "evidence_required": "使用长度单位进率1000。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p4",
+            "prompt": "(4) 1毫升换算为立方厘米。",
+            "reference_answer": "1",
+            "solution_steps": [
+              "1mL=1cm³。"
+            ],
+            "knowledge_tags": [
+              "物理量单位换算",
+              "时间、长度、体积、速度和密度单位"
+            ],
+            "type_tags": [
+              "逐空换算常用单位并保持量纲一致"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "使用体积单位等值关系。",
+                "points": null,
+                "evidence_required": "使用体积单位等值关系。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p5",
+            "prompt": "(5) 36公里/小时换算为米/秒。",
+            "reference_answer": "10",
+            "solution_steps": [
+              "36km/h=36×1000m/3600s=10m/s。"
+            ],
+            "knowledge_tags": [
+              "物理量单位换算",
+              "时间、长度、体积、速度和密度单位"
+            ],
+            "type_tags": [
+              "逐空换算常用单位并保持量纲一致"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "同时换算分子和分母的单位。",
+                "points": null,
+                "evidence_required": "同时换算分子和分母的单位。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p6",
+            "prompt": "(6) 1克/立方厘米换算为千克/立方米。",
+            "reference_answer": "1000",
+            "solution_steps": [
+              "1g/cm³=1000kg/m³。"
+            ],
+            "knowledge_tags": [
+              "物理量单位换算",
+              "时间、长度、体积、速度和密度单位"
+            ],
+            "type_tags": [
+              "逐空换算常用单位并保持量纲一致"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "质量及体积单位同时换算，得到复合单位进率1000。",
+                "points": null,
+                "evidence_required": "质量及体积单位同时换算，得到复合单位进率1000。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:05800e0f66f2f4568048f9d5",
+    "source_sha256": "3018151e3f67dcc4604619fd1b0afc6bb3606cfa2c1a9230198f8411b56fe084",
+    "current_snapshot_id": "bank:cjeval:05800e0f66f2f4568048f9d5:fa9b6299cf6c",
+    "batch": "B4",
+    "trial_group": "experiment_multipart",
+    "reviewer": "gpt-6-luna",
+    "decision": "keep_quarantined",
+    "independent_solution": [
+      "独立计算和题源解析正文均支持约816.7W、3.71A。"
+    ],
+    "source_conflicts": [
+      "来源答案与解析冲突：Q=0.5×4.2×10³×70=1.47×10⁵J；P=Q/180≈816.7W（约820W）；I=P/220≈3.71A。来源答案980W、4.45A与其解析内算式不符。"
+    ],
+    "resolved_findings": [],
+    "remaining_issues": [
+      "需B1/B2核验答案字段。"
+    ],
+    "rationale": "已独立检查题干和计算；不沿用无法成立或不唯一的来源答案。",
+    "proposed_form": null
+  },
+  {
+    "question_id": "bank:cjeval:059e4830fd7d55850b6f4d95",
+    "source_sha256": "fbcdf5a2b959e91804e8fac0aeaa2d6a3d22bbf41a7aadb015bc7503fe8ecccf",
+    "current_snapshot_id": "bank:cjeval:059e4830fd7d55850b6f4d95:b2c8db82a4af",
+    "batch": "B4",
+    "trial_group": "experiment_multipart",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "6.75cm与其余约6.26—6.30cm的四个读数明显偏离。",
+      "剔除6.75cm后，其余读数精度相同，平均值=(6.30+6.28+6.27+6.26)/4=6.2775cm，按0.01cm记录为6.28cm。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "来源最终值约6.28cm成立；来源解析错误地称6.27和6.26精度较低，这两项均精确到0.01cm，应保留参与平均。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "来源最终值约6.28cm成立；来源解析错误地称6.27和6.26精度较低，这两项均精确到0.01cm，应保留参与平均。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 市售常用的“75%乙醇消毒液”是由酒精和水混合而成，其中酒精体积占总体积的75%。已知一瓶消毒液的体积为600mL，请计算：\n（1）这瓶消毒液中酒精和水的质量分别是多少？\n（2）这种消毒液的密度是多少？\n（已知酒精的密度为0.8×10^3kg/m^3，水的密度为1×10^3kg/m^3，不考虑酒精与水混合后的体积微小变化）",
+      "kind": "reference",
+      "options": [],
+      "answer": "错误记录：6.75cm\n长度：约6.28cm",
+      "steps": [
+        "6.75cm与其余约6.26—6.30cm的四个读数明显偏离。",
+        "剔除6.75cm后，其余读数精度相同，平均值=(6.30+6.28+6.27+6.26)/4=6.2775cm，按0.01cm记录为6.28cm。"
+      ],
+      "knowledge_tags": [
+        "测量误差与异常值",
+        "多次测量求平均值"
+      ],
+      "type_tags": [
+        "识别明显偏离的测量并对一致记录取平均"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "测量误差与异常值",
+            "多次测量求平均值"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "识别明显偏离的测量并对一致记录取平均"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "指出明显错误的测量记录。",
+            "reference_answer": "6.75cm",
+            "solution_steps": [
+              "6.75cm与其余约6.26—6.30cm的四个读数明显偏离。"
+            ],
+            "knowledge_tags": [
+              "测量误差与异常值",
+              "多次测量求平均值"
+            ],
+            "type_tags": [
+              "识别明显偏离的测量并对一致记录取平均"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "依据重复测量的聚集区间识别明显离群记录。",
+                "points": null,
+                "evidence_required": "依据重复测量的聚集区间识别明显离群记录。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "求物体长度。",
+            "reference_answer": "约6.28cm",
+            "solution_steps": [
+              "剔除6.75cm后，其余读数精度相同，平均值=(6.30+6.28+6.27+6.26)/4=6.2775cm，按0.01cm记录为6.28cm。"
+            ],
+            "knowledge_tags": [
+              "测量误差与异常值",
+              "多次测量求平均值"
+            ],
+            "type_tags": [
+              "识别明显偏离的测量并对一致记录取平均"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "仅剔除明显异常值；平均其余四个同精度读数。",
+                "points": null,
+                "evidence_required": "仅剔除明显异常值；平均其余四个同精度读数。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:03091e15973566423e73a0b3",
+    "source_sha256": "eac14a4f61900fbead8c1ca40bb3002e2528745a26f400287531322b2a9f8cd8",
+    "current_snapshot_id": "bank:cjeval:03091e15973566423e73a0b3:47f47a7c2fb6",
+    "batch": "B4",
+    "trial_group": "choice_reserve",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "水银与被测环境热交换，温度变化；质量不变；温度升高时体积膨胀，因ρ=m/V，密度相应变化。按题设定性模型A、B、C均变，D不变。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目描述: 在水银温度计中，封闭了一定量的水银。在使用过程中，水银会因为热胀冷缩而产生变化。请判断以下说法哪些是正确的：选项:",
+      "kind": "multiple_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "温度计内水银的温度变化"
+        },
+        {
+          "key": "B",
+          "text": "水银的密度改变"
+        },
+        {
+          "key": "C",
+          "text": "水银的体积改变"
+        },
+        {
+          "key": "D",
+          "text": "水银的质量改变"
+        }
+      ],
+      "answer": "ABC",
+      "steps": [
+        "水银与被测环境热交换，温度变化；质量不变；温度升高时体积膨胀，因ρ=m/V，密度相应变化。按题设定性模型A、B、C均变，D不变。"
+      ],
+      "knowledge_tags": [
+        "液体热胀冷缩",
+        "质量守恒",
+        "密度公式"
+      ],
+      "type_tags": [
+        "判断封闭水银温度变化时温度、体积、密度与质量变化"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "液体热胀冷缩",
+            "质量守恒",
+            "密度公式"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "判断封闭水银温度变化时温度、体积、密度与质量变化"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "ABC"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择温度变化过程中会变化的量。",
+            "reference_answer": "ABC",
+            "solution_steps": [
+              "水银与被测环境热交换，温度变化；质量不变；温度升高时体积膨胀，因ρ=m/V，密度相应变化。按题设定性模型A、B、C均变，D不变。"
+            ],
+            "knowledge_tags": [
+              "液体热胀冷缩",
+              "质量守恒",
+              "密度公式"
+            ],
+            "type_tags": [
+              "判断封闭水银温度变化时温度、体积、密度与质量变化"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "分别依据热平衡、封闭质量及ρ=m/V判断四个量。",
+                "points": null,
+                "evidence_required": "分别依据热平衡、封闭质量及ρ=m/V判断四个量。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:03559a73661ef3530190e032",
+    "source_sha256": "dfcaf342c82eda07265b34eb38954e6015aceabf4db512b3526abbc5716e479e",
+    "current_snapshot_id": "bank:cjeval:03559a73661ef3530190e032:b85a3f1d3445",
+    "batch": "B4",
+    "trial_group": "choice_reserve",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "50kg学生的重力约为mg≈50×10=500N；日光灯电流远小于5A；课桌远低于1.5m；步行速度远小于10m/s。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "估测下列物理量中，哪个最接近实际情况是（    ）选项:",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "普通中学生的体重约为 500N"
+        },
+        {
+          "key": "B",
+          "text": "教室中正常工作的日光灯电流约为 5A"
+        },
+        {
+          "key": "C",
+          "text": "小明上课桌的高度估计为 1.5m"
+        },
+        {
+          "key": "D",
+          "text": "小明步行上学的速度约为 10m/s"
+        }
+      ],
+      "answer": "500N",
+      "steps": [
+        "50kg学生的重力约为mg≈50×10=500N；日光灯电流远小于5A；课桌远低于1.5m；步行速度远小于10m/s。"
+      ],
+      "knowledge_tags": [
+        "重力与质量",
+        "常见物理量估测"
+      ],
+      "type_tags": [
+        "估测中学生重力、日光灯电流、课桌高度和步行速度"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "重力与质量",
+            "常见物理量估测"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "估测中学生重力、日光灯电流、课桌高度和步行速度"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "500N"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择最接近实际的数据。",
+            "reference_answer": "A",
+            "solution_steps": [
+              "50kg学生的重力约为mg≈50×10=500N；日光灯电流远小于5A；课桌远低于1.5m；步行速度远小于10m/s。"
+            ],
+            "knowledge_tags": [
+              "重力与质量",
+              "常见物理量估测"
+            ],
+            "type_tags": [
+              "估测中学生重力、日光灯电流、课桌高度和步行速度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "将各项与普通中学生和教室的常见量级比较。",
+                "points": null,
+                "evidence_required": "将各项与普通中学生和教室的常见量级比较。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:03899a2d29af25def87c89c7",
+    "source_sha256": "d1d976f5a3445673affb776e230afadb1913a55d67b1ff7447260598da03a692",
+    "current_snapshot_id": "bank:cjeval:03899a2d29af25def87c89c7:b466d15053f5",
+    "batch": "B4",
+    "trial_group": "choice_reserve",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "迎着月光时，积水镜面反射光入眼而显亮，应避开亮点；背向月光时，积水反射光偏离眼睛而显暗，应避开暗点。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 雨后地面上存在许多积水，在一个有月光的夜晚，小明不希望踩到积水。他应该以下面哪种方式行走 (   )选项:",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "迎着月光时避开亮点，逆光时避开暗点"
+        },
+        {
+          "key": "B",
+          "text": "迎着月光和逆光时，都避开亮点"
+        },
+        {
+          "key": "C",
+          "text": "迎着月光时避开暗点，逆光时避开亮点"
+        },
+        {
+          "key": "D",
+          "text": "迎着月光和逆光时，都避开暗点"
+        }
+      ],
+      "answer": "A",
+      "steps": [
+        "迎着月光时，积水镜面反射光入眼而显亮，应避开亮点；背向月光时，积水反射光偏离眼睛而显暗，应避开暗点。"
+      ],
+      "knowledge_tags": [
+        "光的反射",
+        "镜面反射与漫反射"
+      ],
+      "type_tags": [
+        "根据迎光/背光时水面镜面反射判断积水亮暗"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 3,
+      "difficulty_basis": "来源难度：较难；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "光的反射",
+            "镜面反射与漫反射"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "根据迎光/背光时水面镜面反射判断积水亮暗"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "来源难度：较难；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择避免踩入积水的行走方向策略。",
+            "reference_answer": "A",
+            "solution_steps": [
+              "迎着月光时，积水镜面反射光入眼而显亮，应避开亮点；背向月光时，积水反射光偏离眼睛而显暗，应避开暗点。"
+            ],
+            "knowledge_tags": [
+              "光的反射",
+              "镜面反射与漫反射"
+            ],
+            "type_tags": [
+              "根据迎光/背光时水面镜面反射判断积水亮暗"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "分别说明迎月光与背月光时水面反射进入眼睛的情况。",
+                "points": null,
+                "evidence_required": "分别说明迎月光与背月光时水面反射进入眼睛的情况。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:046b3adee8cd2544f15b766c",
+    "source_sha256": "177fd6dae1ceb02fd06525c4143f05fd29b5e2e0e2b07b7f44c5416bf895967e",
+    "current_snapshot_id": "bank:cjeval:046b3adee8cd2544f15b766c:ba39becd5fdc",
+    "batch": "B4",
+    "trial_group": "choice_reserve",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "A通常成立；B错，取出部分后剩余质量会减少；C同种物质同条件密度不变，m与V成正比；D同质量时V较大则ρ=m/V较小。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 以下关于密度的说法，正确的是（ ）。选项:",
+      "kind": "multiple_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "不同的物质密度通常不同"
+        },
+        {
+          "key": "B",
+          "text": "将某容器中的物质取出一部分后，剩余物质的质量和密度都不会改变"
+        },
+        {
+          "key": "C",
+          "text": "同一种物质组成的固体在相同条件下，质量与体积成正比"
+        },
+        {
+          "key": "D",
+          "text": "质量相同的固体物体中，体积较大的物质密度较小"
+        }
+      ],
+      "answer": "ACD",
+      "steps": [
+        "A通常成立；B错，取出部分后剩余质量会减少；C同种物质同条件密度不变，m与V成正比；D同质量时V较大则ρ=m/V较小。"
+      ],
+      "knowledge_tags": [
+        "密度概念",
+        "密度与质量、体积的关系"
+      ],
+      "type_tags": [
+        "判断密度定义及同种物质质量体积关系"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "密度概念",
+            "密度与质量、体积的关系"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "判断密度定义及同种物质质量体积关系"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "ACD"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "选择关于密度的正确说法。",
+            "reference_answer": "ACD",
+            "solution_steps": [
+              "A通常成立；B错，取出部分后剩余质量会减少；C同种物质同条件密度不变，m与V成正比；D同质量时V较大则ρ=m/V较小。"
+            ],
+            "knowledge_tags": [
+              "密度概念",
+              "密度与质量、体积的关系"
+            ],
+            "type_tags": [
+              "判断密度定义及同种物质质量体积关系"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "分别用密度定义及m=ρV辨析A、C、D，并指出B质量变化。",
+                "points": null,
+                "evidence_required": "分别用密度定义及m=ρV辨析A、C、D，并指出B质量变化。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:05aeb31ea90376f9c9c821c3",
+    "source_sha256": "4c81855991439c592a813ff18bce441c6f661fd7f11c4e12a49aa554a8f71e04",
+    "current_snapshot_id": "bank:cjeval:05aeb31ea90376f9c9c821c3:177e0534f9aa",
+    "batch": "B4",
+    "trial_group": "experiment_multipart_reserve",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "若全为铝，体积V=81g/(2.7g/cm³)=30cm³，小于外形体积35cm³，故空心。",
+      "V空=35−30=5cm³。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 有一铝球，质量为81g，体积为35cm³，（ρ铝=2.7g/cm³）。\n(1) 该铝球是实心还是空心？\n(2) 若为空心，空心部分的体积是多少？",
+      "kind": "reference",
+      "options": [],
+      "answer": "空心\n5cm³",
+      "steps": [
+        "若全为铝，体积V=81g/(2.7g/cm³)=30cm³，小于外形体积35cm³，故空心。",
+        "V空=35−30=5cm³。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "空心物体体积计算"
+      ],
+      "type_tags": [
+        "以密度求铝实体积，比较外形体积并求空腔"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "空心物体体积计算"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "以密度求铝实体积，比较外形体积并求空腔"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "判断铝球是实心还是空心。",
+            "reference_answer": "空心",
+            "solution_steps": [
+              "若全为铝，体积V=81g/(2.7g/cm³)=30cm³，小于外形体积35cm³，故空心。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "空心物体体积计算"
+            ],
+            "type_tags": [
+              "以密度求铝实体积，比较外形体积并求空腔"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "计算实体积并与球外形体积比较。",
+                "points": null,
+                "evidence_required": "计算实体积并与球外形体积比较。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "求空心部分体积。",
+            "reference_answer": "5cm³",
+            "solution_steps": [
+              "V空=35−30=5cm³。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "空心物体体积计算"
+            ],
+            "type_tags": [
+              "以密度求铝实体积，比较外形体积并求空腔"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "外形体积减去铝实体积。",
+                "points": null,
+                "evidence_required": "外形体积减去铝实体积。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:1d4413b53ddaf4c96ab83dca",
+    "source_sha256": "05a173562ee28d9b2e509728a5b1e3d17eaef5c5a0f379a26eeeacb8f93faa71",
+    "current_snapshot_id": "bank:cjeval:1d4413b53ddaf4c96ab83dca:9295e335fd0c",
+    "batch": "B4",
+    "trial_group": "calculation_reserve",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "t=2min=120s；U=W/(It)=48/(0.2×120)=2V。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 一个小灯泡连接到电源上，通过灯泡的电流为$0.2\\text{ A}$，小灯泡在$2\\text{ min}$内消耗的电能是$48\\text{ J}$，求电源电压。",
+      "kind": "reference",
+      "options": [],
+      "answer": "2V",
+      "steps": [
+        "t=2min=120s；U=W/(It)=48/(0.2×120)=2V。"
+      ],
+      "knowledge_tags": [
+        "电功与电压、电流、时间关系"
+      ],
+      "type_tags": [
+        "由电能、电流和通电时间用W=UIt求电压"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "电功与电压、电流、时间关系"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由电能、电流和通电时间用W=UIt求电压"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "求电源电压。",
+            "reference_answer": "2V",
+            "solution_steps": [
+              "t=2min=120s；U=W/(It)=48/(0.2×120)=2V。"
+            ],
+            "knowledge_tags": [
+              "电功与电压、电流、时间关系"
+            ],
+            "type_tags": [
+              "由电能、电流和通电时间用W=UIt求电压"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "正确换算时间并以W=UIt变形求U。",
+                "points": null,
+                "evidence_required": "正确换算时间并以W=UIt变形求U。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:1f398308c2010da64c638669",
+    "source_sha256": "4237d5c1258cbf62fac9ed7cb3058dc144637e0bec2dc50d3fec840fd892f4ec",
+    "current_snapshot_id": "bank:cjeval:1f398308c2010da64c638669:4d86e7c68af9",
+    "batch": "B4",
+    "trial_group": "calculation_reserve",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "V瓶=V油=m/ρ=1kg/(900kg/m³)=1.111×10⁻³m³；m水=ρ水V=1000×1.111×10⁻³≈1.11kg。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。"
+    ],
+    "remaining_issues": [
+      "answer_remains_source_only_until_teacher_review",
+      "grade_term_and_curriculum_goals_unknown",
+      "score_not_provided"
+    ],
+    "rationale": "独立核算/逐项判断与题面一致；草稿不设分值或课程册次。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 一个瓶子最多能装1千克的油，使用这个瓶子最多能装多少千克水？（油的密度=900千克每立方米）",
+      "kind": "reference",
+      "options": [],
+      "answer": "1.11kg",
+      "steps": [
+        "V瓶=V油=m/ρ=1kg/(900kg/m³)=1.111×10⁻³m³；m水=ρ水V=1000×1.111×10⁻³≈1.11kg。"
+      ],
+      "knowledge_tags": [
+        "密度公式",
+        "容器容积与液体质量"
+      ],
+      "type_tags": [
+        "由瓶装油的质量和密度确定容积，再求同体积水质量"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准 独立推导步骤已补充；未实测校准。",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "密度公式",
+            "容器容积与液体质量"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由瓶装油的质量和密度确定容积，再求同体积水质量"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准 本次根据独立推导所需步骤补充依据；未实测校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "输入未提供可核验的年级、学期和课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "numeric",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "仅按题目明确给出的数值、状态和条件计算；不预设题目未给出的误差容限或精度。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "whole",
+            "prompt": "求瓶子最多能装的水质量。",
+            "reference_answer": "约1.11kg",
+            "solution_steps": [
+              "V瓶=V油=m/ρ=1kg/(900kg/m³)=1.111×10⁻³m³；m水=ρ水V=1000×1.111×10⁻³≈1.11kg。"
+            ],
+            "knowledge_tags": [
+              "密度公式",
+              "容器容积与液体质量"
+            ],
+            "type_tags": [
+              "由瓶装油的质量和密度确定容积，再求同体积水质量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "method_evidence",
+                "description": "利用装油时的质量/密度求瓶容积，再乘水密度。",
+                "points": null,
+                "evidence_required": "利用装油时的质量/密度求瓶容积，再乘水密度。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "teacher_answer_review_pending"
+          ],
+          "method": "item_read",
+          "notes": "Luna已按题干独立推导/逐项判断并形成候选答案和证据；状态仍为source_only，须人工审定后方可发布。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B4"
+        }
+      }
+    }
+  }
+]

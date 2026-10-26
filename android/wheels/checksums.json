@@ -1,0 +1,10 @@
+[
+  {
+    "name": "pydantic_core-2.46.5-cp312-cp312-android_24_arm64_v8a.whl",
+    "sha256": "f4e6c10969122fb767f0d8a06fe0d201e89b2b87f8e5736266d997a21ed1b0d5"
+  },
+  {
+    "name": "pydantic_core-2.46.5-cp312-cp312-android_24_x86_64.whl",
+    "sha256": "3bcace444816b6a2b6080de2b04e060a160d6dadc57f8f92db1519d2faace6f2"
+  }
+]

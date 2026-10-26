@@ -1,0 +1,2810 @@
+{
+  "version": "20261015-1",
+  "source": "https://github.com/weishao2/tizhuang-agent-skills",
+  "records": [
+    {
+      "id": "tizhuang-curated:35579384",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 7,
+      "term": 1,
+      "kind": "single_choice",
+      "status": "ready",
+      "stem": "有理数中,绝对值等于它本身的数是（  ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "$0$"
+        },
+        {
+          "key": "B",
+          "text": "$ 0$和$1$"
+        },
+        {
+          "key": "C",
+          "text": "只有正数"
+        },
+        {
+          "key": "D",
+          "text": "$ 0$和正数"
+        }
+      ],
+      "answer": "D",
+      "steps": [
+        "x≥0时|x|=x；x<0时|x|=−x≠x。",
+        "满足条件的是0和正数，选D。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": 2.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "绝对值等于自身的非负数判别"
+      ],
+      "knowledge_tags": [
+        "绝对值等于自身的非负数判别"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "math-7-1:u1:g3"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "35579384",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "青岛版（2024）七年级上册《1.4相反数与绝对值》2024年同步练习卷",
+        "source_content_hash": "4742eac81eb21d1a81b51c9b1eecae22",
+        "raw_sha256": "72cde7078079cce3650b7f189f513f1ff962ccf5d3fef38e9ddd0f07adc5cc3f",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 2,
+          "grade_id": 201,
+          "edition_id": 142,
+          "chapter_id": 177866,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "绝对值等于自身的非负数判别"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "绝对值等于自身的非负数判别"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 7,
+          "term": 1,
+          "goal_ids": [
+            "math-7-1:u1:g3"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "D",
+            "solution_steps": [
+              "x≥0时|x|=x；x<0时|x|=−x≠x。",
+              "满足条件的是0和正数，选D。"
+            ],
+            "knowledge_tags": [
+              "绝对值等于自身的非负数判别"
+            ],
+            "type_tags": [
+              "绝对值等于自身的非负数判别"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "绝对值等于自身的非负数判别"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:26350566",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 7,
+      "term": 1,
+      "kind": "reference",
+      "status": "reference",
+      "stem": "计算：\n\\((1)23-17-(-7)+(-16).\\)\n\\((2)12-(-18)+(-7)-15.\\)",
+      "options": [],
+      "answer": "解：（1）23-17-（-7）+（-16）\n=23-17+7-16\n=（23+7）-（17+16）\n=30-33\n=-3；\n（2）12-（-18）+（-7）-15\n=12+18-7-15\n=（12+18）-（7+15）\n=30-22\n=8．",
+      "steps": [
+        "第1问：23−17−(−7)+(−16)=23−17+7−16=−3。",
+        "第2问：12−(−18)+(−7)−15=12+18−7−15=8。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": 2.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "四项有理数加减与符号处理"
+      ],
+      "knowledge_tags": [
+        "四项有理数加减与符号处理"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "math-7-1:u2:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "26350566",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2021-2022学年湖南省长沙市开福区青竹湖湘一外国语学校七年级（上）第一次月考数学试卷",
+        "source_content_hash": "8c5cd04fcbc0e990d7dde2cf84c1435b",
+        "raw_sha256": "94bc86acd130089a423b1adf959545ada3162eb182cfffb5255b4bbf54c0ceba",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 2,
+          "grade_id": 201,
+          "edition_id": 142,
+          "chapter_id": 177881,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "四项有理数加减与符号处理"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "四项有理数加减与符号处理"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 7,
+          "term": 1,
+          "goal_ids": [
+            "math-7-1:u2:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "解：（1）23-17-（-7）+（-16）\n=23-17+7-16\n=（23+7）-（17+16）\n=30-33\n=-3；\n（2）12-（-18）+（-7）-15\n=12+18-7-15\n=（12+18）-（7+15）\n=30-22\n=8．"
+          ],
+          "equivalence": "rubric",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "计算23−17−(−7)+(−16)。",
+            "reference_answer": "−3",
+            "solution_steps": [
+              "第1问：23−17−(−7)+(−16)=23−17+7−16=−3。"
+            ],
+            "knowledge_tags": [
+              "四项有理数加减与符号处理"
+            ],
+            "type_tags": [
+              "四项有理数加减与符号处理"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "四项有理数加减与符号处理"
+                ],
+                "type_tags": []
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "prompt": "计算12−(−18)+(−7)−15。",
+            "reference_answer": "8",
+            "solution_steps": [
+              "第2问：12−(−18)+(−7)−15=12+18−7−15=8。"
+            ],
+            "knowledge_tags": [
+              "四项有理数加减与符号处理"
+            ],
+            "type_tags": [
+              "四项有理数加减与符号处理"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "四项有理数加减与符号处理"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:22797920",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 7,
+      "term": 1,
+      "kind": "reference",
+      "status": "reference",
+      "stem": "代数式5a的意义可解释为______．",
+      "options": [],
+      "answer": "5与a的积",
+      "steps": [
+        "数字与字母并列表示乘法。",
+        "5a表示5与a的积，或a的5倍。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": 2.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "乘法代数式的数量关系解释"
+      ],
+      "knowledge_tags": [
+        "乘法代数式的数量关系解释"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "math-7-1:u3:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "22797920",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2019-2020学年河南省郑州市七年级（上）期末数学试卷",
+        "source_content_hash": "ffa8b2c1b51148aa5e0c408c1fc3c072",
+        "raw_sha256": "1cecc2e449fcaa93d4c300221e7e943049edd12833079219090b3239382a5205",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 2,
+          "grade_id": 201,
+          "edition_id": 142,
+          "chapter_id": 177903,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "fill_blank",
+        "knowledge": {
+          "primary": [
+            "乘法代数式的数量关系解释"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "乘法代数式的数量关系解释"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 7,
+          "term": 1,
+          "goal_ids": [
+            "math-7-1:u3:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "text",
+          "accepted_answers": [
+            "5与a的积"
+          ],
+          "equivalence": "rubric",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "5与a的积",
+            "solution_steps": [
+              "数字与字母并列表示乘法。",
+              "5a表示5与a的积，或a的5倍。"
+            ],
+            "knowledge_tags": [
+              "乘法代数式的数量关系解释"
+            ],
+            "type_tags": [
+              "乘法代数式的数量关系解释"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "乘法代数式的数量关系解释"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:13907195",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 7,
+      "term": 1,
+      "kind": "reference",
+      "status": "reference",
+      "stem": "-（2x+y-z）=-2x+y-z\n\n[     ]",
+      "options": [],
+      "answer": "×",
+      "steps": [
+        "括号前是负号，括号内每一项均改变符号。",
+        "−(2x+y−z)=−2x−y+z，原式错误。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": 2.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "负号去括号逐项变号辨误"
+      ],
+      "knowledge_tags": [
+        "负号去括号逐项变号辨误"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "math-7-1:u4:g3"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "13907195",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "同步题",
+        "source_content_hash": "c810a6949df80c3ec85d210e87a10fbe",
+        "raw_sha256": "64cacd5bb6c9e0ada564207d16b2051b05f60156b1a09eab7c23819f6e271911",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 2,
+          "grade_id": 201,
+          "edition_id": 142,
+          "chapter_id": 177909,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "fill_blank",
+        "knowledge": {
+          "primary": [
+            "负号去括号逐项变号辨误"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "负号去括号逐项变号辨误"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 7,
+          "term": 1,
+          "goal_ids": [
+            "math-7-1:u4:g3"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "text",
+          "accepted_answers": [
+            "×"
+          ],
+          "equivalence": "rubric",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "×",
+            "solution_steps": [
+              "括号前是负号，括号内每一项均改变符号。",
+              "−(2x+y−z)=−2x−y+z，原式错误。"
+            ],
+            "knowledge_tags": [
+              "负号去括号逐项变号辨误"
+            ],
+            "type_tags": [
+              "负号去括号逐项变号辨误"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "负号去括号逐项变号辨误"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:36395090",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 7,
+      "term": 2,
+      "kind": "single_choice",
+      "status": "ready",
+      "stem": "某校$3000$名学生,随机抽取了$200$名学生进行体重调查,下列说法错误的是（  ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "总体是该校$3000$名学生的体重"
+        },
+        {
+          "key": "B",
+          "text": "个体是每一个学生"
+        },
+        {
+          "key": "C",
+          "text": "样本是抽取的$200$名学生的体重"
+        },
+        {
+          "key": "D",
+          "text": "样本容量是$200$"
+        }
+      ],
+      "answer": "B",
+      "steps": [
+        "调查对象是学生的体重，总体是3000名学生的体重，样本是抽取的200名学生的体重。",
+        "个体是每名学生的体重，不是学生本人；样本容量是200。题目问错误项，选B。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": 3.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "统计调查中的个体与观测量"
+      ],
+      "knowledge_tags": [
+        "统计调查中的个体与观测量"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "math-7-2:u6:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "36395090",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2023-2024学年山东省济宁市鱼台县七年级（下）期末数学试卷",
+        "source_content_hash": "610b50f27024334d9df6953c87b72586",
+        "raw_sha256": "801b01a3866db0492d2edc00026c6becbc985a42473ef7823ff081137d0c3a8b",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 2,
+          "grade_id": 202,
+          "edition_id": 142,
+          "chapter_id": 186109,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "统计调查中的个体与观测量"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "统计调查中的个体与观测量"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 7,
+          "term": 2,
+          "goal_ids": [
+            "math-7-2:u6:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "B",
+            "solution_steps": [
+              "调查对象是学生的体重，总体是3000名学生的体重，样本是抽取的200名学生的体重。",
+              "个体是每名学生的体重，不是学生本人；样本容量是200。题目问错误项，选B。"
+            ],
+            "knowledge_tags": [
+              "统计调查中的个体与观测量"
+            ],
+            "type_tags": [
+              "统计调查中的个体与观测量"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "统计调查中的个体与观测量"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:25949691",
+      "subject": "physics",
+      "stage": "junior",
+      "grade": 8,
+      "term": 1,
+      "kind": "single_choice",
+      "status": "ready",
+      "stem": "毛泽东《沁园春\\(\\boldsymbol{⋅}\\)长沙》中的诗句“鹰击长空，鱼翔浅底，万类霜天竞自由”为我们展示了一幅雄鹰在广阔的天空里飞，鱼儿在清澈的水里游荡，万物都在秋光中争着过自由自在的生活的美丽场景。关于此诗句所描述的场景说法正确的是\\((\\quad)\\)",
+      "options": [
+        {
+          "key": "A",
+          "text": "清澈的水底看上去要比实际位置更深"
+        },
+        {
+          "key": "B",
+          "text": "若雄鹰离水面的距离为\\(1km\\)，其像离雄鹰的距离也为\\(1km\\)"
+        },
+        {
+          "key": "C",
+          "text": "在清澈平静的水面看到蓝天白云的倒影是光的折射形成的"
+        },
+        {
+          "key": "D",
+          "text": "在岸上看到水中的鱼儿是光的折射形成的虚像"
+        }
+      ],
+      "answer": "D",
+      "steps": [
+        "水底和鱼在水面折射成像，看起来比实际浅；倒影来自反射。",
+        "平面镜物像到镜面等距，物距1km时物像距2km；正确项为D。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": 1.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "水面反射与水中物体折射辨析"
+      ],
+      "knowledge_tags": [
+        "水面反射与水中物体折射辨析"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "physics-8-1:u4:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "25949691",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2020-2021学年内蒙古通辽市霍林郭勒市初中联盟校八年级（上）期末物理试卷",
+        "source_content_hash": "a646bef7c8a6485272f1d4c347630d77",
+        "raw_sha256": "ffc5434e707401c76261f0e72e75791fc7bd62f59f873114226971a0f7c1de96",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 8,
+          "grade_id": 301,
+          "edition_id": 142,
+          "chapter_id": 181290,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "水面反射与水中物体折射辨析"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "水面反射与水中物体折射辨析"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 8,
+          "term": 1,
+          "goal_ids": [
+            "physics-8-1:u4:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "D",
+            "solution_steps": [
+              "水底和鱼在水面折射成像，看起来比实际浅；倒影来自反射。",
+              "平面镜物像到镜面等距，物距1km时物像距2km；正确项为D。"
+            ],
+            "knowledge_tags": [
+              "水面反射与水中物体折射辨析"
+            ],
+            "type_tags": [
+              "水面反射与水中物体折射辨析"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "水面反射与水中物体折射辨析"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:17908547",
+      "subject": "physics",
+      "stage": "junior",
+      "grade": 8,
+      "term": 1,
+      "kind": "multiple_choice",
+      "status": "ready",
+      "stem": "下列关于实验仪器使用方法的说法中，正确的是\\((\\)　　\\()\\)",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用量筒可以用排水法测量石块的体积"
+        },
+        {
+          "key": "B",
+          "text": "使用刻度尺时，有刻度线的一边要紧靠被测物体且与被测边保持平行"
+        },
+        {
+          "key": "C",
+          "text": "使用天平测量物体质量时，若增减砝码无法使天平横梁平衡，则应调节平衡螺母"
+        },
+        {
+          "key": "D",
+          "text": "使用温度计测量液体温度时，温度计的玻璃泡必须接触容器底部"
+        }
+      ],
+      "answer": "AB",
+      "steps": [
+        "排水法可测不溶于水且能浸没的石块体积；刻度尺的刻度线侧紧靠被测边，故A、B正确。",
+        "天平称量过程中通过增减砝码、移动游码平衡，不能再调平衡螺母；温度计玻璃泡不能接触容器壁底，C、D错误。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": 3.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "多仪器测量操作辨析"
+      ],
+      "knowledge_tags": [
+        "多仪器测量操作辨析"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "physics-8-1:u6:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "17908547",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2017-2018学年山东省聊城市临清市八年级（上）期末物理试卷",
+        "source_content_hash": "14eb05290cebeb3f680d9719f3be94dc",
+        "raw_sha256": "de7bbe7518d534cfc604b6d1756ddc4c49a0986b4b5ba00a87ccf22af2712f19",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 8,
+          "grade_id": 301,
+          "edition_id": 142,
+          "chapter_id": 181379,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "多仪器测量操作辨析"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "多仪器测量操作辨析"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 8,
+          "term": 1,
+          "goal_ids": [
+            "physics-8-1:u6:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "AB"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "AB",
+            "solution_steps": [
+              "排水法可测不溶于水且能浸没的石块体积；刻度尺的刻度线侧紧靠被测边，故A、B正确。",
+              "天平称量过程中通过增减砝码、移动游码平衡，不能再调平衡螺母；温度计玻璃泡不能接触容器壁底，C、D错误。"
+            ],
+            "knowledge_tags": [
+              "多仪器测量操作辨析"
+            ],
+            "type_tags": [
+              "多仪器测量操作辨析"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "多仪器测量操作辨析"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:22168633",
+      "subject": "physics",
+      "stage": "junior",
+      "grade": 8,
+      "term": 2,
+      "kind": "reference",
+      "status": "reference",
+      "stem": "一个形状不规则的质量为55g的实心物体，放入装有水的烧杯中后沉入水底，排开重0.5N的水。然后向烧杯中加盐并搅拌，直到物体恰好悬浮为止。g=10N/kg，求：\n（1）物体的体积是多大？\n（2）物体悬浮时，盐水的密度是多大？",
+      "options": [],
+      "answer": "（1）5×10^(-5) m³；（2）1100 kg/m³。",
+      "steps": [
+        "水的密度取1000 kg/m³，排水重0.5N，故V排=0.5/(1000×10)=5×10^(-5) m³。",
+        "物体完全浸没，V物=V排；质量55g=0.055kg，ρ物=0.055/(5×10^(-5))=1100kg/m³。",
+        "恰好悬浮时ρ盐水=ρ物，故盐水密度1100 kg/m³。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": 5.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "排水浮力与悬浮密度两问计算"
+      ],
+      "knowledge_tags": [
+        "排水浮力与悬浮密度两问计算"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "physics-8-2:u4:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "22168633",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2018-2019学年新疆和田地区八年级（下）期末物理试卷",
+        "source_content_hash": "2b45e4623a65f6dccb81cb8882277beb",
+        "raw_sha256": "a31377406e116671ac4dc84bb9853c5f5972878e512bb946605f4770a9b0c2f2",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 8,
+          "grade_id": 302,
+          "edition_id": 142,
+          "chapter_id": 181424,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "calculation",
+        "knowledge": {
+          "primary": [
+            "排水浮力与悬浮密度两问计算"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "排水浮力与悬浮密度两问计算"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 8,
+          "term": 2,
+          "goal_ids": [
+            "physics-8-2:u4:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [
+            "（1）5×10^(-5) m³；（2）1100 kg/m³。"
+          ],
+          "equivalence": "rubric",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "计算物体体积。",
+            "reference_answer": "5×10^(-5) m³",
+            "solution_steps": [
+              "水的密度取1000 kg/m³，排水重0.5N，故V排=0.5/(1000×10)=5×10^(-5) m³。"
+            ],
+            "knowledge_tags": [
+              "排水浮力与悬浮密度两问计算"
+            ],
+            "type_tags": [
+              "排水浮力与悬浮密度两问计算"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "排水浮力与悬浮密度两问计算"
+                ],
+                "type_tags": []
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "prompt": "计算恰好悬浮时盐水密度。",
+            "reference_answer": "1100 kg/m³",
+            "solution_steps": [
+              "物体完全浸没，V物=V排；质量55g=0.055kg，ρ物=0.055/(5×10^(-5))=1100kg/m³。",
+              "恰好悬浮时ρ盐水=ρ物，故盐水密度1100 kg/m³。"
+            ],
+            "knowledge_tags": [
+              "排水浮力与悬浮密度两问计算"
+            ],
+            "type_tags": [
+              "排水浮力与悬浮密度两问计算"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "排水浮力与悬浮密度两问计算"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "ai_rubric",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:21586561",
+      "subject": "physics",
+      "stage": "junior",
+      "grade": 8,
+      "term": 2,
+      "kind": "single_choice",
+      "status": "ready",
+      "stem": "一名普通中学生，对自己的估算最接近亊实的是（　　）",
+      "options": [
+        {
+          "key": "A",
+          "text": "人双脚站立时对地压强约为300Pa"
+        },
+        {
+          "key": "B",
+          "text": "若空气密度为1.29kg/m^{3}，则他在空气中受到的浮力约为600N"
+        },
+        {
+          "key": "C",
+          "text": "从1楼跑到3楼用了10秒，他在上楼过程中的功率约为300W"
+        },
+        {
+          "key": "D",
+          "text": "从地上拿起一个鸡蛋，并把它缓缓举过头顶，在这过程中，人对鸡蛋做的功约为100J"
+        }
+      ],
+      "answer": "C",
+      "steps": [
+        "按体重约500N、站立面积约0.04m²估算压强约12500Pa，人体在空气中的浮力约0.65N。",
+        "从1楼到3楼上升约6m，P≈500×6/10=300W，C合理。",
+        "鸡蛋重约0.5N，举高约2m，做功约1J，D的100J偏大。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": 4.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "人体尺度与功率数量级估算"
+      ],
+      "knowledge_tags": [
+        "人体尺度与功率数量级估算"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "physics-8-2:u5:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "21586561",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2018-2019学年甘肃省武威市八年级（下）第一次月考物理试卷",
+        "source_content_hash": "24dc2ceedabbc953d81c444040ec8360",
+        "raw_sha256": "b9676100735e1f410f073b4e9090595997ce2c535acf6d80cc8721a9f41e81b2",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 8,
+          "grade_id": 302,
+          "edition_id": 142,
+          "chapter_id": 181442,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "人体尺度与功率数量级估算"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "人体尺度与功率数量级估算"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 8,
+          "term": 2,
+          "goal_ids": [
+            "physics-8-2:u5:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "C",
+            "solution_steps": [
+              "按体重约500N、站立面积约0.04m²估算压强约12500Pa，人体在空气中的浮力约0.65N。",
+              "从1楼到3楼上升约6m，P≈500×6/10=300W，C合理。",
+              "鸡蛋重约0.5N，举高约2m，做功约1J，D的100J偏大。"
+            ],
+            "knowledge_tags": [
+              "人体尺度与功率数量级估算"
+            ],
+            "type_tags": [
+              "人体尺度与功率数量级估算"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "人体尺度与功率数量级估算"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:32675107",
+      "subject": "physics",
+      "stage": "junior",
+      "grade": 8,
+      "term": 2,
+      "kind": "single_choice",
+      "status": "ready",
+      "stem": "（2023八下·长汀期末）自行车是节能环保的交通工具，关于小明骑自行车上学的情形，下列说法正确的是（　　）",
+      "options": [
+        {
+          "key": "A",
+          "text": "小明在骑行过程中，相对于路旁的树木是静止的"
+        },
+        {
+          "key": "B",
+          "text": "停止蹬车后车会停下来，说明运动需要力来维持"
+        },
+        {
+          "key": "C",
+          "text": "静止在水平路面上的自行车所受重力与它对地面的压力是一对相互作用力"
+        },
+        {
+          "key": "D",
+          "text": "静止在水平路面上的自行车所受重力与地面对它的支持力是一对平衡力"
+        }
+      ],
+      "answer": "D",
+      "steps": [
+        "相对路旁树木骑行时位置变化；停止蹬车后因阻力而减速，A、B错误。",
+        "重力和支持力作用于同一静止物体，大小相等、方向相反，属于平衡力；相互作用力分作用于两个物体，选D。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": 3.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "平衡力与相互作用力辨析"
+      ],
+      "knowledge_tags": [
+        "平衡力与相互作用力辨析"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "physics-8-2:u2:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "32675107",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "福建省龙岩市长汀县2022-2023学年八年级（下）物理期末试卷",
+        "source_content_hash": "a6b9d380d28748646af881c60c3703f9",
+        "raw_sha256": "a0b5f13f644561d4b4cd470bb5d0c4b4658977c7a5853c2566e21328de76a4fa",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 8,
+          "grade_id": 302,
+          "edition_id": 142,
+          "chapter_id": 181528,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "平衡力与相互作用力辨析"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "平衡力与相互作用力辨析"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 8,
+          "term": 2,
+          "goal_ids": [
+            "physics-8-2:u2:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "D",
+            "solution_steps": [
+              "相对路旁树木骑行时位置变化；停止蹬车后因阻力而减速，A、B错误。",
+              "重力和支持力作用于同一静止物体，大小相等、方向相反，属于平衡力；相互作用力分作用于两个物体，选D。"
+            ],
+            "knowledge_tags": [
+              "平衡力与相互作用力辨析"
+            ],
+            "type_tags": [
+              "平衡力与相互作用力辨析"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "平衡力与相互作用力辨析"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:7336855",
+      "subject": "physics",
+      "stage": "junior",
+      "grade": 8,
+      "term": 2,
+      "kind": "single_choice",
+      "status": "ready",
+      "stem": "空中的氢气球，升到一定高度就会爆裂，以下正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "这一高度的大气压值大，把气球压裂"
+        },
+        {
+          "key": "B",
+          "text": "高空中的大气压小，气球向外膨胀，把气球胀裂"
+        },
+        {
+          "key": "C",
+          "text": "高空中的温度很低，气球被冻裂"
+        },
+        {
+          "key": "D",
+          "text": "空中的紫外线很强，将气球照裂"
+        }
+      ],
+      "answer": "B",
+      "steps": [
+        "随高度增加，大气压总体减小，气球外部压强降低。",
+        "内部气体向外膨胀，超过球囊承受范围时胀裂，选B；不是外部大气把它压裂。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": 3.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "大气压随高度变化解释气球膨胀"
+      ],
+      "knowledge_tags": [
+        "大气压随高度变化解释气球膨胀"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "physics-8-2:u3:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "7336855",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2009-2010学年沪科版八年级（下）同步练习（1）（解析版）",
+        "source_content_hash": "6b483822ec50959c6902af0214f540e9",
+        "raw_sha256": "d1f3fd4c0ab8e12888e9bdc88b99e70d78d8c6fbeec27b848953e1fa366869e4",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 8,
+          "grade_id": 302,
+          "edition_id": 142,
+          "chapter_id": 181604,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "大气压随高度变化解释气球膨胀"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "大气压随高度变化解释气球膨胀"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 8,
+          "term": 2,
+          "goal_ids": [
+            "physics-8-2:u3:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "B",
+            "solution_steps": [
+              "随高度增加，大气压总体减小，气球外部压强降低。",
+              "内部气体向外膨胀，超过球囊承受范围时胀裂，选B；不是外部大气把它压裂。"
+            ],
+            "knowledge_tags": [
+              "大气压随高度变化解释气球膨胀"
+            ],
+            "type_tags": [
+              "大气压随高度变化解释气球膨胀"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "大气压随高度变化解释气球膨胀"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:29927185",
+      "subject": "physics",
+      "stage": "junior",
+      "grade": 9,
+      "term": 1,
+      "kind": "multiple_choice",
+      "status": "ready",
+      "stem": "小明用家里的燃气灶烧水时，进行了如下思考，不正确的是\\((\\quad)\\)",
+      "options": [
+        {
+          "key": "A",
+          "text": "燃气燃烧越充分，其热值越大"
+        },
+        {
+          "key": "B",
+          "text": "烧到\\(60℃\\)的水一定比\\(30℃\\)的水含有的热量多"
+        },
+        {
+          "key": "C",
+          "text": "壶内的水在温度升高的过程中内能增大"
+        },
+        {
+          "key": "D",
+          "text": "加热过程中的能量转化效率不可能达到\\(100％\\)"
+        }
+      ],
+      "answer": "AB",
+      "steps": [
+        "热值是燃料的特性，不因燃烧充分与否改变；热量描述能量传递的过程，不能说物体“含有热量”。",
+        "壶中水升温时内能增大；现实加热存在损失。题目问“不正确”，选A、B。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": 2.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "热量过程量与热值特性辨析"
+      ],
+      "knowledge_tags": [
+        "热量过程量与热值特性辨析"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "physics-9-1:u1:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "29927185",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2022年河南省三甲名校中考物理押题试卷（四）",
+        "source_content_hash": "db4f157b338d3ac2cdefeaa71fc81b9f",
+        "raw_sha256": "1fe646077c7864702b78a633001c04a75078c58fbad28aaacfb19110cba26b8f",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 8,
+          "grade_id": 400,
+          "edition_id": 142,
+          "chapter_id": 181642,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "热量过程量与热值特性辨析"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "热量过程量与热值特性辨析"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 9,
+          "term": 1,
+          "goal_ids": [
+            "physics-9-1:u1:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "AB"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "AB",
+            "solution_steps": [
+              "热值是燃料的特性，不因燃烧充分与否改变；热量描述能量传递的过程，不能说物体“含有热量”。",
+              "壶中水升温时内能增大；现实加热存在损失。题目问“不正确”，选A、B。"
+            ],
+            "knowledge_tags": [
+              "热量过程量与热值特性辨析"
+            ],
+            "type_tags": [
+              "热量过程量与热值特性辨析"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "热量过程量与热值特性辨析"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:27264122",
+      "subject": "physics",
+      "stage": "junior",
+      "grade": 9,
+      "term": 1,
+      "kind": "single_choice",
+      "status": "ready",
+      "stem": "下列说法中正确的是\\((\\quad)\\)",
+      "options": [
+        {
+          "key": "A",
+          "text": "验电器是利用异种电荷相互排斥的原理工作的"
+        },
+        {
+          "key": "B",
+          "text": "当温度一定时，长度不等的两条镍铬合金导线，长导线电阻大"
+        },
+        {
+          "key": "C",
+          "text": "家庭电路中用电器之间属于并联，正常工作时用电器两端的电压相同"
+        },
+        {
+          "key": "D",
+          "text": "教室里装有多盏日光灯，每多开一盏灯，则教室电路的总电阻增大"
+        }
+      ],
+      "answer": "C",
+      "steps": [
+        "验电器利用同种电荷排斥；比较导线电阻须同时考虑材料、温度、长度和横截面积，A、B错误。",
+        "家庭用电器并联，正常两端电压相同，C正确；并联支路增多总电阻减小，D错误。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": 2.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "并联电阻变化与导体电阻条件"
+      ],
+      "knowledge_tags": [
+        "并联电阻变化与导体电阻条件"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "physics-9-1:u5:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "27264122",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "河北承德第一中学（南校区）九年级物理周考试卷2021-10-28",
+        "source_content_hash": "c6e87932d15d3d6a4802e15125df25b8",
+        "raw_sha256": "cc22e825b5c1b5ee2089fd6f0621aeae86959609e4c97ad46157eb3ea541f647",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 8,
+          "grade_id": 400,
+          "edition_id": 142,
+          "chapter_id": 181779,
+          "has_images": "false",
+          "limit": 1,
+          "random_order": "true"
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "并联电阻变化与导体电阻条件"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "并联电阻变化与导体电阻条件"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 9,
+          "term": 1,
+          "goal_ids": [
+            "physics-9-1:u5:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "C",
+            "solution_steps": [
+              "验电器利用同种电荷排斥；比较导线电阻须同时考虑材料、温度、长度和横截面积，A、B错误。",
+              "家庭用电器并联，正常两端电压相同，C正确；并联支路增多总电阻减小，D错误。"
+            ],
+            "knowledge_tags": [
+              "并联电阻变化与导体电阻条件"
+            ],
+            "type_tags": [
+              "并联电阻变化与导体电阻条件"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "并联电阻变化与导体电阻条件"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:20736622",
+      "subject": "physics",
+      "stage": "junior",
+      "grade": 8,
+      "term": 1,
+      "kind": "single_choice",
+      "status": "ready",
+      "stem": "短跑运动员跑步的速度是 \\(36km/h\\)，羚羊奔跑的速度是\\(20m/s\\)，汽车的行驶速度是\\(54km/h\\)，三者速度从小到大的排列顺序是\\((\\)　　\\()\\)",
+      "options": [
+        {
+          "key": "A",
+          "text": "汽车，羚羊，运动员"
+        },
+        {
+          "key": "B",
+          "text": "羚羊，汽车，运动员"
+        },
+        {
+          "key": "C",
+          "text": "运动员，汽车，羚羊"
+        },
+        {
+          "key": "D",
+          "text": "运动员，羚羊，汽车"
+        }
+      ],
+      "answer": "C",
+      "steps": [
+        "36 km/h=10 m/s；54 km/h=15 m/s。",
+        "10<15<20，所以从小到大为运动员、汽车、羚羊，选C。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": 5.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "异单位速度排序"
+      ],
+      "knowledge_tags": [
+        "异单位速度排序"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "physics-8-1:u1:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "20736622",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2016-2017学年宁夏银川市唐徕回民中学宝湖校区八年级（上）期中物理试卷",
+        "source_content_hash": "ec5bbb8f7d90039a1bb8640a21537e14",
+        "raw_sha256": "ac13d186dd4025814e5af4782f63285563139e371ae3d7998779e7d689e75755",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 8,
+          "grade_id": 301,
+          "edition_id": 142,
+          "chapter_id": 181160
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "异单位速度排序"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "异单位速度排序"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 8,
+          "term": 1,
+          "goal_ids": [
+            "physics-8-1:u1:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "C",
+            "solution_steps": [
+              "36 km/h=10 m/s；54 km/h=15 m/s。",
+              "10<15<20，所以从小到大为运动员、汽车、羚羊，选C。"
+            ],
+            "knowledge_tags": [
+              "异单位速度排序"
+            ],
+            "type_tags": [
+              "异单位速度排序"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "异单位速度排序"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    },
+    {
+      "id": "tizhuang-curated:20744489",
+      "subject": "physics",
+      "stage": "junior",
+      "grade": 8,
+      "term": 1,
+      "kind": "single_choice",
+      "status": "ready",
+      "stem": "临时停车场内，旅游车和卡车并列同方向停放\\(.\\)小明坐在旅游车内看着旁边的卡车，突然感觉旅游车在向后运动\\(.\\)下列关于旅游车和卡车的运动情况中，不可能发生的是\\((\\)　　\\()\\)",
+      "options": [
+        {
+          "key": "A",
+          "text": "旅游车静止，卡车向前运动"
+        },
+        {
+          "key": "B",
+          "text": "旅游车和卡车都向前运动，卡车运动更快"
+        },
+        {
+          "key": "C",
+          "text": "旅游车向后运动，卡车静止"
+        },
+        {
+          "key": "D",
+          "text": "旅游车和卡车都向前运动，旅游车运动更快"
+        }
+      ],
+      "answer": "D",
+      "steps": [
+        "以卡车为参照物，旅游车相对速度等于旅游车速度减卡车速度。",
+        "A、B、C可使旅游车相对向后；D中旅游车向前更快，相对向前，故“不可能”项为D。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": 4.0,
+      "difficulty_basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+      "type_tags": [
+        "以车为参照物判断相对运动"
+      ],
+      "knowledge_tags": [
+        "以车为参照物判断相对运动"
+      ],
+      "tags_source": "ai",
+      "issues": [],
+      "curriculum_goal_ids": [
+        "physics-8-1:u1:g1"
+      ],
+      "provenance": {
+        "dataset": "tizhuang-curated-20261015",
+        "source_id": "20744489",
+        "source_url": "https://tizhuang.qcscience.cc",
+        "source_paper": "2016-2017学年山东省潍坊市高新区浞景学校八年级（上）月考物理试卷（10月份）",
+        "source_content_hash": "109a2f3d164361f52af767a1652f7417",
+        "raw_sha256": "e83ef649ed112d31c54cc25f56832128a0b2215af14c00e5c23ce8b7cc19dccf",
+        "retrieved_at": "2026-10-15",
+        "teacher_reviewed": false,
+        "curation_method": "codex_item_read_and_recompute"
+      },
+      "quality": {
+        "curated": true,
+        "curated_method": "codex_item_read_and_recompute",
+        "needs_teacher_review": true,
+        "diagnostic_eligible": false,
+        "source_filters": {
+          "subject_id": 8,
+          "grade_id": 301,
+          "edition_id": 142,
+          "chapter_id": 181160
+        }
+      },
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "以车为参照物判断相对运动"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "以车为参照物判断相对运动"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "项目按所需推理步骤标注，未沿用来源0—5量表；未经经验校准。",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": 8,
+          "term": 1,
+          "goal_ids": [
+            "physics-8-1:u1:g1"
+          ],
+          "scope_status": "candidate",
+          "basis": "根据章目录和题目内容逐题核对；AI标注，待教师确认。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "仅为精选学习反馈；不计可信独立题量。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "按题目要求作答。",
+            "reference_answer": "D",
+            "solution_steps": [
+              "以卡车为参照物，旅游车相对速度等于旅游车速度减卡车速度。",
+              "A、B、C可使旅游车相对向后；D中旅游车向前更快，相对向前，故“不可能”项为D。"
+            ],
+            "knowledge_tags": [
+              "以车为参照物判断相对运动"
+            ],
+            "type_tags": [
+              "以车为参照物判断相对运动"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "r1",
+                "description": "核对符号、单位、关系与最终结论；接受等价解法。",
+                "points": null,
+                "evidence_required": "学生作答内容"
+              }
+            ],
+            "common_errors": [
+              {
+                "description": "忽略题目的限定条件、符号或单位。",
+                "knowledge_tags": [
+                  "以车为参照物判断相对运动"
+                ],
+                "type_tags": []
+              }
+            ]
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "checked",
+          "issues": [],
+          "method": "item_read",
+          "notes": "由Codex阅读与复算；与原来源答案一致，但不代表教师审核。"
+        },
+        "origin": {
+          "model": "codex",
+          "batch_id": "web-curation-20261015"
+        }
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "source_id": 35579384,
+      "raw_sha256": "72cde7078079cce3650b7f189f513f1ff962ccf5d3fef38e9ddd0f07adc5cc3f",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:35579384",
+      "book_id": "math-7-1",
+      "goal_ids": [
+        "math-7-1:u1:g3"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 26350566,
+      "raw_sha256": "94bc86acd130089a423b1adf959545ada3162eb182cfffb5255b4bbf54c0ceba",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:26350566",
+      "book_id": "math-7-1",
+      "goal_ids": [
+        "math-7-1:u2:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 22797920,
+      "raw_sha256": "1cecc2e449fcaa93d4c300221e7e943049edd12833079219090b3239382a5205",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:22797920",
+      "book_id": "math-7-1",
+      "goal_ids": [
+        "math-7-1:u3:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 13907195,
+      "raw_sha256": "64cacd5bb6c9e0ada564207d16b2051b05f60156b1a09eab7c23819f6e271911",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:13907195",
+      "book_id": "math-7-1",
+      "goal_ids": [
+        "math-7-1:u4:g3"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 36922291,
+      "raw_sha256": "b80be007bd5e0db201197fb37bc2d7e51f00f7c27e1b21daa4c08b0c49b5b2ca",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 5074875,
+      "raw_sha256": "9b8425b5a62605bf0be2b60a84a99c567fbe2804ef8414cdaaf2d9e0b086d349",
+      "decision": "exclude_from_curated",
+      "reason": "来源解析错误地称圆锥轴截面为直角三角形，不进入精选。"
+    },
+    {
+      "source_id": 22801575,
+      "raw_sha256": "da9651cad28a301a6da100953c92f79b9e7f0625afbdbfaec0cb0bfd9d9c744e",
+      "decision": "exclude_from_curated",
+      "reason": "带公式/图示资源或解析含图片，需要单独核图，暂不精选。"
+    },
+    {
+      "source_id": 10235775,
+      "raw_sha256": "ff028580ac76b833869c0d401063bb82b4648dcdf61e8846c023754350176660",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 36395090,
+      "raw_sha256": "801b01a3866db0492d2edc00026c6becbc985a42473ef7823ff081137d0c3a8b",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:36395090",
+      "book_id": "math-7-2",
+      "goal_ids": [
+        "math-7-2:u6:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 34283016,
+      "raw_sha256": "097faaeebcd796467ea22374a1e22ac37e5c0e4ffcac41d28a42ee8bc2c70ca9",
+      "decision": "exclude_from_curated",
+      "reason": "带公式/图示资源或解析含图片，需要单独核图，暂不精选。"
+    },
+    {
+      "source_id": 12058388,
+      "raw_sha256": "506d19559f53c8e7d0c36a6bf5b0b90daea014f6f62025f97992b2bdc279bdae",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 36226389,
+      "raw_sha256": "ade5d7285c8a455676b260fa32985f48623932acd28cf258eb966af624ef987c",
+      "decision": "exclude_from_curated",
+      "reason": "题型、表述或解析仍有疑点，暂不精选，保留原始材料供复查。"
+    },
+    {
+      "source_id": 36023354,
+      "raw_sha256": "b16103362dfa0808429f326f4e42a9333faca52650ff384a82b19649d11ea413",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 7355461,
+      "raw_sha256": "e74981d412376d18a6ad98f63f82be533a1cb9dfebb68f06465aee649bcb00a9",
+      "decision": "exclude_from_curated",
+      "reason": "题型、表述或解析仍有疑点，暂不精选，保留原始材料供复查。"
+    },
+    {
+      "source_id": 7347336,
+      "raw_sha256": "4dfd51af406f1f00e3df560d54bb18ef3701352ff4afe2d4f68ca870cd06d98a",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 25949691,
+      "raw_sha256": "ffc5434e707401c76261f0e72e75791fc7bd62f59f873114226971a0f7c1de96",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:25949691",
+      "book_id": "physics-8-1",
+      "goal_ids": [
+        "physics-8-1:u4:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 7330174,
+      "raw_sha256": "83a96bd1da07df5a1d854c70c440d97de060a4bfc4dbc9a67de6c66348a748a1",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 17908547,
+      "raw_sha256": "de7bbe7518d534cfc604b6d1756ddc4c49a0986b4b5ba00a87ccf22af2712f19",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:17908547",
+      "book_id": "physics-8-1",
+      "goal_ids": [
+        "physics-8-1:u6:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 22168633,
+      "raw_sha256": "a31377406e116671ac4dc84bb9853c5f5972878e512bb946605f4770a9b0c2f2",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:22168633",
+      "book_id": "physics-8-2",
+      "goal_ids": [
+        "physics-8-2:u4:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 21586561,
+      "raw_sha256": "b9676100735e1f410f073b4e9090595997ce2c535acf6d80cc8721a9f41e81b2",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:21586561",
+      "book_id": "physics-8-2",
+      "goal_ids": [
+        "physics-8-2:u5:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 25964210,
+      "raw_sha256": "3d985a9370513bc1ee387e64a0006ff7d8e6522e99024e5936fd655ad5b36df9",
+      "decision": "exclude_from_curated",
+      "reason": "题型、表述或解析仍有疑点，暂不精选，保留原始材料供复查。"
+    },
+    {
+      "source_id": 32675107,
+      "raw_sha256": "a0b5f13f644561d4b4cd470bb5d0c4b4658977c7a5853c2566e21328de76a4fa",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:32675107",
+      "book_id": "physics-8-2",
+      "goal_ids": [
+        "physics-8-2:u2:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 38956856,
+      "raw_sha256": "bbc7b9882e8a4667327fef337ad136e7bbdf57f2943f95a81daf91099e5aea2e",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 7336855,
+      "raw_sha256": "d1f3fd4c0ab8e12888e9bdc88b99e70d78d8c6fbeec27b848953e1fa366869e4",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:7336855",
+      "book_id": "physics-8-2",
+      "goal_ids": [
+        "physics-8-2:u3:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 29927185,
+      "raw_sha256": "1fe646077c7864702b78a633001c04a75078c58fbad28aaacfb19110cba26b8f",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:29927185",
+      "book_id": "physics-9-1",
+      "goal_ids": [
+        "physics-9-1:u1:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 18547362,
+      "raw_sha256": "645e5fe53147ed57b2fb3a22ae3511bfa64fbfcd07fc165478275d6ba9ad663a",
+      "decision": "exclude_from_curated",
+      "reason": "题型、表述或解析仍有疑点，暂不精选，保留原始材料供复查。"
+    },
+    {
+      "source_id": 9919687,
+      "raw_sha256": "bb5b28920a7a8dd9cf12cf924cde7b1874923704a343ca08f19d14505a2e0135",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 8047289,
+      "raw_sha256": "a062bf018f229490d4280613f1e926c1e060c4027acf7b503f4439eaa74a9507",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 27264122,
+      "raw_sha256": "cc22e825b5c1b5ee2089fd6f0621aeae86959609e4c97ad46157eb3ea541f647",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:27264122",
+      "book_id": "physics-9-1",
+      "goal_ids": [
+        "physics-9-1:u5:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 29927531,
+      "raw_sha256": "a45f58c031828643065847dba39e89a3afa1148c797e5538184e5a43782d1b52",
+      "decision": "exclude_from_curated",
+      "reason": "带公式/图示资源或解析含图片，需要单独核图，暂不精选。"
+    },
+    {
+      "source_id": 7327492,
+      "raw_sha256": "85352d14c1e2916dda6a6855a22c0998f32f3af3c4ea2510c353f9bd38dfaebd",
+      "decision": "exclude_from_curated",
+      "reason": "题型、表述或解析仍有疑点，暂不精选，保留原始材料供复查。"
+    },
+    {
+      "source_id": 12586952,
+      "raw_sha256": "e4bccabb259aaedc91697fa2afb31fa2ecdc994a9e53e715742a3e239e81063d",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 36473030,
+      "raw_sha256": "b517715e7c538d484b0dd5fcb406cd2c131cd1182c942f136eab3f7b2a21f312",
+      "decision": "exclude_from_curated",
+      "reason": "题型、表述或解析仍有疑点，暂不精选，保留原始材料供复查。"
+    },
+    {
+      "source_id": 36350348,
+      "raw_sha256": "464ab4a434ca41adf898948761f239c6a3e973244e7ebac46f2d440e05567125",
+      "decision": "exclude_from_curated",
+      "reason": "缺可直接核对的来源答案，暂不精选；不猜补。"
+    },
+    {
+      "source_id": 15883300,
+      "raw_sha256": "86a4ebd7a48d534fef438c380d0216ac093da4cdbb46e818f963d12541acbdb1",
+      "decision": "exclude_from_curated",
+      "reason": "缺少电压填空且把安全电压说成无条件安全，题干与适用条件不足。"
+    },
+    {
+      "source_id": 20736622,
+      "raw_sha256": "ac13d186dd4025814e5af4782f63285563139e371ae3d7998779e7d689e75755",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:20736622",
+      "book_id": "physics-8-1",
+      "goal_ids": [
+        "physics-8-1:u1:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 20744489,
+      "raw_sha256": "e83ef649ed112d31c54cc25f56832128a0b2215af14c00e5c23ce8b7cc19dccf",
+      "decision": "curated_candidate",
+      "question_id": "tizhuang-curated:20744489",
+      "book_id": "physics-8-1",
+      "goal_ids": [
+        "physics-8-1:u1:g1"
+      ],
+      "reason": "逐题阅读与复算；保留原始数据，teacher_reviewed=false。"
+    },
+    {
+      "source_id": 20749554,
+      "raw_sha256": "860364defbf32c9ab3fde0f71f89975a6c8f5a7af92e7ee8343576adc5657864",
+      "decision": "exclude_from_curated",
+      "reason": "来源标为单选却返回B|D，且参照物选项表述条件不充分。"
+    }
+  ]
+}

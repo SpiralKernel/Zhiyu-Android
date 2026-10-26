@@ -1,0 +1,4330 @@
+[
+  {
+    "question_id": "bank:cjeval:004c77065f7a913ef04b8c80:b7fd35d7d19f",
+    "source_sha256": "9ab9d32c2a967eecbdc6eff06a38ee180073778531ebd214a450b132ed2f3d6d",
+    "question": {
+      "id": "bank:cjeval:004c77065f7a913ef04b8c80:b7fd35d7d19f",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 如果数轴上的点A表示的数是1，那么数轴上与点A相距3个单位长度的点B所表示的数是__ ．",
+      "options": [],
+      "answer": "-2或4",
+      "kind": "reference",
+      "steps": [
+        "【步骤1】设点B表示的数为b。\n【步骤2】根据题意，点A表示的数是1，点B与点A的距离为3个单位长度。\n【步骤3】根据距离的定义和绝对值的性质，我们有|1−b|=3。\n【步骤4】解这个绝对值方程，得到b的两个可能值。\n【步骤5】解得b=−2或b=4。\n【步骤6】综上所述，点B表示的数是-2或4。\n本题考察的是数轴知识，掌握数轴的概念是解题的关键。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "一般",
+      "knowledge_tags": [
+        "用数轴上的点表示有理数",
+        "数轴上两点之间的距离"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "一般"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "004c77065f7a913ef04b8c80",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 如果数轴上的点A表示的数是1，那么数轴上与点A相距3个单位长度的点B所表示的数是__ ．",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 用数轴上的点表示有理数",
+        "填空题 · 数轴上两点之间的距离"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "用数轴上的点表示有理数",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "数轴上两点之间的距离",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "数轴两点距离与绝对值建模",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "数轴上两点之间的距离",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "数轴"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "05e2af5850fd3e290c88cf1fecd449ac0d6aedb3079b5b3f3b49edb0d415a308",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:813f5ef8dd13cd1ccd33e81a",
+          "kind": "knowledge",
+          "label": "用数轴上的点表示有理数",
+          "origin": "source"
+        },
+        {
+          "id": "tag:6ad31cc857c008c52e878da2",
+          "kind": "knowledge",
+          "label": "数轴上两点之间的距离",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:4794e31a8ec1d7aee50f326c",
+          "kind": "type",
+          "label": "填空题 · 用数轴上的点表示有理数",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:025658ed08caa6b5cf99d40e",
+          "kind": "type",
+          "label": "填空题 · 数轴上两点之间的距离",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:b21ef98a3f54c94cae594aaa",
+          "kind": "type",
+          "label": "用数轴上的点表示有理数",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:edf93eb8a6c30d4a96226ed6",
+          "kind": "type",
+          "label": "数轴上两点之间的距离",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c6fa97e111872ac00eeb4650",
+          "kind": "type",
+          "label": "数轴两点距离与绝对值建模",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "用数轴上的点表示有理数",
+          "数轴上两点之间的距离",
+          "数轴",
+          "有理数",
+          "绝对值方程"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "用数轴上的点表示有理数",
+          "数轴上两点之间的距离",
+          "数轴",
+          "有理数",
+          "绝对值方程"
+        ]
+      },
+      "fine_types": [
+        "数轴上定距点的绝对值建模"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度标签保留但未经本批题库校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "题目内容: 如果数轴上的点A表示的数是1，那么数轴上与点A相距3个单位长度的点B所表示的数是__ ．",
+          "reference_answer": "-2或4",
+          "solution_steps": [
+            "【步骤1】设点B表示的数为b。 【步骤2】根据题意，点A表示的数是1，点B与点A的距离为3个单位长度。 【步骤3】根据距离的定义和绝对值的性质，我们有|1−b|=3。 【步骤4】解这个绝对值方程，得到b的两个可能值。 【步骤5】解得b=−2或b=4。 【步骤6】综上所述，点B表示的数是-2或4。 本题考察的是数轴知识，掌握数轴的概念是解题的关键。"
+          ],
+          "knowledge_tags": [
+            "用数轴上的点表示有理数",
+            "数轴上两点之间的距离",
+            "数轴",
+            "有理数",
+            "绝对值方程"
+          ],
+          "type_tags": [
+            "数轴上定距点的绝对值建模"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "将距离转化为绝对值方程，并同时保留点在给定点左右两侧的解。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "只取向右移动方向而漏掉另一个等距点。",
+              "knowledge_tags": [
+                "用数轴上的点表示有理数",
+                "数轴上两点之间的距离",
+                "数轴",
+                "有理数",
+                "绝对值方程"
+              ],
+              "type_tags": [
+                "数轴上定距点的绝对值建模"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:05f5fdf45e6d341c25fb748d:36dcf574850a",
+    "source_sha256": "c2c39a52c8229de4ca3b66e159e205b3a8771769a371b1a5119e754a4d4275cb",
+    "question": {
+      "id": "bank:cjeval:05f5fdf45e6d341c25fb748d:36dcf574850a",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 在实际生活中，假如将收入2000元表示为+2000元，那么-500元意味着（   ）选项: A. 支出500元 B. 收入500元 C. 支出1500元 D. 收入1500元",
+      "options": [
+        {
+          "key": "A",
+          "text": "支出500元"
+        },
+        {
+          "key": "B",
+          "text": "收入500元"
+        },
+        {
+          "key": "C",
+          "text": "支出1500元"
+        },
+        {
+          "key": "D",
+          "text": "收入1500元"
+        }
+      ],
+      "answer": "A",
+      "kind": "single_choice",
+      "steps": [
+        "此题旨在考察相反数的概念。收入用正值表示，而支出用负值表示。选项A的-500元代表支出500元，符合题意。选项B的描述不合理，因为收入不会以负数表示。选项C和D中的数字与题目中所给的-500元不一致，因此可以排除。综合分析后，正确答案为A。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "相反意义的量"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "容易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "05f5fdf45e6d341c25fb748d",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "题目内容: 在实际生活中，假如将收入2000元表示为+2000元，那么-500元意味着（   ）选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 相反意义的量"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "相反意义的量",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "相反意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "460d52e955964b1f016069e7b1e5a9d05289732606c6edbfbd41dcdfa496c5c6",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:6a3dde1d1ed2c13e432f36f1",
+          "kind": "knowledge",
+          "label": "相反意义的量",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:137fba2ec4ba80d12c6e9ba7",
+          "kind": "type",
+          "label": "单选题 · 相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:da9ebd18bb23742b8db3d816",
+          "kind": "type",
+          "label": "相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "相反意义的量",
+          "正负数"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "相反意义量中的收入支出符号辨析"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度标签保留但未经本批题库校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "A"
+        ],
+        "equivalence": "exact",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "题目内容: 在实际生活中，假如将收入2000元表示为+2000元，那么-500元意味着（ ）选项: A. 支出500元 B. 收入500元 C. 支出1500元 D. 收入1500元",
+          "reference_answer": "A",
+          "solution_steps": [
+            "此题旨在考察相反数的概念。收入用正值表示，而支出用负值表示。选项A的-500元代表支出500元，符合题意。选项B的描述不合理，因为收入不会以负数表示。选项C和D中的数字与题目中所给的-500元不一致，因此可以排除。综合分析后，正确答案为A。"
+          ],
+          "knowledge_tags": [
+            "相反意义的量",
+            "正负数"
+          ],
+          "type_tags": [
+            "相反意义量中的收入支出符号辨析"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "将收入的正号约定用于解释负金额，再核对所述方向与数值。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把负数误解为较小收入，或混淆支出金额与收入金额。",
+              "knowledge_tags": [
+                "相反意义的量",
+                "正负数"
+              ],
+              "type_tags": [
+                "相反意义量中的收入支出符号辨析"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:14476f2770d8db0460bb780d:16349cb39bfb",
+    "source_sha256": "eb9e3a7d029a6a289f18d610ba68fad3bedbe1754a61b90cf41cef4873514ebd",
+    "question": {
+      "id": "bank:cjeval:14476f2770d8db0460bb780d:16349cb39bfb",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 阅读以下材料：在数轴上，点 $A$ 和 $B$ 分别代表实数 $a$ 和 $b$，那么 $A$ 和 $B$ 两点之间的距离可以表示为 $|a - b|$。例如，$|5 - (-2)|$ 表示 5 与 -2 之间的绝对差值，这实际上可以理解为它们在数轴上对应点之间的距离。请探究以下问题：（1）求 $|5 - (-2)| = $ __。（2）已知 $|x + 2|$ 和 $|x - (-2)|$ 的值是相等的，这个结果可以理解为数轴上 __ 和 __ 两点之间的距离相等。（3）找出所有满足 $|x + 1| + |x - 2| = 3$ 的整数 $x$，共有 __ 个这样的整数。（4）若 $x$ 为任意实数，求 $|x + 2019| + |x - 2020|$ 的最小值 $= $ __。",
+      "options": [],
+      "answer": "7\n$x$\n$-2$\n4\n4039",
+      "kind": "reference",
+      "steps": [
+        "(1) 根据绝对值的定义，绝对值 $|a - b|$ 表示数 $a$ 和 $b$ 在数轴上的距离。因此，$|5 - (-2)| = |5 + 2| = |7| = 7$。\\n (2) $|x + 2|$ 和 $|x - (-2)|$ 都表示数 $x$ 与 -2 在数轴上的距离，所以它们的值是相等的。\\n (3) 求满足 $|x + 1| + |x - 2| = 3$ 的整数 $x$。分情况讨论：当 $x < -1$ 时，$-x - 1 + x - 2 = -3$ 不满足等式；当 $-1 \\leq x \\leq 2$ 时，不等式恒成立，此区间内有 -1, 0, 1, 2 共 4 个符合条件的整数；当 $x > 2$ 时，$x + 1 + x - 2 = 2x - 1$，求解得 $x = 2$，但此时 $x > 2$，不满足条件。综合三种情况，共有 4 个符合条件的整数。\\n (4) 求 $|x + 2019| + |x - 2020|$ 的最小值。分情况讨论：当 $x < -2019$ 时，$-x - 2019 + 2020 - x = -2x + 1$，这一情况下的值大于 4039；当 $-2019 \\leq x \\leq 2020$ 时，$|x + 2019| + |x - 2020| = 4039$，此时达到最小值；当 $x > 2020$ 时，$x + 2019 + x - 2020 = 2x - 1$，这一情况下的值也大于 4039。因此，$|x + 2019| + |x - 2020|$ 的最小值是 4039。本题考查了数轴、化简绝对值、一元一次方程的应用，熟练掌握数轴的定义是解题关键。"
+      ],
+      "difficulty": 3,
+      "difficulty_raw": "较难",
+      "knowledge_tags": [
+        "数轴上两点之间的距离",
+        "一元一次方程的应用——几何问题"
+      ],
+      "type_tags": [
+        "解答题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "解答题",
+        "较难"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "14476f2770d8db0460bb780d",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 阅读以下材料：在数轴上，点 $A$ 和 $B$ 分别代表实数 $a$ 和 $b$，那么 $A$ 和 $B$ 两点之间的距离可以表示为 $|a - b|$。例如，$|5 - (-2)|$ 表示 5 与 -2 之间的绝对差值，这实际上可以理解为它们在数轴上对应点之间的距离。请探究以下问题：（1）求 $|5 - (-2)| = $ __。（2）已知 $|x + 2|$ 和 $|x - (-2)|$ 的值是相等的，这个结果可以理解为数轴上 __ 和 __ 两点之间的距离相等。（3）找出所有满足 $|x + 1| + |x - 2| = 3$ 的整数 $x$，共有 __ 个这样的整数。（4）若 $x$ 为任意实数，求 $|x + 2019| + |x - 2020|$ 的最小值 $= $ __。",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "解答题 · 数轴上两点之间的距离",
+        "解答题 · 一元一次方程的应用——几何问题"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "数轴上两点之间的距离",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "一元一次方程的应用——几何问题",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "数轴两点距离与绝对值建模",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "数轴上两点之间的距离",
+          "needs_review": true
+        },
+        {
+          "label": "一元一次方程的情境建模",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "一元一次方程的应用",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "数轴",
+        "一元一次方程的应用"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-2",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "39958b41d59df2d075a840544810e806b81990922785ab5f3b0e435d71ad8e3e",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:6ad31cc857c008c52e878da2",
+          "kind": "knowledge",
+          "label": "数轴上两点之间的距离",
+          "origin": "source"
+        },
+        {
+          "id": "tag:c93f8c380fc0fea7d3e0dd52",
+          "kind": "knowledge",
+          "label": "一元一次方程的应用——几何问题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:8b80ce45d75ff58e323fe54b",
+          "kind": "type",
+          "label": "解答题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:7bcaf639d0dcf776ee6be8a9",
+          "kind": "type",
+          "label": "解答题 · 数轴上两点之间的距离",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:b52b9387b1278aa5a151df2f",
+          "kind": "type",
+          "label": "解答题 · 一元一次方程的应用——几何问题",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:edf93eb8a6c30d4a96226ed6",
+          "kind": "type",
+          "label": "数轴上两点之间的距离",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:5cf032776894d2f3644ead27",
+          "kind": "type",
+          "label": "一元一次方程的应用——几何问题",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c6fa97e111872ac00eeb4650",
+          "kind": "type",
+          "label": "数轴两点距离与绝对值建模",
+          "origin": "heuristic"
+        },
+        {
+          "id": "tag:cb81f82bc2a529d9dcdc94f2",
+          "kind": "type",
+          "label": "一元一次方程的情境建模",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "数轴上两点之间的距离",
+          "一元一次方程的应用——几何问题",
+          "绝对值",
+          "数轴距离",
+          "分类讨论"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "数轴上两点之间的距离",
+          "一元一次方程的应用——几何问题",
+          "数轴距离"
+        ]
+      },
+      "fine_types": [
+        "数轴距离性质的多问探究"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度标签保留但未经本批题库校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 阅读以下材料：在数轴上，点 $A$ 和 $B$ 分别代表实数 $a$ 和 $b$，那么 $A$ 和 $B$ 两点之间的距离可以表示为 $|a - b|$。例如，$|5 - (-2)|$ 表示 5 与 -2 之间的绝对差值，这实际上可以理解为它们在数轴上对应点之间的距离。请探究以下问题：\n求 $|5 - (-2)| = $ __。",
+          "reference_answer": null,
+          "solution_steps": [],
+          "knowledge_tags": [
+            "数轴上两点之间的距离",
+            "数轴距离"
+          ],
+          "type_tags": [
+            "绝对值距离的数值计算"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "计算两个有理数的差，写出去括号与绝对值化简，得到数轴距离。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "符号处理错误导致把两个相反数相减为3。",
+              "knowledge_tags": [
+                "数轴上两点之间的距离",
+                "数轴距离"
+              ],
+              "type_tags": [
+                "绝对值距离的数值计算"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "prompt": "题目内容: 阅读以下材料：在数轴上，点 $A$ 和 $B$ 分别代表实数 $a$ 和 $b$，那么 $A$ 和 $B$ 两点之间的距离可以表示为 $|a - b|$。例如，$|5 - (-2)|$ 表示 5 与 -2 之间的绝对差值，这实际上可以理解为它们在数轴上对应点之间的距离。请探究以下问题：\n已知 $|x + 2|$ 和 $|x - (-2)|$ 的值是相等的，这个结果可以理解为数轴上 __ 和 __ 两点之间的距离相等。",
+          "reference_answer": null,
+          "solution_steps": [],
+          "knowledge_tags": [
+            "数轴上两点之间的距离",
+            "数轴距离"
+          ],
+          "type_tags": [
+            "数轴上距离对象辨析"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "指出两个绝对值分别表示 x 与 -2 的距离，并按题意说明距离对象。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把 x+2 误读为 x 与正2的距离。",
+              "knowledge_tags": [
+                "数轴上两点之间的距离",
+                "数轴距离"
+              ],
+              "type_tags": [
+                "数轴上距离对象辨析"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "prompt": "题目内容: 阅读以下材料：在数轴上，点 $A$ 和 $B$ 分别代表实数 $a$ 和 $b$，那么 $A$ 和 $B$ 两点之间的距离可以表示为 $|a - b|$。例如，$|5 - (-2)|$ 表示 5 与 -2 之间的绝对差值，这实际上可以理解为它们在数轴上对应点之间的距离。请探究以下问题：\n找出所有满足 $|x + 1| + |x - 2| = 3$ 的整数 $x$，共有 __ 个这样的整数。",
+          "reference_answer": null,
+          "solution_steps": [],
+          "knowledge_tags": [
+            "数轴上两点之间的距离",
+            "数轴距离"
+          ],
+          "type_tags": [
+            "绝对值和的整数解计数"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "利用两点距离和在区间内为3的性质，列出区间内整数并计数。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把恒成立区间端点漏掉，或把实数解个数和整数解个数混淆。",
+              "knowledge_tags": [
+                "数轴上两点之间的距离",
+                "数轴距离"
+              ],
+              "type_tags": [
+                "绝对值和的整数解计数"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "prompt": "题目内容: 阅读以下材料：在数轴上，点 $A$ 和 $B$ 分别代表实数 $a$ 和 $b$，那么 $A$ 和 $B$ 两点之间的距离可以表示为 $|a - b|$。例如，$|5 - (-2)|$ 表示 5 与 -2 之间的绝对差值，这实际上可以理解为它们在数轴上对应点之间的距离。请探究以下问题：\n若 $x$ 为任意实数，求 $|x + 2019| + |x - 2020|$ 的最小值 $= $ __。",
+          "reference_answer": null,
+          "solution_steps": [],
+          "knowledge_tags": [
+            "数轴上两点之间的距离",
+            "数轴距离"
+          ],
+          "type_tags": [
+            "两点距离和的最小值"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "用两点间距离和不小于端点距离，说明最小值为两个定点间距，并指出可取到该值的区间。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "只在一个端点代值，漏掉两定点之间整段都能取到最小值。",
+              "knowledge_tags": [
+                "数轴上两点之间的距离",
+                "数轴距离"
+              ],
+              "type_tags": [
+                "两点距离和的最小值"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "part_answer_pending",
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:2555d8e2f31989b7326f872f:80468c5f2a8f",
+    "source_sha256": "095028df82aa9c732b20ceb817278c4dee58b4e1f3a49c109cdbcf3bda3fed3c",
+    "question": {
+      "id": "bank:cjeval:2555d8e2f31989b7326f872f:80468c5f2a8f",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 向北移动10米记作+10米，那么-7米表示__．",
+      "options": [],
+      "answer": "向南移动7米",
+      "kind": "reference",
+      "steps": [
+        "【分析】确定负数的具体含义需要结合正数的定义。【详解】步骤1：分析题目信息，明确正数的含义是向北移动。步骤2：理解负数表示与正数相反的方向。步骤3：由于+10米代表向北移动，因此-7米代表相反方向，即向南移动7米。【考点】掌握正数与负数的实际含义。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "相反意义的量"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "容易"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "2555d8e2f31989b7326f872f",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 向北移动10米记作+10米，那么-7米表示__．",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 相反意义的量"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "相反意义的量",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "相反意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "4c2b6b6e8ccfb0663f21ca817cd204e29735ebe44e27e48b46ee534aa9cc9dea",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:6a3dde1d1ed2c13e432f36f1",
+          "kind": "knowledge",
+          "label": "相反意义的量",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:3b3531de7340c95778da7445",
+          "kind": "type",
+          "label": "填空题 · 相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:da9ebd18bb23742b8db3d816",
+          "kind": "type",
+          "label": "相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "相反意义的量",
+          "正负数"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "相反意义量的方向与符号填空"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度标签保留但未经本批题库校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "题目内容: 向北移动10米记作+10米，那么-7米表示__．",
+          "reference_answer": "向南移动7米",
+          "solution_steps": [
+            "【分析】确定负数的具体含义需要结合正数的定义。【详解】步骤1：分析题目信息，明确正数的含义是向北移动。步骤2：理解负数表示与正数相反的方向。步骤3：由于+10米代表向北移动，因此-7米代表相反方向，即向南移动7米。【考点】掌握正数与负数的实际含义。"
+          ],
+          "knowledge_tags": [
+            "相反意义的量",
+            "正负数"
+          ],
+          "type_tags": [
+            "相反意义量的方向与符号填空"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "先依据正方向，再将负号解释为反方向，保留长度单位。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "只写“负数”而未回答具体方向和距离。",
+              "knowledge_tags": [
+                "相反意义的量",
+                "正负数"
+              ],
+              "type_tags": [
+                "相反意义量的方向与符号填空"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:6f5d559feb08468d2f62563b:2e1cdf251489",
+    "source_sha256": "58cfb8202147ce4da50d2cdbf7e8809ec603bb1b129d7c27c722af25f04c9a55",
+    "question": {
+      "id": "bank:cjeval:6f5d559feb08468d2f62563b:2e1cdf251489",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "问题内容: 下列哪一个数是负整数？（       ）. 选项: A. 0 B. $-\\frac{1}{2}$ C. -2 D. 2",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "$-\\frac{1}{2}$"
+        },
+        {
+          "key": "C",
+          "text": "-2"
+        },
+        {
+          "key": "D",
+          "text": "2"
+        }
+      ],
+      "answer": "C",
+      "kind": "single_choice",
+      "steps": [
+        "本题要求从给定的选项中找出属于负整数的数。- 负整数定义：小于0的整数。- A项分析：0既不大于0也不小于0，不属于正数也不属于负数，因此不是负整数，不符合题意。- B项分析：$-\\frac{1}{2}$是小于0的数，但因为是分数而不是整数，所以不符合题意。- C项分析：-2是小于0的数，并且是整数，因此是负整数，符合题意。- D项分析：2是大于0的数，所以是正整数，不符合题意。综上，根据负整数的定义，最终答案选C。本题考查有理数的概念，特别是区分负整数和其他数（如正整数、负分数和零）的能力。"
+      ],
+      "difficulty": 1,
+      "difficulty_raw": "容易",
+      "knowledge_tags": [
+        "有理数的分类"
+      ],
+      "type_tags": [
+        "单选题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "单选题",
+        "容易"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "6f5d559feb08468d2f62563b",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "choice",
+      "display_stem": "问题内容: 下列哪一个数是负整数？（       ）. 选项:",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "单选题 · 有理数的分类"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "有理数的分类",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "有理数与非有理数的分类辨析",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "有理数的分类",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "d49f06915adcd2c4c9eb24b58493d97cf7d7107eb8c49aa97912dbf68682ce0a",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:233d65a321e576e99130d6cc",
+          "kind": "knowledge",
+          "label": "有理数的分类",
+          "origin": "source"
+        },
+        {
+          "id": "tag:38293a23072696e68ce88232",
+          "kind": "type",
+          "label": "单选题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:9aaf4d80e7daffd6fdbe0bdb",
+          "kind": "type",
+          "label": "单选题 · 有理数的分类",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:3a84066b0a14c8b2ff630e69",
+          "kind": "type",
+          "label": "有理数的分类",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:5ad50ba5bacebd18b136f79b",
+          "kind": "type",
+          "label": "有理数与非有理数的分类辨析",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "有理数的分类",
+          "有理数",
+          "整数",
+          "负数"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "有理数的分类",
+          "有理数"
+        ]
+      },
+      "fine_types": [
+        "负整数定义的条件辨析"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度标签保留但未经本批题库校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "C"
+        ],
+        "equivalence": "exact",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "问题内容: 下列哪一个数是负整数？（ ）. 选项: A. 0 B. $-\\frac{1}{2}$ C. -2 D. 2",
+          "reference_answer": "C",
+          "solution_steps": [
+            "本题要求从给定的选项中找出属于负整数的数。- 负整数定义：小于0的整数。- A项分析：0既不大于0也不小于0，不属于正数也不属于负数，因此不是负整数，不符合题意。- B项分析：$-\\frac{1}{2}$是小于0的数，但因为是分数而不是整数，所以不符合题意。- C项分析：-2是小于0的数，并且是整数，因此是负整数，符合题意。- D项分析：2是大于0的数，所以是正整数，不符合题意。综上，根据负整数的定义，最终答案选C。本题考查有理数的概念，特别是区分负整数和其他数（如正整数、负分数和零）的能力。"
+          ],
+          "knowledge_tags": [
+            "有理数的分类",
+            "有理数",
+            "整数",
+            "负数"
+          ],
+          "type_tags": [
+            "负整数定义的条件辨析"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "逐项检查数值是否小于零且属于整数，再选出同时满足两个条件的数。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把负分数误认为负整数，或把零归入负数。",
+              "knowledge_tags": [
+                "有理数的分类",
+                "有理数",
+                "整数",
+                "负数"
+              ],
+              "type_tags": [
+                "负整数定义的条件辨析"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:82de1f788b274c84ab8d1364:d4d3a61b3383",
+    "source_sha256": "14e1da6d7d348a819de3bcc4b768a12e43740f764271207a8eda34a2e7844df3",
+    "question": {
+      "id": "bank:cjeval:82de1f788b274c84ab8d1364:d4d3a61b3383",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 命题“如果 $\\frac{1}{a} = \\frac{1}{b}$，那么 $a = b$”，这个命题是__命题。（填“真”或“假”）",
+      "options": [],
+      "answer": "真",
+      "kind": "reference",
+      "steps": [
+        "要判断这个命题的真假，我们可以通过逻辑推理来验证其正确性。假设我们有两个数的倒数相等，即 $\\frac{1}{a} = \\frac{1}{b}$。根据倒数的定义，如果两个数的倒数相等，那么这两个数也必须相等。因此，我们可以得出 $a = b$。因此，命题“如果 $\\frac{1}{a} = \\frac{1}{b}$，那么 $a = b$”是真命题。需要注意的是，要判断一个命题为假，只需举出一个反例即可。这道题考察了命题与定理的知识，而判断命题真假是学习数学逻辑的重要方面，题目难度适中。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "一般",
+      "knowledge_tags": [
+        "判断命题真假"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "一般"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "82de1f788b274c84ab8d1364",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/valid/valid_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 命题“如果 $\\frac{1}{a} = \\frac{1}{b}$，那么 $a = b$”，这个命题是__命题。（填“真”或“假”）",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 判断命题真假"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "判断命题真假",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "dac0be6788bcc26601a455603367e63b6f153d1a1129558052372af29b2f9ea8",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:145dd92a386798db594476b4",
+          "kind": "knowledge",
+          "label": "判断命题真假",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:0a348120230a9f4e12e400d6",
+          "kind": "type",
+          "label": "填空题 · 判断命题真假",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c52e44e367c536bdf37f15eb",
+          "kind": "type",
+          "label": "判断命题真假",
+          "origin": "source_derived"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "判断命题真假",
+          "分式",
+          "等式性质",
+          "命题真假"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "分式等式命题的真假判断"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度标签保留但未经本批题库校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "题目内容: 命题“如果 $\\frac{1}{a} = \\frac{1}{b}$，那么 $a = b$”，这个命题是__命题。（填“真”或“假”）",
+          "reference_answer": "真",
+          "solution_steps": [
+            "要判断这个命题的真假，我们可以通过逻辑推理来验证其正确性。假设我们有两个数的倒数相等，即 $\\frac{1}{a} = \\frac{1}{b}$。根据倒数的定义，如果两个数的倒数相等，那么这两个数也必须相等。因此，我们可以得出 $a = b$。因此，命题“如果 $\\frac{1}{a} = \\frac{1}{b}$，那么 $a = b$”是真命题。需要注意的是，要判断一个命题为假，只需举出一个反例即可。这道题考察了命题与定理的知识，而判断命题真假是学习数学逻辑的重要方面，题目难度适中。"
+          ],
+          "knowledge_tags": [
+            "判断命题真假",
+            "分式",
+            "等式性质",
+            "命题真假"
+          ],
+          "type_tags": [
+            "分式等式命题的真假判断"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "检查分母非零条件，并由互为倒数相等推出原数相等或构造反例。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "忽略分母不能为零的定义域。",
+              "knowledge_tags": [
+                "判断命题真假",
+                "分式",
+                "等式性质",
+                "命题真假"
+              ],
+              "type_tags": [
+                "分式等式命题的真假判断"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:aaa8fc0adb2795ec9e66a1a9:c7d7e54d7c6a",
+    "source_sha256": "6ed730ce3afdefb6c6097897b41faa739792e27bc77526065d620028837761ea",
+    "question": {
+      "id": "bank:cjeval:aaa8fc0adb2795ec9e66a1a9:c7d7e54d7c6a",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: “若两条直线从不交于一点，则这两条直线是平行的”是__命题。（填“真”或“假”）",
+      "options": [],
+      "answer": "假",
+      "kind": "reference",
+      "steps": [
+        "【分析】如果两条直线在同一个平面内不交于一点，这两条直线就是平行的。然而，如果两条直线不在同一个平面内，即为异面直线，它们也不会相交，但不能称之为平行。【详解】在空间几何中，不相交的直线有两种情况：一种是平面内的平行直线；另一种是异面直线，分别处于不同的平面内。题目所述“若两条直线从不交于一点，则这两条直线是平行的”忽略了异面直线的情况，因此是一个假命题。这考查了对直线交与平行的概念理解，以及对空间中直线关系的判断能力。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "一般",
+      "knowledge_tags": [
+        "判断命题真假"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "一般"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "aaa8fc0adb2795ec9e66a1a9",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/valid/valid_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: “若两条直线从不交于一点，则这两条直线是平行的”是__命题。（填“真”或“假”）",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 判断命题真假"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "判断命题真假",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "9e8e4359ab21473508978091e3b8df938fa075e0bcc74609b3f76eb3be0f66b5",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:145dd92a386798db594476b4",
+          "kind": "knowledge",
+          "label": "判断命题真假",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:0a348120230a9f4e12e400d6",
+          "kind": "type",
+          "label": "填空题 · 判断命题真假",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:c52e44e367c536bdf37f15eb",
+          "kind": "type",
+          "label": "判断命题真假",
+          "origin": "source_derived"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "判断命题真假",
+          "平行线",
+          "命题真假"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "平面直线平行判定命题辨析"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度标签保留但未经本批题库校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "题目内容: “若两条直线从不交于一点，则这两条直线是平行的”是__命题。（填“真”或“假”）",
+          "reference_answer": "假",
+          "solution_steps": [
+            "【分析】如果两条直线在同一个平面内不交于一点，这两条直线就是平行的。然而，如果两条直线不在同一个平面内，即为异面直线，它们也不会相交，但不能称之为平行。【详解】在空间几何中，不相交的直线有两种情况：一种是平面内的平行直线；另一种是异面直线，分别处于不同的平面内。题目所述“若两条直线从不交于一点，则这两条直线是平行的”忽略了异面直线的情况，因此是一个假命题。这考查了对直线交与平行的概念理解，以及对空间中直线关系的判断能力。"
+          ],
+          "knowledge_tags": [
+            "判断命题真假",
+            "平行线",
+            "命题真假"
+          ],
+          "type_tags": [
+            "平面直线平行判定命题辨析"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "结合平面内两条直线不相交的判定条件判断命题。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把空间中异面直线的情形套入平面几何。",
+              "knowledge_tags": [
+                "判断命题真假",
+                "平行线",
+                "命题真假"
+              ],
+              "type_tags": [
+                "平面直线平行判定命题辨析"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:da9d6b3fb998a0780cc33027:258920bdf3e8",
+    "source_sha256": "d3b2f58175044ed9c2b6959c1e9c965e8333501250ddfe0256127898936153fa",
+    "question": {
+      "id": "bank:cjeval:da9d6b3fb998a0780cc33027:258920bdf3e8",
+      "subject": "math",
+      "stage": "junior",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 如果某商店的盈利8%表示为+8%，那么当亏损6%时应表示为__。",
+      "options": [],
+      "answer": "-6%",
+      "kind": "reference",
+      "steps": [
+        "在表示盈亏的题目中，盈利和亏损是相反的概念。既然题目中提到盈利8%表示为+8%，那么亏损6%应表示为其相反数，即-6%。这种题目考查的是正负数在实际问题中的应用，理解正负数的相对性，并正确应用于具有相反意义的数值上。"
+      ],
+      "difficulty": 2,
+      "difficulty_raw": "一般",
+      "knowledge_tags": [
+        "相反意义的量"
+      ],
+      "type_tags": [
+        "填空题"
+      ],
+      "tags_source": "source",
+      "source_tags": [
+        "填空题",
+        "一般"
+      ],
+      "status": "reference",
+      "issues": [
+        "non_choice_or_options_unparsed_reference_only"
+      ],
+      "provenance": {
+        "dataset": "cjeval",
+        "source_id": "da9d6b3fb998a0780cc33027",
+        "url": "https://github.com/SmileWHC/CJEval",
+        "license": "Academic/research use only",
+        "source_file": "data/CJEval_data/train/train_初中数学.json"
+      },
+      "answer_mode": "written",
+      "display_stem": "题目内容: 如果某商店的盈利8%表示为+8%，那么当亏损6%时应表示为__。",
+      "has_missing_assets": false,
+      "derived_type_tags": [
+        "填空题 · 相反意义的量"
+      ],
+      "derived_type_tags_source": "source_derived",
+      "fine_type_annotations": [
+        {
+          "label": "相反意义的量",
+          "origin": "source_derived",
+          "basis": "source_knowledge_leaf",
+          "needs_review": true
+        },
+        {
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic",
+          "basis": "source_knowledge_pattern",
+          "matched": "相反意义",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "正数和负数"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "difficulty_basis": "source_scale_uncalibrated",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "4a92cf31c9dbb95720a6aa981ad4b1dd7b5510c92735fb30d143590438f6ff0e",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:6a3dde1d1ed2c13e432f36f1",
+          "kind": "knowledge",
+          "label": "相反意义的量",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63b1578d5a82fddb0dc2c4c9",
+          "kind": "type",
+          "label": "填空题",
+          "origin": "source"
+        },
+        {
+          "id": "tag:3b3531de7340c95778da7445",
+          "kind": "type",
+          "label": "填空题 · 相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:da9ebd18bb23742b8db3d816",
+          "kind": "type",
+          "label": "相反意义的量",
+          "origin": "source_derived"
+        },
+        {
+          "id": "tag:45607f090fc431d7e0a2ce04",
+          "kind": "type",
+          "label": "相反意义数量的符号表示",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "相反意义的量",
+          "正负数",
+          "百分率"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "盈利亏损百分率的符号表示"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度标签保留但未经本批题库校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "题目内容: 如果某商店的盈利8%表示为+8%，那么当亏损6%时应表示为__。",
+          "reference_answer": "-6%",
+          "solution_steps": [
+            "在表示盈亏的题目中，盈利和亏损是相反的概念。既然题目中提到盈利8%表示为+8%，那么亏损6%应表示为其相反数，即-6%。这种题目考查的是正负数在实际问题中的应用，理解正负数的相对性，并正确应用于具有相反意义的数值上。"
+          ],
+          "knowledge_tags": [
+            "相反意义的量",
+            "正负数",
+            "百分率"
+          ],
+          "type_tags": [
+            "盈利亏损百分率的符号表示"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "沿用盈利为正的约定，把亏损的绝对量写成负百分数。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "只改写数值或遗漏百分号。",
+              "knowledge_tags": [
+                "相反意义的量",
+                "正负数",
+                "百分率"
+              ],
+              "type_tags": [
+                "盈利亏损百分率的符号表示"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:105:b8065f7765a3",
+    "source_sha256": "b75cc9dd1821d6a079b8a6746919d725247ea044782933b658350b6e87f2182f",
+    "question": {
+      "id": "bank:cmm:105:b8065f7765a3",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 9,
+      "term": null,
+      "stem": "抛物线 $y=(x+2)^{2}-3$ 的顶点坐标是 ( )",
+      "options": [
+        {
+          "key": "A",
+          "text": "$(-2,-3)$"
+        },
+        {
+          "key": "B",
+          "text": "$(2,3)$"
+        },
+        {
+          "key": "C",
+          "text": "$(-2,3)$"
+        },
+        {
+          "key": "D",
+          "text": "$(-3,2)$"
+        }
+      ],
+      "answer": "A",
+      "kind": "single_choice",
+      "steps": [
+        "根据拋物线的顶点式 $y=a(x-h)^{2}+k$ 的顶点坐标为 $(h, k)$, 即可得出结论.\n\n【详解】解: 抛物线 $y=(x+2)^{2}-3$ 的顶点坐标是 $(-2,-3)$, 故 A 正确.\n\n故选: A.\n\n【点睛】本题主要考查了二次函数的性质, 掌握二次函数的顶点式的特征是解题的关键."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "解析几何"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "九年级",
+        "解析几何"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "105",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "train_data.jsonl"
+      },
+      "source_level": "九年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [
+        {
+          "label": "二次函数的图象性质与交点",
+          "origin": "heuristic",
+          "basis": "stem_pattern",
+          "matched": "抛物线",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "二次函数"
+      ],
+      "curriculum_minimum_grade": 9,
+      "curriculum_minimum_book": "math-9-1",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "e146b9c2d041980f616454ee0f6c5283b5181add321177610668220d2ae1d054",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "choice",
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:61a55910b154198a33cf859b",
+          "kind": "knowledge",
+          "label": "解析几何",
+          "origin": "source"
+        },
+        {
+          "id": "tag:66a49206e1442404106d67ea",
+          "kind": "type",
+          "label": "二次函数的图象性质与交点",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "解析几何",
+          "二次函数",
+          "顶点式"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "解析几何",
+          "二次函数"
+        ]
+      },
+      "fine_types": [
+        "二次函数顶点式读取顶点坐标"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 9,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "A"
+        ],
+        "equivalence": "exact",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "抛物线 $y=(x+2)^{2}-3$ 的顶点坐标是 ( )",
+          "reference_answer": "A",
+          "solution_steps": [
+            "根据拋物线的顶点式 $y=a(x-h)^{2}+k$ 的顶点坐标为 $(h, k)$, 即可得出结论. 【详解】解: 抛物线 $y=(x+2)^{2}-3$ 的顶点坐标是 $(-2,-3)$, 故 A 正确. 故选: A. 【点睛】本题主要考查了二次函数的性质, 掌握二次函数的顶点式的特征是解题的关键."
+          ],
+          "knowledge_tags": [
+            "解析几何",
+            "二次函数",
+            "顶点式"
+          ],
+          "type_tags": [
+            "二次函数顶点式读取顶点坐标"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "将顶点式与 y=a(x-h)^2+k 对照，读出顶点 (h,k) 并核对符号。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把括号中的 -h 直接当成横坐标。",
+              "knowledge_tags": [
+                "解析几何",
+                "二次函数",
+                "顶点式"
+              ],
+              "type_tags": [
+                "二次函数顶点式读取顶点坐标"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:1910:33dcc5661a41",
+    "source_sha256": "b84102aa90b243676e09a70dc473dd3e3592633dfcedf95c7f50b1c903e7825d",
+    "question": {
+      "id": "bank:cmm:1910:33dcc5661a41",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 7,
+      "term": null,
+      "stem": "数 $1,0,-\\frac{2}{3},-2$ 中最大的是 $(\\quad)$",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "0"
+        },
+        {
+          "key": "C",
+          "text": "$-\\frac{2}{3}$"
+        },
+        {
+          "key": "D",
+          "text": "-2"
+        }
+      ],
+      "answer": "A",
+      "kind": "single_choice",
+      "steps": [
+        "析】\n\n## 【分析】\n\n本题考查了有理数大小比较的方法. (1)在数轴上表示的两点, 右边的点表示的数比左边的点表示的数大. (2)正数大于 0 , 负数小于 0 , 正数大于负数. (3)两个正数中绝对值大的数大. (4)两个负数中绝对值大的反而小. 根据有理数大小比较的方法即可得出答案.\n\n## 【解答】\n\n解: $-2<-\\frac{2}{3}<0<1$,\n\n所以最大的是 1 .\n\n故选: $A$."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "算术"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "七年级",
+        "算术"
+      ],
+      "status": "ready",
+      "issues": [
+        "fine_type_pending"
+      ],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "1910",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "train_data.jsonl"
+      },
+      "source_level": "七年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [],
+      "derived_knowledge_tags": [],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "aa945c953768b9d834bc25aa1c5ceae913a80b1541d393ce3db8fc0a39d6ecfb",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [
+          "fine_type_pending"
+        ],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "choice",
+      "can_practice": false,
+      "tags": [
+        {
+          "id": "tag:327b7467b519dcd7f85a2807",
+          "kind": "knowledge",
+          "label": "算术",
+          "origin": "source"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "算术",
+          "有理数",
+          "数轴顺序"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "有理数",
+          "数轴顺序"
+        ]
+      },
+      "fine_types": [
+        "有理数大小比较与最大值选择"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 7,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "A"
+        ],
+        "equivalence": "exact",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "数 $1,0,-\\frac{2}{3},-2$ 中最大的是 $(\\quad)$",
+          "reference_answer": "A",
+          "solution_steps": [
+            "析】 ## 【分析】 本题考查了有理数大小比较的方法. (1)在数轴上表示的两点, 右边的点表示的数比左边的点表示的数大. (2)正数大于 0 , 负数小于 0 , 正数大于负数. (3)两个正数中绝对值大的数大. (4)两个负数中绝对值大的反而小. 根据有理数大小比较的方法即可得出答案. ## 【解答】 解: $-2<-\\frac{2}{3}<0<1$, 所以最大的是 1 . 故选: $A$."
+          ],
+          "knowledge_tags": [
+            "算术",
+            "有理数",
+            "数轴顺序"
+          ],
+          "type_tags": [
+            "有理数大小比较与最大值选择"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "将四个数按数轴顺序比较，选择最大者并核对选项。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "比较负数时误认为绝对值较大的数更大。",
+              "knowledge_tags": [
+                "算术",
+                "有理数",
+                "数轴顺序"
+              ],
+              "type_tags": [
+                "有理数大小比较与最大值选择"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "source_not_practice_ready",
+          "score_pending",
+          "fine_type_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:231:b3451943839a",
+    "source_sha256": "4884927cc1a82a7d8fec1e59b4496fda15c36cd39131335a2d838abd3244d013",
+    "question": {
+      "id": "bank:cmm:231:b3451943839a",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 9,
+      "term": null,
+      "stem": "二次函数 $y=x^{2}+(a+2) x+a$ 的图象与 $x$ 轴交点的情况是 ( )",
+      "options": [
+        {
+          "key": "A",
+          "text": "没有公共点"
+        },
+        {
+          "key": "B",
+          "text": "有两个公共点"
+        },
+        {
+          "key": "C",
+          "text": "有一个公共点"
+        },
+        {
+          "key": "D",
+          "text": "与 $a$ 的值有关"
+        }
+      ],
+      "answer": "B",
+      "kind": "single_choice",
+      "steps": [
+        "根据二次函数与一元二次方程的关系，只要计算出一元二次方程的根的判别式，根据判别式的符号即可判断.\n\n【详解】 $\\because \\Delta=(a+2)^{2}-4 \\times 1 \\times a=a^{2}+4>0$\n\n$\\therefore$ 二次函数 $y=x^{2}+(a+2) x+a$ 的图象与 $x$ 轴有两个不同的公共点\n\n故选: B\n\n【点睛】本题考查了二次函数与一元二次方程的关系, 要从数与形两个方面来理解这种关系. 一般地：当 $\\Delta>0$ 时，二次函数与 $x$ 轴有两个不同的交点; 当 $\\Delta=0$ 时，二次函数与 $x$ 轴有一个交点; 当 $\\Delta<0$ 时, 二次函数与 $x$ 轴没有交点; 掌握这个知识是关键."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "解析几何"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "九年级",
+        "解析几何"
+      ],
+      "status": "ready",
+      "issues": [],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "231",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "train_data.jsonl"
+      },
+      "source_level": "九年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [
+        {
+          "label": "二次函数的图象性质与交点",
+          "origin": "heuristic",
+          "basis": "stem_pattern",
+          "matched": "二次函数",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "二次函数"
+      ],
+      "curriculum_minimum_grade": 9,
+      "curriculum_minimum_book": "math-9-1",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "1ad4c9cea1499caa55eb7c00544d0b8e4f00cbc2fe8f2a25d2bd52e80eb710fd",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "choice",
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:61a55910b154198a33cf859b",
+          "kind": "knowledge",
+          "label": "解析几何",
+          "origin": "source"
+        },
+        {
+          "id": "tag:66a49206e1442404106d67ea",
+          "kind": "type",
+          "label": "二次函数的图象性质与交点",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "解析几何",
+          "二次函数",
+          "一元二次方程",
+          "判别式"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "解析几何",
+          "二次函数",
+          "一元二次方程"
+        ]
+      },
+      "fine_types": [
+        "二次函数与 x 轴交点个数判定"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 9,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "exact",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "二次函数 $y=x^{2}+(a+2) x+a$ 的图象与 $x$ 轴交点的情况是 ( )",
+          "reference_answer": "B",
+          "solution_steps": [
+            "根据二次函数与一元二次方程的关系，只要计算出一元二次方程的根的判别式，根据判别式的符号即可判断. 【详解】 $\\because \\Delta=(a+2)^{2}-4 \\times 1 \\times a=a^{2}+4>0$ $\\therefore$ 二次函数 $y=x^{2}+(a+2) x+a$ 的图象与 $x$ 轴有两个不同的公共点 故选: B 【点睛】本题考查了二次函数与一元二次方程的关系, 要从数与形两个方面来理解这种关系. 一般地：当 $\\Delta>0$ 时，二次函数与 $x$ 轴有两个不同的交点; 当 $\\Delta=0$ 时，二次函数与 $x$ 轴有一个交点; 当 $\\Delta<0$ 时, 二次函数与 $x$ 轴没有交点; 掌握这个知识是关键."
+          ],
+          "knowledge_tags": [
+            "解析几何",
+            "二次函数",
+            "一元二次方程",
+            "判别式"
+          ],
+          "type_tags": [
+            "二次函数与 x 轴交点个数判定"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "令 y=0，将交点问题转成一元二次方程，并用判别式判断根的个数。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "未将参数系数关系代入判别式，或把相切算成两个交点。",
+              "knowledge_tags": [
+                "解析几何",
+                "二次函数",
+                "一元二次方程",
+                "判别式"
+              ],
+              "type_tags": [
+                "二次函数与 x 轴交点个数判定"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:23830:913c755a2763",
+    "source_sha256": "83284b5e958fb656224ada166e253abf6fa68297d3e216e8942c0b861032d0e4",
+    "question": {
+      "id": "bank:cmm:23830:913c755a2763",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 7,
+      "term": null,
+      "stem": "在100克水中放入25克盐, 盐与盐水的百分比是",
+      "options": [
+        {
+          "key": "A",
+          "text": "$1: 4$"
+        },
+        {
+          "key": "B",
+          "text": "$20 \\%$"
+        },
+        {
+          "key": "C",
+          "text": "$25 \\%$"
+        },
+        {
+          "key": "D",
+          "text": "$1: 5$"
+        }
+      ],
+      "answer": "B",
+      "kind": "single_choice",
+      "steps": [
+        "【答案】B\n\n【解析】\n\n【分析】\n\n本题考查求百分比问题. 根据盐与盐水的百分比 $=$ 盐的质量 $\\div$ 盐水质量 $\\times 100 \\%$ 计算即可.\n\n【解答】\n\n解: $25 \\div(25+100) \\times 100 \\%$\n\n$$\n\\begin{gathered}\n=25 \\div 125 \\times 100 \\% \\\\\n=0.2 \\times 100 \\%\n\\end{gathered}\n$$\n\n$=20 \\%$.\n\n故选 $B$."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "算术"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "七年级",
+        "算术"
+      ],
+      "status": "ready",
+      "issues": [
+        "fine_type_pending"
+      ],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "23830",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "train_data.jsonl"
+      },
+      "source_level": "七年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [],
+      "derived_knowledge_tags": [],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "a02f4058950fbe121076d9fd8ea9108c96036a3a842ecffe785dcfcb886ba9e9",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [
+          "fine_type_pending"
+        ],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "choice",
+      "can_practice": false,
+      "tags": [
+        {
+          "id": "tag:327b7467b519dcd7f85a2807",
+          "kind": "knowledge",
+          "label": "算术",
+          "origin": "source"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "算术",
+          "百分数",
+          "质量比"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "盐与盐水质量百分率计算"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 7,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "exact",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "在100克水中放入25克盐, 盐与盐水的百分比是",
+          "reference_answer": "B",
+          "solution_steps": [
+            "【答案】B 【解析】 【分析】 本题考查求百分比问题. 根据盐与盐水的百分比 $=$ 盐的质量 $\\div$ 盐水质量 $\\times 100 \\%$ 计算即可. 【解答】 解: $25 \\div(25+100) \\times 100 \\%$ $$ \\begin{gathered} =25 \\div 125 \\times 100 \\% \\\\ =0.2 \\times 100 \\% \\end{gathered} $$ $=20 \\%$. 故选 $B$."
+          ],
+          "knowledge_tags": [
+            "算术",
+            "百分数",
+            "质量比"
+          ],
+          "type_tags": [
+            "盐与盐水质量百分率计算"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "用盐的质量除以盐水总质量，再化为百分数。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "把盐质量作为分母，或误将水质量当成盐水质量。",
+              "knowledge_tags": [
+                "算术",
+                "百分数",
+                "质量比"
+              ],
+              "type_tags": [
+                "盐与盐水质量百分率计算"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "source_not_practice_ready",
+          "score_pending",
+          "fine_type_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:2650:e98907f2689e",
+    "source_sha256": "c51e8c796f258fb703dba9838085a6be2404928762987809b35a0aa0f6a082f0",
+    "question": {
+      "id": "bank:cmm:2650:e98907f2689e",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 7,
+      "term": null,
+      "stem": "（2021・常德模拟）在日常生活中如取款、上网等都需要密码. 有一种用 “因式分解” 法产生的密码, 方便记忆. 原理是: 如对于多项式 $x^{4}-y^{4}$, 因式分解的结果是 $(x-y)(x+y)\\left(x^{2}+y^{2}\\right)$, 若取 $x=9, y=9$ 时, 则各个因式的值是: $(x-y)=0,(x+y)=18,\\left(x^{2}+y^{2}\\right)=162$, 于是就可以把 “018162” 作为一个六位数的密码, 对于多项式 $4 x^{3}-x y^{2}$, 取 $x=11, y=12$ 时, 用上述方法产生的密码是 \\$ \\qquad \\$ (写出一个即可).",
+      "options": [],
+      "answer": "113410 .",
+      "kind": "reference",
+      "steps": [
+        "先因式分解，再代值计算.\n\n【答案】解: $4 x^{3}-x y^{2}=x\\left(4 x^{2}-y^{2}\\right)=x(2 x+y)(2 x-y)$.\n\n当 $x=11, y=12$ 时, 各因式的值为: $x=11,2 x+y=22+12=34$.\n\n$2 x-y=22-12=10 . \\therefore$ 产生的密码为: 113410 . 故答案为: 113410 .\n\n【点睛】本题考查因式分解的应用, 正确因式分解是求解本题的关键."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "代数"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "七年级",
+        "代数"
+      ],
+      "status": "reference",
+      "issues": [],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "2650",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "train_data.jsonl"
+      },
+      "source_level": "七年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [
+        {
+          "label": "因式分解的方法选择与参数",
+          "origin": "heuristic",
+          "basis": "stem_pattern",
+          "matched": "因式分解",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "因式分解"
+      ],
+      "curriculum_minimum_grade": 8,
+      "curriculum_minimum_book": "math-8-1",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "45bcf55ad81ab3539198031b8da23833a0451089ac8afdd5db5a556e1898b7b9",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "written",
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:9adb945761e5ed42bdd384db",
+          "kind": "knowledge",
+          "label": "代数",
+          "origin": "source"
+        },
+        {
+          "id": "tag:9621c997e45dfedfa2d04448",
+          "kind": "type",
+          "label": "因式分解的方法选择与参数",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "short_answer",
+      "knowledge": {
+        "primary": [
+          "代数",
+          "因式分解",
+          "代数式求值"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "因式分解"
+        ]
+      },
+      "fine_types": [
+        "因式分解编码规则的代数应用"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 7,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "（2021・常德模拟）在日常生活中如取款、上网等都需要密码. 有一种用 “因式分解” 法产生的密码, 方便记忆. 原理是: 如对于多项式 $x^{4}-y^{4}$, 因式分解的结果是 $(x-y)(x+y)\\left(x^{2}+y^{2}\\right)$, 若取 $x=9, y=9$ 时, 则各个因式的值是: $(x-y)=0,(x+y)=18,\\left(x^{2}+y^{2}\\right)=162$, 于是就可以把 “018162” 作为一个六位数的密码, 对于多项式 $4 x^{3}-x y^{2}$, 取 $x=11, y=12$ 时, 用上述方法产生的密码是 \\$ \\qquad \\$ (写出一个即可).",
+          "reference_answer": "113410 .",
+          "solution_steps": [
+            "先因式分解，再代值计算. 【答案】解: $4 x^{3}-x y^{2}=x\\left(4 x^{2}-y^{2}\\right)=x(2 x+y)(2 x-y)$. 当 $x=11, y=12$ 时, 各因式的值为: $x=11,2 x+y=22+12=34$. $2 x-y=22-12=10 . \\therefore$ 产生的密码为: 113410 . 故答案为: 113410 . 【点睛】本题考查因式分解的应用, 正确因式分解是求解本题的关键."
+          ],
+          "knowledge_tags": [
+            "代数",
+            "因式分解",
+            "代数式求值"
+          ],
+          "type_tags": [
+            "因式分解编码规则的代数应用"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "按给定分解式逐因式代入数值，再依题目编码规则拼接。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "忽略因式顺序或把多项式值与因式值混同。",
+              "knowledge_tags": [
+                "代数",
+                "因式分解",
+                "代数式求值"
+              ],
+              "type_tags": [
+                "因式分解编码规则的代数应用"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:3159:14a8b33133dd",
+    "source_sha256": "b048b6d199747269d18e53e610261b4f53293f0d6860d62a6d40fc8ef931f187",
+    "question": {
+      "id": "bank:cmm:3159:14a8b33133dd",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 9,
+      "term": null,
+      "stem": "(本题 3 分)（2022$\\cdot$浙江省义乌市廿三里初级中学九年级期中）下列各组线段中，成比例的是 $(\\quad)$",
+      "options": [
+        {
+          "key": "A",
+          "text": "$1,2,2,4$"
+        },
+        {
+          "key": "B",
+          "text": "$1,2,3,4$"
+        },
+        {
+          "key": "C",
+          "text": "$3,5,9,13$"
+        },
+        {
+          "key": "D",
+          "text": "$1,2,2,3$"
+        }
+      ],
+      "answer": "A",
+      "kind": "single_choice",
+      "steps": [
+        "A【分析】如果其中两条线段的乘积等于另外两条线段的乘积，则四条线段叫成比例线段，对选项一一分析，排除错误答案.【详解】 解： A、 $1 \\times 4=2 \\times 2$, 故选项符合题意;B、 $1 \\times 4 \\neq 2 \\times 3$, 故选项不符合题意;C、 $3 \\times 13 \\neq 5 \\times 9$, 故选项不符合题意;D、 $1 \\times 3 \\neq 2 \\times 2$, 故选项不符合题意.故选: A.【点睛】此题考查了比例线段，根据成比例线段的概念，注意在相乘的时候，最小的和最大的相乘，另外两个相乘，看它们的积是否相等."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "度量几何学"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "九年级",
+        "度量几何学"
+      ],
+      "status": "ready",
+      "issues": [
+        "fine_type_pending"
+      ],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "3159",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "test_data.jsonl"
+      },
+      "source_level": "九年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [
+        "restored_missing_first_option_label"
+      ],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [],
+      "derived_knowledge_tags": [],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "b1d51b8b5d7a0ba4f461e0804b10cfda75d30f84419301dfc877b360820b3a97",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [
+          "fine_type_pending"
+        ],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "choice",
+      "can_practice": false,
+      "tags": [
+        {
+          "id": "tag:0cfdbe592c8852c99422c4c5",
+          "kind": "knowledge",
+          "label": "度量几何学",
+          "origin": "source"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "度量几何学",
+          "比例线段",
+          "比例式"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "度量几何学"
+        ]
+      },
+      "fine_types": [
+        "比例线段组辨析"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 9,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "A"
+        ],
+        "equivalence": "exact",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "(本题 3 分)（2022$\\cdot$浙江省义乌市廿三里初级中学九年级期中）下列各组线段中，成比例的是 $(\\quad)$",
+          "reference_answer": "A",
+          "solution_steps": [
+            "A【分析】如果其中两条线段的乘积等于另外两条线段的乘积，则四条线段叫成比例线段，对选项一一分析，排除错误答案.【详解】 解： A、 $1 \\times 4=2 \\times 2$, 故选项符合题意;B、 $1 \\times 4 \\neq 2 \\times 3$, 故选项不符合题意;C、 $3 \\times 13 \\neq 5 \\times 9$, 故选项不符合题意;D、 $1 \\times 3 \\neq 2 \\times 2$, 故选项不符合题意.故选: A.【点睛】此题考查了比例线段，根据成比例线段的概念，注意在相乘的时候，最小的和最大的相乘，另外两个相乘，看它们的积是否相等."
+          ],
+          "knowledge_tags": [
+            "度量几何学",
+            "比例线段",
+            "比例式"
+          ],
+          "type_tags": [
+            "比例线段组辨析"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "检查四条线段的比值是否相等，注意同一比例式中的对应顺序。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "交叉配对次序错误，或只比较两条线段的大小。",
+              "knowledge_tags": [
+                "度量几何学",
+                "比例线段",
+                "比例式"
+              ],
+              "type_tags": [
+                "比例线段组辨析"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "source_not_practice_ready",
+          "score_pending",
+          "fine_type_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:3576:2bae882d25de",
+    "source_sha256": "65c94c9bdd5bfbcb8ca2551cce8cbb52507c340c8eadf5ef95262059b13fbd1e",
+    "question": {
+      "id": "bank:cmm:3576:2bae882d25de",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 9,
+      "term": null,
+      "stem": "张明同学想利用树影测量校园内树的高度, 他在某一时刻测得某小树的高为 $1.5 \\mathrm{~m}$, 其影长为 $1.2 \\mathrm{~m}$. 同一时刻, 当他测量教学楼旁的一棵大树的影长时, 因大树靠近教学楼, 有一部分影子落\n在墙上. 经测量, 大树地面部分的影长为 $6.4 \\mathrm{~m}$, 墙上的影长为 $1.4 \\mathrm{~m}$, 则这棵大树高 $m$.",
+      "options": [],
+      "answer": "9.4",
+      "kind": "reference",
+      "steps": [
+        "设这棵大树高为 $x m$,\n\n根据平行投影特点: 在同一时刻, 不同物体的物高和影长成比例可得:\n\n树高比影长为 1.5 . $=1.25$,\n\n则有 $\\frac{6.4}{x-1.4}=\\frac{1}{1.25}=0.8$,\n\n解得： $x=9.4$ 米.\n\n故答案为 9.4 ."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "度量几何学"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "九年级",
+        "度量几何学"
+      ],
+      "status": "reference",
+      "issues": [
+        "fine_type_pending"
+      ],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "3576",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "test_data.jsonl"
+      },
+      "source_level": "九年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [],
+      "derived_knowledge_tags": [],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "34f3ee63d5c3d1737498ea365623ef6bcb3faa410bd7123dcc2d01d5807499fb",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [
+          "fine_type_pending"
+        ],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "written",
+      "can_practice": false,
+      "tags": [
+        {
+          "id": "tag:0cfdbe592c8852c99422c4c5",
+          "kind": "knowledge",
+          "label": "度量几何学",
+          "origin": "source"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "application",
+      "knowledge": {
+        "primary": [
+          "度量几何学",
+          "相似三角形",
+          "比例",
+          "实际测量"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "度量几何学",
+          "相似三角形"
+        ]
+      },
+      "fine_types": [
+        "相似三角形影长测高应用"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 9,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "张明同学想利用树影测量校园内树的高度, 他在某一时刻测得某小树的高为 $1.5 \\mathrm{~m}$, 其影长为 $1.2 \\mathrm{~m}$. 同一时刻, 当他测量教学楼旁的一棵大树的影长时, 因大树靠近教学楼, 有一部分影子落 在墙上. 经测量, 大树地面部分的影长为 $6.4 \\mathrm{~m}$, 墙上的影长为 $1.4 \\mathrm{~m}$, 则这棵大树高 $m$.",
+          "reference_answer": "9.4",
+          "solution_steps": [
+            "设这棵大树高为 $x m$, 根据平行投影特点: 在同一时刻, 不同物体的物高和影长成比例可得: 树高比影长为 1.5 . $=1.25$, 则有 $\\frac{6.4}{x-1.4}=\\frac{1}{1.25}=0.8$, 解得： $x=9.4$ 米. 故答案为 9.4 ."
+          ],
+          "knowledge_tags": [
+            "度量几何学",
+            "相似三角形",
+            "比例",
+            "实际测量"
+          ],
+          "type_tags": [
+            "相似三角形影长测高应用"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "用同一时刻的高与影长建立相似比，再计入地面影长和墙面影长。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "漏加投在墙上的影长，或把高影比倒置。",
+              "knowledge_tags": [
+                "度量几何学",
+                "相似三角形",
+                "比例",
+                "实际测量"
+              ],
+              "type_tags": [
+                "相似三角形影长测高应用"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "source_not_practice_ready",
+          "score_pending",
+          "fine_type_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:3985:c806186c8714",
+    "source_sha256": "279cefc9c4598b340cf7bda471628b7064fd37a6b06c67e364257ede98dea898",
+    "question": {
+      "id": "bank:cmm:3985:c806186c8714",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 9,
+      "term": null,
+      "stem": "若 $\\tan a=2$, 则 $\\frac{3 \\sin \\alpha-\\cos \\alpha}{4 \\sin \\alpha+2 \\cos \\alpha}$ 的值为 ( )",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "key": "B",
+          "text": "$\\frac{5}{6}$"
+        },
+        {
+          "key": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ],
+      "answer": "C",
+      "kind": "single_choice",
+      "steps": [
+        "【分析】分子分母同时除以 $\\cos \\alpha$, 转化为关于 $\\tan \\alpha$ 的式子解答.\n\n解: 因为 $\\tan a=\\frac{s i n^{2} \\alpha_{n}}{\\cos \\alpha}=2$,\n\n$\\therefore$ 原式 $=\\frac{\\frac{3 \\sin \\alpha}{\\cos \\alpha}-1}{\\frac{4 \\sin \\alpha}{\\cos \\alpha}+2}=\\frac{3 \\tan \\alpha-1}{4 \\tan \\alpha+2}=\\frac{3 \\times 2-1}{4 \\times 2+2}=\\frac{1}{2}$.\n\n故选 C."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "解析几何"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "九年级",
+        "解析几何"
+      ],
+      "status": "ready",
+      "issues": [
+        "fine_type_pending"
+      ],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "3985",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "train_data.jsonl"
+      },
+      "source_level": "九年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [],
+      "derived_knowledge_tags": [],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "1a6a590e77da892470f57a71ab278092fb8d706066aa5c6e0f366f0684bc6cd6",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [
+          "fine_type_pending"
+        ],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "choice",
+      "can_practice": false,
+      "tags": [
+        {
+          "id": "tag:61a55910b154198a33cf859b",
+          "kind": "knowledge",
+          "label": "解析几何",
+          "origin": "source"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "解析几何",
+          "锐角三角函数",
+          "代数化简"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "解析几何",
+          "锐角三角函数"
+        ]
+      },
+      "fine_types": [
+        "正切值化简三角比式"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 9,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "C"
+        ],
+        "equivalence": "exact",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "若 $\\tan a=2$, 则 $\\frac{3 \\sin \\alpha-\\cos \\alpha}{4 \\sin \\alpha+2 \\cos \\alpha}$ 的值为 ( )",
+          "reference_answer": "C",
+          "solution_steps": [
+            "【分析】分子分母同时除以 $\\cos \\alpha$, 转化为关于 $\\tan \\alpha$ 的式子解答. 解: 因为 $\\tan a=\\frac{s i n^{2} \\alpha_{n}}{\\cos \\alpha}=2$, $\\therefore$ 原式 $=\\frac{\\frac{3 \\sin \\alpha}{\\cos \\alpha}-1}{\\frac{4 \\sin \\alpha}{\\cos \\alpha}+2}=\\frac{3 \\tan \\alpha-1}{4 \\tan \\alpha+2}=\\frac{3 \\times 2-1}{4 \\times 2+2}=\\frac{1}{2}$. 故选 C."
+          ],
+          "knowledge_tags": [
+            "解析几何",
+            "锐角三角函数",
+            "代数化简"
+          ],
+          "type_tags": [
+            "正切值化简三角比式"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "分子分母同除以 cos α，使用 tan α 的已知值化简并检查分母非零。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "只对分子使用正切替换，导致式子不等价。",
+              "knowledge_tags": [
+                "解析几何",
+                "锐角三角函数",
+                "代数化简"
+              ],
+              "type_tags": [
+                "正切值化简三角比式"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "source_not_practice_ready",
+          "score_pending",
+          "fine_type_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:4492:1fb93b2a8d3a",
+    "source_sha256": "2d81abae5c41bd25e8141eef9e2aa9d6864689ad4e1ca7e0d9481dedabf29c81",
+    "question": {
+      "id": "bank:cmm:4492:1fb93b2a8d3a",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 8,
+      "term": null,
+      "stem": "已知点 $A(-2,0), B(0,-5)$, 点 $C$ 在 $x$ 轴上, 三角形的面积为 10 , 则点 $C$ 的坐标是",
+      "options": [],
+      "answer": "$(-6,0)$ 或 $(2,0)$",
+      "kind": "reference",
+      "steps": [],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "解析几何"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "八年级",
+        "解析几何"
+      ],
+      "status": "reference",
+      "issues": [
+        "missing_solution",
+        "fine_type_pending"
+      ],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "4492",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "train_data.jsonl"
+      },
+      "source_level": "八年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [],
+      "derived_knowledge_tags": [],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "d2952f248ca81aa48d753794f5ff47d8a7e51ff71b8855e629801f1fae11e22d",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [
+          "missing_solution",
+          "fine_type_pending"
+        ],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "solution_pending"
+      },
+      "answer_mode": "written",
+      "can_practice": false,
+      "tags": [
+        {
+          "id": "tag:61a55910b154198a33cf859b",
+          "kind": "knowledge",
+          "label": "解析几何",
+          "origin": "source"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "short_answer",
+      "knowledge": {
+        "primary": [
+          "解析几何",
+          "平面直角坐标系",
+          "三角形面积"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "解析几何",
+          "三角形面积"
+        ]
+      },
+      "fine_types": [
+        "坐标轴上三角形面积反求点坐标"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 8,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "已知点 $A(-2,0), B(0,-5)$, 点 $C$ 在 $x$ 轴上, 三角形的面积为 10 , 则点 $C$ 的坐标是",
+          "reference_answer": "$(-6,0)$ 或 $(2,0)$",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "解析几何",
+            "平面直角坐标系",
+            "三角形面积"
+          ],
+          "type_tags": [
+            "坐标轴上三角形面积反求点坐标"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "以已知点 AB 为底，利用点 C 到 x 轴的水平距离确定面积，再解坐标。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "误把 C 限定在某一侧而漏掉另一解。",
+              "knowledge_tags": [
+                "解析几何",
+                "平面直角坐标系",
+                "三角形面积"
+              ],
+              "type_tags": [
+                "坐标轴上三角形面积反求点坐标"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "source_solution_missing",
+          "answer_not_independently_checked",
+          "source_not_practice_ready",
+          "score_pending",
+          "fine_type_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:4910:190100335504",
+    "source_sha256": "f7d8be06ce9374af87cf64768b46fad2fa1f022a485eda7d73e5ce466ced11e9",
+    "question": {
+      "id": "bank:cmm:4910:190100335504",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 8,
+      "term": null,
+      "stem": "阅读下面的材料, 再解答问题.\n\n例: 解不等式 $\\frac{x}{2 x-1}>1$.\n\n解: 把不等式 $\\frac{x}{2 x-1}>1$ 进行整理,\n\n得 $\\frac{x}{2 x-1}-1>0$, 即 $\\frac{1-x}{2 x-1}>0$.\n\n则有(1) $\\left\\{\\begin{array}{l}1-x>0 \\\\ 2 x-1>0\\end{array}\\right.$ 或(2) $\\left\\{\\begin{array}{l}1-x<0 \\\\ 2 x-1<0\\end{array}\\right.$\n\n解不等式组(1), 得 $\\frac{1}{2}<x<1$,\n\n解不等式组(2)知其无解,\n\n所以原不等式的解为 $\\frac{1}{2}<x<1$.\n\n请根据以上思想方法解不等式 $\\frac{3 x+2}{x-2}<2$.",
+      "options": [],
+      "answer": "解: 把不等式 $\\frac{3 x+2}{x-2}<2$ 进行整理, 得,\n\n$\\frac{3 \\mathrm{x}+2}{\\mathrm{x}-2}-2<0$ ，即 $\\frac{x+6}{x-2}<0 ，$\n\n则有(1) $\\left\\{\\begin{array}{l}x+6>0 \\\\ x-2<0\\end{array}\\right.$ 或(2) $\\left\\{\\begin{array}{l}x+6<0 \\\\ x-2>0\\end{array}\\right.$,\n\n解不等式组(1), 得 $-6<x<2$, 解不等式组(2)无解,\n\n所以原不等式的解为 $-6<x<2$.",
+      "kind": "reference",
+      "steps": [
+        "解: 把不等式 $\\frac{3 x+2}{x-2}<2$ 进行整理, 得,\n\n$\\frac{3 \\mathrm{x}+2}{\\mathrm{x}-2}-2<0$ ，即 $\\frac{x+6}{x-2}<0 ，$\n\n则有(1) $\\left\\{\\begin{array}{l}x+6>0 \\\\ x-2<0\\end{array}\\right.$ 或(2) $\\left\\{\\begin{array}{l}x+6<0 \\\\ x-2>0\\end{array}\\right.$,\n\n解不等式组(1), 得 $-6<x<2$, 解不等式组(2)无解,\n\n所以原不等式的解为 $-6<x<2$."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "代数"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "八年级",
+        "代数"
+      ],
+      "status": "reference",
+      "issues": [],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "4910",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "train_data.jsonl"
+      },
+      "source_level": "八年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [
+        {
+          "label": "一元一次不等式组解集的交集",
+          "origin": "heuristic",
+          "basis": "stem_pattern",
+          "matched": "不等式组",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "一元一次不等式组"
+      ],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-2",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "5e9e2c7a6577157dc45b78023a71ecf27f28252c4edc58361784a5ca15cb3151",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "written",
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:9adb945761e5ed42bdd384db",
+          "kind": "knowledge",
+          "label": "代数",
+          "origin": "source"
+        },
+        {
+          "id": "tag:63cb4d8066e9554605bcf77c",
+          "kind": "type",
+          "label": "一元一次不等式组解集的交集",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "calculation",
+      "knowledge": {
+        "primary": [
+          "代数",
+          "分式不等式",
+          "临界点",
+          "符号分析"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "分式不等式的符号区间求解"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 8,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "expression",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "阅读下面的材料, 再解答问题. 例: 解不等式 $\\frac{x}{2 x-1}>1$. 解: 把不等式 $\\frac{x}{2 x-1}>1$ 进行整理, 得 $\\frac{x}{2 x-1}-1>0$, 即 $\\frac{1-x}{2 x-1}>0$. 则有(1) $\\left\\{\\begin{array}{l}1-x>0 \\\\ 2 x-1>0\\end{array}\\right.$ 或(2) $\\left\\{\\begin{array}{l}1-x<0 \\\\ 2 x-1<0\\end{array}\\right.$ 解不等式组(1), 得 $\\frac{1}{2}<x<1$, 解不等式组(2)知其无解, 所以原不等式的解为 $\\frac{1}{2}<x<1$. 请根据以上思想方法解不等式 $\\frac{3 x+2}{x-2}<2$.",
+          "reference_answer": "解: 把不等式 $\\frac{3 x+2}{x-2}<2$ 进行整理, 得, $\\frac{3 \\mathrm{x}+2}{\\mathrm{x}-2}-2<0$ ，即 $\\frac{x+6}{x-2}<0 ，$ 则有(1) $\\left\\{\\begin{array}{l}x+6>0 \\\\ x-2<0\\end{array}\\right.$ 或(2) $\\left\\{\\begin{array}{l}x+6<0 \\\\ x-2>0\\end{array}\\right.$, 解不等式组(1), 得 $-6<x<2$, 解不等式组(2)无解, 所以原不等式的解为 $-6<x<2$.",
+          "solution_steps": [
+            "解: 把不等式 $\\frac{3 x+2}{x-2}<2$ 进行整理, 得, $\\frac{3 \\mathrm{x}+2}{\\mathrm{x}-2}-2<0$ ，即 $\\frac{x+6}{x-2}<0 ，$ 则有(1) $\\left\\{\\begin{array}{l}x+6>0 \\\\ x-2<0\\end{array}\\right.$ 或(2) $\\left\\{\\begin{array}{l}x+6<0 \\\\ x-2>0\\end{array}\\right.$, 解不等式组(1), 得 $-6<x<2$, 解不等式组(2)无解, 所以原不等式的解为 $-6<x<2$."
+          ],
+          "knowledge_tags": [
+            "代数",
+            "分式不等式",
+            "临界点",
+            "符号分析"
+          ],
+          "type_tags": [
+            "分式不等式的符号区间求解"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "先移项通分，找分子与分母零点，分区间判号并排除使分母为零的点。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "同乘含未知数的分母而未讨论符号，或纳入不可取端点。",
+              "knowledge_tags": [
+                "代数",
+                "分式不等式",
+                "临界点",
+                "符号分析"
+              ],
+              "type_tags": [
+                "分式不等式的符号区间求解"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:5361:ef9ca1d0abad",
+    "source_sha256": "3973eed5ff9557a78511d106b8544fa2461296cf51d9b0c57d1e8ff6d0f8c7cf",
+    "question": {
+      "id": "bank:cmm:5361:ef9ca1d0abad",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 8,
+      "term": null,
+      "stem": "在平面直角坐标系 $x O y$ 中, 平行四边形的三个顶点 $O(0,0), A(3,0), B(3,2)$, 则其第四个顶点 $C$的坐标是 \\$ \\qquad \\$ .",
+      "options": [],
+      "answer": "$(0,2)$ 或 $(6,2)$ 或 $(0,-2)$",
+      "kind": "reference",
+      "steps": [
+        "$\\because O(0,0) 、 A(3,0)$,\n\n$\\therefore O A=3$,\n\n$\\because$ 四边形 $O A B C$ 是平行四边形,\n\n$\\therefore B C / / O A, B C=O A=3$,\n\n$\\because B(3,2)$,\n\n$\\therefore$ 点 $C$ 的坐标为 $(3-3,2)$,\n\n即 $C(0,2)$;\n\n同理可得: $C(6,2)$ 或 $(0,-2)$;\n\n故答案为: $(0,2)$ 或 $(6,2)$ 或 $(0,-2)$."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "解析几何"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "八年级",
+        "解析几何"
+      ],
+      "status": "reference",
+      "issues": [],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "5361",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "train_data.jsonl"
+      },
+      "source_level": "八年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [
+        {
+          "label": "坐标与点的位置关系",
+          "origin": "heuristic",
+          "basis": "stem_pattern",
+          "matched": "平面直角坐标系",
+          "needs_review": true
+        },
+        {
+          "label": "特殊四边形的性质与判定",
+          "origin": "heuristic",
+          "basis": "stem_pattern",
+          "matched": "平行四边形",
+          "needs_review": true
+        }
+      ],
+      "derived_knowledge_tags": [
+        "平面直角坐标系",
+        "四边形"
+      ],
+      "curriculum_minimum_grade": 8,
+      "curriculum_minimum_book": "math-8-2",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "ae0628d0184aef3a7265cc10ae3807a180d3fdc372e548d363b2627f520432c2",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "written",
+      "can_practice": true,
+      "tags": [
+        {
+          "id": "tag:61a55910b154198a33cf859b",
+          "kind": "knowledge",
+          "label": "解析几何",
+          "origin": "source"
+        },
+        {
+          "id": "tag:67ad4e809593bc61ed47c381",
+          "kind": "type",
+          "label": "坐标与点的位置关系",
+          "origin": "heuristic"
+        },
+        {
+          "id": "tag:accb1cb621e81ff9115b8eea",
+          "kind": "type",
+          "label": "特殊四边形的性质与判定",
+          "origin": "heuristic"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "short_answer",
+      "knowledge": {
+        "primary": [
+          "解析几何",
+          "平行四边形",
+          "坐标几何"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "解析几何",
+          "坐标几何"
+        ]
+      },
+      "fine_types": [
+        "平行四边形第三顶点坐标分类"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 8,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "main",
+          "prompt": "在平面直角坐标系 $x O y$ 中, 平行四边形的三个顶点 $O(0,0), A(3,0), B(3,2)$, 则其第四个顶点 $C$的坐标是 \\$ \\qquad \\$ .",
+          "reference_answer": "$(0,2)$ 或 $(6,2)$ 或 $(0,-2)$",
+          "solution_steps": [
+            "$\\because O(0,0) 、 A(3,0)$, $\\therefore O A=3$, $\\because$ 四边形 $O A B C$ 是平行四边形, $\\therefore B C / / O A, B C=O A=3$, $\\because B(3,2)$, $\\therefore$ 点 $C$ 的坐标为 $(3-3,2)$, 即 $C(0,2)$; 同理可得: $C(6,2)$ 或 $(0,-2)$; 故答案为: $(0,2)$ 或 $(6,2)$ 或 $(0,-2)$."
+          ],
+          "knowledge_tags": [
+            "解析几何",
+            "平行四边形",
+            "坐标几何"
+          ],
+          "type_tags": [
+            "平行四边形第三顶点坐标分类"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "根据三点作为不同顶点的可能次序，利用对角线中点或向量关系枚举坐标。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "默认给定三点相邻次序，遗漏其它合法顶点。",
+              "knowledge_tags": [
+                "解析几何",
+                "平行四边形",
+                "坐标几何"
+              ],
+              "type_tags": [
+                "平行四边形第三顶点坐标分类"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "answer_not_independently_checked",
+          "score_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  },
+  {
+    "question_id": "bank:cmm:992:f1eabc88d52f",
+    "source_sha256": "b7bbf91a178d2bbab093d61d7957ca5e8eb47b8778381c66c1a4412af79ad37f",
+    "question": {
+      "id": "bank:cmm:992:f1eabc88d52f",
+      "subject": "math",
+      "stage": "junior",
+      "grade": 9,
+      "term": null,
+      "stem": "(本小题8.0分)\n\n一个不透明的袋子中装有 5 个红球、7个黑球, 这些球除颜色外都相同.\n\n(1)若从中任意摸出一个球, 则摸到 $\\qquad$球的可能性大;\n\n(2)如果另外拿红球和黑球一共6个放入袋中, 你认为怎样放才能让摸到红球和摸到黑球的可能性相同.",
+      "options": [],
+      "answer": "黑",
+      "kind": "reference",
+      "steps": [
+        "解：(1)摸到红球的可能性为: $\\frac{5}{5+7}=\\frac{5}{12}$;\n\n摸到黑球的可能性为 $\\frac{7}{5+7}=\\frac{7}{12}$.\n\n故摸到黑球的概率大.\n\n故答案为: 黑;\n\n(2)放入 4 个红球, 2 个黑球.\n\n理由如下:\n\n$\\because$ 另外拿红球和黑球一共6个放入袋中,\n\n$\\therefore$ 共有 $5+7+6=18$ 个球,\n\n$\\because$ 摸到红球和摸到黑球的可能性相同,\n\n$\\therefore$ 黑球和红球的数量相等,\n\n$\\therefore$ 应放入 4 个红球, 2 个黑球.\n\n(1)分别求出摸出各种颜色球的概率, 即可比较出摸出何种颜色球的可能性大.\n\n(2)另外放入 5 个球, 那么共有 16 个球, 每种颜色的各有 8 个时, 摸到红球和黄球的概率都是 $\\frac{1}{2}$.本题考查的是可能性的大小, 解决这类题目要注意具体情况具体对待. 用到的知识点为: 可能性等于所求情况数与总情况数之比."
+      ],
+      "difficulty": 2,
+      "difficulty_raw": null,
+      "knowledge_tags": [
+        "计数"
+      ],
+      "type_tags": [],
+      "tags_source": "source",
+      "source_tags": [
+        "九年级",
+        "计数"
+      ],
+      "status": "reference",
+      "issues": [
+        "fine_type_pending"
+      ],
+      "provenance": {
+        "dataset": "cmm",
+        "source_id": "992",
+        "url": "https://huggingface.co/datasets/ecnu-icalk/cmm-math",
+        "license": "BSD-3-Clause",
+        "source_file": "train_data.jsonl"
+      },
+      "source_level": "九年级",
+      "source_images": [],
+      "has_missing_assets": false,
+      "format_repairs": [],
+      "difficulty_basis": "unknown_default_not_calibrated",
+      "fine_type_annotations": [],
+      "derived_knowledge_tags": [],
+      "curriculum_minimum_grade": 7,
+      "curriculum_minimum_book": "math-7-1",
+      "quality": {
+        "version": "junior-math-quality-2026.10.11.2",
+        "content_sha256": "7df270437b7e5e0eab8f0a2b9a6c53dd19f6a06d6084766aef6a7cdfbd96e95f",
+        "answer_check": {
+          "status": "unchecked",
+          "method": null
+        },
+        "flags": [
+          "fine_type_pending"
+        ],
+        "classification_reviewed": false,
+        "solution_reviewed": false,
+        "practice_requires": [
+          "solution",
+          "fine_type",
+          "complete_assets",
+          "no_contradiction"
+        ],
+        "tier": "source_answer_only"
+      },
+      "answer_mode": "written",
+      "can_practice": false,
+      "tags": [
+        {
+          "id": "tag:16879df0327cc50a46ea47e6",
+          "kind": "knowledge",
+          "label": "计数",
+          "origin": "source"
+        }
+      ]
+    },
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "计数",
+          "概率",
+          "等可能性"
+        ],
+        "supporting": [],
+        "prerequisites": [
+          "概率"
+        ]
+      },
+      "fine_types": [
+        "摸球可能性比较与等可能调整"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "保留来源难度值；本批次未重新校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": 9,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "source",
+        "basis": "仅保留来源明确提供的年级与学期；不依据minimum_book推断册次。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [],
+        "equivalence": "manual",
+        "constraints": [],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "(本小题8.0分)\n\n一个不透明的袋子中装有 5 个红球、7个黑球, 这些球除颜色外都相同.\n若从中任意摸出一个球, 则摸到 $\\qquad$球的可能性大;",
+          "reference_answer": null,
+          "solution_steps": [],
+          "knowledge_tags": [],
+          "type_tags": [
+            "摸球概率大小比较"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "比较红球与黑球的数量（或概率分数），据此说明哪种颜色摸到的可能性大。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "只比较颜色类别而没有比较各自球数。",
+              "knowledge_tags": [],
+              "type_tags": [
+                "摸球概率大小比较"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "prompt": "(本小题8.0分)\n\n一个不透明的袋子中装有 5 个红球、7个黑球, 这些球除颜色外都相同.\n如果另外拿红球和黑球一共6个放入袋中, 你认为怎样放才能让摸到红球和摸到黑球的可能性相同.",
+          "reference_answer": null,
+          "solution_steps": [],
+          "knowledge_tags": [],
+          "type_tags": [
+            "使两类球数相等的数量分配"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "设新增红、黑球数并用总数量相等的条件列等式，同时满足新增总数为6，解出分配数。",
+              "points": null,
+              "evidence_required": "展示可核对的关键算式、推理关系或结论依据。"
+            }
+          ],
+          "common_errors": [
+            {
+              "description": "误把新增红球数与新增黑球数设为相等，或忘记原袋中已有5红7黑。",
+              "knowledge_tags": [],
+              "type_tags": [
+                "使两类球数相等的数量分配"
+              ]
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "part_answer_pending",
+          "answer_not_independently_checked",
+          "source_not_practice_ready",
+          "score_pending",
+          "fine_type_pending",
+          "part_tags_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、参考答案与来源解析；未独立校验答案。 来源标签保留；分值未由来源明确提供时留空。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "math-20261011-shard1"
+      }
+    }
+  }
+]

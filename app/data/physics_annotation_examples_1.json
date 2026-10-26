@@ -1,0 +1,2855 @@
+[
+  {
+    "question_id": "bank:cjeval:75f0052a7ad8c15a9b06b2ec",
+    "source_sha256": "1f825be0c40aa371c1b2dc5b099aa8b2c0de96de4faa27f6d96504d27a9adbb2",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "calculation",
+      "knowledge": {
+        "primary": [
+          "根据欧姆定律计算导体的电阻、电流及电压"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "欧姆定律在已知电压、电阻时求电流"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "numeric",
+        "accepted_answers": [
+          "2.56A"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "计算I=U/R；答案单位为A，来源结果按两位小数给出。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 一台电阻为90Ω的电水壶接入230V的电源中，求其通过的电流是多少？",
+          "reference_answer": "2.56A",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "根据欧姆定律计算导体的电阻、电流及电压"
+          ],
+          "type_tags": [
+            "依据根据欧姆定律计算导体的电阻、电流及电压选用关系式并代入物理量计算"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "欧姆定律在已知电压、电阻时求电流；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:5e32baf9b5b0849e844245e8",
+    "source_sha256": "fc10a8bcd8fd9a4eb3fec9116adddb3fc373e672712d1f6fbc4f527e270cc872",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "电功的公式及简单应用"
+        ],
+        "supporting": [
+          "电功率的定义式P=W/t的应用"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "并联灯组总功率求电流并按电能公式计算月耗电量"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [
+          "21.8A\n576度"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "默认各灯接入额定电压、并联；逐盏额定功率求总功率，再用P=UI求电流。",
+          "kW·h与“度”数值等同；时间按4h/d×30d，结果为度。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "计算大楼照明线路的电流。",
+          "reference_answer": "21.8A",
+          "knowledge_tags": [
+            "电功的公式及简单应用"
+          ],
+          "type_tags": [
+            "并联灯组总功率求电流并按电能公式计算月耗电量"
+          ],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "求单灯总数及总功率，并用P=UI求线路电流。",
+              "points": null,
+              "evidence_required": "列出灯数、每灯额定功率与220V条件，展示总功率和电流计算。"
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "prompt": "按每天4小时、每月30天计算每月耗电量。",
+          "reference_answer": "576度",
+          "knowledge_tags": [
+            "电功的公式及简单应用"
+          ],
+          "type_tags": [
+            "并联灯组总功率求电流并按电能公式计算月耗电量"
+          ],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "按月累计用电时间，并将Wh换算为kW·h（度）。",
+              "points": null,
+              "evidence_required": "展示4h×30d及总功率乘时间，结果带度或kW·h。"
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:3c84eeed57b381aef7f2cac5",
+    "source_sha256": "f47da4195e6074ea738084f159fe1aa230d57f45dc11f50c783d0c5f048077ba",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "使用保险丝的功能与使用"
+        ],
+        "supporting": [
+          "常见的触电防护及救援措施"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "逐项辨析保险丝与电器火灾的安全用电做法"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "BD"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "答案BD与解析逐项一致。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 下列关于安全用电的描述中，哪些是正确的？选项: A. 在家中购置大功率电器后，只需换上较粗的保险丝即可避免熔断 B. 保险丝熔断后，应先检查故障点并修复，然后再更换新的保险丝 C. 所有电器的外壳都必须进行接地处理 D. 如家中电器着火，应首先切断电源，然后再灭火",
+          "reference_answer": "BD",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "使用保险丝的功能与使用"
+          ],
+          "type_tags": [
+            "逐项判断使用保险丝的功能与使用相关物理规律并选出全部正确项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "逐项辨析保险丝与电器火灾的安全用电做法；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:3d6c72967d1566354fc642f5",
+    "source_sha256": "ae5b2aa46158047a2236e43cb9ea2a4c15cb6a91ac9caf398234ec455ab85b14",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "体温计的构造、原理及使用"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "用均匀但零点和量程偏差的温度计作线性校准"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "-5.1℃\n23.3℃"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "按冰水混合物0℃、标准大气压沸水100℃建立读数与实际温度线性关系；两个答案分别对应实际温度及示值等于实际值处。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "小明有一支温度计，虽然其玻璃管的内径和刻度均匀，但标度却不准确。该温度计在冰水混合物中的读数为-0.7℃，在沸水中的读数为102.3℃。当其读数为-6℃时，实际气温是多少？在什么温度下，温度计的误差很小，可以认为其读数是准确的？",
+          "reference_answer": "-5.1℃\n23.3℃",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "体温计的构造、原理及使用"
+          ],
+          "type_tags": [
+            "识别体温计的构造、原理及使用概念、关系或物理量并填写结果"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "用均匀但零点和量程偏差的温度计作线性校准；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:4ca94c187a461ffafb1e62fb",
+    "source_sha256": "96f4422417e3f0b83602243291d858a9648a0b1db499e20729f8bc9fecf97088",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "温度的概念、摄氏温标"
+        ],
+        "supporting": [
+          "温度计的构造、原理及使用"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "根据两个定标点修正温度计读数"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：困难；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "A"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "题干说明标准大气压，沸点100℃；校准后34℃示值对应约31℃，选A。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 一个刻度均匀但读数存在偏差的温度计，用它测量在标准大气压下冰水混合物的温度显示为3℃，测量沸水的温度显示为97℃。若用它来测得室内温度为34℃，则室内的实际温度约为多少？选项： A. 31℃ B. 32℃ C. 35℃ D. 29℃",
+          "reference_answer": "A",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "温度的概念、摄氏温标"
+          ],
+          "type_tags": [
+            "辨析温度的概念、摄氏温标相关物理规律并判断单一正确选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "根据两个定标点修正温度计读数；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:166c98a5162fd10f07475b2a",
+    "source_sha256": "23035749bf678bd70806516292bcbeb3c75970e03aa56147a373c79d96cda81b",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "利用汽化和液化知识解释生活现象"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "解释呼出水蒸气遇冷镜片形成水滴的物态变化"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "液化"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "答液化；水蒸气在较冷镜片表面放热变为液态小水滴。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 在防控新型冠状病毒的过程中，人们外出时必须佩戴口罩，而戴着近视眼镜的同学会发现眼镜片经常变得模糊不清，这是由于水蒸气发生了__现象所致。",
+          "reference_answer": "液化",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "利用汽化和液化知识解释生活现象"
+          ],
+          "type_tags": [
+            "识别利用汽化和液化知识解释生活现象概念、关系或物理量并填写结果"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "解释呼出水蒸气遇冷镜片形成水滴的物态变化；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:2e3ce792d77b741d0bafc79e",
+    "source_sha256": "7739eddce856ecec68623b59ff4e1790e9d3e930aa07fa749058e17ae3f8d74f",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "液化的概念和现象"
+        ],
+        "supporting": [
+          "利用汽化和液化知识解释生活现象",
+          "升华与凝华的概念和现象"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "辨认液化实例并排除汽化、凝华"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "B露珠由水蒸气液化形成；其余分别是汽化或凝华。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 下列现象中，属于液化过程的是选项: A. 碗中的水渐渐消失 B. 清晨草地上有露珠 C. 冬天窗户上出现冰花 D. 冬季干衣服在户外结霜",
+          "reference_answer": "B",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "液化的概念和现象"
+          ],
+          "type_tags": [
+            "辨析液化的概念和现象相关物理规律并判断单一正确选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "辨认液化实例并排除汽化、凝华；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:eca17b961aa05a5796b7782d",
+    "source_sha256": "c977c164e01d1bc0c007518b7cf80eadbb31540f229f9e68e7564184c56dc598",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "利用升华和凝华知识解释生活现象"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "按先后次序识别钨丝升华和蒸气凝华"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "升华\n凝华"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "灯丝钨先由固态升华，冷却后钨蒸气在内壁凝华；来源两空答案顺序正确。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 长期使用的日光灯管两端会呈现黑斑，在这一过程中，先经历__然后经历__。",
+          "reference_answer": "升华\n凝华",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "利用升华和凝华知识解释生活现象"
+          ],
+          "type_tags": [
+            "识别利用升华和凝华知识解释生活现象概念、关系或物理量并填写结果"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "按先后次序识别钨丝升华和蒸气凝华；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:e33080f6526f15c8b9dffc76",
+    "source_sha256": "acc70d695f6151861d2dc0ae59db96a7452fafd56d5de26c3aad3cb63e8b66e5",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "分子热运动"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "区分分子无规则运动与尘埃宏观运动"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "D"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "D为尘土颗粒宏观运动，不作为分子运动证据。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 下列哪种现象无法体现分子持续地进行无规则运动? 选项: A. 香水抹在肌肤上，能闻到香气 B. 用盐腌制鸡蛋，鸡蛋变咸 C. 清水中滴入红墨水，整个水变红 D. 打扫时可见尘土飞扬",
+          "reference_answer": "D",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "分子热运动"
+          ],
+          "type_tags": [
+            "辨析分子热运动相关物理规律并判断单一正确选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "区分分子无规则运动与尘埃宏观运动；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:69bae0c949076edff9dd6b68",
+    "source_sha256": "34e061329a2d08417d3996c18b6cb7c9fced6d948bb4f46f224d3e8cd968fe9b",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "分子之间存在间隙"
+        ],
+        "supporting": [
+          "热传递的条件和方向",
+          "温度、热量与内能的区别与联系",
+          "比热容的概念、单位和物理意义"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "辨析热量、温度、内能传递及比热容概念"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "BD"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "A受热过程可处于相变温度不变；C解释不符；来源解析认定B、D。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 以下说法中正确的是（    ）选项: A. 当一个物体放出热量时，温度必然下降 B. 比热容是物质的固有属性，其数值仅取决于物质的种类 C. 破镜难重圆是因为分子之间存在排斥力 D. 内能较少的物体也可以将能量传递给内能较多的物体",
+          "reference_answer": "BD",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "分子之间存在间隙"
+          ],
+          "type_tags": [
+            "逐项判断分子之间存在间隙相关物理规律并选出全部正确项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "辨析热量、温度、内能传递及比热容概念；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:f4979e80f78fb9e19f1cb3c7",
+    "source_sha256": "a60d0875176a8ece44d22166290a01373be17699e7f10ca6e8372b4f95523213",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "时间的单位及换算"
+        ],
+        "supporting": [
+          "噪声强弱的等级和噪声的危害"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "填写分贝单位并将小时换算为秒"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "dB\n5400"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "声音强弱等级单位符号dB；1.5h×3600s/h=5400s。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目：享受学习，轻松应考。在安静的考场中，环境声音强度大约为40__（填写合适的单位符号），本次考试持续时间为1.5小时，合计__秒。",
+          "reference_answer": "dB\n5400",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "时间的单位及换算"
+          ],
+          "type_tags": [
+            "识别时间的单位及换算概念、关系或物理量并填写结果"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "填写声级单位符号dB。",
+              "points": null,
+              "evidence_required": "单位符号大小写正确。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:f70ca41f4bfc947f2fccfe08",
+    "source_sha256": "3f9e4db2758e6aeb3a30f16b042408914bd13e0ce063e28223e41c7f5c57c4a0",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "根据音色辨别发声体"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "根据音色辨别发声体"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "C"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "辨认不同人的声音依据音色，答案C。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "考题内容：学生们在教室里听到了张老师在走廊上的声音。他们是依靠声音的哪种特性来辨认出是张老师的？（    ）选项：A. 频率 B. 音调 C. 音色 D. 响度",
+          "reference_answer": "C",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "根据音色辨别发声体"
+          ],
+          "type_tags": [
+            "辨析根据音色辨别发声体相关物理规律并判断单一正确选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "根据音色辨别发声体；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:132956f695796c5cec94b57c",
+    "source_sha256": "0e751d6cdeb6e41dc98bb7f5abf062a8b08339e8f3141d284a5510bf0afb7444",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "常见物体的长度及长度的估测"
+        ],
+        "supporting": [
+          "电功率的定义式P=W/t的应用"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "结合额定功率常识判断LED台灯估值"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "依选项中额定功率约10W较合理，来源答案B。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 在元旦假期，小源的爸爸去商店给他买了一盏新的LED台灯，取代了使用多年的一盏旧台灯。这种台灯具有高亮度、低能耗、且对眼睛有保护作用。关于该LED台灯的合理估计是（）选项: A. 正常工作的电流约0.5A B. 正常工作的功率10W C. 正常工作一小时耗电0.5kW·h D. 台灯的高度约1.2m",
+          "reference_answer": "B",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "常见物体的长度及长度的估测"
+          ],
+          "type_tags": [
+            "辨析常见物体的长度及长度的估测相关物理规律并判断单一正确选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "结合额定功率常识判断LED台灯估值；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:a88e13be8fa89f618fc46573",
+    "source_sha256": "62b28e29c53a5ae4228ee394afd35a03e4f688aa5792aaa45320a760258851a2",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "卫星通信"
+        ],
+        "supporting": [
+          "光纤通信",
+          "电磁波的应用",
+          "能源的概念及分类"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "辨析卫星、光纤、电磁波通信原理"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "同步卫星通信覆盖判断对应B；其余介质或波类型不符。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 下列说法中正确的是（  ）选项: A. 光纤通信中使用的是金属导线 B. 使用三个同步卫星可以实现全球通讯 C. 核电站和原子弹都利用核聚变 D. 手机WiFi上网通过超声波传输信息",
+          "reference_answer": "B",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "卫星通信"
+          ],
+          "type_tags": [
+            "辨析卫星通信相关物理规律并判断单一正确选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "辨析卫星、光纤、电磁波通信原理；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:4f9cfd163f1ec25c7c1c31ae",
+    "source_sha256": "3b62ce5b61fe6cd1b65b5fe6d79b6bf3a8f5c8fda21f09748573aaa4b881e2a6",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "长度的单位及换算"
+        ],
+        "supporting": [
+          "光速",
+          "光年"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "区分光年物理量及纳米到米的数量级换算"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "长度\n10^-9"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "光年为长度单位；1nm=10^-9m。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容：光年是一种__单位。纳米技术是指为了在纳米尺度下理解和掌控物质，人们发现了许多新现象并发明了新技术；1纳米等于__米。",
+          "reference_answer": "长度\n10^-9",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "长度的单位及换算"
+          ],
+          "type_tags": [
+            "识别长度的单位及换算概念、关系或物理量并填写结果"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "区分光年物理量及纳米到米的数量级换算；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:f947c2d4a7a1b6d804ec579c",
+    "source_sha256": "7a461912ebcbd93cad6e7912dfd8692704cb088f222609b7249c9eedafb5ef61",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "误差与减小误差的方法"
+        ],
+        "supporting": [
+          "体温计的构造、原理及使用",
+          "利用升华和凝华知识解释生活现象",
+          "噪声强弱的等级和噪声的危害"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "辨析分贝定义、体温计读数和凝华现象"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "BD"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "0dB不表示无声；体温计离体后可读数；误差不能消除；窗花为凝华，故BD。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 以下哪些陈述是正确的（    ）选项: A. 0dB表示没有声音 B. 体温计可以在测量后脱离人体读数 C. 使用精密仪器和改进方法可以消除误差 D. 冬天窗户玻璃上的窗花是凝华现象",
+          "reference_answer": "BD",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "误差与减小误差的方法"
+          ],
+          "type_tags": [
+            "逐项判断误差与减小误差的方法相关物理规律并选出全部正确项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "辨析分贝定义、体温计读数和凝华现象；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:514e535944c59f3ae6ef64ac",
+    "source_sha256": "806e9e60f4037a14b313a433fc256dddb62b989a7ff64fd456b744860e830e5c",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "家庭电路故障分析"
+        ],
+        "supporting": [
+          "奥斯特实验--电流的磁效应",
+          "电磁感应的原理以及产生感应电流的条件",
+          "发电机的构造和工作原理"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "辨析家庭电路过流、电流磁效应与电磁感应条件"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "AB"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "答案AB与解析一致；感应电流还需闭合回路及切割磁感线。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 以下说法中正确的是（　　）选项: A. 由于电流过大，空气开关会跳闸 B. 电流方向会影响通电导体周围磁场的方向 C. 发电机的运作原理是电流在磁场中受力作用 D. 导体在磁场中运动时，必须会产生感应电流",
+          "reference_answer": "AB",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "家庭电路故障分析"
+          ],
+          "type_tags": [
+            "逐项判断家庭电路故障分析相关物理规律并选出全部正确项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "辨析家庭电路过流、电流磁效应与电磁感应条件；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:da01c4ed1974b7491063690f",
+    "source_sha256": "17a873deda5f231a3cf6db4b5be6ab64907db38a2b1a960194600f028249df47",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "测量长度的特殊方法"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "用累积法降低薄物体厚度测量的相对误差"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "D"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "把多枚硬币叠加测总厚度再除以枚数，答案D；读取刻度应避免视差。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "{'ques_type': '单选题', 'ques_content': '题目内容: 为了测量1角硬币的厚度并且确保测量结果的误差最小，以下哪种方法是最优选择？（　　）选项: A. 使用刻度尺精确测量单个硬币厚度，计算平均值 B. 使用刻度尺多次测量单个硬币厚度，计算平均值 C. 使用刻度尺分别测量10个1角硬币的厚度，计算平均值 D. 使用刻度尺测量10个1角硬币叠加在一起的总厚度，然后除以10，得到单个1角硬币的厚度 ', 'ques_answer': 'D', 'ques_analyze': '此题涉及测量厚度的方法及其误差。使用方法A测量单个硬币厚度可能导致较大的误差。方法B虽然多次测量单个硬币并取平均值，但由于硬币的厚度很薄，误差仍然较大。方法C测量多个硬币厚度的平均值，理论上可以减小误差，但实际操作中并不够精确。方法D通过测量多个硬币叠加的总厚度来求平均值，误差最小，因为增加了测量对象的厚度，从而降低了刻度尺的相对误差，提升测量精度。因此，D方法是最佳选择。'}",
+          "reference_answer": "D",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "测量长度的特殊方法"
+          ],
+          "type_tags": [
+            "辨析测量长度的特殊方法相关物理规律并判断单一正确选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "用累积法降低薄物体厚度测量的相对误差；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:c355e201ff53d6b07b32dcbb",
+    "source_sha256": "99f0fc6aa599a9c75e8532874cb845b2e8576fc3cb37872a5ffd6a10026d161f",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "测量长度的特殊方法"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "用累积法测纸厚并处理重复测量数据"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "1. 纸张的数量 2. 总厚度/mm 3. 减小误差 4. 0.086"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "a、b对应纸张数量与总厚度；平均值用于减小随机误差；0.084、0.089、0.086mm平均约0.086mm。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容：下表显示的是针对一张纸的厚度进行测量时设计的数据记录表，请分别在a和b的位置填写内容，a__；b__；最后一列记录平均值的目的是什么？某位同学进行了三次测量，得出一张纸的厚度分别为：0.084mm、0.089mm和0.086mm，则课本中一张纸的厚度可记录为__mm。\n实验序号\na\nb\n一张纸的厚度/mm\n平均值/mm\n1\n \n \n \n \n2\n \n \n \n3",
+          "reference_answer": "1. 纸张的数量 2. 总厚度/mm 3. 减小误差 4. 0.086",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "测量长度的特殊方法"
+          ],
+          "type_tags": [
+            "识别测量长度的特殊方法概念、关系或物理量并填写结果"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "数据表a填写纸张数量，b填写总厚度及对应单位。",
+              "points": null,
+              "evidence_required": "填入项目名称并保持表头量纲完整。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:27e57078e75bba29b683eab7",
+    "source_sha256": "196a9e92a1a2685671cdd2c435e76a0db9591a9fce7ce6a6d225833e544b3b29",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "长度的单位及换算"
+        ],
+        "supporting": [
+          "质量",
+          "力的概念和计量单位",
+          "噪声强弱的等级和噪声的危害"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "识别力的国际单位牛顿"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "C"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "答案C，N为力的SI单位；kg、dB、m分别对应质量、声级、长度。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 在国际单位制中，用来表示力的单位是（　　）选项: A. 千克 B. 分贝 C. 牛顿 D. 米",
+          "reference_answer": "C",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "长度的单位及换算"
+          ],
+          "type_tags": [
+            "辨析长度的单位及换算相关物理规律并判断单一正确选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "识别力的国际单位牛顿；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:aed752cce2c4841050937f68",
+    "source_sha256": "6e62f191ff187cfe7f1bcd98c9bfd5d1af2086ca4dab6b6855847c7c3e8ef22a",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "长度的单位及换算"
+        ],
+        "supporting": [
+          "时间的单位及换算",
+          "质量",
+          "力的概念和计量单位"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "区分SI基本单位与时间常用单位"
+      ],
+      "difficulty": {
+        "level": 1,
+        "basis": "来源难度：容易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "B"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "分不是SI基本单位，时间SI基本单位为秒；其余所列为基本单位。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 以下哪个单位不是国际单位制的基本单位？（    ）选项: A. 千克 B. 分 C. 安培 D. 米",
+          "reference_answer": "B",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "长度的单位及换算"
+          ],
+          "type_tags": [
+            "逐项判断长度的单位及换算相关物理规律并选出全部正确项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "区分SI基本单位与时间常用单位；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:7826d67322fd18a7e4b34d34",
+    "source_sha256": "1d1ae98d6124d2f586e286acc078e1c99f707037bf96c59f79e3425a557bd7ea",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "常见物体的长度及长度的估测"
+        ],
+        "supporting": [
+          "质量",
+          "生活中一些常见的电压"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "根据生活经验判断质量、容积、电压和长度估测"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "A"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "洗手液约500g与生活常见量级相符，来源答案A。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 某学生对预防新冠肺炎措施中使用的一些物品进行了估计，其中最接近实际的是（　　）选项: A. 一瓶家用洗手液的质量约为$500\\text{g}$ B. 家用酒精消毒液的容量为$10\\text{mL}$ C. 测温枪的工作电压约为$220\\text{V}$ D. 一只长方形口罩的长度约为$30\\text{cm}$",
+          "reference_answer": "A",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "常见物体的长度及长度的估测"
+          ],
+          "type_tags": [
+            "辨析常见物体的长度及长度的估测相关物理规律并判断单一正确选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "根据生活经验判断质量、容积、电压和长度估测；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:acc83dbdb79977f685d01392",
+    "source_sha256": "76eb1880adbd98d7562189fab57b1b7ef2481bcab1f5303a1f732a63dea6be63",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "误差与减小误差的方法"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "区分测量错误与不可完全消除的测量误差"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "AD"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "精细操作可避免错误但不能消除误差；提高精度或改进方法只能减小误差，按来源答案AD。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 关于误差的以下说法，正确的是（    ）选项: A. 细致的测量可以防止出错 B. 使用更高精度的测量仪器可以消除误差 C. 优化测量方法有助于减少误差 D. 测量中的错误可以避免，但误差无法完全消除",
+          "reference_answer": "AD",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "误差与减小误差的方法"
+          ],
+          "type_tags": [
+            "逐项判断误差与减小误差的方法相关物理规律并选出全部正确项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "区分测量错误与不可完全消除的测量误差；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:32297f27bd60755f22d6dfdb",
+    "source_sha256": "8da2465c8cc814c63a2c70254c030d3119bb65d44379e718b6848c8e1ed31ae4",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "multiple_choice",
+      "knowledge": {
+        "primary": [
+          "质量"
+        ],
+        "supporting": [
+          "蒸发致冷的应用",
+          "探究凸透镜对光的作用",
+          "探究某种介质可以传声"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "依据传声介质、蒸发、凸透镜会聚和质量守恒判断实验结论"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "BCD"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "敲桌腿贴桌听声不能证明空气传声；B、C、D的现象解释成立，选BCD。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 以下几个实验现象中，正确的是（  ）选项: A. 敲击桌腿，耳朵贴在桌面上的人听到了敲击声，证明空气可以传声 B. 手上涂抹酒精后感觉凉爽，说明蒸发有降温作用 C. 用凸透镜对准太阳，可以在另一侧看到一个小而亮的光点，说明凸透镜可以聚光 D. 将铁块锻造成铁片，质量不变，说明物体的质量不会因形状变化而改变",
+          "reference_answer": "BCD",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "质量"
+          ],
+          "type_tags": [],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "依据传声介质、蒸发、凸透镜会聚和质量守恒判断实验结论；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending",
+          "fine_type_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:fecb5a64fe3c0cea15d73cac",
+    "source_sha256": "067089f4455c51c7f16f5495fb5467b1b64ef5a020b503802c6a809204d4d765",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "电功率的定义式P=W/t的应用"
+        ],
+        "supporting": [
+          "热值的公式及相关计算",
+          "热机效率的计算与估算"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "用体积密度求燃料质量、热值求放热、功率求有用功并求效率"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [
+          "2.76×10^8J\n9.2×10^7J\n33.3%"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "8L=8×10^-3m³；90km/h=25m/s；按100km算时长4000s；效率为输出功/燃料放热。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "计算完全燃烧8L汽油产生的热量。",
+          "reference_answer": "2.76×10^8J",
+          "knowledge_tags": [
+            "电功率的定义式P=W/t的应用"
+          ],
+          "type_tags": [
+            "用体积密度求燃料质量、热值求放热、功率求有用功并求效率"
+          ],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "将8L换算为体积，结合密度、热值依次求质量和燃料放热。",
+              "points": null,
+              "evidence_required": "展示L到m³换算及Q=mq，结果单位J。"
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "prompt": "计算测试时间内发动机所做的功。",
+          "reference_answer": "9.2×10^7J",
+          "knowledge_tags": [
+            "电功率的定义式P=W/t的应用"
+          ],
+          "type_tags": [
+            "用体积密度求燃料质量、热值求放热、功率求有用功并求效率"
+          ],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "由90km/h换算速度并求100km用时，再用W=Pt求发动机做功。",
+              "points": null,
+              "evidence_required": "展示速度单位换算、路程/速度和功率乘时间。"
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "prompt": "计算发动机热效率。",
+          "reference_answer": "33.3%",
+          "knowledge_tags": [
+            "电功率的定义式P=W/t的应用"
+          ],
+          "type_tags": [
+            "用体积密度求燃料质量、热值求放热、功率求有用功并求效率"
+          ],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "用有用功与燃料放热之比计算热效率。",
+              "points": null,
+              "evidence_required": "展示η=W有用/Q放并给出百分数。"
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:ea48007baa061d5acb41c410",
+    "source_sha256": "dffcf69c287481747c250f9496cb41ba85ed10c6d254b1658eccf0c766c0e882",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "calculation",
+      "knowledge": {
+        "primary": [
+          "电功率的定义式P=W/t的应用"
+        ],
+        "supporting": [],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "由额定功率和工作时间求电能并换算千瓦时"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "numeric",
+        "accepted_answers": [
+          "0.8度"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "W=Pt=200W×4h=800Wh=0.8kW·h，即0.8度；仅在额定正常工作条件下。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 一个额定功率为“220V 200W”的电器，在正常工作4小时的情况用电多少度？",
+          "reference_answer": "0.8度",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "电功率的定义式P=W/t的应用"
+          ],
+          "type_tags": [
+            "依据电功率的定义式P=W/t的应用选用关系式并代入物理量计算"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "由额定功率和工作时间求电能并换算千瓦时；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:18a7726cb6029c2caf4f6036",
+    "source_sha256": "c8a55e170e017a49d6120670c17834e430039e512f10effa48b33502b4e1810e",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "电功率的定义式P=W/t的应用"
+        ],
+        "supporting": [
+          "计算物体温度变化时的吸放热"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "先由比热容求吸热量，再以电功率求加热时间"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [
+          "1.764×10^5 J\n176.4s"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "水温升70℃；Q=cmΔt=1.764×10^5J；假设不计损失且功率保持1000W，t=Q/P=176.4s。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "求水吸收的热量。",
+          "reference_answer": "1.764×10^5 J",
+          "knowledge_tags": [
+            "电功率的定义式P=W/t的应用"
+          ],
+          "type_tags": [
+            "先由比热容求吸热量，再以电功率求加热时间"
+          ],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "用水质量、比热容和温升计算吸热量。",
+              "points": null,
+              "evidence_required": "展示温差70℃及Q=cmΔt，结果单位J。"
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "prompt": "求加热所需要的时间。",
+          "reference_answer": "176.4s",
+          "knowledge_tags": [
+            "电功率的定义式P=W/t的应用"
+          ],
+          "type_tags": [
+            "先由比热容求吸热量，再以电功率求加热时间"
+          ],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "以无热损失条件令电能等于水吸热，用t=Q/P计算时间。",
+              "points": null,
+              "evidence_required": "展示能量等同和秒的单位。"
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:44a36dacc472f633e7f88502",
+    "source_sha256": "2d7c408b2f11f3fc19ec00dae594fa7e8780bcfe9590670b470b733448931c2b",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "single_choice",
+      "knowledge": {
+        "primary": [
+          "时间的测量"
+        ],
+        "supporting": [
+          "机械运动",
+          "压强",
+          "压力与压强",
+          "压强公式及其计算",
+          "压强公式的简单应用",
+          "温度的概念、摄氏温标"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "利用常见人体数据估测站立压强"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：较易；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "choice",
+        "accepted_answers": [
+          "D"
+        ],
+        "equivalence": "exact",
+        "constraints": [
+          "答案D是数量级估测，约1.2×10^4Pa；其余心跳周期、步速和体温与常见值不符。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 以下关于一名普通中学生的数据，哪项是正确的？（  ） 选项: A. 一次心脏跳动的时间大约为5秒 B. 正常步行速度约为10米每秒 C. 正常人体温约为39摄氏度 D. 双脚站立时对地面的压强约为1.2×10^4帕斯卡",
+          "reference_answer": "D",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "时间的测量"
+          ],
+          "type_tags": [
+            "辨析时间的测量相关物理规律并判断单一正确选项"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "利用常见人体数据估测站立压强；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "objective",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:035881dfc14ad346020bdd22",
+    "source_sha256": "05a8e4078625f7b911aded5ab807b496f89bf2b56d8f341a570e672364404d34",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "composite",
+      "knowledge": {
+        "primary": [
+          "密度公式的应用"
+        ],
+        "supporting": [
+          "浮力",
+          "阿基米德原理",
+          "阿基米德原理的应用",
+          "利用阿基米德原理计算浮力、密度及质量",
+          "物体的浮沉条件",
+          "物体浮沉条件的应用",
+          "物体沉浮状态与浮力、重力和体积的关系"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "由溢水质量判断浮沉、求物体密度及在酒精中的排液质量"
+      ],
+      "difficulty": {
+        "level": 2,
+        "basis": "来源难度：一般；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "multipart",
+        "accepted_answers": [
+          "漂浮\n0.95×10^3\n64"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "水中排水76g<同体积水80g，物体漂浮且质量76g，密度0.95g/cm³；在密度更小的酒精中下沉，排开酒精按ρV得64g。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "判断物体在水中的状态。",
+          "reference_answer": "漂浮",
+          "knowledge_tags": [
+            "密度公式的应用"
+          ],
+          "type_tags": [
+            "由溢水质量判断浮沉、求物体密度及在酒精中的排液质量"
+          ],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "比较溢出水质量与物体完全浸没时排水质量，判断漂浮。",
+              "points": null,
+              "evidence_required": "指出76g小于80g，说明物体未完全浸没。"
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "prompt": "求物体密度。",
+          "reference_answer": "0.95×10^3kg/m^3",
+          "knowledge_tags": [
+            "密度公式的应用"
+          ],
+          "type_tags": [
+            "由溢水质量判断浮沉、求物体密度及在酒精中的排液质量"
+          ],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "利用漂浮条件求物体质量，再除以物体体积并换算SI单位。",
+              "points": null,
+              "evidence_required": "展示m=76g、ρ=m/V及kg/m³结果。"
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "prompt": "求物体在酒精中静止时溢出的酒精质量。",
+          "reference_answer": "64g",
+          "knowledge_tags": [
+            "密度公式的应用"
+          ],
+          "type_tags": [
+            "由溢水质量判断浮沉、求物体密度及在酒精中的排液质量"
+          ],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "判断物体在酒精中下沉，并按ρ酒精V求排开质量。",
+              "points": null,
+              "evidence_required": "比较物体和酒精密度并展示排开酒精质量计算。"
+            }
+          ]
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:bdab725e53ba690c1135b70a",
+    "source_sha256": "5be2d23bff8052c13e94c6ccafcbd94ee66786fd9735122e5fb0ac8c9ac8a7ef",
+    "annotation": {
+      "schema_version": 1,
+      "response_format": "fill_blank",
+      "knowledge": {
+        "primary": [
+          "测量长度的特殊方法"
+        ],
+        "supporting": [
+          "密度公式的应用"
+        ],
+        "prerequisites": []
+      },
+      "fine_types": [
+        "用累积法求单张纸厚度，再由面密度换算体密度"
+      ],
+      "difficulty": {
+        "level": 3,
+        "basis": "来源难度：较难；未经实测校准 来源等级未经实测校准。",
+        "origin": "source",
+        "calibrated": false
+      },
+      "curriculum": {
+        "grade": null,
+        "term": null,
+        "goal_ids": [],
+        "scope_status": "unknown",
+        "basis": "年级与学期仅取来源字段；来源未给出则保持未知。"
+      },
+      "answer_spec": {
+        "mode": "text",
+        "accepted_answers": [
+          "0.01\n0.75"
+        ],
+        "equivalence": "manual",
+        "constraints": [
+          "总厚5cm/500=0.01cm；总面积30m²、质量2250g；纸堆体积为30cm×20cm×5cm=3000cm³，密度0.75g/cm³。",
+          "来源参考答案已逐题对照题干和解析；候选判分量规仍待教师审核。"
+        ],
+        "unit": null,
+        "tolerance": null
+      },
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "题目内容: 每包标准打印纸含有500张。小丽同学家新买了一包打印纸后，测量得知每张纸的长和宽分别为30cm和20cm，总厚度为5cm（不包括外包装）。根据物理课上学到的累积法，算出一张纸的厚度是__cm。她还发现外包装上标有面密度是75g/m²，经过查询发现这表示每平方米打印纸的质量为75g。利用这些信息，可以算出打印纸的密度为__g/cm³。",
+          "reference_answer": "0.01\n0.75",
+          "solution_steps": [],
+          "knowledge_tags": [
+            "测量长度的特殊方法"
+          ],
+          "type_tags": [
+            "识别测量长度的特殊方法概念、关系或物理量并填写结果"
+          ],
+          "depends_on": [],
+          "points": null,
+          "rubric": [
+            {
+              "id": "evidence-1",
+              "description": "用累积法求单张纸厚度，再由面密度换算体密度；与来源参考答案一致。",
+              "points": null,
+              "evidence_required": "在作答中呈现对应物理概念、必要关系式或选项判断，并按题干写出结果。"
+            }
+          ],
+          "common_errors": []
+        }
+      ],
+      "grading": {
+        "mode": "manual",
+        "full_score": null,
+        "allow_alternative_methods": true,
+        "uncertainty_policy": "review_required"
+      },
+      "review": {
+        "status": "candidate",
+        "answer_status": "source_only",
+        "issues": [
+          "rubric_pending"
+        ],
+        "method": "item_read",
+        "notes": "逐题阅读题干、来源答案和解析，核对适用条件、单位及计算/概念；来源答案仍未获教师审核。"
+      },
+      "origin": {
+        "model": "gpt-6-luna",
+        "batch_id": "physics-20261012-input-1"
+      }
+    },
+    "exclude_reason": null
+  },
+  {
+    "question_id": "bank:cjeval:72a375790d57c58d146dd3dd",
+    "source_sha256": "200f3f1136b0653754b40ea916a550262eea65f74a780f0513ab59c167e664dd",
+    "annotation": null,
+    "exclude_reason": "来源答案与解析计算结果冲突：55kg水升温20℃吸热4.62×10^6J，输入电能为2200W×2700s=5.94×10^6J，效率应约77.8%，来源答案却为87.5%。"
+  }
+]

@@ -1,0 +1,1765 @@
+[
+  {
+    "question_id": "bank:cjeval:132956f695796c5cec94b57c",
+    "source_sha256": "0e751d6cdeb6e41dc98bb7f5abf062a8b08339e8f3141d284a5510bf0afb7444",
+    "current_snapshot_id": "bank:cjeval:132956f695796c5cec94b57c:422424f45c1a",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "10W灯1小时用电量=0.01kW·h；若按220V供电，I=P/U≈0.045A；选项B符合题设低能耗LED台灯的常见额定功率。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "答案B与选项和解析一致；电功率应为主知识，长度估测仅是干扰项。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 在元旦假期，小源的爸爸去商店给他买了一盏新的LED台灯，取代了使用多年的一盏旧台灯。这种台灯具有高亮度、低能耗、且对眼睛有保护作用。关于该LED台灯的合理估计是（）选项: A. 正常工作的电流约0.5A B. 正常工作的功率10W C. 正常工作一小时耗电0.5kW·h D. 台灯的高度约1.2m",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "正常工作的电流约0.5A"
+        },
+        {
+          "key": "B",
+          "text": "正常工作的功率10W"
+        },
+        {
+          "key": "C",
+          "text": "正常工作一小时耗电0.5kW·h"
+        },
+        {
+          "key": "D",
+          "text": "台灯的高度约1.2m"
+        }
+      ],
+      "answer": "B",
+      "steps": [
+        "本题测试的是LED台灯的工作特性和耗能估算。针对选项A，一般家用台灯的功率是40W左右，正常工作的电流可由公式$I=\\frac{P}{U}=\\frac{40W}{220V}≈0.18A$计算得出，LED台灯功率通常更小，大约是10W左右，所以正常工作的电流不会到达0.5A，A选项不切实际。针对选项B，LED台灯耗电量小，约10W功率是合理的，根据其高亮度和低耗电的特性，B选项符合实际。关于选项C，利用功率和能量关系$P=\\frac{W}{t}$，10W台灯一小时消耗$W=Pt=0.01kW⋅h$，远远小于0.5kW·h，故C不符合实际。对于选项D，一般书桌的高度在80cm（即0.8m），台灯应低于桌面高度，即使LED台灯稍高1.2m也是偏高的。因此综合来看，正确选项是B。"
+      ],
+      "knowledge_tags": [
+        "电功率的定义式P=W/t的应用"
+      ],
+      "type_tags": [
+        "依据家用LED台灯功率与电压估算工作电流和耗电量，筛选合理额定功率"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "电功率的定义式P=W/t的应用"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "依据家用LED台灯功率与电压估算工作电流和耗电量，筛选合理额定功率"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "以家用LED台灯通常约10W的功率估值判断；若按220V，10W对应电流约0.045A，1h耗电约0.01kW·h。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "题目内容: 在元旦假期，小源的爸爸去商店给他买了一盏新的LED台灯，取代了使用多年的一盏旧台灯。这种台灯具有高亮度、低能耗、且对眼睛有保护作用。关于该LED台灯的合理估计是（）选项: A. 正常工作的电流约0.5A B. 正常工作的功率10W C. 正常工作一小时耗电0.5kW·h D. 台灯的高度约1.2m",
+            "reference_answer": "B",
+            "solution_steps": [
+              "10W灯1小时用电量=0.01kW·h；若按220V供电，I=P/U≈0.045A；选项B符合题设低能耗LED台灯的常见额定功率。"
+            ],
+            "knowledge_tags": [
+              "电功率的定义式P=W/t的应用"
+            ],
+            "type_tags": [
+              "依据家用LED台灯功率与电压估算工作电流和耗电量，筛选合理额定功率"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice",
+                "description": "选出额定功率约10W的B项。",
+                "points": null,
+                "evidence_required": "选择B；不把0.5kW·h误当成10W设备一小时的用电量。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:27e57078e75bba29b683eab7",
+    "source_sha256": "196a9e92a1a2685671cdd2c435e76a0db9591a9fce7ce6a6d225833e544b3b29",
+    "current_snapshot_id": "bank:cjeval:27e57078e75bba29b683eab7:14e69545db6b",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "力的SI单位是牛顿（N），因此选C。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "来源答案C正确；删除长度、质量、声级等干扰选项知识作为测量标签。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 在国际单位制中，用来表示力的单位是（　　）选项: A. 千克 B. 分贝 C. 牛顿 D. 米",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "千克"
+        },
+        {
+          "key": "B",
+          "text": "分贝"
+        },
+        {
+          "key": "C",
+          "text": "牛顿"
+        },
+        {
+          "key": "D",
+          "text": "米"
+        }
+      ],
+      "answer": "C",
+      "steps": [
+        "此题考查国际单位制中力的单位。A项“千克”表示质量单位，B项“分贝”表示声音强度单位，D项“米”是长度单位。只有C项“牛顿”是表示力的国际标准单位，符号为N。因此，选项C是正确答案。"
+      ],
+      "knowledge_tags": [
+        "力的概念和计量单位"
+      ],
+      "type_tags": [
+        "辨认力的国际单位并区分质量、声级和长度单位"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "力的概念和计量单位"
+          ],
+          "supporting": [],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨认力的国际单位并区分质量、声级和长度单位"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "C"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "力的SI单位为牛顿，符号N；千克是质量单位，分贝表征声级，米是长度单位。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "题目内容: 在国际单位制中，用来表示力的单位是（　　）选项: A. 千克 B. 分贝 C. 牛顿 D. 米",
+            "reference_answer": "C",
+            "solution_steps": [
+              "力的SI单位是牛顿（N），因此选C。"
+            ],
+            "knowledge_tags": [
+              "力的概念和计量单位"
+            ],
+            "type_tags": [
+              "辨认力的国际单位并区分质量、声级和长度单位"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice",
+                "description": "选择表示力的SI单位。",
+                "points": null,
+                "evidence_required": "明确牛顿及符号N，并选择C。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:32297f27bd60755f22d6dfdb",
+    "source_sha256": "8da2465c8cc814c63a2c70254c030d3119bb65d44379e718b6848c8e1ed31ae4",
+    "current_snapshot_id": "bank:cjeval:32297f27bd60755f22d6dfdb:d38fd5015a46",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "A证据不足；B、C、D说法成立，答案BCD。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "BCD与来源解析一致；四项所涉及概念应由primary覆盖，不能只标质量。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 以下几个实验现象中，正确的是（  ）选项: A. 敲击桌腿，耳朵贴在桌面上的人听到了敲击声，证明空气可以传声 B. 手上涂抹酒精后感觉凉爽，说明蒸发有降温作用 C. 用凸透镜对准太阳，可以在另一侧看到一个小而亮的光点，说明凸透镜可以聚光 D. 将铁块锻造成铁片，质量不变，说明物体的质量不会因形状变化而改变",
+      "kind": "multiple_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "敲击桌腿，耳朵贴在桌面上的人听到了敲击声，证明空气可以传声"
+        },
+        {
+          "key": "B",
+          "text": "手上涂抹酒精后感觉凉爽，说明蒸发有降温作用"
+        },
+        {
+          "key": "C",
+          "text": "用凸透镜对准太阳，可以在另一侧看到一个小而亮的光点，说明凸透镜可以聚光"
+        },
+        {
+          "key": "D",
+          "text": "将铁块锻造成铁片，质量不变，说明物体的质量不会因形状变化而改变"
+        }
+      ],
+      "answer": "BCD",
+      "steps": [
+        "本题考查学生对物理现象的理解和物理概念的掌握。A选项中描述了桌子能传声，但这并不能验证空气可以传声，因此A错误。B选项中涂抹酒精后感觉凉爽，是因为酒精蒸发吸收了热量，从而降低了温度，因此B正确。C选项中描述的凸透镜聚光实验说明了凸透镜能将光线会聚，因此C正确。D选项中将铁块锻造成铁片，质量不变，说明质量是物质的量度，与形状无关，因此D正确。综上所述，正确答案是BCD。"
+      ],
+      "knowledge_tags": [
+        "蒸发吸热与液体降温",
+        "凸透镜对光的会聚作用",
+        "质量不随形状改变",
+        "声音在不同介质中的传播"
+      ],
+      "type_tags": [
+        "逐项辨析桌面传声证据、酒精蒸发致冷、凸透镜会聚和物体质量守恒"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "蒸发吸热与液体降温",
+            "凸透镜对光的会聚作用",
+            "质量不随形状改变"
+          ],
+          "supporting": [
+            "声音在不同介质中的传播"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "逐项辨析桌面传声证据、酒精蒸发致冷、凸透镜会聚和物体质量守恒"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "BCD"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "A只能说明固体桌面能传声，不能据此证明空气传声；C的太阳成像须在焦点附近形成小亮斑；D只在未发生物质增减时质量不变。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "题目内容: 以下几个实验现象中，正确的是（  ）选项: A. 敲击桌腿，耳朵贴在桌面上的人听到了敲击声，证明空气可以传声 B. 手上涂抹酒精后感觉凉爽，说明蒸发有降温作用 C. 用凸透镜对准太阳，可以在另一侧看到一个小而亮的光点，说明凸透镜可以聚光 D. 将铁块锻造成铁片，质量不变，说明物体的质量不会因形状变化而改变",
+            "reference_answer": "BCD",
+            "solution_steps": [
+              "A证据不足；B、C、D说法成立，答案BCD。"
+            ],
+            "knowledge_tags": [
+              "蒸发吸热与液体降温",
+              "凸透镜对光的会聚作用",
+              "质量不随形状改变"
+            ],
+            "type_tags": [
+              "逐项辨析桌面传声证据、酒精蒸发致冷、凸透镜会聚和物体质量守恒"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "options",
+                "description": "逐项判断并选择全部正确项B、C、D。",
+                "points": null,
+                "evidence_required": "排除A并选中B、C、D；理由分别关联蒸发吸热、凸透镜会聚和质量不随形状变化。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:3d6c72967d1566354fc642f5",
+    "source_sha256": "ae5b2aa46158047a2236e43cb9ea2a4c15cb6a91ac9caf398234ec455ab85b14",
+    "current_snapshot_id": "bank:cjeval:3d6c72967d1566354fc642f5:a0bebe9bca7d",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "设示值为r、实际温度为T；两定标点给出T=(r+0.7)100/103。r=−6℃时T≈−5.1℃。令T=r，得T≈23.3℃。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "两项数值均复算相符；原标注把“普通校准温度计”误归为体温计且错误合并两问，现拆分。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "小明有一支温度计，虽然其玻璃管的内径和刻度均匀，但标度却不准确。该温度计在冰水混合物中的读数为-0.7℃，在沸水中的读数为102.3℃。当其读数为-6℃时，实际气温是多少？在什么温度下，温度计的误差很小，可以认为其读数是准确的？",
+      "kind": "reference",
+      "options": [],
+      "answer": "-5.1℃\n23.3℃",
+      "steps": [
+        "首先，根据题目信息，确定温度计读数与实际温度之间存在线性关系，即t=at'+b。根据两个已知点（冰水混合物中的读数t'=-0.7℃，对应实际温度t=0℃）和（沸水中的读数t'=102.3℃，对应实际温度t=100℃），可以列出方程：0℃=-0.7℃*a+b和100℃=102.3℃*a+b。解这两个方程得到a和b的值：a=100/103, b=70/103。然后，利用得到的方程t=0.97t'+0.68℃计算题目中的气温读数t'=-6℃对应的实际温度t，得到t=-5.1℃。最后，要确定温度计误差很小的情况，通过求解t=100/103*t + 70/103，得出t=23.3℃。"
+      ],
+      "knowledge_tags": [
+        "均匀刻度温度计的线性校准",
+        "摄氏温标与温度测量"
+      ],
+      "type_tags": [
+        "由两个定标点建立温度计示值到实际温度的线性映射，并求实际温度及示值等于真值时的温度"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 3,
+      "difficulty_basis": "来源难度：较难；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "composite",
+        "knowledge": {
+          "primary": [
+            "均匀刻度温度计的线性校准"
+          ],
+          "supporting": [
+            "摄氏温标与温度测量"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "由两个定标点建立温度计示值到实际温度的线性映射，并求实际温度及示值等于真值时的温度"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "来源难度：较难；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "multipart",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "读数r与实际温度T满足T=(r+0.7)×100/103；温差按摄氏度处理，结果保留来源答案精度到0.1℃。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "温度计示值为−6℃时，实际气温是多少？",
+            "reference_answer": "−5.1℃",
+            "solution_steps": [
+              "冰水混合物示值−0.7℃对应T=0℃，沸水示值102.3℃对应T=100℃；T=(r+0.7)×100/103。",
+              "代入r=−6℃，T=−5.3×100/103≈−5.1℃。"
+            ],
+            "knowledge_tags": [
+              "均匀刻度温度计的线性校准"
+            ],
+            "type_tags": [
+              "建立线性刻度校正关系并代入读数"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "calibration",
+                "description": "由两定标点求T=(r+0.7)×100/103并代入r=−6℃。",
+                "points": null,
+                "evidence_required": "给出线性关系或等价比例计算，结果约−5.1℃。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "在什么实际温度下，温度计的示值与实际温度相同？",
+            "reference_answer": "约23.3℃",
+            "solution_steps": [
+              "令T=r，解3T=70，得T=70/3℃≈23.3℃。"
+            ],
+            "knowledge_tags": [
+              "均匀刻度温度计的线性校准"
+            ],
+            "type_tags": [
+              "求校准温度计的示值真值交点"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "equal_reading",
+                "description": "令示值r等于实际温度T，并代入线性校正关系求交点。",
+                "points": null,
+                "evidence_required": "解T=(T+0.7)×100/103，得T=70/3≈23.3℃。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:44a36dacc472f633e7f88502",
+    "source_sha256": "2d7c408b2f11f3fc19ec00dae594fa7e8780bcfe9590670b470b733448931c2b",
+    "current_snapshot_id": "bank:cjeval:44a36dacc472f633e7f88502:5588167950f7",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "A的心跳周期约应为1s量级，B步速远低于10m/s，C正常体温约37℃；估算p≈500N/0.04m²=1.25×10⁴Pa，选D。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "D在合理生活估测范围内；primary应是压强估算，时间测量只对应干扰项。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 以下关于一名普通中学生的数据，哪项是正确的？（  ） 选项: A. 一次心脏跳动的时间大约为5秒 B. 正常步行速度约为10米每秒 C. 正常人体温约为39摄氏度 D. 双脚站立时对地面的压强约为1.2×10^4帕斯卡",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "一次心脏跳动的时间大约为5秒"
+        },
+        {
+          "key": "B",
+          "text": "正常步行速度约为10米每秒"
+        },
+        {
+          "key": "C",
+          "text": "正常人体温约为39摄氏度"
+        },
+        {
+          "key": "D",
+          "text": "双脚站立时对地面的压强约为1.2×10^4帕斯卡"
+        }
+      ],
+      "answer": "D",
+      "steps": [
+        "逐个分析选项：A选项指出中学生心脏跳动一次大约为5秒，实际上正常心脏跳动频率约为每分钟60到100次，因此一次跳动时间应为1秒左右，所以A选项不正确。B选项提到正常步行速度为10米每秒，但实际普通步行速度约为1米每秒，B选项不准确。C选项提到人体正常体温为39摄氏度，而正常体温应为37摄氏度左右，C选项不合理。最后D选项，一名中学生重约60公斤，双脚站立时接触面积约为0.05平方米，利用压强公式$p=\\frac{F}{S}$计算可得压强约为1.2×10^4帕斯卡，D选项正确。因此，正确答案是D。"
+      ],
+      "knowledge_tags": [
+        "压强估算与压强公式",
+        "机械运动估测",
+        "温度常识估测"
+      ],
+      "type_tags": [
+        "用中学生体重与双脚接触面积估算站立压强，辨析常见人体数据"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "压强估算与压强公式"
+          ],
+          "supporting": [
+            "机械运动估测",
+            "温度常识估测"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "用中学生体重与双脚接触面积估算站立压强，辨析常见人体数据"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "D"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "压强按p=F/S估算；示例体重约500N、双脚接触面积约0.04m²时p≈1.25×10⁴Pa，与D的1.2×10⁴Pa相符。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "题目内容: 以下关于一名普通中学生的数据，哪项是正确的？（  ） 选项: A. 一次心脏跳动的时间大约为5秒 B. 正常步行速度约为10米每秒 C. 正常人体温约为39摄氏度 D. 双脚站立时对地面的压强约为1.2×10^4帕斯卡",
+            "reference_answer": "D",
+            "solution_steps": [
+              "A的心跳周期约应为1s量级，B步速远低于10m/s，C正常体温约37℃；估算p≈500N/0.04m²=1.25×10⁴Pa，选D。"
+            ],
+            "knowledge_tags": [
+              "压强估算与压强公式"
+            ],
+            "type_tags": [
+              "用中学生体重与双脚接触面积估算站立压强，辨析常见人体数据"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice",
+                "description": "由p=F/S估算站立压强并选择D。",
+                "points": null,
+                "evidence_required": "用合理的体重和双脚接触面积得数量级约10⁴Pa；其余选项不符合常见值。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:514e535944c59f3ae6ef64ac",
+    "source_sha256": "806e9e60f4037a14b313a433fc256dddb62b989a7ff64fd456b744860e830e5c",
+    "current_snapshot_id": "bank:cjeval:514e535944c59f3ae6ef64ac:50406966f7f1",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "A、B正确；C混淆电动机的磁场受力与发电机的电磁感应原理；D缺少闭合回路及切割磁感线等必要条件，答案AB。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "答案AB与逐项物理判断一致；primary需覆盖电磁规律而非仅家庭电路。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 以下说法中正确的是（　　）选项: A. 由于电流过大，空气开关会跳闸 B. 电流方向会影响通电导体周围磁场的方向 C. 发电机的运作原理是电流在磁场中受力作用 D. 导体在磁场中运动时，必须会产生感应电流",
+      "kind": "multiple_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "由于电流过大，空气开关会跳闸"
+        },
+        {
+          "key": "B",
+          "text": "电流方向会影响通电导体周围磁场的方向"
+        },
+        {
+          "key": "C",
+          "text": "发电机的运作原理是电流在磁场中受力作用"
+        },
+        {
+          "key": "D",
+          "text": "导体在磁场中运动时，必须会产生感应电流"
+        }
+      ],
+      "answer": "AB",
+      "steps": [
+        "此题考查电路、电磁感应及发电机的相关知识。A选项，空气开关跳闸一般是因为电流过大，可以由电路功率过大或短路引起，故A选项正确。B选项，根据奥斯特实验，通电导体周围的磁场方向确实与电流方向有关系，按右手螺旋定则可以确定其方向，所以B选项正确。C选项，发电机工作原理是电磁感应，即导体在磁场中切割磁力线而产生感应电动势，而不是电流在磁场中受到力，故C选项错误。D选项，导体要在磁场中运动产生感应电流，必须有闭合电路，如果没有构成闭合回路，感应电流是不会产生的，所以D选项错误。综合以上分析，正确答案选AB。"
+      ],
+      "knowledge_tags": [
+        "电流的磁效应",
+        "电磁感应及产生感应电流的条件",
+        "家庭电路过流保护",
+        "发电机工作原理"
+      ],
+      "type_tags": [
+        "辨析过流保护、电流磁场方向、发电机原理及电磁感应条件"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "电流的磁效应",
+            "电磁感应及产生感应电流的条件"
+          ],
+          "supporting": [
+            "家庭电路过流保护",
+            "发电机工作原理"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨析过流保护、电流磁场方向、发电机原理及电磁感应条件"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "AB"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "空气开关在过流时可跳闸；磁场方向随电流方向改变；发电机利用电磁感应；产生感应电流还需闭合回路并切割磁感线。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "题目内容: 以下说法中正确的是（　　）选项: A. 由于电流过大，空气开关会跳闸 B. 电流方向会影响通电导体周围磁场的方向 C. 发电机的运作原理是电流在磁场中受力作用 D. 导体在磁场中运动时，必须会产生感应电流",
+            "reference_answer": "AB",
+            "solution_steps": [
+              "A、B正确；C混淆电动机的磁场受力与发电机的电磁感应原理；D缺少闭合回路及切割磁感线等必要条件，答案AB。"
+            ],
+            "knowledge_tags": [
+              "电流的磁效应",
+              "电磁感应及产生感应电流的条件"
+            ],
+            "type_tags": [
+              "辨析过流保护、电流磁场方向、发电机原理及电磁感应条件"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "options",
+                "description": "逐项判断并选择全部正确项A、B。",
+                "points": null,
+                "evidence_required": "选中A和B；指出发电机由电磁感应原理工作，D中导体运动本身不足以保证有感应电流。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:69bae0c949076edff9dd6b68",
+    "source_sha256": "34e061329a2d08417d3996c18b6cb7c9fced6d948bb4f46f224d3e8cd968fe9b",
+    "current_snapshot_id": "bank:cjeval:69bae0c949076edff9dd6b68:99206593ce09",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "keep_quarantined",
+    "independent_solution": [
+      "A错误；B缺少物态限定，严格表述不成立；C错误，破镜难重圆不是因为分子间斥力；D正确，因为热量可从温度较高、总内能较少的小物体传向温度较低、总内能较多的大物体。若按物态相同的初中教材简化语境，B可能被预期为正确，故不能独立确认BD为唯一答案。"
+    ],
+    "source_conflicts": [
+      "来源答案BD把B作为正确项；B说比热容“仅取决于物质种类”，但未限定物态，严格物理状态依赖下可能不成立。"
+    ],
+    "resolved_findings": [
+      "独立解答确认D正确、A和C错误。B把比热容说成“仅取决于物质种类”，忽略状态依赖；题干未限定相态，源答案BD存在状态条件歧义。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。",
+      "B项是否依照同物态教材简化假设判为正确尚无题干依据；保持隔离，需来源/教研确认。"
+    ],
+    "rationale": "B项物态条件未给出，来源答案BD不能作为可靠练习答案；保留快照隔离并保留source_only候选用于追溯。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 以下说法中正确的是（    ）选项: A. 当一个物体放出热量时，温度必然下降 B. 比热容是物质的固有属性，其数值仅取决于物质的种类 C. 破镜难重圆是因为分子之间存在排斥力 D. 内能较少的物体也可以将能量传递给内能较多的物体",
+      "kind": "multiple_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "当一个物体放出热量时，温度必然下降"
+        },
+        {
+          "key": "B",
+          "text": "比热容是物质的固有属性，其数值仅取决于物质的种类"
+        },
+        {
+          "key": "C",
+          "text": "破镜难重圆是因为分子之间存在排斥力"
+        },
+        {
+          "key": "D",
+          "text": "内能较少的物体也可以将能量传递给内能较多的物体"
+        }
+      ],
+      "answer": "BD",
+      "steps": [
+        "本题考查对物理概念的理解。A选项错误，因为在某些特定情况下，物体放出热量时温度可能不变，例如水在凝固过程中放出热量，但温度保持在0℃不变。B选项正确，比热容是物质的一个物理特性，它只与物质的种类有关，与其他因素无关。C选项错误，镜子破裂后难以复原并不是因为分子间存在斥力，而是由于破裂后分子间的距离增大，分子间的作用力减弱，无法恢复原状。D选项正确，即使内能较少的物体也可以在特定条件下将能量传递给内能较多的物体。总结来说，B和D选项是正确的，它们准确描述了相关的物理原理。"
+      ],
+      "knowledge_tags": [
+        "比热容与物质状态",
+        "温度、热量与内能的区别联系",
+        "热传递条件与方向",
+        "分子间距与分子作用力"
+      ],
+      "type_tags": [
+        "辨析放热时温度变化、比热容的适用条件、分子作用及热传递方向"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "multiple_choice",
+        "knowledge": {
+          "primary": [
+            "比热容与物质状态",
+            "温度、热量与内能的区别联系",
+            "热传递条件与方向"
+          ],
+          "supporting": [
+            "分子间距与分子作用力"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "辨析放热时温度变化、比热容的适用条件、分子作用及热传递方向"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "BD"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "A的“必然下降”不成立，例如凝固放热时温度可保持不变；B的比热容除了物质种类还与物态有关，题干未给定相态条件，不能无条件认定正确；D中热量传递方向由温度高低决定，并非由内能总量决定。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "题目内容: 以下说法中正确的是（    ）选项: A. 当一个物体放出热量时，温度必然下降 B. 比热容是物质的固有属性，其数值仅取决于物质的种类 C. 破镜难重圆是因为分子之间存在排斥力 D. 内能较少的物体也可以将能量传递给内能较多的物体",
+            "reference_answer": "BD",
+            "solution_steps": [
+              "A错误；B缺少物态限定，严格表述不成立；C错误，破镜难重圆不是因为分子间斥力；D正确，因为热量可从温度较高、总内能较少的小物体传向温度较低、总内能较多的大物体。若按物态相同的初中教材简化语境，B可能被预期为正确，故不能独立确认BD为唯一答案。"
+            ],
+            "knowledge_tags": [
+              "比热容与物质状态",
+              "温度、热量与内能的区别联系",
+              "热传递条件与方向"
+            ],
+            "type_tags": [
+              "辨析放热时温度变化、比热容的适用条件、分子作用及热传递方向"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "source_answer",
+                "description": "来源答案候选为BD；仅在课程约定将同一物质相态固定时B才可接受。",
+                "points": null,
+                "evidence_required": "需要明确是否限定比热容适用物态；当前题干无此限定，故不应作为可练习答案。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "state_dependency_ambiguity",
+            "source_answer_pending",
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "逐项独立判断：D正确；B“仅取决物质种类”缺少相态限定，存在状态依赖歧义。保留来源答案BD供追溯，但本题隔离，不作练习答案。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:7826d67322fd18a7e4b34d34",
+    "source_sha256": "1d1ae98d6124d2f586e286acc078e1c99f707037bf96c59f79e3425a557bd7ea",
+    "current_snapshot_id": "bank:cjeval:7826d67322fd18a7e4b34d34:c6a2d5390a8f",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "四项中500g家用洗手液最符合实际，选A。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "答案A与题干、解析吻合；原知识主标签只覆盖长度干扰项。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 某学生对预防新冠肺炎措施中使用的一些物品进行了估计，其中最接近实际的是（　　）选项: A. 一瓶家用洗手液的质量约为$500\\text{g}$ B. 家用酒精消毒液的容量为$10\\text{mL}$ C. 测温枪的工作电压约为$220\\text{V}$ D. 一只长方形口罩的长度约为$30\\text{cm}$",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "一瓶家用洗手液的质量约为$500\\text{g}$"
+        },
+        {
+          "key": "B",
+          "text": "家用酒精消毒液的容量为$10\\text{mL}$"
+        },
+        {
+          "key": "C",
+          "text": "测温枪的工作电压约为$220\\text{V}$"
+        },
+        {
+          "key": "D",
+          "text": "一只长方形口罩的长度约为$30\\text{cm}$"
+        }
+      ],
+      "answer": "A",
+      "steps": [
+        "此题考查学生对实际物品的常识和估计能力。选项B中，家用酒精消毒液的常见容量通常比10mL大，一般为100mL或更大，因此B选项不符合实际。选项C中的测温枪工作电压过大，实际上一般测温枪的工作电压较小，约为3V左右，通常使用电池而非直接220V交流电，因此C选项错误。选项D中，一只长方形口罩的长度约为15cm比较符合实际，30cm则明显过长，所以D选项也是不正确的。选项A中，一瓶家用洗手液的质量约为500g是比较常见的规格，符合实际情况。因此，正确答案是A选项。"
+      ],
+      "knowledge_tags": [
+        "常见物理量的生活估测",
+        "质量估测",
+        "容积估测",
+        "电压估测",
+        "长度估测"
+      ],
+      "type_tags": [
+        "跨质量、容积、电压和长度量纲辨析生活物品估值"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "常见物理量的生活估测"
+          ],
+          "supporting": [
+            "质量估测",
+            "容积估测",
+            "电压估测",
+            "长度估测"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "跨质量、容积、电压和长度量纲辨析生活物品估值"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "A"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "500g洗手液质量为合理常见量级；10mL对家用消毒液偏小，测温枪通常使用低压电池，口罩长度30cm偏大。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "题目内容: 某学生对预防新冠肺炎措施中使用的一些物品进行了估计，其中最接近实际的是（　　）选项: A. 一瓶家用洗手液的质量约为$500\\text{g}$ B. 家用酒精消毒液的容量为$10\\text{mL}$ C. 测温枪的工作电压约为$220\\text{V}$ D. 一只长方形口罩的长度约为$30\\text{cm}$",
+            "reference_answer": "A",
+            "solution_steps": [
+              "四项中500g家用洗手液最符合实际，选A。"
+            ],
+            "knowledge_tags": [
+              "常见物理量的生活估测"
+            ],
+            "type_tags": [
+              "跨质量、容积、电压和长度量纲辨析生活物品估值"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice",
+                "description": "比较四个生活估值的量级并选A。",
+                "points": null,
+                "evidence_required": "区分g、mL、V、cm所描述的物理量，判断500g洗手液合理。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:aed752cce2c4841050937f68",
+    "source_sha256": "6e62f191ff187cfe7f1bcd98c9bfd5d1af2086ca4dab6b6855847c7c3e8ef22a",
+    "current_snapshot_id": "bank:cjeval:aed752cce2c4841050937f68:79eebe153830",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "kg、A、m是SI基本单位；分钟不是基本单位，答案B。"
+    ],
+    "source_conflicts": [
+      "来源question.kind为multiple_choice，但题干问“哪个”且只有一个正确答案；拟议Draft.kind改为single_choice，原来源不变。"
+    ],
+    "resolved_findings": [
+      "题意及答案为单选；当前来源kind为multiple_choice，与语义不一致。仅草稿kind改为single_choice，来源记录保持不变。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 以下哪个单位不是国际单位制的基本单位？（    ）选项: A. 千克 B. 分 C. 安培 D. 米",
+      "kind": "single_choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "千克"
+        },
+        {
+          "key": "B",
+          "text": "分"
+        },
+        {
+          "key": "C",
+          "text": "安培"
+        },
+        {
+          "key": "D",
+          "text": "米"
+        }
+      ],
+      "answer": "B",
+      "steps": [
+        "本题要求识别出不属于国际单位制基本单位的选项。A项中，千克（kg）是质量的基本单位，符合题意，排除。B项中，分（minute，min）不是基本单位，因为时间的基本单位是秒（s），符合题意，选择。C项中，安培（A）是电流的基本单位，不符合题意，排除。D项中，米（m）是长度的基本单位，不符合题意，排除。由此可见，正确答案是B。"
+      ],
+      "knowledge_tags": [
+        "国际单位制基本单位及其对应物理量",
+        "时间单位换算"
+      ],
+      "type_tags": [
+        "识别分钟不是SI基本单位并区分千克、安培、米"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 1,
+      "difficulty_basis": "来源难度：容易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "single_choice",
+        "knowledge": {
+          "primary": [
+            "国际单位制基本单位及其对应物理量"
+          ],
+          "supporting": [
+            "时间单位换算"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "识别分钟不是SI基本单位并区分千克、安培、米"
+        ],
+        "difficulty": {
+          "level": 1,
+          "basis": "来源难度：容易；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "choice",
+          "accepted_answers": [
+            "B"
+          ],
+          "equivalence": "exact",
+          "constraints": [
+            "题干问“哪个”且仅一个选项B符合；时间的SI基本单位是秒，分钟是其常用非基本单位。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "题目内容: 以下哪个单位不是国际单位制的基本单位？（    ）选项: A. 千克 B. 分 C. 安培 D. 米",
+            "reference_answer": "B",
+            "solution_steps": [
+              "kg、A、m是SI基本单位；分钟不是基本单位，答案B。"
+            ],
+            "knowledge_tags": [
+              "国际单位制基本单位及其对应物理量"
+            ],
+            "type_tags": [
+              "识别分钟不是SI基本单位并区分千克、安培、米"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "choice",
+                "description": "选择不属于SI基本单位的“分”。",
+                "points": null,
+                "evidence_required": "确认秒才是时间SI基本单位，选项B。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "objective",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:bdab725e53ba690c1135b70a",
+    "source_sha256": "5be2d23bff8052c13e94c6ccafcbd94ee66786fd9735122e5fb0ac8c9ac8a7ef",
+    "current_snapshot_id": "bank:cjeval:bdab725e53ba690c1135b70a:bc3b6f07194f",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "单张纸厚度=5/500=0.01cm。总面积30m²，质量2250g；纸堆体积3000cm³，因此密度=2250/3000=0.75g/cm³。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "两个答案0.01cm、0.75g/cm³均正确；候选应为两项观察证据各自明确的rubric。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容: 每包标准打印纸含有500张。小丽同学家新买了一包打印纸后，测量得知每张纸的长和宽分别为30cm和20cm，总厚度为5cm（不包括外包装）。根据物理课上学到的累积法，算出一张纸的厚度是__cm。她还发现外包装上标有面密度是75g/m²，经过查询发现这表示每平方米打印纸的质量为75g。利用这些信息，可以算出打印纸的密度为__g/cm³。",
+      "kind": "reference",
+      "options": [],
+      "answer": "0.01\n0.75",
+      "steps": [
+        "首先，根据累积法计算一张打印纸的厚度：一包打印纸的总厚度是5cm，共有500张，所以一张纸的厚度可以用总厚度除以张数计算得到$l=\\frac{5\\text{cm}}{500}=0.01\\text{cm}$。接着，计算一包纸的总面积$S$：纸张数量是500张，每张的长为30cm，宽为20cm，因此总面积$S=nab=500\\times30\\text{cm}\\times20\\text{cm}=300000\\text{cm}^2=30\\text{m}^2$。有了总面积后，可以根据面密度求出打印纸的总质量$m$，面密度为每平方米75g，所以质量$m=75\\text{g/m}^2\\times30\\text{m}^2=2250\\text{g}$。最后，计算密度$\\rho$，需先求体积$V$。体积$V$为一包纸的长、宽和厚度的乘积，即$V=abh=30\\text{cm}\\times20\\text{cm}\\times5\\text{cm}=3000\\text{cm}^3$。所以这包纸的密度为$\\rho=\\frac{m}{V}=\\frac{2250\\text{g}}{3000\\text{cm}^3}=0.75\\text{g/cm}^3$。"
+      ],
+      "knowledge_tags": [
+        "累积法测量薄物体厚度",
+        "密度计算与单位换算",
+        "面密度的物理意义"
+      ],
+      "type_tags": [
+        "用总厚度除以纸张张数求单张厚度，并由面密度与纸堆体积计算密度"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 3,
+      "difficulty_basis": "来源难度：较难；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "fill_blank",
+        "knowledge": {
+          "primary": [
+            "累积法测量薄物体厚度",
+            "密度计算与单位换算"
+          ],
+          "supporting": [
+            "面密度的物理意义"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "用总厚度除以纸张张数求单张厚度，并由面密度与纸堆体积计算密度"
+        ],
+        "difficulty": {
+          "level": 3,
+          "basis": "来源难度：较难；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "text",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "厚度按5cm/500张；总纸面积为500×30cm×20cm=30m²，纸张总质量为75g/m²×30m²=2250g；整包体积为30cm×20cm×5cm=3000cm³。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "题目内容: 每包标准打印纸含有500张。小丽同学家新买了一包打印纸后，测量得知每张纸的长和宽分别为30cm和20cm，总厚度为5cm（不包括外包装）。根据物理课上学到的累积法，算出一张纸的厚度是__cm。她还发现外包装上标有面密度是75g/m²，经过查询发现这表示每平方米打印纸的质量为75g。利用这些信息，可以算出打印纸的密度为__g/cm³。",
+            "reference_answer": "0.01\n0.75",
+            "solution_steps": [
+              "单张纸厚度=5/500=0.01cm。总面积30m²，质量2250g；纸堆体积3000cm³，因此密度=2250/3000=0.75g/cm³。"
+            ],
+            "knowledge_tags": [
+              "累积法测量薄物体厚度",
+              "密度计算与单位换算"
+            ],
+            "type_tags": [
+              "用总厚度除以纸张张数求单张厚度，并由面密度与纸堆体积计算密度"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "thickness",
+                "description": "用累积法计算单张纸厚度。",
+                "points": null,
+                "evidence_required": "呈现5cm÷500=0.01cm。"
+              },
+              {
+                "id": "density",
+                "description": "由面密度求纸张总质量并除以纸堆体积。",
+                "points": null,
+                "evidence_required": "展示30m²、2250g、3000cm³及0.75g/cm³，单位换算前后一致。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:c355e201ff53d6b07b32dcbb",
+    "source_sha256": "99f0fc6aa599a9c75e8532874cb845b2e8576fc3cb37872a5ffd6a10026d161f",
+    "current_snapshot_id": "bank:cjeval:c355e201ff53d6b07b32dcbb:589778c84283",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "a为纸张数量；b为总厚度/mm；多次测量取平均值可减小误差；平均厚度约0.086mm。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "四项答案均与题面和解析一致；补齐rubric对表格字段、误差目的和均值计算的证据要求。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目内容：下表显示的是针对一张纸的厚度进行测量时设计的数据记录表，请分别在a和b的位置填写内容，a__；b__；最后一列记录平均值的目的是什么？某位同学进行了三次测量，得出一张纸的厚度分别为：0.084mm、0.089mm和0.086mm，则课本中一张纸的厚度可记录为__mm。\n实验序号\na\nb\n一张纸的厚度/mm\n平均值/mm\n1\n \n \n \n \n2\n \n \n \n3",
+      "kind": "reference",
+      "options": [],
+      "answer": "1. 纸张的数量 2. 总厚度/mm 3. 减小误差 4. 0.086",
+      "steps": [
+        "首先，题目要求填写数据记录表格中缺失的内容，在a处应填写'纸张的数量'，在b处应填写'总厚度/mm'。然后，记录平均值的目的是减少多次测量中的随机误差，从而提高实验结果的准确性。最后，一张纸的厚度可以通过三次测量得到的厚度的平均值来计算，即用公式$L=\\frac{0.084\\text{mm}+0.089\\text{mm}+0.086\\text{mm}}{3}\\approx 0.086\\text{mm}$。综上所述，一张纸的厚度可记录为0.086mm。考点：实验设计的数据记录和处理。"
+      ],
+      "knowledge_tags": [
+        "累积法测量薄物体厚度",
+        "重复测量与平均值减小误差",
+        "实验数据记录表设计"
+      ],
+      "type_tags": [
+        "设计累积测纸厚数据表，说明取平均值目的并计算三次测量均值"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：较易；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "fill_blank",
+        "knowledge": {
+          "primary": [
+            "累积法测量薄物体厚度",
+            "重复测量与平均值减小误差"
+          ],
+          "supporting": [
+            "实验数据记录表设计"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "设计累积测纸厚数据表，说明取平均值目的并计算三次测量均值"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：较易；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "text",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "表格需记录纸张数量、总厚度及单位；平均值用于减小随机误差；三次厚度的平均值为(0.084+0.089+0.086)/3≈0.086mm。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "题目内容：下表显示的是针对一张纸的厚度进行测量时设计的数据记录表，请分别在a和b的位置填写内容，a__；b__；最后一列记录平均值的目的是什么？某位同学进行了三次测量，得出一张纸的厚度分别为：0.084mm、0.089mm和0.086mm，则课本中一张纸的厚度可记录为__mm。\n实验序号\na\nb\n一张纸的厚度/mm\n平均值/mm\n1\n \n \n \n \n2\n \n \n \n3",
+            "reference_answer": "1. 纸张的数量 2. 总厚度/mm 3. 减小误差 4. 0.086",
+            "solution_steps": [
+              "a为纸张数量；b为总厚度/mm；多次测量取平均值可减小误差；平均厚度约0.086mm。"
+            ],
+            "knowledge_tags": [
+              "累积法测量薄物体厚度",
+              "重复测量与平均值减小误差"
+            ],
+            "type_tags": [
+              "设计累积测纸厚数据表，说明取平均值目的并计算三次测量均值"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "table",
+                "description": "填写数据表列a、b的内容及量纲。",
+                "points": null,
+                "evidence_required": "a为纸张数量；b为总厚度/mm。"
+              },
+              {
+                "id": "mean_purpose",
+                "description": "说明记录平均值的实验目的。",
+                "points": null,
+                "evidence_required": "明确表述减小测量误差。"
+              },
+              {
+                "id": "mean_value",
+                "description": "求三次测量结果的平均厚度。",
+                "points": null,
+                "evidence_required": "计算或给出约0.086mm，保留合理有效数字。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  },
+  {
+    "question_id": "bank:cjeval:f4979e80f78fb9e19f1cb3c7",
+    "source_sha256": "a60d0875176a8ece44d22166290a01373be17699e7f10ca6e8372b4f95523213",
+    "current_snapshot_id": "bank:cjeval:f4979e80f78fb9e19f1cb3c7:9ee82b9d007e",
+    "batch": "B3",
+    "reviewer": "gpt-6-luna",
+    "decision": "repair_draft",
+    "independent_solution": [
+      "声音强弱等级单位符号dB；1.5小时=5400秒。"
+    ],
+    "source_conflicts": [],
+    "resolved_findings": [
+      "两个填空答案均正确；拆成两部分分别保留符号与单位换算证据。"
+    ],
+    "remaining_issues": [
+      "候选量规的教学评分边界仍需教师审核，分值未知。"
+    ],
+    "rationale": "逐题独立核对后提出修正草稿；不变更来源快照，不声称教师审核。",
+    "proposed_form": {
+      "subject": "physics",
+      "grade": null,
+      "term": null,
+      "stem": "题目：享受学习，轻松应考。在安静的考场中，环境声音强度大约为40__（填写合适的单位符号），本次考试持续时间为1.5小时，合计__秒。",
+      "kind": "reference",
+      "options": [],
+      "answer": "dB\n5400",
+      "steps": [
+        "要将考试的时间单位进行转换，首先需要知道1小时等于3600秒。根据题目提供的时间，我们将考试时间1.5小时转换为秒。计算过程如下：\\n1.5小时 = 1.5 × 3600秒\\n通过乘法运算得出，考试时间为5400秒。\\n此外，声音强度的单位是分贝，简写为dB。因此，安静的考场声音强度应该表示为40dB。 总结：\\n1. 声音强度用分贝(dB)表示。\\n2. 时间单位转换为秒需要使用公式：小时数 × 3600。"
+      ],
+      "knowledge_tags": [
+        "时间单位换算",
+        "分贝声级单位"
+      ],
+      "type_tags": [
+        "填写声级单位符号并将小时换算为秒"
+      ],
+      "curriculum_goal_ids": [],
+      "difficulty": 2,
+      "difficulty_basis": "来源难度：一般；未经实测校准",
+      "annotation": {
+        "schema_version": 1,
+        "response_format": "fill_blank",
+        "knowledge": {
+          "primary": [
+            "时间单位换算"
+          ],
+          "supporting": [
+            "分贝声级单位"
+          ],
+          "prerequisites": []
+        },
+        "fine_types": [
+          "填写声级单位符号并将小时换算为秒"
+        ],
+        "difficulty": {
+          "level": 2,
+          "basis": "来源难度：一般；未经实测校准",
+          "origin": "source",
+          "calibrated": false
+        },
+        "curriculum": {
+          "grade": null,
+          "term": null,
+          "goal_ids": [],
+          "scope_status": "unknown",
+          "basis": "来源未给出年级、学期或课程目标，保持未知。"
+        },
+        "answer_spec": {
+          "mode": "text",
+          "accepted_answers": [],
+          "equivalence": "manual",
+          "constraints": [
+            "声级单位符号为dB；1.5h×3600s/h=5400s。"
+          ],
+          "unit": null,
+          "tolerance": null
+        },
+        "parts": [
+          {
+            "id": "p1",
+            "prompt": "安静考场声级单位符号。",
+            "reference_answer": "dB",
+            "solution_steps": [],
+            "knowledge_tags": [
+              "分贝声级单位"
+            ],
+            "type_tags": [
+              "填写声级单位符号并将小时换算为秒"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "sound_unit",
+                "description": "填写分贝单位符号。",
+                "points": null,
+                "evidence_required": "写出dB，字母大小写正确。"
+              }
+            ],
+            "common_errors": []
+          },
+          {
+            "id": "p2",
+            "prompt": "将1.5小时换算为秒。",
+            "reference_answer": "5400s",
+            "solution_steps": [
+              "1.5×3600=5400s。"
+            ],
+            "knowledge_tags": [
+              "时间单位换算"
+            ],
+            "type_tags": [
+              "填写声级单位符号并将小时换算为秒"
+            ],
+            "depends_on": [],
+            "points": null,
+            "rubric": [
+              {
+                "id": "time_convert",
+                "description": "按1h=3600s换算。",
+                "points": null,
+                "evidence_required": "展示1.5×3600=5400并给出s。"
+              }
+            ],
+            "common_errors": []
+          }
+        ],
+        "grading": {
+          "mode": "manual",
+          "full_score": null,
+          "allow_alternative_methods": true,
+          "uncertainty_policy": "review_required"
+        },
+        "review": {
+          "status": "candidate",
+          "answer_status": "source_only",
+          "issues": [
+            "rubric_pending"
+          ],
+          "method": "item_read",
+          "notes": "已独立求解并对照来源题干与解析；仍为候选且答案保持source_only，评分量规待教师审核。"
+        },
+        "origin": {
+          "model": "gpt-6-luna",
+          "batch_id": "physics-audit-20261014-B3"
+        }
+      }
+    }
+  }
+]

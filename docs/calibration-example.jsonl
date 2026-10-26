@@ -1,0 +1,2 @@
+{"id":"demo-subtract-negative","stem":"计算 -5 - (-4)。","reference_answer":"-1","source_label":"原创示例：减去负数"}
+{"id":"demo-absolute-choice","stem":"负数-3的绝对值是多少？","kind":"single_choice","options":[{"key":"A","text":"3"},{"key":"B","text":"-3"}],"reference_answer":"A","source_label":"原创示例：绝对值"}

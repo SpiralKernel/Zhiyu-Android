@@ -1,0 +1,476 @@
+{
+  "books": [
+    {
+      "scope_id": "math-7-1",
+      "sha256": "341776bff427fec53b3e18a40bae91897c304eefc1b5dbb1298ff0ab010aa28e",
+      "pages": 201,
+      "publisher": "人民教育出版社",
+      "provided_by": "user",
+      "origin_url": null,
+      "edition_year": null,
+      "edition_note": "封面标示教育部2024审定；具体出版版次年份未从文件内确认，审定年份与出版版次分开记录。",
+      "checked_date": "2026-10-08",
+      "checked_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "method": "文字层提取，并逐页渲染核对封面/扉页及目录；非全文逐题审定。",
+      "alignment": "active_chapters_match",
+      "chapters": [
+        {
+          "number": 1,
+          "name": "有理数",
+          "printed_page": 1,
+          "toc_pdf_page": 3,
+          "sections": [
+            "正数和负数",
+            "有理数及其大小比较"
+          ],
+          "unit_id": "math-7-1:u1"
+        },
+        {
+          "number": 2,
+          "name": "有理数的运算",
+          "printed_page": 24,
+          "toc_pdf_page": 3,
+          "sections": [
+            "有理数的加法与减法",
+            "有理数的乘法与除法",
+            "有理数的乘方"
+          ],
+          "unit_id": "math-7-1:u2"
+        },
+        {
+          "number": 3,
+          "name": "代数式",
+          "printed_page": 68,
+          "toc_pdf_page": 4,
+          "sections": [
+            "列代数式表示数量关系",
+            "代数式的值"
+          ],
+          "unit_id": "math-7-1:u3"
+        },
+        {
+          "number": 4,
+          "name": "整式的加减",
+          "printed_page": 88,
+          "toc_pdf_page": 4,
+          "sections": [
+            "整式",
+            "整式的加法与减法"
+          ],
+          "unit_id": "math-7-1:u4"
+        },
+        {
+          "number": 5,
+          "name": "一元一次方程",
+          "printed_page": 110,
+          "toc_pdf_page": 4,
+          "sections": [
+            "方程",
+            "解一元一次方程",
+            "实际问题与一元一次方程"
+          ],
+          "unit_id": "math-7-1:u5"
+        },
+        {
+          "number": 6,
+          "name": "几何图形初步",
+          "printed_page": 149,
+          "toc_pdf_page": 5,
+          "sections": [
+            "几何图形",
+            "直线、射线、线段",
+            "角"
+          ],
+          "unit_id": "math-7-1:u6"
+        }
+      ],
+      "practical_topics": [
+        "进位制的认识与探究",
+        "设计学校田径运动会比赛场地"
+      ],
+      "note": "章节主题及顺序与当前阶段相符；学习目标为项目自编，未认证全部细目、习题或实践覆盖。",
+      "approval_year": 2024
+    },
+    {
+      "scope_id": "math-7-2",
+      "sha256": "45557aebfb458fa033dc2de2009308321f93e1539c532fede0cea926f9e2c65d",
+      "pages": 201,
+      "publisher": "人民教育出版社",
+      "provided_by": "user",
+      "origin_url": null,
+      "edition_year": null,
+      "edition_note": "封面标示教育部2024审定；具体出版版次年份未从文件内确认，审定年份与出版版次分开记录。",
+      "checked_date": "2026-10-08",
+      "checked_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "method": "文字层提取，并逐页渲染核对封面/扉页及目录；非全文逐题审定。",
+      "alignment": "active_chapters_match",
+      "chapters": [
+        {
+          "number": 7,
+          "name": "相交线与平行线",
+          "printed_page": 1,
+          "toc_pdf_page": 3,
+          "sections": [
+            "相交线",
+            "平行线",
+            "定义、命题、定理",
+            "平移"
+          ],
+          "unit_id": "math-7-2:u1"
+        },
+        {
+          "number": 8,
+          "name": "实数",
+          "printed_page": 39,
+          "toc_pdf_page": 3,
+          "sections": [
+            "平方根",
+            "立方根",
+            "实数及其简单运算"
+          ],
+          "unit_id": "math-7-2:u2"
+        },
+        {
+          "number": 9,
+          "name": "平面直角坐标系",
+          "printed_page": 63,
+          "toc_pdf_page": 4,
+          "sections": [
+            "用坐标描述平面内点的位置",
+            "坐标方法的简单应用"
+          ],
+          "unit_id": "math-7-2:u3"
+        },
+        {
+          "number": 10,
+          "name": "二元一次方程组",
+          "printed_page": 87,
+          "toc_pdf_page": 4,
+          "sections": [
+            "二元一次方程组的概念",
+            "消元——解二元一次方程组",
+            "实际问题与二元一次方程组",
+            "三元一次方程组的解法（选学）"
+          ],
+          "unit_id": "math-7-2:u4"
+        },
+        {
+          "number": 11,
+          "name": "不等式与不等式组",
+          "printed_page": 120,
+          "toc_pdf_page": 5,
+          "sections": [
+            "不等式",
+            "一元一次不等式",
+            "一元一次不等式组"
+          ],
+          "unit_id": "math-7-2:u5"
+        },
+        {
+          "number": 12,
+          "name": "数据的收集、整理与描述",
+          "printed_page": 150,
+          "toc_pdf_page": 5,
+          "sections": [
+            "统计调查",
+            "用统计图描述数据"
+          ],
+          "unit_id": "math-7-2:u6"
+        }
+      ],
+      "practical_topics": [
+        "低碳生活",
+        "白昼时长规律的探究"
+      ],
+      "note": "章节主题及顺序与当前阶段相符；学习目标为项目自编，未认证全部细目、习题或实践覆盖。",
+      "approval_year": 2024
+    },
+    {
+      "scope_id": "math-8-1",
+      "sha256": "169c0091064d3e28f245fa63c47787c78d879488b72378aa8a6eb068fe4a197c",
+      "pages": 181,
+      "publisher": "人民教育出版社",
+      "provided_by": "user",
+      "origin_url": null,
+      "edition_year": null,
+      "edition_note": "封面标示教育部2024审定；具体出版版次年份未从文件内确认，审定年份与出版版次分开记录。",
+      "checked_date": "2026-10-08",
+      "checked_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "method": "文字层提取，并逐页渲染核对封面/扉页及目录；非全文逐题审定。",
+      "alignment": "active_chapters_match",
+      "chapters": [
+        {
+          "number": 13,
+          "name": "三角形",
+          "printed_page": 1,
+          "toc_pdf_page": 3,
+          "sections": [
+            "三角形的概念",
+            "与三角形有关的线段",
+            "三角形的内角与外角"
+          ],
+          "unit_id": "math-8-1:u1"
+        },
+        {
+          "number": 14,
+          "name": "全等三角形",
+          "printed_page": 28,
+          "toc_pdf_page": 3,
+          "sections": [
+            "全等三角形及其性质",
+            "三角形全等的判定",
+            "角的平分线"
+          ],
+          "unit_id": "math-8-1:u2"
+        },
+        {
+          "number": 15,
+          "name": "轴对称",
+          "printed_page": 61,
+          "toc_pdf_page": 4,
+          "sections": [
+            "图形的轴对称",
+            "画轴对称的图形",
+            "等腰三角形"
+          ],
+          "unit_id": "math-8-1:u3"
+        },
+        {
+          "number": 16,
+          "name": "整式的乘法",
+          "printed_page": 97,
+          "toc_pdf_page": 4,
+          "sections": [
+            "幂的运算",
+            "整式的乘法",
+            "乘法公式"
+          ],
+          "unit_id": "math-8-1:u4"
+        },
+        {
+          "number": 17,
+          "name": "因式分解",
+          "printed_page": 123,
+          "toc_pdf_page": 5,
+          "sections": [
+            "用提公因式法分解因式",
+            "用公式法分解因式"
+          ],
+          "unit_id": "math-8-1:u5"
+        },
+        {
+          "number": 18,
+          "name": "分式",
+          "printed_page": 137,
+          "toc_pdf_page": 5,
+          "sections": [
+            "分式及其基本性质",
+            "分式的乘法与除法",
+            "分式的加法与减法",
+            "整数指数幂",
+            "分式方程"
+          ],
+          "unit_id": "math-8-1:u6"
+        }
+      ],
+      "practical_topics": [
+        "确定匀质薄板的重心位置",
+        "最短路径问题"
+      ],
+      "note": "章节主题及顺序与当前阶段相符；学习目标为项目自编，未认证全部细目、习题或实践覆盖。",
+      "approval_year": 2024
+    },
+    {
+      "scope_id": "math-8-2",
+      "sha256": "98e4121b003d6993de34ff6716f1ccbc334f25b68f1c0eeb070c73396762ba98",
+      "pages": 207,
+      "publisher": "人民教育出版社",
+      "provided_by": "user",
+      "origin_url": null,
+      "edition_year": null,
+      "edition_note": "封面标示教育部2024审定；具体出版版次年份未从文件内确认，审定年份与出版版次分开记录。",
+      "checked_date": "2026-10-08",
+      "checked_pdf_pages": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "method": "文字层提取，并逐页渲染核对封面/扉页及目录；非全文逐题审定。",
+      "alignment": "active_chapters_match",
+      "chapters": [
+        {
+          "number": 19,
+          "name": "二次根式",
+          "printed_page": 1,
+          "toc_pdf_page": 5,
+          "sections": [
+            "二次根式及其性质",
+            "二次根式的乘法与除法",
+            "二次根式的加法与减法"
+          ],
+          "unit_id": "math-8-2:u1"
+        },
+        {
+          "number": 20,
+          "name": "勾股定理",
+          "printed_page": 22,
+          "toc_pdf_page": 5,
+          "sections": [
+            "勾股定理及其应用",
+            "勾股定理的逆定理及其应用"
+          ],
+          "unit_id": "math-8-2:u2"
+        },
+        {
+          "number": 21,
+          "name": "四边形",
+          "printed_page": 45,
+          "toc_pdf_page": 6,
+          "sections": [
+            "四边形及多边形",
+            "平行四边形",
+            "特殊的平行四边形"
+          ],
+          "unit_id": "math-8-2:u3"
+        },
+        {
+          "number": 22,
+          "name": "函数",
+          "printed_page": 89,
+          "toc_pdf_page": 6,
+          "sections": [
+            "函数的概念",
+            "函数的表示"
+          ],
+          "unit_id": "math-8-2:u4"
+        },
+        {
+          "number": 23,
+          "name": "一次函数",
+          "printed_page": 113,
+          "toc_pdf_page": 7,
+          "sections": [
+            "一次函数的概念",
+            "一次函数的图象和性质",
+            "一次函数与方程（组）、不等式",
+            "实际问题与一次函数"
+          ],
+          "unit_id": "math-8-2:u5"
+        },
+        {
+          "number": 24,
+          "name": "数据的分析",
+          "printed_page": 148,
+          "toc_pdf_page": 7,
+          "sections": [
+            "数据的集中趋势",
+            "数据的离散程度",
+            "数据的四分位数",
+            "数据的分组"
+          ],
+          "unit_id": "math-8-2:u6"
+        }
+      ],
+      "practical_topics": [
+        "音乐与数学",
+        "学生体质健康调查与分析"
+      ],
+      "note": "章节主题及顺序与当前阶段相符；学习目标为项目自编，未认证全部细目、习题或实践覆盖。",
+      "approval_year": 2024
+    },
+    {
+      "scope_id": "math-9-2",
+      "sha256": "8311eebd44c1c8f5c786722f3b65c7095b21029d223d03a51b1534344822287d",
+      "pages": 123,
+      "publisher": "人民教育出版社",
+      "provided_by": "user",
+      "origin_url": null,
+      "edition_year": null,
+      "edition_note": "封面标示教育部2013审定；具体出版版次年份未从文件内确认，审定年份与出版版次分开记录。",
+      "checked_date": "2026-10-08",
+      "checked_pdf_pages": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "method": "文字层提取，并逐页渲染核对封面/扉页及目录；非全文逐题审定。",
+      "alignment": "different_chapter_arrangement",
+      "chapters": [
+        {
+          "number": 26,
+          "name": "反比例函数",
+          "printed_page": null,
+          "toc_pdf_page": 5,
+          "sections": [
+            "反比例函数",
+            "实际问题与反比例函数"
+          ],
+          "unit_id": null
+        },
+        {
+          "number": 27,
+          "name": "相似",
+          "printed_page": null,
+          "toc_pdf_page": 5,
+          "sections": [
+            "图形的相似",
+            "相似三角形",
+            "位似"
+          ],
+          "unit_id": null
+        },
+        {
+          "number": 28,
+          "name": "锐角三角函数",
+          "printed_page": null,
+          "toc_pdf_page": 6,
+          "sections": [
+            "锐角三角函数",
+            "解直角三角形及其应用"
+          ],
+          "unit_id": null
+        },
+        {
+          "number": 29,
+          "name": "投影与视图",
+          "printed_page": null,
+          "toc_pdf_page": 6,
+          "sections": [
+            "投影",
+            "三视图",
+            "课题学习：制作立体模型"
+          ],
+          "unit_id": null
+        }
+      ],
+      "practical_topics": [
+        "制作立体模型（29.3课题学习）"
+      ],
+      "note": "该册第26–29章包含反比例函数；当前建议进度把反比例函数放在九上，并在九下另列概率与综合实践。单独保留此版目录，尚未切换当前阶段安排。",
+      "approval_year": 2013
+    }
+  ]
+}

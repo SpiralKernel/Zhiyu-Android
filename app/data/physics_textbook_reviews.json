@@ -1,0 +1,47 @@
+[
+  {
+    "filename": "最新【人教版】8年级物理课本•上册.pdf",
+    "grade": 8,
+    "term": 1,
+    "sha256": "32fbab4b611ebb102d6118d505217f4317590609e403438555240160873109ce",
+    "pages": 170,
+    "checked_date": "2026-10-15",
+    "toc_checked": true,
+    "edition_year": null,
+    "note": "核对用户PDF目录；未据文件名推定2026版次。九年级学期划分为项目进度建议。",
+    "requirements_file": "app/data/physics_textbook_catalog.json",
+    "requirements_checked_date": "2026-10-22",
+    "sections": 28,
+    "requirements_basis": "目录和92节首页标题定位核对；学习要求由项目改写，不是全文审定"
+  },
+  {
+    "filename": "最新【人教版】8年级物理课本•下册.pdf",
+    "grade": 8,
+    "term": 2,
+    "sha256": "c6e25bed6ffcd6865d46417474b176fc29f1b5b8badf08d6c9c80eb50d5243b8",
+    "pages": 131,
+    "checked_date": "2026-10-15",
+    "toc_checked": true,
+    "edition_year": null,
+    "note": "核对用户PDF目录；未据文件名推定2026版次。九年级学期划分为项目进度建议。",
+    "requirements_file": "app/data/physics_textbook_catalog.json",
+    "requirements_checked_date": "2026-10-22",
+    "sections": 24,
+    "requirements_basis": "目录和92节首页标题定位核对；学习要求由项目改写，不是全文审定"
+  },
+  {
+    "filename": "最新【人教版】9年级物理课本•全一册.pdf",
+    "grade": 9,
+    "term": 0,
+    "sha256": "7737a918600b2b70e3428d68097951646a6e20046864d7b207e49344e52307c8",
+    "pages": 218,
+    "checked_date": "2026-10-15",
+    "toc_checked": true,
+    "edition_year": null,
+    "note": "核对用户PDF目录；未据文件名推定2026版次。九年级学期划分为项目进度建议。",
+    "requirements_file": "app/data/physics_textbook_catalog.json",
+    "requirements_checked_date": "2026-10-22",
+    "sections": 40,
+    "requirements_basis": "目录和92节首页标题定位核对；学习要求由项目改写，不是全文审定"
+  }
+]

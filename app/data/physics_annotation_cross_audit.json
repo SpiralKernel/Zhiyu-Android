@@ -1,0 +1,26 @@
+[
+  {
+    "question_id": "bank:cjeval:c9d1aef82ca6c0ec0ad203bb",
+    "source_sha256": "4b0ce1ba92ec41167cfc8f176e5cd81db1f1cb5917a75056081753894e55b1c6",
+    "action": "exclude",
+    "reason": "来源答案与解析计算明显错误。吸热9.45×10^6J、木材效率12%、热值1.2×10^7J/kg，对应需燃烧质量9.45×10^6/(0.12×1.2×10^7)=6.5625kg，约6.56kg；来源答案7.88kg来自算术错误，解析亦错误。"
+  },
+  {
+    "question_id": "bank:cjeval:b45f6cb9ad58d2a5998d1bbf",
+    "source_sha256": "be1b3c686936575608843c844204dfc7d67676dd4702742ab5bd4aee55b07f99",
+    "action": "exclude",
+    "reason": "多选题来源答案ACD与解析及选项文字冲突。解析明确认为D“夜半钟声到客船”包含声音传播和音色，判为正确；B选项文字为彩虹由光的折射和反射形成，解析关于“仅仅是反射”的理由不适用于该选项表述。来源答案未选D、且将B判错，答案无法作为可靠参考。"
+  },
+  {
+    "question_id": "bank:cjeval:fcdffd6321281acfe642a626",
+    "source_sha256": "2ee69599982b852ef02ed72c19f968634492c1aee02b407e4ddcf68d4ec032b8",
+    "action": "exclude",
+    "reason": "物理条件存在矛盾。由排水水重0.6N、g=10N/kg得排水体积6×10^-5m³；物体完全浸没时体积相同。60g物体质量0.06kg，故密度恰为1.0×10^3kg/m³，与水等密度，应为悬浮/中性平衡，不能按题述自行沉到底部。来源答案与解析忽略了题干“沉入水底”的冲突。"
+  },
+  {
+    "question_id": "bank:cjeval:606023fa1a341901e1d555d6",
+    "source_sha256": "c69aeb52e5b7c2db9aae533dccd13bc2246710be8cbaeb9b2f5760e3f47753c7",
+    "action": "exclude",
+    "reason": "constant-R题的第二问与来源答案/解析物理条件冲突。初始数据给出I=Q/t=8C/12s=2/3A，在U=4V下原电阻R=U/I=6Ω；若电阻保持不变，电流不可能变为1A且电压仍保持4V。来源解答用4V/0.67A计算却误写4Ω，并又宣称电阻不随电流变化。原题/来源解答无法形成自洽答案。"
+  }
+]
